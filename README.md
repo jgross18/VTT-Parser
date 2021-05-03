@@ -27,16 +27,16 @@ Once the files have been parsed the user is provided with a menu of options
 
 #### Data Overview
 
-Provides a list of all speakers found within the data sorted by the duration they spoke. It also provides their mean seconds per voice capture.
+- Provides a list of all speakers found within the data sorted by the duration they spoke. It also provides their mean seconds per voice capture.
 
 #### Combine Speakers
 
-As some speakers will join from differing Zoom accounts it was necessary to allow repeats to be combined. This option allows the user to select 2 speakers, combining their data under the name of the first selected speaker. The code does a repleacement of the second speakers name with the first in the dataframe that was created after parsing the files.
+- As some speakers will join from differing Zoom accounts it was necessary to allow repeats to be combined. This option allows the user to select 2 speakers, combining their data under the name of the first selected speaker. The code does a repleacement of the second speakers name with the first in the dataframe that was created after parsing the files.
 
 #### Topic Model
 
-Provides a grouping of 1-5 topics each containing the 10 words most associated. The user is prompted for the number of topics (1-5) they wish to generate, and it provided with the top 10 words and a visual plot of them.
+- Provides a grouping of 1-5 topics each containing the 10 words most associated. The user is prompted for the number of topics (1-5) they wish to generate, and it provided with the top 10 words and a visual plot of them.
 
 #### Clear Data; Return to Main Menu
 
-Wipes all the imported files and restarts the program
+- Wipes all the imported files and restarts the program
