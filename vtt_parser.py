@@ -173,21 +173,24 @@ def analysisOptions(instancesOfSpeaking):
                 
         from sklearn.feature_extraction.text import TfidfVectorizer
 
-        tfidf_vect = TfidfVectorizer(max_df=0.05, stop_words='english')
+        tfidf_vect = TfidfVectorizer(max_df=50, min_df=3, stop_words='english')
         doc_term_matrix = tfidf_vect.fit_transform(df['clean'].values.astype('U'))
-        
+
         from sklearn.decomposition import NMF
 
-        nmf = NMF(n_components=3, random_state=42)
-        nmf.fit(doc_term_matrix )
-        
+        num_topics = input("Please Select How Many Topics You Would Like to Generate (Max 5): ")
+        while  int(num_topics) > 5 or int(num_topics) < 0:
+            num_topics = input("Invalid Selection. Input Enter a Number from 1-5: ")
+
+        nmf = NMF(n_components=num_topics, random_state=42)
+        nmf.fit(doc_term_matrix)
+
         for i,topic in enumerate(nmf.components_):
             print(f'Top 10 words for topic #{i}:')
             print([tfidf_vect.get_feature_names()[i] for i in topic.argsort()[-10:]])
             print('\n')
-        
+            
 
-        #Topic Model Goes Here
         analysisOptions(instancesOfSpeaking)
     
     if int(selection) == 4 :
