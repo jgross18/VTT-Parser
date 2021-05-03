@@ -20,10 +20,10 @@ The main menu allows you to either select an individual file to analyze or all f
 
 Once the files have been parsed the user is provided with a menu of options
 
-- 1. Data Overview
-- 2. Combine Speakers
-- 3. Topic Model
-- 4. Clear Data; Return to Main Menu
+1. Data Overview
+2. Combine Speakers
+3. Topic Model
+4. Clear Data; Return to Main Menu
 
 #### Data Overview
 
