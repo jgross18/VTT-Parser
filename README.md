@@ -1,7 +1,7 @@
 # VTT-Parser
 
 
-The VTT Parser allows you to insert a set of Zoom transcription files (.vtt) into the data folder and generate basic insights. 
+The VTT Parser allows you to insert a set of Zoom transcription files (.vtt) into the data folder and generate basic insights. The app will fail to topic model using only the included example VTT file, ensure you have replaced this with your own set of files.
 
 ## Installation
 
