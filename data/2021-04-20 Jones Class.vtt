@@ -1,0 +1,2118 @@
+WEBVTT
+
+1
+00:00:02.429 --> 00:00:02.879
+MS Analytics Class 2021: Oh.
+
+2
+00:00:05.400 --> 00:00:17.970
+Capstone Coach 1: yeah okay I got the message meeting is being recorded all right that's good yeah thanks a lot shadi yeah well that's important because not everybody's here, of course, as usual.
+
+3
+00:00:18.690 --> 00:00:30.210
+Capstone Coach 1: Alright, so tonight this code that you have time series analysis ipy basically encapsulates going to encapsulate every model that we talked about in time series.
+
+4
+00:00:30.660 --> 00:00:39.720
+Capstone Coach 1: So this is, this is the ultimate template for time series analysis at least a university at time series analysis and.
+
+5
+00:00:40.380 --> 00:00:51.600
+Capstone Coach 1: we'll talk a little bit about how to extend this to other types of situations where you're not, not only do you have that set say you have the time series data.
+
+6
+00:00:52.020 --> 00:01:12.690
+Capstone Coach 1: Like in this case we have IBM stock prices, but you also have concurrent information included in your data that might be useful for produce for for predicting the time series now that could be, for example, things like the volume, the volume of stock that's that's being sold.
+
+7
+00:01:13.920 --> 00:01:24.960
+Capstone Coach 1: It also could be the Dow Jones and other types of indicators for what the mark what's happening in the market, it could be many, many things and.
+
+8
+00:01:25.740 --> 00:01:37.410
+Capstone Coach 1: Obviously, if you're wanting to predict the stock price, it would be useful to not only use the price of the stock yesterday and the day before, which is the time series but also.
+
+9
+00:01:38.190 --> 00:01:52.290
+Capstone Coach 1: This the stock prices for similar stocks, for example, apple or Microsoft might be useful if you're predicting IBM things like the Dow and the NASDAQ might be useful as well, and the volume of.
+
+10
+00:01:52.800 --> 00:02:05.910
+Capstone Coach 1: The stock, that is, IBM stock might be useful, so all that information can be incorporated into your neural network model and used to improve your forecast I hopefully you improve your forecasts.
+
+11
+00:02:06.480 --> 00:02:14.430
+Capstone Coach 1: However, for tonight what we're going to focus on is a simple case where all we have is the time series data, you know one column.
+
+12
+00:02:14.880 --> 00:02:28.260
+Capstone Coach 1: And we're trying to forecast that and we're going to look in then at the different kinds of charisse models that are available to do that so let's go ahead and open up spider and open up.
+
+13
+00:02:31.020 --> 00:02:38.430
+Capstone Coach 1: Okay i'm going to bring this over and we're going to open up that code that's in that week 14 file.
+
+14
+00:02:39.930 --> 00:02:41.190
+Capstone Coach 1: restart to Colonel.
+
+15
+00:02:42.210 --> 00:02:44.310
+Capstone Coach 1: Clear off the right hand side.
+
+16
+00:02:45.450 --> 00:02:46.800
+Capstone Coach 1: make this larger.
+
+17
+00:02:48.660 --> 00:02:49.290
+Capstone Coach 1: Okay.
+
+18
+00:02:52.800 --> 00:02:58.530
+Capstone Coach 1: Now we are working with the same data, I mean, I would like to get you some other data but.
+
+19
+00:03:02.490 --> 00:03:04.830
+Capstone Coach 1: Here it is okay, I was in the wrong file.
+
+20
+00:03:06.810 --> 00:03:08.850
+Capstone Coach 1: But I thought I thought that would be just.
+
+21
+00:03:10.200 --> 00:03:12.000
+Capstone Coach 1: More difficulty.
+
+22
+00:03:13.290 --> 00:03:14.580
+Capstone Coach 1: And we don't need that right now.
+
+23
+00:03:15.600 --> 00:03:25.920
+Capstone Coach 1: So I wanted to first of all start up here and they import area and point out that i've included some other information or some other imports here.
+
+24
+00:03:26.580 --> 00:03:36.570
+Capstone Coach 1: One of them is from stats models, in fact, two of them are from stats models and the reason is that, if you look at psychic learn.
+
+25
+00:03:36.900 --> 00:03:52.320
+Capstone Coach 1: You don't see much of any time series analysis at all and psychic learn so fortunately stats models dive have auto auto regressive models and the remodels and some others as well.
+
+26
+00:03:52.740 --> 00:04:08.790
+Capstone Coach 1: So they they actually have a pretty rich bag, you know collection of time series analysis packages and stats model so if you're looking for the traditional type of approach to time series, you can go to stats models and find it.
+
+27
+00:04:09.840 --> 00:04:13.950
+Capstone Coach 1: So let's go down into the code little bit and you'll see why i'm brought that in.
+
+28
+00:04:15.060 --> 00:04:35.550
+Capstone Coach 1: right here, and this is line number 70 and 71 and 72 what that is doing is it's fitting in order aggressive model of us with a certain number of lags in this case, the number of blogs is 12 so I could I could type in here legs equals 212.
+
+29
+00:04:37.020 --> 00:05:00.630
+Capstone Coach 1: Now, if you wanted specific legs, instead of 12 let's suppose that you wanted legs 123 and five or something like that, then you would put a list of the leg numbers in here, so I would put in like 1246 If those are the only lives that I wanted 124 and six right.
+
+30
+00:05:01.650 --> 00:05:12.750
+Capstone Coach 1: Now why am I doing this Well, this is an easy way to figure out how many legs, I want to include in my charisse model so i'm at this point i'm just going to say lacks equal to 12.
+
+31
+00:05:13.620 --> 00:05:25.350
+Capstone Coach 1: And what i'm going to do, then, is copy every man going to highlight the entire program from there up and going to right click run selection.
+
+32
+00:05:26.580 --> 00:05:34.380
+Capstone Coach 1: Right click run selection so you'll see what happens here, you get some output from stats model.
+
+33
+00:05:35.910 --> 00:05:44.370
+Capstone Coach 1: it's reading the data and here's the output, I hope you can see that easily enough on your screen, if not my screen right.
+
+34
+00:05:45.090 --> 00:05:57.360
+Capstone Coach 1: So I said fit an otter aggressive model flags one through 12 and you'll see that it shows you the coefficients here y dot l one, two and so forth, and so on.
+
+35
+00:05:57.780 --> 00:06:12.180
+Capstone Coach 1: So this is a spy pure otter aggressive model, where I have a term or coefficient for each one of these likes the thing that's nice about this is here where it says P greater than.
+
+36
+00:06:12.780 --> 00:06:21.780
+Capstone Coach 1: absolute value of Z, these are the p values associated with the LACs so this tells us at a first glance.
+
+37
+00:06:22.590 --> 00:06:34.560
+Capstone Coach 1: Which legs are statistically significant and which legs or not, and so you know that's very useful information for building our deep learning time series model.
+
+38
+00:06:35.430 --> 00:06:52.110
+Capstone Coach 1: In this case, for example, the, the most significant otter aggressive term is the first term, and you can see, the term that term has a otter aggressive value of point 938 to.
+
+39
+00:06:53.340 --> 00:07:00.120
+Capstone Coach 1: Very high correlation so the last observation is very highly correlated to the next observation right.
+
+40
+00:07:01.710 --> 00:07:15.270
+Capstone Coach 1: Not a surprise and it's just ugly significant how about the second lag now the second lag would be the price of the stock two weeks ago, so this is.
+
+41
+00:07:15.810 --> 00:07:37.620
+Capstone Coach 1: The of the IBM stock and it's weekly not daily, so the lag of two means is referring to two weeks or two weeks ago and that to has a statistically significant value and then you'll see here I think it's week number four which is one month ago.
+
+42
+00:07:38.790 --> 00:07:45.300
+Capstone Coach 1: The P value is point oh six is strictly speaking it's not statistically significant but it's large enough.
+
+43
+00:07:45.750 --> 00:08:05.340
+Capstone Coach 1: To be small enough in this case the p value small to be of notice and then week six is even smaller point 009 week six would be what a month and a half ago, and the correlation there is positive point 1085.
+
+44
+00:08:06.660 --> 00:08:14.730
+Capstone Coach 1: Those are the only statistically significant terms in the first 12 weeks is so that's one week one.
+
+45
+00:08:16.110 --> 00:08:16.560
+Capstone Coach 1: Week.
+
+46
+00:08:17.760 --> 00:08:23.910
+Capstone Coach 1: For Nancy well, I would call week two I would call to as well week one week to.
+
+47
+00:08:25.050 --> 00:08:43.620
+Capstone Coach 1: Week four and week 6124 and six, so one approach would be to just take those particular legs 124 and six and use them as input to the nlp model aren't in model and the other so we're going to look at tonight.
+
+48
+00:08:44.490 --> 00:08:55.200
+Capstone Coach 1: Another approach would be to say let's just take all of the likes from one to six and use those as input to our model both of those have some merit.
+
+49
+00:08:56.610 --> 00:09:08.640
+Capstone Coach 1: The problem with speaking out specific legs, as I was doing 124 and six, is that these things are highly correlated.
+
+50
+00:09:09.120 --> 00:09:18.150
+Capstone Coach 1: there's a lot of multi linearity here so lag number three which we skipped over doesn't appear to be important, but.
+
+51
+00:09:19.020 --> 00:09:39.690
+Capstone Coach 1: It could just be that it's highly correlated with lag for, for example, so I would be tempted to take out just 124 and six, and we can try it that, but then the other way is to just to go blacks one through six and be happy with that now, if you extend this to a higher number of.
+
+52
+00:09:40.890 --> 00:09:58.080
+Capstone Coach 1: terms, so let's go let's go here and let's play with this a little bit so instead of having legs equal to 12 here let's in in print in the brackets let's put 124 and six like that.
+
+53
+00:09:58.740 --> 00:10:18.540
+Capstone Coach 1: So we're basically pulling out just those particular legs and now let's highlight that particular area that code right click and run run selection and there, it is now, when we do this you'll see that all of these are still statistically significant.
+
+54
+00:10:19.590 --> 00:10:28.890
+Capstone Coach 1: And so we have a point nine for the first lag I point oh seven six for the second a negative for.
+
+55
+00:10:29.370 --> 00:10:35.640
+Capstone Coach 1: The week number for the month thing which is interesting and then positive for week number six.
+
+56
+00:10:36.060 --> 00:10:53.070
+Capstone Coach 1: So there's a little bit of a I think that, like four and six are basically responding to the fact that in this in this data, you have a lot of places where it quickly turns up or quickly turns down and so that's sort of dampening that effect little bit.
+
+57
+00:10:54.120 --> 00:11:01.980
+Capstone Coach 1: Now, if we if we just say, well, no, no, no let's just do lags equal to six and run this part of the code again.
+
+58
+00:11:04.440 --> 00:11:05.160
+Capstone Coach 1: like this.
+
+59
+00:11:06.300 --> 00:11:19.440
+Capstone Coach 1: Then you can see Okay, we get all 6123456 and you can see, then, that yeah three is still not significant and five is still not significant.
+
+60
+00:11:20.040 --> 00:11:44.760
+Capstone Coach 1: But this can change, as I say that because these are these are can be highly correlated now let's change that that six to a 32 so now we're going several months back what an eight months back to end the data and take a look and see what we have there so let's run this run selection.
+
+61
+00:11:45.990 --> 00:12:00.870
+Capstone Coach 1: and take a look at the the p values we saw have 126126 and anything else popping up as we go further back in time.
+
+62
+00:12:01.890 --> 00:12:13.560
+Capstone Coach 1: Yes, right here week number 1817 and 18 for some reason and that's it right well week number 32.
+
+63
+00:12:15.000 --> 00:12:29.400
+Capstone Coach 1: Well, you can see that these get to be statistically significant, but also, if you look at the size of the coefficient and you can see they're getting smaller issue go further back in time, so what this is saying is yes there's a effect.
+
+64
+00:12:29.880 --> 00:12:42.720
+Capstone Coach 1: That we see from week 32 but the effect of that on the forecast is probably going to be much less than the other terms because of the small correlation there point oh six instead of point nine.
+
+65
+00:12:43.740 --> 00:12:46.680
+Capstone Coach 1: You know point oh nine and that kind of thing so.
+
+66
+00:12:48.000 --> 00:12:53.280
+Capstone Coach 1: Whether you use something that far back in time, I think it would depend on the size of that coefficient.
+
+67
+00:12:53.820 --> 00:13:09.240
+Capstone Coach 1: And whether you're not whether you thought that was a real effect or just have a noise and the data that was bringing this up my my approach to this data was to say like six as far enough back a go further back than that and.
+
+68
+00:13:10.320 --> 00:13:12.480
+Capstone Coach 1: we're probably looking at noise in the data.
+
+69
+00:13:13.920 --> 00:13:27.390
+Capstone Coach 1: So this is why you see this little part of the code in the in the top is basically I use it to run some What if to decide what lags I want to include in my deep learning time series models.
+
+70
+00:13:28.290 --> 00:13:34.620
+Capstone Coach 1: And that's one thing that's more or less done by trial and error and by just looking at those auto correlations.
+
+71
+00:13:35.370 --> 00:13:49.110
+Capstone Coach 1: So then below that you see, I create the actual first six legs right here, and so I have a little function called wags you pass in why you pass it in one number and it returns, the legs for that particular number.
+
+72
+00:13:49.920 --> 00:14:10.890
+Capstone Coach 1: And then I put all of the columns together that I want to keep notice that i'm not putting in column i'm putting in 1-234-695-1234 six so five is missing it's not statistically significant and it's more or less small anyway point oh five.
+
+73
+00:14:12.780 --> 00:14:18.720
+Capstone Coach 1: You see, point six is week six is point one double the size of the week five coefficient.
+
+74
+00:14:20.040 --> 00:14:26.190
+Capstone Coach 1: And, but you might put in five and just let the neural network sort them out sort them all out right.
+
+75
+00:14:26.550 --> 00:14:37.470
+Capstone Coach 1: So if you have a lag in here that's not important the neural network will not use it tends to not use it and making the forecasts, but that's can get tricky because.
+
+76
+00:14:38.010 --> 00:14:50.010
+Capstone Coach 1: fitting these deep learning networks is such sensitive to the optimizer you use, and also to the size of the batches that are used in your.
+
+77
+00:14:51.540 --> 00:15:11.670
+Capstone Coach 1: estimation, your optimization i'm taking the log here, because the The numbers are quite large the stock values are like $135 a share recently and so taking the law helps to dampen that effect and so now we're looking at numbers like four and five instead of 135.
+
+78
+00:15:13.170 --> 00:15:23.190
+Capstone Coach 1: The reason this is important, is because the average squared error can can blow up on you and you'll get an error and which I think did happen to me here, in this case.
+
+79
+00:15:23.610 --> 00:15:35.100
+Capstone Coach 1: That says basically divide by zero or overflow or that kind of thing you don't want that, if you see that just take the square root of the logs and you'll be much better you'll be much happier.
+
+80
+00:15:36.480 --> 00:15:36.750
+Capstone Coach 1: That.
+
+81
+00:15:37.080 --> 00:15:38.400
+Purkiss, David: This David, can you explain.
+
+82
+00:15:40.230 --> 00:15:41.460
+Purkiss, David: 70 old name.
+
+83
+00:16:10.800 --> 00:16:11.310
+Juan Carlos Saldivar: trampoline.
+
+84
+00:16:14.160 --> 00:16:15.330
+Capstone Coach 1: Wait a minute we still unclear.
+
+85
+00:16:21.930 --> 00:16:24.690
+Jordan Gross: We have recess scheduled either, so I wasn't sure.
+
+86
+00:16:25.590 --> 00:16:27.630
+Capstone Coach 1: yeah let's take a five minute.
+
+87
+00:16:27.930 --> 00:16:28.200
+Capstone Coach 1: or.
+
+88
+00:16:28.230 --> 00:16:29.280
+Capstone Coach 1: 10 minute break right.
+
+89
+00:16:29.280 --> 00:16:29.760
+here.
+
+90
+00:16:36.360 --> 00:16:37.410
+Purkiss, David: Okay, he muted.
+
+91
+00:16:39.570 --> 00:16:40.890
+Capstone Coach 1: Is what's going on.
+
+92
+00:16:41.610 --> 00:16:45.720
+Shadi Kilani: I think, someone got accidentally unmuted and they just muted themselves again.
+
+93
+00:16:47.100 --> 00:16:48.660
+Jordan Gross: you're right there yeah.
+
+94
+00:16:50.550 --> 00:16:57.360
+Purkiss, David: hey Dr Jones can you explain online 70 the old names equals false it didn't work in our code.
+
+95
+00:17:00.180 --> 00:17:00.630
+Capstone Coach 1: Oh.
+
+96
+00:17:03.570 --> 00:17:03.960
+Capstone Coach 1: I.
+
+97
+00:17:03.990 --> 00:17:07.500
+Capstone Coach 1: You know I don't know, I have to go, I have to go to the API.
+
+98
+00:17:11.460 --> 00:17:12.990
+Capstone Coach 1: This is from stats models.
+
+99
+00:17:14.070 --> 00:17:19.080
+Capstone Coach 1: And so we'd have to go to the API to actually look up with that it's doing i'm not sure what's required.
+
+100
+00:17:19.680 --> 00:17:27.180
+Purkiss, David: So Charles suggested replacing it with seasonal equals, instead of old names and that ran for me.
+
+101
+00:17:27.870 --> 00:17:28.470
+Okay.
+
+102
+00:17:30.060 --> 00:17:42.840
+Capstone Coach 1: yeah, this is one of the things he would David you want to look at is what version of stats models, you have so if you Google over here and say kondylis stats models like that.
+
+103
+00:17:44.760 --> 00:17:50.670
+Capstone Coach 1: it'll give you your version versus my version i'm looking at version 12.0.
+
+104
+00:17:52.200 --> 00:17:53.460
+Capstone Coach 1: What version, are you on.
+
+105
+00:17:58.500 --> 00:18:00.420
+Purkiss, David: that's it 11.0.
+
+106
+00:18:00.930 --> 00:18:01.980
+Capstone Coach 1: you're on 11.
+
+107
+00:18:03.150 --> 00:18:03.690
+Purkiss, David: Yes.
+
+108
+00:18:03.960 --> 00:18:09.510
+Capstone Coach 1: Okay, so yeah see things like that usually have to do with the version you're on.
+
+109
+00:18:11.640 --> 00:18:12.240
+Capstone Coach 1: and
+
+110
+00:18:12.270 --> 00:18:12.960
+Purkiss, David: Thank you.
+
+111
+00:18:13.080 --> 00:18:13.620
+yeah.
+
+112
+00:18:14.850 --> 00:18:19.500
+Capstone Coach 1: But it if it's working for you good no problem.
+
+113
+00:18:21.060 --> 00:18:29.580
+Capstone Coach 1: stats models is that that is evolving very quickly, they have a lot of people working on it, and so one version to the nexus like wow where did that come from.
+
+114
+00:18:30.630 --> 00:18:31.530
+Capstone Coach 1: Its new stuff.
+
+115
+00:18:32.580 --> 00:18:38.580
+Capstone Coach 1: Okay, so we get down to this area, and I wanted to point out something about this area.
+
+116
+00:18:39.570 --> 00:18:47.430
+Capstone Coach 1: First of all, you're creating your legs Now this is going to be done and every time series deep learning model you're going to have to create your lacks.
+
+117
+00:18:47.850 --> 00:19:00.000
+Capstone Coach 1: Not and this case recruiting lags on why, which is the you know the column that we're going to try to forecast if you had other data let's say, like the Dow Jones average.
+
+118
+00:19:01.110 --> 00:19:13.620
+Capstone Coach 1: Then you may want to create legs, for it as well, even though you're not forecasting it right, I want to use the Dow Jones average to help me get a better forecast for a of IBM.
+
+119
+00:19:14.010 --> 00:19:19.350
+Capstone Coach 1: So I could put in I can't put in today's Dow Jones because I don't know what it is.
+
+120
+00:19:20.100 --> 00:19:31.050
+Capstone Coach 1: But I can put in like one for Dow Jones I could put in what it was yesterday and maybe two days ago, and maybe three days ago, or one week or two weeks or three weeks right so.
+
+121
+00:19:31.860 --> 00:19:48.270
+Capstone Coach 1: This business of lagging it could be applied not only to why but to other ex columns that you want to use to forecast your your why call your you know the IBM IBM stock price.
+
+122
+00:19:48.870 --> 00:20:06.480
+Capstone Coach 1: This means that your ex call your ex matrix your matrix of independent independent values could become huge imagine okay i'm going to take six flags for every X variable that I have.
+
+123
+00:20:07.110 --> 00:20:18.990
+Capstone Coach 1: And you could easily see you could easily control up 1020 X variables multiply the bus by six you end up with you know 600 or so.
+
+124
+00:20:19.590 --> 00:20:28.740
+Capstone Coach 1: columns that you want to incorporate into your model and the way you would incorporated this simply like you see here, I have to see is equal to.
+
+125
+00:20:29.640 --> 00:20:49.050
+Capstone Coach 1: not be column stack so basically what it's doing is saying okay given take these columns so that i've created these are not be vectors that are being created here and I want you to stack them together, side by side and then give me enough be array or enough be matrix which is Z.
+
+126
+00:20:50.490 --> 00:21:03.450
+Capstone Coach 1: Now that's the way you would create your ex matrix is by using NP column stack after you got each of these lives, and so, if I had Dow Jones APP to say i'd have you know another.
+
+127
+00:21:04.140 --> 00:21:15.480
+Capstone Coach 1: X one through six for Dow Jones and so forth, and so on coding wise, this is not hard to do it's just that, eventually, you know you do end up creating a pretty large data structure.
+
+128
+00:21:16.410 --> 00:21:27.690
+Capstone Coach 1: Now then, you want to chop it off, you want to you want to chop off the first few rows which will contain in a n values or missing values, because you can't.
+
+129
+00:21:28.170 --> 00:21:33.090
+Capstone Coach 1: Get the lack, for the first observation you can't get the previous slack for that first observation.
+
+130
+00:21:33.570 --> 00:21:42.780
+Capstone Coach 1: As a matter of fact, if you're taking like six, then the first six observations have to be discarded because you're going to have missing values in that column.
+
+131
+00:21:43.440 --> 00:21:59.490
+Capstone Coach 1: You know one through six and what happens is, if you don't do that if you don't discard those first six observations, then when you run this analysis, you won't get an error what you'll get is in a in a in a hint for everything your.
+
+132
+00:22:00.900 --> 00:22:05.520
+Capstone Coach 1: Your ASC is going to be missing your coefficients are going to be missing everything right.
+
+133
+00:22:06.210 --> 00:22:15.780
+Capstone Coach 1: Because that that missing value gets put into your analytics engine and it'll shows up as a missing value on the output, so if you're running.
+
+134
+00:22:16.320 --> 00:22:27.390
+Capstone Coach 1: This kind of deep learning TRAN time series analysis and you all see war, all these missing values coming from make sure you've chopped off the first few rows of the sex matrix.
+
+135
+00:22:27.780 --> 00:22:38.280
+Capstone Coach 1: And the number to chop off is the maximum lag you see up here, I have the number of legs is five, but the maximum lag is six and that's a six down here.
+
+136
+00:22:38.910 --> 00:22:49.440
+Capstone Coach 1: that's what counts the maximum lag if it's six you need to chop off the first six rows and then, when you do, that is very simple, you just say X is equal to Z.
+
+137
+00:22:50.160 --> 00:23:04.170
+Capstone Coach 1: From Max slag to the end of the universe right and then y is equal to y from the Max leg to the end of the wire series so pretty easy to do.
+
+138
+00:23:04.860 --> 00:23:15.990
+Capstone Coach 1: This is basically almost it, except in time serious you want to have a validation and training and the way I did, that is, I said how many can I afford.
+
+139
+00:23:16.260 --> 00:23:27.480
+Capstone Coach 1: To set aside as my validation series and the why the way i'm going to set aside, and this is, you have a choice here i'm going to set up by side, the last 300.
+
+140
+00:23:28.680 --> 00:23:46.260
+Capstone Coach 1: observations in the time series so last 300 weeks I said 360 earlier was confused the last 300 weeks are being set aside as a holdout sample as a validation sample, and so the end invalidation is 300 and then the number of training.
+
+141
+00:23:47.280 --> 00:23:54.960
+Capstone Coach 1: observations, then would be the amount of data that I have, which is the number of rosen X minus that number 300.
+
+142
+00:23:55.740 --> 00:24:20.340
+Capstone Coach 1: Okay, so um and then you create your training in your validation X matrix and then your why vectors training and validation you can see how let's just basically an assignment and for example X training here is the X matrix from rose zero to and train all of the columns.
+
+143
+00:24:21.660 --> 00:24:29.820
+Capstone Coach 1: In legs is the number of columns that's the number of legs that I have now, if I had other variables, like the Dow Jones average.
+
+144
+00:24:30.480 --> 00:24:51.750
+Capstone Coach 1: Then this in legs, would be a different number it's basically the number of columns and Annex and you could just instead of putting in the flags here, you could just say X shaped one, the number of columns in X, so that that might be a little easier and more secure as well okay um.
+
+145
+00:24:52.890 --> 00:25:00.630
+Capstone Coach 1: And then we get into the the reshape and you can see right here what what reshape, why do we have to do that.
+
+146
+00:25:01.290 --> 00:25:10.260
+Capstone Coach 1: Well, if you're using an nlp forecast a just a standard a multi layer preceptor on forecast you don't need to do that.
+
+147
+00:25:11.040 --> 00:25:21.480
+Capstone Coach 1: But if you're using rnn or any of the others like lstm forecasting that you need to reshape this as a three dimensional tensor.
+
+148
+00:25:22.080 --> 00:25:36.930
+Capstone Coach 1: Because they've been designed to work on three dimensional 10 sorts, because they are used, also for analysis of images okay let's take a quick break here let's take a five minute break and we'll be.
+
+149
+00:25:53.940 --> 00:25:55.140
+Capstone Coach 1: Okay, there you are.
+
+150
+00:25:57.810 --> 00:26:07.320
+Capstone Coach 1: Okay let's get back to this, so the the you know, the idea of a tense or and charisse is basically a multi dimensional matrix array.
+
+151
+00:26:07.710 --> 00:26:19.380
+Capstone Coach 1: I didn't even know, there was a special name for this, but in Python apparently people make a distinction between let's say a series which is a one column of vector.
+
+152
+00:26:20.220 --> 00:26:35.640
+Capstone Coach 1: And an array which they consider to be two dimensional because of my math background I didn't I thought the race could have many dimensions, not just to but.
+
+153
+00:26:36.660 --> 00:26:53.670
+Capstone Coach 1: It seems that they use the word tense or to refer to a race and have more than two dimensions and well, in fact, they can, or they will use the word tensor to refer to single one dimensional and two dimensional arrays and then three dimensional and so forth, and so on.
+
+154
+00:26:55.980 --> 00:26:59.790
+Capstone Coach 1: And if basically it's a special type of data structure.
+
+155
+00:27:00.930 --> 00:27:08.280
+Capstone Coach 1: Like, for example, an array, which is a two dimensional matrix is a inside of the computer memory has a certain.
+
+156
+00:27:08.820 --> 00:27:21.000
+Capstone Coach 1: Data structure rose, followed by columns as the way that data is represented in a in a US normal computer So then, when you get to higher dimensional arrays.
+
+157
+00:27:21.450 --> 00:27:33.360
+Capstone Coach 1: When those this case they're calling them 10 source like three dimensional sensors, for example, the question is, how does that those three dimensions manifest themselves in the computer memory.
+
+158
+00:27:33.960 --> 00:27:45.480
+Capstone Coach 1: And they're using a Sir a definite arrangement which is known to the software charisse and hence they use a special word.
+
+159
+00:27:45.960 --> 00:27:52.020
+Capstone Coach 1: tense or to refer to arrays that have a specific orient you know specific structure to them.
+
+160
+00:27:52.680 --> 00:27:59.970
+Capstone Coach 1: So in time series analysis rnn the recurrent neural networks and the others that we're going to look at here.
+
+161
+00:28:00.810 --> 00:28:14.790
+Capstone Coach 1: They require X to have three dimensions to it, believe it or not, they expect that they have three dimensions, so instead of, and this case in our data just as really two dimensions right the rows and columns each column has a different.
+
+162
+00:28:15.840 --> 00:28:16.380
+Capstone Coach 1: lag.
+
+163
+00:28:17.580 --> 00:28:26.040
+Capstone Coach 1: For different variable and then the rows are your observations, the number of time points basically that you have collected data on.
+
+164
+00:28:26.700 --> 00:28:33.210
+Capstone Coach 1: And so, why do we need a third third column or third dimension and the reason they are is because.
+
+165
+00:28:33.810 --> 00:28:46.890
+Capstone Coach 1: The the these neural networks, the deep learning neural networks are not just use for time series analysis but they're also used for analysis of photographs, which have four dimensions actually not three.
+
+166
+00:28:46.920 --> 00:28:49.470
+Capstone Coach 1: Four dimensional and.
+
+167
+00:28:50.490 --> 00:28:58.260
+Capstone Coach 1: And then the same thing with with natural language, we have multi dimensions there as well, was there a question or comment or something oh.
+
+168
+00:28:58.350 --> 00:29:00.450
+Charles Swanson: Sorry, this is Charles hours.
+
+169
+00:29:00.780 --> 00:29:02.310
+Charles Swanson: girl says my MIC was on.
+
+170
+00:29:02.790 --> 00:29:03.030
+But.
+
+171
+00:29:04.050 --> 00:29:08.160
+Charles Swanson: i've got some data, where I have three or four points.
+
+172
+00:29:09.240 --> 00:29:18.840
+Charles Swanson: associated with an element, and then I need to predict, something I just realized that I could use a neural network with these are raised to.
+
+173
+00:29:20.670 --> 00:29:25.410
+Charles Swanson: date can obviously I got excited there oh okay good.
+
+174
+00:29:26.130 --> 00:29:34.260
+Capstone Coach 1: An Aha moment right so yeah so these sensors were actually developed for use cases like what you're talking about where.
+
+175
+00:29:35.580 --> 00:29:54.270
+Capstone Coach 1: Your data is not really two dimensional but me it's three or four dimensional photographs and we, as we know, photographs color photographs have three layers to them, so the layer is a dimension and then of course there's a width and a horse or a horizontal aspect to that layer as well.
+
+176
+00:29:55.770 --> 00:30:07.980
+Capstone Coach 1: You know so most photographs are three dimensional you can think of as a three dimensional tense or so yeah you'll see here, I have X T underscore 3D.
+
+177
+00:30:09.120 --> 00:30:25.230
+Capstone Coach 1: And it just says reshape X T really yeah it's required if you're running into rnn or lstm you know those those deep learning neural networks, you need to reshape X, so that it's three dimensions.
+
+178
+00:30:26.160 --> 00:30:40.410
+Capstone Coach 1: But you say yeah but we only have two dimensions that's right, we only have width and height, you know, we have the lag that would be our horizontal direction, and then we have the time point that would be our vertical direction or what have you.
+
+179
+00:30:41.430 --> 00:30:52.290
+Capstone Coach 1: So what we do is we put a dummy column a fake on a thick dimension in the middle one, so I reshape I say Okay, the number of rows will be the same as the number of rows and X T.
+
+180
+00:30:52.920 --> 00:31:04.200
+Capstone Coach 1: The number of columns will be the same as the number of columns lexi and, by the way, there's a dummy fake column in the middle of fake dimension, with the only one value right.
+
+181
+00:31:05.460 --> 00:31:14.940
+Capstone Coach 1: So that so I basically create a data structure here a tense or data structure that rnn and and.
+
+182
+00:31:15.690 --> 00:31:22.470
+Capstone Coach 1: lstm will recognize and we'll see if you don't do this they give you an error message unfortunately okay.
+
+183
+00:31:22.980 --> 00:31:27.480
+Capstone Coach 1: Oh you're that data structure you give me it's not three dimensional OK OK OK.
+
+184
+00:31:28.020 --> 00:31:34.440
+Capstone Coach 1: So it has to be three dimensional if you're dealing with a recurrent neural network and some of the others are going to look at.
+
+185
+00:31:34.800 --> 00:31:54.540
+Capstone Coach 1: If you're dealing with a standard neural network that's an nlp multi layered perceptual under you only need two dimensions and that not necessary, so you'll see I create X ti and xd in the standard way two dimensions here that's done for the nlp forecast.
+
+186
+00:31:56.310 --> 00:31:59.010
+Capstone Coach 1: And then, Jim are you okay.
+
+187
+00:32:00.090 --> 00:32:10.860
+Capstone Coach 1: Can you hear all right okay good and then for these guys X T 3D xd, these are the X matrices that will be going to be used for rnn.
+
+188
+00:32:11.310 --> 00:32:36.030
+Capstone Coach 1: And lstm of those those strange deep learning networks okay so that's why you see this reshape here, this was in the last code down inside the the model and part of the analysis, I decided to just move it all up front, so I could talk about it and just a one one swoop like that.
+
+189
+00:32:37.170 --> 00:32:44.700
+Capstone Coach 1: Now let's take a look at nlp now that's the way we did this last weekend and this really has not changed.
+
+190
+00:32:45.300 --> 00:32:58.740
+Capstone Coach 1: The only thing that's changed here is, I took the data preparation and move it all the way out just above the start here and then let's see the other oh i've jazz stuff though the the the.
+
+191
+00:32:59.760 --> 00:33:05.250
+Capstone Coach 1: ASC information so now, you get a SEC for the training part and the validation part.
+
+192
+00:33:06.060 --> 00:33:18.240
+Capstone Coach 1: and also the the photograph the plots are being done so that you get a plot of the entire data and the forecast for the entire data and also a separate plot for the Val just the validation data.
+
+193
+00:33:18.930 --> 00:33:32.100
+Capstone Coach 1: Now what i'm what we're going to do is we're going to run the email people aren't make sure it says true right here at the top let's scoot on down and make sure there's no other crews, just to I only want to run the first one.
+
+194
+00:33:33.480 --> 00:33:38.940
+Capstone Coach 1: And as you can see, there are quite a few of these here we're going to go through each one of them tonight.
+
+195
+00:33:40.470 --> 00:33:46.440
+Capstone Coach 1: they're very similar okay down here line for 61 line for 61 set to false.
+
+196
+00:33:48.030 --> 00:33:59.730
+Capstone Coach 1: Otherwise, she will get confused and the output, I just want to run one of them at a time Okay, so we have nlp we're going to run that let's make sure, then that.
+
+197
+00:34:00.960 --> 00:34:12.030
+Capstone Coach 1: let's see where is me LP right here line number 94 should be true and let's clear off the screen build the right by resetting the Colonel.
+
+198
+00:34:12.660 --> 00:34:27.000
+Capstone Coach 1: So we're going to clear off all everything we were doing there previously and now we're going to run nlp, this is the standard time series model deep learning model multi layer preceptor on.
+
+199
+00:34:28.050 --> 00:34:38.370
+Capstone Coach 1: This model works fantastic if you have a pure ar model because all of the inputs here are otter regressive terms.
+
+200
+00:34:38.790 --> 00:34:52.200
+Capstone Coach 1: So this deep learning model will mimic and better what you would get from an ar regression that you know what we were doing stats models that was an ar regression, this will do better.
+
+201
+00:34:53.430 --> 00:35:00.600
+Capstone Coach 1: It doesn't give you all the p values and that's some of the fancy out but that you get from the stats models.
+
+202
+00:35:01.500 --> 00:35:17.190
+Capstone Coach 1: ar approach, but it will give you a pretty good for a better forecast, because this is a nonlinear they are model and sets sets models is a linear forecast using each of the otter aggressive terms as a linear.
+
+203
+00:35:18.120 --> 00:35:30.570
+Capstone Coach 1: You know coefficient this sky because it's a deep learning network basically can resemble a nonlinear otter aggressive model which is above and beyond.
+
+204
+00:35:30.930 --> 00:35:41.340
+Capstone Coach 1: What you have in our arena right and otter regressive model otter aggressive model, you have each auto regressive term with a coefficient.
+
+205
+00:35:42.210 --> 00:35:55.590
+Capstone Coach 1: there's no square there's no cross product and that the deep learning network here will will emulate or handle non linear otter aggressive models.
+
+206
+00:35:56.100 --> 00:36:12.660
+Capstone Coach 1: Okay, and that's that's a can be a big win for you let's see how we're doing so he just ran this and if you go above the plots you'll see, this is a pretty simple network 20 perceptions.
+
+207
+00:36:13.860 --> 00:36:35.040
+Capstone Coach 1: Well, we only have five legs so really we only have five inputs here so 20th sufficient total number of parameters here is is 141 the validation ASC you can see, is 00157 the training se is larger than the validation.
+
+208
+00:36:36.390 --> 00:36:38.430
+Capstone Coach 1: Now that's a little weird right.
+
+209
+00:36:39.660 --> 00:36:50.280
+Capstone Coach 1: Normally we're used to seeing overfitting as a problem we're used to seeing the valid the training as a much smaller than the validation not so here let's see why.
+
+210
+00:36:51.540 --> 00:36:59.880
+Capstone Coach 1: It has to do with the data look at this plot in this plot you see the entire data set on the top plot is the entire data set.
+
+211
+00:37:00.390 --> 00:37:14.160
+Capstone Coach 1: And the training data is starts here at the left and goes, all the way to about where I have my cursor right here, the last 300 points are right here the tail end of the series.
+
+212
+00:37:14.880 --> 00:37:26.820
+Capstone Coach 1: And in fact the plot below the second plot is the validation plot, this is a part of the validation data with the forecasts, with the predictive values for the validation data.
+
+213
+00:37:28.080 --> 00:37:33.690
+Capstone Coach 1: My my feeling is not bad, you know my impression is hey that's not bad.
+
+214
+00:37:34.890 --> 00:37:45.330
+Capstone Coach 1: for doing this kind of a thing, so why would the validation on the sorry the training data have a higher average squared air well because it's actually doing some.
+
+215
+00:37:46.200 --> 00:37:55.560
+Capstone Coach 1: harder gymnastics and the validation data, the validation data is actually just so happens to be in a pretty well behaved region of this graph.
+
+216
+00:37:56.160 --> 00:38:04.530
+Capstone Coach 1: The last last little bit everything's just sort of trending down and sort of just wiggling around a little downward trend not too complicated.
+
+217
+00:38:04.830 --> 00:38:15.780
+Capstone Coach 1: that's that's very good, but the tree vana i'll look at this, we were flat here, then it jumps down suddenly and it starts going up, and then it jumps down again, suddenly, then it goes back up.
+
+218
+00:38:16.200 --> 00:38:26.430
+Capstone Coach 1: You know it's a mess right so it's very difficult in this case is that the training data you end up with an ASC that's higher in the training data than in the validation data.
+
+219
+00:38:26.970 --> 00:38:42.450
+Capstone Coach 1: And that's Okay, this seems to be somewhat normal if you have data that is very non linear right, so if this was like just noise around a flat line, then, which is what the remote people really want noise around a flat line.
+
+220
+00:38:43.650 --> 00:38:57.330
+Capstone Coach 1: Then you would probably see some possibility of overfitting but here it's having some doing some nonlinear gymnastics to fit this this curve that you see going up and then coming back down again.
+
+221
+00:38:58.440 --> 00:39:17.760
+Capstone Coach 1: So that's why I wanted to talk about what these curves look like now, this second one, this is the validation data, and you can see that the the forecast really do a remarkable job of following the ups and downs that you some of the big ups and downs that you see in this in this plot.
+
+222
+00:39:18.780 --> 00:39:25.350
+Capstone Coach 1: And that's that's one of the reasons why people, some people will use a neural network.
+
+223
+00:39:26.700 --> 00:39:29.640
+Capstone Coach 1: Okay let's make this false, by the way.
+
+224
+00:39:30.930 --> 00:39:38.070
+Capstone Coach 1: In addition to plotting both the entire data set and just that elevation these plots are being saved to your disk.
+
+225
+00:39:39.270 --> 00:39:46.590
+Capstone Coach 1: So this, this will be, if you look on your drive where your code is look at it you'll see a new file it's called nlp.
+
+226
+00:39:47.100 --> 00:39:58.200
+Capstone Coach 1: dot PNG these are PNG images, so you could put whatever data, you want it in here will flat comes out your images on your disk you can use it in your report, or whatever you wanted to.
+
+227
+00:39:59.730 --> 00:40:10.620
+Capstone Coach 1: Okay let's go to the second model, the second model is labelled rnn, this is the recurrent neural network it currently says all let's make this true.
+
+228
+00:40:11.610 --> 00:40:20.460
+Capstone Coach 1: we're going to run this let's make that first one nlp faults Bob yeah its faults OK, so now that I hit down here in line 165.
+
+229
+00:40:21.000 --> 00:40:32.700
+Capstone Coach 1: recurrent neural network, and this is where it all started the recurrent neural network was the first sort of super deep learning neural network that was developed.
+
+230
+00:40:33.600 --> 00:40:45.840
+Capstone Coach 1: coding, this is very, very tricky I don't know how the sun someday when i'm have toughen it would be interesting to go in and see how they did this, the reason is.
+
+231
+00:40:46.500 --> 00:40:59.310
+Capstone Coach 1: What happens in a recurring in in a normal nlp network it's a pure feet feet four feet forward so what happens is the data comes in.
+
+232
+00:40:59.820 --> 00:41:13.950
+Capstone Coach 1: The legs come into the neural network they hit the precept ron's they are operated on and then that information is pushed forward and then maybe they hit it another layer and the operated on there, and finally, they go into the output layer
+
+233
+00:41:14.700 --> 00:41:26.070
+Capstone Coach 1: At you see them as forecasts for that particular set of input, now the recurrent neural network, does the same thing, except with for one important.
+
+234
+00:41:26.820 --> 00:41:41.310
+Capstone Coach 1: component of that is at the end there, or anywhere actually inside of the network, where it wants to, it will compare what it's going to predict now with what it predicted last time.
+
+235
+00:41:41.910 --> 00:41:52.710
+Capstone Coach 1: So it's looking at the accuracy of its predictions as it's making these forecasts and then that gets fed into the input network into the input, the first layer
+
+236
+00:41:53.220 --> 00:41:59.010
+Capstone Coach 1: That code that gets looped back and fed as an input automatically into the first layer
+
+237
+00:41:59.640 --> 00:42:08.940
+Capstone Coach 1: That you don't see that, I mean the code and everything but that's basically what's happening is that first layer of your own rnn network is special.
+
+238
+00:42:09.450 --> 00:42:22.260
+Capstone Coach 1: Because it's basically not just taking your data as input it's also getting some feedback from the network at the end of the network about how well it's actually forecasting the previous data.
+
+239
+00:42:23.190 --> 00:42:33.300
+Capstone Coach 1: Now that kind of a feedback loop is the moving average part of arena model, so you had time series, you know what an ar IMA.
+
+240
+00:42:33.780 --> 00:42:41.340
+Capstone Coach 1: Integrated a moving average term that you had an actual term in the model, not just the otter aggressive, but you have a moving average term.
+
+241
+00:42:41.760 --> 00:42:56.130
+Capstone Coach 1: which, basically, is the feedback from the previous data on how while you were forecasting so are in in emulates in the pure sense looks like a nonlinear arena model.
+
+242
+00:42:56.850 --> 00:43:05.250
+Capstone Coach 1: And it has that be a can it has a potential of doing much better forecasts that are remote would be because of all of that so.
+
+243
+00:43:05.880 --> 00:43:18.030
+Capstone Coach 1: If you have a straight clean a remodel rnn should should forecast exactly the way arena does give you the same forecasts and general, it does not.
+
+244
+00:43:18.510 --> 00:43:31.290
+Capstone Coach 1: Because data do not look like moving a you know, a random noise, so the riemann thinks that the data, the data should be just random noise around some baseline.
+
+245
+00:43:32.040 --> 00:43:43.680
+Capstone Coach 1: And so you can see, here we if we were going to draw baseline it would be you know the may average of all these data, this does not look like random noise around that baseline it looks like we have a trend for.
+
+246
+00:43:44.430 --> 00:43:51.060
+Capstone Coach 1: And then, a trend for another period right, so if you're in a remote person what you would do is.
+
+247
+00:43:51.480 --> 00:43:59.580
+Capstone Coach 1: You probably would hack this up and say i'm just gonna i'm just going to work on forecasting the last part that is this downward trend, you see here.
+
+248
+00:44:00.180 --> 00:44:06.030
+Capstone Coach 1: i'm going to ignore the rest of them, or maybe you just use the middle part right here.
+
+249
+00:44:06.450 --> 00:44:17.340
+Capstone Coach 1: and ignore other, and even then because it's a downward trend like this you're going to want to determine the data normally by taking first differences in this case it's just a simple simple downward trend.
+
+250
+00:44:17.670 --> 00:44:27.390
+Capstone Coach 1: Then you will do a take the first difference, that is why T minus y team on this one and use that as your input that creates all kinds of complications.
+
+251
+00:44:27.750 --> 00:44:39.330
+Capstone Coach 1: When you get your forecast, you have to go back and take out that the trending to produce your forecasts and your actual units, so it mathematically and and.
+
+252
+00:44:39.690 --> 00:44:49.470
+Capstone Coach 1: It gets becomes a little more complicated and it, it makes it harder to actually present what you what you have a you forecast so.
+
+253
+00:44:51.120 --> 00:44:59.790
+Capstone Coach 1: Deep learning forecasting like this is just sort of more complex in the box, the box is more complex the code is more complex but.
+
+254
+00:45:00.330 --> 00:45:15.450
+Capstone Coach 1: explaining it is pretty straightforward it's like here's my data and here's the forecast, how did you get the forecast well we use deep learning okay so that's where that deep learning name came from, and everybody smiles and says yeah okay deep learning cool.
+
+255
+00:45:16.650 --> 00:45:25.590
+Capstone Coach 1: But if you really had to know what that was about would take a several lots of reading and study to do figure out how that was actually done.
+
+256
+00:45:26.850 --> 00:45:36.690
+Capstone Coach 1: Looking at the code okay so let's run the rnn and see how we do let's see if it does, as well as nlp and so here it is breaking off.
+
+257
+00:45:37.800 --> 00:45:49.140
+Capstone Coach 1: Now, the conditions are set pretty much the same except, of course, the first layer in an Aryan in network is called simple rnn So if you look at the description.
+
+258
+00:45:50.070 --> 00:45:59.820
+Capstone Coach 1: Of the neural network will you'll notice that the first hidden layer says simple rnn that's where you put our in and you put it in the first hidden layer
+
+259
+00:46:00.390 --> 00:46:06.360
+Capstone Coach 1: And you, of course, have the number of preceptor ons here, the number of coefficients is is wild.
+
+260
+00:46:06.990 --> 00:46:19.260
+Capstone Coach 1: That number of coefficients is you know hundred and 28 times the number of lags five lakhs So here we go not too shabby, this is the entire set of data.
+
+261
+00:46:19.860 --> 00:46:34.290
+Capstone Coach 1: And below here is that validation data let's see what the average squared here looks like okay 00 to five for the training and 00171 that's about the same as what we got I think.
+
+262
+00:46:34.890 --> 00:46:49.170
+Capstone Coach 1: nlp let's let me go back and look at nlp here so even on the validation party nlp actually did better 16157 rnn is not doing quite as well, but close enough.
+
+263
+00:46:50.190 --> 00:46:58.830
+Capstone Coach 1: I would use the image I would claim the nlp would be a better one, to use it, because it's it's easier to to validate and describe.
+
+264
+00:47:00.540 --> 00:47:11.310
+Capstone Coach 1: Now rnn is is not doing badly at all, but it apparently that feedback loop back loop the moving average terms are not important in this series.
+
+265
+00:47:11.850 --> 00:47:24.690
+Capstone Coach 1: That would be another thing you see if you know that the IBM series, for instance doesn't have any moving average terms you probably don't need to use in our Annette you could just use a melfi right.
+
+266
+00:47:26.370 --> 00:47:27.360
+Capstone Coach 1: So that's cool.
+
+267
+00:47:28.380 --> 00:47:40.380
+Capstone Coach 1: Now let's let me show you some things about this first of all let's clear out the Colonel restart the Colonel just to clear off the page here to the right hand side all right.
+
+268
+00:47:42.000 --> 00:48:03.240
+Capstone Coach 1: Now what i'd like to do is notice that I have to optimizer is here, the one that we just used was Adam with a learning rate of a pretty small learning rate let's change over to add a delta so on uncommon line number 185 we're going to just uncommon 185 just said line.
+
+269
+00:48:04.380 --> 00:48:05.730
+Capstone Coach 1: And now let's rerun it.
+
+270
+00:48:11.790 --> 00:48:12.690
+Capstone Coach 1: it's actually is.
+
+271
+00:48:12.960 --> 00:48:15.720
+Purkiss, David: Are we going to use both optimizer Dr Jones.
+
+272
+00:48:16.140 --> 00:48:20.130
+Capstone Coach 1: No, no, no, no we're gonna have it always It only takes the last one.
+
+273
+00:48:20.160 --> 00:48:20.850
+Purkiss, David: Okay.
+
+274
+00:48:20.970 --> 00:48:22.320
+Purkiss, David: Thank you yeah yeah.
+
+275
+00:48:24.930 --> 00:48:30.090
+Capstone Coach 1: The last one now if I wanted to use Adam that's why I comment out the out of Delta.
+
+276
+00:48:31.290 --> 00:48:41.010
+Capstone Coach 1: Because, then, if you commented out then it's you can use the first one, but if you haven't both in there, like that it always uses the last one well let's see what happened here now.
+
+277
+00:48:41.790 --> 00:49:00.420
+Capstone Coach 1: it's not bad, but it's not as good as a solution we got with Adam and, as a matter of fact, if we change the learning rated right here, it says point oh five let's make that point oh one and see what happens okay just change it to point O one and rerun it.
+
+278
+00:49:05.250 --> 00:49:18.810
+Capstone Coach 1: Now there are 90,233 weights or parameters that it's trying to estimate that's a lot of weights right, so the optimizer is doing the heavy lifting here.
+
+279
+00:49:20.220 --> 00:49:20.730
+Capstone Coach 1: and
+
+280
+00:49:21.780 --> 00:49:25.350
+Capstone Coach 1: What you see is the salute what you should see coming up.
+
+281
+00:49:27.240 --> 00:49:43.470
+Capstone Coach 1: That make a fool of me here, but what you should say is yeah there it is I don't know if you can sit tell them the graphs themselves, but these are these forecasts are slightly worse off if you look at the ASC it's.
+
+282
+00:49:45.930 --> 00:49:59.790
+Capstone Coach 1: I have squared errors higher, so the learning this solution that you're seeing is critical to what optimized siri sensitive to what optimizer you use, and in particular the learning rate.
+
+283
+00:50:00.600 --> 00:50:12.240
+Capstone Coach 1: So what I have to do and almost every time is I try both optimized years and I I play around with the learning rate until I get the best fit for that particular optimizer.
+
+284
+00:50:12.780 --> 00:50:27.210
+Capstone Coach 1: Sometimes the best optimize that album sometimes it's at a delta sometimes it's a small, most of the time, the learning rates are small, but sometimes they want a larger learning rate does better that way you just can't tell.
+
+285
+00:50:27.810 --> 00:50:37.020
+Capstone Coach 1: It depends on the data and how much data, you have and the pattern of the observations you have and things like that so.
+
+286
+00:50:37.800 --> 00:50:53.400
+Capstone Coach 1: fyi, this is not as easy as it might look right well it's easy if you have data like this i'm going to comment out that a delta and change that back to oh five because oh five well I took a long time to figure out oh five is best.
+
+287
+00:50:55.140 --> 00:51:02.670
+Capstone Coach 1: So the good news about this particular data that we're looking at is it small.
+
+288
+00:51:04.050 --> 00:51:17.250
+Capstone Coach 1: So we have, I think 2000 data points or 3000 forget know it's little over 1000 not much, much, and the number of columns in our X matrix in this case is only five.
+
+289
+00:51:18.210 --> 00:51:33.540
+Capstone Coach 1: Now, if we were to bump this up, so I have the Dow Jones in there and everything else it's going to slow down to the point where I need to go get a cup of coffee, you know, every time you run this and so trying to figure out the best optimizer the best learning rate.
+
+290
+00:51:34.650 --> 00:51:35.340
+Capstone Coach 1: can be.
+
+291
+00:51:36.420 --> 00:51:37.620
+Capstone Coach 1: You know time consuming.
+
+292
+00:51:40.290 --> 00:51:48.120
+Capstone Coach 1: But basically that's what should do the other thing that it's very sensitive to is this guy right here size equal to four.
+
+293
+00:51:48.690 --> 00:52:01.050
+Capstone Coach 1: that's the batch size and remember the smaller we make that the longer it takes to actually run the Code, the more data that are, the more data it's using in the calculating the weights.
+
+294
+00:52:01.560 --> 00:52:08.100
+Capstone Coach 1: Basically, so that's why, when you make the data is smaller like for you generally get a better solution.
+
+295
+00:52:08.670 --> 00:52:27.240
+Capstone Coach 1: But it also takes longer so just for the heck of it here let's take this for let's take us up to 16 Okay, oh no let's go 32 okay now what you should see here is running, it is that it runs faster.
+
+296
+00:52:28.410 --> 00:52:28.920
+Capstone Coach 1: and
+
+297
+00:52:30.570 --> 00:52:32.250
+Capstone Coach 1: The number of weights is still the same.
+
+298
+00:52:33.270 --> 00:52:44.490
+Capstone Coach 1: it's just that the way it goes about calculating the weights is different, and if you look at the plots and the ASC values that are a little bit larger as he's not as good.
+
+299
+00:52:45.600 --> 00:52:56.670
+Capstone Coach 1: So it's quicker, but you solution, you get now you what you might do is you might miss set the size large while you optimize the optimizer play with the learning rate.
+
+300
+00:52:57.120 --> 00:53:16.470
+Capstone Coach 1: A little bit and get get in the neighborhood of the right optimizer that you want to use and then crank down on the size number two small value like four or two even to in some cases and that'll that'll give you a better estimate of the actual as a value.
+
+301
+00:53:17.730 --> 00:53:20.730
+Capstone Coach 1: Okay let's let's go from true defaults.
+
+302
+00:53:22.290 --> 00:53:23.220
+Capstone Coach 1: Go back again.
+
+303
+00:53:25.170 --> 00:53:28.950
+Capstone Coach 1: whoops s s what s E.
+
+304
+00:53:30.120 --> 00:53:30.870
+Capstone Coach 1: C.
+
+305
+00:53:34.980 --> 00:53:44.640
+Capstone Coach 1: Okay, we got it yeah all right that's 165 false now we're going to scroll down and go to lstm.
+
+306
+00:53:46.260 --> 00:53:48.510
+Capstone Coach 1: Where it says false and we're going to make that true.
+
+307
+00:53:50.040 --> 00:53:58.290
+Capstone Coach 1: Now lstm stands for long short term memory model lstm is a variation of our in an.
+
+308
+00:53:58.710 --> 00:54:09.240
+Capstone Coach 1: It started out as an orientation model then some people then made some tweaks to the rnn model and come out came up with a new model that they call or lstm.
+
+309
+00:54:09.690 --> 00:54:24.900
+Capstone Coach 1: lstm in the literature is primarily used for analyzing natural languages, and in particular they use it to predict what's the next what's the next word or what's the next phrase to expect from this particular.
+
+310
+00:54:25.590 --> 00:54:38.970
+Capstone Coach 1: texts that we're looking at so it's it's like time series except instead of having a time series, in time, you have a series in words now that's the first word second word, the third word and so forth, and so on.
+
+311
+00:54:39.540 --> 00:54:57.780
+Capstone Coach 1: And you have a bunch of series that are different links so it's a little odd there but that's part of the reason why you have this extra dimension right the number one that middle dimension, so if you're analyzing text or words, then you make use of that third dimension.
+
+312
+00:54:58.860 --> 00:55:06.810
+Capstone Coach 1: But you can use lstm long short term memory models for analyzing traditional time series data like we're doing here.
+
+313
+00:55:07.170 --> 00:55:23.340
+Capstone Coach 1: And the only thing you do is, if you go back to let's just scroll back up for a minute and go back to look at model I forgot, why did we did this last week but go back here to 172 notice the first layer is simple RNA.
+
+314
+00:55:24.420 --> 00:55:28.620
+Capstone Coach 1: So that's that's a signal that we're running on a rnn.
+
+315
+00:55:29.640 --> 00:55:38.790
+Capstone Coach 1: Deep learning model, and then we have layers to which is a traditional hidden layer traditional in the sense that it's a dense.
+
+316
+00:55:39.270 --> 00:55:53.520
+Capstone Coach 1: dense layer where all the neurons are connected to all the previous neurons right dense and there's no feedback going on, this is the doesn't say simple rnn there's no feedback.
+
+317
+00:55:53.940 --> 00:56:09.420
+Capstone Coach 1: So it just passing through and the information from the rnn layer gets passed through the the hidden layer, the second layer and then the output layer one neuron we're just predicting one number.
+
+318
+00:56:10.560 --> 00:56:25.590
+Capstone Coach 1: is right here, all of these 16 neurons I have here are connected directly to that one output and we're using Arielle usc activation which is we know is fast, we could have used tan ah, this is a small set of data.
+
+319
+00:56:26.940 --> 00:56:40.170
+Capstone Coach 1: Now the the data that is acquired here in the last layer the output layer the model actually looks at how well each.
+
+320
+00:56:40.800 --> 00:56:51.060
+Capstone Coach 1: value is being forecast and the difference between the forecast and the last and the value, you know between the actual value and forecast is fed back into that layer one.
+
+321
+00:56:52.200 --> 00:57:00.480
+Capstone Coach 1: And so it's fed back in and the model than adjust the weights to produce better and better forecast that's the idea behind an rnn.
+
+322
+00:57:01.650 --> 00:57:04.140
+Capstone Coach 1: Now let's take a look at the the lstm.
+
+323
+00:57:05.220 --> 00:57:16.230
+Capstone Coach 1: model and what you're going to see, is it looks exactly the same almost except to say that, instead of saying simple rnn it says lstm.
+
+324
+00:57:17.130 --> 00:57:23.310
+Capstone Coach 1: And that's basically the only change, you have to make to your code, so if you have an rnn model.
+
+325
+00:57:23.790 --> 00:57:33.570
+Capstone Coach 1: And you're using it for time series, so your first layer says simple rnn you can just try out lstm by just you know changing that.
+
+326
+00:57:34.560 --> 00:57:49.350
+Capstone Coach 1: You can change the number of preceptor ons one of the things that happens here it with an lstm Is it actually overlays the precept trans it set of using 64 that uses 128.
+
+327
+00:57:50.040 --> 00:58:08.370
+Capstone Coach 1: And the weights are shared between these 64 on the left and 64 on the right that's where it gets the name long short term memory and when you run this you're going to see that in the output so here we're going to go true set to 39 to true.
+
+328
+00:58:09.390 --> 00:58:10.920
+Capstone Coach 1: let's go ahead and run this.
+
+329
+00:58:13.800 --> 00:58:23.010
+Capstone Coach 1: Now, if you look at the the description of the network and down here at the bottom you'll notice that, instead of saying simple rnn it says lstm.
+
+330
+00:58:24.210 --> 00:58:37.470
+Capstone Coach 1: And so that's a clue that Okay, the first layer is lstm that's what we're using there are little there are fewer wait sears 19,977 set of the 19,000 is slightly fewer.
+
+331
+00:58:42.300 --> 00:58:42.840
+Capstone Coach 1: Okay.
+
+332
+00:58:49.680 --> 00:59:10.830
+Capstone Coach 1: Okay, so here's what we get and let's see the ASC values, not so good, the 278 and 278 I mean the good news is there's no there's no training overfitting here but you'll notice you'll notice that, in the training data here on the left.
+
+333
+00:59:12.450 --> 00:59:22.980
+Capstone Coach 1: i'm consistently over overfitting over predicting rather the actual data so it's the training data we're having difficulty here.
+
+334
+00:59:23.910 --> 00:59:35.520
+Capstone Coach 1: forecasting the training data in this area and then you'll see some other areas like right in here where we're going below the actual values.
+
+335
+00:59:35.910 --> 00:59:43.710
+Capstone Coach 1: The predictive values are going below, if you look at the validation data well you'll see some of that going on here too it's not bad.
+
+336
+00:59:44.190 --> 00:59:59.520
+Capstone Coach 1: I mean I don't want to really bad mouth is that bad, but look it's it's off a little bit here it's same thing happening here when we get a big drop, and it does actually kind of Nice on this area, and then it drops down so forth.
+
+337
+01:00:00.240 --> 01:00:04.770
+Purkiss, David: After john did you get exactly the same results for the last two models.
+
+338
+01:00:06.840 --> 01:00:08.910
+Capstone Coach 1: know what do you mean who's this know.
+
+339
+01:00:08.940 --> 01:00:12.420
+Purkiss, David: What is the David, so the rnn and the lstm.
+
+340
+01:00:12.870 --> 01:00:13.470
+Purkiss, David: I got.
+
+341
+01:00:13.860 --> 01:00:16.230
+Purkiss, David: I think I got exactly the same numbers.
+
+342
+01:00:18.360 --> 01:00:29.910
+Capstone Coach 1: No, I didn't I mean the Orient ended much better for me here, this is the only numbers that you can really look at are the ASC values is that what you're talking about.
+
+343
+01:00:30.030 --> 01:00:34.260
+Purkiss, David: Yes, and can you go scroll up and show your rnn model numbers.
+
+344
+01:00:35.640 --> 01:00:38.910
+Capstone Coach 1: I think me, let me see I may have this is.
+
+345
+01:00:40.830 --> 01:00:43.380
+Capstone Coach 1: 2512232 hmm.
+
+346
+01:00:43.860 --> 01:00:44.220
+Okay.
+
+347
+01:00:46.050 --> 01:00:57.060
+Capstone Coach 1: They should be close because both of them are recurrent neural networks there's this, there are some slight differences in the way they're being calculated, but they should be close.
+
+348
+01:00:57.420 --> 01:01:00.240
+Capstone Coach 1: The rnn, for example as 128.
+
+349
+01:01:01.080 --> 01:01:08.610
+Capstone Coach 1: neurons set the first layer and the lstm has only was it 64 shows only 64.
+
+350
+01:01:11.640 --> 01:01:12.150
+Capstone Coach 1: But.
+
+351
+01:01:14.460 --> 01:01:21.300
+Capstone Coach 1: So they're a little different now, you may it is you could coincidentally have gotten the same number, but they should be a little bit different.
+
+352
+01:01:23.340 --> 01:01:25.500
+Capstone Coach 1: Okay let's make the lstm.
+
+353
+01:01:25.950 --> 01:01:28.830
+Purkiss, David: lstm fall i'm sorry I ran it twice.
+
+354
+01:01:30.180 --> 01:01:31.290
+Capstone Coach 1: And it should get the same.
+
+355
+01:01:31.470 --> 01:01:35.190
+Purkiss, David: i'm the same i'm the same model I figured it out, thank you.
+
+356
+01:01:35.670 --> 01:01:36.420
+Okay.
+
+357
+01:01:40.950 --> 01:01:49.320
+Capstone Coach 1: Okay, so we're going to set that we're going to set that defaults and now we're going to go to the rock star.
+
+358
+01:01:50.460 --> 01:01:52.980
+Capstone Coach 1: gru gru is new.
+
+359
+01:01:54.090 --> 01:01:57.000
+Capstone Coach 1: To the deep learning network people.
+
+360
+01:01:58.650 --> 01:02:01.050
+Capstone Coach 1: I don't know exactly how many years but it's.
+
+361
+01:02:02.130 --> 01:02:07.830
+Capstone Coach 1: If this was a book, it would be a new edition, and so, when you read a lot of.
+
+362
+01:02:09.270 --> 01:02:14.910
+Capstone Coach 1: The literature you don't see the mention archie are you and i'm going to set set this to true.
+
+363
+01:02:16.440 --> 01:02:27.750
+Capstone Coach 1: She are you is an improvement over lstm basically so some folks got together so one that seems not working very well all the time what's wrong and they they tweaked it a little bit and came up with gru.
+
+364
+01:02:28.950 --> 01:02:39.750
+Capstone Coach 1: And what i've seen with this data it works pretty solid it's faster and seems to get better forecast now wash it may make a fool of me here.
+
+365
+01:02:40.110 --> 01:02:55.350
+Capstone Coach 1: But we set that to true notice in the model area, once again, the only chain thing you have to change is set of saying layers dot lstm or layers thought simple orange and you just said that gru.
+
+366
+01:02:56.430 --> 01:02:58.290
+Capstone Coach 1: And then run it.
+
+367
+01:02:59.700 --> 01:03:01.650
+Capstone Coach 1: And so here i'm going to run that.
+
+368
+01:03:12.900 --> 01:03:22.950
+Capstone Coach 1: The output, the description of the of the network is the same as before, except instead of having lstm in there, we have gru on the hidden layer one.
+
+369
+01:03:38.580 --> 01:03:45.720
+Capstone Coach 1: Alright, so let's let's take a look at a of the oh it's it's showing that this is not too hot.
+
+370
+01:03:46.830 --> 01:03:48.840
+Capstone Coach 1: To 33 and 206.
+
+371
+01:03:50.040 --> 01:03:51.390
+Capstone Coach 1: it's not bad yeah.
+
+372
+01:03:52.410 --> 01:04:10.320
+Capstone Coach 1: And, but I think actually it's not as good as the ml P let's check the optimizer so right now we're using at a delta let's let's comment out at a delta and now you're going to run a just choosing Adam.
+
+373
+01:04:23.160 --> 01:04:34.620
+Capstone Coach 1: Okay, you can see here the validation area, and then the actual data it's not it's doing worse, so the atom out of honors optimize with gru.
+
+374
+01:04:35.280 --> 01:04:44.310
+Capstone Coach 1: Is it's basically funky look at all this business forecast here lagging behind the actual data and the same thing in the training area.
+
+375
+01:04:44.820 --> 01:05:02.880
+Capstone Coach 1: And the average squared error that's point three eight to a you know 387 larger so let's go back to wait a should we give up no let's take a zero out of the learning rate.
+
+376
+01:05:03.930 --> 01:05:11.190
+Capstone Coach 1: and see what happens so I just changed the learning rate from 3012201.
+
+377
+01:05:13.020 --> 01:05:14.490
+Capstone Coach 1: let's see what happens here.
+
+378
+01:05:16.710 --> 01:05:22.050
+Capstone Coach 1: yeah now the day, though they flop, on the other side, so we still have.
+
+379
+01:05:23.340 --> 01:05:30.660
+Capstone Coach 1: onset it worse, even worse, average squared error so let's put the zero back and go to add a delta.
+
+380
+01:05:31.980 --> 01:05:39.900
+Capstone Coach 1: Below and let's put as another 009 there let's make it to 079.
+
+381
+01:05:40.980 --> 01:05:41.760
+Capstone Coach 1: and run it.
+
+382
+01:05:44.760 --> 01:05:47.160
+Capstone Coach 1: whoops I have a typo here.
+
+383
+01:05:50.550 --> 01:05:54.750
+Capstone Coach 1: So we have yeah two zeros and a nine.
+
+384
+01:05:56.670 --> 01:05:59.760
+Capstone Coach 1: and add a delta and let's see if we get any better here.
+
+385
+01:06:35.040 --> 01:06:48.510
+Capstone Coach 1: Okay, I think it's a little better, but the SEC is still quite large so let's add another zero make it instead of two zeros in mind let's make it three service and our nine.
+
+386
+01:07:18.900 --> 01:07:19.770
+Capstone Coach 1: Okay.
+
+387
+01:07:20.910 --> 01:07:21.210
+Capstone Coach 1: we're.
+
+388
+01:07:23.130 --> 01:07:26.070
+Capstone Coach 1: Okay i'm gonna take that zero out.
+
+389
+01:07:27.870 --> 01:07:32.370
+Capstone Coach 1: Two zeros and a five bring the five down a little bit.
+
+390
+01:07:33.420 --> 01:07:34.230
+Capstone Coach 1: The nine rather.
+
+391
+01:07:37.200 --> 01:07:44.730
+Capstone Coach 1: So yeah this is kind of what you end up doing is you wind up working the learning rate to get a better fit.
+
+392
+01:07:45.420 --> 01:07:55.800
+Capstone Coach 1: And is that okay to do that, yes, because every time you run this with the optimizer what you're doing is you're trying to get the best weights.
+
+393
+01:07:56.190 --> 01:08:10.470
+Capstone Coach 1: For that particular network, and if you get the better weights great if you don't It may be that your optimizer just didn't find them and so optimizing these deep learning networks is a real problem.
+
+394
+01:08:12.660 --> 01:08:15.630
+Capstone Coach 1: This looks like it might have been a little better let's see.
+
+395
+01:08:17.340 --> 01:08:17.430
+A.
+
+396
+01:08:19.650 --> 01:08:22.860
+Capstone Coach 1: little better, a little smaller, but not all that great.
+
+397
+01:08:25.380 --> 01:08:36.570
+Capstone Coach 1: So I think in this round of doing things let's let's set set the cheer or this that this guy back to false.
+
+398
+01:08:39.780 --> 01:08:40.440
+Capstone Coach 1: like that.
+
+399
+01:08:41.580 --> 01:08:45.180
+Capstone Coach 1: And let's go back to the.
+
+400
+01:08:46.380 --> 01:08:51.600
+Capstone Coach 1: First, one which is nlp and change that to true.
+
+401
+01:08:56.580 --> 01:09:00.930
+Capstone Coach 1: and also the recurrent neural network will change that to true.
+
+402
+01:09:04.800 --> 01:09:22.830
+Capstone Coach 1: and run this whole thing now I think these two are the the pop stars rock stars in this particular for this particular data there's the nlp you see it's really fast, because we only have 20 perceptions, I think it is.
+
+403
+01:09:24.030 --> 01:09:27.150
+Capstone Coach 1: And five inputs, so it runs very fast there.
+
+404
+01:09:28.950 --> 01:09:33.660
+Capstone Coach 1: The ASC value for nlp model is.
+
+405
+01:09:35.100 --> 01:09:42.000
+Capstone Coach 1: 00157 for the validation data 00184 for the training data.
+
+406
+01:09:45.120 --> 01:09:48.750
+Capstone Coach 1: And I think our in in is close to that here it is.
+
+407
+01:09:50.340 --> 01:09:59.010
+Capstone Coach 1: 0171 for the validation instead of 152 I think it was and then 205 instead of one.
+
+408
+01:10:00.090 --> 01:10:14.490
+Capstone Coach 1: was at 184 so yeah the nlp model fit this particular data better aren't in this a close second and the other models swell they had some problem with the optimizer and then didn't show as well, basically.
+
+409
+01:10:15.810 --> 01:10:17.730
+Capstone Coach 1: Okay, any questions or comments.
+
+410
+01:10:20.460 --> 01:10:22.740
+Zuberi, Bilal: Professor Jones this is below just one comment.
+
+411
+01:10:24.240 --> 01:10:25.410
+Zuberi, Bilal: I was able to find.
+
+412
+01:10:26.760 --> 01:10:32.850
+Zuberi, Bilal: sq learn has a library called grid search CV that lets you.
+
+413
+01:10:32.910 --> 01:10:33.720
+Capstone Coach 1: what's called work.
+
+414
+01:10:34.320 --> 01:10:40.440
+Zuberi, Bilal: grid search CB and lets you pass in many models and.
+
+415
+01:10:41.730 --> 01:11:04.170
+Zuberi, Bilal: doing some research, it looks like here us has support for grid search from us killearn so you can run hyper parameter optimization, at least for your bad size your inbox as well as one layers you want to use optimizes you want to use, you can hyper parameter.
+
+416
+01:11:04.350 --> 01:11:06.300
+Capstone Coach 1: optimization says work.
+
+417
+01:11:06.630 --> 01:11:08.790
+Capstone Coach 1: Specifically, with carrots or.
+
+418
+01:11:09.450 --> 01:11:11.340
+Zuberi, Bilal: Oh yes, it does, yes, it does.
+
+419
+01:11:11.460 --> 01:11:14.910
+Capstone Coach 1: So they do, they mentioned that or do they have a examples.
+
+420
+01:11:15.540 --> 01:11:20.010
+Zuberi, Bilal: Yes, I have a working example that did mention it and.
+
+421
+01:11:22.800 --> 01:11:23.100
+Capstone Coach 1: well.
+
+422
+01:11:25.860 --> 01:11:28.650
+Capstone Coach 1: yeah yes, I remember, they had a generic grid search.
+
+423
+01:11:29.880 --> 01:11:32.310
+Capstone Coach 1: For any model I think right.
+
+424
+01:11:32.670 --> 01:11:35.790
+Capstone Coach 1: Yes, yeah is that what you're talking about or.
+
+425
+01:11:35.970 --> 01:11:39.090
+Zuberi, Bilal: Yes, Sir that's okay and and it supports.
+
+426
+01:11:41.100 --> 01:11:44.400
+Zuberi, Bilal: All of tensorflow support sacred search as well.
+
+427
+01:11:44.850 --> 01:11:46.020
+Capstone Coach 1: OK OK.
+
+428
+01:11:46.860 --> 01:11:48.930
+Capstone Coach 1: that'd be cool off go check that out.
+
+429
+01:11:49.680 --> 01:11:54.360
+Capstone Coach 1: yeah it's nice to set these things up and then say Okay, let it run overnight.
+
+430
+01:11:56.100 --> 01:12:08.340
+Capstone Coach 1: To find the find the best set of parameters, but yeah it takes a long time to basically get the size right the size generally the the best size generally is small.
+
+431
+01:12:09.510 --> 01:12:11.730
+Capstone Coach 1: And the smaller you make it the longer it takes right.
+
+432
+01:12:13.230 --> 01:12:21.390
+Capstone Coach 1: And then the the learning rate, though, that can that's all over the map it's really all over the map depends depends on the data.
+
+433
+01:12:22.530 --> 01:12:24.840
+Capstone Coach 1: and takes a while to tweak that.
+
+434
+01:12:26.760 --> 01:12:27.240
+Capstone Coach 1: Okay.
+
+435
+01:12:27.330 --> 01:12:31.980
+Zuberi, Bilal: I find it really convenient or the optimizer, as you can find the right one.
+
+436
+01:12:32.460 --> 01:12:32.820
+yeah.
+
+437
+01:12:33.840 --> 01:12:37.080
+Capstone Coach 1: Now some of you are doing projects involving time series.
+
+438
+01:12:38.100 --> 01:12:40.860
+Capstone Coach 1: And so, if I go back to the.
+
+439
+01:12:42.030 --> 01:12:44.220
+Capstone Coach 1: PowerPoint here and.
+
+440
+01:12:45.690 --> 01:12:47.790
+Capstone Coach 1: let's see who that would be, it would be.
+
+441
+01:12:50.040 --> 01:12:51.330
+Capstone Coach 1: satyam and David.
+
+442
+01:12:53.640 --> 01:12:57.750
+Capstone Coach 1: you're you're you're working on a good way to conduct time series analysis is this.
+
+443
+01:12:58.140 --> 01:13:07.470
+Capstone Coach 1: Yes, is this forecasting or by cell, no, no you're not doing by cell you're doing forecasting on the time series is that right.
+
+444
+01:13:07.830 --> 01:13:08.610
+Satyam: Yes, that's correct.
+
+445
+01:13:09.360 --> 01:13:09.750
+Capstone Coach 1: Okay.
+
+446
+01:13:09.870 --> 01:13:15.510
+Capstone Coach 1: The forecasting so are you planning to are you going to try to use some of this and that project.
+
+447
+01:13:15.990 --> 01:13:27.270
+Satyam: Yes, I mean whatever we are learning like we can use that earlier like when I had I had proposed this I was thinking using the stats model models.
+
+448
+01:13:27.510 --> 01:13:30.330
+Satyam: yeah now with this, I can use that as.
+
+449
+01:13:30.570 --> 01:13:32.880
+Capstone Coach 1: Well, you can certainly use the stats model to.
+
+450
+01:13:34.140 --> 01:13:53.820
+Capstone Coach 1: The problem with the stats model is somebody with good ISIS got to look at the output that to tweak the the reverse settings right so rena pdq models require somebody to actually look at the output and say okay P should be three you know you can do a grid search, which is what.
+
+451
+01:13:54.690 --> 01:13:55.710
+Satyam: I thought he does.
+
+452
+01:13:55.890 --> 01:14:00.870
+Capstone Coach 1: ballet you could do a grid search I guess you could do it that way, but I think.
+
+453
+01:14:02.610 --> 01:14:11.550
+Capstone Coach 1: This approach is nice, in the sense that you can just say well i'm going to go up to like six or lag whatever and.
+
+454
+01:14:12.090 --> 01:14:20.610
+Capstone Coach 1: it's it's highly nonlinear you're going to get a nonlinear but you're going to be a you should get a now you still have that guess tweak the the learning ratios, and all that stuff.
+
+455
+01:14:22.800 --> 01:14:23.730
+Capstone Coach 1: And maybe.
+
+456
+01:14:25.980 --> 01:14:27.300
+Capstone Coach 1: Maybe the grid thing that.
+
+457
+01:14:29.310 --> 01:14:30.060
+Capstone Coach 1: Milan is good.
+
+458
+01:14:30.450 --> 01:14:42.930
+Capstone Coach 1: yeah yeah the other, the other, the other point yeah I guess either way you go, whether you go remember where do you go this approach, somebody is going to probably have to look at it and tweak something as you're tweaking different things.
+
+459
+01:14:43.920 --> 01:14:49.290
+Purkiss, David: So when you when you talk about hyper hyper parameter optimization so that you don't have to.
+
+460
+01:14:50.640 --> 01:14:54.870
+Purkiss, David: experiment manually with all these variables correct it.
+
+461
+01:14:55.200 --> 01:15:06.960
+Capstone Coach 1: Well that's what we're talking about I think I think I had to I had to I had to generally you want size to be small that's an easy one, the smaller the better.
+
+462
+01:15:08.760 --> 01:15:10.410
+Capstone Coach 1: But of course the longer it's going.
+
+463
+01:15:10.410 --> 01:15:28.710
+Capstone Coach 1: To take the the hard one is the learning ratio the learning rate in those optimizes that's the hard one because there's no general as far as I can tell there's no general rule or guidance on how that how that works, so you have to just tweak it now.
+
+464
+01:15:30.600 --> 01:15:32.370
+Capstone Coach 1: You could write a program that.
+
+465
+01:15:33.540 --> 01:15:47.730
+Capstone Coach 1: You know, ran it up a little bit run it down a little bit find the sweet spot, so you basically run several different learning rates, you get the ASC values and then you take the one that small CSE value that's the learning reaches us right.
+
+466
+01:15:49.710 --> 01:15:50.490
+Capstone Coach 1: One way to.
+
+467
+01:15:51.840 --> 01:15:52.380
+Capstone Coach 1: But.
+
+468
+01:15:57.120 --> 01:16:05.520
+Capstone Coach 1: So you i'm comfortable with you, taking the if you want to use this models i'm comfortable with that to have you already written the code or your.
+
+469
+01:16:08.100 --> 01:16:15.270
+Purkiss, David: i've just been experimenting with with not with the data that Sam has built with just the IBM data.
+
+470
+01:16:15.360 --> 01:16:15.840
+Capstone Coach 1: mm hmm.
+
+471
+01:16:16.530 --> 01:16:20.340
+Purkiss, David: i'm just running all the different models that we've done the last couple weeks.
+
+472
+01:16:21.930 --> 01:16:28.710
+Capstone Coach 1: Right well it's up to you, whatever you know, whatever gets the job done the easiest you're coming up in a week.
+
+473
+01:16:30.060 --> 01:16:30.630
+Capstone Coach 1: So.
+
+474
+01:16:31.560 --> 01:16:32.880
+Purkiss, David: Again together this weekend.
+
+475
+01:16:33.390 --> 01:16:34.350
+Capstone Coach 1: Good good luck.
+
+476
+01:16:34.410 --> 01:16:35.910
+Purkiss, David: i'll put our two pieces together.
+
+477
+01:16:36.210 --> 01:16:37.530
+Purkiss, David: yeah hey.
+
+478
+01:16:37.620 --> 01:16:38.730
+Capstone Coach 1: How about Brian and.
+
+479
+01:16:38.730 --> 01:16:40.200
+Capstone Coach 1: Nicholas and Charles.
+
+480
+01:16:41.580 --> 01:16:46.050
+Capstone Coach 1: you're working on some technical by cell indicators and Stan Stan stocks.
+
+481
+01:16:47.700 --> 01:16:57.900
+Charles Swanson: This is Charles where we're doing real good we've pulled it in and and have a working model of it's necessary is to Polish that gooey, as it were.
+
+482
+01:16:58.590 --> 01:16:59.070
+Okay.
+
+483
+01:17:00.390 --> 01:17:03.510
+Capstone Coach 1: How many different by cell indicators, or do you have the.
+
+484
+01:17:04.200 --> 01:17:22.020
+Charles Swanson: Word we're just using to we're looking at that ND in a CD as a momentum indicator and then the moving average 200 day moving average relative to the current price as an indicator for whether you're moving up or moving down.
+
+485
+01:17:22.740 --> 01:17:27.090
+Capstone Coach 1: Great yeah this is, this is a black hole I mean a you know, a dark.
+
+486
+01:17:28.860 --> 01:17:38.520
+Capstone Coach 1: black hole you could use huge area there's so many different indicators so she could use i'm not expecting to see that sounds like you've got it you've got to get a good.
+
+487
+01:17:39.720 --> 01:17:40.590
+Capstone Coach 1: Good approach.
+
+488
+01:17:42.630 --> 01:17:46.050
+Capstone Coach 1: Any concerns about the presentation on the 27th and you.
+
+489
+01:17:49.080 --> 01:17:51.990
+Charles Swanson: know I think your instructions, been very clear.
+
+490
+01:17:52.260 --> 01:17:55.110
+Capstone Coach 1: Well, no, I mean you can take you're gonna get everything together okay.
+
+491
+01:17:55.470 --> 01:17:57.180
+Charles Swanson: Oh yes, no issues.
+
+492
+01:17:57.930 --> 01:17:58.410
+Capstone Coach 1: All right.
+
+493
+01:17:59.580 --> 01:18:02.370
+Capstone Coach 1: let's see anybody else doing time series here.
+
+494
+01:18:04.230 --> 01:18:05.310
+Capstone Coach 1: let's go back.
+
+495
+01:18:08.040 --> 01:18:08.670
+Capstone Coach 1: Now.
+
+496
+01:18:11.190 --> 01:18:16.080
+Capstone Coach 1: Raphael alonzo and shoddy you're doing.
+
+497
+01:18:17.940 --> 01:18:23.850
+Capstone Coach 1: predictions are forecast so stocks again using a profit how's that going.
+
+498
+01:18:27.180 --> 01:18:45.240
+Robert Villegas: So far, it's going pretty good, I think we have the the ui is running so profit is facebook's time series forecasting library and so we've got that running you know doing some forecasting on whatever stocks me to pay for it to to read in.
+
+499
+01:18:47.340 --> 01:18:52.860
+Capstone Coach 1: Okay yeah i'm looking forward to your presentation, because i've never heard of profit.
+
+500
+01:18:53.880 --> 01:19:01.020
+Capstone Coach 1: Especially from Facebook I didn't know they just such a thing, but there are of course going to do whatever they can to make money.
+
+501
+01:19:02.610 --> 01:19:04.080
+Capstone Coach 1: I guess it's a product to sell.
+
+502
+01:19:04.680 --> 01:19:05.790
+Zuberi, Bilal: it's really good.
+
+503
+01:19:06.330 --> 01:19:09.360
+Zuberi, Bilal: It is a good it's excellent in terms of.
+
+504
+01:19:12.210 --> 01:19:18.600
+Zuberi, Bilal: Basically, does it it it follows the trend of the time series and it's exceptional in.
+
+505
+01:19:19.470 --> 01:19:37.200
+Zuberi, Bilal: Setting the time series trend you don't need to worry about seasonality you don't need to worry about if you have missing data it takes into account all of that, and you can bring in external holidays and influencers lot of them are built into the.
+
+506
+01:19:38.640 --> 01:19:41.730
+Zuberi, Bilal: prophet calendar itself, which is really good.
+
+507
+01:19:41.760 --> 01:19:46.290
+Capstone Coach 1: Do you think that they're using some of these neural network types so from.
+
+508
+01:19:46.770 --> 01:19:53.730
+Satyam: There, there is a White Paper which they have published and it's more of a regression approach like they are basically.
+
+509
+01:19:55.230 --> 01:20:04.350
+Satyam: Taking the different Basically, they are decomposing the time series, and then they are creating multiple regression models to it, there is a White Paper on it it's pretty good.
+
+510
+01:20:05.040 --> 01:20:07.620
+Satyam: um yeah yeah you I can forward it to you.
+
+511
+01:20:07.920 --> 01:20:13.080
+Capstone Coach 1: Have you actually tried using it to you know predict real time forecast.
+
+512
+01:20:15.000 --> 01:20:19.590
+Satyam: I mean i've worked with bill a little bit like he had tried it.
+
+513
+01:20:20.850 --> 01:20:22.770
+Satyam: It does a good job that's, all I can say.
+
+514
+01:20:22.860 --> 01:20:25.530
+Capstone Coach 1: yeah well we're gonna i'm looking forward to seeing it.
+
+515
+01:20:27.630 --> 01:20:28.260
+Capstone Coach 1: let's see.
+
+516
+01:20:29.160 --> 01:20:35.520
+Capstone Coach 1: It sounds like you, you folks are the only ones that will be talking about time series Am I correct on that.
+
+517
+01:20:36.600 --> 01:20:39.120
+Capstone Coach 1: anybody else have time series component and what they're doing.
+
+518
+01:20:41.550 --> 01:20:43.350
+Capstone Coach 1: Now okay fine.
+
+519
+01:20:45.150 --> 01:20:50.670
+Capstone Coach 1: alrighty here's what's going to happen now we're going to we're going to end class early tonight it's.
+
+520
+01:20:51.240 --> 01:20:57.240
+Capstone Coach 1: Going on a little bit towards eight and what i'd like you to do if you have the energy and.
+
+521
+01:20:57.780 --> 01:21:11.820
+Capstone Coach 1: organization to do so is for your working group to get together and basically touch base and see you know where you are who's going to do what and you know okay we're doing this on the 27th or we're doing this on May, the fourth and we got everything together.
+
+522
+01:21:12.870 --> 01:21:13.860
+Capstone Coach 1: So any questions.
+
+523
+01:21:16.260 --> 01:21:16.980
+Charles Swanson: Yes, all right.
+
+524
+01:21:17.520 --> 01:21:18.720
+Capstone Coach 1: Good deal.
+
+525
+01:21:19.620 --> 01:21:20.460
+Capstone Coach 1: All right, alright job.
+
+526
+01:21:21.720 --> 01:21:22.680
+Capstone Coach 1: See you next week.
+
+527
+01:21:24.120 --> 01:21:25.140
+Charles Swanson: Thank you, Dr Jones.
+
+528
+01:21:25.230 --> 01:21:26.640
+Capstone Coach 1: Thank you good luck.
+
+529
+01:21:27.090 --> 01:21:27.420
+Zuberi, Bilal: Thank you.
+

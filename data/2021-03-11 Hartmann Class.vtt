@@ -1,0 +1,2522 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:11.550
+MS Analytics Class 2021: revealing here, I live in nashville Tennessee I have worked for SAS for over 15 years what I mainly do for SAS is develop educational materials.
+
+2
+00:00:12.120 --> 00:00:29.520
+MS Analytics Class 2021: and teach and this class that i'm teaching you is based on the class that I teach most of the time for SAS I teach it three straight days nine to five it's a lot more palatable in bite sized pieces of, hopefully, you will appreciate that by the end.
+
+3
+00:00:30.540 --> 00:00:36.090
+MS Analytics Class 2021: So the classes on mathematical optimization and i'm going to assume that.
+
+4
+00:00:37.170 --> 00:00:43.230
+MS Analytics Class 2021: Most of you probably don't know what mathematical optimization is so we'll kind of develop it.
+
+5
+00:00:44.760 --> 00:00:59.340
+MS Analytics Class 2021: So in part and teaching concepts of mathematical optimization so you can decide when it's an appropriate class of models to use what types of problems, you will be able to solve using it.
+
+6
+00:01:00.450 --> 00:01:10.380
+MS Analytics Class 2021: But then i'm also teaching you how to use a modeling language which you will use to build and solid optimization problems and.
+
+7
+00:01:11.040 --> 00:01:26.820
+MS Analytics Class 2021: That optimization language is going to involve program will kind of ease our way into that but realize that that is a skill that you would want to have as an analytic student so.
+
+8
+00:01:28.140 --> 00:01:44.730
+MS Analytics Class 2021: If that scares you don't worry the project at the end of the group project, so if you have a couple of strong programmers and you're good, you should be fine, not everyone is going to need to be an expert here, but I am an apt to teach you how to use the syntax of this modeling language.
+
+9
+00:01:45.780 --> 00:01:47.100
+MS Analytics Class 2021: Alright, so let me start out.
+
+10
+00:01:53.610 --> 00:02:13.680
+MS Analytics Class 2021: By kind of putting optimization in context, then talking about the different elements of mathematical optimization model and also kind of establishing some baseline consistent terminology that will use to talk about his problems.
+
+11
+00:02:15.030 --> 00:02:32.100
+MS Analytics Class 2021: So mathematical optimization goes by other names some places, its operations research in some places it's industrial engineering or systems industrial systems engineering other places management science.
+
+12
+00:02:33.270 --> 00:02:40.500
+MS Analytics Class 2021: It had its origins in around the time of the First World War, so we can see as a picture here from a movie called.
+
+13
+00:02:40.770 --> 00:02:42.000
+MS Analytics Class 2021: Cheaper by the dozen.
+
+14
+00:02:42.690 --> 00:02:54.750
+MS Analytics Class 2021: Based on the life of faith Gilbert who's one of the early pioneers of kind of and efficiency experts time and motion studies and so forth.
+
+15
+00:02:56.340 --> 00:03:12.540
+MS Analytics Class 2021: During the Second World War, it became much more kind of analytical with the rise of computing and that's really taken over Now you can solve very, very large models on on laptops or.
+
+16
+00:03:14.010 --> 00:03:15.810
+MS Analytics Class 2021: To cloud based computing.
+
+17
+00:03:17.160 --> 00:03:35.490
+MS Analytics Class 2021: We are going to be using the SAS platform SAS studio to solve problems in this class, we should buy the latter stages of tonight's get into and get our feet wet with SAS studio but I realized that you haven't used that platform before.
+
+18
+00:03:36.570 --> 00:03:49.470
+MS Analytics Class 2021: don't be intimidated it's just a way to run SAS programs and we're not going to do a lot of sass programming outside this modeling language so you don't have to be an expert in SAS.
+
+19
+00:03:51.360 --> 00:03:57.600
+MS Analytics Class 2021: You just have to know some of the basic syntax of this particular neighborhood in SAS.
+
+20
+00:03:59.220 --> 00:04:04.110
+MS Analytics Class 2021: So you can probably read this movie it's a it's a great movie he.
+
+21
+00:04:05.190 --> 00:04:18.480
+MS Analytics Class 2021: used his family as guinea pigs for a lot of his industrial studies so that's why they're all lined up showing that they wash their hands appropriately, I think I call it is probably appropriate for the day and age we live in, as well.
+
+22
+00:04:20.070 --> 00:04:23.490
+MS Analytics Class 2021: But he had things like very scientific ways that you could.
+
+23
+00:04:24.510 --> 00:04:33.000
+MS Analytics Class 2021: soap yourself in the shower with the fewest movements in the same way that he would try and make the movements of workers on an assembly line more efficient.
+
+24
+00:04:34.020 --> 00:04:34.740
+MS Analytics Class 2021: At any rate.
+
+25
+00:04:37.620 --> 00:04:49.560
+MS Analytics Class 2021: What optimization basically is is choosing amongst the available actions that you have that course of action is going to produce the best results.
+
+26
+00:04:50.700 --> 00:04:51.060
+MS Analytics Class 2021: and
+
+27
+00:04:52.860 --> 00:05:09.480
+MS Analytics Class 2021: In the the term operations research and it gives you the idea that many of the problems that are solved by this approach or kind of operational and in nature, you will see that as we look at the types of problems that we're going to be able to solve.
+
+28
+00:05:11.250 --> 00:05:17.850
+MS Analytics Class 2021: So it kind of goes from Maybe I should show you the next slide has a picture.
+
+29
+00:05:18.960 --> 00:05:27.930
+MS Analytics Class 2021: When whenever anyone describes the setting that they work in they put themselves at the top of some pyramid and i'm not going to be a shocker in that respect.
+
+30
+00:05:29.010 --> 00:05:30.960
+MS Analytics Class 2021: What you see in the bottom of the pyramid.
+
+31
+00:05:32.010 --> 00:05:37.530
+MS Analytics Class 2021: would be kind of descriptive analytics working with data data cleaning.
+
+32
+00:05:39.000 --> 00:05:56.610
+MS Analytics Class 2021: On top of that our predictive analytics doing things like forecasting where you would assume that the data is prepared, and they want to figure out what is going to happen right So if I if I do this, based on the past, what will happen in the future.
+
+33
+00:05:57.720 --> 00:06:15.570
+MS Analytics Class 2021: prescriptive analytics takes the results from predictive analytics and says okay if that's what I can expect then which action should I choose to take so that my predicted outcome is best in some way right.
+
+34
+00:06:16.860 --> 00:06:30.600
+MS Analytics Class 2021: So in this class we're not going to talk a lot about data cleaning or predictive analytics we're going to assume that that's been done to prepare the input data for the types of models that will be building not to minimize the work that goes into that.
+
+35
+00:06:31.650 --> 00:06:40.410
+MS Analytics Class 2021: But when we look at the data sets for our problems that assumes that that work has already been done right and, in many cases.
+
+36
+00:06:41.160 --> 00:06:48.960
+MS Analytics Class 2021: The types of problems that you're able to solve depend on the quality and the granularity of the data that you've been able to collect.
+
+37
+00:06:49.350 --> 00:07:03.660
+MS Analytics Class 2021: So you may have a model, you can describe very well and it might work great if you have the data in order to run them off okay we're not going to get into those data issues we're going to talk about the kind of high level reasoning that goes into making those decisions.
+
+38
+00:07:05.970 --> 00:07:12.990
+MS Analytics Class 2021: So there are a lot of different types of problems that can be solved using mathematical optimization.
+
+39
+00:07:15.150 --> 00:07:27.030
+MS Analytics Class 2021: Probably the one that touches closest to most of you is that operations research and mathematical optimization is very heavily used in the airline industry.
+
+40
+00:07:28.290 --> 00:07:37.260
+MS Analytics Class 2021: So when they're trying to determine which planes to allocate to which flight segments, and which crews to allocate to which flights.
+
+41
+00:07:38.190 --> 00:07:49.950
+MS Analytics Class 2021: that's an enormously large and complicated optimization model which is solved over and over and over again, and a lot of work has been put into figuring out how to solve it quickly.
+
+42
+00:07:50.820 --> 00:08:07.260
+MS Analytics Class 2021: because all of letting it run overnight is fine, most of the time when there's a major weather destruction, those same questions have to be answered in close to real time so that that's probably the area of mathematical optimization that touches equal cielo there a lot of.
+
+43
+00:08:08.280 --> 00:08:12.540
+MS Analytics Class 2021: Logistical pieces of mathematical optimization as well.
+
+44
+00:08:14.310 --> 00:08:17.910
+MS Analytics Class 2021: So we'll see some examples of these in our class, although.
+
+45
+00:08:19.170 --> 00:08:23.370
+MS Analytics Class 2021: This year, many of the examples that i'm going to use are going to involve.
+
+46
+00:08:24.630 --> 00:08:30.210
+MS Analytics Class 2021: beer and spirits all right just just your luck, this could be your year.
+
+47
+00:08:32.640 --> 00:08:43.560
+MS Analytics Class 2021: So i'm going to try and contrast building and solving an optimization model with the kind of story problems that you might have seen in algebra or calculus class.
+
+48
+00:08:44.700 --> 00:08:51.990
+MS Analytics Class 2021: So, like the example that you can see, on the right here for a story problem and algebra calculus.
+
+49
+00:08:52.860 --> 00:09:12.180
+MS Analytics Class 2021: there's a description of the problem, setting and typically a small amount of data that goes into coming up with a solution right, you have to know how to kind of figure out which equation, to set up plug the numbers into it get the answer right.
+
+50
+00:09:13.590 --> 00:09:18.900
+MS Analytics Class 2021: Now, by way of contrast with a mathematical optimization model.
+
+51
+00:09:20.940 --> 00:09:26.460
+MS Analytics Class 2021: We will start with a business problem here let's see.
+
+52
+00:09:30.150 --> 00:09:32.940
+MS Analytics Class 2021: An annotation challenge at this moment here let's see.
+
+53
+00:09:45.150 --> 00:09:46.920
+MS Analytics Class 2021: Okay sorry creature of habit.
+
+54
+00:09:50.220 --> 00:09:57.930
+MS Analytics Class 2021: Right, so we start with with a business problem and to kind of put that in the context with the story problem from algebra calculus.
+
+55
+00:09:59.100 --> 00:10:16.620
+MS Analytics Class 2021: In in practice we may have like intimate knowledge of the business problem person in in our domain, but because think it is you want to do the cut and dry was having like a description of the the business problem and the associated data.
+
+56
+00:10:17.820 --> 00:10:35.640
+MS Analytics Class 2021: Now coming up with a model and here, instead of kind of doing it on on on pen and paper as we might do in calculus or algebra or typically will go to a modeling language and start composing our model using this kind of programming language, if you will.
+
+57
+00:10:37.050 --> 00:10:48.630
+MS Analytics Class 2021: Because the models are more complicated, you know, not just a simple equation, we set up an ad many different equations or inequalities that go into the model.
+
+58
+00:10:51.240 --> 00:10:53.760
+MS Analytics Class 2021: We don't always have the luxury of.
+
+59
+00:10:54.930 --> 00:11:04.710
+MS Analytics Class 2021: picking a model that describes our business problem exactly that may be too complicated or too large to be able to solve, so we might have to make some simplifying assumptions.
+
+60
+00:11:06.060 --> 00:11:08.700
+MS Analytics Class 2021: So there's some judgment involved in coming up with the model.
+
+61
+00:11:09.780 --> 00:11:20.700
+MS Analytics Class 2021: and, beyond that, when it comes to the solution instead of having just one answer, there may be many solutions that satisfy the requirements of the problem.
+
+62
+00:11:21.390 --> 00:11:32.160
+MS Analytics Class 2021: From which we have to have some way of selecting the best what we call the optimal solution right and so will frequently have some measure or score.
+
+63
+00:11:32.700 --> 00:11:43.110
+MS Analytics Class 2021: For the solutions we want to pick the best one out okay so there's a lot more that goes into an optimization model than you're accustomed to in a kind of a normal story problem.
+
+64
+00:11:59.820 --> 00:12:02.220
+MS Analytics Class 2021: Right so i'm just having a little trouble navigating here.
+
+65
+00:12:14.700 --> 00:12:21.450
+MS Analytics Class 2021: Okay, so i'm going to start with an example that should be familiar to all of you, since you're taking the class here.
+
+66
+00:12:22.710 --> 00:12:27.750
+MS Analytics Class 2021: So, if you read the syllabus you know how grades are determining the course based on.
+
+67
+00:12:28.350 --> 00:12:37.140
+MS Analytics Class 2021: your homework scores and two projects that are assigned one from the first half of the class and the other from the second half, but in general.
+
+68
+00:12:37.710 --> 00:12:45.420
+MS Analytics Class 2021: might have also example, might be a mid term idol to be a final exam so when we're trying to decide how to.
+
+69
+00:12:46.290 --> 00:12:55.560
+MS Analytics Class 2021: convey to you how to invest your time and energy into different classes that you're taking need to know how much each of those things is work.
+
+70
+00:12:56.010 --> 00:13:07.710
+MS Analytics Class 2021: Right or the homework worth 10% of my grade 50% 90% that determines how much energy and effort you put into doing right as opposed to project Center exams.
+
+71
+00:13:09.030 --> 00:13:22.860
+MS Analytics Class 2021: So the two instructors for the course get together and decide argue figure out what these weights, are going to be so that before you start putting your effort into it, you know how much each part is worth right.
+
+72
+00:13:24.030 --> 00:13:33.570
+MS Analytics Class 2021: So from the previous years course the students perform grades are recorded scores are calculated in grades are assigned right.
+
+73
+00:13:34.200 --> 00:13:45.420
+MS Analytics Class 2021: The instructors toby also have some subjective idea of how all the students performed independently of the scores that are calculated from their race, you know.
+
+74
+00:13:46.320 --> 00:13:54.000
+MS Analytics Class 2021: So, and so really deserves this grade or they didn't do so well, they should get in this grade you kind of have two scales.
+
+75
+00:13:54.780 --> 00:14:16.560
+MS Analytics Class 2021: One subjective from the instructors and one analytical based on the scores right, and if you were to look at a graph of those two you might see on the bottom scale the suggestive scores now realized that looks like it's covered by the.
+
+76
+00:14:17.760 --> 00:14:27.900
+MS Analytics Class 2021: By the by the the annotation and the vertical axis the score is calculated from the waist and they're probably not going to line up exactly right.
+
+77
+00:14:29.730 --> 00:14:43.200
+MS Analytics Class 2021: In this case, a measure of how close they are is correlation between the two sets of scores right and in this, so it gives you an idea of how close they are to lying on that line.
+
+78
+00:14:44.370 --> 00:14:54.060
+MS Analytics Class 2021: I think the correlation here is point seven seven correlation is between minus one and one so it's the quantity, that you can compute from those two scales.
+
+79
+00:14:55.230 --> 00:14:56.100
+MS Analytics Class 2021: Alright, so.
+
+80
+00:14:58.500 --> 00:15:08.520
+MS Analytics Class 2021: Maybe Point seven seven is not as high correlation as the instructors might like they would rather have the scores come up with a better.
+
+81
+00:15:08.970 --> 00:15:20.820
+MS Analytics Class 2021: measure that better matches their subjective evaluation of the students performance right, so what they could do is they could say, well, can we change the ways.
+
+82
+00:15:21.960 --> 00:15:31.110
+MS Analytics Class 2021: Can we change the weights that we assigned to homework to projects and exams in such a way that those are better aligned.
+
+83
+00:15:31.980 --> 00:15:48.840
+MS Analytics Class 2021: Now, if we change the waist it won't affect the subjective scores there'll be the same, but the ways, together with this, the students performance, the grades on the homework, the exams and the projects that will affect those calculated scores.
+
+84
+00:15:49.920 --> 00:16:02.490
+MS Analytics Class 2021: So if I look here i'll show you i'll come back to this if I change the ways it'll move those points on the vertical axis, but not on the horizontal axis.
+
+85
+00:16:02.940 --> 00:16:19.680
+MS Analytics Class 2021: And so, in this case the weights used to calculate the positions that are read here appear to have improved the correlation maybe from Point seven 2.8 right so choosing different ways affects how closely aligned those two scales are.
+
+86
+00:16:20.970 --> 00:16:30.030
+MS Analytics Class 2021: All right, so the question I want to address is how can I determine better wait for this year, based on the data that I have from previous years, or the system last year.
+
+87
+00:16:32.040 --> 00:16:41.340
+MS Analytics Class 2021: So the elements of a mathematical optimization model, the first and kind of most primal element are called decision variables.
+
+88
+00:16:41.940 --> 00:16:49.620
+MS Analytics Class 2021: They correspond to the decisions or choices in the business problem, so it kind of maps the decisions.
+
+89
+00:16:50.100 --> 00:17:04.920
+MS Analytics Class 2021: To numerical values in this case it's it's a very simple because I want to find better ways the decision variables in this case, would be the weights that are assigned to the different parts of the course okay.
+
+90
+00:17:06.420 --> 00:17:17.250
+MS Analytics Class 2021: So each homework assignment each project and each exam is going to have an associated wait, those are my decision variables okay that's what I haven't seen since I have control over.
+
+91
+00:17:18.930 --> 00:17:30.420
+MS Analytics Class 2021: Right, so I showed you how that affects the calculated scores, and so some weights, are going to result in a higher correlation some weights, are going to result in a lower correlation.
+
+92
+00:17:31.530 --> 00:17:31.770
+OK.
+
+93
+00:17:34.770 --> 00:17:35.340
+MS Analytics Class 2021: Now.
+
+94
+00:17:37.770 --> 00:17:53.490
+MS Analytics Class 2021: Strangely, we are going to refer to any assignment of values to the decision variables as a solution so typically what you think of is the solution is the correct answer in this case, the solution is just some assignment evaluate the decision variables.
+
+95
+00:17:54.540 --> 00:18:02.160
+MS Analytics Class 2021: Then we'll from that go on to talk about solutions that satisfy requirements and then ultimately the best optimal solution.
+
+96
+00:18:02.640 --> 00:18:15.630
+MS Analytics Class 2021: Okay, but in this case that a solution could be weighted zero for everything it could also include negative ways, obviously we don't want that that would be a disincentive to do that homework assignment if you got a negative White for right.
+
+97
+00:18:17.400 --> 00:18:22.860
+MS Analytics Class 2021: Okay, so no seems strange any assignment evaluation decision variables was called a solution.
+
+98
+00:18:25.680 --> 00:18:36.360
+MS Analytics Class 2021: Then from the values of the decision variables we calculate what we call an objective function, this is that score, which tells us whether one.
+
+99
+00:18:36.960 --> 00:18:48.570
+MS Analytics Class 2021: set of weights is better than another, in this case, what i'm going to use is the correlation and I agree the mathematical formula for the correlation if you have.
+
+100
+00:18:49.590 --> 00:18:56.670
+MS Analytics Class 2021: Like a sequence of X values in the sequence of y values, this is kind of like statistical shorthand of how to calculate the correlation.
+
+101
+00:18:57.870 --> 00:19:09.450
+MS Analytics Class 2021: i'm not going to ask you to calculate any correlations right it just about anything in excel you can you can just ask it to calculate the correlation, I just wanted to kind of give you an idea of what the.
+
+102
+00:19:09.840 --> 00:19:18.120
+MS Analytics Class 2021: formula actually looks like, because that will impact, what type of model we end up with, and it turns out again that it's between minus one in one.
+
+103
+00:19:18.990 --> 00:19:29.880
+MS Analytics Class 2021: closer to one they they align on that line I was closer to minus one they would kind of the line would go in the other direction, so they would be negatively correlated in that case.
+
+104
+00:19:31.320 --> 00:19:33.780
+MS Analytics Class 2021: Alright, so Finally we get to.
+
+105
+00:19:34.800 --> 00:19:47.370
+MS Analytics Class 2021: The next model elements which is constraints, these are requirements that the solution should satisfy in order to be reasonable in some sense or implementable.
+
+106
+00:19:47.910 --> 00:20:03.960
+MS Analytics Class 2021: Alright, so negative weights no not going to work so he'd require, for example, that our weights be non negative that would be what we would refer to as a constraint, a limitation on the possible values of the decision variables in this case.
+
+107
+00:20:05.010 --> 00:20:05.430
+MS Analytics Class 2021: Okay.
+
+108
+00:20:06.720 --> 00:20:17.280
+MS Analytics Class 2021: So they should be non negative, they should be added to you know if we're doing things by percentage like you would typically see in the syllabus they should add up to 100% right.
+
+109
+00:20:19.950 --> 00:20:25.590
+MS Analytics Class 2021: What might some other reasonable constraints on the weights be.
+
+110
+00:20:27.720 --> 00:20:29.460
+MS Analytics Class 2021: anyone wants to make a suggestion.
+
+111
+00:20:31.350 --> 00:20:33.330
+MS Analytics Class 2021: I think i'm looking at the chat.
+
+112
+00:20:33.630 --> 00:20:42.060
+Swanson J, Charles: You might have a limit as to the maximum a particular weight, such as no particular weight can exceed 20%.
+
+113
+00:20:43.200 --> 00:20:49.650
+MS Analytics Class 2021: Sure that's fine I mean, I can see that on some occasions you might have a class it's heavily weighted towards the final exam.
+
+114
+00:20:50.070 --> 00:21:03.300
+MS Analytics Class 2021: Might count is like you know 50% of your grade but, as it turns out there no exam so that's not an issue here, so a maximum weight sure that will be a good anything else, I mean my monitor just.
+
+115
+00:21:13.470 --> 00:21:14.910
+Wilson Pineda: letting me also.
+
+116
+00:21:16.020 --> 00:21:22.410
+Wilson Pineda: So you also want to say that the ratio between all the ways to be within a certain range.
+
+117
+00:21:25.920 --> 00:21:26.880
+MS Analytics Class 2021: You could say that.
+
+118
+00:21:27.420 --> 00:21:42.060
+MS Analytics Class 2021: You can say that shouldn't have one wait that's more than twice the smallest wait, we could do that now, in this class I don't want to add this into the the complexity of the problem, but since you can drop a homework assignment in this class.
+
+119
+00:21:43.140 --> 00:21:55.560
+MS Analytics Class 2021: I would say it's probably a reasonable constraint that I should say that all the homework all the homework should count the same all the weights of the homework assignments individual assignments, should be the same.
+
+120
+00:21:56.610 --> 00:22:06.660
+MS Analytics Class 2021: Otherwise it wouldn't be fair for people to drop different assignments right so that's an additional requirement or constraint, the weights myself I.
+
+121
+00:22:08.790 --> 00:22:10.470
+MS Analytics Class 2021: Would you think it would be.
+
+122
+00:22:12.900 --> 00:22:14.070
+MS Analytics Class 2021: Fair if.
+
+123
+00:22:15.510 --> 00:22:19.080
+MS Analytics Class 2021: The the homework assignments counted more than the project.
+
+124
+00:22:20.670 --> 00:22:23.850
+MS Analytics Class 2021: If an individual homework assignment Calvin more than the project.
+
+125
+00:22:24.660 --> 00:22:28.020
+Amanda Pham: It depends on how easy the homework assignment is to the project.
+
+126
+00:22:28.560 --> 00:22:38.940
+MS Analytics Class 2021: All mine are really easy well i'm just saying that usually we think of a project is kind of a cumulative thing right so probably should carry more weight than the homework assignments.
+
+127
+00:22:39.930 --> 00:22:46.800
+MS Analytics Class 2021: i'm just trying to get you to think along the lines of what types of constraints, we might want to add in a problem, like this i'm not saying that.
+
+128
+00:22:48.090 --> 00:22:58.620
+MS Analytics Class 2021: That i'm going to take these and and use them for next year to calculate the grades, but just to kind of get you thinking about what constraints mean in a mathematical optimization problem.
+
+129
+00:22:59.790 --> 00:23:03.330
+MS Analytics Class 2021: Okay, so it's one of these as an example of.
+
+130
+00:23:04.740 --> 00:23:12.720
+MS Analytics Class 2021: A simple decision problem to illustrate the different types of model elements so there's the decision variables.
+
+131
+00:23:13.350 --> 00:23:20.130
+MS Analytics Class 2021: right they take our available decisions and choices and map them to numerical values and the reason why that's significant is because.
+
+132
+00:23:20.940 --> 00:23:31.920
+MS Analytics Class 2021: Most of the solution techniques in this area are geometrically based so it's important to have like a space of potential solutions in order to apply those techniques.
+
+133
+00:23:33.270 --> 00:23:46.500
+MS Analytics Class 2021: The objective function, which is used to compare different solutions and the constraints which are additional requirements that the solutions must satisfy in order to somehow be.
+
+134
+00:23:47.010 --> 00:23:57.000
+MS Analytics Class 2021: Reasonable or implementable Okay, and so we'll see those models elements in every mathematical optimization problem we consider.
+
+135
+00:23:59.850 --> 00:24:14.610
+MS Analytics Class 2021: Alright, so oftentimes the decision variables, as the most kind of primitive or primal element, these are are answering very kind of low level decisions.
+
+136
+00:24:15.090 --> 00:24:25.380
+MS Analytics Class 2021: The minutiae of the decisions that we need to make in the model and I give me some examples here of the types of questions that decision variables might answer.
+
+137
+00:24:26.610 --> 00:24:36.540
+MS Analytics Class 2021: Some of them involve decision variables that are inherently continuous So when I asked what price we should charge for a product.
+
+138
+00:24:37.800 --> 00:24:55.770
+MS Analytics Class 2021: You could have any value in there right it wouldn't have to necessarily be $1 $2 $3 we could have something that's $1 49 so there may be some granularity to it but it's probably safe to assume that we can choose any value for the price.
+
+139
+00:24:56.970 --> 00:25:09.360
+MS Analytics Class 2021: On the other hand, if I want to decide how many workers to hire that's probably something that's important to be in undervalued right, you may not be able to hire.
+
+140
+00:25:10.230 --> 00:25:21.720
+MS Analytics Class 2021: 3.1 for temporary workers alright so some of our decision variables are required to be integer value that's an additional complication to some of the models.
+
+141
+00:25:22.740 --> 00:25:27.240
+MS Analytics Class 2021: So if you're talking about production, depending on the scale.
+
+142
+00:25:28.380 --> 00:25:39.900
+MS Analytics Class 2021: You might be able to assume that continuous so if we're talking about something that's fluid, then obviously continuous is fine, but even if we're talking about something like barrels of oil.
+
+143
+00:25:40.770 --> 00:25:50.730
+MS Analytics Class 2021: If the number of barrels is really, really big then plus or minus one is not going to make much of a difference, so we can assume that that will be a continuous variable because.
+
+144
+00:25:51.270 --> 00:25:57.420
+MS Analytics Class 2021: Having something with the speed choices is going to be a complication that enters into the models it's going to make things hard to solve.
+
+145
+00:25:58.860 --> 00:26:03.630
+MS Analytics Class 2021: Whereas if we're looking at a binary type decision like should we close this particular store.
+
+146
+00:26:04.740 --> 00:26:12.180
+MS Analytics Class 2021: Then that's inherently discreet we can't really get away with saying okay Well, the answer to that is half.
+
+147
+00:26:12.690 --> 00:26:21.810
+MS Analytics Class 2021: Well, what does that really mean you can't close half the store not going to flip a coin, to decide where they're going to close the store you really needed a discrete decision in that case.
+
+148
+00:26:23.190 --> 00:26:30.540
+MS Analytics Class 2021: So decision variables kind of the basic decisions of the problem, maybe discrete maybe continuous.
+
+149
+00:26:31.920 --> 00:26:48.570
+MS Analytics Class 2021: The constraints in the objective are using measures that can be calculated from the values of decision variables we've already talked about how the objective function does that right let's compare between two solutions is one better than the other.
+
+150
+00:26:50.070 --> 00:27:03.180
+MS Analytics Class 2021: But if we set prices that may affect our demand and demand is more kind of takes into account all of the different prices that are set so it's kind of a more global calculation of score measure.
+
+151
+00:27:05.940 --> 00:27:17.640
+MS Analytics Class 2021: How inventory flows, the system, so if you determine how much you producing an each period, and you have the demand, and you can figure out what the inventory is right either calculated from the values of the decision variables.
+
+152
+00:27:19.050 --> 00:27:28.380
+MS Analytics Class 2021: Cost you figure out how much you're going to preserve all these different things, and you add up all the production costs that tells you the total cost right.
+
+153
+00:27:29.340 --> 00:27:37.380
+MS Analytics Class 2021: So the objective and the constraints are based on scores or measures that can be calculated from the values that decision variables.
+
+154
+00:27:38.190 --> 00:27:43.590
+MS Analytics Class 2021: Sometimes we have problems where we have not this one objective, but we have multiple objectives.
+
+155
+00:27:44.250 --> 00:27:50.790
+MS Analytics Class 2021: In which case, some of those objectives can be handled those constraints, by including targets like you might say.
+
+156
+00:27:51.630 --> 00:28:00.900
+MS Analytics Class 2021: We want to maximize profit, but we want to make sure that return on investment is at least a certain value right, so there, there are ways of incorporating.
+
+157
+00:28:01.680 --> 00:28:14.460
+MS Analytics Class 2021: problems that seem like they have multiple different objectives that we want to achieve, by way of using constraints so constraints in the objective are based on measures that can be calculated from the decision variables.
+
+158
+00:28:17.580 --> 00:28:24.150
+MS Analytics Class 2021: So here, let me use my first example involving beverages, so there is a music.
+
+159
+00:28:25.260 --> 00:28:32.250
+MS Analytics Class 2021: record store in Houston called Texas, music and they have in the store this is pretty cool but, of course.
+
+160
+00:28:32.970 --> 00:28:48.600
+MS Analytics Class 2021: They have concerts so they'll bring a band in that's playing in town and they'll say okay play a free show at our store it's good for the band to get publicity is good for the record store brings people into the store they buy records right.
+
+161
+00:28:50.520 --> 00:28:51.630
+MS Analytics Class 2021: This is the case in.
+
+162
+00:28:52.920 --> 00:29:02.400
+MS Analytics Class 2021: record stores and national and also Texas music, it will often have the performance is sponsored by some say craft brewery.
+
+163
+00:29:03.240 --> 00:29:21.270
+MS Analytics Class 2021: and the craft brewery will supply beer, which they will just give away to the patrons of drink legal drinking age alright, so you go to the show, and you can you know grab a cold beer, while you're watching the band okay so let's say that.
+
+164
+00:29:23.070 --> 00:29:31.380
+MS Analytics Class 2021: We represent the old star brewing company, we have a new craft beer called red giant ALE, we want to get people to try it.
+
+165
+00:29:32.160 --> 00:29:41.640
+MS Analytics Class 2021: right because it's a new product going to get it into people's hands and so we're going to sponsor some of these in store music performances.
+
+166
+00:29:42.240 --> 00:29:54.660
+MS Analytics Class 2021: If we choose to sponsor a performance, based on the type of music and the popularity of the band we're going to reach certain demographic groups in certain numbers, so we might be interested in reaching.
+
+167
+00:29:55.410 --> 00:30:01.500
+MS Analytics Class 2021: males of a certain age, they might be other other factors that go into our demographics okay.
+
+168
+00:30:02.760 --> 00:30:08.160
+MS Analytics Class 2021: So you know it might be that if we decided to sponsor.
+
+169
+00:30:09.510 --> 00:30:24.090
+MS Analytics Class 2021: Country and Western band, we might not really reach our demographic we might only have a few people that were interested in reaching there and we have to give out free beer to a lot of country music fans that probably aren't going to appreciate our craft beer and end up buying.
+
+170
+00:30:25.140 --> 00:30:37.980
+MS Analytics Class 2021: So, depending on the bands playing the style of music that they play and how popular they are We calculated estimated attendance by different demographic groups that were interested in reaching.
+
+171
+00:30:39.030 --> 00:30:50.250
+MS Analytics Class 2021: And the question is which are the performances, should we sponsor in order to reach target levels of these various demographic groups at minimum costs.
+
+172
+00:30:51.480 --> 00:30:54.840
+MS Analytics Class 2021: So one way, we could do we could just sponsor them all.
+
+173
+00:30:56.070 --> 00:31:01.950
+MS Analytics Class 2021: And, assuming that the bands are popular enough in the styles are closely matched with our groups.
+
+174
+00:31:03.120 --> 00:31:15.240
+MS Analytics Class 2021: were likely to reach our target demographics or demographic targets, but that might be rather a large costs because let's say for every estimated.
+
+175
+00:31:15.870 --> 00:31:27.540
+MS Analytics Class 2021: person and drinking age 21 Plus we provide one beverage right, so if they estimate the attendance is going to be 100 we would send 100 cans of beer.
+
+176
+00:31:28.950 --> 00:31:39.120
+MS Analytics Class 2021: Not all those cans of beer, again, I will be drunk by our target demographic group, and some people have legal drinking age, nobody won't have one of them and others might choose to have more than one.
+
+177
+00:31:40.170 --> 00:31:40.740
+MS Analytics Class 2021: But.
+
+178
+00:31:42.840 --> 00:31:59.910
+MS Analytics Class 2021: we've also got to get the beard to the record store take one of our employees and have them taking time off doing whatever useful tests, they do at the brewery to deliver the beer, to the record store right so there's costs involved with sponsoring one of these events.
+
+179
+00:32:00.990 --> 00:32:01.770
+MS Analytics Class 2021: question is.
+
+180
+00:32:03.330 --> 00:32:09.450
+MS Analytics Class 2021: How would we say should sponsor in order to reach their target demographic groups at minimum cost.
+
+181
+00:32:10.680 --> 00:32:22.680
+MS Analytics Class 2021: So thinking about this as a decision problem and throwing out questions of legality to the side because that's not kind of germane to the decision problem aspect of this.
+
+182
+00:32:24.540 --> 00:32:27.660
+MS Analytics Class 2021: If we formulated this as a mathematical optimization problem.
+
+183
+00:32:28.680 --> 00:32:30.630
+MS Analytics Class 2021: What would our decision variables be.
+
+184
+00:32:34.890 --> 00:32:36.930
+Swanson J, Charles: The number of cans to provide.
+
+185
+00:32:40.170 --> 00:32:42.120
+MS Analytics Class 2021: Pardon I didn't I didn't quite understand what you.
+
+186
+00:32:42.120 --> 00:32:45.750
+Swanson J, Charles: said number of cans of beer, to provide per.
+
+187
+00:32:46.170 --> 00:32:48.300
+MS Analytics Class 2021: Okay, well, the number of cans of beer.
+
+188
+00:32:48.300 --> 00:32:54.180
+MS Analytics Class 2021: Is I would say is a measure that we could calculate if we know.
+
+189
+00:32:55.320 --> 00:32:56.850
+MS Analytics Class 2021: Something more primal.
+
+190
+00:32:59.430 --> 00:33:01.770
+MS Analytics Class 2021: Something more elemental this case.
+
+191
+00:33:05.820 --> 00:33:07.440
+MS Analytics Class 2021: Well, types of bands and that's just our.
+
+192
+00:33:07.440 --> 00:33:07.920
+data.
+
+193
+00:33:09.030 --> 00:33:14.880
+MS Analytics Class 2021: Okay, that that again is data that i'm not saying it's easy to come by, but we have this data and it says that.
+
+194
+00:33:16.020 --> 00:33:33.420
+MS Analytics Class 2021: If you decide to sponsor when snow patrol comes into town and plays a cactus music you're going to have these many males of this age this many females of this age, making up a overall attendance of 100 requiring 100 cans of beer.
+
+195
+00:33:37.230 --> 00:33:39.510
+MS Analytics Class 2021: Okay, so, so the number of cans of beer.
+
+196
+00:33:40.560 --> 00:33:43.800
+MS Analytics Class 2021: is based on whether I choose to sponsor that event or not.
+
+197
+00:33:46.350 --> 00:33:57.120
+MS Analytics Class 2021: And the data that I have the decision in that case is did I decided to sponsor when snow patrol comes to cactus music on this date okay.
+
+198
+00:33:58.380 --> 00:34:09.210
+MS Analytics Class 2021: So in this case the decision variables are binary variables for each of the performances do I sponsor that performance or do I not sponsored.
+
+199
+00:34:10.230 --> 00:34:16.950
+MS Analytics Class 2021: Once I know which ones i'm going to sponsor I think calculate from my data, how many cans of beer i'm going to need.
+
+200
+00:34:17.910 --> 00:34:26.430
+MS Analytics Class 2021: So all the why don't know a priori until i've made the decisions, how many cans of beer i'm going to need that's not going to be one of my decision variants.
+
+201
+00:34:27.210 --> 00:34:46.380
+MS Analytics Class 2021: Okay might somehow factor into my constraints, I mean let's say it may be the case that normally I don't can this new product, I only sell it in case I have to go out of my way to get all that beer cans for this opportunity, then the number of cans might be limited in some way.
+
+202
+00:34:47.760 --> 00:34:57.120
+MS Analytics Class 2021: If you could enter into the constraints, but in this case, I would say the decision variables are binary decision variables for each performance okay.
+
+203
+00:34:59.760 --> 00:35:00.900
+MS Analytics Class 2021: What about the objective.
+
+204
+00:35:03.570 --> 00:35:06.570
+MS Analytics Class 2021: Just like any good story problem if you kind of go back and read.
+
+205
+00:35:07.590 --> 00:35:11.280
+MS Analytics Class 2021: It kind of tells me what the answer, so what would the objective be.
+
+206
+00:35:11.850 --> 00:35:13.200
+Swanson J, Charles: maximized the man.
+
+207
+00:35:16.050 --> 00:35:18.180
+MS Analytics Class 2021: uh I would say.
+
+208
+00:35:18.270 --> 00:35:21.390
+Zuberi, Bilal: maximize exposure and minimum cost.
+
+209
+00:35:22.590 --> 00:35:28.170
+MS Analytics Class 2021: minimum cost here's what the problem is asking for right, the objective is.
+
+210
+00:35:29.280 --> 00:35:32.790
+MS Analytics Class 2021: If I take two solutions that satisfy the constraints.
+
+211
+00:35:34.380 --> 00:35:40.140
+MS Analytics Class 2021: Then I want to choose the one that has the lowest cost, the objective is to minimize costs.
+
+212
+00:35:41.370 --> 00:35:44.880
+MS Analytics Class 2021: That doesn't say that that's, the only thing i'm looking for.
+
+213
+00:35:45.930 --> 00:36:00.480
+MS Analytics Class 2021: It just says that, together with the constraints has to get me a solution that that satisfies my requirements and this case and does so at a minimum costs, the objective is to minimize costs.
+
+214
+00:36:02.550 --> 00:36:07.440
+MS Analytics Class 2021: There are other things that you're suggesting factor into in this case the constraints.
+
+215
+00:36:08.670 --> 00:36:12.720
+MS Analytics Class 2021: So you can see here, I can I can try and do this a little more.
+
+216
+00:36:14.190 --> 00:36:18.750
+MS Analytics Class 2021: on the spot here so that's our objective.
+
+217
+00:36:19.800 --> 00:36:23.520
+MS Analytics Class 2021: here is how we're going to get our constraints.
+
+218
+00:36:24.870 --> 00:36:42.720
+MS Analytics Class 2021: So there was some kind of fuzzy description of this desirability of this of this part of the requirements for the problem, this will venture into the constraints, so if my one of my demographic groups is males of a certain age.
+
+219
+00:36:43.770 --> 00:36:54.030
+MS Analytics Class 2021: And I know which events that i'm going to sponsor my data will tell me how many males that age i'm going to reach making those decisions, and I want to make sure it's at least my target value.
+
+220
+00:36:55.170 --> 00:37:09.000
+MS Analytics Class 2021: Okay, and I could have target values for males of this days meals at this age females have this age now i've got to figure out who i'm trying who my audience is my craft beer and try and reach those people.
+
+221
+00:37:10.470 --> 00:37:10.770
+Okay.
+
+222
+00:37:12.510 --> 00:37:17.310
+MS Analytics Class 2021: So this a try and give you an example that trying to kind of work through here and think about.
+
+223
+00:37:22.050 --> 00:37:24.210
+MS Analytics Class 2021: What those different model elements are.
+
+224
+00:37:25.620 --> 00:37:27.570
+MS Analytics Class 2021: And we'll see other examples, as we go along.
+
+225
+00:37:29.640 --> 00:37:30.030
+Okay.
+
+226
+00:37:33.600 --> 00:37:41.250
+MS Analytics Class 2021: here's a scary mathematical slight don't want to put off by this right it's just a concise way to describe the problem.
+
+227
+00:37:42.330 --> 00:37:47.910
+MS Analytics Class 2021: So the general form of the mathematical optimization problem is we start with.
+
+228
+00:37:49.290 --> 00:37:55.410
+MS Analytics Class 2021: Decision variables and we're going to represent them by an array.
+
+229
+00:37:56.190 --> 00:38:11.640
+MS Analytics Class 2021: So that just means that, like the first component is whether I sponsor the first performance, the second components is worth what are sponsored by the second so in some way that array corresponds to all the decisions that I have to make an a problem okay.
+
+230
+00:38:13.020 --> 00:38:18.600
+MS Analytics Class 2021: So it's a bold because it has you know, has different components right.
+
+231
+00:38:19.680 --> 00:38:28.620
+MS Analytics Class 2021: My objective function is like a score it says, if you tell me what the decision variables are can calculate the net profit or the cost of it.
+
+232
+00:38:29.490 --> 00:38:42.450
+MS Analytics Class 2021: And, in some cases i'll try and minimize minimize costs maximize profit so it's just saying that you can calculate a manager score once you know the values of the decision variables that's the objective function.
+
+233
+00:38:43.500 --> 00:39:01.230
+MS Analytics Class 2021: The constraints, some of them involve measures or scores of the decision variables and we would compare them to limits like it should be at least this value At most this value exactly this value.
+
+234
+00:39:03.090 --> 00:39:09.840
+MS Analytics Class 2021: different requirements come in different types, so if it's like a budget constraint and can't spend more than this amount of money.
+
+235
+00:39:10.500 --> 00:39:23.130
+MS Analytics Class 2021: If it's a constraint that says, you have to satisfy demand and the total amount should be at least as much as the mountains demanded so some of them are inequality, some of them are equations like when we said.
+
+236
+00:39:24.420 --> 00:39:29.100
+MS Analytics Class 2021: The weights of each homework assignment have to be the same, those are equations.
+
+237
+00:39:30.180 --> 00:39:41.250
+MS Analytics Class 2021: So those those are kind of general constraints involving one or more decision variables, sometimes we have simple constraints on the decision variables like in the weights problem.
+
+238
+00:39:42.840 --> 00:39:46.950
+MS Analytics Class 2021: A maximum weight right or the weights or non negative.
+
+239
+00:39:48.060 --> 00:40:00.870
+MS Analytics Class 2021: So these simple types of constraints are often called bound constraints, because they only involve upper and lower bounds on each of the decision variables right both of these count as constraints.
+
+240
+00:40:02.370 --> 00:40:20.760
+MS Analytics Class 2021: But because these bound constraints can be handled more effectively in the algorithms that solve these mathematical optimization problems typically they're separated out, so we have general constraints and down constraints, so when you look at a mathematical optimization problem.
+
+241
+00:40:21.990 --> 00:40:30.570
+MS Analytics Class 2021: That you built any solve it using proper model, which is the SAS procedure that solves builds and solve these optimization models.
+
+242
+00:40:31.230 --> 00:40:41.130
+MS Analytics Class 2021: The reports that are generated will tell you how many general constraints, there are separate from bounds on the decision variables it's reported that way because.
+
+243
+00:40:42.150 --> 00:40:46.080
+MS Analytics Class 2021: The the bound consensus easier to handle in the.
+
+244
+00:40:47.220 --> 00:40:50.160
+MS Analytics Class 2021: Essentially linear algebra that goes into solving the problems.
+
+245
+00:40:51.540 --> 00:40:52.410
+MS Analytics Class 2021: All right, so.
+
+246
+00:40:55.140 --> 00:41:00.000
+MS Analytics Class 2021: Any solution that satisfies the constraints is called a feasible solution.
+
+247
+00:41:01.290 --> 00:41:03.150
+MS Analytics Class 2021: So will typically use.
+
+248
+00:41:04.350 --> 00:41:06.090
+MS Analytics Class 2021: This asterisk here.
+
+249
+00:41:07.380 --> 00:41:12.780
+MS Analytics Class 2021: to represent a particular solution right, whereas.
+
+250
+00:41:13.800 --> 00:41:20.910
+MS Analytics Class 2021: Without an asterisk means that they could assume any any values and we're trying to determine the best values right.
+
+251
+00:41:21.960 --> 00:41:30.840
+MS Analytics Class 2021: So a particular solution is a feasible solution if it satisfies the constraints right and our goal.
+
+252
+00:41:32.880 --> 00:41:35.130
+MS Analytics Class 2021: is to find the best feasible solution.
+
+253
+00:41:37.470 --> 00:41:38.610
+MS Analytics Class 2021: And we refer to the.
+
+254
+00:41:41.610 --> 00:41:56.700
+MS Analytics Class 2021: That is an optimal solution right so it's a feasible solution with a minimum or maximum objective function value, depending on whether we're minimizing minimizing costs we're going to find the smallest for maximizing profit, we want to find the one the largest objective value.
+
+255
+00:41:57.720 --> 00:42:03.030
+MS Analytics Class 2021: And I do want to emphasize the little word at the beginning, is an optimal solution.
+
+256
+00:42:04.380 --> 00:42:20.040
+MS Analytics Class 2021: it's possible in a mathematical optimization model have different optimal solutions distinct solutions that are just as good as each other but different Okay, the same minimum class the same maximum profit.
+
+257
+00:42:21.270 --> 00:42:28.170
+MS Analytics Class 2021: So when we talk about solving a mathematical optimization problem means finding an optimal solution.
+
+258
+00:42:29.220 --> 00:42:29.610
+Okay.
+
+259
+00:42:33.390 --> 00:42:44.970
+MS Analytics Class 2021: Now, when I showed you the picture, they had the business problem with the schools of industrial fiber the next picture showed someone composing a program at a computer.
+
+260
+00:42:45.990 --> 00:42:52.710
+MS Analytics Class 2021: A prop up model program so proc up model is a SAS procedure that's building solve these models.
+
+261
+00:42:54.270 --> 00:43:00.030
+MS Analytics Class 2021: looks something like this and incest studio when you have a program it.
+
+262
+00:43:01.650 --> 00:43:09.900
+MS Analytics Class 2021: Most of the time correctly colors the different types of programming statements so, for example, comment lines are green.
+
+263
+00:43:11.340 --> 00:43:19.110
+MS Analytics Class 2021: keywords are bright blue and the the calls to the procedure are kind of just just just Gray or black.
+
+264
+00:43:20.820 --> 00:43:28.380
+MS Analytics Class 2021: So this is just kind of using section headers to give you an idea of what goes into the different parts of the Program.
+
+265
+00:43:29.280 --> 00:43:41.730
+MS Analytics Class 2021: The solve is an actual programming statement okay so profit models program starts with pocket model and ends with quit right if you've worked with SAS you know that some.
+
+266
+00:43:43.200 --> 00:43:51.510
+MS Analytics Class 2021: Things are true about SAS in Texas that every line into the semi colon except for a comment line right every program line so that's what you see here.
+
+267
+00:43:52.530 --> 00:44:01.470
+MS Analytics Class 2021: So when you when you compose a program in SAS studio the colors are actually kind of helping you get the syntax right right.
+
+268
+00:44:03.030 --> 00:44:14.670
+MS Analytics Class 2021: So we have some different types of statements here, well, we call declaration statements so think of a profit model program as a dialogue with a with a compiler.
+
+269
+00:44:15.600 --> 00:44:25.920
+MS Analytics Class 2021: you're trying to tell the compiler This is my model, so it can then solve model declaration statements or how you communicate that to the compiler you say.
+
+270
+00:44:27.090 --> 00:44:35.190
+MS Analytics Class 2021: These are my decision variables, this is my constraints, this is my objective all right we'll see how that's done with the declaration statements.
+
+271
+00:44:37.710 --> 00:44:55.920
+MS Analytics Class 2021: Then the sole statement gathers up all the declaration statements builds the model sends it off to the solver comes up with an optimal solution and we generate a report, maybe something like this, this is called a solution summary table.
+
+272
+00:44:56.940 --> 00:44:58.080
+MS Analytics Class 2021: So it tells you.
+
+273
+00:44:59.490 --> 00:45:02.490
+MS Analytics Class 2021: What type of solver was used to tackle the problem.
+
+274
+00:45:03.780 --> 00:45:07.080
+MS Analytics Class 2021: What specific algorithm was used within that solver.
+
+275
+00:45:08.340 --> 00:45:25.620
+MS Analytics Class 2021: Whether it was able to find the best solution, what the objective value of that solution some measure of the quality of the solution and the time that it took to find the solution right so as a part of the solution process that generates this summary information about the solution.
+
+276
+00:45:27.330 --> 00:45:36.660
+MS Analytics Class 2021: It will see that there, there are other tables and then there are ways that you can access the solution to kind of print information about it.
+
+277
+00:45:38.400 --> 00:45:48.030
+MS Analytics Class 2021: And maybe create some output so there's also input and output statements here input statements read it in from and will assume that our data is in the form of SAS data sets.
+
+278
+00:45:48.990 --> 00:45:58.530
+MS Analytics Class 2021: Their SAAs procedures that allow you to convert, for example, spreadsheets into SAS data sets but will assume that our input is in the form of SAS data sets.
+
+279
+00:45:59.910 --> 00:46:10.080
+MS Analytics Class 2021: Then we can use the values of our decision variables to produce summary statistics and output, that we can send to say millions who would.
+
+280
+00:46:11.820 --> 00:46:27.300
+MS Analytics Class 2021: Take the solution and implemented right minions would can the beer man means would deliver to the record store right okay so that's that's to give you an idea of what's coming up when I show you a proper model Program.
+
+281
+00:46:28.440 --> 00:46:34.860
+MS Analytics Class 2021: it'll look like this right it'll be flushed out, depending on what the decision problem is that we're trying to solve.
+
+282
+00:46:36.930 --> 00:46:40.650
+MS Analytics Class 2021: Okay, so here's again some of the pictures that I showed you before.
+
+283
+00:46:41.700 --> 00:46:51.240
+MS Analytics Class 2021: There are names associated in mathematical optimization with these different steps and they're probably commonly used for other different types of models.
+
+284
+00:46:52.320 --> 00:47:02.250
+MS Analytics Class 2021: That we call the problem of coming up with a mathematical model from the business problem formulating right so formulating an optimization model.
+
+285
+00:47:03.570 --> 00:47:08.550
+MS Analytics Class 2021: Then solving optimization model produces this optimal solution.
+
+286
+00:47:10.080 --> 00:47:14.310
+MS Analytics Class 2021: Then, because we oftentimes have to make simplifying assumptions.
+
+287
+00:47:16.740 --> 00:47:32.160
+MS Analytics Class 2021: In order to model, our business problem we go back and we interpret the solution in the context of the business problem doesn't make sense, have I captured enough of the business problem in my model that my solution actually makes sense, something I could implement.
+
+288
+00:47:34.410 --> 00:47:47.190
+MS Analytics Class 2021: And oftentimes in this stage we find that maybe we can't we may have made a mistake in coming up with a model may have been in a hurry, we might have cut and paste or something.
+
+289
+00:47:48.000 --> 00:47:56.580
+MS Analytics Class 2021: We might have made some logical errors, we might have made some oversimplifications alright, so, in general, what happens is.
+
+290
+00:47:58.230 --> 00:48:12.540
+MS Analytics Class 2021: We actually go back and modify our model we interpret in the context of the business problem doesn't quite capture enough, we go back, we modify it we solve it, we keep going until we come up with a model that is a realistic.
+
+291
+00:48:13.590 --> 00:48:24.780
+MS Analytics Class 2021: approximation to the business problem and can be solved in a reasonable amount of time, and so we often spend a fair amount of time modifying this model kind of on the fly.
+
+292
+00:48:25.380 --> 00:48:39.780
+MS Analytics Class 2021: As we solve it and check the optimal solutions, against our business problem so it's an oversimplification to think that we could just go from the business problem come up with a model solve it we're done oftentimes is a lot more work in refining our model.
+
+293
+00:48:43.230 --> 00:48:51.750
+MS Analytics Class 2021: Okay, so optimization is an approach to solving decision problems it's not always something that you can use, for example.
+
+294
+00:48:53.010 --> 00:48:59.280
+MS Analytics Class 2021: You might have the way the problem is typically solved is very political.
+
+295
+00:49:01.230 --> 00:49:18.120
+MS Analytics Class 2021: The optimization based approach is truly analytical so you have to get buy in you have to get everyone to agree that Okay, this is the objective right, and if there are conflicting opinions about what should be the objective.
+
+296
+00:49:19.230 --> 00:49:29.670
+MS Analytics Class 2021: You have to kind of say okay well let's choose a target value and implement that as a constraint, but once you get that buy in there's a lot of benefit to it.
+
+297
+00:49:31.650 --> 00:49:32.220
+MS Analytics Class 2021: So.
+
+298
+00:49:33.270 --> 00:49:37.800
+MS Analytics Class 2021: He can kind of consistently solve the problem over time.
+
+299
+00:49:39.390 --> 00:49:43.800
+MS Analytics Class 2021: So you solve the problem, every day, every week every month with different input data.
+
+300
+00:49:45.120 --> 00:49:50.130
+MS Analytics Class 2021: You have, as opposed to kind of an ad hoc approach to solving the problem.
+
+301
+00:49:51.510 --> 00:50:03.690
+MS Analytics Class 2021: And approach, where you can take complications or additional feature the problem and introduce just different model elements, maybe add some new constraints to the problem right.
+
+302
+00:50:05.640 --> 00:50:16.080
+MS Analytics Class 2021: You can get models that anyone who knows the syntax of the modeling language can solve so right it's not tied to a particular person's experience.
+
+303
+00:50:16.650 --> 00:50:31.830
+MS Analytics Class 2021: And we'll See also that the models that we developed for smaller problems are often exactly the same programs to solve larger models just having larger data sets, so there are advantages to this but oftentimes you have to.
+
+304
+00:50:33.000 --> 00:50:41.490
+MS Analytics Class 2021: kind of negotiate is this an approach that everyone can agree on and once you have that buy in you can reap advantages there too.
+
+305
+00:50:45.090 --> 00:50:45.930
+MS Analytics Class 2021: Okay, so.
+
+306
+00:50:47.550 --> 00:50:56.610
+MS Analytics Class 2021: Even in the way that I described the mathematical optimization problem to you, you can formulate models that we don't really know how to solve.
+
+307
+00:50:57.390 --> 00:51:10.320
+MS Analytics Class 2021: Okay, so there's some well solved classes of models think of it, for which there's a there's an algorithm that you can just kind of pull off the shelf and say okay that that that can be solved by this type of algorithm.
+
+308
+00:51:11.280 --> 00:51:22.920
+MS Analytics Class 2021: And it has to do with the types of decision variables and the types of constraints and objective okay so has to do with.
+
+309
+00:51:24.090 --> 00:51:27.990
+MS Analytics Class 2021: The decision variables either being continuous or discrete.
+
+310
+00:51:29.250 --> 00:51:38.490
+MS Analytics Class 2021: We talked about examples of both of those and about whether the functions that occur in the objective and the constraints are linear or non year.
+
+311
+00:51:39.600 --> 00:51:42.210
+MS Analytics Class 2021: All right, we'll talk a little bit more about that as we go along.
+
+312
+00:51:43.380 --> 00:51:48.420
+MS Analytics Class 2021: So the first well solve problems linear programming models.
+
+313
+00:51:49.200 --> 00:52:06.120
+MS Analytics Class 2021: They have a linear objective function linear constraints and continuous decision variables now continuous decision variables just means that if I get an answer, like 2.43 for the for the variable, then I can interpret that in the context of the business problem right.
+
+314
+00:52:08.160 --> 00:52:10.080
+MS Analytics Class 2021: that's the simplest type of models.
+
+315
+00:52:11.130 --> 00:52:22.380
+MS Analytics Class 2021: integer linear programming models have a linear objective linear constraints, an integer value decision variables right so.
+
+316
+00:52:23.400 --> 00:52:36.390
+MS Analytics Class 2021: Again, we talked about integer decision very valuable decision variables, to be binary decisions or they can be discreet very decisions like, for example, 012345.
+
+317
+00:52:37.170 --> 00:52:43.710
+MS Analytics Class 2021: Right so that's that's a That would be a decision variable that might correspond to how many new workers, we hire in a certain area.
+
+318
+00:52:45.900 --> 00:52:49.530
+MS Analytics Class 2021: So if you want, I can show you a quick example of here.
+
+319
+00:52:52.230 --> 00:53:02.700
+MS Analytics Class 2021: If this idea of a linear function is something that's not familiar to you, there are three functions here one of them is is linear it would be.
+
+320
+00:53:03.510 --> 00:53:14.910
+MS Analytics Class 2021: In this case, the black function so linear is aligned right So if I have my my decision variable on the horizontal axis and the value of the function on the vertical axis.
+
+321
+00:53:15.660 --> 00:53:29.850
+MS Analytics Class 2021: This is linear so it's like a multiple of this is a variable right So if you think of it as as a cost the cost is calculated from how many by and the price.
+
+322
+00:53:30.420 --> 00:53:39.330
+MS Analytics Class 2021: Right, the price is the slope of the line right now we're talking about a function of more than one decision variable.
+
+323
+00:53:39.870 --> 00:53:49.470
+MS Analytics Class 2021: it's just a sum of multiples of the decision variables, and so a typical example of a linear constraint will be something like a budget constraint.
+
+324
+00:53:50.160 --> 00:54:00.090
+MS Analytics Class 2021: Right you just add the cost times the numbers over all the different types That gives you the total amount you spend there has to be less than or equal to the budget level.
+
+325
+00:54:01.290 --> 00:54:13.110
+MS Analytics Class 2021: So many different types of constraints requirements are linear not always but if they are linear, then you can get into this class of linear programming models.
+
+326
+00:54:14.130 --> 00:54:21.450
+MS Analytics Class 2021: In digital linear programming models are the same, except for the decision values or integer value are required to be integer values.
+
+327
+00:54:22.500 --> 00:54:33.900
+MS Analytics Class 2021: In a mixed integer linear programming model when your objective linear constraints and some mix of continuous and integer variable so some variables that have to be integers.
+
+328
+00:54:34.710 --> 00:54:46.380
+MS Analytics Class 2021: Like those binary decisions that we made but other variables are allowed to be continuance and, finally, the last well solve class of problems are called non linear programming models.
+
+329
+00:54:47.580 --> 00:54:48.900
+MS Analytics Class 2021: And in this case we have.
+
+330
+00:54:50.070 --> 00:54:59.010
+MS Analytics Class 2021: linear or non linear objective linear nonlinear constraints and continuous decision variables right.
+
+331
+00:55:00.420 --> 00:55:24.240
+MS Analytics Class 2021: So this doesn't exhaust the different types of models that we can come up with right there are also some models that have nonlinear functions and integer variables those don't have a good off the shelf solution procedure he's the well self classes of optimization models.
+
+332
+00:55:26.190 --> 00:55:27.210
+MS Analytics Class 2021: Alright, so.
+
+333
+00:55:29.760 --> 00:55:40.680
+MS Analytics Class 2021: This is, if you will kind of a taxonomy of of optimization models so you see on the left are all the functions linear or they some some of them nonlinear.
+
+334
+00:55:42.240 --> 00:55:48.780
+MS Analytics Class 2021: Are all the variables continuous meaning Can I assume anything values in some interval arrange.
+
+335
+00:55:50.010 --> 00:55:56.490
+MS Analytics Class 2021: Or are some of them required to have integer values were all of them required to have in your variable values.
+
+336
+00:55:57.030 --> 00:56:04.410
+MS Analytics Class 2021: And so you see your for well solve classes of problems, and then in the bottom, we have, we have to call an expert right.
+
+337
+00:56:05.190 --> 00:56:12.120
+MS Analytics Class 2021: So we want to solve a problem in this area we're going to have to either take advantage of the special structure of our model.
+
+338
+00:56:12.660 --> 00:56:30.090
+MS Analytics Class 2021: do some fancy tricks we're not going to be able to just pull an off the shelf solver and say solve it right, so that mainly concentrate on these different well solved classes of optimization models, but we may have to call on warlock the wizard at some point we shall see.
+
+339
+00:56:32.700 --> 00:56:40.650
+MS Analytics Class 2021: So let me get a chance to think about these are not so I can I can make a distinction between a problem and a model.
+
+340
+00:56:41.910 --> 00:56:51.150
+MS Analytics Class 2021: So a problem is like a textbook example has numbers, it may not necessarily have a context.
+
+341
+00:56:51.690 --> 00:57:00.480
+MS Analytics Class 2021: A model is you've taken a business problem you've done the hard work of trying to make some assumptions and come up with a mathematical.
+
+342
+00:57:00.900 --> 00:57:12.090
+MS Analytics Class 2021: model that will approximate it so model has a business problem context, a problem is just could come from anywhere right so i'm going to show you some.
+
+343
+00:57:13.170 --> 00:57:23.490
+MS Analytics Class 2021: Mathematical optimization problems so independent of the context and we'll try and classify them as the different types of.
+
+344
+00:57:25.020 --> 00:57:39.630
+MS Analytics Class 2021: classes of optimization problems right, so you have a matching exercise here on the left, you have for optimization problems on the right, you have the four well salt classes of problems right so when you look at this.
+
+345
+00:57:40.710 --> 00:57:47.910
+MS Analytics Class 2021: These optimization problems they all have the same set of decision variables X y&z your typical variables.
+
+346
+00:57:50.220 --> 00:58:06.930
+MS Analytics Class 2021: In each case, they might represent something right, but in this case of this problem is we don't have a context for them yeah your objective, which is the top line minimize your maximize and then some some function of the decision variables yeah your constraints.
+
+347
+00:58:08.340 --> 00:58:16.260
+MS Analytics Class 2021: certain expressions have to be at least most or equal to certain values and then you have bound on some of your decision variables.
+
+348
+00:58:17.490 --> 00:58:33.420
+MS Analytics Class 2021: and say, in some cases, you have variables that are required to be integers right, so instead of saying any positive value now we're talking about 01234567 right in and your values that are non negative okay.
+
+349
+00:58:35.130 --> 00:58:40.110
+MS Analytics Class 2021: So, looking at these, how can you match them up the different classes of optimization model.
+
+350
+00:58:47.160 --> 00:58:50.400
+Coleman, Clay: Baby has squares in it, so you know that that's going to be the nonlinear one.
+
+351
+00:58:51.480 --> 00:58:58.890
+MS Analytics Class 2021: Right so so nonlinear sometimes nonlinear is signs co signs exponential functions longer than.
+
+352
+00:58:59.910 --> 00:59:09.090
+MS Analytics Class 2021: Any power isn't isn't all linear function another thing that we might see is also interaction terms, so if we have like X times y.
+
+353
+00:59:09.570 --> 00:59:15.780
+MS Analytics Class 2021: it's also nonlinear, so this is let's check to make sure it says far as the other requirements so it's got a linear objective.
+
+354
+00:59:16.740 --> 00:59:29.520
+MS Analytics Class 2021: And nonlinear function and the constraints and equation or a linear function, the constraints and bounds on this isn't variables, none of them are required to be integer value, so it meets our requirements right.
+
+355
+00:59:30.090 --> 00:59:41.760
+MS Analytics Class 2021: At least one nonlinear function but no integer values for decision variables that would map to nonlinear okay that's great so that makes everyone else's job this a little bit easier.
+
+356
+00:59:44.040 --> 00:59:45.900
+MS Analytics Class 2021: Anyone want to try and choose another one.
+
+357
+00:59:48.930 --> 00:59:59.730
+MS Analytics Class 2021: integer a is an integer an integer sometimes you say integer linear programming problem because emphasize the fact that the objective is linear.
+
+358
+01:00:00.510 --> 01:00:10.950
+MS Analytics Class 2021: The constraints are linear we're allowed to have bounds on the variables here they're all required of you know just all the car to be integers integer linear programming problem okay.
+
+359
+01:00:12.420 --> 01:00:18.030
+MS Analytics Class 2021: So now we're down to C and D anyone want to take a stab at either one of those.
+
+360
+01:00:23.340 --> 01:00:29.550
+MS Analytics Class 2021: This point 5050 is as a pretty good odds of here's a three point shot you take 5050 and a heartbeat.
+
+361
+01:00:31.500 --> 01:00:46.530
+MS Analytics Class 2021: is mixed in there, which one D right so D has again three variables X y&z X and y are supposed to be integer Z is allowed to be continuous right, we should check.
+
+362
+01:00:47.250 --> 01:00:57.960
+MS Analytics Class 2021: linear objective linear constraints it's kind of weird in a couple of ways, how is it weird well there's no bounds on Z that's okay.
+
+363
+01:00:58.530 --> 01:01:05.460
+MS Analytics Class 2021: We would call such a variable free or unrestricted there's no there's no there's no requirement that variables have bounced right.
+
+364
+01:01:06.090 --> 01:01:13.950
+MS Analytics Class 2021: and also the objective doesn't have a term for Z crazy, well, it turns out that, in practice, most problems are sparse in that way.
+
+365
+01:01:14.550 --> 01:01:24.660
+MS Analytics Class 2021: In that most of the constraints don't involve all the variables only a handful and oftentimes the objective function doesn't involve all the decision variables right.
+
+366
+01:01:25.740 --> 01:01:29.520
+MS Analytics Class 2021: So that's more than norm, actually, and if we're right there.
+
+367
+01:01:31.290 --> 01:01:34.290
+MS Analytics Class 2021: Then seamless the linear programming problem.
+
+368
+01:01:35.490 --> 01:01:43.050
+MS Analytics Class 2021: notice that, in this case there's a mixture of equations and any qualities that's perfectly fine right.
+
+369
+01:01:44.400 --> 01:01:52.380
+MS Analytics Class 2021: The linear only has to do with the function that occurs this the Multi sums of multiples of the decision variables.
+
+370
+01:01:53.310 --> 01:02:08.610
+MS Analytics Class 2021: And what is compared to it can be either equal to something or less than or equal to or greater than or equal to so it's all okay Okay, so that again gives you a little practice with identifying the class of optimization problem you're looking at.
+
+371
+01:02:10.530 --> 01:02:17.940
+MS Analytics Class 2021: But these aren't business problems mean no one's going to come up to you and say i'll give you $100 if you can solve this three variable problem right.
+
+372
+01:02:18.240 --> 01:02:25.800
+MS Analytics Class 2021: But we could solve this we could solve these problems using profit model if we wanted to, but it more interesting if they came from actual context.
+
+373
+01:02:27.450 --> 01:02:28.410
+MS Analytics Class 2021: Alright, so.
+
+374
+01:02:30.450 --> 01:02:31.470
+MS Analytics Class 2021: there's a bonus question.
+
+375
+01:02:33.300 --> 01:02:46.200
+MS Analytics Class 2021: So I described to you and you help me think about the constraints, for the decision problem of determining the weights for the grading system for this class.
+
+376
+01:02:47.520 --> 01:03:06.150
+MS Analytics Class 2021: Okay, and i'm just getting here you are a reminder of what the decision variables were their weights, the objective function is the correlation coefficient and the constraints okay so everything should be non negative some people said, the way it should be at most a certain amount.
+
+377
+01:03:08.100 --> 01:03:12.540
+MS Analytics Class 2021: Some constraints were suggested about ratios of weights.
+
+378
+01:03:13.740 --> 01:03:17.100
+MS Analytics Class 2021: that's a little bit tricky, but we can convert those two.
+
+379
+01:03:18.540 --> 01:03:20.040
+MS Analytics Class 2021: To linear constraints.
+
+380
+01:03:21.330 --> 01:03:35.730
+MS Analytics Class 2021: not hard to see that that's possible make constraints itself, so the way it should be the same essentially more than or less than others what type of decision problem with this would this be.
+
+381
+01:03:37.980 --> 01:03:40.890
+MS Analytics Class 2021: i'll tell you that it should fit into one of those four categories.
+
+382
+01:03:42.300 --> 01:03:48.750
+MS Analytics Class 2021: it's not a priori clear but, but I could I could massage it to get it into one of those four which one would it be, do you think.
+
+383
+01:03:50.730 --> 01:03:51.570
+Wilson Pineda: It would be.
+
+384
+01:03:52.710 --> 01:03:56.310
+MS Analytics Class 2021: It would be a nonlinear programming model because of the correlation.
+
+385
+01:03:57.720 --> 01:04:05.400
+MS Analytics Class 2021: Right, so that should pretty clearly be a nonlinear function of the weights right, so the waves are represented by.
+
+386
+01:04:06.870 --> 01:04:21.930
+MS Analytics Class 2021: In this case, they'll probably be represented by the wise here, you see products of wise right here squares square roots, it looks pretty non kicks it will be a non linear.
+
+387
+01:04:23.400 --> 01:04:24.330
+MS Analytics Class 2021: Programming model.
+
+388
+01:04:31.020 --> 01:04:34.200
+MS Analytics Class 2021: So i'm trying to give you a snapshot.
+
+389
+01:04:35.220 --> 01:04:45.270
+MS Analytics Class 2021: of how easy or hard is to solve these different classes of problems and i'm going to use an analogy of an elevator right.
+
+390
+01:04:46.020 --> 01:04:56.370
+MS Analytics Class 2021: If you have a linear programming model basically all you have to do is push the upper down button, do you want to minimize you want to maximize these problems are very easy to solve.
+
+391
+01:04:57.330 --> 01:05:09.030
+MS Analytics Class 2021: We can solve very large problems very quickly a large linear programming problem might have millions of decision variables and hundreds of thousands of constraints.
+
+392
+01:05:10.260 --> 01:05:22.890
+MS Analytics Class 2021: And and that's probably getting bigger every year right, so it really kind of depends on the size of a view of your computing engine how large a problem you can solve.
+
+393
+01:05:25.380 --> 01:05:38.220
+MS Analytics Class 2021: So next class i'm going to combine integer and mixed integer linear programming models in some sense the difficulty of the problem is proportional to the number of.
+
+394
+01:05:39.150 --> 01:05:53.250
+MS Analytics Class 2021: integer variables and to intuit why that's the case because every energy variable having at least two potential choices right, even if it's binary has one or two choices.
+
+395
+01:05:54.570 --> 01:06:04.650
+MS Analytics Class 2021: You look at all the different combinations of all of the manager variables it's to the number of integer variables possible different.
+
+396
+01:06:05.190 --> 01:06:17.250
+MS Analytics Class 2021: sets of values that you might potentially have to consider okay so could result in what we call a combination tutorial explosion in terms of the number of potential solutions.
+
+397
+01:06:18.480 --> 01:06:35.760
+MS Analytics Class 2021: These problems can range from as easy as linear programming problems to devilishly hard right and oftentimes you don't actually know how hard it's going to be until you build the model and solid right.
+
+398
+01:06:37.350 --> 01:06:45.480
+MS Analytics Class 2021: By way of the analogy we may have to you know get inside the elevator and push some buttons we may have to, in this case.
+
+399
+01:06:46.560 --> 01:06:51.480
+MS Analytics Class 2021: experiment with some solver options, maybe the default values for all the.
+
+400
+01:06:52.680 --> 01:07:01.650
+MS Analytics Class 2021: characteristics of the solver don't solve it in a reasonable amount of time, so we might need to start pushing a few buttons twisting few dials.
+
+401
+01:07:02.400 --> 01:07:11.550
+MS Analytics Class 2021: And they're probably some solver options that we have no idea what they do we just kind of kind of taking a shot at it like what is the red button do when you push it off the alarm.
+
+402
+01:07:13.980 --> 01:07:26.880
+MS Analytics Class 2021: turns out of there, there are some intelligent ways that prakash model or a closely related SAS procedure can look at systematically making choices for the.
+
+403
+01:07:27.420 --> 01:07:35.790
+MS Analytics Class 2021: options, if you were to solve a large number of models, the same type, so we might have to experiment with some solver options to solve these.
+
+404
+01:07:37.020 --> 01:07:40.110
+MS Analytics Class 2021: And last of all, we have nonlinear programming models and these.
+
+405
+01:07:41.100 --> 01:07:47.610
+MS Analytics Class 2021: are somehow very different in character than than the other types of models so it's kind of like you go into the elevator and you realize that.
+
+406
+01:07:48.090 --> 01:07:58.110
+MS Analytics Class 2021: Controls are very different than what you expected it looks more like the starship enterprise down the elevator and everything is written in cling on you're not sure what they mean.
+
+407
+01:07:58.800 --> 01:08:08.520
+MS Analytics Class 2021: And it can be kind of like the Wonka vader right, it might go up and down and sideways and maybe even leave the building, so one thing that's true about non linear programming models is.
+
+408
+01:08:09.690 --> 01:08:22.350
+MS Analytics Class 2021: that the initial solution that you feed to the algorithm that solves it could affect where you end up with as a solution so that that's not the case with the other types of models so there's there's kind of.
+
+409
+01:08:23.490 --> 01:08:27.420
+MS Analytics Class 2021: Some characteristics of these problems that are very different than the others and.
+
+410
+01:08:29.430 --> 01:08:46.860
+MS Analytics Class 2021: The notion of what a large problem is can also depend on how badly nonlinear, the problem is so you know some non linear functions are very close to being here right the little perverted beginning little corinthian.
+
+411
+01:08:47.700 --> 01:08:57.150
+MS Analytics Class 2021: But then you get into like logs and excellence so some of them are a little bit more severe and you might have something that has like sine waves, or something.
+
+412
+01:08:58.080 --> 01:09:07.440
+MS Analytics Class 2021: So the degree to which it's really not linear can affect the size of the problem, but a large non linear programming problem I only have 10s of thousands of variables.
+
+413
+01:09:08.010 --> 01:09:20.730
+MS Analytics Class 2021: So this this the type of the size of problems that we expect to be able to solve is much smaller than linear programming problems, for example, and so that affects whether we make simplifying assumptions that.
+
+414
+01:09:21.330 --> 01:09:30.630
+MS Analytics Class 2021: result in a linear programming model, or we accept that the problem is inherently nonlinear in some way right, but again how.
+
+415
+01:09:31.800 --> 01:09:40.620
+MS Analytics Class 2021: How big a problem we can solve you may only be able to determine by modeling a toy problem and then starting to build it up to the size, we want to solve.
+
+416
+01:09:41.160 --> 01:09:51.660
+MS Analytics Class 2021: Okay it's hard to tell because two different nlp models can behave very differently depending on the types of non linearity is in the data itself.
+
+417
+01:09:53.730 --> 01:09:54.720
+MS Analytics Class 2021: Alright, so.
+
+418
+01:09:56.700 --> 01:09:58.170
+MS Analytics Class 2021: Media simple example.
+
+419
+01:10:00.210 --> 01:10:04.950
+MS Analytics Class 2021: Again, is going to be a kind of a a problem as opposed to a model.
+
+420
+01:10:06.090 --> 01:10:08.040
+MS Analytics Class 2021: But this will allow us to.
+
+421
+01:10:09.150 --> 01:10:19.020
+MS Analytics Class 2021: Talk about some of the kind of mathematical concepts we'll go we'll go into solving in this case a nonlinear programming model.
+
+422
+01:10:22.050 --> 01:10:23.100
+MS Analytics Class 2021: Alright, so this is.
+
+423
+01:10:24.540 --> 01:10:33.690
+MS Analytics Class 2021: What we call an unconstrained problem, because the decision variables in this case or or just to x&y.
+
+424
+01:10:35.130 --> 01:10:38.940
+MS Analytics Class 2021: And there are no constraints there's just an objective function okay.
+
+425
+01:10:40.080 --> 01:10:52.500
+MS Analytics Class 2021: So any values for X and y are feasible, whether they're better than each other depends on the value of this this function zero X and y so this i'm not actually very.
+
+426
+01:10:54.390 --> 01:11:02.640
+MS Analytics Class 2021: Upon means, but I tried to incorporate some means into the course this is nodal nate if you haven't met him before.
+
+427
+01:11:03.660 --> 01:11:07.800
+MS Analytics Class 2021: And he said to tell us that, even if you only took.
+
+428
+01:11:09.600 --> 01:11:23.220
+MS Analytics Class 2021: University calculus in college multivariate calculus is is is easy, so in this case, think about solving a one dimensional optimization problem what we would do is, we would calculate the first derivative.
+
+429
+01:11:23.880 --> 01:11:32.820
+MS Analytics Class 2021: Right now, will be the first step and we would set that equal to zero well the analog in higher dimensions is to calculate what's called the gradient.
+
+430
+01:11:33.810 --> 01:11:43.770
+MS Analytics Class 2021: So those are the partial derivatives of the objective function with respect to the decision variables and it results in an array vector whatever you want to call it.
+
+431
+01:11:44.970 --> 01:11:56.220
+MS Analytics Class 2021: here's the objective function, I take the partial with respect to X I get this to X minus one minus y to X comes from X squared minus one minus X.
+
+432
+01:11:57.690 --> 01:11:58.440
+MS Analytics Class 2021: cetera et cetera.
+
+433
+01:11:59.610 --> 01:12:03.450
+MS Analytics Class 2021: I take the partial with respect to wagon another linear function of X and y.
+
+434
+01:12:04.800 --> 01:12:23.310
+MS Analytics Class 2021: Now the animal analogous thing to studying the first derivative equal to zero set the gradient equal to all zeros if I do, that I get a system of equations to buy T system we don't even need name for this, we can solve it find the values of X and Y or fourth is in five thirds okay.
+
+435
+01:12:24.600 --> 01:12:26.910
+MS Analytics Class 2021: Let me show you what what that looks like.
+
+436
+01:12:28.860 --> 01:12:35.550
+MS Analytics Class 2021: Is the grading is something that's that's going to have meaning for us, particularly nonlinear optimization models.
+
+437
+01:12:37.320 --> 01:12:48.360
+MS Analytics Class 2021: So here's a graph of our objective function and I don't know I i'm going to kind of give away my age here, but when I was in middle school.
+
+438
+01:12:49.140 --> 01:12:56.610
+MS Analytics Class 2021: We actually build things for our parents like you know you're in elementary school and make something out of clay glaze it and take it home.
+
+439
+01:12:57.030 --> 01:13:13.290
+MS Analytics Class 2021: Well, in middle school, we made these plexiglass models out of things we Polish them and immune different colors of plastic and stuff this is in the age of like that this skateboards we're starting to become exciting and everyone was it's plastic and Paul your hand and so forth anyway.
+
+440
+01:13:14.340 --> 01:13:22.380
+MS Analytics Class 2021: You build a small one, take it home to your parents and it'd be like an ashtray right nowadays via like a freak dish at any rate.
+
+441
+01:13:23.190 --> 01:13:37.920
+MS Analytics Class 2021: you imagine that you have this plexiglas surface that represents the objective function right think of solving the optimization problem as taking marble or a ball bearing or blueberry, if you will, and setting it on the top of the surface.
+
+442
+01:13:38.940 --> 01:13:54.090
+MS Analytics Class 2021: So what happens to the to the to the that point well it's going to roll right gravity will take its effect it's going to kind of roll down towards the bottom and loop around and no contrast to the point where the surfaces locally flat.
+
+443
+01:13:55.650 --> 01:14:06.750
+MS Analytics Class 2021: That is exactly what the gradient being zero is gradient is a rate of change in the X and y direction right, so if the grading zero means it's flat.
+
+444
+01:14:07.170 --> 01:14:18.660
+MS Analytics Class 2021: that's where the marble comes to rest at this point, and this is the point X is four thirds and wires five foods right now we didn't know for sure.
+
+445
+01:14:19.830 --> 01:14:31.830
+MS Analytics Class 2021: that this would solve the problem of minimizing this objective, because a point where the objective is locally flat could be a minimum, it could be a maximum.
+
+446
+01:14:32.490 --> 01:14:40.950
+MS Analytics Class 2021: or it could be something weird like a saddle point all right, but if we look at the picture, you can see that.
+
+447
+01:14:41.460 --> 01:14:59.100
+MS Analytics Class 2021: it's a minimum right as new way from that point the objective function is growing larger and larger all right, we could tell that by looking at the second order partial derivatives right something called a hash and matrix but we could let the solver take care of that, at any rate.
+
+448
+01:15:00.180 --> 01:15:17.160
+MS Analytics Class 2021: So, think of optimization problem at least and minimization problem as putting a marble on a surface and letting it come to rest at a point where the surface is locally flat Okay, and in this case, the only point where it's locally flat is that point that we found.
+
+449
+01:15:18.300 --> 01:15:23.910
+MS Analytics Class 2021: Four thirds and fighters Okay, that was a solution in this case, that was the minimum.
+
+450
+01:15:26.670 --> 01:15:34.620
+MS Analytics Class 2021: let's add some constraints now to the model i'm going to add some simple constraints, because of the way that SAS draws graphs by default.
+
+451
+01:15:35.070 --> 01:15:46.620
+MS Analytics Class 2021: The quadrant that's nearest to us is the quarter where X is non negative and why is non positive okay so X is greater or equal to zero y is less than zero.
+
+452
+01:15:48.360 --> 01:15:57.420
+MS Analytics Class 2021: let's ask for the minimum of this function over that set of points, the set of points in this quadrant nearest to us okay.
+
+453
+01:15:58.590 --> 01:16:00.840
+MS Analytics Class 2021: So we can still use our analogy.
+
+454
+01:16:01.890 --> 01:16:16.770
+MS Analytics Class 2021: We can build walls up from those axes and so like we have our ashtray fruits or fruit dish and we have a partition now, so we can have like blueberries and cherries and.
+
+455
+01:16:17.130 --> 01:16:27.690
+MS Analytics Class 2021: Whatever schnoz berries and some other strange mystery food in the four compartments right, but we can also think of that as being again the useful physical model of the process.
+
+456
+01:16:28.380 --> 01:16:38.220
+MS Analytics Class 2021: see it or partitions built above the axes so above these blue lines separately on the four quadrants take your little marble or ball bearing and put it.
+
+457
+01:16:39.000 --> 01:16:48.600
+MS Analytics Class 2021: Over the back of the graph here at a point on the top of the surface, that is a feasible point, like the point that i'm pointing to right here.
+
+458
+01:16:49.140 --> 01:16:54.900
+MS Analytics Class 2021: X is greater than equal to zero wires less than equal to zero, so what happens is you let it go well.
+
+459
+01:16:55.650 --> 01:17:04.680
+MS Analytics Class 2021: The grading is non to know at this point, meaning goes downhill right so starts rolling bang bang bang bang bang so ricocheting off the walls right.
+
+460
+01:17:05.370 --> 01:17:15.480
+MS Analytics Class 2021: So it comes to rest at a point that's either kind of in the open area or against one of the walls or in the corner against both walls.
+
+461
+01:17:16.260 --> 01:17:28.620
+MS Analytics Class 2021: Right, those are the potential outcomes, now the walls kind of complicated but, but we can kind of incorporate that into our solution process methodology of dropping the marble here, thinking of physically what that means.
+
+462
+01:17:30.840 --> 01:17:34.860
+MS Analytics Class 2021: let's take that problem, let me ask you a couple of questions about it.
+
+463
+01:17:38.070 --> 01:17:45.240
+MS Analytics Class 2021: So is the solution that we had before, remembering that the asterisk in this case means we're talking about a particular solution.
+
+464
+01:17:46.380 --> 01:17:56.850
+MS Analytics Class 2021: Is the values of X and y four thirds and five thirds is that is that a feasible solution to the problem of minimizing the function, subject to those constraints.
+
+465
+01:18:02.310 --> 01:18:02.760
+Coleman, Clay: Now.
+
+466
+01:18:04.080 --> 01:18:12.930
+MS Analytics Class 2021: Good good answer so again to to answer the feasibility question we ignore the objective right, this has to do with the constraints, we say.
+
+467
+01:18:13.440 --> 01:18:32.400
+MS Analytics Class 2021: Does X and y satisfy these these cases inequalities four thirds is a greater than equal to zero thumbs up five thirds is less than equal to zero well, that is not quite sure thumbs up that's a thumbs down, so it doesn't satisfy all the requirements it's not a feasible solution okay.
+
+468
+01:18:33.750 --> 01:18:37.560
+MS Analytics Class 2021: So it's kind of reinforcing our terminology here.
+
+469
+01:18:39.660 --> 01:18:41.130
+MS Analytics Class 2021: is slightly harder questions.
+
+470
+01:18:43.740 --> 01:18:54.810
+MS Analytics Class 2021: Could the optimal solution, so I haven't told you what the optimal solution to that constrained optimization problem is let's just think of it as being this particular solution.
+
+471
+01:18:56.220 --> 01:19:08.880
+MS Analytics Class 2021: could then optimal solution be in the interior of the feasible region, in other words credit have extremely positive, and why strictly negative in this case for that objective.
+
+472
+01:19:09.930 --> 01:19:18.840
+MS Analytics Class 2021: The alternative is it's on the boundary, the solution is against the wall right, meaning that either X zero y is your both.
+
+473
+01:19:23.400 --> 01:19:24.360
+Fireman, Karen: Yes, good.
+
+474
+01:19:24.900 --> 01:19:25.890
+Swanson J, Charles: No actually.
+
+475
+01:19:26.370 --> 01:19:26.820
+No.
+
+476
+01:19:28.230 --> 01:19:35.760
+MS Analytics Class 2021: Okay, no talent to one, the answer is no, and the y is a little bit harder here so.
+
+477
+01:19:36.900 --> 01:19:52.920
+MS Analytics Class 2021: let's think about taking the ball bearing and dropping it down at the point where X is positive and why is negative so it's an interior of the feasible region, meaning that it has room to move right, so what tells us if it rolls downhill or not.
+
+478
+01:19:53.970 --> 01:19:59.100
+MS Analytics Class 2021: Our old friend the gradient right, so if the gradient is not zero it starts to roll downhill.
+
+479
+01:20:01.170 --> 01:20:13.950
+MS Analytics Class 2021: Well i'm not going to calculate grading that's a lot of work, I know zero it only one point and that one point is excess four thirds and why is five thirds and that's not the point we're talking about here.
+
+480
+01:20:14.880 --> 01:20:19.890
+MS Analytics Class 2021: So wherever that point is in the interior when you drop the marble on it it's going to roll.
+
+481
+01:20:20.400 --> 01:20:33.630
+MS Analytics Class 2021: And it rolls two points that have better objective values, so the optimal solution in this case has to be on the boundary i'm not saying that's always the case i'm saying that in this special case of this objective function.
+
+482
+01:20:34.740 --> 01:20:43.200
+MS Analytics Class 2021: And this choice of boundaries it can't be in the Interior has to be on the on the boundary OK so again, think of the grain is telling you.
+
+483
+01:20:44.280 --> 01:20:49.470
+MS Analytics Class 2021: A direction that you can move and make the objective in this case small right.
+
+484
+01:20:51.690 --> 01:21:04.770
+MS Analytics Class 2021: attitude of the great shows your direction to go bigger, but the negative gradient tells you when that goes smaller right at any rate for waiting the boundary we can move rolls downhill, we find a better solution.
+
+485
+01:21:06.150 --> 01:21:11.280
+MS Analytics Class 2021: If you're really interested, you can try and solve this problem by hand you could probably do it.
+
+486
+01:21:12.750 --> 01:21:14.580
+MS Analytics Class 2021: I mean no donators it's easy.
+
+487
+01:21:16.230 --> 01:21:24.600
+MS Analytics Class 2021: Because it would reduce to a one dimensional calculus problem effects with zero or five zero so you could do it, maybe not again, you could do it.
+
+488
+01:21:29.430 --> 01:21:44.850
+MS Analytics Class 2021: Alright, so what I like to do next is i'd like to use proper model to solve this simple optimization problem right, so this is going to require us to kind of get acquainted with a studio so.
+
+489
+01:21:45.960 --> 01:21:48.540
+Fireman, Karen: You have ask you a question, Sir it's Karen.
+
+490
+01:21:48.900 --> 01:21:50.160
+MS Analytics Class 2021: Sure hi Karen.
+
+491
+01:21:50.250 --> 01:21:57.390
+Fireman, Karen: hi um I don't know if other people have had this problem, I think, maybe some have but I can't get myself to do to start up anymore.
+
+492
+01:21:58.740 --> 01:22:04.230
+MS Analytics Class 2021: Okay, so what i've heard from Mayra is that the the browser may affect studio.
+
+493
+01:22:05.340 --> 01:22:18.900
+MS Analytics Class 2021: So when I came in this evening I tried to start up a studio in firefox and it would start it just started wheels it kind of gave me some encouraging signs like it was initializing.
+
+494
+01:22:19.860 --> 01:22:27.150
+MS Analytics Class 2021: You know just this wait a few more seconds, and then a few more seconds turning in minutes, and it was clear there was in fact initializing itself.
+
+495
+01:22:28.230 --> 01:22:34.560
+MS Analytics Class 2021: So what we did was we set the default browser to be IE nothing to work.
+
+496
+01:22:35.190 --> 01:22:36.780
+Fireman, Karen: So, can you help us do that.
+
+497
+01:22:38.310 --> 01:22:41.070
+Swanson J, Charles: Karen I push it the instructions and discord.
+
+498
+01:22:42.780 --> 01:22:48.240
+Wilson Pineda: yeah let's keep focused on the class and we can solve that you know everyone listen to the last name.
+
+499
+01:22:48.600 --> 01:22:49.200
+Fireman, Karen: sounds good.
+
+500
+01:22:49.710 --> 01:22:54.120
+MS Analytics Class 2021: Okay, so let me um let me see if I can what i'm going to do is.
+
+501
+01:22:55.890 --> 01:22:57.540
+MS Analytics Class 2021: i'm going to pull up.
+
+502
+01:22:59.670 --> 01:23:01.830
+MS Analytics Class 2021: So if I want to find some studio.
+
+503
+01:23:01.920 --> 01:23:05.370
+MS Analytics Class 2021: If you haven't even gotten this far as type SAS studio.
+
+504
+01:23:07.200 --> 01:23:29.280
+MS Analytics Class 2021: In the search bar and then choose SAAs to do 3.7 so it's an APP i'm just going to select that and you'll get this far, even if it's the wrong browser but you won't get a whole lot farther than this in less well for us was it that work, but we didn't try Microsoft edge.
+
+505
+01:23:32.520 --> 01:23:33.210
+MS Analytics Class 2021: It didn't work.
+
+506
+01:23:34.470 --> 01:23:35.400
+MS Analytics Class 2021: it's an outrage.
+
+507
+01:23:36.630 --> 01:23:37.680
+MS Analytics Class 2021: Okay, so so.
+
+508
+01:23:38.970 --> 01:23:49.470
+MS Analytics Class 2021: This is what you will see when you when you start obsessed to do right you'll see an area here, which will become populated on the right, once you open a program.
+
+509
+01:23:50.520 --> 01:24:03.990
+MS Analytics Class 2021: Now you might not have any programs, you can come, you can start a new SAS program and start from scratch, basically, but i'm giving you some course data, and if you.
+
+510
+01:24:06.390 --> 01:24:08.400
+MS Analytics Class 2021: define a new folder shortcut.
+
+511
+01:24:10.410 --> 01:24:21.300
+MS Analytics Class 2021: Then you can link to the course data Okay, so you take the course data put the directory somewhere on your laptop somewhere significant where your loved ones can see it like on the desktop.
+
+512
+01:24:23.070 --> 01:24:29.580
+MS Analytics Class 2021: And then create a folder shortcut for it, so I have if you can see here a folder circuit called.
+
+513
+01:24:30.990 --> 01:24:34.830
+MS Analytics Class 2021: or op 51 course data account for that name myself.
+
+514
+01:24:37.020 --> 01:24:59.790
+MS Analytics Class 2021: Inside that folder you'll see the data sets for the course So these are all SAS data sets all right, you also see folders for each of five lessons that's not a lecture SAS somehow decided that chapters were better referred to as lessons I know it's kind of like the new math of.
+
+515
+01:25:01.800 --> 01:25:05.190
+MS Analytics Class 2021: Presentation so at any rate we're in less than one now.
+
+516
+01:25:06.720 --> 01:25:08.430
+MS Analytics Class 2021: I have also send a PDF.
+
+517
+01:25:09.450 --> 01:25:15.450
+MS Analytics Class 2021: files for the notes for each lesson separately Okay, so if you want to follow along at home.
+
+518
+01:25:17.130 --> 01:25:27.840
+MS Analytics Class 2021: Under lesson one you'll see a folder for demos, and one for practices practices are exercises, but for some reason SAS decided that the called practices.
+
+519
+01:25:28.440 --> 01:25:49.620
+MS Analytics Class 2021: So you'll see in less than one you have a number of practice SAS programs, these will be referred to in the exercises in the course notes it'll say open this program make some modifications so that it does something else right, but for now i'm going to choose a DEMO.
+
+520
+01:25:51.810 --> 01:25:56.460
+MS Analytics Class 2021: And you can see, in less than one there's a DEMO called polynomial SAS.
+
+521
+01:25:57.570 --> 01:26:13.980
+MS Analytics Class 2021: i'm going to open it i'm double clicking on it there's nothing more to it than that see that it opens up a new tab polynomial that SAS what you see is called the code tap right so that's just the program code.
+
+522
+01:26:16.920 --> 01:26:18.060
+MS Analytics Class 2021: You can see.
+
+523
+01:26:19.200 --> 01:26:28.950
+MS Analytics Class 2021: In this case it starts off with prakash model it ends with quit now if you're a SAS program you thinking quit what does that what does it do to run.
+
+524
+01:26:29.370 --> 01:26:41.070
+MS Analytics Class 2021: Will pop up model is an interactive SAS procedure, and for that reason it ends with the quick instead of a run a good to a little bit more detail about that in a minute, so one of the different elements here.
+
+525
+01:26:42.150 --> 01:26:57.210
+MS Analytics Class 2021: The first statement declares my decision variables, so you can see there's a key word there allows me to tell the compiler my decision variables are and I just have a comma separated list X comma y OK.
+
+526
+01:26:58.560 --> 01:27:06.390
+MS Analytics Class 2021: The next line is blank and again if you're a SAS program you think what do you do the blank line the SAS program that never happens.
+
+527
+01:27:07.260 --> 01:27:19.740
+MS Analytics Class 2021: Well profit models compiler ignores blank lines and they help us parse the program, and so I make quite liberal use of them, I apologize in advance if you don't like them, you can take them out of all your programs, if you like.
+
+528
+01:27:21.450 --> 01:27:31.080
+MS Analytics Class 2021: But I put one in between the variable declaration statement and the objective decoration statement you just the declaration statement says i'm minimizing.
+
+529
+01:27:32.130 --> 01:27:49.890
+MS Analytics Class 2021: Z is the name of my objective called it Fred, but I just wasn't called Z and then the expression is how to calculate the objective function as a function of the decision variables X and y so it's X squared minus X minus two y.
+
+530
+01:27:51.900 --> 01:28:09.000
+MS Analytics Class 2021: In SAS when you multiply a coefficient times a variable you need an Asterix Okay, so this asterisk is not a particular solution this Asterix is our old friend the time's right, but you need them in South if you took out an asterisk here, you get a syntax here.
+
+531
+01:28:10.410 --> 01:28:10.770
+MS Analytics Class 2021: Okay.
+
+532
+01:28:12.420 --> 01:28:27.150
+MS Analytics Class 2021: powers, you can use a carrot for powers, if you want, but the carrot also is a logical not operator in SAS so it gets kind of confusing so i'll use the double asterisk, but you can use a carrot, if you like.
+
+533
+01:28:29.100 --> 01:28:38.670
+MS Analytics Class 2021: Okay, so declare this isn't variables declared the objective function that's my whole model right there and i'd sell profit model to solve.
+
+534
+01:28:39.960 --> 01:28:46.740
+MS Analytics Class 2021: And what will happen there is it'll print a solution summary table like I showed you the example of.
+
+535
+01:28:48.900 --> 01:28:57.750
+MS Analytics Class 2021: But it will not produce a list of the values of the decision variables if I want that i'm going to tell prop up models compiler to print them.
+
+536
+01:28:58.650 --> 01:29:11.250
+MS Analytics Class 2021: So I have four key words here there for declaring decision variables men for declaring the objective soul build the model and solve it and print helps me get the information out right.
+
+537
+01:29:12.270 --> 01:29:16.170
+MS Analytics Class 2021: notice that every line ends in a semi colon that's a SAS thing all right.
+
+538
+01:29:17.490 --> 01:29:28.680
+MS Analytics Class 2021: I am going to submit the program using the the running person symbol right, so it says runners all or selected code.
+
+539
+01:29:30.090 --> 01:29:33.960
+MS Analytics Class 2021: i'm a bit worried that it might think i've selected that anyway i'm just going to.
+
+540
+01:29:35.040 --> 01:29:36.300
+MS Analytics Class 2021: hit the running person.
+
+541
+01:29:39.150 --> 01:29:40.260
+MS Analytics Class 2021: When I do that.
+
+542
+01:29:41.280 --> 01:29:46.980
+MS Analytics Class 2021: If I have no errors, I get the results, the results in this case would be.
+
+543
+01:29:48.090 --> 01:29:51.060
+MS Analytics Class 2021: The problem summary table.
+
+544
+01:29:52.080 --> 01:30:02.790
+MS Analytics Class 2021: which describes just the problem itself and not the solution, how many variables, I have with their bounded above or below what types of constraints I have cetera et cetera okay.
+
+545
+01:30:04.740 --> 01:30:09.690
+MS Analytics Class 2021: And when we pulled this up, and it was barely visible.
+
+546
+01:30:11.010 --> 01:30:11.700
+MS Analytics Class 2021: But we.
+
+547
+01:30:14.040 --> 01:30:15.600
+MS Analytics Class 2021: discovered that you can hit.
+
+548
+01:30:17.040 --> 01:30:30.840
+MS Analytics Class 2021: Control plus to increase the font size of the words displayed in SAS studio So if you want make yours big to do you want to go big control plus okay.
+
+549
+01:30:32.130 --> 01:30:49.380
+MS Analytics Class 2021: So, after the problem summary table, you can see, below that there is a solution summary table like the example I showed you before that tells you that found an optimal solution, what the objective value was how many steps it took to solve the problem, how much time, so forth.
+
+550
+01:30:51.600 --> 01:31:03.720
+MS Analytics Class 2021: And in this case at printed table of the values of X and y right access four thirds and wires pfeiffer's we should be encouraged, that he got the same answer we did by calculus right.
+
+551
+01:31:04.320 --> 01:31:15.240
+MS Analytics Class 2021: But you might say, there's only four decimal places that's the default setting for the print statement, so they actually are more decimal places there that's just all it's showing me.
+
+552
+01:31:16.380 --> 01:31:28.440
+MS Analytics Class 2021: You can look at the table of contents here and navigate through the tables that are produced in the results if you have a lot of tables okay this case is not really a whole lot of tables.
+
+553
+01:31:30.480 --> 01:31:44.100
+MS Analytics Class 2021: The lung tab will open, if you have syntax errors right, that would be bad news, you see a list of errors and warnings that you can jump to otherwise, if you just go to the log itself.
+
+554
+01:31:45.570 --> 01:31:52.260
+MS Analytics Class 2021: So it's the log tab the contents of the long table referred to as the SAS law right.
+
+555
+01:31:53.370 --> 01:32:08.340
+MS Analytics Class 2021: So you see a list of the programming statements and then for some statements that generates notes, for example, for the solved statement it generates notes as it's solving the model right and we'll get into this in more detail a little bit later on.
+
+556
+01:32:09.450 --> 01:32:09.870
+MS Analytics Class 2021: But.
+
+557
+01:32:14.130 --> 01:32:19.320
+MS Analytics Class 2021: It got through there without any problems, and then it leads to quit statement and stop.
+
+558
+01:32:20.040 --> 01:32:32.790
+MS Analytics Class 2021: it's really not a whole lot of excitement in the log in this case it's usually, when you get a syntax error and you'll see them indicated here in the air section and you'll see them in red below in the log itself.
+
+559
+01:32:34.200 --> 01:32:34.980
+MS Analytics Class 2021: Okay, so.
+
+560
+01:32:36.660 --> 01:32:53.460
+MS Analytics Class 2021: These tabs are various useful options, like, for example in the log I can open it in a browser tab or I can can print it I can save it, likewise the results, I can take the tables in the results, and I can.
+
+561
+01:32:54.480 --> 01:33:08.130
+MS Analytics Class 2021: download it as a rich text file So if you wanted to like you were doing a homework assignment and you want to include the results in your your answer there's various ways of getting the information out of SAS to do it's a nice feature access to.
+
+562
+01:33:10.290 --> 01:33:24.990
+MS Analytics Class 2021: The last thing I want to show you in SAS do I go back to the code tab and your little primer obsessed to do is this exciting button on the right that says go interactive right it's kinda like a go team.
+
+563
+01:33:26.670 --> 01:33:34.560
+MS Analytics Class 2021: So profit model is an interactive South procedure like prop I ml interactive matrix language.
+
+564
+01:33:36.540 --> 01:33:43.650
+MS Analytics Class 2021: If you want, you can submit this part of a program if you switch the interactive mode by clicking the go interrupted button.
+
+565
+01:33:44.940 --> 01:33:46.170
+MS Analytics Class 2021: You can highlight.
+
+566
+01:33:47.670 --> 01:33:58.620
+MS Analytics Class 2021: sections of Code as i'm trying to do here and then, when you run it will only run the code that you selected Okay, so if I run this code.
+
+567
+01:34:00.540 --> 01:34:02.580
+MS Analytics Class 2021: it's going to go through the solve statement.
+
+568
+01:34:03.720 --> 01:34:07.560
+MS Analytics Class 2021: it's going to generate a problem summary table a solution summary table.
+
+569
+01:34:09.060 --> 01:34:13.500
+MS Analytics Class 2021: But it's not going to print the values of X, Y but she was taking its time.
+
+570
+01:34:18.840 --> 01:34:31.740
+MS Analytics Class 2021: It must be just initializing the environment okay So you see here problem summary table solution summary table, but you don't see the values of the decision variables, if you go back to the code statement now.
+
+571
+01:34:33.060 --> 01:34:41.520
+MS Analytics Class 2021: The the model is active in memory, because it hasn't encountered to put statement, so I could now tell it to print the values of X and y.
+
+572
+01:34:43.380 --> 01:34:52.440
+MS Analytics Class 2021: And without rerunning the program it can now to spit out the values of X and y So why is that useful well if you have a big model.
+
+573
+01:34:54.390 --> 01:35:03.330
+MS Analytics Class 2021: And you're an interactive mode it doesn't have to rebuild the model every time you want to go a little bit farther on in the process okay.
+
+574
+01:35:04.470 --> 01:35:14.160
+MS Analytics Class 2021: I would say, for our purposes, I probably won't do much of anything in the interactive mode but realized that it's out there it's an option, and it allows you to, for example.
+
+575
+01:35:15.210 --> 01:35:24.120
+MS Analytics Class 2021: build a model solve it look at the answer and then decide what you want to do next, in fact, in interactive mode I could even add more programming statements I can type them in.
+
+576
+01:35:25.290 --> 01:35:26.640
+MS Analytics Class 2021: and submit them.
+
+577
+01:35:28.770 --> 01:35:33.990
+MS Analytics Class 2021: Alright, so that's that's that's fabulous i'm going to go non interactive at this point.
+
+578
+01:35:37.980 --> 01:35:45.510
+MS Analytics Class 2021: So the first homework assignment that i've assigned should be able to access tonight in just a few minutes.
+
+579
+01:35:46.710 --> 01:35:48.690
+MS Analytics Class 2021: Because you have a project do.
+
+580
+01:35:49.950 --> 01:35:50.790
+MS Analytics Class 2021: On the.
+
+581
+01:35:52.380 --> 01:36:06.630
+MS Analytics Class 2021: 18th I believe next Thursday one sacrum for the first half of the class, the first assignment is not due until two weeks from now 25th right, I would encourage you to do the part of the assignment that says.
+
+582
+01:36:08.130 --> 01:36:15.750
+MS Analytics Class 2021: go in this studio fiddle around with it try a few things then don't worry about the actual.
+
+583
+01:36:17.160 --> 01:36:24.960
+MS Analytics Class 2021: Exercise questions until the next week, so if you just keep your hands dirty with SAS to do this week before the next lecture you're good okay.
+
+584
+01:36:26.820 --> 01:36:29.910
+MS Analytics Class 2021: Alright, so let me go back out.
+
+585
+01:36:34.290 --> 01:36:35.310
+See.
+
+586
+01:36:37.380 --> 01:36:40.500
+MS Analytics Class 2021: i've been told how to do this, but slow learner.
+
+587
+01:36:41.700 --> 01:36:42.000
+MS Analytics Class 2021: Okay.
+
+588
+01:36:47.940 --> 01:36:49.050
+MS Analytics Class 2021: So i'm just.
+
+589
+01:36:50.580 --> 01:36:52.110
+MS Analytics Class 2021: pastor the slides.
+
+590
+01:36:53.640 --> 01:37:01.320
+MS Analytics Class 2021: pretty much talked about it seemed like easier to just do a as an example, again, these slides are in your PDF file in the notes.
+
+591
+01:37:03.870 --> 01:37:06.390
+MS Analytics Class 2021: Nothing new and exciting here, but through all of it.
+
+592
+01:37:07.800 --> 01:37:08.940
+it's all fabulous.
+
+593
+01:37:10.920 --> 01:37:14.610
+MS Analytics Class 2021: Okay, so let me kind of give you an idea where we go next.
+
+594
+01:37:15.630 --> 01:37:16.620
+MS Analytics Class 2021: Because I don't want to.
+
+595
+01:37:18.030 --> 01:37:26.670
+MS Analytics Class 2021: jump into the next section of material I might have if you have a little bit more time, but I don't want to get too deep in the weeds at this point.
+
+596
+01:37:28.620 --> 01:37:29.340
+MS Analytics Class 2021: So the next.
+
+597
+01:37:30.480 --> 01:37:43.890
+MS Analytics Class 2021: couple of lectures are going to be all about linear programming models and there's a couple of reasons for that one is there the the simplest and easiest to sell faster models right.
+
+598
+01:37:45.000 --> 01:37:52.260
+MS Analytics Class 2021: And secondly, when we talk about doing things like reading data or writing output.
+
+599
+01:37:53.550 --> 01:38:01.410
+MS Analytics Class 2021: we're learning the syntax in the context of linear programming but we'll be able to do those things, more generally, with any mathematical optimization model.
+
+600
+01:38:01.950 --> 01:38:15.030
+MS Analytics Class 2021: Okay, so we're going to start in the class of models that is conceptually the simplest easiest to understand kind of what's going on under the hood so my wife used to have a Ford bronco.
+
+601
+01:38:16.950 --> 01:38:26.340
+MS Analytics Class 2021: And if you lift the hood I don't know if it's still they still do this parts of the engine were painted yellow right so like.
+
+602
+01:38:28.500 --> 01:38:29.850
+MS Analytics Class 2021: The the.
+
+603
+01:38:31.290 --> 01:38:32.070
+MS Analytics Class 2021: Where you put the.
+
+604
+01:38:33.630 --> 01:38:35.490
+MS Analytics Class 2021: person i'm drawing a blank here.
+
+605
+01:38:36.630 --> 01:38:54.570
+MS Analytics Class 2021: Where we pull the dipstick so check the oil level that was yellow where the coin goes in that was the spark plugs not yo okay so basically anything that was yellow was they thought you were capable of taking care of yourself anything else you should take it to the dealer alright so.
+
+606
+01:38:56.580 --> 01:39:04.920
+MS Analytics Class 2021: A lot of the stuff that we're going to do i'm going to try and teach you about the yellow parts, but realize that there are a lot of details under the hood.
+
+607
+01:39:05.430 --> 01:39:16.080
+MS Analytics Class 2021: That you don't necessarily need to understand everything to do as a user, I just want to get you, to the point where you're comfortable with the basic syntax.
+
+608
+01:39:16.860 --> 01:39:37.530
+MS Analytics Class 2021: And you know enough about how the solution process or algorithms work that if you needed to make choices about solver options, you could do it in a way that wasn't just blindly stabbing at values right sure you understand at a conceptual level how the solution process works.
+
+609
+01:39:39.030 --> 01:39:48.660
+MS Analytics Class 2021: Just enough to make intelligent decisions so like what they say learn learn enough to be dangerous, but, but in a controlled way right.
+
+610
+01:39:50.040 --> 01:39:55.260
+MS Analytics Class 2021: So let me stop there, and make sure there are questions that I should be.
+
+611
+01:39:57.660 --> 01:40:01.170
+MS Analytics Class 2021: Answering that I don't always pay attention to the the chat.
+
+612
+01:40:05.310 --> 01:40:12.570
+MS Analytics Class 2021: If you have questions the Chinese studio and you still have difficulties along those lines office hours on Monday.
+
+613
+01:40:13.470 --> 01:40:28.680
+MS Analytics Class 2021: I should be available, I may have to negotiate with my my fellow teacher, because he may want to use those office hours for you to ask questions about your projects, but if there's any delicate negotiations along those lines myra would you think no.
+
+614
+01:40:29.970 --> 01:40:33.750
+MS Analytics Class 2021: Okay cells, so you should be able to ask those questions, then.
+
+615
+01:40:34.920 --> 01:40:47.820
+MS Analytics Class 2021: But don't worry too much about the homework assignment take a little time get your hands dirty and SAS do if you have problems, let me know I can try and help you through those problems and the other questions.
+
+616
+01:40:59.070 --> 01:40:59.850
+Swanson J, Charles: No questions.
+
+617
+01:41:01.710 --> 01:41:03.150
+MS Analytics Class 2021: Thank you for your summary statement.
+
+618
+01:41:06.120 --> 01:41:21.630
+MS Analytics Class 2021: Oh someone's asking about SAS 3.81 I assume that you're meaning SAS studio yes it's it's fine if you have a different version of stuff studio at home, I have version 3.8 and that's what I typically use.
+
+619
+01:41:22.710 --> 01:41:26.520
+MS Analytics Class 2021: If you have a different version of SAS or.
+
+620
+01:41:27.840 --> 01:41:32.700
+MS Analytics Class 2021: That is also a potentially a good question so when you when you start up SAS.
+
+621
+01:41:33.720 --> 01:41:41.100
+MS Analytics Class 2021: It has a log that it generates on startup which you can usually tell what versions of the different products, you have.
+
+622
+01:41:42.450 --> 01:41:47.970
+MS Analytics Class 2021: If you don't see that you can also open a new programming window and run a procedure called.
+
+623
+01:41:48.960 --> 01:42:07.680
+MS Analytics Class 2021: Product status, you can say proc product underscore status semi colon run semi colon and that will list all the products that you have installed and the versions of all of them, I believe that all of the students should have SAS or.
+
+624
+01:42:08.790 --> 01:42:23.520
+MS Analytics Class 2021: version 14.3 if you have a more recent version, then you might have additional capabilities that other people don't have and if that's the case, I can kind of explain the different points of time if you had this version, you could do this.
+
+625
+01:42:24.930 --> 01:42:31.140
+MS Analytics Class 2021: Let me know if you have a different version of stuff so far and I can, I can tell you what different capabilities, you have available to you.
+
+626
+01:42:38.160 --> 01:42:42.030
+MS Analytics Class 2021: Are you fabulous fabulous Okay, thank you i'll see you next week.
+
+627
+01:42:42.480 --> 01:42:42.840
+Amanda Pham: Thank you.
+
+628
+01:42:44.130 --> 01:42:45.570
+Coleman, Clay: Thank you, thank you.
+
+629
+01:42:45.900 --> 01:42:46.440
+Swanson J, Charles: Thank you.
+
+630
+01:42:47.490 --> 01:42:48.180
+Wilson Pineda: Thank you.
+

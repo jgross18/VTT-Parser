@@ -1,0 +1,2430 @@
+WEBVTT
+
+1
+00:00:38.700 --> 00:00:40.080
+Capstone Coach 1: I didn't expect many tonight.
+
+2
+00:00:41.220 --> 00:00:53.550
+Capstone Coach 1: Especially I know you probably heard or you should have heard that the this no homework assignment for this week, so the conversations my will be probably a little bit more personal.
+
+3
+00:00:55.800 --> 00:01:00.720
+Capstone Coach 1: than how you doing in class or thing, are you doing the course and all that sort of business.
+
+4
+00:01:03.540 --> 00:01:06.810
+Capstone Coach 1: Let me check my email here and make sure I got everything okay.
+
+5
+00:01:28.560 --> 00:01:38.580
+Capstone Coach 1: Working with some students on their capstones sort of last minute sort of things questions, and so, if you have any.
+
+6
+00:01:40.050 --> 00:01:43.650
+Capstone Coach 1: let's see where Am I now okay there we go right.
+
+7
+00:01:48.630 --> 00:01:52.620
+Capstone Coach 1: let's start with let's start with Karen Karen do you have any questions.
+
+8
+00:01:53.970 --> 00:01:57.300
+Capstone Coach 1: In general, or, in particular, about your capstone you're muted.
+
+9
+00:02:00.180 --> 00:02:04.710
+Fireman, Karen: yeah actually I am I do but i'm okay.
+
+10
+00:02:05.970 --> 00:02:07.860
+Capstone Coach 1: Thank you may not want to do it here right.
+
+11
+00:02:08.550 --> 00:02:13.560
+Fireman, Karen: that's okay that's Okay, the question is if i'm inside the.
+
+12
+00:02:15.030 --> 00:02:24.780
+Fireman, Karen: Logistics or not logistics, the linear regression or any of those and say, I want to change the the the.
+
+13
+00:02:25.410 --> 00:02:44.850
+Fireman, Karen: variables that are that are going to be used for the prediction going forward say say I run a whole bunch of them Sarah and 50 of them some ridiculous number five afterwards well you know, I only want a few of those to maybe rerun or whatever what's my easiest way to try to rerun.
+
+14
+00:02:46.170 --> 00:03:03.390
+Fireman, Karen: Am I making sense, maybe not explaining this right, but i'm if sort of way through my program I, I want to insert some code that this is the number of variables right there and reruns you know, based on those is there an easy way to do that or a couple variables that are easy.
+
+15
+00:03:03.990 --> 00:03:04.740
+Fireman, Karen: To do that.
+
+16
+00:03:05.850 --> 00:03:09.600
+Capstone Coach 1: i'm not sure exactly what you mean yeah.
+
+17
+00:03:09.690 --> 00:03:11.340
+Fireman, Karen: yeah really asking the right okay.
+
+18
+00:03:11.370 --> 00:03:13.890
+Fireman, Karen: Right, I can play around with it that's what i'm doing that's okay.
+
+19
+00:03:14.160 --> 00:03:14.670
+Okay.
+
+20
+00:03:15.840 --> 00:03:20.430
+Capstone Coach 1: And let's see Christians here in Georgia is here Christian do you have any questions.
+
+21
+00:03:20.460 --> 00:03:26.700
+Christian Gover: or comments yeah I have kind of a general question I would like to know the difference between the.
+
+22
+00:03:27.990 --> 00:03:32.820
+Christian Gover: neural network algorithm the terrace tensorflow.
+
+23
+00:03:32.880 --> 00:03:33.810
+neural network.
+
+24
+00:03:34.830 --> 00:03:39.690
+Christian Gover: and also your advanced analytics which is I guess it says kaler in the background.
+
+25
+00:03:41.010 --> 00:03:47.310
+Capstone Coach 1: Right okay we'll get to that that's that's Actually, I have some material, I thought we were us here.
+
+26
+00:03:49.110 --> 00:03:50.250
+Capstone Coach 1: George how about you.
+
+27
+00:03:52.230 --> 00:03:54.060
+George McKenna: No, no specific questions for me.
+
+28
+00:03:54.360 --> 00:03:55.620
+Capstone Coach 1: Okay, George great.
+
+29
+00:03:55.650 --> 00:03:56.850
+Capstone Coach 1: glad to see you here.
+
+30
+00:03:57.210 --> 00:03:58.620
+Capstone Coach 1: And said how are you doing.
+
+31
+00:04:00.750 --> 00:04:01.380
+Capstone Coach 1: you're muted.
+
+32
+00:04:03.510 --> 00:04:05.010
+Gupta, Satyam: i'm doing good Dr Jones.
+
+33
+00:04:05.790 --> 00:04:08.910
+Capstone Coach 1: Have any particular question as such, I mean yes.
+
+34
+00:04:08.940 --> 00:04:21.540
+Gupta, Satyam: I am still very fuzzy on you know the whole charisse and you know, like even the different forms of neural networks like can and FN and whatever so maybe a little bit more elaboration on that.
+
+35
+00:04:22.050 --> 00:04:26.760
+Capstone Coach 1: Okay okay all right and David i've got your data.
+
+36
+00:04:28.050 --> 00:04:38.070
+Capstone Coach 1: yeah and I found the headings in the there's the one one fellow posted a notebook or something I just kept his headings.
+
+37
+00:04:38.850 --> 00:04:40.620
+Purkiss, David: And another couple of links with.
+
+38
+00:04:40.650 --> 00:04:41.610
+Purkiss, David: Some more documentation.
+
+39
+00:04:41.640 --> 00:04:49.800
+Capstone Coach 1: I saw that I saw that i'll be looking at that here shortly, but I thought, what we might do is go over the question that.
+
+40
+00:04:50.370 --> 00:05:06.030
+Capstone Coach 1: was just raised, which is what's the difference between regular neural networks and this tensorflow thing, and so what I did was I did some more work to figure out what were my problems with tensorflow i'm going to share my screen here.
+
+41
+00:05:07.410 --> 00:05:07.830
+Capstone Coach 1: Okay.
+
+42
+00:05:09.420 --> 00:05:09.990
+Capstone Coach 1: All right.
+
+43
+00:05:13.410 --> 00:05:14.190
+Capstone Coach 1: Okay.
+
+44
+00:05:18.150 --> 00:05:19.500
+Capstone Coach 1: yeah I think that's the one.
+
+45
+00:05:26.370 --> 00:05:26.790
+Capstone Coach 1: alright.
+
+46
+00:05:28.680 --> 00:05:32.130
+Capstone Coach 1: You should see something like a spider thing here, I hope you do.
+
+47
+00:05:33.540 --> 00:05:41.910
+Capstone Coach 1: Okay, what you might want to do to on this case is you might want to go to e campus and.
+
+48
+00:05:45.180 --> 00:05:51.000
+Capstone Coach 1: Look at look at what we were looking at last night actually i've updated at go to week nine folder.
+
+49
+00:05:52.080 --> 00:06:02.460
+Capstone Coach 1: And then the week nine folder there's this file called Kara stock P, why, and I thought we might might look at that for a minute, and then we might look at some other files as well.
+
+50
+00:06:02.940 --> 00:06:12.390
+Capstone Coach 1: So if you could do that go to just download that file and I think this one i've been working with that a little bit to try to understand some of the questions here on.
+
+51
+00:06:12.420 --> 00:06:14.490
+Capstone Coach 1: tensorflow and.
+
+52
+00:06:15.660 --> 00:06:22.650
+Capstone Coach 1: If you do that, and then, if you often it, this is, let me, let me clear off the right hand part but.
+
+53
+00:06:24.000 --> 00:06:25.950
+Capstone Coach 1: This is what you should see at the top.
+
+54
+00:06:28.080 --> 00:06:39.030
+Capstone Coach 1: The import statements go from line eight to about line 18 something like that now what I found out is that I was having problems because I had written some code.
+
+55
+00:06:39.390 --> 00:06:53.460
+Capstone Coach 1: Some time ago, and that code was written in tensorflow version one, and so this what we're using now when I updated everything i'm used we're now using tensorflow version two.
+
+56
+00:06:53.940 --> 00:07:05.730
+Capstone Coach 1: And the syntax is well, something has changed a little bit of the syntax and not so much, but the way you are allowed to import things, and you can see that in this code just gives you some ideas of.
+
+57
+00:07:06.690 --> 00:07:22.470
+Capstone Coach 1: The way in which we would they want you to structure your inputs and refer to the different different parts of tensorflow and charisse So if you have this open, then you could say kinda list tensorflow.
+
+58
+00:07:23.670 --> 00:07:34.170
+Capstone Coach 1: like that, and it should show you the current version, for your tensorflow, and the reason I want to do that is because I want to make sure it says version two point something.
+
+59
+00:07:35.700 --> 00:07:52.980
+Capstone Coach 1: If it says one point something we're going to have problems and that's what my that's where my problems came from, and the same thing with charisse if you look at Kaunda list charisse like that you should see I two point X something.
+
+60
+00:07:54.000 --> 00:08:07.110
+Capstone Coach 1: And it can see it's 2.4 point three, on my in my case, and if you have any of this at one point something you're going to have difficulties running any of the coach that we're talking about tonight so.
+
+61
+00:08:09.210 --> 00:08:17.160
+Capstone Coach 1: There are a couple of ways to structure the import statements, but this is the, this is the approach that just shows up in their current documentation.
+
+62
+00:08:17.760 --> 00:08:35.820
+Capstone Coach 1: So you would say tends to say import tensorflow is tf and actually we're not using that all that much, but then you have one for data sets one for models, one for layers and one for utilities and notice it says tensorflow dot charisse and now.
+
+63
+00:08:37.140 --> 00:08:54.330
+Capstone Coach 1: I suspect what they what they wanted to do there was to make sure that people understand that this is a subset of tensorflow not a new, separate package on So if you did from kara's import data sets it should work well it doesn't.
+
+64
+00:08:55.350 --> 00:09:04.950
+Capstone Coach 1: You have to say tensorflow dot charisse you can't even put in T F dot charisse, it must be stalled out this way okay that's fine.
+
+65
+00:09:06.210 --> 00:09:11.970
+Capstone Coach 1: Anyway, if you go down into the code, a little bit you're going to see it, a data sets.
+
+66
+00:09:13.560 --> 00:09:22.080
+Capstone Coach 1: Import it says data set stop him in is to load data, and I was worried about this because there's no path or notice, no.
+
+67
+00:09:23.010 --> 00:09:29.880
+Capstone Coach 1: Title assigned to the data, well, it turns out this particular command they just said, stop him in is it.
+
+68
+00:09:30.660 --> 00:09:37.350
+Capstone Coach 1: Only refers to one and one in particular data set that's located in their file and their story chair.
+
+69
+00:09:37.920 --> 00:09:46.830
+Capstone Coach 1: it's called data sets and you can see, the first from import data sets there now this data set is a collection of pictures and we have.
+
+70
+00:09:47.460 --> 00:09:58.860
+Capstone Coach 1: Each of these are black and white images and they you know they're 28 by 28 pixels a total of 784 pixels and so.
+
+71
+00:09:59.460 --> 00:10:21.450
+Capstone Coach 1: Each of these is it's a great frame it's which means there's only one layer of pixels and these layer this layer is the pixels individual guys are numbered from zero to 254 depending upon all the way from white to black basically and then the shades of grey 250 shades of grey I suppose.
+
+72
+00:10:23.280 --> 00:10:32.130
+Capstone Coach 1: And this is common enemy, if you have black and white photograph, this is what scared going to have in your file you're going to come in with a two dimensional numpty array.
+
+73
+00:10:32.490 --> 00:10:39.780
+Capstone Coach 1: This is two dimensional, in fact, if you look at the type of the arrays for the erase that are coming in up here X X and y.
+
+74
+00:10:40.590 --> 00:10:57.060
+Capstone Coach 1: The type will say nothing, nothing indie indie array of the indie array so that's what these are coming in, as simple race and the data type years and fishers, since this numbers between zero and 254 you know they come in as as integers.
+
+75
+00:10:58.230 --> 00:11:10.500
+Capstone Coach 1: The number of classes would be there's a variable why here, and you notice it's getting the number of classes here equal to the link of well this, this is the link of that that variable.
+
+76
+00:11:11.550 --> 00:11:22.650
+Capstone Coach 1: In MP dot unique is a non P function that says, give me all of the unique values in that in that array, this is a vector here are just a string.
+
+77
+00:11:23.340 --> 00:11:32.250
+Capstone Coach 1: I mean a list, and so the number of classes is is 10 and that corresponds to the digits 01234 up to nine.
+
+78
+00:11:32.730 --> 00:11:50.040
+Capstone Coach 1: So, and if you run this program right in the front it's going to show you the first five images, it says, for I equal one in range five, and so you know that comes up and it's actually just shows you on your screen what those images look like.
+
+79
+00:11:51.660 --> 00:12:03.390
+Capstone Coach 1: So at this point let's go ahead and run it now this this takes a little bit of time to run and while it's running i'll be talking here okay so it's going to run or you'll see some stuff coming up on the right hand side.
+
+80
+00:12:04.410 --> 00:12:09.660
+Capstone Coach 1: And you can run it on your computer and you should see basically the same sort of thing developing now.
+
+81
+00:12:10.050 --> 00:12:13.470
+Capstone Coach 1: At the at the very top, you have the images coming up, and this is.
+
+82
+00:12:14.040 --> 00:12:28.140
+Capstone Coach 1: This is, this is the first five images and you can see image there's a five here there's a zero here and then it's showing you what the target value is the target value here's five as it should be, and then a zero as it should be.
+
+83
+00:12:28.620 --> 00:12:46.320
+Capstone Coach 1: And then the actual image is contained in the two dimensional lumpy array X T zero or X one X T is that it's basically the collection of all of the images, there are 60,000 training images and and 10,000 test images.
+
+84
+00:12:47.490 --> 00:12:57.330
+Capstone Coach 1: That would seem like a lot, but the images are small early tiny 28 by 28 normally if you're working with them and, by the way, yeah if you work with real images today.
+
+85
+00:12:58.020 --> 00:13:16.260
+Capstone Coach 1: they're much larger like like maybe you know 1200 by 1200 or even 3000 by 3000 depending on the resolution that your camera that you have in your camera becomes it becomes a much more of a where, am I going to put all this data problem.
+
+86
+00:13:17.580 --> 00:13:20.880
+Capstone Coach 1: But here, with just 28 by 28 now after the.
+
+87
+00:13:22.110 --> 00:13:30.720
+Capstone Coach 1: After the images you're going to see a table this table is the summary table that describes the neural network.
+
+88
+00:13:31.320 --> 00:13:44.160
+Capstone Coach 1: And so you can see, in this case the neural network, I have three hidden layers these would be stacked one on top, or the other, or if you're looking at it sideways one you know basically after the other.
+
+89
+00:13:44.880 --> 00:13:50.220
+Capstone Coach 1: That this type of a neural network is in total and tensorflow is referred to as sequential.
+
+90
+00:13:50.760 --> 00:14:06.270
+Capstone Coach 1: And we talked about a little bit about this last night sequential, meaning that I have a series of hidden layers one after the other placed one directly after the other, and the word density or refers to the fact that all of the.
+
+91
+00:14:07.050 --> 00:14:12.870
+Capstone Coach 1: neurons in one layer are connected to all of the neurons and the second layer so.
+
+92
+00:14:14.220 --> 00:14:20.160
+Capstone Coach 1: I tried to change it, I changed it up a little bit, let me show you in the code, where this is actually being created.
+
+93
+00:14:21.360 --> 00:14:30.630
+Capstone Coach 1: And so, a lot of this code is just logistics, but right in here, and this is starting on model online number 71.
+
+94
+00:14:31.680 --> 00:14:42.090
+Capstone Coach 1: And then it goes it's pretty short it goes to 71 to 77 right there, I hope you can see that I guess like no that's about as big as it's going to get.
+
+95
+00:14:42.150 --> 00:14:43.860
+Fireman, Karen: that's fine, we can see it okay.
+
+96
+00:14:44.760 --> 00:14:54.930
+Capstone Coach 1: So the first thing you do is you say models equal to models sequential now where does the word models and sequential come from, if you look at the import statements up.
+
+97
+00:14:54.930 --> 00:14:56.010
+Capstone Coach 1: Here you'll see it.
+
+98
+00:14:56.010 --> 00:15:02.940
+Capstone Coach 1: says tensorflow charisse important models so models is a key word in tensorflow.
+
+99
+00:15:03.660 --> 00:15:22.530
+Capstone Coach 1: And then within that class models, there is a function called sequential I another class called sequential and sequential is the key word that identifies classic neural network classic, meaning that there's, this is the one we talked about in.
+
+100
+00:15:24.030 --> 00:15:37.590
+Capstone Coach 1: This is the one where the you have a bunch of inputs that are connected to the first layer than the second layer that there, and all of the connections are there and that's why you have the word dense here in this code.
+
+101
+00:15:38.220 --> 00:15:50.370
+Capstone Coach 1: So this is saying okay we're going to create a classic neural network, and then it says model add this would be the statement that brings in the description of the first hidden layer
+
+102
+00:15:51.270 --> 00:16:02.460
+Capstone Coach 1: And then, it says layers dense which means i'm bringing in a layer that's dense which means I want everything connected between this layer and everything in front of it, and everything behind it.
+
+103
+00:16:03.300 --> 00:16:12.090
+Capstone Coach 1: How many precept runs 784 that number seven 184 is the number of precepts RON said that particular layer
+
+104
+00:16:12.540 --> 00:16:31.560
+Capstone Coach 1: Now, this may seem pretty wild because most of the examples that we've looked at in 656 that number would be more like six or seven so that's one of the big deals here in tensorflow is that the number of receptors you can put in your matrix I mean in your neural network, you have much.
+
+105
+00:16:32.610 --> 00:16:44.250
+Capstone Coach 1: Better ability to handle a larger number of the set runs and that's partly because of the way the optimization routine works and the way they're storing the data, there was just a lot more efficient.
+
+106
+00:16:44.940 --> 00:16:51.510
+Capstone Coach 1: So, then, I put in it, this is Bailey this one is not required it says input shape.
+
+107
+00:16:52.230 --> 00:17:05.850
+Capstone Coach 1: That that little part right here is not really required, but it's good, to put it in there to document what you're doing this is saying that the number of features of the that this first layer
+
+108
+00:17:06.420 --> 00:17:15.540
+Capstone Coach 1: The number of inputs to that layer is in features and it's one dimensional so there's not there's no second number they're just blank.
+
+109
+00:17:16.170 --> 00:17:29.580
+Capstone Coach 1: In features comma blank and that sort of thing now in features, is the, the number of columns in X basically a number of features coming in in this particular case, that would be a 784.
+
+110
+00:17:30.750 --> 00:17:43.200
+Capstone Coach 1: So each pixel gets its own little column and there's a number in that column that's between zero and 254 and that's what's coming into the network these pictures.
+
+111
+00:17:43.980 --> 00:17:54.930
+Capstone Coach 1: activation is Arielle you I mentioned this last night, if you're using if you're using the large neural network you want you most likely want to use Arielle you.
+
+112
+00:17:55.410 --> 00:18:11.160
+Capstone Coach 1: As opposed to our tension logistic there you know there's a whole series of other possibilities that you could put in here and you're not restricted to using Arielle you specifically but Arielle you is much faster.
+
+113
+00:18:11.700 --> 00:18:19.380
+Capstone Coach 1: So instead of calculating a tangent or sine wave function which by the way in the computer is a little bit.
+
+114
+00:18:20.700 --> 00:18:32.130
+Capstone Coach 1: You know computationally intensive this guy's just a table look up because the idea with activation is i'm going to take the potential, which is the weighted average for the inputs right.
+
+115
+00:18:33.690 --> 00:18:34.410
+Capstone Coach 1: hello, Jim.
+
+116
+00:18:36.360 --> 00:18:36.930
+Capstone Coach 1: Okay.
+
+117
+00:18:38.730 --> 00:18:42.660
+Capstone Coach 1: See jim's outside it looks like looks like jim's on the beach.
+
+118
+00:18:43.830 --> 00:18:49.830
+Capstone Coach 1: I don't know, I see a palm tree they're hearing how come there's daylight on you aren't you in Texas.
+
+119
+00:18:51.210 --> 00:18:53.250
+Fireman, Karen: Here i'm here at my house.
+
+120
+00:18:54.210 --> 00:18:55.230
+Capstone Coach 1: it's still later.
+
+121
+00:18:55.320 --> 00:18:55.830
+Jim.
+
+122
+00:18:58.170 --> 00:19:07.470
+Jim Clark: Service got i've got grandparent jd so i'm on my side, while my granddaughter being taken care of so i'm away from my home office.
+
+123
+00:19:08.130 --> 00:19:10.980
+Jim Clark: I just getting volition, and I didn't know we've been talking to that.
+
+124
+00:19:11.310 --> 00:19:13.020
+Capstone Coach 1: yeah so it's.
+
+125
+00:19:16.380 --> 00:19:26.940
+Capstone Coach 1: yeah it's I guess it's still daylight, but it's kind of Gray outside where i'm at so I don't know all right what's your in Texas Karen right.
+
+126
+00:19:27.630 --> 00:19:30.720
+Fireman, Karen: Oh yeah usually it's my office looking at.
+
+127
+00:19:31.410 --> 00:19:33.150
+Capstone Coach 1: So that's what I thought it's in Houston.
+
+128
+00:19:33.600 --> 00:19:34.800
+Fireman, Karen: yeah we just said.
+
+129
+00:19:35.880 --> 00:19:38.580
+Capstone Coach 1: Okay, well, maybe you have fewer clouds and we do.
+
+130
+00:19:39.390 --> 00:19:39.900
+Capstone Coach 1: I don't think.
+
+131
+00:19:39.930 --> 00:19:42.450
+Fireman, Karen: The second shooting out on the second level so it's.
+
+132
+00:19:42.450 --> 00:19:43.140
+Capstone Coach 1: not good.
+
+133
+00:19:43.350 --> 00:19:44.610
+Fireman, Karen: To see a lot of sort of blew the.
+
+134
+00:19:44.610 --> 00:19:48.450
+Capstone Coach 1: gym you got a big palm tree behind your you and galveston or.
+
+135
+00:19:50.610 --> 00:19:55.380
+Jim Clark: No, no, Sir, this is a half my son's living in and he's got a few palm trees.
+
+136
+00:19:56.730 --> 00:19:58.740
+Jim Clark: Have and they sit on this outside.
+
+137
+00:19:59.940 --> 00:20:01.440
+Capstone Coach 1: They survived the deep freeze.
+
+138
+00:20:01.500 --> 00:20:03.630
+Jim Clark: yeah they are they survived the free so.
+
+139
+00:20:03.870 --> 00:20:05.460
+Capstone Coach 1: wow I hope.
+
+140
+00:20:05.670 --> 00:20:07.110
+Jim Clark: I hope they survived I mean they.
+
+141
+00:20:07.110 --> 00:20:08.760
+Jim Clark: Have no.
+
+142
+00:20:08.970 --> 00:20:10.800
+Jim Clark: One really house and I had to take down.
+
+143
+00:20:12.060 --> 00:20:24.870
+Capstone Coach 1: yeah I remember that when I when I was in corporate on on padre island when that happened, the last big freeze on it killed all the palms but you don't really find out until the spring, when they're they just continue to drop down.
+
+144
+00:20:25.980 --> 00:20:26.040
+Capstone Coach 1: i'm.
+
+145
+00:20:26.460 --> 00:20:27.840
+Fireman, Karen: Actually gonna be some.
+
+146
+00:20:28.170 --> 00:20:31.710
+Fireman, Karen: These birds of paradise gorgeous plants four feet across they all.
+
+147
+00:20:32.190 --> 00:20:34.200
+Fireman, Karen: They all have they might have died, that.
+
+148
+00:20:34.230 --> 00:20:36.660
+Fireman, Karen: The burn down i'm just heartbroken.
+
+149
+00:20:37.110 --> 00:20:40.470
+Capstone Coach 1: Well, maybe come back to life in the spring and.
+
+150
+00:20:40.680 --> 00:20:42.090
+Fireman, Karen: I hope that they were so big.
+
+151
+00:20:44.760 --> 00:20:48.840
+Capstone Coach 1: My my lawn guy put some fertilizer on the yard and it's already turning green.
+
+152
+00:20:50.310 --> 00:20:54.660
+Capstone Coach 1: yeah yeah I was surprised that, as I went what happened, I thought it was for home.
+
+153
+00:20:55.590 --> 00:21:05.910
+Capstone Coach 1: Okay let's go back here to the setting up the neural network, so the first number 784 that would be the number of neurons or precept runs in the first hidden layer
+
+154
+00:21:06.450 --> 00:21:16.800
+Capstone Coach 1: And this activation function R e l you what it's actually doing is it's translating the potential for that comes into each neuron.
+
+155
+00:21:17.550 --> 00:21:24.870
+Capstone Coach 1: Okay now what's the potential that's the weighted average of the inputs so there's a wait for every single input.
+
+156
+00:21:25.320 --> 00:21:37.080
+Capstone Coach 1: And those weights can be different are different for every single preceptor on, and when you fit this neural network what's happening is you're actually tailoring those weights, to give you the best fit.
+
+157
+00:21:37.950 --> 00:21:49.410
+Capstone Coach 1: you're adjusting those weights so for each of the incoming inputs to the neuron you have a weight and then those who are averaged or they are added together with a.
+
+158
+00:21:50.670 --> 00:22:04.890
+Capstone Coach 1: You know in to create the potential and then the potential which can be in any number could be negative, could be positive, can be small could be large the potential that gets translated into a number between zero and one.
+
+159
+00:22:06.090 --> 00:22:17.100
+Capstone Coach 1: zero and one or minus one and one that's what the activation is doing so the activation function is actually translating the potential the weighted average for the inputs.
+
+160
+00:22:17.700 --> 00:22:25.530
+Capstone Coach 1: to another number, which is scaled and the scaling on that will either be zero to one or minus one to one.
+
+161
+00:22:25.890 --> 00:22:35.370
+Capstone Coach 1: depending upon what the activation function you use now, this one is going to go zero to one Arielle you will produce will take whatever potentially gets.
+
+162
+00:22:35.640 --> 00:22:44.220
+Capstone Coach 1: could be a million could be a minus a million whatever hopefully not that big it's going to translate that number map that number into another number.
+
+163
+00:22:44.970 --> 00:22:57.540
+Capstone Coach 1: Using the activation function, and that will be between zero and one now the way our El you does that is it just looks at it has a little table.
+
+164
+00:22:58.260 --> 00:23:09.720
+Capstone Coach 1: And it looks the okay I got a value of one I got a value of 10 here, it looks up a table oh that's a point nine and then boom that's what the value is that comes out of the of the neuron.
+
+165
+00:23:10.620 --> 00:23:21.810
+Capstone Coach 1: And that Arielle you, then, is just a table up the table look up there's no very little fancy calculation going on, so it operates much, much faster.
+
+166
+00:23:22.230 --> 00:23:32.250
+Capstone Coach 1: And when you have 784% runs like this and you are calculating this for each observation 60,000 of them.
+
+167
+00:23:33.180 --> 00:23:43.410
+Capstone Coach 1: You want that activation calculation to go as fast as possible, and this is what it has, this is what it does, and so you said i've used activation here's Arielle you on every single layer
+
+168
+00:23:44.790 --> 00:23:45.300
+Capstone Coach 1: Now.
+
+169
+00:23:46.440 --> 00:24:02.730
+Capstone Coach 1: You might get some benefit small benefit, and especially and changing the activation function in the last layers where there are a few neurons and things like that, but by default, I always set this to Arielle you until I and maybe later.
+
+170
+00:24:03.450 --> 00:24:14.580
+Capstone Coach 1: If you're tweaking it trying to get a little bit extra performance or something like that you might consider changing this and, but I would probably only change it in the ones in the layers where I have fewer.
+
+171
+00:24:15.060 --> 00:24:28.020
+Capstone Coach 1: neurons like down here in the bottom, so I have the second layer is the number of perceptions here is nine 392, which is exactly one half of 784.
+
+172
+00:24:29.100 --> 00:24:38.790
+Capstone Coach 1: And then the next one 196 is exactly one half of 392 So you can see what i'm doing as each layer that comes in i'm stepping down the number of neurons.
+
+173
+00:24:39.120 --> 00:24:49.470
+Capstone Coach 1: To try trying to reduce the total number of weights that are in the network now, if you look at the then there's this statement that says model summary that one that guy right there.
+
+174
+00:24:50.430 --> 00:25:00.810
+Capstone Coach 1: That is going to display the table, you see, in the upper right now appear at the top, it says hidden layer one 784% trans.
+
+175
+00:25:01.590 --> 00:25:10.530
+Capstone Coach 1: Hidden layer two 392 and so forth, and so on the last one, which is labeled output layer, that is what it is.
+
+176
+00:25:11.280 --> 00:25:24.360
+Capstone Coach 1: The output layer here is going to have 10% 10 different outputs 10 different perceptions because we're trying to predict predict 10 different numbers 0123 up tonight.
+
+177
+00:25:24.930 --> 00:25:45.480
+Capstone Coach 1: So, each one of these precept runs on the output side actually represents a particular digit that we're trying to identify as here are one or two and what's being looked at here is the probability that it's a 01 for a two, so I have 10 perceptions that are coming out.
+
+178
+00:25:46.530 --> 00:25:56.550
+Capstone Coach 1: And if you add up the number from all 10 you'll get 1.0 exactly now How does that happen that happens when you use.
+
+179
+00:25:57.180 --> 00:26:05.760
+Capstone Coach 1: activation soft Max right there you see that last layer it says observation optum activation is soft Max.
+
+180
+00:26:06.330 --> 00:26:14.070
+Capstone Coach 1: That is the one that most people will use if the output layer really represents probabilities.
+
+181
+00:26:14.760 --> 00:26:20.580
+Capstone Coach 1: Now, this would happen, for example, even if you had a binary output, or one and a two or zero and one.
+
+182
+00:26:21.000 --> 00:26:31.440
+Capstone Coach 1: And you want the probability of the zero the probability of one you add those two numbers together it'll get you have one that's achieved by using soft Max X activation.
+
+183
+00:26:31.920 --> 00:26:44.670
+Capstone Coach 1: there's a simple formula for that and basically What it does is it makes sure that these look at these numbers are all between zero and one, and if you add them up, you get 1.0.
+
+184
+00:26:45.360 --> 00:26:55.080
+Capstone Coach 1: So it looks like it looks like a probability function and, of course, when the analysis is done on the metrics to decide whether this is a good fit or not.
+
+185
+00:26:55.590 --> 00:27:03.900
+Capstone Coach 1: Really those probabilities is what we're looking at, we would like, we would like all the probabilities to be zero except for one digit.
+
+186
+00:27:04.500 --> 00:27:13.530
+Capstone Coach 1: You know you don't want you want you don't want to like three digits where you have point 3.3 point three, want to avoid that right so you'd like it to have a definitive.
+
+187
+00:27:14.040 --> 00:27:23.400
+Capstone Coach 1: decision because, ultimately, the from this you get a prediction and your prediction that says that this is digit number two.
+
+188
+00:27:24.000 --> 00:27:29.280
+Capstone Coach 1: And that's based on the fact that the probability for two is greater than any of the other dishes.
+
+189
+00:27:29.880 --> 00:27:46.920
+Capstone Coach 1: So it kind of what's going on there notice the name the name is you're not required, but I like to do that, so you can when you read this table it reinforces the idea of what these actually represent in layer one, two and three, and then the output later like that.
+
+190
+00:27:47.460 --> 00:27:47.880
+So.
+
+191
+00:27:48.930 --> 00:27:49.560
+Capstone Coach 1: Yes.
+
+192
+00:27:52.140 --> 00:27:53.280
+Wilson Pineda: He was yes.
+
+193
+00:27:53.340 --> 00:27:53.880
+Capstone Coach 1: yeah I was.
+
+194
+00:27:54.690 --> 00:28:07.740
+Wilson Pineda: hey one question is there, do you have any rule of thumb to say how many neutrons will go on a subsequent lie lie lie, if I have X amount of neutrons inner layer
+
+195
+00:28:08.490 --> 00:28:15.690
+Wilson Pineda: The second layer what will be the recommended for the third one, I mean the first one, the last one, we know whether or not you, but it was in between.
+
+196
+00:28:17.400 --> 00:28:19.080
+Capstone Coach 1: You mean the second and third layer
+
+197
+00:28:19.740 --> 00:28:21.420
+Wilson Pineda: Yes, this case yes.
+
+198
+00:28:21.660 --> 00:28:22.260
+Okay.
+
+199
+00:28:23.580 --> 00:28:27.450
+Capstone Coach 1: No, but here's what here's the some of the things that you want to think about.
+
+200
+00:28:28.710 --> 00:28:36.150
+Capstone Coach 1: First of all, it's just an image if it's an image you're going to have a lot of perceptions and you can see, the total number of.
+
+201
+00:28:37.080 --> 00:28:44.250
+Capstone Coach 1: weights, it says parameters, this is the weights, the number of weights that you're actually estimating in this procedure.
+
+202
+00:28:44.880 --> 00:29:05.370
+Capstone Coach 1: So, in the first layer we have 615,000 weights, the second one 307,000 you know, the total number here's a little over a million now on my computer when I get when the total number of weights it's about 3 million things get kind of slow.
+
+203
+00:29:06.630 --> 00:29:18.930
+Capstone Coach 1: But a 1 million is tractable on my computer, I have a it just finished, by the way, on my computer, let me go back, let me go back up here to where I was right here okay so.
+
+204
+00:29:20.730 --> 00:29:30.690
+Capstone Coach 1: If yours is still running then your computer's a little slower than mine, maybe if it's already if you're finished earlier then it's faster this, this is a.
+
+205
+00:29:31.920 --> 00:29:32.340
+Capstone Coach 1: MAC.
+
+206
+00:29:33.570 --> 00:29:52.740
+Capstone Coach 1: So it's about seven or eight year old computer, but I like this computer, because I have 64 gigabytes of memory, and so I don't have perhaps I really don't need to worry about running out of storage and in this particular case with 60,000 images, even though they're only 784.
+
+207
+00:29:54.240 --> 00:30:06.930
+Capstone Coach 1: You know pixels memory could be an issue, although it's not that bad now nowadays, even with eight gigabytes you can you can should be able to handle this kind of problem so.
+
+208
+00:30:07.860 --> 00:30:22.440
+Capstone Coach 1: you're getting back to your question how many perceptions well normally if it's if it's an image i'm going to start up here, the first layer with approximately the same number of input on neurons rather as pixels.
+
+209
+00:30:25.080 --> 00:30:35.400
+Capstone Coach 1: Now, if that results in a huge number of weights so let's suppose that I have images that are 3000 by 3000 right oh that's terrible.
+
+210
+00:30:36.780 --> 00:30:48.420
+Capstone Coach 1: Okay, there are there are other types of neural networks that will filter the data collapse it so if you're in this case, we have a 28 by 28 picture.
+
+211
+00:30:49.620 --> 00:30:58.680
+Capstone Coach 1: The question would be, can I collapses down to maybe a 12 by 12 picture, instead of 28 by 28 because, if I can do that I can save all kinds of.
+
+212
+00:30:59.010 --> 00:31:04.020
+Capstone Coach 1: I won't have as many parameters, I can save all kinds of execution time and so forth, and so on.
+
+213
+00:31:04.500 --> 00:31:13.560
+Capstone Coach 1: The answer that question is yes, probably now i'm going to show you a little bit later how we not tonight, but the next lecture.
+
+214
+00:31:13.950 --> 00:31:18.630
+Capstone Coach 1: And when we get next Tuesday i'm going to show you some of the techniques will collapsing images.
+
+215
+00:31:18.960 --> 00:31:33.570
+Capstone Coach 1: and other types of data structure, so this is similar to what you saw with principal components analysis, where you use PCA, to reduce the denser dimensionality of your ex face right well there are techniques for doing that, with images and other types of data.
+
+216
+00:31:33.930 --> 00:31:34.470
+Fireman, Karen: Not just.
+
+217
+00:31:34.920 --> 00:31:36.240
+Capstone Coach 1: Not just PCA.
+
+218
+00:31:37.500 --> 00:31:40.560
+Fireman, Karen: Dr just if we ever learned PCA, just so you know.
+
+219
+00:31:41.100 --> 00:31:41.970
+Capstone Coach 1: You never did.
+
+220
+00:31:42.300 --> 00:31:45.060
+Fireman, Karen: we've heard of it never really came up in any lectures.
+
+221
+00:31:45.150 --> 00:31:52.590
+Capstone Coach 1: Oh, you did Okay, because I have some students, as the capstones that are using it, so I just assumed because.
+
+222
+00:31:53.130 --> 00:31:54.390
+Fireman, Karen: They talked about that never got to.
+
+223
+00:31:57.060 --> 00:32:00.420
+Capstone Coach 1: Well, you had a course on multivariate analysis, I think it was.
+
+224
+00:32:00.600 --> 00:32:01.200
+Fireman, Karen: No there's.
+
+225
+00:32:02.520 --> 00:32:05.520
+Capstone Coach 1: No, no okay well.
+
+226
+00:32:06.090 --> 00:32:07.020
+Capstone Coach 1: Okay, I thought you did.
+
+227
+00:32:07.110 --> 00:32:20.700
+Capstone Coach 1: Sorry, my bad my so i'm sorry PCA stands for principal components analysis and it's basically a technique that's used to reduce the dimensionality of a two dimensional X sorry have an x space.
+
+228
+00:32:21.210 --> 00:32:29.970
+Capstone Coach 1: Where the exes are similar represents similar information, in other words, they are highly multiple linear right so.
+
+229
+00:32:30.690 --> 00:32:37.050
+Capstone Coach 1: You might, for example, have a series of temperature readings that you've taken on over a period of time.
+
+230
+00:32:37.380 --> 00:32:47.610
+Capstone Coach 1: and basically you're interested in more or less the average temperature reading over that time and you're not sure how to average these numbers, the PCA will give you a.
+
+231
+00:32:48.330 --> 00:33:00.330
+Capstone Coach 1: formula which is which you could recognize this a weighted average, so it comes back and it says okay take the first column times, point two, and the second column times point one and so forth, and so on.
+
+232
+00:33:01.500 --> 00:33:14.040
+Capstone Coach 1: PCs so it's not use real often because you don't have that recently, the situation is, you have multiple linear columns but those columns are scaled differently and so PCA, then.
+
+233
+00:33:14.610 --> 00:33:29.220
+Capstone Coach 1: It can be helpful, but you it's a little tricky, and so there are other techniques like stepwise regression the genetic algorithms so selection and things like that that people use and.
+
+234
+00:33:30.690 --> 00:33:34.770
+Capstone Coach 1: You know they generally work a little bit better, maybe, but not always okay.
+
+235
+00:33:35.490 --> 00:33:54.120
+Capstone Coach 1: So this is these lines number 71 through 77 are doing nothing there's no calculations going here on here what you're doing is just describing what you want to use for the network now, then I you then you see a line here, it says this is line number 79.
+
+236
+00:33:55.440 --> 00:34:01.530
+Capstone Coach 1: The neural network algorithm does things in a random fashion and choose randomly chooses.
+
+237
+00:34:02.070 --> 00:34:10.350
+Capstone Coach 1: The direction that it's going to go off to when you optimize the algorithm you select those those weights and, if you want something that's repeatable.
+
+238
+00:34:10.770 --> 00:34:18.750
+Capstone Coach 1: Then you would want to set that seed, you can see what i'm doing here tf remember we said import tensorflow as tf.
+
+239
+00:34:19.140 --> 00:34:36.690
+Capstone Coach 1: CIO tf is the abbreviation for tensorflow and then inside tensorflow, and this has changed between version one and two is as part of the problem, so now it's random that sets seed and then you give it a number 12345 or whatever number, you would like to do.
+
+240
+00:34:37.890 --> 00:34:46.170
+Capstone Coach 1: If you don't do that, then the next set of results that you're going to see change from run to run so after this table.
+
+241
+00:34:47.820 --> 00:34:53.430
+Capstone Coach 1: Then you have a model state but compile and this is.
+
+242
+00:34:55.530 --> 00:35:08.160
+Capstone Coach 1: let's see this is describing the way you want to conduct the fit that doesn't do it doesn't make any calculations just yet so there's nothing happening here.
+
+243
+00:35:08.670 --> 00:35:14.100
+Capstone Coach 1: First, we just described that physical structure the network that's what we did with this model thing up above.
+
+244
+00:35:14.580 --> 00:35:18.960
+Capstone Coach 1: And now, what we're doing is we're saying let's describe how we want to do the optimization.
+
+245
+00:35:19.890 --> 00:35:26.850
+Capstone Coach 1: And so the Funk, the loss function that's being used here is called cross categorical cross entropy entropy.
+
+246
+00:35:27.300 --> 00:35:33.030
+Capstone Coach 1: This is critical, this is important, you get this wrong, you can get some really wild results because.
+
+247
+00:35:33.600 --> 00:35:46.500
+Capstone Coach 1: If you have a target that's not categorical but instead is binary, then you probably want to use by I think it's binary cross entropy if you have one that's interval, then you there's another loss function.
+
+248
+00:35:47.250 --> 00:35:51.780
+Capstone Coach 1: And you might be thinking well where where do I find all that well let's let's take a walk.
+
+249
+00:35:52.830 --> 00:35:54.450
+Capstone Coach 1: Let me see if I can find.
+
+250
+00:35:59.010 --> 00:36:06.450
+Capstone Coach 1: yeah so let's go to Google and let's just Google tensorflow.
+
+251
+00:36:08.280 --> 00:36:21.090
+Capstone Coach 1: And you see what we see here and we saw this last night you're going to go to a website called tensorflow.org right here, and just say.
+
+252
+00:36:22.500 --> 00:36:35.940
+Capstone Coach 1: yeah get started stop it Okay, and then you can go to the API here, you can see the API i'm trying to show you basically how you get to the documentation.
+
+253
+00:36:36.270 --> 00:36:46.920
+Capstone Coach 1: I would go to click on the upper left hand corner, where it says tensorflow version 2.4 point one of course we are using 2.4 point one, I think, right now, so.
+
+254
+00:36:47.610 --> 00:36:54.990
+Capstone Coach 1: click on that, and then you get into this huge website on the documentation of tensorflow.
+
+255
+00:36:55.530 --> 00:37:06.600
+Capstone Coach 1: tf here the abbreviation T F stands for tensorflow and it's just showing you how do you install tensorflow we already know about that we did some of that last night.
+
+256
+00:37:07.410 --> 00:37:19.740
+Capstone Coach 1: And you have documentation for Python C and Java, make sure it says Python which is does, otherwise you might get confused so.
+
+257
+00:37:21.030 --> 00:37:25.680
+Capstone Coach 1: let's go and look at the various documentation, we have here.
+
+258
+00:37:30.300 --> 00:37:31.170
+Capstone Coach 1: Okay.
+
+259
+00:37:33.150 --> 00:37:41.370
+Capstone Coach 1: Now that I suppose there's rss search here right right what i'm looking for is model and.
+
+260
+00:37:44.250 --> 00:37:52.710
+Capstone Coach 1: see if I can find it here, this is the first is just the tensorflow now let's go tend to foil flow and tf.
+
+261
+00:37:58.170 --> 00:38:15.450
+Capstone Coach 1: Oh i'm sorry, of course, you have to go tensorflow.us which is right here, you see, where it says charisse remember those import statements, those in all of those import statements were like tensorflow period charisse something.
+
+262
+00:38:16.590 --> 00:38:26.040
+Capstone Coach 1: And so, all this documentation which is extensive, the main part that we're focusing on this is just tensorflow charisse right there.
+
+263
+00:38:26.610 --> 00:38:44.790
+Capstone Coach 1: And so, if I click on the overview for that it says tf charisse and then it shows you all the various models that are available in this in this part of the documentation and notice that one of them is models, we use that one.
+
+264
+00:38:45.840 --> 00:39:01.440
+Capstone Coach 1: One of them is layers we've used that one and there's some other regular where there are some other things that are in here uti Ls we're using so let's go to models and over here on the left hand side, where it says models, if you click on that.
+
+265
+00:39:02.550 --> 00:39:04.740
+Capstone Coach 1: OK and click on overview.
+
+266
+00:39:06.150 --> 00:39:18.480
+Capstone Coach 1: Here we go to tensorflow charisse models and you can see, there are two major classes here one called sequential and then just one that says model.
+
+267
+00:39:19.590 --> 00:39:24.000
+Capstone Coach 1: And so we're using both of these actually so let's click on.
+
+268
+00:39:25.050 --> 00:39:25.950
+Capstone Coach 1: sequential.
+
+269
+00:39:27.090 --> 00:39:29.580
+Capstone Coach 1: And you can click here or.
+
+270
+00:39:30.600 --> 00:39:33.270
+Capstone Coach 1: let's see you should be able to.
+
+271
+00:39:40.620 --> 00:39:42.960
+Capstone Coach 1: No, I guess, you have to click here sequential.
+
+272
+00:39:44.160 --> 00:39:52.980
+Capstone Coach 1: Here we go to Kara sequential notice there's a button here says tensorflow one version don't click there.
+
+273
+00:39:54.930 --> 00:40:05.190
+Capstone Coach 1: Basically you're going back to tensorflow version one and you're going back and look at the dock you click there the documentation will change and the syntax changes and all that.
+
+274
+00:40:05.610 --> 00:40:22.230
+Capstone Coach 1: So let's that was part of my confusion is that I was actually looking at tensorflow one version, so you know everything's fine what the heck and it wasn't fun because I had to install tensorflow version two and the documentation is different there so.
+
+275
+00:40:24.360 --> 00:40:38.370
+Capstone Coach 1: Okay, now, so you can see that it says this is basically tensorflow sequential and then there are many examples on how to set up your neural network.
+
+276
+00:40:39.750 --> 00:40:40.650
+Capstone Coach 1: The one.
+
+277
+00:40:41.670 --> 00:40:59.190
+Capstone Coach 1: That I die you i'm using the the one that's consistent with the old documentation, so a lot of this that you're seeing here is a newer newer documentation or how you go about setting up your definition of the network and all that is fine, all that's going to work fine.
+
+278
+00:41:01.260 --> 00:41:02.460
+Capstone Coach 1: Let me show you the.
+
+279
+00:41:06.900 --> 00:41:12.000
+Capstone Coach 1: let's see methods add oh methods add yeah so in the code.
+
+280
+00:41:15.450 --> 00:41:16.830
+Capstone Coach 1: hang on a second here.
+
+281
+00:41:18.630 --> 00:41:19.230
+Capstone Coach 1: Okay.
+
+282
+00:41:21.000 --> 00:41:26.700
+Capstone Coach 1: So in the code you'll remember this going back to the we're gonna go back now this 171 or so.
+
+283
+00:41:27.000 --> 00:41:27.840
+Capstone Coach 1: Right in here.
+
+284
+00:41:28.170 --> 00:41:29.190
+Wilson Pineda: i'm officer.
+
+285
+00:41:29.790 --> 00:41:34.200
+Wilson Pineda: Yes, Sir matter what version of Connor I using.
+
+286
+00:41:35.850 --> 00:41:36.240
+Capstone Coach 1: hmm.
+
+287
+00:41:36.900 --> 00:41:39.570
+Wilson Pineda: Well, on that are you see.
+
+288
+00:41:40.830 --> 00:41:41.820
+Capstone Coach 1: The latest version.
+
+289
+00:41:42.630 --> 00:41:44.100
+Wilson Pineda: For nine so.
+
+290
+00:41:48.360 --> 00:41:49.050
+Capstone Coach 1: The one out.
+
+291
+00:41:50.280 --> 00:41:52.170
+Capstone Coach 1: But I can show you right here anaconda.
+
+292
+00:41:52.800 --> 00:41:54.510
+Wilson Pineda: Do you mind, Sir, why that.
+
+293
+00:41:54.510 --> 00:41:57.750
+Capstone Coach 1: And if you do you know i'm using.
+
+294
+00:41:58.800 --> 00:42:01.560
+Capstone Coach 1: I just installed this last night so.
+
+295
+00:42:01.620 --> 00:42:02.520
+Wilson Pineda: Okay okay.
+
+296
+00:42:03.600 --> 00:42:04.560
+Capstone Coach 1: So it's.
+
+297
+00:42:05.880 --> 00:42:09.060
+Capstone Coach 1: I am using the latest version I just did an install last night.
+
+298
+00:42:09.900 --> 00:42:11.100
+Wilson Pineda: Okay, no, no we're.
+
+299
+00:42:11.640 --> 00:42:12.150
+Capstone Coach 1: Okay.
+
+300
+00:42:12.360 --> 00:42:13.140
+Wilson Pineda: Okay, thank you.
+
+301
+00:42:13.410 --> 00:42:17.400
+Capstone Coach 1: Sure, I I was having so much problems with the with.
+
+302
+00:42:17.460 --> 00:42:29.100
+Capstone Coach 1: The monitoring down that my problem really wasn't with anaconda my problem was with tensorflow I was I had mixed up version one and version two of tensorflow and that was my problem so.
+
+303
+00:42:29.850 --> 00:42:40.950
+Capstone Coach 1: What I had to do was actually created a new environment called it is tm 601 and in that new environment, I and last night we did this, I installed.
+
+304
+00:42:43.440 --> 00:42:48.660
+Capstone Coach 1: Basically I installed the advanced analytics and.
+
+305
+00:42:50.550 --> 00:43:04.890
+Wilson Pineda: I haven't advanced analytics is telling me that requires a version of Python between three and 3.9 and that's the version that I have, what did you mean that they are also a flow was for the Honda version.
+
+306
+00:43:06.240 --> 00:43:10.200
+Wilson Pineda: But that's Okay, I will keep trying to see what it is thanks.
+
+307
+00:43:10.470 --> 00:43:20.220
+Fireman, Karen: Wilson it's Karen you know, I was having that same thing, and I just started a new environment like Dr Jones said, and then I made sure to activate it That was a mistake, I made it first.
+
+308
+00:43:21.120 --> 00:43:38.100
+Fireman, Karen: steps that he said, but one of the steps was pip install and the name advanced analytics and then space dash dash upgrade and I did that with tensorflow also and several the others, and that seemed a small part of my problem so that was the last suggestion and.
+
+309
+00:43:38.160 --> 00:43:42.660
+Wilson Pineda: It seemed to work yeah no I agree stuff far as we do.
+
+310
+00:43:43.200 --> 00:43:44.640
+Wilson Pineda: Today, so I just.
+
+311
+00:43:44.910 --> 00:43:45.600
+Fireman, Karen: yeah.
+
+312
+00:43:45.690 --> 00:43:46.530
+Wilson Pineda: If you just repeat.
+
+313
+00:43:47.070 --> 00:43:51.690
+Fireman, Karen: He showed you and do that upgrade that one that allows suggested it really helped.
+
+314
+00:43:52.080 --> 00:43:53.010
+Wilson Pineda: yeah okay.
+
+315
+00:43:53.250 --> 00:44:00.570
+Capstone Coach 1: I did that, today, on one of my other machines, is that you if you have the stats 656 or environment.
+
+316
+00:44:01.320 --> 00:44:11.790
+Capstone Coach 1: And you go to that environment what you'll see is advanced analytics is in there and tensorflow and Kara so probably in there as well, but the version tensorflow and characters that's in there.
+
+317
+00:44:12.300 --> 00:44:24.570
+Capstone Coach 1: Is one point X one like 1.4 so if that's your situation you can go into the 656 environment, and you can upgrade that by just basically.
+
+318
+00:44:25.980 --> 00:44:30.660
+Capstone Coach 1: pippa you know install tensorflow minus minus upgrade.
+
+319
+00:44:31.140 --> 00:44:32.670
+Wilson Pineda: Okay yeah yeah.
+
+320
+00:44:32.790 --> 00:44:33.600
+Wilson Pineda: i'll do that.
+
+321
+00:44:34.890 --> 00:44:35.790
+Wilson Pineda: Thank you guys and.
+
+322
+00:44:36.360 --> 00:44:43.320
+Capstone Coach 1: Then it usually doesn't use a little come in and put in 2.4 instead of one point, whatever red or whatever it was.
+
+323
+00:44:43.860 --> 00:44:45.060
+Wilson Pineda: Okay, thank you.
+
+324
+00:44:45.300 --> 00:44:45.720
+sure.
+
+325
+00:44:48.210 --> 00:44:54.510
+Capstone Coach 1: and doing something there with an anaconda got nasty only decided let's just keep on looking.
+
+326
+00:44:54.900 --> 00:45:11.580
+Capstone Coach 1: Alright, so um where we are here, so if you want to see some of the documentation on the model, the model features, the sequential features and this thing called model dot add go to the documentation for tensorflow.
+
+327
+00:45:11.580 --> 00:45:26.250
+Capstone Coach 1: Here, and you know that it says see where it says methods add so we're looking at the documentation on model so if go to the top here you'll see that it says Oh, the documentation on sequential.
+
+328
+00:45:27.810 --> 00:45:35.700
+Capstone Coach 1: right here, and if you look if you click on models down over here and there's a.
+
+329
+00:45:37.200 --> 00:45:45.930
+Capstone Coach 1: Okay curious models, and this is a sub function within the sequential class and you can then look at.
+
+330
+00:45:47.310 --> 00:45:50.790
+Capstone Coach 1: The class model, and I think that's.
+
+331
+00:45:52.050 --> 00:45:53.040
+Capstone Coach 1: right here.
+
+332
+00:45:54.540 --> 00:45:55.170
+Capstone Coach 1: and
+
+333
+00:45:59.610 --> 00:46:00.480
+Capstone Coach 1: Okay.
+
+334
+00:46:02.850 --> 00:46:04.110
+Capstone Coach 1: i'm looking for ad.
+
+335
+00:46:05.910 --> 00:46:09.660
+Capstone Coach 1: Because you can see in the code here, it says model.ad right.
+
+336
+00:46:11.400 --> 00:46:22.830
+Capstone Coach 1: So she should be able to find add here evaluate no that's not model compile no.
+
+337
+00:46:24.270 --> 00:46:25.440
+Capstone Coach 1: that's not what I wanted.
+
+338
+00:46:28.260 --> 00:46:29.130
+Capstone Coach 1: Okay.
+
+339
+00:46:38.220 --> 00:46:46.560
+Capstone Coach 1: that's the compile I don't want that evaluate well, maybe it's over under sequential let's go to go back to sequential here.
+
+340
+00:46:47.850 --> 00:46:48.630
+Capstone Coach 1: and
+
+341
+00:46:50.430 --> 00:46:52.440
+Capstone Coach 1: I think I saw it here the.
+
+342
+00:46:53.610 --> 00:47:12.570
+Capstone Coach 1: Here it is the Ad function with method is part of see so you can add basically a layer you could see what it's saying model dot add layers dense so that's what we're doing is we're creating a layer and.
+
+343
+00:47:14.190 --> 00:47:19.500
+Capstone Coach 1: So if you want to look at the documentation on that you can.
+
+344
+00:47:20.610 --> 00:47:25.740
+Capstone Coach 1: You look at the source actually so not much documentation here but.
+
+345
+00:47:26.880 --> 00:47:27.990
+Capstone Coach 1: You know so.
+
+346
+00:47:29.520 --> 00:47:35.100
+Capstone Coach 1: let's see maybe there's some better documentation now other than the source.
+
+347
+00:47:36.750 --> 00:47:37.890
+Capstone Coach 1: At any rate, this is.
+
+348
+00:47:39.270 --> 00:47:51.450
+Capstone Coach 1: I guess I might just search for documentation on modeled our dad, but this is what you basically you come up with your number of preceptor ons activation and then you can put a name in there.
+
+349
+00:47:52.200 --> 00:48:04.050
+Capstone Coach 1: The the next one, which is the compile there are more options here, and let me go back to the documentation, I really that's the part that I really wanted to check the, this is the.
+
+350
+00:48:04.080 --> 00:48:05.100
+Capstone Coach 1: documentation.
+
+351
+00:48:05.580 --> 00:48:07.560
+Capstone Coach 1: here's the documentation right here.
+
+352
+00:48:08.280 --> 00:48:10.470
+Capstone Coach 1: And let me see if I can expand that.
+
+353
+00:48:12.150 --> 00:48:23.040
+Capstone Coach 1: Okay, there you go, so you can see, you have you have a term called optimizer and there is a list of optimizer is right here, if I click on optimizer.
+
+354
+00:48:23.730 --> 00:48:39.120
+Capstone Coach 1: it'll come back and show you the list of optimizer one of them is Adam and that's the one that we're using them in this particular program, but you have some others that are available and many others that are available and.
+
+355
+00:48:40.410 --> 00:48:44.940
+Capstone Coach 1: The one that's I think the default, one of the one that's most popular is this one called Adam.
+
+356
+00:48:45.600 --> 00:48:57.450
+Capstone Coach 1: But then there are some others, and so, if you're finding that it's really slow to optimize you might want to check your algorithm and see what there's a there's an algorithm that might run a little faster.
+
+357
+00:48:59.220 --> 00:49:02.850
+Capstone Coach 1: Adam though seems to be seems to be kind of like all around good.
+
+358
+00:49:04.380 --> 00:49:24.870
+Capstone Coach 1: Then you have loss and then you have metrics none loss weights weight metrics and so forth, and so on, now, this one call loss is the one that I wanted to point out, because the setting here is is critical and if you click on charisse losses.
+
+359
+00:49:26.040 --> 00:49:28.620
+Capstone Coach 1: right here and.
+
+360
+00:49:30.210 --> 00:49:40.170
+Capstone Coach 1: I think that it should show you what those different here are the different losses, this is what I wanted to show you Okay, so we chose, I chose.
+
+361
+00:49:40.950 --> 00:49:50.580
+Capstone Coach 1: categorical cross entropy and that's because I have basically nominal output, where i'm putting probabilities on each one of those outputs.
+
+362
+00:49:50.820 --> 00:50:02.910
+Capstone Coach 1: So in that case it's categorical cross entropy now if you only had binary you would use binary cross entropy and then we're in is where I here in the code, where it says loss.
+
+363
+00:50:05.340 --> 00:50:23.010
+Capstone Coach 1: Let me move this over out of the way it says losses equal to categorical cross entropy if you had binary you would use binary cross entropy now the actual phrase or whatever that you put in the string here if you click on this.
+
+364
+00:50:25.200 --> 00:50:28.350
+Capstone Coach 1: It should show you what it's expecting.
+
+365
+00:50:29.940 --> 00:50:31.140
+Capstone Coach 1: And let me.
+
+366
+00:50:32.220 --> 00:50:39.870
+Capstone Coach 1: scroll down right there, so the name is binary underscore cross entropy like that okay.
+
+367
+00:50:40.950 --> 00:50:52.410
+Capstone Coach 1: Now, if you didn't have binary and you didn't have categorical outputs but instead you have let's say a target value, like the.
+
+368
+00:50:53.670 --> 00:51:10.590
+Capstone Coach 1: The amount of oil, though the member of the one that cumulative oil production, then you probably want to use something like mean absolute difference between the predictions, so this guy right here mean absolutely there is basically the summit squared errors.
+
+369
+00:51:11.760 --> 00:51:22.470
+Capstone Coach 1: When the end SAS we call that the Well, no, this is not some a square, this is the sum of the absolute differences right, so this is in math we call that the l one norm.
+
+370
+00:51:23.400 --> 00:51:37.470
+Capstone Coach 1: So we might use this if you want to nail one norm and then there's one called means squared error now, this is the one that would correspond to average squared error in SAS remember that ASC 656.
+
+371
+00:51:37.890 --> 00:51:50.730
+Capstone Coach 1: As he was the do is the metric that we use when we were predicting a target that was a number one interval So if I click on me n squared error here it'll show you that I set the loss equal to.
+
+372
+00:51:51.600 --> 00:52:02.010
+Capstone Coach 1: Here is the name mean underscore squared underscore error makes sense, logical or hey nothing weird here so that's what you would put in your loss function.
+
+373
+00:52:02.700 --> 00:52:18.570
+Capstone Coach 1: And the reason I see that's critical is because both those the last category Google cross entropy is acceptable, even for I think an interval target, but obviously very, very wrong, you want to use one of the ones that.
+
+374
+00:52:19.710 --> 00:52:29.400
+Capstone Coach 1: You are looking at here, most likely, you would use the mean squared error, if you like, ASC or you would use the the other, which was the mean absolute error.
+
+375
+00:52:29.940 --> 00:52:46.950
+Capstone Coach 1: That we saw earlier yeah I mean absolute error or the main square there, most likely one of those two now if you have, there are some other ones that might work, for example, points on voice on has to do when you're trying to predict account.
+
+376
+00:52:48.210 --> 00:52:49.890
+Capstone Coach 1: Like the number of.
+
+377
+00:52:51.030 --> 00:53:01.290
+Capstone Coach 1: And the counts, by the way, or follow up a relatively small range so something like the, the number of people that.
+
+378
+00:53:01.740 --> 00:53:12.660
+Capstone Coach 1: That die from covert in a hospital or something like that that's probably well I don't know if it's going to be poison and I poison is anything that happens that's account that looks random, in other words.
+
+379
+00:53:13.350 --> 00:53:21.690
+Capstone Coach 1: You have an average number of that that come in, like 10 per week or something like that, and then the distribution of the numbers around the 10 look like they're random.
+
+380
+00:53:22.080 --> 00:53:36.630
+Capstone Coach 1: that's called though that's a poison sort of distribution it's very, very common for accounts that one, and then you have a bunch of others, and you have the description of what those functions are in some detail here.
+
+381
+00:53:37.920 --> 00:53:52.230
+Capstone Coach 1: Some of them, probably include a penalty function, although I don't see obviously one right here, I, like the penalty functions are good, when you have a lot of problems with multiple linearity okay.
+
+382
+00:53:53.430 --> 00:53:58.200
+Capstone Coach 1: So that's where the last thing is coming from it's kind of important though that you know that.
+
+383
+00:53:58.650 --> 00:54:06.840
+Capstone Coach 1: That, I have to change this, depending upon what my target is it's going to be a binary cross entropy or categorical or not mean squared error.
+
+384
+00:54:07.350 --> 00:54:24.990
+Capstone Coach 1: mean absolute error or something like that the optimizer we talked about that Adam is the is the kind of the Swiss army knife that seems to work well here metrics ooh This is one we need to talk, we can we can talk about it, we should metrics is good, because this tells you this.
+
+385
+00:54:26.040 --> 00:54:32.790
+Capstone Coach 1: tensorflow will automatically Okay, this is losses, so I want to go back, I want to find.
+
+386
+00:54:35.130 --> 00:54:47.940
+Capstone Coach 1: Basically, met metrics right over here so i'm looking at tf charisse and there's a separate category for tf cares metrics and let's see what we get.
+
+387
+00:54:48.660 --> 00:54:55.800
+Capstone Coach 1: Okay here's the overview of the metrics and there's a you can see there's a extensive list of metrics.
+
+388
+00:54:56.250 --> 00:55:09.300
+Capstone Coach 1: And that's because it depends on the target and what you're trying to do, you can ask for some or all of these so normally you don't know all of them, that you normally you might get like in the case of categorical.
+
+389
+00:55:11.370 --> 00:55:21.000
+Capstone Coach 1: Well there's one here called binary accuracy and one called binary cross entropy categorical accuracy categorical cross entropy entropy.
+
+390
+00:55:21.840 --> 00:55:43.770
+Capstone Coach 1: Now my might embarrass myself here, I chose, something it says accuracy right let's hope let's hope that it's categorical Africa accuracy, let me check this out and it should probably say categorical accuracy, according to the documentation here not just accuracy.
+
+391
+00:55:45.060 --> 00:55:48.180
+Capstone Coach 1: Let me go back and see what accuracy is really all about.
+
+392
+00:55:49.980 --> 00:56:03.420
+Capstone Coach 1: Here it is calculates how predictions equal labels accuracy and let's see what it says here, so you can just say accuracy like that and.
+
+393
+00:56:04.710 --> 00:56:05.970
+Capstone Coach 1: It doesn't.
+
+394
+00:56:07.770 --> 00:56:14.640
+Capstone Coach 1: Care Okay, the metric rates to local variables to a while, here it tells you what it's all about so.
+
+395
+00:56:16.020 --> 00:56:24.660
+Capstone Coach 1: I may change this to get a categorical accuracy, instead of just accuracy, like in fact what we can do is, we can go comma.
+
+396
+00:56:26.400 --> 00:56:28.170
+Capstone Coach 1: And then put in categorical.
+
+397
+00:56:30.960 --> 00:56:33.540
+Capstone Coach 1: underscore accuracy like that.
+
+398
+00:56:39.150 --> 00:56:41.730
+Capstone Coach 1: like that and we'll find out.
+
+399
+00:56:42.960 --> 00:56:56.130
+Capstone Coach 1: Whether they're different or not, and if there are different, how much difference there are, but when you're looking at the output here let's go look at the output or it's just key Poc one of the 50 epoch to.
+
+400
+00:56:57.930 --> 00:57:12.720
+Capstone Coach 1: see that what is an epoch well notice that I set the number of the box here to 50 and the size to 32, this is the place where all the action happens right here line 6089 90.
+
+401
+00:57:14.100 --> 00:57:18.870
+Capstone Coach 1: So in lines at 1990 you're showing the model, the data.
+
+402
+00:57:20.280 --> 00:57:25.980
+Capstone Coach 1: And you're asking them the model to move ahead, so the word model here.
+
+403
+00:57:26.640 --> 00:57:36.990
+Capstone Coach 1: Is an object and in that object we've already described that precept ron's and we described how we want to the optimization to be done in the compile statement.
+
+404
+00:57:37.710 --> 00:57:47.640
+Capstone Coach 1: And now, what we're doing is say okay take the information in that model object that you have for the network, which includes the optimization and run it using these data.
+
+405
+00:57:48.810 --> 00:58:01.830
+Capstone Coach 1: Now, if I had a different set of data, and I do, I have the trend the the verification validation data, but this is the training data that I have the so called do I call it ventilation here.
+
+406
+00:58:02.880 --> 00:58:03.420
+Capstone Coach 1: test.
+
+407
+00:58:04.650 --> 00:58:16.050
+Capstone Coach 1: The word is tested in this in this program I could run the second to put in the extra test white test, and it will go in and do exactly the same calculations that with the different data right.
+
+408
+00:58:16.680 --> 00:58:23.340
+Capstone Coach 1: So it'll be a good result in a different notice that the object that's being produced here is called history.
+
+409
+00:58:23.910 --> 00:58:38.430
+Capstone Coach 1: And the way the reason for that is because basically this object is going to give you the history of what happened during the fifth and you'll see here we're actually going to capture some of that history.
+
+410
+00:58:40.320 --> 00:58:50.340
+Capstone Coach 1: let's take a look at what happens in each epoch first of all, it well, I actually give it the validation data, right here, so I have the training data and the validation data.
+
+411
+00:58:50.850 --> 00:58:59.880
+Capstone Coach 1: You don't need to give it any validation data it's not a requirement, you can leave this out, in which case it's just gonna it's just going to do the training.
+
+412
+00:59:00.420 --> 00:59:15.210
+Capstone Coach 1: But you will not see the validation metrics and that you're going to see in a minute here's the number of the box 50 here is the batch size 32 verbose equal to one says yes please show me everything.
+
+413
+00:59:16.410 --> 00:59:18.240
+Capstone Coach 1: If you don't like all this output.
+
+414
+00:59:19.260 --> 00:59:34.320
+Capstone Coach 1: should put it to zero verbose equal to zero and it'll turn it it'll shut it off, this is not that bad, this is not that much output so let's take a look at it here's the park number one and it's basically saying that.
+
+415
+00:59:35.400 --> 00:59:38.190
+Capstone Coach 1: Okay, this took 16 seconds.
+
+416
+00:59:39.390 --> 00:59:46.860
+Capstone Coach 1: approx approximately eight milliseconds per step and each one of these little equal signs is it's a step.
+
+417
+00:59:47.250 --> 00:59:54.540
+Capstone Coach 1: And when this is running you'll notice that the sort of fight fills up left to right showing you the progress in this particular epoch.
+
+418
+00:59:55.350 --> 01:00:03.270
+Capstone Coach 1: And then you get loss and accuracy that loss would be the validation loss.
+
+419
+01:00:04.230 --> 01:00:14.790
+Capstone Coach 1: And TAO accuracy, would be the validation accuracy, these would not appear if you don't have that validation data statement that you see right here.
+
+420
+01:00:15.390 --> 01:00:34.560
+Capstone Coach 1: Okay, now, what do you want to look at well, I think you want to look at that loss and Val accuracy two different things so Val losses always being printed presented, and this is the categorical cross entropy we define loss up here categorical cross entropy.
+
+421
+01:00:35.700 --> 01:00:54.510
+Capstone Coach 1: And then Val accuracy that's going to be defined, well, it was defined here in the metrics as accuracy and so value of 96 point, a point 9675 is actually pretty high right if this gets to be one you have perfect prediction.
+
+422
+01:00:55.860 --> 01:01:08.070
+Capstone Coach 1: And if it's 96.75 basically you're predicting correctly predicting 96% 90 almost 97% of the data of the training of the validation data.
+
+423
+01:01:08.580 --> 01:01:15.900
+Capstone Coach 1: Now, because it says Val accuracy and, if you look at the other accuracy over here, this is the accuracy on the train did I notice this lower.
+
+424
+01:01:16.380 --> 01:01:36.660
+Capstone Coach 1: little bit odd, but it can happen, usually it's the other way around right, so this This, I think, does correct itself very quickly if you see an epoch number three the accuracy of the training data is 98% the accuracy on the validation data is 77 97%.
+
+425
+01:01:38.070 --> 01:01:38.550
+Capstone Coach 1: know.
+
+426
+01:01:38.880 --> 01:01:40.710
+Fireman, Karen: it's Karen nice quick question.
+
+427
+01:01:41.160 --> 01:01:52.920
+Fireman, Karen: Okay it's it's a mini three, part one, is how do you come up with the packs and size and number two is um How did we know it was 28 by 28 for the image size.
+
+428
+01:01:53.760 --> 01:02:05.100
+Capstone Coach 1: Okay uh well the 228 by 28 thing comes partly from the documentation normally what you would do is you would you would look at the properties for one image.
+
+429
+01:02:06.210 --> 01:02:13.080
+Capstone Coach 1: So on a MAC you you go you just you just click on the image and you say image and look for image information.
+
+430
+01:02:13.680 --> 01:02:22.410
+Capstone Coach 1: properties and then it'll tell you Oh, this is a color image or, this is a black and white image and it's so many pixels by so many pixels.
+
+431
+01:02:22.800 --> 01:02:34.020
+Capstone Coach 1: That information is actually getting coded inside the image data remember this is, this is an empty array, but there is a little tag with that array that contains the description of the image.
+
+432
+01:02:34.560 --> 01:02:53.610
+Capstone Coach 1: And so the the usually the computer programs, they will look for that that information but normally I just look at the photograph a for a than a typical photograph from the collection and then it from that, I can tell all it's 1024 by 1024, but in this case 2828 good.
+
+433
+01:02:55.110 --> 01:03:05.850
+Capstone Coach 1: If it's a 1024 by 24 or even higher and we're going to look at some that are much higher, then, then the the amount of pixels that you're dealing with explodes.
+
+434
+01:03:06.420 --> 01:03:15.930
+Capstone Coach 1: And in that case you want to do some pre processing on the images to reduce the size of the basically reducing the size of the image.
+
+435
+01:03:16.650 --> 01:03:33.150
+Capstone Coach 1: And there's a way to do that in tensorflow and that's part of what makes tensorflow attractive, is that it there are lots of ways, you can pre process images and other information in tensorflow but right now we're just looking at the neural network part of it.
+
+436
+01:03:34.560 --> 01:03:43.680
+Capstone Coach 1: So what is an epoch well this gets to something else that's a little different the way in which the neural network is being trained.
+
+437
+01:03:44.490 --> 01:03:50.640
+Capstone Coach 1: This is different from side to side get learn it's also different for most other software.
+
+438
+01:03:51.180 --> 01:04:01.710
+Capstone Coach 1: I don't know what I don't know I haven't looked at the history on all this, but I think that the tensorflow approach is something is the most you.
+
+439
+01:04:02.610 --> 01:04:09.780
+Capstone Coach 1: Know modern approach and it's what allows them to handle very large neural networks.
+
+440
+01:04:10.350 --> 01:04:31.500
+Capstone Coach 1: Because normally the way the optimization goes you take every data point and you fit every data point to that network sequentially so that means one epoch is the basically one pass through the entire data set looking at all the weights that's enormously computationally expensive.
+
+441
+01:04:32.760 --> 01:04:44.250
+Capstone Coach 1: So, instead, what seems to be had what happens here is that each epoch is basically a fit of the network weights to a subset of the data.
+
+442
+01:04:45.180 --> 01:04:51.690
+Capstone Coach 1: And that's a randomly selected subset, hence the need for that random see that random number so.
+
+443
+01:04:52.200 --> 01:05:13.740
+Capstone Coach 1: If you don't set that random number seed, then the results that you actually get out will you'll change someone from run run Okay, so in this case, it says we're going to go with and we're going to use a 50 randomly selected subsets of the data and each subset is going to be 32 images.
+
+444
+01:05:14.970 --> 01:05:15.510
+Capstone Coach 1: that's all.
+
+445
+01:05:20.040 --> 01:05:22.290
+Capstone Coach 1: Wait a second let's go hang on hang on a second.
+
+446
+01:05:26.370 --> 01:05:49.410
+Capstone Coach 1: And yeah you know I see my comment here is wrong, it says used in 24 that's an old I should say 32 okay normally this number this size number is larger than 32 However, I wanted to create this so that we could have this discussion, without being here all night right, I wanted to run fast.
+
+447
+01:05:50.490 --> 01:06:00.210
+Capstone Coach 1: In 58 boxes a reasonable number to especially to get started with when you go to do the final analysis, you may want to increase that to 100 or maybe even higher.
+
+448
+01:06:00.720 --> 01:06:10.170
+Capstone Coach 1: It depends upon both the the amount of data and the size size, meaning the number of people on the number of cases that you're going to actually use.
+
+449
+01:06:10.530 --> 01:06:25.860
+Capstone Coach 1: For each training so What it does is it takes 32 here in our example and it uses those 32 to fit a million weights over a million weights in this network, and it does that fairly quickly.
+
+450
+01:06:27.210 --> 01:06:33.720
+Capstone Coach 1: So they have a nice way they're using back propagation, which is the normal methods that you use to fit a.
+
+451
+01:06:35.040 --> 01:06:51.090
+Capstone Coach 1: neural network back propagation it works efficiently it's quick the the amount of time that it takes is going to be the same virtually every epoch you notice here, it says 16 seconds 14 seconds 13 it's all about the same here.
+
+452
+01:06:51.720 --> 01:06:58.440
+Capstone Coach 1: The reason, the only reason they're different is because I was probably doing something with the computer at the time.
+
+453
+01:07:00.000 --> 01:07:00.540
+Capstone Coach 1: and
+
+454
+01:07:02.610 --> 01:07:04.260
+Capstone Coach 1: let's see white here.
+
+455
+01:07:07.860 --> 01:07:11.070
+Capstone Coach 1: It looks like I may have had some something coming in here.
+
+456
+01:07:11.940 --> 01:07:27.570
+Capstone Coach 1: not sure what that is I don't think it's an error, what you should see is, you should see the validation accuracy getting bigger and bigger and better and better, as you go from when I go up in the box and the last function here going to zero.
+
+457
+01:07:29.250 --> 01:07:37.470
+Capstone Coach 1: And so I watched the validation accuracy and also the validation loss, you can see here in the first teapot the loss is.
+
+458
+01:07:40.320 --> 01:07:45.210
+Capstone Coach 1: Point 1124 that's the validation loss.
+
+459
+01:07:46.380 --> 01:07:46.950
+Capstone Coach 1: and
+
+460
+01:07:48.120 --> 01:07:57.750
+Capstone Coach 1: move it over a little bit now it's about spot right Okay, so the validation losses point 1124 then it goes to point 8.7.
+
+461
+01:07:58.110 --> 01:08:11.430
+Capstone Coach 1: So sometimes it'll come back up a little bit, you can see it's coming up here up here that's not good and let's see how we get where we go with 50 Okay, so I scroll down to 50.
+
+462
+01:08:12.330 --> 01:08:27.930
+Capstone Coach 1: And i'm looking at the last is actually higher than where we started and the act, but the accuracy and the accuracy really hasn't improved that much why well most likely it's because of the epoch size 32 okay.
+
+463
+01:08:29.310 --> 01:08:38.310
+Capstone Coach 1: So I should be using something more than 32 images per epoch so this, so what that says is, I want to use something like.
+
+464
+01:08:40.500 --> 01:08:52.500
+Capstone Coach 1: or even higher on the size number, but when you do, that things are going to slow down considerably, and I just wanted to show you how this runs but after we log off here, or what have you.
+
+465
+01:08:53.520 --> 01:08:59.220
+Capstone Coach 1: You might want to change the size to a higher number of rerun this I think 1024 is going to work for you.
+
+466
+01:09:01.410 --> 01:09:21.570
+Capstone Coach 1: The box size should be around 50 Now then, what I do is I actually plot, you can see it here, you can you can, if you, these are these are actually subplots that are saved and so you can see here, it says subplot plot plot plot, and it should be saved let's see.
+
+467
+01:09:30.060 --> 01:09:30.660
+Capstone Coach 1: righty.
+
+468
+01:09:38.400 --> 01:09:50.040
+Capstone Coach 1: No, I didn't save it okay I probably should put a statement in here that saves it out to a file let's these these are P amp G plots.
+
+469
+01:09:51.300 --> 01:09:53.820
+Capstone Coach 1: And so I should save this out to a file.
+
+470
+01:09:54.840 --> 01:10:02.790
+Capstone Coach 1: Because I may want to put this in documentation now What this shows you the upper upper plot here is the last versus versus the.
+
+471
+01:10:03.270 --> 01:10:06.630
+Capstone Coach 1: The accuracy, the Red number, so the end of the training loss.
+
+472
+01:10:07.530 --> 01:10:14.250
+Capstone Coach 1: And so you can see, the loss of the training files going down down down down, but what happens to the test up up up up up this is terrible.
+
+473
+01:10:14.700 --> 01:10:22.500
+Capstone Coach 1: You should see the last in the training the test file getting flat or getting smaller okay.
+
+474
+01:10:23.340 --> 01:10:31.230
+Capstone Coach 1: Then in the bottom, you have accuracy and you sort of see that the accuracy of the train day, this is going to join going to close to one.
+
+475
+01:10:31.650 --> 01:10:39.870
+Capstone Coach 1: But then the accuracy in the test data is flat, so this says, I have a problem with the fitting these data with this particular model.
+
+476
+01:10:40.560 --> 01:10:59.580
+Capstone Coach 1: It could be that the model is it's good so maybe this is this model that I just find here with thousand a million ways, maybe I need to have more preceptor ons here, or it could be that in most likely is the size zero is too small for this application for this particular analysis.
+
+477
+01:11:01.290 --> 01:11:07.560
+Capstone Coach 1: Then there's a table with shown and this shows you for each class what the percent correct.
+
+478
+01:11:08.220 --> 01:11:18.150
+Capstone Coach 1: And you can see that the percentage of the correct classification is actually not that bad, so the the loss sorry the accuracy is about the.
+
+479
+01:11:18.750 --> 01:11:26.940
+Capstone Coach 1: Point nine eight in this isn't the validation data, by the way, so there are 10,000 images there of those 10,000 images.
+
+480
+01:11:27.720 --> 01:11:42.960
+Capstone Coach 1: All but to put about 2% were correctly classified, so we have accuracy of 98% cry correct classification one time 17 minutes for this guy So if I go to improve this by increasing the size.
+
+481
+01:11:43.440 --> 01:11:52.950
+Capstone Coach 1: we're going to have that number is going to get larger and we might want to go get dinner or a cup of tea or something like that my wife bought me and city so.
+
+482
+01:11:53.970 --> 01:12:01.620
+Capstone Coach 1: that's what we're doing there so i'm gonna let you go right now and next Tuesday what we'll do is we'll take we'll take this to the next step, which is looking at.
+
+483
+01:12:02.460 --> 01:12:19.020
+Capstone Coach 1: How do you modify the images, so that this runs even better and faster, how do you can I don't know that we can do that here because it's just these are small images and there are black and white anyway, so they, in a sense that are already compressed.
+
+484
+01:12:20.640 --> 01:12:27.570
+Capstone Coach 1: So we're not dealing with color images and we're not dealing with like 1024 by 1024 so it's not that bad.
+
+485
+01:12:28.470 --> 01:12:34.020
+Capstone Coach 1: But, but there are some techniques that I would try on us just to make just to see whether would run faster.
+
+486
+01:12:34.500 --> 01:12:47.130
+Capstone Coach 1: And then, certainly as soon as we get offline here i'm changing that number 32 to 1024 we running this as is at see whether we get when they get a better better results i'm going to change this.
+
+487
+01:12:47.250 --> 01:12:48.090
+Christian Gover: In 2014.
+
+488
+01:12:48.720 --> 01:12:49.320
+like that.
+
+489
+01:12:50.760 --> 01:13:00.600
+Capstone Coach 1: Well that's it for tonight and then Tuesday Tuesday we'll go into this a little bit deeper, but I think those of you that are using neural networks in your capstones.
+
+490
+01:13:01.140 --> 01:13:12.180
+Capstone Coach 1: Hopefully, this is enough to get you going if you have a categorical target, this will work that you may want to change the number of layers and the number of perceptions and each layer and that sort of thing.
+
+491
+01:13:14.100 --> 01:13:30.480
+Capstone Coach 1: Now, if you have a binary classification, then you want to change categorical cross enter read to binary cross entropy and then probably categorical accuracy to binary accuracy and there are some other last metrics that are available.
+
+492
+01:13:31.530 --> 01:13:42.540
+Capstone Coach 1: And notice that I can pull them out right down here at the bottom ve l ACC values, this is validation accuracy values and so on.
+
+493
+01:13:43.080 --> 01:14:00.360
+Capstone Coach 1: i'm pulling out the LACs accuracy, now that those names come right out of the park for now, you can see, it says Val accuracy right there, so I know Okay, I want to pull Val This gives you the list of all the accuracy values that were accumulating overall.
+
+494
+01:14:01.980 --> 01:14:15.750
+Capstone Coach 1: Values here that's what's being used to make these prints these graphs that you see here, so these things, the ACC value and so forth, they are being used in the pot right here you'll see.
+
+495
+01:14:16.800 --> 01:14:23.640
+Capstone Coach 1: label ACC Val ACC values would be the validation accuracy values.
+
+496
+01:14:24.750 --> 01:14:30.450
+Capstone Coach 1: vow loss of these are the validation last values and so forth okay.
+
+497
+01:14:33.720 --> 01:14:35.340
+Capstone Coach 1: And I think.
+
+498
+01:14:36.570 --> 01:14:55.050
+Capstone Coach 1: that's about it yeah so let's see if we can run them will afterwards, we want to run this a little bit and see if it gets to be any better, and then on Tuesday we're going to look at about an example with interval targets, the oil production data and then we'll look at how we.
+
+499
+01:14:56.370 --> 01:15:08.850
+Capstone Coach 1: transform these images to handle larger images more higher resolution images and even in this case, or maybe possible to get some real savings by shrinking the limits image just a little bit.
+
+500
+01:15:09.840 --> 01:15:17.250
+Capstone Coach 1: Okay well thanks for coming on i'm glad to see all here and Jim we're going to tomorrow is Thursday right.
+
+501
+01:15:21.570 --> 01:15:21.990
+Jim Clark: Yes, it.
+
+502
+01:15:22.320 --> 01:15:22.890
+Jim Clark: is Thursday.
+
+503
+01:15:23.190 --> 01:15:26.520
+Capstone Coach 1: Okay, do you want to get together to tonight or tomorrow.
+
+504
+01:15:27.360 --> 01:15:29.730
+Jim Clark: We can get together now, if you want to it's really.
+
+505
+01:15:29.790 --> 01:15:37.020
+Capstone Coach 1: Complex I didn't take a break, to see what my wife is saying she's coming in and out in and out in and out no yes car right.
+
+506
+01:15:38.010 --> 01:15:39.600
+Jim Clark: i'm working on some other things and.
+
+507
+01:15:40.140 --> 01:15:40.440
+Jim Clark: Okay.
+
+508
+01:15:41.430 --> 01:15:42.510
+Jim Clark: hang on for a few minutes.
+
+509
+01:15:42.780 --> 01:15:44.460
+Capstone Coach 1: Okay i'll send you an email.
+
+510
+01:15:45.990 --> 01:15:46.920
+Capstone Coach 1: One way or another.
+
+511
+01:15:47.310 --> 01:15:47.730
+Fireman, Karen: Thank you.
+
+512
+01:15:48.420 --> 01:15:49.710
+Jim Clark: Dr jack very good.
+
+513
+01:15:50.820 --> 01:15:51.270
+Capstone Coach 1: Yes.
+
+514
+01:15:51.300 --> 01:15:51.630
+Capstone Coach 1: They will.
+
+515
+01:15:51.660 --> 01:15:53.460
+Purkiss, David: need to get together as well.
+
+516
+01:15:54.600 --> 01:15:55.590
+Capstone Coach 1: Tonight or tomorrow.
+
+517
+01:15:56.670 --> 01:15:57.330
+Purkiss, David: Ah.
+
+518
+01:15:58.110 --> 01:15:59.010
+Capstone Coach 1: i'm thinking tomorrow.
+
+519
+01:15:59.040 --> 01:16:03.390
+Purkiss, David: I have your data right fine is tomorrow is tomorrow afternoon or evening okay.
+
+520
+01:16:03.720 --> 01:16:16.020
+Capstone Coach 1: Yes, Okay, and so I send me an email, so what works for you what works best for you Okay, I have your data and i'm running your data tonight, it takes a while to run.
+
+521
+01:16:16.200 --> 01:16:17.040
+Purkiss, David: Sure does.
+
+522
+01:16:17.430 --> 01:16:25.170
+Capstone Coach 1: It so i'm working my way through that by the time we get together, we should have we should have something to talk about okay.
+
+523
+01:16:25.200 --> 01:16:25.530
+Jim Clark: Thank you.
+
+524
+01:16:26.280 --> 01:16:33.540
+Jim Clark: Dr agenda and if you want your weekend just we can just make some time to are working on on some things and so.
+
+525
+01:16:35.730 --> 01:16:36.120
+Capstone Coach 1: yeah.
+
+526
+01:16:36.210 --> 01:16:38.010
+Jim Clark: You said you just let me know when you want to talk.
+
+527
+01:16:38.520 --> 01:16:43.830
+Capstone Coach 1: Okay sure i'll do that i'll send you a proposal on tomorrow, and then we can do that, then.
+
+528
+01:16:45.780 --> 01:16:46.110
+Jim Clark: All right.
+
+529
+01:16:46.560 --> 01:16:47.190
+Capstone Coach 1: yeah yeah.
+
+530
+01:16:50.820 --> 01:16:51.330
+Capstone Coach 1: How are you.
+
+531
+01:16:51.840 --> 01:16:55.530
+Gupta, Satyam: i'm good i'm doing good I was asking, like me, I get the appointment to.
+
+532
+01:16:56.460 --> 01:16:59.070
+Capstone Coach 1: See when when the oh that's right.
+
+533
+01:16:59.100 --> 01:17:00.810
+Capstone Coach 1: We need to get together as well.
+
+534
+01:17:00.900 --> 01:17:01.410
+Yes.
+
+535
+01:17:02.520 --> 01:17:05.160
+Capstone Coach 1: The capstone thanks for kind of getting for.
+
+536
+01:17:05.550 --> 01:17:08.430
+Gupta, Satyam: i'm fine for Friday or Saturday or Sunday.
+
+537
+01:17:08.760 --> 01:17:11.670
+Capstone Coach 1: OK OK i'll see you i'll see you need mills well.
+
+538
+01:17:12.060 --> 01:17:14.460
+Gupta, Satyam: Perfect sounds good, thank you appreciate it.
+
+539
+01:17:14.790 --> 01:17:17.580
+Capstone Coach 1: Okay guys we'll see you later bye Christian all right.
+
+540
+01:17:17.850 --> 01:17:19.620
+Christian Gover: All right, by Dr Jones.
+
+541
+01:17:23.250 --> 01:17:24.990
+Capstone Coach 1: Christian did you have something they want to say.
+
+542
+01:17:25.710 --> 01:17:33.780
+Christian Gover: Oh no yeah I posted a question in the chat, but it was just about the optimizer so the optimizer is just for performance right.
+
+543
+01:17:34.200 --> 01:17:35.970
+Christian Gover: Correct it just improves the.
+
+544
+01:17:35.970 --> 01:17:39.990
+Capstone Coach 1: runtime well is reproducing also sometimes improves the solution.
+
+545
+01:17:41.370 --> 01:17:48.780
+Capstone Coach 1: Because you know what you're trying to do is come up with the best value for the weights and so sometimes one optimizer will do that better than another.
+
+546
+01:17:50.100 --> 01:17:53.670
+Capstone Coach 1: So you can get different results better results, or worse, right.
+
+547
+01:17:54.930 --> 01:17:55.380
+Christian Gover: Okay.
+
+548
+01:17:55.680 --> 01:17:56.940
+Capstone Coach 1: yeah makes it harder.
+
+549
+01:17:57.390 --> 01:18:06.660
+Gupta, Satyam: I just heard a comment in the chat that changing the size to like 1024 or like even larger makes the program run even faster.
+
+550
+01:18:08.100 --> 01:18:08.250
+Capstone Coach 1: Oh.
+
+551
+01:18:09.150 --> 01:18:09.480
+that's.
+
+552
+01:18:11.280 --> 01:18:11.880
+Capstone Coach 1: weird.
+
+553
+01:18:12.240 --> 01:18:28.440
+Gupta, Satyam: I mean yeah I mean I change it back to 32 and now he's taking a lot longer, and when I change it to 10 2042 1.6 minutes 1.7 minutes, and then I further change it to like 6000 and a box to 60 and each it ran in like 1.6 minutes.
+
+554
+01:18:30.210 --> 01:18:37.050
+Gupta, Satyam: So not sure what's going on, like right now i'm running the program with third size kosher 32 and epoxy close to 50.
+
+555
+01:18:37.860 --> 01:18:41.190
+Gupta, Satyam: it's running it's running it's probably it will run for the.
+
+556
+01:18:41.610 --> 01:18:44.520
+Capstone Coach 1: 10 minutes oh Okay, so that.
+
+557
+01:18:44.580 --> 01:18:46.350
+Gupta, Satyam: might be some insight like.
+
+558
+01:18:46.530 --> 01:18:49.770
+Capstone Coach 1: Well, maybe I need to go back and revisit the documentation.
+
+559
+01:18:51.270 --> 01:18:52.530
+Capstone Coach 1: Okay okay okay yeah.
+
+560
+01:18:52.830 --> 01:18:53.460
+Christian Gover: Can I ask.
+
+561
+01:18:53.910 --> 01:18:55.050
+Christian Gover: One last question.
+
+562
+01:18:55.080 --> 01:18:55.830
+Capstone Coach 1: Sure Christian.
+
+563
+01:18:56.370 --> 01:19:04.890
+Christian Gover: The kerris neural network, does it performs better with larger data sets and then like say a jump neural network.
+
+564
+01:19:05.130 --> 01:19:07.350
+Capstone Coach 1: Like I would say absolutely yes.
+
+565
+01:19:08.040 --> 01:19:17.700
+Christian Gover: It, but is it the case for like say like my capstone has like 25,000 records mm hmm What would the charisse perform better than the.
+
+566
+01:19:18.480 --> 01:19:21.330
+Capstone Coach 1: Well, you how many features yeah how many columns.
+
+567
+01:19:21.750 --> 01:19:23.610
+Christian Gover: Oh there's like 40.
+
+568
+01:19:25.290 --> 01:19:33.450
+Capstone Coach 1: It should reform better you know I don't know how long is it taking right now to do your your neural network.
+
+569
+01:19:34.500 --> 01:19:39.870
+Christian Gover: It takes about five minutes to run and it's like I think there's only like one or two layers.
+
+570
+01:19:40.500 --> 01:19:43.110
+Capstone Coach 1: Okay, this might work better yeah.
+
+571
+01:19:44.010 --> 01:19:45.360
+Christian Gover: prob which one which one is.
+
+572
+01:19:45.390 --> 01:19:46.530
+Capstone Coach 1: True tensorflow.
+
+573
+01:19:46.590 --> 01:19:47.700
+Christian Gover: tensorflow tensorflow.
+
+574
+01:19:47.760 --> 01:19:54.090
+Capstone Coach 1: it's going to allow you to to build a bigger network more perceptive ron's more complicated.
+
+575
+01:19:55.230 --> 01:20:08.310
+Capstone Coach 1: And that will probably give you better performance, now the actual runtime may not because you're going to be putting in more precept runs or something like that it may actually be longer or you know the same.
+
+576
+01:20:08.760 --> 01:20:11.910
+Christian Gover: yeah mainly categorical data like true false.
+
+577
+01:20:11.970 --> 01:20:13.800
+Christian Gover: kind of features that I have in there.
+
+578
+01:20:14.670 --> 01:20:20.730
+Capstone Coach 1: Okay yeah I would certainly give it a shot I would notice your target is your target categorical or.
+
+579
+01:20:20.730 --> 01:20:23.100
+Christian Gover: it's gross quantity.
+
+580
+01:20:24.060 --> 01:20:24.810
+Capstone Coach 1: it's a number.
+
+581
+01:20:25.230 --> 01:20:26.550
+Christian Gover: yeah it's a number interval.
+
+582
+01:20:27.000 --> 01:20:29.550
+Capstone Coach 1: Okay, she had been using the N squared error and all that.
+
+583
+01:20:29.790 --> 01:20:30.480
+Christian Gover: yeah yeah.
+
+584
+01:20:30.510 --> 01:20:31.980
+Capstone Coach 1: OK OK, I will.
+
+585
+01:20:32.040 --> 01:20:33.930
+Christian Gover: i'll try it out that's you know anybody.
+
+586
+01:20:34.140 --> 01:20:37.980
+Capstone Coach 1: yeah I would do it because I think you could probably get better results.
+
+587
+01:20:38.670 --> 01:20:42.450
+Christian Gover: Okay, and I was planning on trying your advanced analytics neural networks.
+
+588
+01:20:42.480 --> 01:20:43.650
+Capstone Coach 1: Okay yeah.
+
+589
+01:20:44.280 --> 01:20:44.970
+Christian Gover: i'll see which one.
+
+590
+01:20:45.240 --> 01:20:47.280
+Capstone Coach 1: works better okay all right all right.
+
+591
+01:20:49.500 --> 01:20:51.570
+Christian Gover: Okay okay sounds good, thank you.
+
+592
+01:20:52.110 --> 01:20:54.210
+Capstone Coach 1: So much see you later yep.
+
+593
+01:20:54.300 --> 01:20:56.280
+Gupta, Satyam: So yes, your question, yes, sir.
+
+594
+01:20:56.370 --> 01:20:57.840
+Capstone Coach 1: Which one is your first name.
+
+595
+01:20:59.160 --> 01:21:02.430
+Gupta, Satyam: So, my name is set them and gupta is my son name or last name.
+
+596
+01:21:02.760 --> 01:21:05.130
+Capstone Coach 1: Okay okay that's what I that's what I thought.
+
+597
+01:21:05.280 --> 01:21:06.030
+Gupta, Satyam: yeah I mean.
+
+598
+01:21:06.090 --> 01:21:08.940
+Capstone Coach 1: But it's always you know printed on screen.
+
+599
+01:21:09.000 --> 01:21:09.780
+Gupta, Satyam: yeah so.
+
+600
+01:21:10.080 --> 01:21:10.710
+Gupta, Satyam: it's it's.
+
+601
+01:21:10.770 --> 01:21:25.200
+Gupta, Satyam: it's me being lazy because whenever I sign in on zoom it puts my name like just like for you, it puts capstone coach one you can change it like you can type Dr Jones or like I can change that TIM I just let it be so.
+
+602
+01:21:25.470 --> 01:21:28.500
+Capstone Coach 1: When i'm loyal Now I know I know you know because we're.
+
+603
+01:21:28.650 --> 01:21:31.680
+Capstone Coach 1: we're probably going to be on a first name basis here pretty soon.
+
+604
+01:21:33.300 --> 01:21:34.800
+Capstone Coach 1: Okay, thank you.
+
+605
+01:21:35.430 --> 01:21:35.880
+Christian Gover: Thank you.
+
+606
+01:21:37.080 --> 01:21:37.680
+Capstone Coach 1: good night.
+
+607
+01:21:40.440 --> 01:21:41.700
+Capstone Coach 1: Okay we're out of here.
+

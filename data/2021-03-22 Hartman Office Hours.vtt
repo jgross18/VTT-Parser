@@ -1,0 +1,2014 @@
+WEBVTT
+
+1
+00:09:55.980 --> 00:09:56.220
+Christian Gover: Hello.
+
+2
+00:09:57.660 --> 00:09:58.770
+Christian Gover: Is it just me right now.
+
+3
+00:09:59.580 --> 00:10:00.840
+Faculty Office Hours: Well i'm here also.
+
+4
+00:10:02.880 --> 00:10:04.440
+Faculty Office Hours: Yes, it's just the two of us.
+
+5
+00:10:06.000 --> 00:10:08.670
+Faculty Office Hours: Are you are, you are you lurking or you have a question.
+
+6
+00:10:09.270 --> 00:10:13.710
+Christian Gover: I guess, I had a question I did that you posted a video right.
+
+7
+00:10:15.420 --> 00:10:23.310
+Christian Gover: So that's good, I guess, I was wondering more about the expand command that you mentioned in the homework assignment, at the very end.
+
+8
+00:10:27.660 --> 00:10:30.240
+Faculty Office Hours: let's see i'm looking.
+
+9
+00:10:37.890 --> 00:10:45.810
+Faculty Office Hours: I don't see the expand and the homework you mean just you're curious about the so how how and when you would use it.
+
+10
+00:10:46.860 --> 00:10:56.730
+Christian Gover: um yeah I thought it was there, so on on Question three at the very end after the num net profit products equals 2743.
+
+11
+00:10:57.240 --> 00:11:03.210
+Faculty Office Hours: Oh so so that's that's that's in the hint and, and so the suggestion is that.
+
+12
+00:11:05.010 --> 00:11:09.450
+Faculty Office Hours: When you expand a model that uses.
+
+13
+00:11:11.730 --> 00:11:31.200
+Faculty Office Hours: Sets and index sets in a raise expanded model is still going to look the same the names of the variables are going to be different, but the model itself should look very similar to the expand of the craft brewery names.
+
+14
+00:11:34.230 --> 00:11:34.770
+Christian Gover: Okay.
+
+15
+00:11:35.220 --> 00:11:39.720
+Faculty Office Hours: Which is, which is going to look very much the same as the as the kind of.
+
+16
+00:11:41.250 --> 00:11:44.730
+Faculty Office Hours: The right out of the bottle and on the first page of the homework.
+
+17
+00:11:47.670 --> 00:11:51.030
+Faculty Office Hours: So instead of saying 2027 times Al.
+
+18
+00:11:51.600 --> 00:11:51.960
+Christian Gover: uh huh.
+
+19
+00:11:52.200 --> 00:11:57.480
+Faculty Office Hours: It would say 27 times, whatever the name of the array of decision variables.
+
+20
+00:11:58.680 --> 00:11:59.310
+Faculty Office Hours: Is.
+
+21
+00:12:01.560 --> 00:12:07.770
+Faculty Office Hours: So what do you have you have you have you chosen a name for the array of decision variables.
+
+22
+00:12:09.090 --> 00:12:13.050
+Christian Gover: um, I believe, so I had an array called.
+
+23
+00:12:15.060 --> 00:12:18.690
+Christian Gover: ingredients and then I had products.
+
+24
+00:12:20.250 --> 00:12:20.610
+Christian Gover: Yes.
+
+25
+00:12:21.030 --> 00:12:23.160
+Faculty Office Hours: products would probably be a set.
+
+26
+00:12:23.640 --> 00:12:24.300
+yeah.
+
+27
+00:12:26.250 --> 00:12:26.760
+Faculty Office Hours: So.
+
+28
+00:12:28.680 --> 00:12:34.620
+Faculty Office Hours: Once you can you show me what you what you your program looks like so far.
+
+29
+00:12:34.920 --> 00:12:38.160
+Christian Gover: you're if that's allowed, let me share my, then I just.
+
+30
+00:12:38.970 --> 00:12:40.020
+Faculty Office Hours: I will allow that.
+
+31
+00:12:41.670 --> 00:12:45.240
+Christian Gover: Okay, let me start it up share screen first.
+
+32
+00:12:46.050 --> 00:12:46.470
+Okay.
+
+33
+00:12:51.180 --> 00:12:53.760
+Christian Gover: I hope you can hear my son crying right now.
+
+34
+00:12:54.810 --> 00:12:56.820
+Faculty Office Hours: No he's gonna have to cry a little bit louder i'm afraid.
+
+35
+00:12:56.820 --> 00:12:59.700
+Christian Gover: Okay, good good he's yelling in the living room.
+
+36
+00:13:06.000 --> 00:13:11.670
+Faculty Office Hours: I don't know why it takes us to do so inordinately long to start up it's just not it's not just you.
+
+37
+00:13:12.270 --> 00:13:12.720
+yeah.
+
+38
+00:13:19.620 --> 00:13:20.520
+Christian Gover: Come on, Guy.
+
+39
+00:13:24.000 --> 00:13:25.440
+Christian Gover: Okay opened up in the other.
+
+40
+00:13:32.010 --> 00:13:34.320
+Christian Gover: And then I have to drill down to get to my assignment.
+
+41
+00:13:35.250 --> 00:13:35.640
+Okay.
+
+42
+00:13:38.040 --> 00:13:43.620
+Faculty Office Hours: If anybody else is there in the background, has a quick question i'm happy to answer or waiting for his program to come up.
+
+43
+00:13:48.060 --> 00:13:48.990
+Faculty Office Hours: No takers.
+
+44
+00:13:49.230 --> 00:13:50.280
+Christian Gover: No takers.
+
+45
+00:13:54.210 --> 00:13:54.840
+Christian Gover: alright.
+
+46
+00:14:00.840 --> 00:14:03.210
+Christian Gover: Alright, so there's assignment for.
+
+47
+00:14:05.370 --> 00:14:07.920
+Christian Gover: craft brewery exercise three.
+
+48
+00:14:08.160 --> 00:14:08.640
+Okay.
+
+49
+00:14:11.040 --> 00:14:21.450
+Faculty Office Hours: So let's let's see so you you're calling your decision variables non prod, which is the same as the same as they're called in the furniture name, which is fine.
+
+50
+00:14:23.310 --> 00:14:28.290
+Faculty Office Hours: Okay, so so let's see page down just a little bit more.
+
+51
+00:14:29.670 --> 00:14:35.610
+Faculty Office Hours: So why don't you after after the Max and before the solve to say expand.
+
+52
+00:14:37.500 --> 00:14:39.870
+Christian Gover: After the Max but, before the song.
+
+53
+00:14:41.730 --> 00:14:50.790
+Faculty Office Hours: So expand is just going to list out your model it's kind of independent of solving it but it's it's good for troubleshooting and let's just go ahead and.
+
+54
+00:14:51.840 --> 00:14:59.220
+Faculty Office Hours: You can well if you were using interactive mode, you could run it just down to the expand, but you might as well just run the whole thing.
+
+55
+00:14:59.970 --> 00:15:00.450
+Okay.
+
+56
+00:15:01.860 --> 00:15:04.530
+Christian Gover: yeah all right let's hit save.
+
+57
+00:15:04.560 --> 00:15:11.820
+Faculty Office Hours: The running the running well some people call it the running man, but we try and call it the running person.
+
+58
+00:15:12.960 --> 00:15:15.060
+Christian Gover: Or, I can hit F3 too awesome yep.
+
+59
+00:15:15.150 --> 00:15:16.230
+Faculty Office Hours: There you go so um.
+
+60
+00:15:18.360 --> 00:15:24.000
+Faculty Office Hours: And let's look at, so in that box, you can see the the the the result of the expand.
+
+61
+00:15:24.600 --> 00:15:25.080
+mm hmm.
+
+62
+00:15:27.780 --> 00:15:35.790
+Faculty Office Hours: So let's see so you have your decision variables that are non negative, you can see your objective, and you can compare your objective to the one.
+
+63
+00:15:36.990 --> 00:15:50.580
+Faculty Office Hours: On the previous page and your constraints are a little bit simpler well, if you want to compare your constraints to the one on the on the first page of the homework assignment, you would kind of.
+
+64
+00:15:52.560 --> 00:15:58.980
+Faculty Office Hours: You would kind of plug in the implicit variables, so the first one says usage of corn.
+
+65
+00:16:00.000 --> 00:16:02.520
+Faculty Office Hours: or availability of corn is less than or equal to 480.
+
+66
+00:16:05.220 --> 00:16:16.710
+Faculty Office Hours: And so, look up where the availability of corn is is defined that as an implicit variables so it's five times nonprofit avail plus 15 times now i'm proud of beer.
+
+67
+00:16:17.220 --> 00:16:17.700
+Christian Gover: All right.
+
+68
+00:16:17.760 --> 00:16:22.260
+Faculty Office Hours: that's less than or equal to 480 So you can see the similarity between that and the.
+
+69
+00:16:24.120 --> 00:16:26.220
+Faculty Office Hours: And the program on the first page.
+
+70
+00:16:27.360 --> 00:16:28.440
+Faculty Office Hours: Or does that make sense.
+
+71
+00:16:28.650 --> 00:16:30.000
+Christian Gover: yeah that makes sense.
+
+72
+00:16:30.180 --> 00:16:37.200
+Faculty Office Hours: So, so they expand statement is basically just kind of a troubleshooting feature doesn't really affect.
+
+73
+00:16:38.460 --> 00:16:39.870
+Faculty Office Hours: The the model at all.
+
+74
+00:16:42.090 --> 00:16:48.420
+Faculty Office Hours: Whatever the model was going to be before you expand it it's still going to be the same thing, but you might notice.
+
+75
+00:16:49.440 --> 00:16:53.880
+Faculty Office Hours: logical error by looking at the expand that you might not have noticed, otherwise.
+
+76
+00:16:55.530 --> 00:16:56.010
+Christian Gover: Okay.
+
+77
+00:16:56.400 --> 00:17:17.130
+Faculty Office Hours: So it's just a suggestion so like if if if, for some reason, your model was working you could try and expand it and see if you could figure out what it was that was causing the problem if it runs fine, then it really is it's not necessary, so did you get a reasonable answer, do you think.
+
+78
+00:17:17.400 --> 00:17:23.730
+Christian Gover: He is similar to what I got in question one and two, so I I guess that's okay.
+
+79
+00:17:24.180 --> 00:17:33.300
+Faculty Office Hours: So you should get the exact same solution that you would get from running craft brewery names, yes, exactly the same model it's just got different names for things.
+
+80
+00:17:33.600 --> 00:17:38.100
+Christian Gover: Correct yeah I got I just didn't want to give too much away but you're not recording this.
+
+81
+00:17:39.690 --> 00:17:42.510
+Faculty Office Hours: I don't know I i'm not it's not me anyway.
+
+82
+00:17:43.080 --> 00:17:46.320
+Christian Gover: Okay yeah I think they usually record these but.
+
+83
+00:17:46.890 --> 00:17:49.290
+Faculty Office Hours: I wouldn't I wouldn't worry about it okay.
+
+84
+00:17:50.340 --> 00:17:50.850
+Christian Gover: yeah.
+
+85
+00:17:50.910 --> 00:17:54.030
+Faculty Office Hours: You could just let us take out a copyright on your on your work.
+
+86
+00:17:55.470 --> 00:17:57.450
+Christian Gover: Take a copy like just to.
+
+87
+00:17:57.540 --> 00:18:04.560
+Faculty Office Hours: You know, take out a copyright on your material, so that if anyone uses it, you could say you know 15%.
+
+88
+00:18:07.740 --> 00:18:09.270
+Christian Gover: yeah I guess.
+
+89
+00:18:10.890 --> 00:18:15.390
+Faculty Office Hours: Okay, so it looks like you should be fine then yeah I answer that you're having any any problems.
+
+90
+00:18:15.450 --> 00:18:17.730
+Christian Gover: And I didn't have any error messages or.
+
+91
+00:18:17.730 --> 00:18:19.920
+Faculty Office Hours: Anything So do you know how to save.
+
+92
+00:18:19.980 --> 00:18:21.900
+Faculty Office Hours: Save the log so that you can submit it.
+
+93
+00:18:22.650 --> 00:18:25.680
+Christian Gover: i'm kind of maybe.
+
+94
+00:18:26.010 --> 00:18:30.870
+Faculty Office Hours: I so try that try there's a like a save as or save log.
+
+95
+00:18:32.220 --> 00:18:32.940
+Christian Gover: log ass.
+
+96
+00:18:33.120 --> 00:18:35.040
+Faculty Office Hours: yeah and that will save it as a text file.
+
+97
+00:18:36.840 --> 00:18:38.850
+Faculty Office Hours: And then you can just submit that with your homework.
+
+98
+00:18:39.390 --> 00:18:40.350
+Christian Gover: Okay, all right.
+
+99
+00:18:40.530 --> 00:18:49.020
+Faculty Office Hours: It says log but it's a text file is just that you know SAS will note open as a log if you try to open it in SAS but otherwise it's just a text file.
+
+100
+00:18:50.280 --> 00:18:55.770
+Christian Gover: Okay, all right that sounds good, I thought it'd be like some kind of non text file that's good.
+
+101
+00:18:57.510 --> 00:19:05.880
+Christian Gover: yeah so I guess that was my only question really was the end was pretty simple I didn't know about the expand command so thanks.
+
+102
+00:19:06.030 --> 00:19:27.060
+Faculty Office Hours: yeah so it's just it's just a troubleshooting thing it's just a so you like any kind of language that has syntax you need a way to kind of debug, and so the log file is part of that you know, so it tells you if there's any syntax errors, but it won't necessarily catch logical errors.
+
+103
+00:19:27.300 --> 00:19:43.080
+Faculty Office Hours: yeah and so for those that expand is useful and beyond that it's also you know it's kind of check the check the answer against your problem, and your problem data, you know, say, does this does this make sense could actually do this.
+
+104
+00:19:45.000 --> 00:19:50.730
+Faculty Office Hours: And and and sometimes the answer is just like clearly something's wrong here, this is like you know telling you to.
+
+105
+00:19:51.210 --> 00:20:01.530
+Faculty Office Hours: To you know produce way too much or produce nothing, or something like that, and then you can go to go back and troubleshoot Okay, where did I make a logical error that's allowing that solution to be feasible.
+
+106
+00:20:04.020 --> 00:20:10.830
+Christian Gover: yeah I guess i'd say it's hard to read all this stuff if you haven't really seen him before i'm not really a SAS guy.
+
+107
+00:20:11.880 --> 00:20:13.620
+Christian Gover: It will, if it's any concentrate on.
+
+108
+00:20:13.710 --> 00:20:15.300
+Faculty Office Hours: either in mind so we're that.
+
+109
+00:20:17.850 --> 00:20:23.490
+Faculty Office Hours: If someone asked me to do some kind of like merging data sets or something i'd have to Google it.
+
+110
+00:20:23.940 --> 00:20:25.080
+Christian Gover: yeah yeah.
+
+111
+00:20:26.400 --> 00:20:32.250
+Christian Gover: Okay alright that sounds good, well That was my question I don't know if anyone else has anything but.
+
+112
+00:20:35.790 --> 00:20:36.780
+Jim Clark: This, this is a.
+
+113
+00:20:38.130 --> 00:20:42.060
+Jim Clark: Small question about SAS version numbers and what.
+
+114
+00:20:43.110 --> 00:20:51.810
+Jim Clark: Is the background that display in the style is different than what what I have in mind, so I don't know patches setting up the environment.
+
+115
+00:20:52.260 --> 00:20:54.870
+Faculty Office Hours: So, are you running SAS studio.
+
+116
+00:20:56.790 --> 00:20:57.750
+Jim Clark: believe my am.
+
+117
+00:20:59.160 --> 00:21:10.110
+Jim Clark: So it's it's not something that me i'm getting the same mathematical calculation of the same answer to this, yes I just didn't know if maybe as we get further in the Semester If only some things that.
+
+118
+00:21:10.800 --> 00:21:12.660
+Faculty Office Hours: You know what can you show me what you see.
+
+119
+00:21:12.990 --> 00:21:13.470
+sure.
+
+120
+00:21:29.670 --> 00:21:31.050
+Faculty Office Hours: Jim I think you're muted now.
+
+121
+00:21:55.980 --> 00:21:56.310
+Jim Clark: filling up.
+
+122
+00:21:57.060 --> 00:21:57.540
+Okay.
+
+123
+00:22:01.530 --> 00:22:03.150
+Jim Clark: So that's the box.
+
+124
+00:22:05.430 --> 00:22:07.470
+Jim Clark: Sets video three seven so.
+
+125
+00:22:29.640 --> 00:22:33.360
+Jim Clark: Well, it is the same now that I.
+
+126
+00:22:33.870 --> 00:22:42.660
+Faculty Office Hours: Well it's possible that that you might have opened up the display manager before, which is, I think I shared a screenshot with you.
+
+127
+00:22:43.680 --> 00:22:47.730
+Faculty Office Hours: it's it's if you open up what's called SAS 9.4.
+
+128
+00:22:49.200 --> 00:22:49.800
+Jim Clark: Right.
+
+129
+00:22:49.890 --> 00:22:58.320
+Faculty Office Hours: Then, then that will be the display manager was just kind of like SAS for windows and it's a it's a fairly different looking environment you.
+
+130
+00:22:59.070 --> 00:23:12.870
+Faculty Office Hours: it's not that you can't do it has much the same functionality SAS studio is a little bit nicer in terms of giving you prompts it's nicer in terms of giving you options to save the different.
+
+131
+00:23:15.540 --> 00:23:29.130
+Faculty Office Hours: Parts the log and the results so one of the nice things that you can do in SAS studio is you can save your results as that rich text file and you can't do those things in the display manager it's a little more primitive.
+
+132
+00:23:31.530 --> 00:23:34.470
+Jim Clark: It made they made, I made the running nine four and.
+
+133
+00:23:35.070 --> 00:23:44.250
+Faculty Office Hours: yeah I mean there's nothing wrong with it it's you know it's got a lot of this, the same functionality, it will sound like the algorithms won't work or anything like that it's more just the.
+
+134
+00:23:46.500 --> 00:23:47.880
+Faculty Office Hours: The kind of window dressing.
+
+135
+00:23:48.420 --> 00:23:48.990
+Faculty Office Hours: is good it.
+
+136
+00:23:49.800 --> 00:23:59.310
+Jim Clark: was where I discovered I didn't really feel compromised and so finding my log file out typically I want to get the output file.
+
+137
+00:24:00.390 --> 00:24:06.450
+Jim Clark: And it wouldn't let me do that very well, but I just copy the login pages of text.
+
+138
+00:24:08.130 --> 00:24:19.710
+Faculty Office Hours: On your studio you can there's a save, save log as and you can save it as just basically saves it as a text file it's just that still means you're then copying and pasting.
+
+139
+00:24:20.310 --> 00:24:21.300
+Jim Clark: Right okay.
+
+140
+00:24:22.710 --> 00:24:23.850
+Jim Clark: Thanks for letting.
+
+141
+00:24:25.080 --> 00:24:27.810
+Faculty Office Hours: me look in the in the first weeks.
+
+142
+00:24:30.660 --> 00:24:36.480
+Faculty Office Hours: notes there's a picture of the display manager so you'll know if that's what you're in if it looks like the picture.
+
+143
+00:24:37.890 --> 00:24:43.020
+Jim Clark: All right, I don't want to hold up the session but i'll go and confirm that Sir.
+
+144
+00:24:43.140 --> 00:24:43.590
+Okay.
+
+145
+00:24:44.940 --> 00:24:54.840
+Jim Clark: So that was my question it looked like I was getting me to me, is by getting the same answer, except going through setting up a raise, and so I think, because it will do that.
+
+146
+00:24:55.440 --> 00:24:57.690
+Jim Clark: Okay, so thank you.
+
+147
+00:24:58.020 --> 00:24:58.530
+sure.
+
+148
+00:25:02.880 --> 00:25:03.930
+Monica A. Harwig: hi i'm Monica.
+
+149
+00:25:04.770 --> 00:25:06.150
+Faculty Office Hours: I want to cook what's your question.
+
+150
+00:25:07.410 --> 00:25:08.580
+Monica A. Harwig: My question is.
+
+151
+00:25:09.720 --> 00:25:12.030
+Faculty Office Hours: Should we, I guess, we should let Jim stop sharing for.
+
+152
+00:25:13.860 --> 00:25:15.390
+Jim Clark: right to do here we go stop here.
+
+153
+00:25:17.190 --> 00:25:24.810
+Monica A. Harwig: Okay, so i'm aiming to kind of check i'm about halfway done with my coding and so far i'm thinking i'm doing okay.
+
+154
+00:25:25.170 --> 00:25:27.780
+Monica A. Harwig: Okay, also, I had a big problem.
+
+155
+00:25:29.310 --> 00:25:35.610
+Monica A. Harwig: Getting sassed open to it wasn't working, and so what I did was I.
+
+156
+00:25:37.530 --> 00:25:40.710
+Monica A. Harwig: Someone they said what i'm using is a.
+
+157
+00:25:41.850 --> 00:25:43.980
+Monica A. Harwig: I went and downloaded this from SAS.
+
+158
+00:25:45.000 --> 00:25:48.390
+Monica A. Harwig: And i'm using just a minute i'm using.
+
+159
+00:25:49.590 --> 00:25:55.200
+Monica A. Harwig: My 35.7 wouldn't open so now i'm using steph suits that says studio 3.81.
+
+160
+00:25:55.860 --> 00:25:57.270
+Monica A. Harwig: Okay, so.
+
+161
+00:25:57.960 --> 00:26:18.060
+Faculty Office Hours: i'm using SAS to 3.8 on my on my desktop and I don't have any trouble i'm i'm using firefox and it opens up fine In fact I didn't know that it was going to have a problem, opening up until I got to class, the first day because I don't have the same laptop as, as you all do.
+
+162
+00:26:20.010 --> 00:26:25.230
+Faculty Office Hours: So yeah there's there's there's no there's no reason not to use 3.81 you should be fine.
+
+163
+00:26:26.730 --> 00:26:36.570
+Faculty Office Hours: I it doesn't it doesn't behave any differently might the appearance might be a little bit different but I don't think it's going to be anything you can adjust to.
+
+164
+00:26:38.640 --> 00:26:44.130
+Monica A. Harwig: Okay, great so that's yeah i'm using it no problem I don't know why couldn't open that I tried several.
+
+165
+00:26:44.190 --> 00:26:52.830
+Faculty Office Hours: yeah I think what they were telling me was that the the browser makes the difference, for whatever reason, on the on the.
+
+166
+00:26:53.550 --> 00:27:10.440
+Faculty Office Hours: On the installs that you all have on your laptops that doesn't work in some browsers and it works and others, so the I guess it's Cameron helped me change the default browser to IE which pains me greatly, but it works.
+
+167
+00:27:12.120 --> 00:27:12.660
+Monica A. Harwig: Okay.
+
+168
+00:27:13.500 --> 00:27:16.290
+Monica A. Harwig: I shouldn't cram so maybe that has something to do with it i'm not.
+
+169
+00:27:16.290 --> 00:27:17.730
+Faculty Office Hours: Sure it's possible.
+
+170
+00:27:18.180 --> 00:27:27.120
+Monica A. Harwig: yeah Okay, but yeah i'm halfway finished, it looks like i'm doing okay so far and I guess that was I don't have it.
+
+171
+00:27:27.210 --> 00:27:27.690
+Faculty Office Hours: So if.
+
+172
+00:27:28.440 --> 00:27:32.310
+Faculty Office Hours: You know, if you do run into problems just shoot me an email and.
+
+173
+00:27:32.880 --> 00:27:37.440
+Faculty Office Hours: Okay include your program and.
+
+174
+00:27:38.730 --> 00:27:48.480
+Faculty Office Hours: it's also helpful if you if you include the log, but I can always just download your program and run it and see what the problem is, but either way.
+
+175
+00:27:49.830 --> 00:27:54.930
+Monica A. Harwig: Okay, great okay I haven't read my set yet, but when I do and i've had issues are like.
+
+176
+00:27:55.110 --> 00:27:58.320
+Faculty Office Hours: You can also run it like when it's only partially done.
+
+177
+00:27:59.490 --> 00:28:05.670
+Faculty Office Hours: Because the compiler works top to bottom, so you can you can find out if you have a syntax error already.
+
+178
+00:28:06.720 --> 00:28:12.330
+Faculty Office Hours: And that could you know cuz cuz it you always have to kind of fix it from the top down, because they snowball.
+
+179
+00:28:12.840 --> 00:28:15.900
+Monica A. Harwig: mm hmm true okay yeah I can try that as well.
+
+180
+00:28:16.140 --> 00:28:18.990
+Monica A. Harwig: Okay Okay, well, I appreciate the information.
+
+181
+00:28:19.530 --> 00:28:20.040
+Faculty Office Hours: Good luck.
+
+182
+00:28:20.490 --> 00:28:20.970
+Thanks.
+
+183
+00:28:23.910 --> 00:28:33.690
+Jim Clark: So this is this is Jim Perkins I just remembered another question, I was going to ask about email about that, but when I tried to log.
+
+184
+00:28:34.200 --> 00:28:47.640
+Jim Clark: In and download a trial or student version I guess of a solver works in excel it was wanting some information about the university went to the course name.
+
+185
+00:28:48.840 --> 00:29:01.170
+Jim Clark: And I kept trying to type versions of be lady 689 or combinations of that, and it was telling me that I was typing the wrong course for side being so.
+
+186
+00:29:02.400 --> 00:29:03.510
+Faculty Office Hours: I can check with.
+
+187
+00:29:03.570 --> 00:29:04.830
+Faculty Office Hours: Javier about that, but.
+
+188
+00:29:05.940 --> 00:29:17.790
+Faculty Office Hours: I don't think I had to I think mind is came with the tribe that that, like the kind of Mickey Mouse version that lets you know up to 200 variables I didn't have to really do anything but like I said.
+
+189
+00:29:18.240 --> 00:29:27.510
+Faculty Office Hours: I don't really have the same I don't have the same setup, as you all okay so it's kind of difficult for me to anticipate problems I have, but I can I can check with Javier.
+
+190
+00:29:28.140 --> 00:29:33.990
+Jim Clark: Right and then i'd be glad to go through, and show you what i'm feeling, but if it's a different setup than maybe.
+
+191
+00:29:37.770 --> 00:29:45.060
+Jim Clark: That will sit on to john the typical student want while I show you what i'm seeing that I can get with a hobby year later.
+
+192
+00:29:45.780 --> 00:29:50.760
+Jim Clark: Okay, so let me see you gave me gave us a series of files.
+
+193
+00:29:52.170 --> 00:30:02.670
+Faculty Office Hours: yeah and it's there's nothing that is necessary about those files it's just that I thought that people would be find it useful to know that they could do.
+
+194
+00:30:03.900 --> 00:30:08.070
+Faculty Office Hours: Many of the same things in excel because a lot of people are comfortable working in spreadsheets.
+
+195
+00:30:10.020 --> 00:30:14.100
+Jim Clark: So this was a virtual making problem i'm from look at the yeah.
+
+196
+00:30:15.450 --> 00:30:18.600
+Jim Clark: Because you gave a series of files and we tried it.
+
+197
+00:30:18.810 --> 00:30:25.560
+Faculty Office Hours: yeah thanks for making this time because the other one we haven't got to yet won't give it to him we'll get to it until the beginning of the next lecture.
+
+198
+00:30:30.330 --> 00:30:30.720
+Jim Clark: yeah.
+
+199
+00:30:32.010 --> 00:30:37.350
+Jim Clark: yeah this really doesn't help because it was actually a form, I feel that that's.
+
+200
+00:30:39.810 --> 00:30:42.180
+Faculty Office Hours: So, but it wouldn't run it wouldn't run straight away.
+
+201
+00:30:43.140 --> 00:30:45.840
+Jim Clark: Oh, I didn't try to run a traitor well, I guess, I was.
+
+202
+00:30:49.110 --> 00:30:50.760
+Faculty Office Hours: There once you open it up and we'll see.
+
+203
+00:30:56.970 --> 00:31:00.360
+Jim Clark: So you can see that, so they were editing.
+
+204
+00:31:00.900 --> 00:31:02.340
+Jim Clark: Bay so actually want to go to.
+
+205
+00:31:02.340 --> 00:31:04.710
+Faculty Office Hours: The I think it's the data.
+
+206
+00:31:07.020 --> 00:31:09.990
+Faculty Office Hours: it's been a while, since i've since i've done that yeah.
+
+207
+00:31:11.670 --> 00:31:12.990
+Faculty Office Hours: Now let me see if I can find this.
+
+208
+00:31:14.340 --> 00:31:16.020
+Jim Clark: One to find the solver.
+
+209
+00:31:17.190 --> 00:31:18.540
+Faculty Office Hours: Yes.
+
+210
+00:31:21.450 --> 00:31:27.990
+Faculty Office Hours: she's like I said it's not it's not something I do a whole lot yeah so let's try that and let's just just push solve.
+
+211
+00:31:31.290 --> 00:31:32.700
+Faculty Office Hours: And then go back to the spreadsheet.
+
+212
+00:31:36.870 --> 00:31:38.730
+Jim Clark: solve I guess for net profit.
+
+213
+00:31:38.820 --> 00:31:40.680
+Faculty Office Hours: So, so it looks like it um.
+
+214
+00:31:42.150 --> 00:31:43.110
+Faculty Office Hours: let's see so.
+
+215
+00:31:45.570 --> 00:31:47.070
+Faculty Office Hours: yeah it looks like it has solved it.
+
+216
+00:31:52.110 --> 00:31:54.810
+Faculty Office Hours: You can see the values of the decision variables there.
+
+217
+00:31:55.230 --> 00:31:56.250
+Right, the objective.
+
+218
+00:31:57.750 --> 00:32:02.850
+Faculty Office Hours: You can go ahead and just try and change change, one of the variables and then try and hit that salt button again like.
+
+219
+00:32:03.210 --> 00:32:06.000
+Faculty Office Hours: Where it says 57, no, no, no, those those.
+
+220
+00:32:07.230 --> 00:32:08.700
+Faculty Office Hours: Oh there, where it says production.
+
+221
+00:32:11.010 --> 00:32:12.600
+Faculty Office Hours: Those are the decision variables.
+
+222
+00:32:12.660 --> 00:32:14.100
+Faculty Office Hours: That first ruin.
+
+223
+00:32:14.820 --> 00:32:16.110
+Faculty Office Hours: your nose out maybe.
+
+224
+00:32:16.770 --> 00:32:17.220
+Make.
+
+225
+00:32:18.840 --> 00:32:19.920
+Faculty Office Hours: yeah it's making zero.
+
+226
+00:32:23.340 --> 00:32:24.270
+Faculty Office Hours: Is it letting you do it.
+
+227
+00:32:29.910 --> 00:32:31.170
+Jim Clark: receives blessing blessing.
+
+228
+00:32:40.380 --> 00:32:40.680
+No.
+
+229
+00:32:43.110 --> 00:32:46.740
+Faculty Office Hours: Unfortunately I can't see what's on that on that window is behind my.
+
+230
+00:32:47.790 --> 00:32:48.840
+Faculty Office Hours: Participants thing.
+
+231
+00:32:49.140 --> 00:32:50.670
+Jim Clark: Alright alright sounds good.
+
+232
+00:32:57.300 --> 00:33:00.360
+Faculty Office Hours: yeah it looks like it might not be completely defined in there.
+
+233
+00:33:04.740 --> 00:33:10.200
+Faculty Office Hours: yeah it doesn't look like it's completely defined so we can.
+
+234
+00:33:10.890 --> 00:33:11.430
+Jim Clark: I am.
+
+235
+00:33:11.520 --> 00:33:16.050
+Faculty Office Hours: let's go to the one, whereas, can you go to the one where it shows the LP again or.
+
+236
+00:33:16.890 --> 00:33:20.130
+Jim Clark: Well, from and trying to but it keeps a here we go.
+
+237
+00:33:21.150 --> 00:33:22.830
+Jim Clark: So i'll in the LP worksheet.
+
+238
+00:33:24.090 --> 00:33:24.450
+Jim Clark: and
+
+239
+00:33:24.870 --> 00:33:27.870
+Jim Clark: This change something here, so if you see it in the changes and zero.
+
+240
+00:33:29.280 --> 00:33:37.050
+Faculty Office Hours: Yet somehow it doesn't look like it's it's connected right, let me, let me see if I can share my screen and.
+
+241
+00:33:37.470 --> 00:33:38.010
+Faculty Office Hours: Here great.
+
+242
+00:33:38.700 --> 00:33:40.500
+Jim Clark: missions over works, you know and.
+
+243
+00:33:43.980 --> 00:33:52.620
+Jim Clark: It was only a problem because he was asking if I invest in a form out to to the little bit more.
+
+244
+00:33:53.910 --> 00:33:56.190
+Jim Clark: Robust solvers I said okay i'll try.
+
+245
+00:33:58.470 --> 00:34:04.860
+Faculty Office Hours: yeah to get the robust solver you may need to you may need to fork over some money I don't know let's see.
+
+246
+00:34:06.090 --> 00:34:08.550
+Faculty Office Hours: What am I doing Okay, so let me see if I can get here.
+
+247
+00:34:16.440 --> 00:34:20.370
+Faculty Office Hours: So this is transportation problem fringe.
+
+248
+00:34:23.970 --> 00:34:25.110
+Faculty Office Hours: Can you see my screen now.
+
+249
+00:34:29.970 --> 00:34:33.600
+Faculty Office Hours: Okay, so let me see if I can find two happens when I pull up.
+
+250
+00:35:14.730 --> 00:35:17.910
+Jim Clark: Okay, this is a transportation problem so except for.
+
+251
+00:35:18.810 --> 00:35:22.140
+Faculty Office Hours: That one we haven't gotten to yet so I don't know if that's going to be so terribly useful.
+
+252
+00:35:22.470 --> 00:35:31.530
+Jim Clark: right if I turn it down everything and then at the standard excel problem size limit, so if if that's up in this that'd be just week that's fine.
+
+253
+00:35:32.010 --> 00:35:36.630
+Faculty Office Hours: yeah no I, this is, this is just like an extra so you don't really it's not.
+
+254
+00:35:38.130 --> 00:35:39.780
+Faculty Office Hours: Something something you really need.
+
+255
+00:35:40.590 --> 00:35:42.660
+Faculty Office Hours: Okay i'm just trying to say is.
+
+256
+00:35:43.560 --> 00:35:46.440
+Jim Clark: running into that wall, so I can let that go for now.
+
+257
+00:35:47.040 --> 00:35:54.960
+Faculty Office Hours: Okay that's fine i'm just trying to see if I, but this may be a I think this machine is new to.
+
+258
+00:35:58.200 --> 00:36:03.300
+Faculty Office Hours: I don't know if I run this program on this machine before.
+
+259
+00:36:16.590 --> 00:36:25.650
+Jim Clark: When Professor what information if I don't discriminate I guess well everything down and figure out sorted out, you know once I get it on my machine.
+
+260
+00:36:26.100 --> 00:36:27.150
+Jim Clark: I got a I got you.
+
+261
+00:36:30.840 --> 00:36:33.360
+Faculty Office Hours: yeah let me, let me get back to you on that i'm not.
+
+262
+00:36:33.480 --> 00:36:34.200
+Faculty Office Hours: quite as good as mine.
+
+263
+00:36:34.560 --> 00:36:34.920
+Faculty Office Hours: I mean.
+
+264
+00:36:35.400 --> 00:36:41.670
+Jim Clark: The whole reason the whole reason why I asked without being denied, something that I thought we were going to remind cover in class on Thursday.
+
+265
+00:36:41.850 --> 00:36:44.460
+Faculty Office Hours: No, no, no, not not not as such.
+
+266
+00:36:46.740 --> 00:36:49.440
+Jim Clark: See sorry sorry to hold the glass of.
+
+267
+00:36:49.560 --> 00:36:50.820
+Faculty Office Hours: that's fine that's fine.
+
+268
+00:36:51.900 --> 00:36:53.340
+Faculty Office Hours: But it's good to know that.
+
+269
+00:36:54.780 --> 00:36:57.840
+Faculty Office Hours: i'll look into it and put announcement out there.
+
+270
+00:36:59.280 --> 00:37:00.510
+Faculty Office Hours: I will have another question.
+
+271
+00:37:01.770 --> 00:37:02.790
+Faculty Office Hours: Hopefully, an easier one.
+
+272
+00:37:03.600 --> 00:37:03.870
+Faculty Office Hours: well.
+
+273
+00:37:03.960 --> 00:37:05.130
+Satyam: I can ask an easy one.
+
+274
+00:37:07.470 --> 00:37:09.060
+Satyam: Okay, can you hear me Dr hartman.
+
+275
+00:37:09.270 --> 00:37:11.130
+Satyam: I can yeah perfect yeah.
+
+276
+00:37:12.960 --> 00:37:20.760
+Satyam: Basically, I think, I just wanted to understand those solvers you talked about in the class like how they approach the solution.
+
+277
+00:37:21.390 --> 00:37:30.030
+Satyam: Like a primer simplex or dual simplex or interior point or maybe you can repeat that one more time sure yeah.
+
+278
+00:37:30.690 --> 00:37:31.470
+Faculty Office Hours: Okay, so.
+
+279
+00:37:33.330 --> 00:37:41.010
+Faculty Office Hours: They all they all accomplish the same goal, which is to find the optimal solution, but they take slightly different paths to get there.
+
+280
+00:37:42.060 --> 00:37:47.760
+Faculty Office Hours: The way that the primal simplex algorithm works is that it finds.
+
+281
+00:37:49.410 --> 00:37:56.190
+Faculty Office Hours: First of all, or initially it finds an extreme point solution just without regard to the objective at all.
+
+282
+00:37:57.210 --> 00:38:01.230
+Faculty Office Hours: And then it moves from one extreme point solution to another.
+
+283
+00:38:02.400 --> 00:38:10.080
+Faculty Office Hours: Well, if we're maximizing increases the objective value so in two dimensions it's moving around the perimeter.
+
+284
+00:38:10.590 --> 00:38:22.500
+Faculty Office Hours: Of the Polygon in one direction or the other, until it finds the optimal solution in three dimensions, you can think of it as being like a solid yeah and it goes around the edges in some way.
+
+285
+00:38:23.190 --> 00:38:30.450
+Faculty Office Hours: And and there you start to see some of the utility there in in two dimensions, you might think, well, it has to go through half the points.
+
+286
+00:38:30.900 --> 00:38:49.320
+Faculty Office Hours: But in three dimensions, the number of those extreme points that it visits on its path is very small fraction of possibly the total and in higher dimensions it it goes through an even smaller fraction of the total number, so it never has to find them all and it never actually has to.
+
+287
+00:38:51.270 --> 00:39:05.490
+Faculty Office Hours: It really kind of reduces to just linear algebra how it finds the direction to go and then it kind of test to see how far I can go and the farthest that can go get the next corner, so to speak, so it never really.
+
+288
+00:39:07.710 --> 00:39:18.360
+Faculty Office Hours: kind of visualizes the the solution space like that it's kind of all reduced to linear algebra but that's what the that's what the path looks like in the smaller dimensional case.
+
+289
+00:39:18.810 --> 00:39:30.000
+Satyam: So basically, I mean just to summarize you, you are taking all the constraint equations you're solving for the roots basically basically you're solving for X and y Z like into the two dimensional place.
+
+290
+00:39:30.390 --> 00:39:31.380
+Satyam: route i'm sorry space.
+
+291
+00:39:31.560 --> 00:39:39.360
+Satyam: And then you are going through each point right and those could be a solution, whichever optimizes the objective function that is your optimal solution.
+
+292
+00:39:40.350 --> 00:39:43.890
+Faculty Office Hours: Well, so let's let's say we just going to guess to have the constraints.
+
+293
+00:39:44.010 --> 00:39:44.370
+Satyam: yeah.
+
+294
+00:39:44.520 --> 00:39:53.010
+Faculty Office Hours: All right, and then we solve those yeah, because if we try and solve them all, then there isn't going to be one one solution that satisfies all.
+
+295
+00:39:54.300 --> 00:40:04.800
+Faculty Office Hours: Okay, because, because the the the the feasible region usually isn't the point it's a it's a shape yeah and the corners of the shape are defined by the solutions of.
+
+296
+00:40:05.250 --> 00:40:17.430
+Faculty Office Hours: pairs in two dimensions of the constraints, so we just pick two of the constraints and we solve and we find that point and then we're going to move to a new point which is basically we kind of.
+
+297
+00:40:18.870 --> 00:40:22.800
+Faculty Office Hours: abandoned one of those constraints and pick up a new constraint yeah.
+
+298
+00:40:22.860 --> 00:40:24.420
+Satyam: Taking two questions at a time.
+
+299
+00:40:24.570 --> 00:40:32.700
+Faculty Office Hours: yeah and we move to another, and another, and another yeah so when we're moving along and edge.
+
+300
+00:40:33.780 --> 00:40:36.000
+Faculty Office Hours: we're kind of sticking with one constraint.
+
+301
+00:40:36.900 --> 00:40:50.880
+Faculty Office Hours: letting loose the up the second constraint and then, when we move as far as we can we bumped into another constraint, and then we get a new pair yeah and then we move to another parent and other parent in higher dimensions, of course, instead of Paris, we have cripples or.
+
+302
+00:40:52.440 --> 00:41:00.030
+Faculty Office Hours: So to for constraints so However, whatever the dimension of the spaces that's how many constraints determine one of those corners.
+
+303
+00:41:00.870 --> 00:41:05.310
+Satyam: I mean, in three dimensions, like, I mean I can't think higher than that, but in three dimensions.
+
+304
+00:41:07.380 --> 00:41:15.150
+Satyam: audio chicken checking each point on the intersection of two planes like on that line or it's how are you i'm still checking the corners only.
+
+305
+00:41:15.240 --> 00:41:22.650
+Faculty Office Hours: yeah so that would be will be if we're in three dimensions, we have three planes that meeting, a point yeah and.
+
+306
+00:41:22.860 --> 00:41:24.990
+Satyam: Okay, so you're asking three constraints, at a time.
+
+307
+00:41:25.500 --> 00:41:26.280
+Satyam: check drawing.
+
+308
+00:41:27.180 --> 00:41:29.190
+Faculty Office Hours: yeah and the other two intersect in a line.
+
+309
+00:41:30.240 --> 00:41:31.710
+Faculty Office Hours: And we move along that line.
+
+310
+00:41:33.000 --> 00:41:35.640
+Faculty Office Hours: bump into the next constraint okay gotcha.
+
+311
+00:41:35.850 --> 00:41:44.670
+Satyam: yeah I mean the optimal solution is still going to lie on one of those corners, or it could be dang line or it could be then.
+
+312
+00:41:44.910 --> 00:41:47.940
+Faculty Office Hours: It is it is it's an entire line yeah.
+
+313
+00:41:49.050 --> 00:42:06.210
+Faculty Office Hours: Most of the time it's just a single point yeah, but it really kind of depends on you can always choose an objective that's parallel to one of the constraints and then it'll be alive yeah and in higher dimensions, it could be more than a line, it could be a plane.
+
+314
+00:42:06.240 --> 00:42:11.880
+Faculty Office Hours: yeah you know well, not so much a plane, but a kind of a like like a Polygon yeah yeah.
+
+315
+00:42:13.170 --> 00:42:27.570
+Faculty Office Hours: But a priori you don't know yeah and you could say, well, the chances are things are random it would always be a point, but in practice we don't solve random problems we solve problems with data and so occasionally will be the case that we have.
+
+316
+00:42:29.190 --> 00:42:42.060
+Faculty Office Hours: More than one optimal solutions let's move on to the next one let's look at the dual supply the ups, yes please so so likewise it it it moves through a sequence of points that are intersections of the constraints.
+
+317
+00:42:43.350 --> 00:42:48.300
+Faculty Office Hours: But in this case, instead of being intersections of the constraints that are feasible.
+
+318
+00:42:50.280 --> 00:43:03.330
+Faculty Office Hours: Their their points that are outside the feasible region and are super optimal which means it's a fat kind of fancy way of saying their objective value is bigger than the best that you could get from any feasible point.
+
+319
+00:43:04.650 --> 00:43:05.640
+Faculty Office Hours: And so.
+
+320
+00:43:06.960 --> 00:43:14.400
+Faculty Office Hours: Those points move in a different way, because they're their goal is to achieve feasibility.
+
+321
+00:43:16.110 --> 00:43:26.820
+Faculty Office Hours: While maintaining the super optimum ality and as soon as they do, then you have a point that's feasible and is has an objective value better than the best feasible point so it's gotta be.
+
+322
+00:43:27.330 --> 00:43:41.880
+Faculty Office Hours: it's gotta be the optimal solution so it's um it's it's kind of a strange approach, but if, so there is a notion of linear programming of a dual problem so every every.
+
+323
+00:43:42.510 --> 00:44:01.320
+Faculty Office Hours: Every linear programming problem has a dual problem that is a it like another dimensional space, and if you traced out the primal simplex in that dual space for that door problem, it would be the dual simplex algorithm so it's got a motivation that's.
+
+324
+00:44:02.430 --> 00:44:04.800
+Faculty Office Hours: similar to the primal simplex, but when you kind of.
+
+325
+00:44:04.800 --> 00:44:06.030
+Faculty Office Hours: Translated into the.
+
+326
+00:44:06.090 --> 00:44:17.460
+Faculty Office Hours: original states, it looks like it comes from the outside and for whatever reason, I mean all we care about in solving these problems is, we want the most efficient method.
+
+327
+00:44:19.050 --> 00:44:21.150
+Faculty Office Hours: Even if it's not the simplest to explain.
+
+328
+00:44:21.990 --> 00:44:24.750
+Faculty Office Hours: yeah and yeah, and so the dual simplex is the winner there.
+
+329
+00:44:25.020 --> 00:44:26.730
+Faculty Office Hours: And the interior point method is.
+
+330
+00:44:28.410 --> 00:44:42.480
+Faculty Office Hours: kind of simultaneously trying to achieve feasibility and ophthalmology in a way that kind of has a trade off between the two, so it might be outside inside outside inside until it finally reaches the same point.
+
+331
+00:44:44.220 --> 00:44:44.850
+Faculty Office Hours: So.
+
+332
+00:44:46.140 --> 00:44:57.000
+Faculty Office Hours: I mean if it helps to understand you know how the methods work um when we looked at the log file the log file would be pretty confusing if you didn't know how the methods worked.
+
+333
+00:44:58.140 --> 00:45:01.080
+Faculty Office Hours: That that's that's the utility to explain them.
+
+334
+00:45:02.730 --> 00:45:08.880
+Satyam: No, I mean makes sense I guess interior point probably is the most of skilled one I guess.
+
+335
+00:45:09.180 --> 00:45:19.530
+Faculty Office Hours: The way is true and for a long time people had no idea that those kind of approaches would work efficiently yeah and then there was this.
+
+336
+00:45:20.670 --> 00:45:38.130
+Faculty Office Hours: mathematician name render a car car at IBM who came up with an approach to solving linear programming problems, based on nonlinear programming methods that was supposedly far and away the best and better than anything that ever existed, and then it turned out that it.
+
+337
+00:45:39.630 --> 00:45:41.790
+Faculty Office Hours: wasn't quite as good as he said, but it turned.
+
+338
+00:45:41.790 --> 00:45:46.290
+Faculty Office Hours: On the approach in some cases is is is more efficient.
+
+339
+00:45:48.120 --> 00:45:48.450
+Purkiss, David: Sorry.
+
+340
+00:45:49.560 --> 00:45:58.650
+Faculty Office Hours: Oh that's okay and it's funny it's funny story, because he they try to take out patents on very general classes of algorithms which caused some.
+
+341
+00:46:00.030 --> 00:46:00.990
+Faculty Office Hours: very nervous.
+
+342
+00:46:02.100 --> 00:46:02.520
+Faculty Office Hours: Okay.
+
+343
+00:46:02.970 --> 00:46:18.690
+Satyam: yeah I mean, I guess, I mean the closest analogy, I can think of of for the interior point of like like when you're solving a polynomial equation like by section maker on Newton reduction measured, like you, are going both side of the road and then converging on to the.
+
+344
+00:46:19.110 --> 00:46:29.640
+Faculty Office Hours: Those those are definitely those those are the the non linear programming techniques, many of them, you know simplified to those in smaller dimension.
+
+345
+00:46:29.640 --> 00:46:39.270
+Satyam: I guess that's what we are saying it doing into nonlinear programs, and we are taking the gradient and kind of approaching the local maxima local minima okay.
+
+346
+00:46:39.930 --> 00:46:40.920
+Faculty Office Hours: yeah and.
+
+347
+00:46:41.160 --> 00:46:57.510
+Faculty Office Hours: it's kind of surprising that that would actually work for linear programming problems because it's the reason you do those kinds of things is because the problems are are complicated by the non linearity but turns out that it's it's been successful.
+
+348
+00:46:58.980 --> 00:47:12.750
+Satyam: Okay, well, no thanks for answering the question I guess I yeah I will i'm doing okay on the assignment side, I think the syntax will take some time to get used to it, I mean i'm i'm new to SAS programming, I mean.
+
+349
+00:47:13.320 --> 00:47:33.060
+Faculty Office Hours: So well if it's any consolation the syntax is not really SAS syntax much of it so even people who have a SAS background are uncomfortable with the syntax it's more the modeling language Okay, but you should be able to pick it up in about seven weeks so.
+
+350
+00:47:33.870 --> 00:47:34.470
+Satyam: that's the whole.
+
+351
+00:47:36.120 --> 00:47:37.200
+Satyam: No thanks thanks a lot.
+
+352
+00:47:37.560 --> 00:47:39.180
+Faculty Office Hours: Okay anybody else have a question.
+
+353
+00:47:44.160 --> 00:47:45.810
+Connors, Ryan: Professor if this is Ryan.
+
+354
+00:47:46.440 --> 00:48:01.710
+Connors, Ryan: hi Ryan hey I was just wondering, you know i've been using SAS enterprise guide, as opposed to SAS studio I just find the interface is a little bit better and I don't have any connectivity issues you have any opinion on using that as a platform, as opposed to SAS studio.
+
+355
+00:48:03.150 --> 00:48:07.110
+Faculty Office Hours: I have taught classes, where people have used enterprise guide and.
+
+356
+00:48:08.760 --> 00:48:16.170
+Faculty Office Hours: There didn't they didn't run into any difficulties it's just that it's i've had have had difficulties kind of.
+
+357
+00:48:19.320 --> 00:48:22.710
+Faculty Office Hours: Reading and understanding their output in some cases.
+
+358
+00:48:24.300 --> 00:48:24.810
+Connors, Ryan: OK.
+
+359
+00:48:24.900 --> 00:48:28.740
+Faculty Office Hours: I see, so I may not be able to help you as well, because I don't use that.
+
+360
+00:48:29.010 --> 00:48:30.480
+Connors, Ryan: Guy okay.
+
+361
+00:48:30.600 --> 00:48:32.940
+Faculty Office Hours: i'm not saying that you shouldn't use it i'm just saying that.
+
+362
+00:48:34.170 --> 00:48:43.620
+Faculty Office Hours: Just make sure that if you have a question or something that you send me the files that I can actually use outside of enterprise guide.
+
+363
+00:48:45.210 --> 00:48:45.600
+Connors, Ryan: Okay.
+
+364
+00:48:45.780 --> 00:48:49.020
+Faculty Office Hours: You know, just like just the SAS files and not something else, like around.
+
+365
+00:48:49.020 --> 00:48:49.380
+Connors, Ryan: Right.
+
+366
+00:48:49.710 --> 00:48:53.970
+Faculty Office Hours: yeah because if you send me a project i'll like spend hours trying to figure out how to unpack it.
+
+367
+00:48:54.660 --> 00:48:58.080
+Connors, Ryan: Right yeah I think you can save it as a project file or the program file.
+
+368
+00:48:58.380 --> 00:49:00.840
+Faculty Office Hours: yeah so just just as a SAS Program.
+
+369
+00:49:01.410 --> 00:49:13.590
+Faculty Office Hours: But yeah it's fine if you want to use an enterprise guide I don't have I don't know of any good references that combine this particular SAS procedure and enterprise guide.
+
+370
+00:49:14.250 --> 00:49:14.700
+Connors, Ryan: and
+
+371
+00:49:14.850 --> 00:49:17.430
+Faculty Office Hours: You might Google it there might be something out there, I don't know about.
+
+372
+00:49:18.510 --> 00:49:23.100
+Connors, Ryan: Okay, all right i'll stick with it for now yeah maybe it would make sense to do that long term.
+
+373
+00:49:23.280 --> 00:49:29.430
+Faculty Office Hours: But I think really the future First, as far as fast as concern really is SAS studio.
+
+374
+00:49:30.300 --> 00:49:30.720
+Okay.
+
+375
+00:49:31.740 --> 00:49:33.300
+Faculty Office Hours: But it's.
+
+376
+00:49:33.360 --> 00:49:34.650
+Connors, Ryan: it's right enterprise guy just.
+
+377
+00:49:35.640 --> 00:49:43.800
+Faculty Office Hours: What i've heard so it might it might be a might not be a bad idea, just to to to get a little bit more comfortable with it for the future.
+
+378
+00:49:45.060 --> 00:49:46.140
+Connors, Ryan: All right, that makes sense.
+
+379
+00:49:47.520 --> 00:49:48.330
+Connors, Ryan: Alright, well, thank you.
+
+380
+00:49:48.810 --> 00:49:49.410
+Okay.
+
+381
+00:49:51.240 --> 00:50:00.510
+Jim Clark: Okay, this is Jim and I have found the screen now looking for so i'll share is is on is called frontline solvers or solver.com.
+
+382
+00:50:01.530 --> 00:50:05.160
+Faculty Office Hours: Right you're trying to access the the the more powerful solver.
+
+383
+00:50:06.180 --> 00:50:06.750
+Jim Clark: and
+
+384
+00:50:07.200 --> 00:50:16.920
+Jim Clark: Yes, and and but that's not what a third of the mystery of for myself, but, but if it was one of the lines that you put in the code.
+
+385
+00:50:17.340 --> 00:50:27.900
+Jim Clark: And you click on the get the homepage and something called frontline frontline solvers, and so I thought Oh, I need to do this, but, as you said that that necessary so that.
+
+386
+00:50:28.380 --> 00:50:40.980
+Faculty Office Hours: So let me um, let me just troubleshoot that, let me troubleshoot the program it may have maybe they changed the way they licensed that and and that's why it's not working now used to be.
+
+387
+00:50:42.060 --> 00:50:48.720
+Faculty Office Hours: Like I said on a page that I sent you they used to include the up to 200 decision variables for free.
+
+388
+00:50:50.580 --> 00:50:53.280
+Faculty Office Hours: But but i'll look into that and i'll get back to you on that.
+
+389
+00:50:53.340 --> 00:50:54.720
+Jim Clark: If I said to start.
+
+390
+00:50:55.050 --> 00:50:55.950
+The main project.
+
+391
+00:50:57.150 --> 00:51:04.800
+Faculty Office Hours: right because because some people feel more comfortable working in spreadsheets I thought I would include that yeah I.
+
+392
+00:51:05.250 --> 00:51:07.920
+Jim Clark: just say like so that's That was the source of my questions.
+
+393
+00:51:09.000 --> 00:51:09.750
+Faculty Office Hours: Is Jonas.
+
+394
+00:51:19.350 --> 00:51:21.510
+Faculty Office Hours: anybody else had a question or we're just lurking.
+
+395
+00:51:22.500 --> 00:51:25.530
+Christian Gover: I got a question it's me again Christian.
+
+396
+00:51:25.920 --> 00:51:38.490
+Christian Gover: Okay, so I saw like in was it a some exercise assignment a exercise three, but this was a previous assignment right from another class.
+
+397
+00:51:38.760 --> 00:51:45.870
+Christian Gover: Sure, let me, let me share my screen, because I was wondering what the difference was between these two syntax lines.
+
+398
+00:51:45.990 --> 00:51:46.500
+Okay.
+
+399
+00:51:50.310 --> 00:51:51.630
+Christian Gover: This here.
+
+400
+00:51:53.580 --> 00:51:57.540
+Christian Gover: And the one line, six and seven I guess there's this INEC.
+
+401
+00:52:00.450 --> 00:52:02.340
+Faculty Office Hours: Okay, so so let's um.
+
+402
+00:52:04.170 --> 00:52:05.250
+Faculty Office Hours: let's see this is.
+
+403
+00:52:07.710 --> 00:52:16.860
+Faculty Office Hours: It the the the fact that in it is there, instead of n equals the differences that allows you to change it.
+
+404
+00:52:18.270 --> 00:52:20.370
+Faculty Office Hours: So, so the fair.
+
+405
+00:52:21.840 --> 00:52:35.820
+Faculty Office Hours: So in this in this, this is an airline's problem, and so you have like economy flights business flights i'm sorry economy seats business seats and premium seats kind of like first class business class and economy class.
+
+406
+00:52:36.630 --> 00:52:48.570
+Faculty Office Hours: And, depending on what fair class your seat isn't there's a different fair different amount that you pay and that's that's the fair, so you can see that you pay more for premium and you do for economy.
+
+407
+00:52:52.410 --> 00:52:53.670
+Faculty Office Hours: Is the the.
+
+408
+00:52:55.500 --> 00:52:57.150
+Faculty Office Hours: The availability.
+
+409
+00:52:58.590 --> 00:53:13.620
+Faculty Office Hours: You could use n equals there, the only reason that you might use in it is if it's changed, so it may be, if we go down farther in the program let's see what's happened to availability, it might have been in that class that.
+
+410
+00:53:14.670 --> 00:53:21.330
+Faculty Office Hours: You know, in a in a later exercise they the students were asked to make a change to availability.
+
+411
+00:53:21.870 --> 00:53:22.380
+Okay.
+
+412
+00:53:23.670 --> 00:53:34.920
+Faculty Office Hours: And so that using an it would allow them to do that, whereas just using an equal sign wouldn't, but in this case there's no reason that you would need to use in it, instead of equals, you could just change it to equals.
+
+413
+00:53:35.280 --> 00:53:41.160
+Christian Gover: Okay that's why I was wondering right because I guess, there was no nothing that was done to availability to.
+
+414
+00:53:41.640 --> 00:53:42.840
+Faculty Office Hours: yeah it just putting.
+
+415
+00:53:43.110 --> 00:53:51.030
+Faculty Office Hours: That haste error on my part, but yeah you can change it to equals it in this it will make a difference.
+
+416
+00:53:52.290 --> 00:53:52.620
+Christian Gover: Okay.
+
+417
+00:53:54.420 --> 00:53:54.810
+Christian Gover: Thank you.
+
+418
+00:53:55.620 --> 00:53:58.080
+Faculty Office Hours: Okay sure is good question yeah.
+
+419
+00:54:39.930 --> 00:54:44.580
+yeah yes, no, no, but thank you for answering my question yeah i'm good.
+
+420
+00:54:46.650 --> 00:54:47.490
+Christian Gover: yeah I think i'm good.
+
+421
+00:54:49.020 --> 00:54:49.620
+Faculty Office Hours: Okay.
+
+422
+00:54:50.940 --> 00:54:56.730
+Faculty Office Hours: Is anyone else interested in the excel stuff if I send something to gym I said, someone else or just everyone.
+
+423
+00:54:57.450 --> 00:54:58.350
+Monica A. Harwig: i'm interested.
+
+424
+00:54:58.740 --> 00:54:59.430
+Christian Gover: yeah same here.
+
+425
+00:54:59.760 --> 00:55:03.420
+Faculty Office Hours: Okay, I mean i'll just broadcast it out i'll post it note broadcast button.
+
+426
+00:55:04.530 --> 00:55:05.520
+Christian Gover: All right, thank you.
+
+427
+00:55:06.780 --> 00:55:08.400
+Faculty Office Hours: Thank you sure.
+
+428
+00:55:08.730 --> 00:55:09.720
+Kilani, Shadi: that's partner.
+
+429
+00:55:09.750 --> 00:55:14.160
+Kilani, Shadi: I just made me a questions for confirmation i've been.
+
+430
+00:55:15.510 --> 00:55:21.780
+Kilani, Shadi: hyper focused on my capstone project and then now i'm kind of trying to read and go over stuff and.
+
+431
+00:55:22.860 --> 00:55:24.330
+Kilani, Shadi: So for the assignment.
+
+432
+00:55:25.380 --> 00:55:40.710
+Kilani, Shadi: It struck me is a little bit straightforward on the first question, the one that asks about locating the 2020 on the grid and then just calculating the is it as simple as it sounds, or is it.
+
+433
+00:55:41.310 --> 00:55:43.110
+Faculty Office Hours: is as simple as it sounds, although.
+
+434
+00:55:43.170 --> 00:55:49.110
+Faculty Office Hours: It just kind of help people make the connection between the geometry and kind of and the algebra.
+
+435
+00:55:49.740 --> 00:55:58.440
+Kilani, Shadi: And the second question, you basically have to code and then whatever coordinates you get you would basically indicated on the figure as well right and you're catching the same way.
+
+436
+00:56:01.380 --> 00:56:03.150
+Kilani, Shadi: I didn't miss anything right because.
+
+437
+00:56:03.930 --> 00:56:07.800
+Kilani, Shadi: nope Okay, and then the third question we have to model it.
+
+438
+00:56:07.950 --> 00:56:12.690
+Faculty Office Hours: would say don't don't forget to answer the part that says what should they produce.
+
+439
+00:56:14.430 --> 00:56:17.040
+Kilani, Shadi: Right well isn't that what you get from your solution.
+
+440
+00:56:17.700 --> 00:56:27.330
+Faculty Office Hours: yeah but but i'm kind of asking you to regurgitate it in the sense that it, it seems obvious in this case, but it's not always.
+
+441
+00:56:29.580 --> 00:56:43.770
+Faculty Office Hours: What to do and and just printing out the solution is maybe not always as as quite as clear cut so i'm just trying to help you kind of translate that answer into telling the minions what to do.
+
+442
+00:56:45.060 --> 00:56:48.540
+Kilani, Shadi: Every solution instead of just a mathematical number so you're saying.
+
+443
+00:56:48.810 --> 00:56:51.570
+Kilani, Shadi: No output, but what what kind of.
+
+444
+00:56:52.050 --> 00:56:53.910
+Faculty Office Hours: like an action statement do this.
+
+445
+00:56:54.300 --> 00:56:57.480
+Kilani, Shadi: right that makes sense and then on the third one.
+
+446
+00:57:00.990 --> 00:57:02.220
+Kilani, Shadi: On the on the third one.
+
+447
+00:57:03.510 --> 00:57:08.100
+Kilani, Shadi: we're just trying to model this problem after the furniture that's what I understood.
+
+448
+00:57:08.850 --> 00:57:11.880
+Faculty Office Hours: Right so after the furniture arrays.
+
+449
+00:57:12.480 --> 00:57:22.290
+Kilani, Shadi: Right and it's not as complex, because you just get the net cost right, so you just have to structure it a little bit different or a little bit.
+
+450
+00:57:22.620 --> 00:57:26.670
+Faculty Office Hours: So there's some elements that are going to be a little bit different, but most of it is the same.
+
+451
+00:57:28.800 --> 00:57:36.270
+Kilani, Shadi: Okay, I don't know, I was overwhelmed initially, but then now when I went at it again, I was like Okay, I just want to make sure it's not a you know I.
+
+452
+00:57:36.720 --> 00:57:45.690
+Faculty Office Hours: Think when you get to when it becomes more specific it's a little bit easier in kind of generality it's it seems a little overwhelming.
+
+453
+00:57:46.950 --> 00:57:47.340
+Kilani, Shadi: that's.
+
+454
+00:57:47.460 --> 00:57:50.250
+Faculty Office Hours: A lot of syntax, but when you got to kind of get down to it.
+
+455
+00:57:50.550 --> 00:58:01.260
+Faculty Office Hours: Especially if you get down to a problem that is one that you really want to solve that that's when it's easiest to learn, but unfortunately I can't like.
+
+456
+00:58:02.850 --> 00:58:05.280
+Faculty Office Hours: I can't get a problem that everybody.
+
+457
+00:58:06.570 --> 00:58:09.330
+Faculty Office Hours: You know, is going to solve in their in their job.
+
+458
+00:58:11.010 --> 00:58:11.790
+Kilani, Shadi: That makes sense.
+
+459
+00:58:12.000 --> 00:58:14.640
+Faculty Office Hours: So, like when we get when we get to like reading data.
+
+460
+00:58:14.760 --> 00:58:31.830
+Faculty Office Hours: For for for in general it's going to seem kind of abstract, but if you pick a problem that you might think of in in your work that might be solved by an optimization approach and say okay for this problem, what does the data look like and how would I read in that it becomes.
+
+461
+00:58:33.030 --> 00:58:42.390
+Faculty Office Hours: Just that more could you understand the setting and it and it becomes Okay, how can I make the syntax work and you don't have to understand the artificial setting and the syntax.
+
+462
+00:58:43.680 --> 00:58:45.420
+Kilani, Shadi: Because it's more relevant right because.
+
+463
+00:58:46.560 --> 00:58:47.910
+Faculty Office Hours: Because you're familiar with.
+
+464
+00:58:48.480 --> 00:58:50.910
+Faculty Office Hours: You know the numbers and all that stuff.
+
+465
+00:58:53.520 --> 00:58:54.570
+Kilani, Shadi: Well, thank you very much.
+
+466
+00:58:56.190 --> 00:58:58.410
+Kilani, Shadi: appreciate your input and your answers, thank you.
+
+467
+00:58:58.470 --> 00:58:58.830
+Faculty Office Hours: yeah and.
+
+468
+00:58:58.890 --> 00:59:00.600
+Faculty Office Hours: Like I said, if you run into any.
+
+469
+00:59:00.660 --> 00:59:10.020
+Faculty Office Hours: Any problems just email me with your your program code, and let me know what kind of errors you're getting and I can try to help you work through it.
+
+470
+00:59:11.400 --> 00:59:14.910
+Kilani, Shadi: So I would send you the Code and the log or just the code or.
+
+471
+00:59:14.970 --> 00:59:19.740
+Faculty Office Hours: You can send me the code in the log would be helpful, but I can always take your code and run it.
+
+472
+00:59:20.430 --> 00:59:25.320
+Faculty Office Hours: Okay, when I get into problems is when like people will send me.
+
+473
+00:59:26.010 --> 00:59:27.990
+Faculty Office Hours: The part of the code that's not working.
+
+474
+00:59:29.820 --> 00:59:32.490
+Faculty Office Hours: So that I can't run the program don't have the Program.
+
+475
+00:59:35.370 --> 00:59:44.040
+Faculty Office Hours: Then the log can sometimes you know, answer the question without having to see the whole program but yeah you send me the whole program I should be able to run it.
+
+476
+00:59:44.850 --> 00:59:46.770
+Kilani, Shadi: Yes, Sir, thank you, thank you yep.
+
+477
+01:00:00.600 --> 01:00:02.280
+Kilani, Shadi: that's it for me i'm good Thank you so.
+
+478
+01:00:02.730 --> 01:00:03.600
+Kilani, Shadi: Okay sure.
+
+479
+01:00:04.080 --> 01:00:05.550
+Faculty Office Hours: David did you have a question.
+
+480
+01:00:21.720 --> 01:00:25.710
+Faculty Office Hours: So it was a little bit like fortnight at the end of the office hours people start dropping off.
+
+481
+01:00:28.590 --> 01:00:31.500
+Kilani, Shadi: I get the same thing I teach as well.
+
+482
+01:00:31.860 --> 01:00:32.280
+uh huh.
+
+483
+01:00:33.750 --> 01:00:36.840
+Kilani, Shadi: And online you don't get the.
+
+484
+01:00:38.250 --> 01:00:52.230
+Kilani, Shadi: same you know rewarding feeling when you talk to somebody and then you see them understanding what you're kind of talking about and you just assume Okay, they got what i'm saying, and then you just have to move on and then any questions and then you get this silence.
+
+485
+01:00:52.950 --> 01:00:53.670
+Kilani, Shadi: If anything.
+
+486
+01:00:54.570 --> 01:00:55.920
+Kilani, Shadi: It takes some getting used to.
+
+487
+01:00:56.370 --> 01:01:09.540
+Faculty Office Hours: ya know I I still haven't really gotten used to to the to the zoom meetings and so forth, you just you just can't wrap people on the on the risk of the ruler on online such takes all the fun out of it.
+
+488
+01:01:09.810 --> 01:01:10.140
+yeah.
+
+489
+01:01:12.510 --> 01:01:14.820
+Kilani, Shadi: It was that in an action portion of things and.
+
+490
+01:01:16.260 --> 01:01:20.190
+Kilani, Shadi: it's not the same, even if people open up their cameras and it's just not the same.
+
+491
+01:01:20.640 --> 01:01:26.460
+Faculty Office Hours: gotta kind of like walk up and down the aisles and like look and see who's having problems and stuff like that yeah.
+
+492
+01:01:29.250 --> 01:01:30.300
+Faculty Office Hours: What do you teach.
+
+493
+01:01:31.050 --> 01:01:38.070
+Kilani, Shadi: I teach human anatomy and physiology nutrition biology, but mostly anatomy and physiology.
+
+494
+01:01:38.910 --> 01:01:41.820
+Faculty Office Hours: Okay yeah my wife is an Ob gyn oh.
+
+495
+01:01:41.910 --> 01:01:53.190
+Faculty Office Hours: Yes, I am well she's an epidemiologist she doesn't do clinical practice anymore, but I made it through high school biology like I know where some of my major organs are but that's about it.
+
+496
+01:01:55.140 --> 01:01:57.180
+Kilani, Shadi: close enough that's good.
+
+497
+01:02:07.050 --> 01:02:10.050
+Kilani, Shadi: Thank you i'm gonna drop off Thank you, Sir.
+
+498
+01:02:10.380 --> 01:02:12.180
+Faculty Office Hours: Okay anybody else have a question.
+
+499
+01:02:14.160 --> 01:02:15.000
+Connors, Ryan: Have a good night, thank you.
+
+500
+01:02:15.450 --> 01:02:16.350
+Faculty Office Hours: Okay sure.
+
+501
+01:02:31.260 --> 01:02:31.860
+Faculty Office Hours: question.
+
+502
+01:03:07.710 --> 01:03:10.860
+Faculty Office Hours: i'm gonna go ahead and end the office hours if no one has any other questions.
+
+503
+01:03:29.520 --> 01:03:31.020
+Faculty Office Hours: Okay, I guess that's a wrap.
+

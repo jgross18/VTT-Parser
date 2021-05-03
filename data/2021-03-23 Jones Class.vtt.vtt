@@ -1,0 +1,5166 @@
+WEBVTT
+
+1
+00:00:00.299 --> 00:00:01.079
+Edward R. Jones: chicken trip yeah.
+
+2
+00:00:01.680 --> 00:00:03.149
+Ryan David: he's a professional golfer.
+
+3
+00:00:03.840 --> 00:00:05.339
+Ryan David: Oh yeah.
+
+4
+00:00:05.879 --> 00:00:26.580
+Ryan David: And the event is sponsored by sanderson farms bill and it's at one of my favorite courses on the Gulf coast at the country Club in Jackson Mississippi so I always love actually it's funny former student wanted I think in 2015 Cameron champ play golf today.
+
+5
+00:00:28.350 --> 00:00:35.160
+Edward R. Jones: Why, I asked that because the last time I was in Mexico, I met this young man young man he's about 45 or so.
+
+6
+00:00:35.820 --> 00:00:41.670
+Edward R. Jones: And he was starting up a chicken farm so he took me out to his chicken farm, it was a fantastic experience.
+
+7
+00:00:42.480 --> 00:00:52.830
+Edward R. Jones: Those chickens are like little cats or something they run around and really friendly and what he's doing is he's running these what he called a cage free.
+
+8
+00:00:53.490 --> 00:01:01.200
+Edward R. Jones: Chickens so right right yeah he harvest is eggs by hand every day and then he takes them down in the market and that's.
+
+9
+00:01:02.190 --> 00:01:11.040
+Edward R. Jones: that's what he does and that's what a lot of people Mexico do is they start their own business, if you want to find entrepreneurs just go to Mexico is.
+
+10
+00:01:11.910 --> 00:01:29.730
+Edward R. Jones: it's hard to get a job down there right so everybody just basically well, I think I can sell this and they start selling it or try to but so he he was between jobs or you know the Kobe thing came around he wasn't exactly even getting a lot of employment, so he had a friend who had some.
+
+11
+00:01:30.810 --> 00:01:36.720
+Edward R. Jones: Space on his farm and he said he asked him if he could put chickens on yeah so.
+
+12
+00:01:37.830 --> 00:01:46.230
+Edward R. Jones: Anyway, he's got a rooster he's got some roosters in there, you know that they have a game roosters down there they're really spectacular looking.
+
+13
+00:01:46.980 --> 00:01:57.360
+Edward R. Jones: Anyway, let's get started with class so first of all, any technical quite any questions about the course or anything like that, before we want to get that out of the way, while we're waiting.
+
+14
+00:01:59.010 --> 00:01:59.790
+Edward R. Jones: If you're not.
+
+15
+00:02:00.900 --> 00:02:09.510
+Edward R. Jones: If you have a please send me a message, or just interrupt me but for now let's go to let's go to e campus.
+
+16
+00:02:10.800 --> 00:02:12.690
+Edward R. Jones: And so.
+
+17
+00:02:13.890 --> 00:02:22.680
+Edward R. Jones: yeah let me go to there we go, so this is Oh, I have to share my thing don't I.
+
+18
+00:02:25.980 --> 00:02:27.450
+Edward R. Jones: Okay, hang on just a minute.
+
+19
+00:02:30.240 --> 00:02:30.960
+Edward R. Jones: Okay.
+
+20
+00:02:35.250 --> 00:02:36.810
+Edward R. Jones: Okay, so.
+
+21
+00:02:39.570 --> 00:02:40.200
+Edward R. Jones: Hello.
+
+22
+00:02:52.200 --> 00:02:52.650
+Edward R. Jones: Okay.
+
+23
+00:02:53.760 --> 00:02:54.510
+Edward R. Jones: So.
+
+24
+00:02:56.820 --> 00:03:01.410
+Edward R. Jones: Where is that thing hiding there's a little pop up, you know that you get a wait a minute.
+
+25
+00:03:02.460 --> 00:03:05.820
+Edward R. Jones: it's probably over here on this other screen hiding.
+
+26
+00:03:08.940 --> 00:03:22.530
+Edward R. Jones: Well i've got the view of everyone oh there it is okay proof that's the one of the disadvantages and a lot of screens, that there is all this stuff hi it's okay so we're going to share that screen.
+
+27
+00:03:23.580 --> 00:03:29.250
+Edward R. Jones: And you should see nothing really done much you see, as well as zoom tab.
+
+28
+00:03:30.690 --> 00:03:40.230
+Edward R. Jones: And then you'll see a directory and i'm going to hide that for right now, so you see basically my background on drop on my MAC I hope.
+
+29
+00:03:40.860 --> 00:03:44.670
+Edward R. Jones: Right and is that Is that correct David Jia.
+
+30
+00:03:45.720 --> 00:03:58.290
+Edward R. Jones: yeah okay so here we're going to eat campus and, in particular, that scoot on down to week number 10 and the left hand side and click on that.
+
+31
+00:03:58.890 --> 00:04:07.080
+Edward R. Jones: And you're going to see three folders interval nominal and binary now This basically corresponds to the.
+
+32
+00:04:07.800 --> 00:04:21.660
+Edward R. Jones: activity, so I wanted to go over tonight with how to use charisse if you have an interval target a nominal target and binary they're all present little bit slightly different issues and.
+
+33
+00:04:22.410 --> 00:04:30.780
+Edward R. Jones: Although it's the there are a lot of similarities so we're going to start here with interval targets so let's open up that.
+
+34
+00:04:31.110 --> 00:04:41.580
+Edward R. Jones: And if you would please grab this data, its oil production dot X El es X excel file you've seen this before it's not a really big file.
+
+35
+00:04:42.390 --> 00:04:52.200
+Edward R. Jones: And then grab this this one, which says all productions with threads now, I have a I have another one that i'm going to give you a little bit later called solution.
+
+36
+00:04:52.470 --> 00:04:59.790
+Edward R. Jones: we're going to go through some little problems here with this one there's some bugs in it right now we're going to fix those bugs and go through the code and.
+
+37
+00:05:00.240 --> 00:05:06.090
+Edward R. Jones: And they want to get through that i'll give you the full version, just to make sure that everyone has you know the clean version.
+
+38
+00:05:06.390 --> 00:05:18.150
+Edward R. Jones: I will warn you right now, this version we're going to open it up here in a minute, yes, there are a couple of minor bugs in it that I think will help you understand how cares just doing things so.
+
+39
+00:05:19.320 --> 00:05:22.740
+Edward R. Jones: After you've downloaded that let's go and open up.
+
+40
+00:05:25.260 --> 00:05:47.190
+Edward R. Jones: anaconda and and, in particular that's open up spider and so i'm going to reset my Colonel here, you can see what i've been working on, there we go and then on the left hand side is is a picture of that file so we're going to open it up notice that the file is called.
+
+41
+00:05:48.210 --> 00:06:07.350
+Edward R. Jones: oil production with threads, and so this is also a little bit of review of the idea of using threads so we have four threads here i'm going to go to the top and we have a whole bunch of imports and you'll understand here, let me just give you an introduction to this for a minute.
+
+42
+00:06:08.970 --> 00:06:19.080
+Edward R. Jones: The we're going to be using not just charisse and the neural network there but we're also going to be looking at SK learn site get learn.
+
+43
+00:06:19.470 --> 00:06:29.280
+Edward R. Jones: And we're going to be comparing what we did in 656 to what we're getting out of charisse so it's 656 we talked about linear regression.
+
+44
+00:06:29.880 --> 00:06:36.630
+Edward R. Jones: Last, so, in particular, you see that there and the SK learn linear model important linear regression last time.
+
+45
+00:06:37.590 --> 00:06:50.550
+Edward R. Jones: We talked about the random forest estimators we used SK learn to do a 7030 split and so you have trained to split here and we're going to use that to actually divide the data up into a 7030.
+
+46
+00:06:51.150 --> 00:07:02.670
+Edward R. Jones: And then advanced analytics we have some helpers here utilities that actually display the results when we get that back, we also have SK learn neural network, right here.
+
+47
+00:07:03.270 --> 00:07:20.850
+Edward R. Jones: And what's fun to do is to fit the network with charisse and then Compare that to what you get from SK learn sometimes there's a big difference, sometimes not so much the and the well at the top, you have you haven't pat pattison lumpy.
+
+48
+00:07:22.050 --> 00:07:33.540
+Edward R. Jones: What you should know for sure is that in s and charisse tensorflow charisse basically it only uses nothing, it does don't send it over.
+
+49
+00:07:34.260 --> 00:07:45.420
+Edward R. Jones: anything to do with the pandas because it's you have to translate whatever the pandas in band is to enough be structure and that's not hard to do, of course, but.
+
+50
+00:07:46.500 --> 00:07:55.710
+Edward R. Jones: off that just off the top, you can get some pretty weird weird error messages from from charisse if you send it Panda state of frame or something like that.
+
+51
+00:07:56.550 --> 00:07:59.910
+Edward R. Jones: And the here i've got from time import time isn't that weird.
+
+52
+00:08:00.600 --> 00:08:12.900
+Edward R. Jones: The reason is, there is a package called time and what it does, is it allows you to get the computer time of the actual time when your computer and to time how long it takes jobs to run things like that.
+
+53
+00:08:13.740 --> 00:08:20.670
+Edward R. Jones: And normally if you want the current time, you would i'm going to come over on the right and show you how you would do that.
+
+54
+00:08:21.930 --> 00:08:31.980
+Edward R. Jones: What you would do is you would type in let's say you know now equals time time off like that.
+
+55
+00:08:33.150 --> 00:08:40.830
+Edward R. Jones: So yeah that looks weird right time, time and then open close parentheses i'm sorry I can't make this a little bit larger but.
+
+56
+00:08:41.640 --> 00:08:52.860
+Edward R. Jones: yeah I need to go in and play with the fonts here to see some day to get this a little bit larger for you on there, I can do that route very easily from the keyboard on the left, but the.
+
+57
+00:08:53.370 --> 00:09:07.950
+Edward R. Jones: pipe on window doesn't respond to that sorry but anyway, you can see, I hope you can see that it says time period time and then then parenthesis like that now, if I were to just to hit return here i'm probably going to get an error.
+
+58
+00:09:09.300 --> 00:09:09.750
+Edward R. Jones: No.
+
+59
+00:09:10.980 --> 00:09:31.620
+Edward R. Jones: Okay, all right bad map I somehow I got an important time in there, and now, if I if I take a now to look at what I have you can see that it's a it's a huge number it's a floating Point number, and this is the number of milliseconds or number of seconds since.
+
+60
+00:09:32.910 --> 00:09:46.320
+Edward R. Jones: The asteroid hit the yucatan or somewhere back in there, I don't know exactly how long this hour at the time is, but if you type in now equal to time dot time.
+
+61
+00:09:47.400 --> 00:10:01.320
+Edward R. Jones: And like that, and then you go now again you'll see that it's it's incremental and that's because it's actually counting up right, the number of seconds, since the universe began or since Python began actually so.
+
+62
+00:10:01.980 --> 00:10:11.640
+Edward R. Jones: that's how it works, but I don't like the time time, so you can change that if you say, from time import time like that.
+
+63
+00:10:13.020 --> 00:10:18.480
+Edward R. Jones: Okay we're Okay, but now if we if I type now equals time got time.
+
+64
+00:10:19.530 --> 00:10:27.540
+Edward R. Jones: Oh, get an error message and that's because when you set it up the import like that, then you can do this now is equal to time.
+
+65
+00:10:28.710 --> 00:10:31.440
+Edward R. Jones: And just parenthesis forward and back like that.
+
+66
+00:10:32.730 --> 00:10:40.080
+Edward R. Jones: And now you, and so it just makes it easier and you're coding time things is to have that from time import time.
+
+67
+00:10:40.650 --> 00:10:59.280
+Edward R. Jones: Then all you have to do if you want to get the current time is just say time and then open and close parentheses now i've been used that a lot here because i'd like to compare how long it takes some of these things to happen, and I know David and I have been david's here tonight.
+
+68
+00:11:00.510 --> 00:11:01.830
+Edward R. Jones: yeah if it's here.
+
+69
+00:11:02.160 --> 00:11:03.360
+Purkiss, David: It was yes i'm here.
+
+70
+00:11:03.720 --> 00:11:04.200
+Edward R. Jones: How you doing.
+
+71
+00:11:04.530 --> 00:11:10.590
+Edward R. Jones: So we've been we've been he's been working on some data that's like almost 5 million cases.
+
+72
+00:11:11.400 --> 00:11:17.160
+Edward R. Jones: And a whole bunch of columns and so that takes a long time, even in in charisse.
+
+73
+00:11:18.000 --> 00:11:26.850
+Edward R. Jones: It takes a long time to process that data so it's cute it's cool to you know, look at how long does it take this this processing to happen.
+
+74
+00:11:27.240 --> 00:11:43.500
+Edward R. Jones: And then, if I change the model, a little bit or I use a different optimizer does that help so he's been chasing that that issue is how do I get the sinker run faster, and you know that many that much data really big data set.
+
+75
+00:11:45.900 --> 00:11:52.650
+Edward R. Jones: So that's the time and you're going to see we're going to be using that little bit here tonight and you'll see at the top of this file, you have.
+
+76
+00:11:53.490 --> 00:12:02.400
+Edward R. Jones: From time import time there it is, and then we have for threats, one of them right here is linear regression.
+
+77
+00:12:03.210 --> 00:12:10.560
+Edward R. Jones: linear regression and notice that it's you see the last so right up here now, this is a psychic learn feature.
+
+78
+00:12:11.520 --> 00:12:20.820
+Edward R. Jones: What psychic learn has last so for linear regression, why is this a good thing, well, it runs very fast.
+
+79
+00:12:21.420 --> 00:12:33.750
+Edward R. Jones: there's no there's not much optimization going on here number one number two, and this is the big thing last so it uses what's called the l one norm.
+
+80
+00:12:34.410 --> 00:12:43.380
+Edward R. Jones: Which is to basically a penalizes coefficients that are too large and that penalty is proportional to the.
+
+81
+00:12:43.830 --> 00:12:54.540
+Edward R. Jones: Absolute difference between the predicted and the observations that's called last so and What it does is, if you add a weight into that.
+
+82
+00:12:55.410 --> 00:13:02.940
+Edward R. Jones: prediction, then it will zero out all the coefficients for any of the variables that it thinks are nonsense.
+
+83
+00:13:03.600 --> 00:13:17.640
+Edward R. Jones: And so, this is a a slick way to do stepwise it's an alternate way to do stepwise stepwise has some issues because it's driven by P values and.
+
+84
+00:13:18.150 --> 00:13:32.550
+Edward R. Jones: it's very stepwise is very effective in a lot of applications, but for a very large data set with many, many columns stepwise can get really bogged down and get confused, so you.
+
+85
+00:13:33.120 --> 00:13:46.500
+Edward R. Jones: The, the best thing to do is, if you have a large data set like david's and you have a lot of variables in there, like david's, then you would want to choose last so as a way up to selecting variable so.
+
+86
+00:13:47.130 --> 00:13:54.780
+Edward R. Jones: Variable selection procedure you do get a ticket and you do get a model and you do get predicted Dias and coefficients and all that sort of thing.
+
+87
+00:13:55.320 --> 00:14:00.240
+Edward R. Jones: But in addition to that you get a picture or a snapshot of which ones, he wants to put a zero.
+
+88
+00:14:01.050 --> 00:14:14.250
+Edward R. Jones: You know which go patients are going to be zero and so last so is a very good way of identifying variables that you want to extinguish or not carry around forever when you have a large data set.
+
+89
+00:14:15.180 --> 00:14:18.870
+Kilani, Shadi: Now that doesn't always take care of coding entity as well.
+
+90
+00:14:19.320 --> 00:14:23.820
+Edward R. Jones: This i'm sorry linearity well that's the whole point with last Oh, is that.
+
+91
+00:14:25.200 --> 00:14:33.990
+Edward R. Jones: papers and papers and papers have been written in presentations given about wow How does this work and i've run a lot of simulations myself.
+
+92
+00:14:34.290 --> 00:14:44.400
+Edward R. Jones: Trying to see what happens when there is correlation among the variables and so forth, and it, yes it it handles that situation very nicely now.
+
+93
+00:14:45.210 --> 00:14:53.670
+Edward R. Jones: The main criticism for last sale is let's suppose that you have 300 features obviously you're concerned, you want to.
+
+94
+00:14:54.510 --> 00:15:04.020
+Edward R. Jones: go from 300 maybe down to 50 or you know some smaller number right, so you run LASSO and it will probably get you down to that smaller number but.
+
+95
+00:15:04.440 --> 00:15:12.330
+Edward R. Jones: If you run simulations you do research in this what you'll find is it picks up the real variables, the ones that are important.
+
+96
+00:15:13.290 --> 00:15:20.250
+Edward R. Jones: But it also will tend, it has a tendency to pick up some more that are not so important, so.
+
+97
+00:15:20.970 --> 00:15:29.520
+Edward R. Jones: My in my simulations by research what I saw was that if it gave me 100 variables probably half of them are important.
+
+98
+00:15:30.030 --> 00:15:39.480
+Edward R. Jones: Now if you're going from 300 to 400 down to 100 that's not a bad you know you want to do that you want to select the have the best 100 or so, to keep.
+
+99
+00:15:39.960 --> 00:15:51.840
+Edward R. Jones: But realize that when you do get that model Okay, I have these 100 here that I want to keep that model may not do as good of a job in predicting.
+
+100
+00:15:52.170 --> 00:16:02.040
+Edward R. Jones: The response that you would like because it's probably carrying some variables that are multiple in a year as some very roses are just in there for the ride noise.
+
+101
+00:16:02.610 --> 00:16:19.860
+Edward R. Jones: So one approach, then, is to use LASSO for variable so okay we're down to 100 here and then go after it with a stepwise or or switch over to something like decision trees are random forests are just completely different kind of model right.
+
+102
+00:16:21.480 --> 00:16:27.000
+Edward R. Jones: The you know the difficulty with decision trees and these other things is that if you have too many features.
+
+103
+00:16:27.660 --> 00:16:42.720
+Edward R. Jones: You can you throw all those features at it, you could spend forever trying to figure out what's going on which features, you want to keep and things like that so last last Oh, there is, there is a very fast procedure as well, so that's good.
+
+104
+00:16:43.740 --> 00:16:46.860
+Edward R. Jones: Then we have random for psych it learning it right here.
+
+105
+00:16:47.880 --> 00:16:58.950
+Edward R. Jones: That maybe don't remember it, but these kinds of psychic learn is a very efficient package look at this we're doing the random force the model, right here, and just one or two lines will actually.
+
+106
+00:16:59.280 --> 00:17:18.540
+Edward R. Jones: This you'll always set up the model and like okay This describes the configuration, so in this description, it says we're using 1000 trees in the forests and the maximum depth on those trees, is for hmm usually that would be higher, by the way, and then.
+
+107
+00:17:18.570 --> 00:17:22.620
+Edward R. Jones: The number of samples per leaf, the minimum number.
+
+108
+00:17:23.130 --> 00:17:40.260
+Edward R. Jones: Is five and if you're going to split, you have to have at least five in the leaf to decide that you're going to split it so you can easily get overfitting with random force and these parameters, particularly the maximum depth or the way you can control some of that.
+
+109
+00:17:41.820 --> 00:17:58.890
+Edward R. Jones: Now the next one, and is go ahead and fit the force so this, you can see, is using the training data, this is designed to work off of a 7030 split, so you send it X T nyt, which is the the X matrix for 70%.
+
+110
+00:17:59.850 --> 00:18:18.030
+Edward R. Jones: And the y may vector for that 70 and then xp for the 30 and the wife of that 30 so you fit right there and then this, this is a technique that I talked about when we went over threads is that if you want to pass something back to the main thread.
+
+111
+00:18:19.170 --> 00:18:28.560
+Edward R. Jones: You can use a list, and this queue to is the list for the second function there's a queue on for the first function, the last song.
+
+112
+00:18:29.220 --> 00:18:38.670
+Edward R. Jones: And what i'm doing here is i'm sending back the fitted model rfc and up here i'm sending back lr, which is the last so model right.
+
+113
+00:18:39.600 --> 00:18:48.480
+Edward R. Jones: And then down here stopped red equals time delta stop thread Moniz start and then drink one time, this is just using that time function.
+
+114
+00:18:49.380 --> 00:18:55.230
+Edward R. Jones: To actually show you how long the random force took when it ran this thread.
+
+115
+00:18:55.680 --> 00:19:03.270
+Edward R. Jones: And you notice up here and last, so I, you have the same sort of time operation going on it's a real simple thing to stick it at the.
+
+116
+00:19:03.720 --> 00:19:19.920
+Edward R. Jones: Bottom make sure that when you start the thread you you grab the start of tough starting time so up here in this beginning of the thread it says start thread equal time up here last so you have you'll see that you have the same thing up there as well.
+
+117
+00:19:23.010 --> 00:19:35.070
+Edward R. Jones: up there ya know there's there it is regression start thread equals time so in the last in the in the psychic learn package, the Opera the modeling that you do is.
+
+118
+00:19:35.370 --> 00:19:37.440
+Edward R. Jones: pretty well organized and it's.
+
+119
+00:19:37.440 --> 00:19:46.800
+Edward R. Jones: pretty much the same if i'm going to do a neural network, all I do is change this name from random forest regressing to neural network regress Sir.
+
+120
+00:19:47.250 --> 00:19:53.190
+Edward R. Jones: Of course, the parameters that are in here, they can change a bit, but all you have to do is access to the documentation.
+
+121
+00:19:54.030 --> 00:20:09.030
+Edward R. Jones: For psychic learn, and what I normally do is I just say Google psychic learn random forest regressing or just random forest and it'll take you to this function, right here and describe for you what these various things are doing to you.
+
+122
+00:20:10.920 --> 00:20:12.600
+Edward R. Jones: know, then we have FDA.
+
+123
+00:20:13.230 --> 00:20:16.320
+Zuberi, Bilal: Your investor Professor Jones this is loud sorry.
+
+124
+00:20:16.410 --> 00:20:20.220
+Zuberi, Bilal: Sorry, I didn't hear up to you, I have a question online 38 if you don't mind.
+
+125
+00:20:21.090 --> 00:20:22.410
+Edward R. Jones: Okay we'll go back to that.
+
+126
+00:20:24.150 --> 00:20:25.500
+Edward R. Jones: I can answer now.
+
+127
+00:20:25.650 --> 00:20:28.710
+Edward R. Jones: You notice how how laid back the law is tonight.
+
+128
+00:20:29.730 --> 00:20:38.610
+Edward R. Jones: You notice how he's kind of like Louise usually wearing some shirt with a tire or something notice how he's kind of kicking back he had his capstone yesterday.
+
+129
+00:20:39.630 --> 00:20:47.670
+Edward R. Jones: So here yeah congratulations I think he he Of course he passed, and I think he.
+
+130
+00:20:49.470 --> 00:21:01.980
+Edward R. Jones: Was I think, was the first one this year that you know, we had the capstone presentation he was up there, waiting in line you know and OK now your question it's gonna be an easy one right.
+
+131
+00:21:02.040 --> 00:21:04.140
+Purkiss, David: I mean, I have to go right after below.
+
+132
+00:21:04.740 --> 00:21:05.460
+Edward R. Jones: Okay did.
+
+133
+00:21:06.630 --> 00:21:19.020
+Zuberi, Bilal: You got this David i'm online 38 is general rule of thumb for setting and alpha or some sort of hyper parameter optimization that we should worry about, or is it no matter.
+
+134
+00:21:20.280 --> 00:21:45.780
+Edward R. Jones: yeah in now, this can vary from one software to system to another, this is the healthy weight that controls how last so operates now in its psychic learn if you make that little D Wade very, very large basically it it forces all of the weights all of the coefficients to zero.
+
+135
+00:21:48.210 --> 00:21:58.740
+Edward R. Jones: Right and so, in general, if you and then, if you make it too small, you get to if you make it zero, for example, you get to straight linear regression, with no penalty.
+
+136
+00:22:01.590 --> 00:22:19.050
+Edward R. Jones: So you, you want to you want something that's small but not too small, what you could do is you to run this see how many variables get zeroed out and and find some some comfort spot for where the number of variables in there seems to make sense.
+
+137
+00:22:20.610 --> 00:22:28.320
+Edward R. Jones: Now we'll see in this case we don't have a lot of variables in our in our data so we'll see what what happens here in just a minute.
+
+138
+00:22:28.950 --> 00:22:30.360
+Edward R. Jones: Thank you now.
+
+139
+00:22:30.720 --> 00:22:32.850
+Edward R. Jones: David you're going to be good right.
+
+140
+00:22:34.500 --> 00:22:36.660
+Edward R. Jones: You got your capstone coming up next week.
+
+141
+00:22:37.740 --> 00:22:38.580
+Edward R. Jones: Or is it tomorrow.
+
+142
+00:22:38.910 --> 00:22:40.440
+Edward R. Jones: Tomorrow okay okay.
+
+143
+00:22:40.800 --> 00:22:42.060
+Purkiss, David: yeah I think i'm gonna be okay.
+
+144
+00:22:42.480 --> 00:22:43.980
+Edward R. Jones: I think you're going to be okay too.
+
+145
+00:22:45.390 --> 00:22:47.010
+Edward R. Jones: I think I know you're gonna be okay.
+
+146
+00:22:47.220 --> 00:22:47.700
+All right.
+
+147
+00:22:48.840 --> 00:22:49.230
+Edward R. Jones: let's.
+
+148
+00:22:51.420 --> 00:23:02.340
+Edward R. Jones: So the FN N, is the psychic learn neural network and we're going to be comparing what we get here with charisse and we're going to compare two things.
+
+149
+00:23:02.790 --> 00:23:15.810
+Edward R. Jones: The goodness of fit the quality of the fit plus How long does it take right How long does it take this does psychic learn take less time or more time than if you ran carriers will see that.
+
+150
+00:23:16.920 --> 00:23:24.090
+Edward R. Jones: And you as just like it up there with random forest it's only a couple of lines of code that you need to run the.
+
+151
+00:23:25.080 --> 00:23:29.370
+Edward R. Jones: psychic learn right neural network here, and in this case.
+
+152
+00:23:30.120 --> 00:23:45.930
+Edward R. Jones: The hidden layers I have two hidden layers the first one has 20% crohn's or neurons and the second 120 and what this is it's a it's a network where you've got 20 that are directly, all of them are directly connected to all of the inputs.
+
+153
+00:23:46.590 --> 00:23:59.790
+Edward R. Jones: And I have another 20 behind it, and then the the first layer, the second layer are all interconnected, and then there is an output layer which is not shown here but it's assumed to be an output layer and.
+
+154
+00:24:00.900 --> 00:24:10.500
+Edward R. Jones: That is determined by why you know this, why guy right here how what the dimensions of that are depends will determine what that output layer looks like.
+
+155
+00:24:10.830 --> 00:24:23.040
+Edward R. Jones: In this case, the y is an interval variable, and so the output layer is a single neuron one neuron everything coming into their they get waited and then it produces a predictive value.
+
+156
+00:24:25.650 --> 00:24:39.330
+Edward R. Jones: There are a maximum of 1000 iterations allowed in in fitting this model if it hits that it stops you know the optimization stops in it actually produces results and no error message.
+
+157
+00:24:40.110 --> 00:24:55.590
+Edward R. Jones: So you sometimes you want to be aware, or did I hit the wall, because maybe if you open this up a little bit higher value, you might get a better response random state that just lists set so that I get the same number every time we run the Program.
+
+158
+00:24:56.730 --> 00:25:06.360
+Edward R. Jones: You know if I have the all the all the variable set same then then that random status and in there, then it will give me the same as the numbers all the time now.
+
+159
+00:25:06.600 --> 00:25:14.520
+Edward R. Jones: If I don't put the red state in there, then every time I run it i'll get slightly different numbers randomization is a little different.
+
+160
+00:25:16.200 --> 00:25:29.640
+Edward R. Jones: The there is a penalty function here also alpha equals point 0.5 that can affect the quality of the fit, there is an optimizer called Adam that's been selected here.
+
+161
+00:25:30.210 --> 00:25:41.310
+Edward R. Jones: off solver equal to add them now in charisse they call this the optimizer bought in psychic learn they call it the solver okay just language.
+
+162
+00:25:41.850 --> 00:25:59.670
+Edward R. Jones: and ensure enough and psychic learn, you have about a half dozen different solvers, this is one of them and then charisse you have pretty much the same optimizer years they're written differently, though, and I think in some respects the the performance is a little different.
+
+163
+00:26:01.470 --> 00:26:12.930
+Edward R. Jones: Then this is charisse right down here, and this is of course not as slick as psychic learn it's more complex, and the reason for that is.
+
+164
+00:26:13.470 --> 00:26:27.300
+Edward R. Jones: tensorflow kerris is used in many different ways it's which makes it more complicated the psychic learn neural network is pretty much always a dense network.
+
+165
+00:26:28.890 --> 00:26:36.510
+Edward R. Jones: we're going to connect all of the inputs to the first layer and then all the first layer, the second layer and all that sort of thing you have.
+
+166
+00:26:37.530 --> 00:26:47.850
+Edward R. Jones: A spree conventional layout for a neural network charisse though allows you to do some things that are very important for image recognition.
+
+167
+00:26:48.420 --> 00:27:07.800
+Edward R. Jones: text analysis and auto audio or recognition Now you can also use it for the standard neural network analysis which we're going to be looking at tonight, then next week we're going to branch out and look at the non standard which is you know things like images and text analysis.
+
+168
+00:27:08.940 --> 00:27:21.930
+Edward R. Jones: little bit different now here what we're going to do in this code and this particular thread is we're going to try 12345 different.
+
+169
+00:27:22.650 --> 00:27:33.300
+Edward R. Jones: neural networks in the first one I have 10 neurons a second 2030 4050 and 60 all of these neurons are in one layer
+
+170
+00:27:33.930 --> 00:27:50.760
+Edward R. Jones: The single hidden layer there's no second hidden layer if it was a second one, then there would be two numbers and the parentheses like 10 comma 10 would be two layers with 10 neurons and each layer and they would all be interconnected.
+
+171
+00:27:51.990 --> 00:28:03.570
+Edward R. Jones: Also in curious you have something called epochs and size we're going to talk about that what this does is it controls, the way the optimization proceeds.
+
+172
+00:28:04.050 --> 00:28:10.620
+Edward R. Jones: The more epochs, you have the longer it's going to take it, but the more careful it's going to go about finding the optimum.
+
+173
+00:28:11.250 --> 00:28:23.520
+Edward R. Jones: The size number here I I did I said something I think the last class which was totally wrong if you make that number bigger it runs faster if you make it smaller it runs slower.
+
+174
+00:28:24.030 --> 00:28:31.680
+Edward R. Jones: And why would you make, why did, why is that set up that way well this controls how big the batch.
+
+175
+00:28:32.130 --> 00:28:38.520
+Edward R. Jones: batches are that are used to calculate the weights and so what Chris is doing.
+
+176
+00:28:38.910 --> 00:28:52.950
+Edward R. Jones: Is it goes through iterations and each iteration it batches up the data and uses that batch to configure the weights and then it'll get another batch and sees about whether it can improve that particular configuration.
+
+177
+00:28:53.430 --> 00:29:06.360
+Edward R. Jones: And this number 256 here controls how large that batches the actual size of the batch is the number of observations that you have in training.
+
+178
+00:29:07.380 --> 00:29:25.650
+Edward R. Jones: divided by 256 so or whatever it is, so if you put one in there, that every epoch uses the entire set of data to calculate the weights in one group as one group and that really slows things down.
+
+179
+00:29:27.120 --> 00:29:30.540
+Edward R. Jones: So what instead What it does is it says well wait a minute.
+
+180
+00:29:31.110 --> 00:29:40.050
+Edward R. Jones: If I made this number let's say for instead of 256, then what happens is it's going to take the data and randomly set up four pieces.
+
+181
+00:29:40.710 --> 00:29:51.930
+Edward R. Jones: For different sizes, if you put those four together, they would equal the entire data set so really we're talking about 25% and each little batch.
+
+182
+00:29:52.320 --> 00:30:01.920
+Edward R. Jones: And it's going to take 25% of the data and then use that 25% to update the weights and then it'll take the next 25 and do the same thing.
+
+183
+00:30:02.670 --> 00:30:16.530
+Edward R. Jones: That updating of the weights is pretty computationally intensive so you you you you'd like to have the batch sizes small and you do that by increasing the size number here.
+
+184
+00:30:17.190 --> 00:30:26.460
+Edward R. Jones: normally do it depends on the size of the data right if you have a very, very large data set, then you might use a large number here like.
+
+185
+00:30:28.380 --> 00:30:32.070
+Edward R. Jones: For example, maybe that would be the appropriate number to use here.
+
+186
+00:30:32.970 --> 00:30:45.450
+Edward R. Jones: How big should the number be in the in my work what i've noticed is that if you set the size equal to about one of what what corresponds to 1% of the data.
+
+187
+00:30:45.900 --> 00:30:56.910
+Edward R. Jones: you're probably going to be close to what you want to use and then you can go up and down from that So if I have 1000 observations 1% then would be what 10.
+
+188
+00:30:58.470 --> 00:31:02.430
+Edward R. Jones: So I would start here with 10 and then maybe go a little bit higher.
+
+189
+00:31:02.940 --> 00:31:16.110
+Edward R. Jones: A little bit lower and to see how much the results change now in a moment we're going to take a look at a graph from one from this thing, and you, you can also look at the graphs and get some indication of whether the size is too small or too big.
+
+190
+00:31:17.430 --> 00:31:18.030
+Edward R. Jones: Okay.
+
+191
+00:31:19.200 --> 00:31:21.210
+Edward R. Jones: see what did I have here was a 20.
+
+192
+00:31:22.920 --> 00:31:28.230
+Edward R. Jones: or two I don't know what it was whatever 25 put it there.
+
+193
+00:31:30.930 --> 00:31:48.270
+Edward R. Jones: And then the number of features of course that's the number of attributes that you have in the data and what i'm doing here is i'm actually setting up a loop to fit each one of these configurations separately and then choose the best configuration.
+
+194
+00:31:49.320 --> 00:32:02.070
+Edward R. Jones: And what i'm going to do there is us, this is, this is a an interval targets so we're going to use the mean squared error or the absolute squared error you remember in SAS we always used ASC.
+
+195
+00:32:02.490 --> 00:32:11.940
+Edward R. Jones: to optimize a model when you had an interval target we're doing the same thing here, except and charisse they call it the mean squared error, instead of the average squared error.
+
+196
+00:32:12.630 --> 00:32:20.310
+Edward R. Jones: So that's what we'll be using for a loss function, and if you move down a little bit.
+
+197
+00:32:20.880 --> 00:32:31.260
+Edward R. Jones: you'll see that what's happening here is i'm putting in model, together with charisse know so if you're working in charisse you always start by saying model.
+
+198
+00:32:31.590 --> 00:32:47.640
+Edward R. Jones: is equal to models not sequential this is says it to charisse i'm going to create a pretty standard neural network, where I have multiple layers possibly hidden and one out output layer and i'm not going to do anything weird with the input.
+
+199
+00:32:48.720 --> 00:32:55.950
+Edward R. Jones: When it comes to image recognition and things like that we actually process, the images using the different kind of neural network.
+
+200
+00:32:56.970 --> 00:33:03.750
+Edward R. Jones: Which is something that charisse is quite capable of doing, but you won't see that ability and other and other software.
+
+201
+00:33:05.130 --> 00:33:11.640
+Edward R. Jones: So here we were starting off and saying okay charisse we are going to fit a fairly traditional sequential model.
+
+202
+00:33:12.360 --> 00:33:21.420
+Edward R. Jones: And then we add we start adding the hidden layer this is this one, which says model add is adding a single hidden layer
+
+203
+00:33:22.200 --> 00:33:40.440
+Edward R. Jones: notice it says model add layers dense the word dense here means this layer is going to be connected to everything coming in and everything behind the layer so all of the inputs are going to be connecting to all of the neurons in this hidden layer, the first hidden layer
+
+204
+00:33:41.610 --> 00:33:55.710
+Edward R. Jones: neurons that guy right there is the the, the number of that neurons that you want it would be like, here we parenthesis 10 or princes 20 and so forth, and so on.
+
+205
+00:33:56.460 --> 00:34:10.320
+Edward R. Jones: So this is a tubal, and that means that it's in parenthesis, and then the number if there's only one number in there means I have just a single layer of neurons go, this is the number of neurons in this layer
+
+206
+00:34:11.940 --> 00:34:15.330
+Edward R. Jones: i'm sorry I said yeah let's see is that right.
+
+207
+00:34:18.000 --> 00:34:20.550
+Edward R. Jones: Yes, it's correct yeah I think so.
+
+208
+00:34:21.900 --> 00:34:27.720
+Edward R. Jones: yeah this should be a parenthesis right here, and then input shape is the number of features.
+
+209
+00:34:28.740 --> 00:34:43.590
+Edward R. Jones: And that comment is not is it's meant to be there because in numpty if you have a single number or a vector of numbers it's always going to be like in features comma the nothing after it.
+
+210
+00:34:44.880 --> 00:34:52.680
+Edward R. Jones: activation here is is Arielle you are and that's the fast activation which is just basically a table lookup.
+
+211
+00:34:53.430 --> 00:35:03.390
+Edward R. Jones: And this is the fastest activation you can have alternatives would be things like hyperbolic tangent sigmoid activation and a few others.
+
+212
+00:35:03.810 --> 00:35:15.960
+Edward R. Jones: The reason this is being chosen is because it's fast, and you can play with this, but ordinarily the alternatives versus the sky are not that much different.
+
+213
+00:35:17.250 --> 00:35:24.060
+Edward R. Jones: What what the difference can be in terms of execution time, so if you put an attack each in here, you may see these slows down little bit.
+
+214
+00:35:25.170 --> 00:35:32.640
+Edward R. Jones: You get to name it anything you want, so I always name it hidden layer one and then, if there's another one that would be a two and so forth, and so on.
+
+215
+00:35:33.720 --> 00:35:48.240
+Edward R. Jones: Now notice the next line it says models add layers dense same configuration, but, as you can see, on the right, the name of this is the output layer the output layer is special because.
+
+216
+00:35:49.620 --> 00:36:00.630
+Edward R. Jones: This configuration depends a lot upon whether you have interval binary or nominal here we're talking interval so there's only one output.
+
+217
+00:36:01.320 --> 00:36:09.210
+Edward R. Jones: off of the out of the up but layer that's that target value it's the interval in this case it's the log of cumulative oil production.
+
+218
+00:36:09.810 --> 00:36:23.250
+Edward R. Jones: So All I want is I want one number coming up coming off this output layer no activation and the purpose of activation on the output layer is to configure the number.
+
+219
+00:36:23.760 --> 00:36:33.240
+Edward R. Jones: in some way, usually usually for at all Interphone data are always for an interval target you always have activation equal to none.
+
+220
+00:36:34.470 --> 00:36:46.440
+Edward R. Jones: Because you're just basically predicting that one number, if you were talking about binary or nominal targets, then those numbers need to represent probabilities.
+
+221
+00:36:46.830 --> 00:36:56.580
+Edward R. Jones: In the case of a binary it would be the probability of the event occurring and that probability is going to have to be a number between zero and one.
+
+222
+00:36:57.150 --> 00:37:06.690
+Edward R. Jones: Nothing below zero nothing above one if you have a nominal target than each level of the nominal target is going to have a probability.
+
+223
+00:37:07.410 --> 00:37:17.550
+Edward R. Jones: For binary you also have just one output for nominal let's suppose you out of six level nominal which will look at here in a minute, then.
+
+224
+00:37:18.060 --> 00:37:25.470
+Edward R. Jones: This would not be one, it would be six you're actually have a you actually have six neurons in the output layer
+
+225
+00:37:26.070 --> 00:37:39.660
+Edward R. Jones: And the activation then must be soft it's called soft Max the soft Max activation ensures that every one of those six numbers is going to be between zero and one and.
+
+226
+00:37:40.020 --> 00:37:48.000
+Edward R. Jones: If you add them all up you always get exactly 1.0, in other words, they behave like a probability distribution.
+
+227
+00:37:48.510 --> 00:37:59.370
+Edward R. Jones: So what you're getting at the nominal variable is you're getting the probability that it assumes the class first class, the second class third class and so forth.
+
+228
+00:37:59.970 --> 00:38:07.020
+Edward R. Jones: So now, some of those probabilities could be near zero or zero which indicates that, oh no it's not it's not that class.
+
+229
+00:38:07.470 --> 00:38:19.440
+Edward R. Jones: But for others it would be large now is it always going to have a number above Point five know if you have six different levels that you may have point 2.2 beautiful, you know.
+
+230
+00:38:20.070 --> 00:38:33.990
+Edward R. Jones: Some numbers that are all below point five, but the one with the largest probability is the class that's going to be identified as the as the predicted output for that particular set a case now.
+
+231
+00:38:35.580 --> 00:38:43.440
+Edward R. Jones: This sometimes makes people uncomfortable makes me a little uncomfortable to think that Okay, I have to choose one of the six and only one of the six.
+
+232
+00:38:43.830 --> 00:38:50.310
+Edward R. Jones: What if the probabilities are all almost all we all have the same do I still have to choose one of the six yes.
+
+233
+00:38:51.000 --> 00:39:01.290
+Edward R. Jones: If you're counting misclassification in the output yeah you have to choose one of the six and they have to see whether or not it was correctly identified.
+
+234
+00:39:01.950 --> 00:39:09.210
+Edward R. Jones: other ways of doing this would be to say let's look at the probabilities and see how closely are to zero and one.
+
+235
+00:39:09.870 --> 00:39:28.290
+Edward R. Jones: So what I would like is, I would like the identified event the actual value to be one probability for that to be one and the others to be zero so some people then we'll look at the difference between those probabilities and the actual data, instead of just the misclassification rate.
+
+236
+00:39:29.940 --> 00:39:38.970
+Edward R. Jones: Okay, and then the model summary thing here, and what that does is it prints out a view of what the neural network looks like.
+
+237
+00:39:40.590 --> 00:39:41.100
+Kilani, Shadi: To build it.
+
+238
+00:39:43.440 --> 00:39:44.880
+Kilani, Shadi: Just on the previous notes.
+
+239
+00:39:46.500 --> 00:39:51.060
+Kilani, Shadi: You said that we look at the probability one and zero What about the probably the in between.
+
+240
+00:39:52.200 --> 00:39:53.010
+Edward R. Jones: i'm really what.
+
+241
+00:39:53.400 --> 00:40:04.500
+Kilani, Shadi: probability, you mentioned that instead of looking at the misclassification I don't know if I understood correctly, what was said, but you said, instead of just looking at the misclassification rate you look at the probabilities made.
+
+242
+00:40:04.890 --> 00:40:12.870
+Kilani, Shadi: Yes, do you look at like like if they're getting more ones and they're actually an event versus zero and it's not it's.
+
+243
+00:40:12.900 --> 00:40:16.200
+Edward R. Jones: Not an yeah well what you do is your.
+
+244
+00:40:16.650 --> 00:40:20.250
+Edward R. Jones: Your your wife you're really this is kind of detailed question.
+
+245
+00:40:21.360 --> 00:40:30.900
+Edward R. Jones: your wife variable your your data has zeros and ones in it right so let's suppose I just have three classes and so.
+
+246
+00:40:30.900 --> 00:40:32.910
+Edward R. Jones: Two of the classes would have zero.
+
+247
+00:40:33.150 --> 00:40:35.940
+Edward R. Jones: And one of the class would have a one in it right.
+
+248
+00:40:36.810 --> 00:40:53.100
+Edward R. Jones: And then the model, the neural network model or the logistic regression model they're all going to do the same thing, which is a sign of probability to each one of those classes now, ideally, you would like the probabilities to be zero except for the event class.
+
+249
+00:40:54.240 --> 00:41:04.020
+Edward R. Jones: 001 but that's not the way it works half you might have a point 2.2 and then a point six for the event class.
+
+250
+00:41:04.650 --> 00:41:20.220
+Edward R. Jones: So what you could do is you can take the one from the event class and look at how close, that is, to a probability of one as so that's like a residual and regression and then you can square that and add that up over all of the data.
+
+251
+00:41:21.330 --> 00:41:30.420
+Edward R. Jones: And that is had they had the Turk Harris has a term for that, and you can identify that as your loss function and curious if that's what you want to use.
+
+252
+00:41:30.840 --> 00:41:46.290
+Edward R. Jones: As far as psychic learn is concerned i'm not sure what they do there, but I know and charisse you can identify a loss function that it corresponds to looking at the difference between the probabilities and the values of zeros and ones and the data.
+
+253
+00:41:48.210 --> 00:41:54.450
+Edward R. Jones: I don't know if I answered your question it's kind of kind of good that it's easier if you just write it down on paper.
+
+254
+00:41:54.840 --> 00:41:56.220
+Kilani, Shadi: No, thank you, I appreciate it, thank you.
+
+255
+00:41:56.310 --> 00:41:57.240
+Kilani, Shadi: Okay, thank you.
+
+256
+00:41:57.360 --> 00:42:15.300
+Edward R. Jones: uh yeah well we're gonna we're gonna see some of this a little bit better, as we go forward here now now, I have a bunch of statements see these guys these guys are all the different optimizer that are used in charisse commonly so they have at a delta.
+
+257
+00:42:16.590 --> 00:42:31.500
+Edward R. Jones: Common technique Adam sgt GD and rms root means square propagation so you could choose any one of these to us, and when you choose it you'll see different.
+
+258
+00:42:32.400 --> 00:42:42.570
+Edward R. Jones: solutions and some of them are going to work better than others, I have to assume there's a set of data out there somewhere where each one of these does well.
+
+259
+00:42:43.440 --> 00:42:54.450
+Edward R. Jones: Better otherwise it wouldn't be around but, honestly, from what I could see the first two are like really much better than the last two okay.
+
+260
+00:42:55.290 --> 00:43:06.690
+Edward R. Jones: At least for the data that i've been working with now i'm sure there's probably some other data out there, where the STD or the rms prop is going to work better, but I haven't run into it just yet.
+
+261
+00:43:08.250 --> 00:43:25.860
+Edward R. Jones: Okay, so, then you, you have compile and this basically describes how we're going to fit this network, the loss here guess what msc means squared error or also called a SEC now you have to put it in this msc here.
+
+262
+00:43:26.910 --> 00:43:28.290
+Edward R. Jones: This is appropriate.
+
+263
+00:43:29.940 --> 00:43:33.420
+Edward R. Jones: I would, let me say if, and only if the target is interval.
+
+264
+00:43:34.530 --> 00:43:42.510
+Edward R. Jones: You could put her dead with for nondurable target and that's where you get this difference between the serious ones in the probabilities going on.
+
+265
+00:43:43.620 --> 00:43:57.000
+Edward R. Jones: And that's a little different, though, so I think we wouldn't do that this is this would this sort of loss function would ordinarily clearly say to the person, looking at the code that Oh, we have an interval target here.
+
+266
+00:43:58.020 --> 00:44:05.010
+Edward R. Jones: And then the optimizer it's one of these for notice i've chosen the first one at a delta.
+
+267
+00:44:06.420 --> 00:44:13.260
+Edward R. Jones: Okay, that guy right there at it for that particular one notice there's a learning region here a row, and an epsilon.
+
+268
+00:44:13.650 --> 00:44:22.770
+Edward R. Jones: The learning rate is the one that this seems to be most sensitive to same thing with Adam you tweak the learning rate a little bit and you'll get different properties.
+
+269
+00:44:23.280 --> 00:44:34.110
+Edward R. Jones: And the convergence, it may go faster or it may not converge at all, you know you may get some kind of silly solution we'll see we'll see some of that here in a minute.
+
+270
+00:44:36.810 --> 00:44:43.440
+Edward R. Jones: And then you have this is where this is where the rubber meets the road right here, it says model fit.
+
+271
+00:44:44.010 --> 00:44:53.880
+Edward R. Jones: And I normally put that in the the actual result of the fit goes into an object called history notice it, by the way, that gets guy right here.
+
+272
+00:44:54.300 --> 00:45:10.500
+Edward R. Jones: yeah that's it, that is what it says it says thread number seed, so that if you run this program again you get the same results if you're concerned about that just just comment that out until you get to a place where you like it.
+
+273
+00:45:11.850 --> 00:45:24.600
+Edward R. Jones: But each time you run this without that statement you'll get a slightly different result the because there is a random selection of the path the optimization path that's going on, and my controls that.
+
+274
+00:45:26.070 --> 00:45:35.880
+Edward R. Jones: Then history there's a dictionary, you can pull out of this object the history dictionary is history history okay it's like time time.
+
+275
+00:45:36.720 --> 00:45:54.900
+Edward R. Jones: And then, with from that history that dictionary, you can pull out things like this, this is the the the numbers, the validation the validation law so each epoch it calculates the last for the validation data.
+
+276
+00:45:55.530 --> 00:46:12.240
+Edward R. Jones: And then it stores that into this vector they would call it a tensor and the name of that tensor is TAO underscore loss, and this is actually a like a dictionary, and so you are pulling all of this out.
+
+277
+00:46:13.380 --> 00:46:21.060
+Edward R. Jones: Your if you just use the, the first part of this without that last little bracket you get the entire.
+
+278
+00:46:22.110 --> 00:46:32.040
+Edward R. Jones: list of validation losses that occurred over all of the box now, in this case, we set it up to have 200 epoch so you get 200 different values.
+
+279
+00:46:32.460 --> 00:46:43.170
+Edward R. Jones: The last one, the very last one on that list is what you normally report, for your pet the last one is into index by the pox minus one.
+
+280
+00:46:43.560 --> 00:46:57.510
+Edward R. Jones: In this case, that would be 199 because the box was 200 so the very last one in the list is 199 and we normally take that then as our estimate of the validation loss for the fitted network.
+
+281
+00:46:59.040 --> 00:47:03.660
+Edward R. Jones: And then, I have a little check here that says well is this loss less than.
+
+282
+00:47:04.140 --> 00:47:13.260
+Edward R. Jones: Something else if it is let's see the SAVE that information so remember we're going, this is a loop we're looking at all of these different.
+
+283
+00:47:13.740 --> 00:47:27.750
+Edward R. Jones: neural network configurations in this loop at to identify which one has the smallest loss and so that's happening right here the smallest last would be the smallest means squared error or a SEC.
+
+284
+00:47:28.470 --> 00:47:49.800
+Edward R. Jones: So the word loss here is sin is synonymous with the what we set up here losses equal to msc so it's the ASC the average squared error, here they call it the main square there Okay, and then, once that's done almost information is passed back to the main routine that prints it out.
+
+285
+00:47:52.200 --> 00:48:06.630
+Edward R. Jones: And I have a function, the year that I been brewing on and it's called charisse accuracy plots and what you do is you plot you pass it that history information.
+
+286
+00:48:08.160 --> 00:48:17.400
+Edward R. Jones: Along with the predicted values and your y values if you have those and you all this information, right here in the file name.
+
+287
+00:48:17.820 --> 00:48:29.970
+Edward R. Jones: And then, whatever they will do is it produces a nice little picture of what happened when it was fitting all those the box it'll show you how the losses going down and how the accuracy is going up and so forth.
+
+288
+00:48:31.260 --> 00:48:34.560
+Edward R. Jones: will run this here in just a moment now there is a bug in this program.
+
+289
+00:48:35.790 --> 00:48:41.430
+Edward R. Jones: And so, by the way, this is the, this is the the data map for the oil.
+
+290
+00:48:43.020 --> 00:48:48.600
+Edward R. Jones: Production data and the first thing up here oil cumulative production that is the target.
+
+291
+00:48:49.740 --> 00:48:52.800
+Edward R. Jones: The ID here is going to be ignored or dropped.
+
+292
+00:48:54.210 --> 00:49:02.400
+Edward R. Jones: And then, all of these guys did nominal guys get a gig coded one hot so i'm using ri E right here to do an encoding.
+
+293
+00:49:03.450 --> 00:49:11.190
+Edward R. Jones: out these two nominal variables 28 one hot columns for the operator at 14 for the counties.
+
+294
+00:49:12.570 --> 00:49:30.300
+Edward R. Jones: And then you can see down below this is where the threads get kicked off, and then they come back they get started, right here, then they come back and get shut down by that join, and then there is individual code for printing out the information.
+
+295
+00:49:31.710 --> 00:49:36.450
+Edward R. Jones: So the this is this is going to print out with the linear regression information.
+
+296
+00:49:37.440 --> 00:49:51.660
+Edward R. Jones: This will print out the random forest the next one, the psychic learn neural network and the last one, it will print it out the information from charisse using that function that that plot function that I showed you above there.
+
+297
+00:49:52.830 --> 00:50:03.810
+Edward R. Jones: Okay let's clear if you're with me now clear this out let's go restart on the colonel, I hope you have this open and you have the code on your computer.
+
+298
+00:50:05.220 --> 00:50:24.720
+Edward R. Jones: And let's see if we have any bugs in here and we can track them down alright so to run this you, of course, will have to have charisse installed and you'll have to have psychic learn installed we're using that we're using charisse and psychic learn, and so, if I do a condom list.
+
+299
+00:50:26.670 --> 00:50:29.970
+Edward R. Jones: And i'm going to say charisse.
+
+300
+00:50:31.770 --> 00:50:32.460
+Edward R. Jones: like that.
+
+301
+00:50:33.780 --> 00:50:50.790
+Edward R. Jones: I should get some feedback here that says oh yeah it's it's there, so I have charisse and then charisse dash preprocessing the one the first one is the one will be using 243 version and then you can go kinda list tensorflow.
+
+302
+00:50:51.930 --> 00:50:59.400
+Edward R. Jones: You act you whenever you're using charisse you must use tensorflow Harris is a is a package opened on top of tensorflow.
+
+303
+00:51:01.980 --> 00:51:10.080
+Edward R. Jones: And it looks like i've got that and then let's go condo list, and I think it's just this cable or like that.
+
+304
+00:51:11.280 --> 00:51:13.650
+Edward R. Jones: And let's see what we have there.
+
+305
+00:51:18.180 --> 00:51:21.510
+Edward R. Jones: No okay well let's try it the other way kinda.
+
+306
+00:51:23.520 --> 00:51:27.510
+Edward R. Jones: list, yes, see I dash kit.
+
+307
+00:51:29.340 --> 00:51:29.760
+Edward R. Jones: Okay.
+
+308
+00:51:34.020 --> 00:51:35.550
+Edward R. Jones: So okay.
+
+309
+00:51:37.200 --> 00:51:38.790
+Edward R. Jones: All right, on the list.
+
+310
+00:51:41.820 --> 00:51:43.020
+Edward R. Jones: I guess it's been too long.
+
+311
+00:51:45.810 --> 00:51:57.540
+Edward R. Jones: All right, and then we can that shows everything that's in here, and so there it is so I had to type in sigh get one word instead of the dash.
+
+312
+00:51:58.710 --> 00:52:04.890
+Edward R. Jones: I didn't think about one but yes it's it's installed, so we want to make sure that's there.
+
+313
+00:52:05.850 --> 00:52:25.200
+Edward R. Jones: Okay, if you have all that under the hood then we're ready to go let's just go ahead and hit the Royal yellow me the blue green arrow and say run so we're starting it up to now, this will take a little while and i'm not sure if I got the bug out or.
+
+314
+00:52:26.550 --> 00:52:27.150
+Edward R. Jones: let's see.
+
+315
+00:52:29.130 --> 00:52:29.670
+Edward R. Jones: Okay.
+
+316
+00:52:31.020 --> 00:52:42.030
+Edward R. Jones: All right, the this that you see and first of all, you see the okay i'm starting, these are the thread things notice here, it says info REG runtime oh five it's done.
+
+317
+00:52:42.720 --> 00:52:48.510
+Edward R. Jones: that's the psychic learn LASSO regression it like half a second okay good cool.
+
+318
+00:52:49.050 --> 00:52:57.660
+Edward R. Jones: And then, what you're seeing here now is a description of the first neural network in charisse that it's looking at, I notice it says tendon one.
+
+319
+00:52:58.260 --> 00:53:10.110
+Edward R. Jones: that's TIM neurons in the hidden layer one and then one on the output, so I have the hidden layer one here, and then the output layer 10 on the input side one.
+
+320
+00:53:11.640 --> 00:53:16.410
+Edward R. Jones: Now, if you look over here to the right you'll see the number of parameters that's the number of weights.
+
+321
+00:53:17.310 --> 00:53:25.950
+Edward R. Jones: that are associated with that particular layer, so the last layer, for example, has 11 weights now why.
+
+322
+00:53:26.550 --> 00:53:43.110
+Edward R. Jones: Well, you have 10 narrow neurons in front of that last one neuron and they're all leader connected to that one plus that one has a bias term it's like an intercept term all of those neurons have a bias term so it's 11 set of 10.
+
+323
+00:53:44.190 --> 00:53:52.800
+Edward R. Jones: Here you can see i've got a 21 configuration so i've got 20 neurons in the hidden layer and one of the 21 and the output exactly.
+
+324
+00:53:53.820 --> 00:54:10.350
+Edward R. Jones: Now, what about the 1020 they were that come from and down here, where you see 30 Google it's 15 does, that is, the number of weights and the first hidden layer so you have 30% transcend that this number comes by taking the number of inputs times 30.
+
+325
+00:54:11.370 --> 00:54:19.380
+Edward R. Jones: And then you have to add 30 more to get the bias terms included in that, so how many input terms are there there's a bunch.
+
+326
+00:54:21.270 --> 00:54:33.780
+Edward R. Jones: let's see it should have said something about that up front i'm scrolling back here now, and you notice it says 4752 observations.
+
+327
+00:54:35.130 --> 00:54:41.040
+Edward R. Jones: But the first row is the the actual labels for the count of columns.
+
+328
+00:54:42.240 --> 00:54:50.850
+Edward R. Jones: And here, it know these are the number of parameters it doesn't really show I didn't print out the number of features, the number of features is.
+
+329
+00:54:52.290 --> 00:54:57.030
+Edward R. Jones: it's a bunch like 52 as I recall something like that.
+
+330
+00:54:59.400 --> 00:55:09.660
+Edward R. Jones: Anyway, there's 50 so we're almost done with all the charisse one layer models, I think the last one was what 60 or.
+
+331
+00:55:10.740 --> 00:55:22.110
+Edward R. Jones: let's let's go up and take a look at that thread this here it is so here, it is, and this is the last 160 the total number of weights here is 3241.
+
+332
+00:55:22.620 --> 00:55:38.280
+Edward R. Jones: you'll see that, on the lower left hand side of this this output now, when the number of weights, is that large, you have to worry about or wonder about overfitting because the number of inputs just not that large you know, in this case, I think we, I guess, I think it's 50 something.
+
+333
+00:55:39.660 --> 00:55:40.440
+Edward R. Jones: So.
+
+334
+00:55:43.890 --> 00:55:44.490
+Edward R. Jones: The.
+
+335
+00:55:45.690 --> 00:55:53.550
+Edward R. Jones: see what happens when oh there it goes bump bump bump bump boom, oh no bucks oh I goofed up, I was going to put a bug in it okay.
+
+336
+00:55:55.140 --> 00:56:01.680
+Edward R. Jones: All right, Okay, this is a good time for a quick break let's take let's take a 10 minute break we'll start it.
+
+337
+00:56:02.790 --> 00:56:13.980
+Edward R. Jones: restarted see oh it's it's it is exactly 5658 so let's let's go break until 710.
+
+338
+00:56:16.410 --> 00:56:17.310
+Edward R. Jones: We can do that.
+
+339
+00:56:18.510 --> 00:56:19.110
+Edward R. Jones: Okay.
+
+340
+00:56:20.430 --> 00:56:30.900
+Edward R. Jones: And i'm going to get something to drink and be right back and then, if you have any questions on the side, while while you're here, looking at this, by the way, check out the output that's where we'll be talking about next is what.
+
+341
+00:56:31.620 --> 00:56:40.950
+Edward R. Jones: I was talking about the output from curious here will also now be talking about the other output, that is coming out of here and what what does that mean, and so forth okay.
+
+342
+00:56:42.240 --> 00:56:43.230
+Edward R. Jones: Time to get something to drink.
+
+343
+01:05:11.700 --> 01:05:12.510
+Edward R. Jones: Are you still there.
+
+344
+01:07:21.870 --> 01:07:24.780
+Edward R. Jones: Okay let's let's get back out of here if we can.
+
+345
+01:07:28.740 --> 01:07:31.560
+Edward R. Jones: We have a few people that are still out I guess.
+
+346
+01:07:40.440 --> 01:07:43.830
+Edward R. Jones: travis is there Karen is there, good.
+
+347
+01:07:45.630 --> 01:07:48.030
+Edward R. Jones: yeah I just got some the tree.
+
+348
+01:07:50.040 --> 01:07:54.780
+Edward R. Jones: talking like this, like my throat gets kind of dry well.
+
+349
+01:07:56.490 --> 01:07:57.840
+Edward R. Jones: hotties good for that.
+
+350
+01:08:02.280 --> 01:08:04.830
+Edward R. Jones: Okay, Jim how you doing tonight okay.
+
+351
+01:08:07.440 --> 01:08:07.860
+Edward R. Jones: yeah.
+
+352
+01:08:10.560 --> 01:08:11.010
+Edward R. Jones: I.
+
+353
+01:08:11.310 --> 01:08:12.060
+Jim Clark: Did pretty well.
+
+354
+01:08:12.780 --> 01:08:14.700
+Jim Clark: yeah good.
+
+355
+01:08:16.920 --> 01:08:25.860
+Edward R. Jones: I I had dinner with server neighbors and they're kind of they're young right so exactly sure how old.
+
+356
+01:08:27.180 --> 01:08:27.960
+Edward R. Jones: Maybe.
+
+357
+01:08:29.250 --> 01:08:32.970
+Edward R. Jones: I don't know, maybe in the 30s I don't know they have like three kids.
+
+358
+01:08:34.500 --> 01:08:42.540
+Edward R. Jones: So they brought the little kids over you know what one of them was a two year old the other girls boy, he was in kindergarten and.
+
+359
+01:08:43.620 --> 01:08:59.430
+Edward R. Jones: So I thought, what am I gonna do these kids What do you do with kids it's been so long right, so I said oh yeah so I got out that little tello drone and we had a blast line that thing around the House.
+
+360
+01:09:00.930 --> 01:09:02.340
+Edward R. Jones: kid was crazy about.
+
+361
+01:09:03.630 --> 01:09:04.980
+Jim Clark: That two year old.
+
+362
+01:09:05.220 --> 01:09:06.600
+Jim Clark: I guess lot of them are flying.
+
+363
+01:09:07.320 --> 01:09:09.840
+Edward R. Jones: yeah well, he was mostly kindergarten.
+
+364
+01:09:10.500 --> 01:09:25.050
+Edward R. Jones: So, but this kid really bright Oh, my goodness, so I should have two buttons one time, and he knew like right away okay that brightness turns it on that burns off, you know is that the show more than once kids really bright.
+
+365
+01:09:26.340 --> 01:09:37.590
+Edward R. Jones: And I don't know, I get the impression that and he's goofing with a cell phone all the time that the working with cell phones and electronic equipment and things like that, or like he grew up with it.
+
+366
+01:09:40.740 --> 01:09:41.130
+Edward R. Jones: But.
+
+367
+01:09:42.720 --> 01:09:52.860
+Edward R. Jones: Anyway, that was a good time let's go ahead and get started here, I wanted to show you something we're going to we're going to take a look first off at and here's the results.
+
+368
+01:09:53.490 --> 01:10:04.590
+Edward R. Jones: right here from last oh so you're seeing all of the coefficients that were printed out from last so notice that by far, most of them are zero.
+
+369
+01:10:06.150 --> 01:10:17.220
+Edward R. Jones: The intercept, of course, is not zero never would very rarely would be, and then you have small numbers and mostly zeros sort of a good number of these right.
+
+370
+01:10:17.700 --> 01:10:32.370
+Edward R. Jones: So for the operator here you're getting all ciro's I don't see anything that's you know very large there for the county oh I got a couple of big numbers and counting number nine county.
+
+371
+01:10:33.600 --> 01:10:43.170
+Edward R. Jones: And county number 14 now, since we are trying to predict the log or the cumulative the oil production, the bigger the coefficient.
+
+372
+01:10:43.560 --> 01:10:55.890
+Edward R. Jones: The more important, that is to producing more oil, so what this tells me right off the BAT is that getting nine wherever it is they are the goldmine for oil and also county number 13.
+
+373
+01:10:56.400 --> 01:11:17.670
+Edward R. Jones: and so forth, for oil so first pass with the data, and now this was done using a a penalty number of point or two or point one or something like that it's in your code I changed it to zero, I want to show you what happens when you set the penalty to zero, I mean scroll forward.
+
+374
+01:11:18.810 --> 01:11:22.710
+Edward R. Jones: boom, this is what happened this is none of them are zero.
+
+375
+01:11:24.660 --> 01:11:33.480
+Edward R. Jones: it's like they're bunch of a bunch of random numbers almost okay also notice there's some messages coming out here, I would like to read them to you.
+
+376
+01:11:34.710 --> 01:11:52.950
+Edward R. Jones: right here, this is coming right up from psychic learn the last thing with alpha equal to zero this algorithm does not converge well no crybaby you are advised to use the linear regression estimator okay.
+
+377
+01:11:54.150 --> 01:11:56.490
+Edward R. Jones: Okay that's actually a good message right.
+
+378
+01:11:57.780 --> 01:12:15.990
+Edward R. Jones: So if you set it to zero that's equivalent to just not using any penalty function at all and that's what it's telling you why did you set it to zero and you're still using this last Oh, because last I was not designed for that situation use linear regression instead.
+
+379
+01:12:17.520 --> 01:12:22.080
+Edward R. Jones: it's good message, and you can see, you can see what happened uh huh.
+
+380
+01:12:22.110 --> 01:12:32.880
+Jim Clark: And I asked the follow up question if what if you made the Alpha Center point 0121 make it make it bigger me.
+
+381
+01:12:32.910 --> 01:12:37.050
+Edward R. Jones: Okay what's going to happen pretty quickly actually.
+
+382
+01:12:38.280 --> 01:12:43.860
+Edward R. Jones: Is the results that you get because the penalty is so high it'll put them all to zero.
+
+383
+01:12:44.910 --> 01:12:47.550
+Edward R. Jones: Everything goes to zero, when you make it too big.
+
+384
+01:12:49.050 --> 01:12:52.650
+Edward R. Jones: And I don't know, I think, in this case, probably if I set it to three.
+
+385
+01:12:53.940 --> 01:12:56.220
+Edward R. Jones: i'll get all zeros out for the coefficients.
+
+386
+01:12:57.870 --> 01:13:10.320
+Edward R. Jones: So if you if you're reusing LASSO that is one of the things should look at is how many of these zero and how many of them that fear if they're all zero your penalty is too hard.
+
+387
+01:13:11.820 --> 01:13:16.830
+Edward R. Jones: If there if there if there are no zeros and your penalties too small.
+
+388
+01:13:18.300 --> 01:13:31.260
+Edward R. Jones: So you want to you want to start somewhere like point oh one or later and then move it up or down to and see what happens to the variables that have been set to zero, and so forth.
+
+389
+01:13:32.190 --> 01:13:47.760
+Edward R. Jones: Usually, it could be becomes pretty clear quickly Oh, I need to use a penalty and point one or point one or something like that that's the sweet spot that's where I get the right number of variables coming on that makes sense to my my application and my situation.
+
+390
+01:13:48.870 --> 01:13:49.320
+Edward R. Jones: Okay.
+
+391
+01:13:50.370 --> 01:13:58.620
+Edward R. Jones: So I know i'm going to set this back I don't know what is the point or two or something like that that's probably about right, I think.
+
+392
+01:14:01.500 --> 01:14:02.490
+Edward R. Jones: So that's why so.
+
+393
+01:14:03.780 --> 01:14:11.700
+Edward R. Jones: let's go to the next next guy down and then, by the way this is showing you the coefficient so, which ones are zero which ones are not.
+
+394
+01:14:12.270 --> 01:14:28.650
+Edward R. Jones: And then, this is showing the average squared error that's the ASC the top one here, this is for the entire data set so the average ASC for the entire data set is point 2897.
+
+395
+01:14:29.760 --> 01:14:41.970
+Edward R. Jones: ASC for the training did is point 2882 and for the validation data point 2932 now your numbers may be a little different because i'm on a MAC and the.
+
+396
+01:14:42.240 --> 01:14:55.500
+Edward R. Jones: The random number generator here may be different from yours computer so, but it should be close to this, the point here is, you want to look at trainee versus validation 70 versus 30 to see if you're overfitting.
+
+397
+01:14:56.760 --> 01:15:07.680
+Edward R. Jones: And so, if you look at this you see that the the ASC average squared error is a little bit smaller for the training data than it is for the validation data.
+
+398
+01:15:08.160 --> 01:15:24.660
+Edward R. Jones: that's normal because you're using the training data to actually calculate the coefficients and then you are applying those predictions to the holdout sample the validation data and you expect to see a not so good over there, but this is about right, I mean it's not.
+
+399
+01:15:25.710 --> 01:15:34.260
+Edward R. Jones: That much different from the training data to say that oh we're overfitting now get the validation number was like two or three times, or more.
+
+400
+01:15:34.950 --> 01:15:44.370
+Edward R. Jones: The difference of the ASC from the training then yeah we're we're fitting the data now how would that happen well, maybe you're including too many coefficients changed penalty.
+
+401
+01:15:47.670 --> 01:16:05.280
+Jim Clark: Yesterday I asked questions just for completeness, so a lot of the terms are a log log base he or a log base 10 highest form before you run the calculations and so, if you were looking at it quantitatively.
+
+402
+01:16:07.770 --> 01:16:16.590
+Jim Clark: Every square will be the logarithm of the average worker to you do you want to make it scale or you'd have to you know, to take an inverted in there right.
+
+403
+01:16:18.390 --> 01:16:20.970
+Edward R. Jones: Well, I don't know i'm not sure what showing.
+
+404
+01:16:21.900 --> 01:16:25.170
+Edward R. Jones: So this is an average, in other words we're squaring the numbers.
+
+405
+01:16:25.890 --> 01:16:28.980
+Edward R. Jones: all the way through, but we're at we're averaging those.
+
+406
+01:16:31.800 --> 01:16:32.880
+Edward R. Jones: Okay well i'll take.
+
+407
+01:16:33.120 --> 01:16:34.380
+Jim Clark: i'll take that side and.
+
+408
+01:16:34.620 --> 01:16:39.750
+Edward R. Jones: you're you're you're worried about the log the fact that you're taking a log right.
+
+409
+01:16:40.830 --> 01:16:45.210
+Edward R. Jones: yeah yes, Sir we're live we're taking the difference in logs, which is the same thing as a ratio.
+
+410
+01:16:45.630 --> 01:16:46.020
+Okay.
+
+411
+01:16:51.900 --> 01:16:59.070
+Edward R. Jones: In some applications this discussion is very, very important do I take logs or don't I do not take locks.
+
+412
+01:17:00.840 --> 01:17:12.030
+Edward R. Jones: That discussion usually gets to Is it better to look at differences of why versus the predicted Y or the ratio of y to the prediction.
+
+413
+01:17:13.440 --> 01:17:20.460
+Edward R. Jones: If the answer is the ratios are more important than the actual difference than you want to work with logs.
+
+414
+01:17:22.170 --> 01:17:26.790
+Edward R. Jones: But that's it that that is a very important question when people talk about that.
+
+415
+01:17:28.170 --> 01:17:28.770
+Edward R. Jones: Okay.
+
+416
+01:17:30.750 --> 01:17:42.390
+Edward R. Jones: So it looks like the less of a fit is doing okay it's not overfitting then, if we go down to the next set of information, we have the random forest coming up.
+
+417
+01:17:43.350 --> 01:17:54.330
+Edward R. Jones: And notice that the it says that the split criterium is msc so it's using the mean squared error or the average squared air as the decision.
+
+418
+01:17:55.170 --> 01:18:10.650
+Edward R. Jones: Point for splitting into branch and making the trees and things like that the maximum depth here is four and the minimum split size minimum lease sizes are five the R squared for 7.47.
+
+419
+01:18:12.060 --> 01:18:27.390
+Edward R. Jones: Now, if you look at the training data and the validation data and you'll see that the R squared for the train Davis, of course, a little bit higher than the validation the average squared error is point two, three verses Point two seven so.
+
+420
+01:18:28.620 --> 01:18:37.530
+Edward R. Jones: We might say that this tree, we might be concerned that this tree, maybe overfitting the random forest maybe overfitting the data because.
+
+421
+01:18:37.890 --> 01:18:46.080
+Edward R. Jones: The average squared error is so much smaller than the validation However, in this case it is not that much smaller.
+
+422
+01:18:46.800 --> 01:19:00.150
+Edward R. Jones: And you're already restricting the depths of for the only way to fix this if you had a situation where you're the training data is fitting very, you know very well on the validation is like two or three times worse.
+
+423
+01:19:01.320 --> 01:19:08.550
+Edward R. Jones: The only thing you can do is to ratchet down the depth, the first thing you want to do is ratchet down that number right there.
+
+424
+01:19:08.880 --> 01:19:19.260
+Edward R. Jones: And you can see i've already done that I think the first time I ran, this is the maximum depth 30 or 20 or something like that, and with that kind of thing you can you can definitely see.
+
+425
+01:19:19.770 --> 01:19:28.830
+Edward R. Jones: overfitting situation let's do that just for the fun of it so here i'm going to line number 52 where it says Max depth this for and i'm going to make that.
+
+426
+01:19:30.450 --> 01:19:45.450
+Edward R. Jones: What the heck or even worse 30 let's go to 30 yeah all right, and then instead of a minimum size of five let's make that two, which is ridiculous okay.
+
+427
+01:19:46.230 --> 01:19:55.950
+Edward R. Jones: Minimum leaf size up to it, I want it all right now, this this does take a couple of minutes, but I think what we're going to see there is some overfitting.
+
+428
+01:19:56.460 --> 01:20:07.110
+Edward R. Jones: Of the random forest, so those of you that are using random forest, this is kind of the thing that you'd want to look at is how close, am I getting to the validation data.
+
+429
+01:20:07.500 --> 01:20:22.050
+Edward R. Jones: The average squared error or the classification rate or what have you, they should be comparable and if the training data is doing much better, which happens frequently check on you to check your maximum depth and maybe ratchet pull that down a little bit.
+
+430
+01:20:23.220 --> 01:20:35.190
+Edward R. Jones: The funny thing here is in in Python well in psychic learn here, if you do not specify this number, the maximum depth, by default, there is no debt maximum.
+
+431
+01:20:36.180 --> 01:20:55.500
+Edward R. Jones: psychic learn will allow the tree to get as large as large as it likes and and then it also sets of minimum lease sites to like to so you the the setup for psychic learn on random forces get almost guaranteed to give you an overfitting problem.
+
+432
+01:20:56.550 --> 01:21:09.480
+Edward R. Jones: If you if you're if you're not careful, there, so if you do not ratchet back some of these parameters that it has you are almost guaranteed to get it over fit with random forest.
+
+433
+01:21:11.820 --> 01:21:23.790
+Edward R. Jones: The same thing can happen with most of these models, I mean the with a neural network, if you have well with the decision tree if you let the maximum depth to get the any number which it does, by default, in this case.
+
+434
+01:21:25.380 --> 01:21:33.270
+Edward R. Jones: or in the case of a neural network now neural network, so you have to specify how many layers and how many neurons you want, but.
+
+435
+01:21:33.750 --> 01:21:41.370
+Edward R. Jones: If you put too many layers in and too many neurons it's very common to see an overfitting problem in the neural network.
+
+436
+01:21:42.030 --> 01:21:54.660
+Edward R. Jones: Technically speaking there's there's some some theorems essays, if you like, give me, allow me to put as many neurons I wanted to the network, I can get a network that will reproduce the data exactly.
+
+437
+01:21:55.530 --> 01:22:01.200
+Edward R. Jones: Well, if you have 100 observations and you have 100 neurons that's not a hard thing to do right.
+
+438
+01:22:02.700 --> 01:22:03.420
+Edward R. Jones: You just.
+
+439
+01:22:04.440 --> 01:22:09.480
+Edward R. Jones: You know, set the output for each one of those equal to whatever that observation is no.
+
+440
+01:22:12.600 --> 01:22:21.120
+Edward R. Jones: that's why here psychic learn shows you, the number of parameters, because if that number of parameters is a is larger than the input.
+
+441
+01:22:22.080 --> 01:22:29.640
+Edward R. Jones: much larger than the input, it is in this case, you can expect that you should have a very good that the training data.
+
+442
+01:22:30.270 --> 01:22:43.050
+Edward R. Jones: The question always comes then well, so you get the training data well how about the validation data is how well is that going let's see it we're on we're almost done here with the terrorists today.
+
+443
+01:22:44.130 --> 01:22:44.520
+Edward R. Jones: Okay.
+
+444
+01:22:45.900 --> 01:22:49.530
+Edward R. Jones: we're going to see what happens to random forest.
+
+445
+01:23:09.510 --> 01:23:25.200
+Edward R. Jones: yo nowadays it's quite common to see neural networks with the where the number of weights is much larger than the number of observations, but it's really kind of scary to do that Okay, here we go there's LASSO.
+
+446
+01:23:26.490 --> 01:23:32.070
+Edward R. Jones: And here's the random forest right here so notice what happens so.
+
+447
+01:23:33.420 --> 01:23:49.740
+Edward R. Jones: Random forest with the depth of 30 the on the train side, the average score there's point 0427 and the validation dawn not so good point to one so it's about what five.
+
+448
+01:23:50.940 --> 01:24:03.840
+Edward R. Jones: or so times larger than the training data that's what you would look for for in overfitting is the training the validation numbers, going to be several times larger than the than the training data.
+
+449
+01:24:04.590 --> 01:24:16.800
+Edward R. Jones: And the way you fix that is you go in here, and you ratchet down the the maximum depth and maybe also the you increase the minimum required the crime rate for the minimum size so.
+
+450
+01:24:17.100 --> 01:24:19.410
+Edward R. Jones: i'm going to go back and tweak that depth back down to.
+
+451
+01:24:19.710 --> 01:24:27.180
+Edward R. Jones: Four, I think I had and then five and five on the minimum we've psychosis and that'll that gets us where the.
+
+452
+01:24:28.290 --> 01:24:35.520
+Edward R. Jones: Training validation is about this point to something to want and the validation is about the same.
+
+453
+01:24:37.500 --> 01:24:38.070
+Edward R. Jones: Okay.
+
+454
+01:24:39.780 --> 01:24:44.610
+Edward R. Jones: Now we get to the the main actor here, which is so Hello.
+
+455
+01:24:46.290 --> 01:24:48.390
+Edward R. Jones: yeah I have a hard time hearing you, for some reason.
+
+456
+01:24:48.840 --> 01:24:51.150
+Wilson Pineda: Yes, oh just give me a second sorry.
+
+457
+01:24:52.140 --> 01:24:54.450
+Wilson Pineda: Okay, can you hear me better now.
+
+458
+01:24:54.750 --> 01:24:55.500
+Edward R. Jones: Oh perfect.
+
+459
+01:24:55.890 --> 01:25:00.570
+Wilson Pineda: Yes, I have a question I think in this particular case, even though.
+
+460
+01:25:02.220 --> 01:25:19.290
+Wilson Pineda: We when we say that your overall feeling the training data, but overall, and the validation insulated be better than when you have used for us are there so he said okay you all will feed the data, but you see getting a smaller number on the validation.
+
+461
+01:25:22.230 --> 01:25:23.880
+Edward R. Jones: You mean the reverse situation.
+
+462
+01:25:24.270 --> 01:25:27.900
+Wilson Pineda: know, on this day like when you have four on the day.
+
+463
+01:25:28.080 --> 01:25:32.010
+Wilson Pineda: yeah the validation the ASC was point 28.
+
+464
+01:25:32.310 --> 01:25:46.530
+Wilson Pineda: which was a little bit higher than this, so he says that you are overfitting by the same time, you said that you're working better with the validation so, is it Okay, yes we're feeling that case or would you avoid any any.
+
+465
+01:25:47.400 --> 01:25:50.460
+Edward R. Jones: You know I think I think you want to avoid over thing.
+
+466
+01:25:50.490 --> 01:25:51.570
+Edward R. Jones: At all costs.
+
+467
+01:25:51.960 --> 01:26:01.230
+Edward R. Jones: Okay, but but I mean a little bit a little bit it's not going to incriminate the entire fit right so you're looking for gross differences like here.
+
+468
+01:26:01.800 --> 01:26:15.060
+Edward R. Jones: If you have just a small before we had a small relatively small difference between the training the validation i'm not going to get heartburn about that, but the reason the reason we your watch to watch this very carefully, is because the question.
+
+469
+01:26:15.060 --> 01:26:15.720
+Edward R. Jones: always comes.
+
+470
+01:26:15.990 --> 01:26:26.640
+Edward R. Jones: So I make a forecast for a new set of data data that I have never seen before, and we now want to form, make a forecast for that, and I want that to be reasonably accurate.
+
+471
+01:26:27.450 --> 01:26:36.780
+Edward R. Jones: that's the validation data so that number on the validation side is showing you what the accuracy would be for another set of data similar to this, but not the same.
+
+472
+01:26:38.730 --> 01:26:39.750
+Edward R. Jones: yeah so.
+
+473
+01:26:39.960 --> 01:26:44.730
+Wilson Pineda: um, but if you don't if you don't control that, then what good is the model.
+
+474
+01:26:45.270 --> 01:27:00.900
+Edward R. Jones: But if you're only interested in forecasting these data, and these data only and there are problems like that, where you, you only want to work, the model for this set of numbers, then it doesn't matter you don't have to worry about over fitting all right.
+
+475
+01:27:01.980 --> 01:27:04.560
+Edward R. Jones: um yeah i'm sorry go ahead.
+
+476
+01:27:05.100 --> 01:27:07.230
+Wilson Pineda: No, no, that goes in this particular case okay.
+
+477
+01:27:08.340 --> 01:27:09.870
+Wilson Pineda: You go by stander.
+
+478
+01:27:10.980 --> 01:27:23.280
+Wilson Pineda: With theory you got point 26 and they see, but we, for you have sort of with threaded you have point 26 and we, for you have point 28.
+
+479
+01:27:23.760 --> 01:27:27.480
+Wilson Pineda: So you may say that the validation is better when you are overfitting.
+
+480
+01:27:27.750 --> 01:27:38.370
+Wilson Pineda: As you want to have a sense of how good is good, because if I go by the validation The third is better than before this case, if I don't take into consideration the overfeeding.
+
+481
+01:27:40.290 --> 01:27:41.190
+Edward R. Jones: yeah this is.
+
+482
+01:27:42.930 --> 01:27:45.630
+Edward R. Jones: Oh, here it is here's the average squared error, with a four.
+
+483
+01:27:46.920 --> 01:27:52.410
+Edward R. Jones: And you can see it's point 3239 verses Point two seven.
+
+484
+01:27:53.460 --> 01:27:53.910
+Edward R. Jones: Right.
+
+485
+01:27:54.930 --> 01:27:55.620
+Edward R. Jones: So.
+
+486
+01:27:57.090 --> 01:28:00.540
+Edward R. Jones: i'm more comfortable with this, because it's because they are about saying.
+
+487
+01:28:01.170 --> 01:28:01.920
+Wilson Pineda: Okay perfect.
+
+488
+01:28:02.400 --> 01:28:07.530
+Edward R. Jones: But I think what you're concerned, you said Oh well, yeah but that point two seven is bigger than was right.
+
+489
+01:28:07.560 --> 01:28:12.180
+Wilson Pineda: yeah you have a sense of I mean what is it trade off to what point.
+
+490
+01:28:14.520 --> 01:28:21.120
+Edward R. Jones: I don't think you ever want to have a huge gap between these two numbers, but of course you'd like to get them down so.
+
+491
+01:28:22.800 --> 01:28:24.120
+Edward R. Jones: it's it's your opinion.
+
+492
+01:28:24.840 --> 01:28:28.080
+Edward R. Jones: you're not to do what you want there's no statistical magic here.
+
+493
+01:28:28.290 --> 01:28:32.490
+Edward R. Jones: In terms of there's no rule of thumb of how how different, they can be.
+
+494
+01:28:34.020 --> 01:28:34.770
+Wilson Pineda: Thank you doctor.
+
+495
+01:28:35.550 --> 01:28:36.930
+Edward R. Jones: But what I say that.
+
+496
+01:28:36.960 --> 01:28:47.040
+Edward R. Jones: One of the things though everybody looks at random forest with the slight I you know it's like Okay, so it looks pretty good but really.
+
+497
+01:28:49.170 --> 01:28:59.640
+Edward R. Jones: Because the random horse or so the tutorials for filling the overfitting the data, the training data, you know if you make the tree big enough, you can fit the training data almost exactly.
+
+498
+01:29:00.810 --> 01:29:02.370
+Edward R. Jones: But thank you yeah sure.
+
+499
+01:29:03.780 --> 01:29:14.160
+Edward R. Jones: Well let's go on to charisse and see what curious as to offer, as I mentioned here in charisse what we're doing is actually fitting for six different networks.
+
+500
+01:29:15.210 --> 01:29:24.720
+Edward R. Jones: totally different we're using 208 boxes and about 25 size let's take a look at what we what came out of here and the output now.
+
+501
+01:29:27.510 --> 01:29:40.080
+Edward R. Jones: This is okay yeah there are 52 features in the data, by the way, 52 columns when you include those one hot columns little lot of series and, once this is.
+
+502
+01:29:41.130 --> 01:29:43.680
+Edward R. Jones: This is the output from the.
+
+503
+01:29:45.450 --> 01:29:46.950
+Edward R. Jones: psychic learn network.
+
+504
+01:29:48.510 --> 01:29:50.850
+Edward R. Jones: I believe yeah and.
+
+505
+01:29:52.560 --> 01:29:53.340
+Edward R. Jones: So.
+
+506
+01:29:54.930 --> 01:30:07.080
+Edward R. Jones: Let me make sure about that i'm looking at the UK with here random forest results from FN then thread okay now, this is the results from the psychic learn neural network.
+
+507
+01:30:07.560 --> 01:30:21.090
+Edward R. Jones: And the number of neurons here is 40 and you actually have, if you look at the code you'll see that here it is at the and then I have the the network is two layers.
+
+508
+01:30:21.630 --> 01:30:32.160
+Edward R. Jones: 20 in the first layer and 20 in the second layer it's using the Arielle you activation, which is the quick one and the solvers Adam.
+
+509
+01:30:32.610 --> 01:30:44.820
+Edward R. Jones: 1000 iterations and now, if we look at this, we see how many iterations did we actually use 348 so we didn't hit the wall this thing converged before ran out of the iterations.
+
+510
+01:30:45.540 --> 01:31:03.300
+Edward R. Jones: Which is a good thing, the average squared error is point 312 for the entire data set and, if you look at how it works out for the training and validation data it's point 309 verses point 317 so.
+
+511
+01:31:03.990 --> 01:31:12.780
+Edward R. Jones: there's no overfitting here, but the fit is not as good as the random forest that we just looked at, you know around the porch was a little bit smaller than this.
+
+512
+01:31:13.710 --> 01:31:21.480
+Edward R. Jones: So, but it's, this is not that much different than it, but the nice thing about the random force which you don't see here with the.
+
+513
+01:31:22.560 --> 01:31:33.510
+Edward R. Jones: F, the SK learn neural network is you can get importance, and I think that I didn't plot that out, but if you just you can display from the.
+
+514
+01:31:34.560 --> 01:31:45.480
+Edward R. Jones: Random force you can display the importance of each of the factors, and you can then order them in some way, to say the most important factors this and the next month, and so forth, you know all about that.
+
+515
+01:31:46.170 --> 01:31:54.960
+Edward R. Jones: You can't do that easily with a neural network now let's go down and take a look at charisse and these plots are showing you kind of what happens with charisse.
+
+516
+01:31:55.500 --> 01:32:08.310
+Edward R. Jones: The blue is the validation data and the red is the training data, and so the optimization process is trying to draw now on the left hand side the vertical axis in this for upper plot, this is the average squared error.
+
+517
+01:32:08.940 --> 01:32:19.560
+Edward R. Jones: So we're trying to drive it down to the smallest possible, you can see, they were doing that pretty well at the train data now we're using in this case we're using.
+
+518
+01:32:22.020 --> 01:32:28.320
+Edward R. Jones: And you see on the right hand side here eat box or the epoch numbers on the listed along the bottom.
+
+519
+01:32:29.160 --> 01:32:43.980
+Edward R. Jones: And what happens at each epoch is it checked and optimizes the weights that improves the weights and then, as it does the ASC the average screwed airdrops smaller and smaller, but you can see it's kind of plateauing down to the about.
+
+520
+01:32:45.030 --> 01:32:45.870
+Edward R. Jones: Point 3.30.
+
+521
+01:32:47.010 --> 01:32:58.320
+Edward R. Jones: That by that, by the way, is what we just saw in the in the other models random forest is a little better than that, but this is looks like it's close to Point three.
+
+522
+01:32:58.890 --> 01:33:04.650
+Edward R. Jones: The validation data that is a different story it's jumping all over the place, like that.
+
+523
+01:33:05.460 --> 01:33:14.880
+Edward R. Jones: This jumping around like this is a function of two thing, as several things, but you can reduce the jumping around by number one.
+
+524
+01:33:15.240 --> 01:33:26.580
+Edward R. Jones: Switching optimizer sometimes some optimizer is have more difficulty converging than others, and you might find that if you switch the optimizer to add them or.
+
+525
+01:33:27.360 --> 01:33:39.960
+Edward R. Jones: add a delta, whatever that it may be, it smooths out about the other thing that affects to house this jumping around is the size, so the cheaper, so in this particular case, we were running.
+
+526
+01:33:41.880 --> 01:33:58.560
+Edward R. Jones: Here we go 220 200 reports with a size of 25, which means that we're taking the data and and divided into 25 chunks and then each chunk is used to optimize the.
+
+527
+01:33:59.490 --> 01:34:15.690
+Edward R. Jones: The weights now let's try something here, if you are you with me, I hope, you're with me tonight Okay, so what i'm going to do is i'm antennas going size of 25 i'm going to make it a size of let's get crazy here, this is not a big data set let's say for.
+
+528
+01:34:16.800 --> 01:34:25.800
+Edward R. Jones: Okay, and so let's see how much this actually smooths out if we if we drop it down to a size four.
+
+529
+01:34:26.760 --> 01:34:36.240
+Edward R. Jones: i'm just going to go hit run over here and talk about this as it's running okay there it goes what the other thing you'll see at the below here.
+
+530
+01:34:36.930 --> 01:34:46.380
+Edward R. Jones: Is you'll see the average squared error calculated for the training data and for the validation data again you're looking for overfitting which.
+
+531
+01:34:47.100 --> 01:34:52.530
+Edward R. Jones: With care SIS like never happen so you've just don't see overfitting going on here very often.
+
+532
+01:34:53.100 --> 01:35:07.050
+Edward R. Jones: But you can see that we've got about point two, nine on the train data point three, so that that is consistent with what we saw on the other models, the random forest probably did we might say did a little bit better than this.
+
+533
+01:35:08.430 --> 01:35:09.030
+Edward R. Jones: The.
+
+534
+01:35:10.050 --> 01:35:20.370
+Edward R. Jones: Below there you have the three Sigma residuals that are being printed out, so this is an interval variable so the observed.
+
+535
+01:35:21.000 --> 01:35:27.660
+Edward R. Jones: values for the interval variable we're in the second column here, this is the actual observation over the data set.
+
+536
+01:35:28.170 --> 01:35:33.120
+Edward R. Jones: And then the predicted value from the model is just the right, you can see that mostly.
+
+537
+01:35:33.990 --> 01:35:42.090
+Edward R. Jones: The the area where we have these higher residuals we have a overproduce under prediction we're all sorry over prediction.
+
+538
+01:35:42.600 --> 01:35:56.970
+Edward R. Jones: situation where we are predicting the number to be higher than it actually is, and that results in this negative procedurals you see here, you can do a three Sigma calculation Sigma would be the average AC.
+
+539
+01:35:58.050 --> 01:36:08.010
+Edward R. Jones: Times three or the square root of that times three so I take the validation number, which is point 3147 you take the square root of that times three.
+
+540
+01:36:08.670 --> 01:36:23.040
+Edward R. Jones: And no more than 3% of the data should be outside that area, in other words, no more than 3% of the observation should fall above or below that number plus or minus three Sigma on the residual.
+
+541
+01:36:23.580 --> 01:36:41.580
+Edward R. Jones: Now these residuals are all below that number minus you know you see anything below minus 1.68 or above plus 1.68 would be a outlier potential outlier and you can see here, these are all below.
+
+542
+01:36:42.210 --> 01:36:55.890
+Edward R. Jones: Negative they're all less than negative 1.68 the actual number of these is 15 out of a total of 1400 and 26 validation observations.
+
+543
+01:36:56.340 --> 01:37:04.200
+Edward R. Jones: So we're just just looking here at the validation data to see what percentage of these predictions go.
+
+544
+01:37:04.740 --> 01:37:29.280
+Edward R. Jones: go further out than just three standard deviations you can see that 15 out of 1426 is 1% of the data which by the way, is not bad, the expected number beyond three Sigma is 3% so you only get like antsy if one of two conditions occurred number one This is more than 1%.
+
+545
+01:37:30.390 --> 01:37:42.810
+Edward R. Jones: If you get like three 4% and yeah you got too many out in the tail too many deviations from the predictions and more than expected, we expect only 3%.
+
+546
+01:37:43.650 --> 01:37:57.480
+Edward R. Jones: The other situation can be some of these residuals individually can be beyond well beyond this this limit 1.68 so I might have a value in here that's beyond six Sigma.
+
+547
+01:37:58.110 --> 01:38:12.090
+Edward R. Jones: So that would be twice this number, which would be about 3.2 and so, if I had a three well oh hang on Okay, speaking of I do have one here.
+
+548
+01:38:12.870 --> 01:38:36.840
+Edward R. Jones: there's a negative 3.3 okay so yeah that is just outside of six Sigma and in as a practical matter what we would do here is, we would pull this observation, this is observation number 786 to see whether there's anything about that data that might warrant.
+
+549
+01:38:38.130 --> 01:38:59.070
+Edward R. Jones: Changing or excluding that observation, so this This observation is beyond the statistical limits of six Sigma which, as I say, would indicate that the model is doing a crummy job predicting this guy which could be because the observation which is 9.5 is too small.
+
+550
+01:39:00.150 --> 01:39:09.870
+Edward R. Jones: should be higher now so you'd want to go and check that out and see whether there's something there, or maybe there's something in the model that you've overlooked that should be included.
+
+551
+01:39:10.230 --> 01:39:17.280
+Edward R. Jones: Maybe there's a feature that you didn't include that might be what you might need to include to explain this gap.
+
+552
+01:39:21.300 --> 01:39:27.660
+Edward R. Jones: Okay, and we're running we're running yeah okay so he's that number to me here.
+
+553
+01:39:32.460 --> 01:39:33.930
+Edward R. Jones: This is going much slower.
+
+554
+01:39:35.250 --> 01:39:52.410
+Edward R. Jones: I think I mentioned the be we had it at 25 and now we're down at four, so the number of computations is as larger and that makes for a slow going, even though this data is only have 4000 or so observations, I think it is.
+
+555
+01:39:58.020 --> 01:39:58.560
+Edward R. Jones: So.
+
+556
+01:40:00.060 --> 01:40:05.490
+Edward R. Jones: 1% of the data that we have what did we say of 4000 observations.
+
+557
+01:40:07.230 --> 01:40:13.890
+Edward R. Jones: Right 4752 observations and so 1% of that would be.
+
+558
+01:40:15.030 --> 01:40:17.310
+Edward R. Jones: 4048.
+
+559
+01:40:19.380 --> 01:40:24.060
+Edward R. Jones: So we would often start instead of four here, I would have 48 or.
+
+560
+01:40:25.110 --> 01:40:33.960
+Edward R. Jones: Half of that 24 i'm getting i'm getting really down to the much larger sample size.
+
+561
+01:40:35.310 --> 01:40:40.140
+Edward R. Jones: But I wanted to, if this is ever going to stop okay we're at 30.
+
+562
+01:40:43.260 --> 01:40:45.030
+Edward R. Jones: i'm not sure it's going to stop okay.
+
+563
+01:40:46.440 --> 01:40:58.080
+Edward R. Jones: Well it's working let's go and let's go to our next target or, then, that is, if you go to e campus i'd like you to download.
+
+564
+01:41:00.300 --> 01:41:01.770
+Edward R. Jones: Okay we're going to back up here.
+
+565
+01:41:03.510 --> 01:41:14.580
+Edward R. Jones: Okay nominal target this guy right here, so you I don't know if you've seen this data before, but this data is a smartphone data, so you have basically.
+
+566
+01:41:15.270 --> 01:41:25.890
+Edward R. Jones: The data set is right here csv if you could download that into a folder where you're working and also then download this guy right here smartphone dot P, why.
+
+567
+01:41:27.150 --> 01:41:28.950
+Edward R. Jones: Okay, those two guys.
+
+568
+01:41:30.390 --> 01:41:42.870
+Edward R. Jones: And this is an example of a nominal target the target here is what activity is the owner of the phone doing, are they sleeping are they walking are they standing.
+
+569
+01:41:43.650 --> 01:41:53.790
+Edward R. Jones: There are six different modes of operation that they recorded and then, when they were doing that, whether it was sleeping or walking what have you.
+
+570
+01:41:54.270 --> 01:42:06.540
+Edward R. Jones: They recorded over 500 different sensors that were in the phone now some of this was not the actual sensor in reality they probably have a half a dozen sensors but.
+
+571
+01:42:06.990 --> 01:42:16.440
+Edward R. Jones: They recorded this over time right over I don't know 32nd window or 22nd window to see whether or not you would see a pattern.
+
+572
+01:42:16.800 --> 01:42:25.980
+Edward R. Jones: With the sensors that would indicate that the person was walking or sleeping or what have you so that was the idea here, and this is a.
+
+573
+01:42:26.640 --> 01:42:38.070
+Edward R. Jones: Popular actual data set of people do this is still trying to predict it by looking at the information from the phone trying to pick what that person is is there are they mobile are they moving.
+
+574
+01:42:38.370 --> 01:42:53.010
+Edward R. Jones: Or are they sitting, or they sleeping you know that kind of thing and that's what we're going to look at here, so, if you would please download this data set put it in a folder somewhere download this data set smartphone put it in the same folder.
+
+575
+01:42:54.090 --> 01:43:12.090
+Edward R. Jones: The program curious smartphone P, why is designed to read this data, as long as this data is in the same folder as as the code and you'll see in just a minute how that's going how that happens, and why that's set up that way.
+
+576
+01:43:13.680 --> 01:43:18.090
+Edward R. Jones: Okay, so we are still here on.
+
+577
+01:43:20.220 --> 01:43:28.020
+Edward R. Jones: Number 40 the two more to go let's go ahead and open up the smartphone data.
+
+578
+01:43:37.080 --> 01:43:40.770
+Edward R. Jones: All right, i'm gonna have to open smartphone.
+
+579
+01:43:49.980 --> 01:43:49.980
+Edward R. Jones: Okay.
+
+580
+01:43:51.180 --> 01:44:00.510
+Edward R. Jones: Okay let's take a look at the code well the other ones running in the background and you'll see the you'll see some familiar imports up here.
+
+581
+01:44:01.440 --> 01:44:14.130
+Edward R. Jones: As a matter of fact, the imports for charisse are exactly the same, we have 1234 imports, we have models, we have layers we have utilities and then we have the optimizer.
+
+582
+01:44:14.820 --> 01:44:23.340
+Edward R. Jones: Adam rms and so forth, that that we've been using and then you have SK learns competitors, the random forest.
+
+583
+01:44:24.330 --> 01:44:40.290
+Edward R. Jones: And the this MP nlp classifier is the neural network from assess kaler and then there is a forest classifier now previously, we had forest regress or and nlp regress or that's the way.
+
+584
+01:44:41.190 --> 01:44:55.260
+Edward R. Jones: You know SK learn does their thing you have regrets or models and then classifier models, the classifier is our for binary and nominal targets and then the regrets or for interval of course you know all this stuff.
+
+585
+01:44:56.550 --> 01:45:06.030
+Edward R. Jones: notices tense of floors tensorflow is up here as tf that's their primary to set the random seed pretends to flow in this example.
+
+586
+01:45:06.960 --> 01:45:18.480
+Edward R. Jones: let's go through here, and at the top you'll see charisse it says charisse accuracy plots, this is a function that will be using to plot the results from charisse.
+
+587
+01:45:18.870 --> 01:45:29.520
+Edward R. Jones: you send it over the history dictionary the the predictions for the training and validation data, and then the actual training and validation data, and then the file name.
+
+588
+01:45:30.060 --> 01:45:45.720
+Edward R. Jones: or non if you don't want to file the file is for the output picture I mean if you have the graph if you want to put it into a file you put a name in there, if you don't it'll just doesn't do it, or just shows up on the screen and get which okay.
+
+589
+01:45:46.800 --> 01:45:53.520
+Edward R. Jones: But we'll go we'll be going through this a little bit later, but let's go down to where we're actually creating the model.
+
+590
+01:45:54.720 --> 01:45:55.590
+Edward R. Jones: So.
+
+591
+01:45:58.950 --> 01:46:00.660
+Edward R. Jones: Oh okay.
+
+592
+01:46:02.880 --> 01:46:18.900
+Edward R. Jones: right here at line 300 and 132 you see it says MP dot random seed 12345 that sets the number few random seeds, so that when we create the 7030 split.
+
+593
+01:46:19.950 --> 01:46:22.110
+Edward R. Jones: That is done the same, every time.
+
+594
+01:46:23.130 --> 01:46:33.450
+Edward R. Jones: And so I set the number three random see that at the before doing that split and also there is a random seed, that you can set inside the SK learn.
+
+595
+01:46:34.920 --> 01:46:40.800
+Edward R. Jones: Train test split situation there, so we're doing a 7030 split right here.
+
+596
+01:46:42.000 --> 01:46:48.000
+Edward R. Jones: And then we have a few lines of code that define the optimizer is, this is it was basically.
+
+597
+01:46:49.200 --> 01:46:51.240
+Edward R. Jones: cut and pasted from the other Program.
+
+598
+01:46:53.070 --> 01:46:54.630
+Edward R. Jones: And then we're going to go.
+
+599
+01:46:55.920 --> 01:47:18.330
+Edward R. Jones: and go down, and we were pulling out the number of features, the number of training cases, the number of validation cases and then the number of the boxes 100 and the size, for that is a team that's that corresponds to approximately a half of a percent of the total number of observations.
+
+600
+01:47:19.530 --> 01:47:23.250
+Edward R. Jones: The total more we'll see that here, in just a second now.
+
+601
+01:47:24.450 --> 01:47:34.020
+Edward R. Jones: Then you can see here all of the different scenarios that I actually ran to find the best fit the best model.
+
+602
+01:47:34.800 --> 01:47:41.880
+Edward R. Jones: At first I just tried the assess neural list here of the top what I did was I tried fitting all.
+
+603
+01:47:42.840 --> 01:47:50.370
+Edward R. Jones: single layer models a bunch of single layer model, starting with six and going up to 15 neurons that's what I normally do.
+
+604
+01:47:51.150 --> 01:48:01.950
+Edward R. Jones: Because, then you get an idea of how many neurons do I want to have in my model so one in one of these will pop out now 15 POPs out, then I got keep cranking it up even higher.
+
+605
+01:48:02.430 --> 01:48:07.980
+Edward R. Jones: If six POPs out, I would go down the other end but normally you'll get somewhere something in the middle will pop out.
+
+606
+01:48:08.490 --> 01:48:18.720
+Edward R. Jones: And then you focus it on that, like in this case the this one number 14 this popped out so, then I create a second list, where I put 14 in there.
+
+607
+01:48:19.290 --> 01:48:39.630
+Edward R. Jones: And I create some network definitions that are close to 14 like this 112 and the first layer six of the second 14 and the first layer seven and the maybe they want something behind 14 and then six out of 16 eight, so you can try some to level networks here from 14.
+
+608
+01:48:40.650 --> 01:48:51.270
+Edward R. Jones: and see how that works now I ran that guess what 14 came out again 14 was still the best the best option, no, no two layers I said well.
+
+609
+01:48:51.600 --> 01:49:04.170
+Edward R. Jones: How about three layers so I went to 14 and 1414 614 seven six, you can see, the three layer configuration, so they tried guess what 14 still has vest.
+
+610
+01:49:04.650 --> 01:49:24.750
+Edward R. Jones: So the final solution was neural neural network with 14 in one single layer now in order to make that easy what I did was here is set up a little if statements, if the if the number level is this one just put in one layer this little layer right here.
+
+611
+01:49:26.160 --> 01:49:29.700
+Edward R. Jones: If the number of layers is greater than one put in the second layer
+
+612
+01:49:31.740 --> 01:49:40.320
+Edward R. Jones: Right, firstly, or and a second layer excuse me, and if it's greater than to put in the second layer for sure.
+
+613
+01:49:42.660 --> 01:49:51.870
+Edward R. Jones: like this, three so you can see that what happens is the actual definition of the neurons changes, a little bit.
+
+614
+01:49:53.640 --> 01:50:05.760
+Edward R. Jones: neurons one zero would be the first number in the temple neurons one would be the second number in the temple and then number two would be the last number like that so you're adding those in there.
+
+615
+01:50:06.840 --> 01:50:12.870
+Edward R. Jones: And you're going to see when it prints out it actually prints out that information, similar to the tables on the right hand side.
+
+616
+01:50:15.000 --> 01:50:18.690
+Edward R. Jones: Now this is something that's very, very important.
+
+617
+01:50:20.850 --> 01:50:23.550
+Edward R. Jones: And that has to do with how you define the output layer
+
+618
+01:50:25.470 --> 01:50:31.260
+Edward R. Jones: let's go ahead, well, where this guy is where we are still is still running right it's on six it's almost done.
+
+619
+01:50:32.340 --> 01:50:43.200
+Edward R. Jones: might as well we've waited this long we might have slowly keep on going let's go further on down notice that the last year is not msc it's categorical cross entropy.
+
+620
+01:50:44.550 --> 01:51:04.500
+Edward R. Jones: There is also a minor cross entropy, and these are the last functions that you normally use for categorical and for binary targets categorical cross entropy or or binary and just like msc you want to minimize this you want to make this small.
+
+621
+01:51:05.550 --> 01:51:07.350
+Edward R. Jones: And then the accuracy, right here.
+
+622
+01:51:08.790 --> 01:51:17.220
+Edward R. Jones: is basically one of the metrics we want to look at is how what percentage of the.
+
+623
+01:51:17.880 --> 01:51:27.150
+Edward R. Jones: The events do we actually recognize okay so we're done here with the with that little thing, and what I wanted to show you is check out the plot.
+
+624
+01:51:28.020 --> 01:51:38.700
+Edward R. Jones: So there's the little Spikes and everything that we see here in the validation there they were somewhat reduced and that's because we we made that size number smaller.
+
+625
+01:51:39.450 --> 01:51:51.690
+Edward R. Jones: Now, in order to get rid of that we would probably completely we might have to try some different solvers but that's the way the technique that I use and and the words to smooth this out as much as you can.
+
+626
+01:51:52.200 --> 01:52:04.980
+Edward R. Jones: Is you can increase the box says 200 here, you can grow decrease the size and you can also change optimizes I you can then maybe get to a situation where this is not that great.
+
+627
+01:52:07.890 --> 01:52:13.290
+Edward R. Jones: Alright let's let's redo the console here i'm going to restart the kernel.
+
+628
+01:52:14.700 --> 01:52:15.450
+Edward R. Jones: Yes.
+
+629
+01:52:16.680 --> 01:52:17.040
+Edward R. Jones: OK.
+
+630
+01:52:21.480 --> 01:52:28.530
+Edward R. Jones: OK, and now let's run this code, what I want you to do is run this code that we've just downloaded here.
+
+631
+01:52:30.660 --> 01:52:31.560
+Edward R. Jones: And debug.
+
+632
+01:52:33.270 --> 01:52:33.570
+Edward R. Jones: Okay.
+
+633
+01:52:35.700 --> 01:52:38.310
+Edward R. Jones: There is a bug in here oh.
+
+634
+01:52:41.130 --> 01:52:46.320
+Edward R. Jones: i'm going to give you a few minutes to take a look at this and last for opinions about what's going on here.
+
+635
+01:52:49.080 --> 01:52:52.470
+Edward R. Jones: You can see the the the bug traces come along.
+
+636
+01:52:55.380 --> 01:53:07.620
+Edward R. Jones: I actually ran into this one today and it took me a while to read through this, but most of this doesn't have anything to do with your code.
+
+637
+01:53:10.230 --> 01:53:10.560
+Benny Horowitz: As the.
+
+638
+01:53:19.590 --> 01:53:21.060
+Edward R. Jones: Anyway, yeah take a.
+
+639
+01:53:21.240 --> 01:53:26.340
+Edward R. Jones: Look through it and see what you think where where's the offending statement let's say.
+
+640
+01:53:28.260 --> 01:53:29.340
+Edward R. Jones: Starting from the top.
+
+641
+01:53:31.170 --> 01:53:38.970
+Edward R. Jones: Line 186, and this is in smartphone so let's go to 186 86.
+
+642
+01:53:40.500 --> 01:53:42.420
+Edward R. Jones: Now so it's it's basically.
+
+643
+01:53:44.670 --> 01:53:46.530
+Edward R. Jones: crying about that statement right there.
+
+644
+01:53:49.290 --> 01:53:49.890
+Edward R. Jones: idiot.
+
+645
+01:54:11.760 --> 01:54:21.990
+Edward R. Jones: This is one thing about CARA said I i'm not impressed with in their error messages sometimes are pretty obscure, but then maybe not I mean.
+
+646
+01:54:23.400 --> 01:54:26.910
+Edward R. Jones: I think if you work with this for a while you then get you start to learn.
+
+647
+01:54:28.020 --> 01:54:31.020
+Edward R. Jones: How to talk curious what they've he.
+
+648
+01:54:39.450 --> 01:54:41.880
+Edward R. Jones: Does anybody have any idea what what's going on here.
+
+649
+01:54:44.100 --> 01:54:46.410
+Swanson J, Charles: Dr Jones up any figured it out.
+
+650
+01:54:47.310 --> 01:54:48.270
+Edward R. Jones: You figured it out.
+
+651
+01:54:48.480 --> 01:54:49.380
+Swanson J, Charles: Well benny good.
+
+652
+01:54:50.580 --> 01:54:56.460
+Swanson J, Charles: benny Horowitz he saw in class it's just that, when he talks, it has a big ECHO.
+
+653
+01:54:57.120 --> 01:54:58.170
+Edward R. Jones: Oh okay.
+
+654
+01:54:58.500 --> 01:55:03.540
+Swanson J, Charles: And what do you identified is that um, it has to do with the outfit layer
+
+655
+01:55:05.100 --> 01:55:11.490
+Swanson J, Charles: There are six classes in that last output layer has to be six outputs instead of one according to benny.
+
+656
+01:55:13.230 --> 01:55:18.870
+Edward R. Jones: that's right he's absolutely right, so in this case it's pointing to the model fit.
+
+657
+01:55:19.320 --> 01:55:21.960
+Edward R. Jones: But the problem was in the model itself.
+
+658
+01:55:22.530 --> 01:55:37.740
+Edward R. Jones: The model being defined above right up in here so that's what I mean by charisse talk so charisse is pointing them with some something went wrong with a fit but really what they should have said, the model is kind of screwy so.
+
+659
+01:55:38.940 --> 01:55:46.890
+Edward R. Jones: And if they would just take them two seconds to look at the data they would realize that instead of number one is the output, this is the upper layer
+
+660
+01:55:47.430 --> 01:55:59.370
+Edward R. Jones: How many preceptor on so you're going to have in the upper layer and we talked about this earlier, you know bit earlier, we need six because we have six classes that are that are there right.
+
+661
+01:56:00.780 --> 01:56:06.180
+Edward R. Jones: Now the other thing you want to be careful about is right here, where it says soft Max.
+
+662
+01:56:07.320 --> 01:56:17.040
+Edward R. Jones: That is the appropriate activation function for a categorical variable but, in the previous example that was set to none.
+
+663
+01:56:17.400 --> 01:56:34.290
+Edward R. Jones: We had an interval variable so this this can also deliver if it's a assists if it said none, we could also get some problems here and but changing that to six okay let's do that and let's i'm going to reset the Colonel just to make sure that everything is clean.
+
+664
+01:56:35.610 --> 01:56:55.350
+Edward R. Jones: You know, working and all that sort of thing, by the way, I don't know about you, but i'm liking this whether we finally got to we finally got a far away from it freeze stuff okay so we're here and let's get run and see if we get past that that problem, I think we do.
+
+665
+01:56:57.150 --> 01:56:57.690
+Edward R. Jones: Okay.
+
+666
+01:56:59.970 --> 01:57:03.990
+Edward R. Jones: yeah this code was part of it was also used in 656.
+
+667
+01:57:05.880 --> 01:57:06.690
+Edward R. Jones: But.
+
+668
+01:57:16.560 --> 01:57:19.410
+Edward R. Jones: OK, so you can see here.
+
+669
+01:57:20.610 --> 01:57:27.600
+Edward R. Jones: it's fitting one neural network with 14% trans in the first hidden layer and six in the output layer
+
+670
+01:57:28.890 --> 01:57:41.910
+Edward R. Jones: And their number of weights is almost 1000 the number of observations in the training data is a little bit less 7209 validation data 3000.
+
+671
+01:57:43.350 --> 01:57:53.700
+Edward R. Jones: And so it's crunching right now to that's coming up soon okay okay something did didn't like let's see what the how far I got.
+
+672
+01:57:54.780 --> 01:57:59.910
+Edward R. Jones: Oh okay wow alright so there's the network.
+
+673
+01:58:01.050 --> 01:58:02.040
+Edward R. Jones: Definitions give you.
+
+674
+01:58:05.760 --> 01:58:05.790
+A.
+
+675
+01:58:07.440 --> 01:58:09.270
+Edward R. Jones: little bit of allergies here.
+
+676
+01:58:11.640 --> 01:58:20.970
+Edward R. Jones: So check it out here's the loss function and here is the accuracy, you want the loss function to drop to zero and accuracy to go to one.
+
+677
+01:58:21.750 --> 01:58:29.610
+Edward R. Jones: nice thing here is the validation and the training data, the loss and the accuracy are tracking one another very closely.
+
+678
+01:58:30.060 --> 01:58:45.150
+Edward R. Jones: So we what we don't have that jumping around with the validation here, you often see sometimes see the jumping around occurring at the beginning of the optimization and then it will smooth out and calm down as you go further out what's happening to here.
+
+679
+01:58:46.410 --> 01:58:49.890
+Edward R. Jones: let's see go forward, there is the loss.
+
+680
+01:58:51.750 --> 01:58:57.240
+Edward R. Jones: Training is point oh three, seven, the law validation point oh four three so.
+
+681
+01:58:57.840 --> 01:59:05.760
+Edward R. Jones: As you can see from the graph there's not much of a difference between the training and the validation last that would be the upper figure right here.
+
+682
+01:59:06.300 --> 01:59:17.610
+Edward R. Jones: These two numbers oh three and four, those are the values of the last data point in this epoch there are hundreds So these are two series that are saved in the history dictionary.
+
+683
+01:59:17.940 --> 01:59:24.690
+Edward R. Jones: And then the very last bit of it right over here that's what we're using to define the training the validation loss.
+
+684
+01:59:26.820 --> 01:59:34.320
+Edward R. Jones: Okay, and then there's a little bit of code that does this gets the confusion matrix which is showing the number of.
+
+685
+01:59:35.010 --> 01:59:47.610
+Edward R. Jones: Miss classifications in the training data we have 87 miss classifications, out of a total of 7209, which is a misclassification rate of about 1.2%.
+
+686
+01:59:48.360 --> 02:00:00.420
+Edward R. Jones: And the validation data it's a little bit higher 1.8% 57 out of 390 I think what's more just as important to recognize here.
+
+687
+02:00:00.900 --> 02:00:08.340
+Edward R. Jones: Is that the mist classifications are primarily occurring between the fourth and the fifth activity.
+
+688
+02:00:09.300 --> 02:00:17.430
+Edward R. Jones: And, as I recall one of them is sleep and one of them is sitting or something like that, and so yeah maybe it's a little difficult to.
+
+689
+02:00:18.300 --> 02:00:27.090
+Edward R. Jones: tell the difference in motions if a person is sleeping versus just sitting quietly maybe snoozing something like that.
+
+690
+02:00:27.570 --> 02:00:44.310
+Edward R. Jones: So it's difficult to distinguish between class number four and class number five maybe they should be combined, if you combine these two classes together your misclassification rate school dropped almost zero I would think.
+
+691
+02:00:47.430 --> 02:00:50.700
+Edward R. Jones: And, and then, here is another.
+
+692
+02:00:51.780 --> 02:01:13.980
+Edward R. Jones: error coming out of this it's the same it's the same it looks like it's the same network and let's let's move on down in the code and see where this happens so we're getting a complaint here, and this is in line number 240 so if we go down the line, number 240.
+
+693
+02:01:15.480 --> 02:01:17.670
+Edward R. Jones: Okay, right here whoops.
+
+694
+02:01:18.840 --> 02:01:19.350
+Edward R. Jones: stop it.
+
+695
+02:01:20.730 --> 02:01:21.300
+Edward R. Jones: Okay.
+
+696
+02:01:22.920 --> 02:01:32.310
+Edward R. Jones: Number 242 41 I do.
+
+697
+02:01:34.200 --> 02:01:41.250
+Edward R. Jones: Okay, so it collapsed up on me so we're hitting the same error message, but we're hitting in a different place.
+
+698
+02:01:42.870 --> 02:01:44.790
+Edward R. Jones: it's pointing to the next model.
+
+699
+02:01:45.960 --> 02:01:48.330
+Edward R. Jones: Now we need to figure out what happened there.
+
+700
+02:01:49.470 --> 02:01:51.750
+Edward R. Jones: let's go up and check the oh.
+
+701
+02:01:53.460 --> 02:02:01.020
+Edward R. Jones: looks like it's the same problem there's a one here, instead of a six let's sing Chapter six, this is online number 226.
+
+702
+02:02:02.370 --> 02:02:07.170
+Edward R. Jones: change that and hit the green arrow for rerun.
+
+703
+02:02:10.500 --> 02:02:11.310
+Edward R. Jones: What was that about.
+
+704
+02:02:16.530 --> 02:02:23.220
+Edward R. Jones: Okay i'm going to hit the restart button to clear everything off it looks a little confusing to me.
+
+705
+02:02:26.010 --> 02:02:26.640
+Edward R. Jones: OK.
+
+706
+02:02:28.800 --> 02:02:31.890
+Edward R. Jones: OK, and now i'm going to restart.
+
+707
+02:02:34.230 --> 02:02:40.650
+Edward R. Jones: see if we can get a clear picture on what what is going wrong here that line number 240.
+
+708
+02:02:41.880 --> 02:02:43.890
+Edward R. Jones: Okay, see where we are here.
+
+709
+02:02:46.170 --> 02:02:47.880
+Edward R. Jones: Okay, go back up the top.
+
+710
+02:02:50.850 --> 02:02:53.820
+Edward R. Jones: Oh it's pointing to line 186.
+
+711
+02:02:55.710 --> 02:02:56.070
+Edward R. Jones: hmm.
+
+712
+02:02:59.910 --> 02:03:00.900
+Edward R. Jones: back here again.
+
+713
+02:03:03.150 --> 02:03:05.460
+Edward R. Jones: Oh, am I in this different.
+
+714
+02:03:09.360 --> 02:03:14.520
+Edward R. Jones: One though it's a sick, I guess, I I don't know, maybe I didn't change that.
+
+715
+02:03:17.760 --> 02:03:27.900
+Edward R. Jones: Okay, so there there's a correction in line 176 and then there's also the same correction in line 226.
+
+716
+02:03:29.340 --> 02:03:31.200
+Edward R. Jones: Now i'm going to reset the Colonel again.
+
+717
+02:03:33.360 --> 02:03:35.460
+Edward R. Jones: Just to be sure, and stir restart.
+
+718
+02:03:43.050 --> 02:03:43.530
+Edward R. Jones: Okay.
+
+719
+02:03:47.460 --> 02:03:50.010
+Edward R. Jones: So who found that there was somebody in the Easter.
+
+720
+02:03:53.010 --> 02:03:53.670
+Swanson J, Charles: bunny did.
+
+721
+02:03:55.560 --> 02:03:56.370
+Edward R. Jones: way to go.
+
+722
+02:03:58.350 --> 02:03:59.520
+Edward R. Jones: I thought that stop you.
+
+723
+02:04:03.090 --> 02:04:04.530
+Edward R. Jones: Okay, so we're going.
+
+724
+02:04:17.760 --> 02:04:26.340
+Edward R. Jones: Now this this particular one let's see how many box, where the first analysis is using 100 a box with the size of 18.
+
+725
+02:04:27.570 --> 02:04:30.960
+Edward R. Jones: Man 1% would be 72.
+
+726
+02:04:32.220 --> 02:04:38.280
+Edward R. Jones: and a half of a percent would be 3536.
+
+727
+02:04:40.350 --> 02:04:43.830
+Edward R. Jones: And okay so it's it's through the first one.
+
+728
+02:04:45.270 --> 02:04:47.100
+Edward R. Jones: And it's working on the second one.
+
+729
+02:04:54.390 --> 02:05:07.020
+Edward R. Jones: it's the same model what's different between the first and the second let's see up here are the first model, I think the it's the optimizer is the optimizer and the first model is at a delta.
+
+730
+02:05:08.220 --> 02:05:08.970
+Edward R. Jones: and
+
+731
+02:05:11.400 --> 02:05:25.560
+Edward R. Jones: The optimizer in the second model is Adam so we change the change the optimizer so basically the box and the box size is both a 118 both cases.
+
+732
+02:05:26.190 --> 02:05:46.350
+Edward R. Jones: 18 this is kind of small we probably could have got away with 3535 or 36 would be a half of a percent 18 is below that but I wanted to kind of impress you with how well it's just going to to okay there's Adam and you can see, the little blue Spikes going around over here in the right.
+
+733
+02:05:48.630 --> 02:05:53.940
+Edward R. Jones: And if you look at the same picture for at a delta it's much smoother.
+
+734
+02:05:55.110 --> 02:06:14.550
+Edward R. Jones: So if you want, if you're concerned about those blue Spikes you're probably going to get a better convergence without a delta now, if you look at the actual loss, though, that you're getting here without a delta it's point oh 357 point oh 439.
+
+735
+02:06:15.840 --> 02:06:22.170
+Edward R. Jones: And you can see the validation misclassification rate is about 1.7%.
+
+736
+02:06:23.190 --> 02:06:29.730
+Edward R. Jones: And then, if you move down there those blue little shaky things going on, but at the bottom.
+
+737
+02:06:30.900 --> 02:06:35.550
+Edward R. Jones: And you can see that the atom guy though his.
+
+738
+02:06:36.750 --> 02:06:54.000
+Edward R. Jones: loss is a little bit slower point oh two five for the 20 data point oh four seven let's see that's as opposed to point oh four three so the training losses much lower, but the validation losses about the same.
+
+739
+02:06:55.410 --> 02:07:10.410
+Edward R. Jones: The misclassification rate for Adam in the validation is actually a little bit higher was 1.7 something versus 1.8 here for Adam so I don't know which one you would go with I don't know which one you would choose.
+
+740
+02:07:11.550 --> 02:07:27.540
+Edward R. Jones: One way to do one way to do this, or to figure out who the winner is is to increase the op ED box size from 100 to maybe 200 or something like that the number 18 is already pretty small small we might even.
+
+741
+02:07:28.620 --> 02:07:39.330
+Edward R. Jones: crank that up a little beth and says, make it 18 let's suppose that we make it 36 which is one half of 1% and i'm going to do that in both cases.
+
+742
+02:07:43.230 --> 02:07:46.200
+Edward R. Jones: Here it is 36 instead of 18.
+
+743
+02:07:48.060 --> 02:08:01.530
+Edward R. Jones: And, and then for the box I think i'll leave it that lever that 100 just to see I don't don't want to be here all night and that wasn't the intention so we'll run that and hit run again.
+
+744
+02:08:05.640 --> 02:08:07.530
+Edward R. Jones: Okay cool down to the bottom.
+
+745
+02:08:10.650 --> 02:08:24.300
+Edward R. Jones: These tables that you see here for the confusion matrix are pretty easy to print out it's in that little function that set the top here, so if you looked at this code at the top you'll see the first thing that does is it does some plots.
+
+746
+02:08:25.350 --> 02:08:37.320
+Edward R. Jones: And it does the plots at a fairly high dots per inch resolution because I like to make sure the plots look good when I put them in my word document or whatever you're going to do.
+
+747
+02:08:37.800 --> 02:09:01.800
+Edward R. Jones: And these are saved off as a PDF file, not a PNG that is an option here with the plot say figure, you can instead of saving it off as a PNG file or a jpeg file, you can save it offices PDF now why would you want to do that well because pdfs resize is better than the other students.
+
+748
+02:09:02.820 --> 02:09:08.220
+Edward R. Jones: And it's also definitely portable right So here we go.
+
+749
+02:09:10.680 --> 02:09:11.190
+Edward R. Jones: This.
+
+750
+02:09:13.350 --> 02:09:13.770
+Okay.
+
+751
+02:09:17.250 --> 02:09:22.590
+Edward R. Jones: yeah I forgot that the there was also running the random forest here.
+
+752
+02:09:24.120 --> 02:09:29.430
+Edward R. Jones: And you can see the importance coming out over the random forest and then the the actual.
+
+753
+02:09:31.140 --> 02:09:40.230
+Edward R. Jones: The 1.4 versus 4.4 not so impressed with the random forest and I think the random forest actually had a.
+
+754
+02:09:41.640 --> 02:09:43.620
+Edward R. Jones: Pretty let's see.
+
+755
+02:09:47.850 --> 02:09:51.180
+Edward R. Jones: Oh here's the random forest yeah maximum depth of 30.
+
+756
+02:09:52.950 --> 02:10:01.620
+Edward R. Jones: So I was a little shocked by this, you have a maximum depth of 30, this is not a big data set 10,000 observations thinking.
+
+757
+02:10:02.910 --> 02:10:17.340
+Edward R. Jones: So really surprised that the the misclassification rate was so much higher here than it was for the terrorists neural networks so for us we're getting down to 1.7 and.
+
+758
+02:10:18.690 --> 02:10:38.640
+Edward R. Jones: 1.8 so here with Adam you're getting Point seven for the training data at 1.8 for the validation data at without a delta you're getting you know one versus 1.7 and then, when you go to psychic learn neural network which is right here.
+
+759
+02:10:39.840 --> 02:10:48.240
+Edward R. Jones: You get a 1.3 and a 2.5 now this network that we're running so I get on right here is exactly the same configuration.
+
+760
+02:10:48.870 --> 02:10:56.160
+Edward R. Jones: that we had with charisse, in other words it's the same number of perceptions, if you look here.
+
+761
+02:10:56.910 --> 02:11:07.050
+Edward R. Jones: psychic learn neural network you'll see that it's a one layer network with 14% trans the activation is hyperbolic tension so that's a little different.
+
+762
+02:11:07.740 --> 02:11:15.360
+Edward R. Jones: But and the solver is still add on you know it's, just like the one that we, we also use that them and but.
+
+763
+02:11:16.020 --> 02:11:26.130
+Edward R. Jones: Here the misclassification rate is a little bit higher now I don't know if the activation is what counts for that maybe you can change this to our El you.
+
+764
+02:11:27.120 --> 02:11:38.130
+Edward R. Jones: Are it that is acceptable Arielle you within psychic learn and check that out going down, we see in random forest, as I say.
+
+765
+02:11:38.730 --> 02:11:45.270
+Edward R. Jones: It didn't do as well as the psychic learn network either the neural networks, so this is a little surprising.
+
+766
+02:11:45.750 --> 02:11:53.430
+Edward R. Jones: that the word fell down on is the first class look at all the Miss classifications for Class zero or class one on if you've added to your name.
+
+767
+02:11:53.970 --> 02:12:07.740
+Edward R. Jones: But this was not seen in the other models, when we were running the neural network models, we did not get these kinds of misclassification is occurring on that first class and, if you look at the site yet learn Oh well, hang on.
+
+768
+02:12:09.300 --> 02:12:19.650
+Edward R. Jones: yeah psychic learn right here did have a problem with this first class in the training data and also you see some misclassification is over here in the validation side.
+
+769
+02:12:20.820 --> 02:12:22.440
+Edward R. Jones: And then, in the care side.
+
+770
+02:12:24.060 --> 02:12:35.340
+Edward R. Jones: The training data zero misclassification is on that person to excite a few in the validation side, but so that was something I don't know what happened there but.
+
+771
+02:12:35.820 --> 02:12:45.150
+Edward R. Jones: It looks like they're the carousel model did a much better job fitting in the first class than the other two psychic learn models for some reason.
+
+772
+02:12:47.220 --> 02:12:47.700
+Edward R. Jones: Okay.
+
+773
+02:12:52.020 --> 02:13:00.810
+Edward R. Jones: All right, so that's normal classification, that the key thing about nominal the nominal model is make sure that that output layer is.
+
+774
+02:13:01.980 --> 02:13:21.540
+Edward R. Jones: Losses categorical cross entropy make sure that activation is soft Max and make sure that the number of neurons in the output layer or set to the number of classes binary you're going to have one there, by the way you don't have to wait for categorical.
+
+775
+02:13:22.560 --> 02:13:25.710
+Edward R. Jones: You put all of them in all six in this case.
+
+776
+02:13:27.270 --> 02:13:29.850
+Edward R. Jones: Okay, are there any questions on this part.
+
+777
+02:13:34.410 --> 02:13:35.010
+Edward R. Jones: alright.
+
+778
+02:13:36.570 --> 02:13:39.060
+Edward R. Jones: Then let's go back to.
+
+779
+02:13:42.120 --> 02:13:43.140
+Edward R. Jones: The campus.
+
+780
+02:13:44.730 --> 02:13:57.960
+Edward R. Jones: And we're going to take a look at an interval binary target problem now this one, so you want the you want to grab the bank fraud dot P, why file.
+
+781
+02:13:59.070 --> 02:14:09.750
+Edward R. Jones: And then, this this file, which is banknote authentication now the idea here is, they have a machine that automatically scans checks for their signature.
+
+782
+02:14:10.260 --> 02:14:25.620
+Edward R. Jones: And then they compare that signature image to their actual image in the file and they they calculate digitally calculate the differences between the image that's on the check and the image that they have on file.
+
+783
+02:14:26.400 --> 02:14:32.280
+Edward R. Jones: That information, then goes into for features and you'll see those four features here in this data.
+
+784
+02:14:32.970 --> 02:14:45.330
+Edward R. Jones: Those four features that are being used to determine whether or not the signature on the check matches what's on file in the words can they detect a fraudulent check missile check with the wrong signature.
+
+785
+02:14:47.160 --> 02:14:51.510
+Edward R. Jones: So we'll go here and open up bank fraud.
+
+786
+02:15:15.000 --> 02:15:15.390
+Edward R. Jones: Now.
+
+787
+02:15:19.980 --> 02:15:24.030
+Edward R. Jones: is going to find out who has been taking notes.
+
+788
+02:15:25.320 --> 02:15:31.500
+Edward R. Jones: What I want you to do is I want you to take some time and look at this code and fix it this code is not complete.
+
+789
+02:15:33.000 --> 02:15:45.000
+Edward R. Jones: So, and you can see the notes like note number one add the appropriate imports there's some missing number to add the following function for this plot, and so forth, and so on.
+
+790
+02:15:46.140 --> 02:15:56.370
+Edward R. Jones: And then number three and four or down near the bottom number three is add the code to evaluate different neural net configurations and number four.
+
+791
+02:15:56.880 --> 02:16:14.850
+Edward R. Jones: add the code to evaluate the best solution so we'll take this was one step at a time, first of all let's go to let's start with step number one, and when you have all the appropriate inputs, let me know what they look like and we'll talk about that and get everybody on board.
+
+792
+02:18:21.390 --> 02:18:22.200
+Edward R. Jones: Number one here.
+
+793
+02:18:36.420 --> 02:18:44.850
+Zuberi, Bilal: We need to import the models layers and optimizes that we plan to use or here as tensorflow.
+
+794
+02:18:46.410 --> 02:18:49.590
+Edward R. Jones: yeah this would this would all be enforced for tensorflow charisse.
+
+795
+02:18:50.100 --> 02:19:02.400
+Zuberi, Bilal: Yes, so tensorflow from tensorflow to kara's, we need to import models layers and optimize there's that we plan to use, for example, Adam.
+
+796
+02:19:04.080 --> 02:19:10.650
+Edward R. Jones: yeah I think if you go to the start the smartphone example go to the top here.
+
+797
+02:19:11.460 --> 02:19:12.990
+Zuberi, Bilal: it's four lines from this mark.
+
+798
+02:19:13.080 --> 02:19:14.490
+Zuberi, Bilal: yeah anyone's each one of.
+
+799
+02:19:15.330 --> 02:19:23.310
+Edward R. Jones: Those guys, so you want models layers utilities and then the optimizer, and this is so, these are kind of the standard.
+
+800
+02:19:26.970 --> 02:19:44.610
+Edward R. Jones: right here, then go into their flow pop flop them right in So these are standard imports for terrorists terrorists tensorflow and actually there's one missing here but we'll catch it.
+
+801
+02:19:46.140 --> 02:19:47.730
+Edward R. Jones: Does anyone see the ones missing.
+
+802
+02:19:48.780 --> 02:19:50.310
+Coleman, Clay: Important tensorflow is def.
+
+803
+02:19:50.610 --> 02:20:04.230
+Edward R. Jones: that's right that's right that's right so stick that I usually I put that appear somewhere with the other as things I might say import tensorflow.
+
+804
+02:20:08.100 --> 02:20:10.650
+Edward R. Jones: And then you know whoops.
+
+805
+02:20:13.050 --> 02:20:13.770
+Edward R. Jones: I have this.
+
+806
+02:20:15.120 --> 02:20:19.740
+Edward R. Jones: thing about line of code I don't know why okay.
+
+807
+02:20:21.630 --> 02:20:29.010
+Edward R. Jones: Like I like to line up three import statements here all right let's go to the next one, now the next one, is a little more tricky because.
+
+808
+02:20:30.900 --> 02:20:33.540
+Edward R. Jones: We want to import we want to basically.
+
+809
+02:20:34.710 --> 02:20:38.520
+Edward R. Jones: Import and modify as needed now.
+
+810
+02:20:39.660 --> 02:20:46.860
+Edward R. Jones: Since this is a binary thing and we just looked at at at categorical, which was the.
+
+811
+02:20:48.960 --> 02:20:49.650
+Edward R. Jones: smartphone.
+
+812
+02:20:51.630 --> 02:20:54.210
+Edward R. Jones: I think I would start there go to smartphone.
+
+813
+02:20:55.650 --> 02:21:13.200
+Edward R. Jones: And you'll see this is the function, right here for graphing everything i'm just going to going to copy and paste the whole enchilada which goes, all the way down to here, where it says end of charisse graph and metric functions so you're going to copy that.
+
+814
+02:21:15.060 --> 02:21:18.210
+Edward R. Jones: And then go to go back to the.
+
+815
+02:21:19.230 --> 02:21:23.730
+Edward R. Jones: eggnog data, right here and replace oops.
+
+816
+02:21:23.820 --> 02:21:26.190
+Fireman, Karen: He said, where did you start on that one you.
+
+817
+02:21:26.370 --> 02:21:27.720
+Edward R. Jones: said looks like her.
+
+818
+02:21:27.990 --> 02:21:30.480
+Fireman, Karen: it's here where did you start pulling that.
+
+819
+02:21:30.510 --> 02:21:35.160
+Edward R. Jones: code from well Okay, this is over, in the last program we were looking at.
+
+820
+02:21:35.220 --> 02:21:36.150
+Fireman, Karen: In a smartphone yeah.
+
+821
+02:21:36.210 --> 02:21:40.140
+Fireman, Karen: let's start with I know you ended 114 but where did you start.
+
+822
+02:21:40.770 --> 02:21:43.500
+Edward R. Jones: At the top of the function right there 26.
+
+823
+02:21:43.980 --> 02:21:46.170
+Fireman, Karen: Six Okay, thank you yeah.
+
+824
+02:21:46.830 --> 02:21:50.100
+Edward R. Jones: 20 640 chain.
+
+825
+02:21:51.810 --> 02:22:00.990
+Edward R. Jones: Okay, and then i'm going to replace here it starts at 26 and just replace all of that, with what we just copy them.
+
+826
+02:22:03.510 --> 02:22:04.620
+Edward R. Jones: Hopes up.
+
+827
+02:22:18.810 --> 02:22:19.320
+Edward R. Jones: alright.
+
+828
+02:22:21.990 --> 02:22:22.200
+It.
+
+829
+02:22:23.670 --> 02:22:27.000
+Swanson J, Charles: looks like we need to import that Bob.
+
+830
+02:22:27.750 --> 02:22:33.990
+Edward R. Jones: Bingo yeah there was one we missed right but it's pretty it's pretty obvious which one we miss so.
+
+831
+02:22:34.050 --> 02:22:35.940
+Fireman, Karen: What did you replace on this side.
+
+832
+02:22:37.650 --> 02:22:39.090
+Fireman, Karen: You said you replacing part.
+
+833
+02:22:40.560 --> 02:22:44.190
+Fireman, Karen: Just the line 30 to 33.
+
+834
+02:22:46.080 --> 02:22:48.750
+Fireman, Karen: We left the data map of course right okay.
+
+835
+02:22:50.040 --> 02:22:51.480
+Edward R. Jones: i'm not sure questions.
+
+836
+02:22:54.900 --> 02:22:55.230
+Okay.
+
+837
+02:22:57.300 --> 02:23:08.100
+Edward R. Jones: yeah so we're missing one other input, which is also, I think if we go back to smartphone and and you go to the top you'll see there it is.
+
+838
+02:23:09.300 --> 02:23:15.600
+Edward R. Jones: right here, right under band, this is the map plot live, we need to bring that over for sure.
+
+839
+02:23:16.650 --> 02:23:22.140
+Edward R. Jones: Okay right under well, we could put it over here, somewhere, I guess, like that.
+
+840
+02:23:23.310 --> 02:23:31.350
+Edward R. Jones: Oh, so it goes down a little bit further plt and then all those little red circles that we had disappeared.
+
+841
+02:23:32.430 --> 02:23:35.670
+Edward R. Jones: Most of them were all of them I all of it.
+
+842
+02:23:38.730 --> 02:23:49.410
+Edward R. Jones: i'm not sure this is still ready for prime time but it's close so in order to get a debunked we'll we'll do is try to run it and see what happens right.
+
+843
+02:23:50.550 --> 02:24:04.080
+Edward R. Jones: As a matter of fact, I know it's not really it's this okay see this going to bug out on us so we'll for you'll find out or write quickly where that is let's go down to.
+
+844
+02:24:05.760 --> 02:24:07.020
+Edward R. Jones: Number three.
+
+845
+02:24:09.300 --> 02:24:19.440
+Edward R. Jones: It says add code to evaluate different Oh, this is the where the action starts right here, so this is line right now it's like 211.
+
+846
+02:24:20.640 --> 02:24:25.470
+Edward R. Jones: And that code from smartphone let's go back to smartphone here.
+
+847
+02:24:28.020 --> 02:24:31.830
+Edward R. Jones: There we go yeah That was the code that.
+
+848
+02:24:34.230 --> 02:24:37.230
+Edward R. Jones: It good down here a bit let's see.
+
+849
+02:24:39.390 --> 02:24:40.050
+Edward R. Jones: Here it is.
+
+850
+02:24:42.060 --> 02:24:48.660
+Edward R. Jones: So you can see it starts at line 144 star time is equal to time that time.
+
+851
+02:24:50.580 --> 02:24:54.960
+Edward R. Jones: And right underneath that it says print charisse neural network exploration.
+
+852
+02:24:56.100 --> 02:25:00.750
+Edward R. Jones: So we want to copy everything from there 144.
+
+853
+02:25:02.760 --> 02:25:14.190
+Edward R. Jones: Two down here to line number 204, which is where it's printed out how long does it take to run so i'm going to copy all of that.
+
+854
+02:25:15.840 --> 02:25:30.930
+Edward R. Jones: And then i'm going to go back to the bank note data or file and go back to that place of the bottom number three and paste right there starting that like 211 so there it goes.
+
+855
+02:25:33.420 --> 02:25:36.960
+Edward R. Jones: let's check for a new Oh, we got a red circle okay.
+
+856
+02:25:38.100 --> 02:25:38.970
+Edward R. Jones: we'll work on that.
+
+857
+02:25:41.760 --> 02:25:42.360
+Edward R. Jones: Okay.
+
+858
+02:25:44.160 --> 02:25:45.960
+Zuberi, Bilal: need the time time attribute.
+
+859
+02:25:48.330 --> 02:25:54.180
+Edward R. Jones: yeah there's let's see where is time coming in here at the is hope one.
+
+860
+02:25:56.670 --> 02:25:58.230
+Edward R. Jones: let's see some problems here but.
+
+861
+02:25:59.850 --> 02:26:02.460
+Edward R. Jones: yeah this one, this is time time.
+
+862
+02:26:03.780 --> 02:26:06.810
+Edward R. Jones: what's the import on here, so the important from timing.
+
+863
+02:26:07.920 --> 02:26:16.290
+Edward R. Jones: I was yeah that form from time in port time, so we don't want the time dot time we want to just time.
+
+864
+02:26:19.050 --> 02:26:21.840
+Edward R. Jones: Who said that, by the way, you're feeling various.
+
+865
+02:26:22.680 --> 02:26:23.340
+Zuberi, Bilal: This is below.
+
+866
+02:26:24.210 --> 02:26:27.240
+Fireman, Karen: off Okay, where did you drop it into its parent.
+
+867
+02:26:28.350 --> 02:26:30.270
+Fireman, Karen: That hope and where did you drop that in.
+
+868
+02:26:31.080 --> 02:26:33.330
+Edward R. Jones: right down here at the bottom it's there's just.
+
+869
+02:26:34.050 --> 02:26:34.410
+Fireman, Karen: I think.
+
+870
+02:26:34.590 --> 02:26:34.860
+Fireman, Karen: I can.
+
+871
+02:26:35.070 --> 02:26:36.960
+Edward R. Jones: Well, you see the number three yep.
+
+872
+02:26:37.050 --> 02:26:38.670
+Edward R. Jones: I got it ECHO.
+
+873
+02:26:39.570 --> 02:26:41.130
+Fireman, Karen: Thank you yeah.
+
+874
+02:26:42.060 --> 02:26:58.950
+Edward R. Jones: So yeah they're everywhere, you see a time time that just make that time right there right there that's funny that's not error didn't air out what the heck no, it has a terror now it goes away I don't know.
+
+875
+02:27:00.630 --> 02:27:05.640
+Edward R. Jones: And there's an error message appear it says what cross validation score.
+
+876
+02:27:08.430 --> 02:27:08.880
+Oh.
+
+877
+02:27:11.490 --> 02:27:20.550
+Edward R. Jones: yeah I took that out of one of the invite I didn't think we were doing that okay so i'm going to put that back in on that input state, but that my bad.
+
+878
+02:27:21.690 --> 02:27:25.290
+Edward R. Jones: I didn't know that was in the code all right, right here.
+
+879
+02:27:34.830 --> 02:27:36.960
+Edward R. Jones: Just trim split and then.
+
+880
+02:27:39.030 --> 02:27:40.020
+Edward R. Jones: Big score.
+
+881
+02:27:57.120 --> 02:27:59.490
+Edward R. Jones: should be good now.
+
+882
+02:28:06.390 --> 02:28:10.350
+Edward R. Jones: What is what is this complaining about under the fight oh yes.
+
+883
+02:28:11.580 --> 02:28:14.070
+Swanson J, Charles: we're doing binary instead of categorical.
+
+884
+02:28:15.180 --> 02:28:19.230
+Edward R. Jones: Absolutely, I will need to change that that's what the earth.
+
+885
+02:28:24.150 --> 02:28:24.990
+Edward R. Jones: So.
+
+886
+02:28:26.010 --> 02:28:27.300
+Edward R. Jones: Who said that was Charles.
+
+887
+02:28:28.830 --> 02:28:29.370
+Swanson J, Charles: Yes, sir.
+
+888
+02:28:29.730 --> 02:28:30.960
+Edward R. Jones: Okay, thanks, Charles.
+
+889
+02:28:32.880 --> 02:28:35.910
+Edward R. Jones: yeah so we go ahead and change categorical to binary.
+
+890
+02:28:41.400 --> 02:28:42.090
+Edward R. Jones: Very important.
+
+891
+02:28:44.070 --> 02:28:51.240
+Edward R. Jones: And you can also see very close by there's another arrow right here, it says six on the output layer
+
+892
+02:28:53.250 --> 02:28:53.580
+Fireman, Karen: Change.
+
+893
+02:28:54.780 --> 02:29:03.030
+Edward R. Jones: That goes to one now, this is weird and that you, it says, despite here you'd expected for the two, and now, but didn't work that way because.
+
+894
+02:29:03.510 --> 02:29:14.610
+Edward R. Jones: If you know the probability of zero or one you know the other problem is so they got to add to one right so for efficiency and for you know faster.
+
+895
+02:29:15.120 --> 02:29:33.090
+Edward R. Jones: optimization they treat binary just with one output and they use that output to predict the probability of the event, the one they plus and so that probability is point six they know the other bonus point, for they don't have to make another calculation.
+
+896
+02:29:35.700 --> 02:29:41.370
+Edward R. Jones: Okay um so we're getting we're coming along but notice what we see that a red X here.
+
+897
+02:29:42.990 --> 02:29:45.210
+Edward R. Jones: It says, you see what it says.
+
+898
+02:29:45.510 --> 02:29:45.960
+yeah.
+
+899
+02:29:46.980 --> 02:29:51.690
+Coleman, Clay: there's a couple of your optimizer is that you need to add before.
+
+900
+02:29:51.930 --> 02:29:55.110
+Edward R. Jones: yeah do we have any in here at all.
+
+901
+02:29:55.500 --> 02:29:57.570
+Coleman, Clay: No, no, we don't okay.
+
+902
+02:29:57.630 --> 02:30:14.400
+Edward R. Jones: You know where they are let's go grab them go back to smartphone and, if you look above all this right there, you should grab those first time around, set up the curious optimizer that's lines 136 to 142.
+
+903
+02:30:15.660 --> 02:30:24.900
+Edward R. Jones: So we're going to copy those guys and we're going to put them into banknote now where are we going to put those as long as they appear before.
+
+904
+02:30:26.010 --> 02:30:31.800
+Edward R. Jones: charisse we're good to go so let's see what Kara starts about.
+
+905
+02:30:33.690 --> 02:30:35.730
+Edward R. Jones: yeah it starts at nine to 12.
+
+906
+02:30:37.260 --> 02:30:46.800
+Edward R. Jones: that's that number three thing so let's put a space there and insert these shirting aligned to 13 like that.
+
+907
+02:30:48.960 --> 02:30:49.620
+Edward R. Jones: And we're good.
+
+908
+02:30:51.240 --> 02:30:52.770
+Edward R. Jones: should get rid of that red X.
+
+909
+02:30:55.110 --> 02:30:55.830
+Edward R. Jones: mm hmm.
+
+910
+02:30:58.380 --> 02:31:00.810
+Edward R. Jones: yeah now there's no red X it's clean.
+
+911
+02:31:05.040 --> 02:31:12.090
+Edward R. Jones: Looking pretty good here add code to evaluate the best solution for number three well okay.
+
+912
+02:31:13.980 --> 02:31:20.850
+Edward R. Jones: Before we do any of that we probably should check to see where the the lurking bugs are hidden by.
+
+913
+02:31:21.870 --> 02:31:41.550
+Edward R. Jones: Hidden bugs occur because we just base it in some code that handles categorical data now we're doing binary so some things we've already saw some of the things that have to be changed, like here on the line number 255 make sure that says binary cross our costs it up.
+
+914
+02:31:42.570 --> 02:31:49.500
+Edward R. Jones: And then online make sure it's a number one instead of six for the number of outputs there.
+
+915
+02:31:50.730 --> 02:32:01.740
+Edward R. Jones: Okay, all right to find the other bugs I what I would do normally is, I would say Okay, maybe i'm going to get lucky here i'm going to clear the Colonel like that.
+
+916
+02:32:02.490 --> 02:32:17.010
+Edward R. Jones: And then i'm at once it clears out i'm going to try running and find the bugs by errors right, by the way we didn't used to do this back in the day, you have to sit here for hours and hours and contemplate where the errors were.
+
+917
+02:32:18.120 --> 02:32:23.340
+Edward R. Jones: was really time consuming okay so let's go let's go hit run.
+
+918
+02:32:24.450 --> 02:32:25.740
+Edward R. Jones: and see how far we get.
+
+919
+02:32:30.480 --> 02:32:49.050
+Edward R. Jones: All right, that's that so that's good we got some not realistic Liam, these are the psychic learn, these are the psychic learn outputs and then there's your comes and looks good here comes to do the garrison output.
+
+920
+02:32:50.190 --> 02:33:00.300
+Edward R. Jones: And it says to pull index out of range, so we finally hit it hit the wall somewhere near the bottom, but before we do that let's take a look at the good stuff up here at the top.
+
+921
+02:33:00.870 --> 02:33:12.930
+Edward R. Jones: First of all, there is, and I replace impute and code going on our ice and you can see here the names of the variables, there are 1234 variables.
+
+922
+02:33:13.920 --> 02:33:28.140
+Edward R. Jones: These are interval their goals variance skewed a skirt hostess and entropy these are interval of no missing no outliers and forged is the target, you know that's a binary zero or one if it's a one they were forged.
+
+923
+02:33:29.520 --> 02:33:45.390
+Edward R. Jones: Zero now okay we're good and then you can see from the logistic regression case here that we're getting the misclassification rate and logistic regression of a total of 11 out of 1300 and 72 cases.
+
+924
+02:33:46.530 --> 02:34:00.360
+Edward R. Jones: yeah logistic regression and there is a penalty function here, which is set to infinity which basically should get rid of the penalty and resemble logistic regression without any kind of penalty at all.
+
+925
+02:34:01.590 --> 02:34:07.680
+Edward R. Jones: that's that's one of the parameters, you can adjust and sake it learn psychic learn is the value see.
+
+926
+02:34:08.490 --> 02:34:22.770
+Edward R. Jones: You can make it small and the smaller you make it the more penalty is being applied, this is the l to a penalty, as opposed to the angel last of it's not like that, so this, you may get large no penalty.
+
+927
+02:34:24.120 --> 02:34:39.240
+Edward R. Jones: So where did this is doing bad not bad at all, really, if you look at it, you can see the 11 miss classifications here and they are evenly balanced between the events and all of its not bad at all.
+
+928
+02:34:41.220 --> 02:34:49.080
+Fireman, Karen: question for you, that prevents a new attribute time did you say to get rid of time dot time but to leave in part of it.
+
+929
+02:34:50.130 --> 02:34:51.120
+Edward R. Jones: Get rid of what now.
+
+930
+02:34:52.260 --> 02:34:53.700
+Fireman, Karen: You time period.
+
+931
+02:34:53.790 --> 02:34:55.050
+Edward R. Jones: Oh yes, yes, yes, yes.
+
+932
+02:34:55.320 --> 02:35:00.540
+Edward R. Jones: Because up here, you see, where it says, from time important time that guy right here.
+
+933
+02:35:00.960 --> 02:35:06.630
+Edward R. Jones: yeah if you do that, then you don't then, then it will reject time dot time.
+
+934
+02:35:08.010 --> 02:35:18.570
+Edward R. Jones: And what it wants us just time by itself, if you all you do is say import time that's all, then you have to use the time time notation.
+
+935
+02:35:19.530 --> 02:35:21.150
+Fireman, Karen: Oh it's still me that.
+
+936
+02:35:22.470 --> 02:35:29.010
+Edward R. Jones: There may be some time that times in here that we didn't catch, we will we will show up later.
+
+937
+02:35:29.760 --> 02:35:34.950
+Zuberi, Bilal: We caught him Karen for you don't need to do anything just say import time yeah.
+
+938
+02:35:35.400 --> 02:35:37.830
+Fireman, Karen: Just import time not from time to simple test.
+
+939
+02:35:37.860 --> 02:35:39.330
+Zuberi, Bilal: And then you don't need to make any other.
+
+940
+02:35:39.600 --> 02:35:40.170
+Edward R. Jones: Day just.
+
+941
+02:35:40.560 --> 02:35:41.730
+Fireman, Karen: I did make the changes.
+
+942
+02:35:42.900 --> 02:35:44.760
+Edward R. Jones: That will really want to leave it like this.
+
+943
+02:35:45.990 --> 02:35:47.850
+Fireman, Karen: yeah he Okay, thank you.
+
+944
+02:35:52.290 --> 02:35:57.210
+Edward R. Jones: yeah I think I have add because, like as feel bad about the time.
+
+945
+02:35:59.280 --> 02:36:00.450
+Edward R. Jones: Oh can't do that.
+
+946
+02:36:01.740 --> 02:36:05.460
+Edward R. Jones: But really be allowed cce correct all you have to do is JC important.
+
+947
+02:36:08.310 --> 02:36:26.640
+Edward R. Jones: Okay, so we find logistic regression is not doing too bad and then this is the stats model version of logistic regression and it to is giving the same fit and the same misclassification rate verification there.
+
+948
+02:36:27.810 --> 02:36:28.560
+Edward R. Jones: And then.
+
+949
+02:36:29.700 --> 02:36:30.270
+Edward R. Jones: Okay.
+
+950
+02:36:31.770 --> 02:36:32.400
+Edward R. Jones: Here we go.
+
+951
+02:36:33.450 --> 02:36:34.380
+Edward R. Jones: This is.
+
+952
+02:36:36.840 --> 02:36:47.190
+Edward R. Jones: This is the importance assigned from the psychic learn random forest and now this this is amazing, the random forest here.
+
+953
+02:36:48.540 --> 02:36:55.950
+Edward R. Jones: The maximum tree depth is three and the minimum leaves sizes five the Left it's basically killing the forest.
+
+954
+02:36:57.330 --> 02:37:04.920
+Edward R. Jones: You can see the misclassification rate is huge for these data 7% 6%.
+
+955
+02:37:06.300 --> 02:37:16.710
+Edward R. Jones: Not so good, and the the logistic regression is doing much better, this is an unusual situation where the logistic regression is doing much better than the random forest.
+
+956
+02:37:20.520 --> 02:37:24.150
+Edward R. Jones: I think i'm reading that right yeah and then here is.
+
+957
+02:37:25.710 --> 02:37:27.360
+Edward R. Jones: let's see what do we have here.
+
+958
+02:37:31.980 --> 02:37:32.040
+Okay.
+
+959
+02:37:36.660 --> 02:37:43.980
+Edward R. Jones: there's something strange here okay Oh, I see this, this is actually going through and doing simple random forests.
+
+960
+02:37:45.150 --> 02:38:06.300
+Edward R. Jones: Some are better than others as it's actually changing the size of the tree, so we did look at three now we're looking at maximum depth of six and it's looking to spot the best configuration for a random forest and you can see, here we have a.
+
+961
+02:38:07.320 --> 02:38:21.420
+Edward R. Jones: depth of six maximum size of five we get that misclassification rate down to 10 out of 1372 which is similar to what we saw for the.
+
+962
+02:38:22.440 --> 02:38:34.620
+Edward R. Jones: The other model, the logistic regression now we're getting into getting the neural network, and it does turn out, I think that 14 works good here works well here.
+
+963
+02:38:35.070 --> 02:38:53.250
+Edward R. Jones: But there are some others problem, and you can see these pictures don't look like what you're what we would have expected the accuracy is down to 04 and the last looks good it's going pretty down pretty quickly, but the accuracy should be much higher.
+
+964
+02:38:54.990 --> 02:39:00.450
+Edward R. Jones: So you can see the losses point oh one something happened that's not right.
+
+965
+02:39:01.800 --> 02:39:04.170
+Edward R. Jones: Now we have to go back and figure that out right.
+
+966
+02:39:06.180 --> 02:39:08.460
+Edward R. Jones: So let's debug.
+
+967
+02:39:09.720 --> 02:39:11.490
+Edward R. Jones: and see see what we have here.
+
+968
+02:39:12.690 --> 02:39:21.360
+Edward R. Jones: Now, this one is going to require more knowledge more care about pandas and about numbers and things like that.
+
+969
+02:39:23.070 --> 02:39:30.000
+Edward R. Jones: we're running a little short on time so i'm going to work with you on this, the first thing you see right here.
+
+970
+02:39:30.930 --> 02:39:46.650
+Edward R. Jones: is equal to y T shape and it's complaining about the index is out of range and this this is twofold index out of range now normally that would refer to that index right there number one.
+
+971
+02:39:48.270 --> 02:40:03.330
+Edward R. Jones: And so it says the number one is is out of range, but I think in reality it's the word shape that's the problem so where's whitey coming from it says line 72 let's go find line 72.
+
+972
+02:40:05.040 --> 02:40:11.340
+Edward R. Jones: I so here's line 72 This is where he is being set.
+
+973
+02:40:13.140 --> 02:40:19.440
+Edward R. Jones: Now you'd have to look at this and find out what is them what, why are we doing that what is them being used for.
+
+974
+02:40:20.550 --> 02:40:25.770
+Edward R. Jones: And you shortly below there you notice here is where, in this being used, right here.
+
+975
+02:40:27.000 --> 02:40:30.600
+Edward R. Jones: And what is this anybody anybody want to guess.
+
+976
+02:40:33.900 --> 02:40:35.460
+Swanson J, Charles: that's your confusion matrix.
+
+977
+02:40:35.580 --> 02:40:36.840
+Edward R. Jones: Bingo who said that.
+
+978
+02:40:37.380 --> 02:40:44.070
+Edward R. Jones: Charles Charles great can always count on you okay so m should be to.
+
+979
+02:40:45.090 --> 02:41:03.630
+Edward R. Jones: You know the binary case of confusion matrix it's just two by to previously for the other guy it was six by six, and so this is actually capturing the number of classes that are in the target vector, but this does not work here so let's make that a two.
+
+980
+02:41:04.920 --> 02:41:11.460
+Edward R. Jones: And then we'll then that like will be and you'll notice him down below him here, make it a two.
+
+981
+02:41:12.690 --> 02:41:14.190
+Edward R. Jones: And life will be much better.
+
+982
+02:41:15.990 --> 02:41:16.530
+Edward R. Jones: Okay.
+
+983
+02:41:17.850 --> 02:41:31.440
+Edward R. Jones: So, because of that we get we're not able to see the confusion matrix and then the other thing that happens here is looking at printed out the confusion matrix i'm printing out six values.
+
+984
+02:41:32.460 --> 02:41:47.310
+Edward R. Jones: In one line you know, so this matrix that we were working on it's a six by six so I just got in the religious code it really badly here, so what we want to do is do this, a two by two so let's get rid of.
+
+985
+02:41:48.540 --> 02:41:55.920
+Edward R. Jones: This is a format state, but so let's get rid of the for the last four four minutes, just like that.
+
+986
+02:41:57.600 --> 02:42:00.030
+Edward R. Jones: Let me make this bigger so she will have doing.
+
+987
+02:42:01.260 --> 02:42:01.800
+Edward R. Jones: There you go.
+
+988
+02:42:02.850 --> 02:42:07.800
+Edward R. Jones: And then here, where it says zero I won I to.
+
+989
+02:42:08.910 --> 02:42:11.040
+Edward R. Jones: let's just go Iser when I won.
+
+990
+02:42:14.220 --> 02:42:29.310
+Edward R. Jones: Because we know we're doing a two by two, so there are two columns right and let's see do I have that yeah so so this might might fix the problem that we had well there's another really bad problem.
+
+991
+02:42:31.560 --> 02:42:34.800
+Edward R. Jones: Basically, all of this code up here it's got to be destroyed.
+
+992
+02:42:36.570 --> 02:42:42.030
+Edward R. Jones: This is the code that's calculating the, the number of misclassification.
+
+993
+02:42:43.170 --> 02:42:44.790
+Edward R. Jones: Well, since this is binary.
+
+994
+02:42:46.440 --> 02:42:53.550
+Edward R. Jones: You don't have to be so elegant with the doing this calculation, so let me show you how we do that.
+
+995
+02:42:54.930 --> 02:42:57.180
+Edward R. Jones: So I would just come up here and say if.
+
+996
+02:42:59.760 --> 02:43:01.620
+Edward R. Jones: Okay let's see.
+
+997
+02:43:03.870 --> 02:43:07.950
+Edward R. Jones: What variable name, are we using for the actual y value this is.
+
+998
+02:43:09.030 --> 02:43:19.350
+Edward R. Jones: Well, first of all, this is the training data, not the validation day that that's a low, but for the training the the the y value is called.
+
+999
+02:43:20.610 --> 02:43:25.320
+Edward R. Jones: Right up here yeah it's called why why T.
+
+1000
+02:43:26.820 --> 02:43:31.440
+Edward R. Jones: Why, to use the training data so let's go back down here and say if.
+
+1001
+02:43:32.880 --> 02:43:37.860
+Edward R. Jones: whitey the train data and now i'm going to put in parentheses I.
+
+1002
+02:43:40.320 --> 02:43:44.970
+Edward R. Jones: So, if this guy is equal is.
+
+1003
+02:43:47.130 --> 02:43:48.570
+Edward R. Jones: equal to zero.
+
+1004
+02:43:50.370 --> 02:43:53.850
+Edward R. Jones: And now the predictive value predict.
+
+1005
+02:43:57.690 --> 02:43:58.290
+Edward R. Jones: team.
+
+1006
+02:43:59.700 --> 02:44:02.760
+Edward R. Jones: This is the predictive value, and that would be I.
+
+1007
+02:44:05.910 --> 02:44:08.790
+Edward R. Jones: And this is a probability.
+
+1008
+02:44:09.840 --> 02:44:15.420
+Edward R. Jones: If this guy is less than 0.5, then we have a match.
+
+1009
+02:44:16.440 --> 02:44:23.370
+Edward R. Jones: This probability that we're looking at here in the predictive value that's the probability that Why is one.
+
+1010
+02:44:24.420 --> 02:44:40.110
+Edward R. Jones: And so I just said, well if it's zero, then this probability should be less than point five, and if we do, then we have a match, and so I can do something like I can say the confusion matrix at positions zero.
+
+1011
+02:44:41.700 --> 02:44:42.210
+Edward R. Jones: comma.
+
+1012
+02:44:43.980 --> 02:44:44.490
+Edward R. Jones: zero.
+
+1013
+02:44:46.830 --> 02:44:59.850
+Edward R. Jones: We increment plus equals one, so we found this data point where the y value is zero and the predicted predicted probability is less than point five, they agree it's a match.
+
+1014
+02:45:01.110 --> 02:45:09.510
+Edward R. Jones: Okay, now we go and check out another case like e l if else if y T.
+
+1015
+02:45:12.660 --> 02:45:13.800
+Edward R. Jones: is equal to zero.
+
+1016
+02:45:15.090 --> 02:45:17.070
+Edward R. Jones: And the predicted value.
+
+1017
+02:45:18.840 --> 02:45:20.460
+Edward R. Jones: Of I is.
+
+1018
+02:45:23.850 --> 02:45:26.160
+Edward R. Jones: Greater than or equal 2.5.
+
+1019
+02:45:29.160 --> 02:45:29.610
+Edward R. Jones: Okay.
+
+1020
+02:45:30.750 --> 02:45:33.480
+Edward R. Jones: Then that's a mismatch right so.
+
+1021
+02:45:35.220 --> 02:45:43.620
+Edward R. Jones: yeah like that, and with a mismatch What would we want co n F zero comma one.
+
+1022
+02:45:45.150 --> 02:45:48.810
+Edward R. Jones: So the predictive value was pointing to to one.
+
+1023
+02:45:50.160 --> 02:45:52.680
+Edward R. Jones: And so, then that's a false.
+
+1024
+02:45:55.320 --> 02:45:59.400
+Edward R. Jones: Positive I guess proceed plus equals, one that.
+
+1025
+02:46:00.450 --> 02:46:01.860
+Edward R. Jones: OK, and then just.
+
+1026
+02:46:03.570 --> 02:46:06.060
+Edward R. Jones: Elsa whitey.
+
+1027
+02:46:09.180 --> 02:46:10.260
+Edward R. Jones: is equal to one.
+
+1028
+02:46:11.940 --> 02:46:14.910
+Edward R. Jones: And the predicted probability.
+
+1029
+02:46:16.380 --> 02:46:17.940
+Edward R. Jones: Of here.
+
+1030
+02:46:20.220 --> 02:46:23.880
+Edward R. Jones: is greater than or equal to 0.5.
+
+1031
+02:46:26.070 --> 02:46:35.760
+Edward R. Jones: that's a good thing, because we have a with the y value is one and the predicted probability for one is greater than point five, so that means that co an F.
+
+1032
+02:46:37.050 --> 02:46:38.100
+Edward R. Jones: one kind of one.
+
+1033
+02:46:39.750 --> 02:46:53.430
+Edward R. Jones: gets incremental plus equals one so that's the number of corrected indications of positive right and then there's one last condition Elsa whities equal to one.
+
+1034
+02:46:56.370 --> 02:47:01.350
+Edward R. Jones: And the predicted probability is less than Point five.
+
+1035
+02:47:04.440 --> 02:47:07.050
+Edward R. Jones: that's been the case, all right, then.
+
+1036
+02:47:09.270 --> 02:47:10.830
+Edward R. Jones: Then we want see one.
+
+1037
+02:47:13.680 --> 02:47:18.300
+Edward R. Jones: Who, I made a mistake here yeah i'm missing in the bracket very go.
+
+1038
+02:47:20.430 --> 02:47:22.290
+Edward R. Jones: So see one F.
+
+1039
+02:47:23.730 --> 02:47:24.960
+Edward R. Jones: One comma zero.
+
+1040
+02:47:30.600 --> 02:47:31.620
+Edward R. Jones: Plus equals one.
+
+1041
+02:47:34.050 --> 02:47:44.490
+Edward R. Jones: So that will give us our confusion matrix it's going to calculate the number of the corrected in zero zeros will be correct one one will be correct and then the.
+
+1042
+02:47:44.850 --> 02:48:01.530
+Edward R. Jones: False negatives and false positives is going to calculate those as well, in addition, I want to keep a running total on the list of total miss class patients, so this guy here one is a misclassification so I want to pop up in my C plus equals one.
+
+1043
+02:48:03.120 --> 02:48:06.660
+Edward R. Jones: Because that's a false negative, I guess, and then this one.
+
+1044
+02:48:07.770 --> 02:48:14.280
+Edward R. Jones: Another misclassification so am I C plus equals one like that.
+
+1045
+02:48:18.660 --> 02:48:21.660
+Edward R. Jones: Okay, I think that's correct now.
+
+1046
+02:48:23.100 --> 02:48:28.560
+Edward R. Jones: What we need to do is take this whole business right here and copy it.
+
+1047
+02:48:30.510 --> 02:48:35.460
+Edward R. Jones: and paste it just below down here, where it says.
+
+1048
+02:48:37.320 --> 02:48:50.190
+Edward R. Jones: yeah this area right in here where it's line 105 down to one approximately that area, so you want to paste it right in there.
+
+1049
+02:48:51.630 --> 02:48:53.490
+Edward R. Jones: Make sure that it lines up.
+
+1050
+02:48:54.510 --> 02:49:02.520
+Edward R. Jones: correctly yeah The other thing, this is the validation data, so instead of whitey it should be why V.
+
+1051
+02:49:03.600 --> 02:49:08.520
+Edward R. Jones: In all cases, are everywhere there's a white T and here, making a why V.
+
+1052
+02:49:09.900 --> 02:49:15.150
+Edward R. Jones: And then the predict T that's going to go to a predict the.
+
+1053
+02:49:17.550 --> 02:49:18.270
+Edward R. Jones: like that.
+
+1054
+02:49:26.070 --> 02:49:40.560
+Edward R. Jones: And we should be should be really close to go this is like good except oh yeah you see this print statement down here in the in the bottom, we want to change that to what we did up here in the top.
+
+1055
+02:49:42.510 --> 02:49:46.200
+Edward R. Jones: yeah right here were you says, for I in range him.
+
+1056
+02:49:47.280 --> 02:49:49.590
+Edward R. Jones: That bold print right there copy that.
+
+1057
+02:49:50.670 --> 02:49:55.770
+Edward R. Jones: and replace this one down here in line 117.
+
+1058
+02:49:56.910 --> 02:49:57.630
+Edward R. Jones: That area.
+
+1059
+02:50:01.260 --> 02:50:01.770
+Edward R. Jones: Okay.
+
+1060
+02:50:04.560 --> 02:50:06.000
+Edward R. Jones: yeah and I think.
+
+1061
+02:50:07.980 --> 02:50:08.700
+Edward R. Jones: I think we got it.
+
+1062
+02:50:12.600 --> 02:50:15.630
+Edward R. Jones: Sir, is there any Charles you see anything else that we need to do.
+
+1063
+02:50:18.810 --> 02:50:19.380
+Swanson J, Charles: Now, sir.
+
+1064
+02:50:20.250 --> 02:50:21.180
+Edward R. Jones: God well.
+
+1065
+02:50:21.750 --> 02:50:25.230
+Edward R. Jones: I think we're ready to give this a shot we'll run it and see what happens in.
+
+1066
+02:50:26.400 --> 02:50:28.530
+Edward R. Jones: dredge up whatever we need to tread shop.
+
+1067
+02:50:31.800 --> 02:50:32.220
+Edward R. Jones: Okay.
+
+1068
+02:50:33.690 --> 02:50:36.750
+Edward R. Jones: Go ahead and run this see how far we get.
+
+1069
+02:50:44.310 --> 02:50:46.260
+Edward R. Jones: Now I saw that picture look look better.
+
+1070
+02:50:47.640 --> 02:50:51.930
+Edward R. Jones: Well, the top one looks good, but the bottom one Okay, what happened.
+
+1071
+02:50:53.670 --> 02:50:54.120
+Edward R. Jones: All right.
+
+1072
+02:50:55.500 --> 02:50:57.360
+Edward R. Jones: something's still not quite right.
+
+1073
+02:50:58.830 --> 02:51:04.350
+Edward R. Jones: So we'll have to debug that let's see what we're getting for.
+
+1074
+02:51:07.020 --> 02:51:14.880
+Edward R. Jones: Okay, so validation accuracy is not coming in right let's go up to the function that we pasted and cut that's that's the one here to chop.
+
+1075
+02:51:17.820 --> 02:51:20.520
+Edward R. Jones: notice that it says here, it says.
+
+1076
+02:51:22.200 --> 02:51:27.900
+Edward R. Jones: The last get the last plot looks good right this looks good, this is the one that's back.
+
+1077
+02:51:28.920 --> 02:51:33.870
+Edward R. Jones: So let's take a look at the code for that particular plot and.
+
+1078
+02:51:37.980 --> 02:51:57.960
+Edward R. Jones: Okay, what you see here is it's it's plotting it's going to the dictionary and it's flooding accuracy and it's using the code, as you know, accuracy like that, and the spell accuracy and accuracy let's see what I what we used in the in the actual model statement for charisse.
+
+1079
+02:52:02.220 --> 02:52:03.720
+Edward R. Jones: That would be down here.
+
+1080
+02:52:05.460 --> 02:52:07.920
+Edward R. Jones: where you are.
+
+1081
+02:52:16.110 --> 02:52:16.770
+Edward R. Jones: Okay.
+
+1082
+02:52:17.970 --> 02:52:20.940
+Edward R. Jones: yeah it says accuracy, we should accuracy should be.
+
+1083
+02:52:23.580 --> 02:52:35.850
+Edward R. Jones: Using accuracy like that he CC there are two ways to represent accuracy and curious, you can spell it out completely which I prefer to do, and you can the other way is to abbreviated ACC.
+
+1084
+02:52:37.500 --> 02:52:38.880
+Edward R. Jones: But this is spelled out.
+
+1085
+02:52:40.740 --> 02:52:43.410
+Edward R. Jones: And so up here on the.
+
+1086
+02:52:44.550 --> 02:52:48.900
+Edward R. Jones: The web or graphing that it should also say accuracy, which we are.
+
+1087
+02:52:51.090 --> 02:52:52.380
+Edward R. Jones: At Val acre see.
+
+1088
+02:53:01.530 --> 02:53:04.380
+Edward R. Jones: Oh, I see the problem look at the scale, the wide scale.
+
+1089
+02:53:05.730 --> 02:53:07.650
+Edward R. Jones: The wide scale on that bottom plot.
+
+1090
+02:53:09.180 --> 02:53:22.740
+Edward R. Jones: it's going from like point 432 point four, six or something like that, and you notice that the validation is flat it's appear in the top and the.
+
+1091
+02:53:24.060 --> 02:53:26.700
+Edward R. Jones: Training accuracy, so the accuracy rather they're just.
+
+1092
+02:53:27.870 --> 02:53:31.650
+Edward R. Jones: they're just not changing at all, and so.
+
+1093
+02:53:35.940 --> 02:53:37.530
+Edward R. Jones: has something to do in here.
+
+1094
+02:53:39.570 --> 02:53:42.090
+Edward R. Jones: Probably with us history dictionary.
+
+1095
+02:53:43.980 --> 02:53:46.290
+Edward R. Jones: What the history history dictionary is okay.
+
+1096
+02:53:47.910 --> 02:53:48.510
+Edward R. Jones: So.
+
+1097
+02:53:49.710 --> 02:53:52.260
+Edward R. Jones: Go to the bottom here let's see if history dictionary.
+
+1098
+02:53:55.890 --> 02:53:56.850
+Edward R. Jones: is okay.
+
+1099
+02:53:58.110 --> 02:53:59.550
+Edward R. Jones: it's not find.
+
+1100
+02:54:01.290 --> 02:54:03.210
+Edward R. Jones: Are we transferring it over.
+
+1101
+02:54:07.830 --> 02:54:09.120
+Edward R. Jones: It happens right here.
+
+1102
+02:54:10.200 --> 02:54:11.790
+Edward R. Jones: Oh we're using best.
+
+1103
+02:54:13.170 --> 02:54:15.420
+Edward R. Jones: History dictionary okay.
+
+1104
+02:54:16.950 --> 02:54:18.870
+Edward R. Jones: let's see we'll see how that looks.
+
+1105
+02:54:23.670 --> 02:54:26.610
+Edward R. Jones: Okay, and it's all flat look at that and so.
+
+1106
+02:54:27.780 --> 02:54:36.270
+Edward R. Jones: All of the numbers there for accuracy validation accuracy and I know the well that's the loss, but the.
+
+1107
+02:54:37.320 --> 02:54:41.670
+Edward R. Jones: The accuracy numbers are flat across all the box.
+
+1108
+02:54:44.220 --> 02:54:44.760
+Edward R. Jones: Okay.
+
+1109
+02:54:46.620 --> 02:54:56.160
+Coleman, Clay: couldn't just because be because of the like the range between the two of them, the like the scaling on the actual graph mean they're both really close to each other.
+
+1110
+02:54:56.760 --> 02:55:02.100
+Edward R. Jones: yeah know what's bothersome hears that accuracy is flat it's not changing.
+
+1111
+02:55:03.150 --> 02:55:05.730
+Edward R. Jones: And it should actually converge to one.
+
+1112
+02:55:06.990 --> 02:55:15.930
+Edward R. Jones: You start you know low place like four and then should go up to one that's not happening so.
+
+1113
+02:55:16.950 --> 02:55:27.000
+Edward R. Jones: That says Oh, my goodness, oh no slap me, oh no, no, no, no, I didn't do that oh my God okay like.
+
+1114
+02:55:28.470 --> 02:55:31.110
+Edward R. Jones: Remember what I was telling you about the upper layer
+
+1115
+02:55:32.640 --> 02:55:34.470
+Edward R. Jones: You have to be really careful with that.
+
+1116
+02:55:35.520 --> 02:55:48.720
+Edward R. Jones: This is what's happening is that the activation soft Max that's only for categorical data not binary not interval you set it to non for interval and for binary you set it to sigmoid.
+
+1117
+02:55:53.790 --> 02:56:02.190
+Edward R. Jones: Like that soft Max is it's designed to calculate probabilities when you have more than one.
+
+1118
+02:56:03.300 --> 02:56:11.400
+Edward R. Jones: and to make sure they all add to one when you do that sigmoid is just a it produces a number between zero and one one probability.
+
+1119
+02:56:13.200 --> 02:56:18.060
+Edward R. Jones: And just the sigmoid is what you that's not the only place that have that yeah I think so.
+
+1120
+02:56:19.890 --> 02:56:25.170
+Edward R. Jones: Okay, this is going to change things big time so let's run it now.
+
+1121
+02:56:26.460 --> 02:56:27.120
+Edward R. Jones: With that.
+
+1122
+02:56:29.970 --> 02:56:30.570
+Edward R. Jones: and
+
+1123
+02:56:33.360 --> 02:56:44.010
+Edward R. Jones: Should we should see that accuracy graph oops Okay, so what happened, where did it go there, we go see the Chris that's a little more that's a little better.
+
+1124
+02:56:44.880 --> 02:56:54.210
+Edward R. Jones: it's going up and causing that line this label number one starts off at about point for where was and then this cleanse on up there quick pretty quickly.
+
+1125
+02:56:55.170 --> 02:57:13.110
+Edward R. Jones: This is an epoch number 100 and so, if you look then at the training and loss and the validation it's it's mimicking what you see in the upper graph and then accuracy should indicate Okay, we got a problem here with the confusion matrix and the.
+
+1126
+02:57:14.160 --> 02:57:15.420
+Edward R. Jones: With the training data.
+
+1127
+02:57:16.500 --> 02:57:20.190
+Edward R. Jones: And you can see it's what is it complaining about.
+
+1128
+02:57:21.330 --> 02:57:25.050
+Edward R. Jones: And sort of obscure obscure cares terms.
+
+1129
+02:57:26.160 --> 02:57:26.760
+Edward R. Jones: Okay.
+
+1130
+02:57:29.100 --> 02:57:29.670
+Edward R. Jones: oops.
+
+1131
+02:57:33.150 --> 02:57:33.720
+Edward R. Jones: Okay.
+
+1132
+02:57:36.660 --> 02:57:44.970
+Edward R. Jones: All right, keywords keyword key error from error okay so there's a key there's a key error here.
+
+1133
+02:57:46.140 --> 02:57:46.830
+Edward R. Jones: and
+
+1134
+02:57:48.900 --> 02:57:52.950
+Edward R. Jones: it's here, it is right here, oh.
+
+1135
+02:57:54.510 --> 02:57:57.810
+Edward R. Jones: it's complaining about my code hmm.
+
+1136
+02:58:01.290 --> 02:58:01.770
+Edward R. Jones: wow.
+
+1137
+02:58:01.920 --> 02:58:04.020
+Fireman, Karen: need to change that to be like victor.
+
+1138
+02:58:06.060 --> 02:58:07.380
+Edward R. Jones: Oh, a prefix upon.
+
+1139
+02:58:08.370 --> 02:58:09.900
+Fireman, Karen: didn't you need to change the to me.
+
+1140
+02:58:13.710 --> 02:58:18.270
+Edward R. Jones: know no I don't think so I don't think that's the problem, there is a whitey and why V.
+
+1141
+02:58:19.290 --> 02:58:26.940
+Edward R. Jones: In there so but I think if I if you take a look at the you want to take a look at these objects and say type whitey.
+
+1142
+02:58:28.470 --> 02:58:29.610
+Edward R. Jones: see what it looks like.
+
+1143
+02:58:30.780 --> 02:58:34.980
+Edward R. Jones: Okay, not fun Oh, why train.
+
+1144
+02:58:36.000 --> 02:58:41.280
+Edward R. Jones: In the in the main code it's called why train so type why underscore train.
+
+1145
+02:58:43.470 --> 02:58:52.590
+Edward R. Jones: it's a panty it's super handy if I go type and then go predict.
+
+1146
+02:58:55.710 --> 02:58:56.160
+Edward R. Jones: Key.
+
+1147
+02:58:58.050 --> 02:59:06.810
+Edward R. Jones: it's enough be so you're doing we're doing exactly what I told you not to do we're sending we're sending the pandas object over to care us.
+
+1148
+02:59:08.040 --> 02:59:14.310
+Edward R. Jones: And what happens there if you go back to the code, if you say why train.
+
+1149
+02:59:16.440 --> 02:59:22.440
+Edward R. Jones: And then put an index in there, like zero like that oh good an error what.
+
+1150
+02:59:23.700 --> 02:59:29.250
+Edward R. Jones: Is this supposed to work, no because it's banned this, you have to do this.
+
+1151
+02:59:34.290 --> 02:59:41.790
+Edward R. Jones: So, in other words inside that code where we're putting up the confusion matrix, we have to go back there and make some corrections.
+
+1152
+02:59:42.810 --> 02:59:51.720
+Edward R. Jones: So we go back to here, for instance, and everywhere, you see a why VI you basic.
+
+1153
+02:59:51.720 --> 02:59:54.090
+Coleman, Clay: Oh no no out.
+
+1154
+02:59:57.450 --> 02:59:58.080
+Edward R. Jones: doesn't.
+
+1155
+02:59:58.560 --> 03:00:06.570
+Coleman, Clay: Look right now he's buying outside, am I go no no okay.
+
+1156
+03:00:08.010 --> 03:00:08.310
+Coleman, Clay: Well we'll.
+
+1157
+03:00:09.960 --> 03:00:11.700
+Swanson J, Charles: play, you need to mute yourself.
+
+1158
+03:00:17.160 --> 03:00:18.690
+Edward R. Jones: So, like somebody who's got a dog.
+
+1159
+03:00:18.900 --> 03:00:20.910
+Jim Clark: Yes, there when that happens yep.
+
+1160
+03:00:21.630 --> 03:00:21.990
+Edward R. Jones: Oh so.
+
+1161
+03:00:23.190 --> 03:00:24.450
+you've all been there right.
+
+1162
+03:00:26.760 --> 03:00:27.510
+Swanson J, Charles: Absolutely.
+
+1163
+03:00:27.720 --> 03:00:30.750
+Edward R. Jones: Wonderful license one of the reasons I don't have a talk.
+
+1164
+03:00:32.280 --> 03:00:38.670
+Edward R. Jones: If I have a dog you better know how to standard tension all right, why tea, I like that that I look.
+
+1165
+03:00:41.190 --> 03:00:46.170
+Edward R. Jones: So why why T and why V are basically Banda subjects, so we have to.
+
+1166
+03:00:48.420 --> 03:00:53.550
+Edward R. Jones: treat them gently by put in I look in there when we want to indexing.
+
+1167
+03:00:55.740 --> 03:01:00.120
+Edward R. Jones: that's what happens because, and this is so generous and the way the lich people.
+
+1168
+03:01:01.500 --> 03:01:02.310
+Edward R. Jones: index.
+
+1169
+03:01:03.750 --> 03:01:05.460
+Edward R. Jones: pandas option okay.
+
+1170
+03:01:06.630 --> 03:01:13.560
+Edward R. Jones: So that should basically fix that problem I believe let's let's run it and see what happens.
+
+1171
+03:01:13.560 --> 03:01:14.820
+Swanson J, Charles: Just do we need to.
+
+1172
+03:01:14.910 --> 03:01:17.760
+Swanson J, Charles: Do that also for the validation set.
+
+1173
+03:01:19.890 --> 03:01:26.070
+Edward R. Jones: Yes, we do so, I just did it for whitey and then down here, I did it for why V as well.
+
+1174
+03:01:27.480 --> 03:01:30.030
+Swanson J, Charles: Is that okay yeah absolutely.
+
+1175
+03:01:33.240 --> 03:01:33.780
+Edward R. Jones: So.
+
+1176
+03:01:35.130 --> 03:01:38.010
+Edward R. Jones: Oh it's completely one of my one of my times.
+
+1177
+03:01:40.740 --> 03:01:42.810
+Edward R. Jones: down here at the bottom somewhere I gotta time time.
+
+1178
+03:01:45.510 --> 03:01:59.640
+Edward R. Jones: Okay, anyway, look what happened, like the screen good now we get our confusion matrix using guess what we got we got 00 training misclassification.
+
+1179
+03:02:00.990 --> 03:02:02.400
+Edward R. Jones: zero can you believe that.
+
+1180
+03:02:04.050 --> 03:02:10.590
+Edward R. Jones: that's with charisse now doing a simple binary neural network right like that.
+
+1181
+03:02:11.850 --> 03:02:13.350
+Edward R. Jones: So i'm very proud of that.
+
+1182
+03:02:15.690 --> 03:02:24.900
+Edward R. Jones: it's like whoa this has happened, more than once, by the way, i've done a lot of models on weird data like images and things like that.
+
+1183
+03:02:25.380 --> 03:02:45.690
+Edward R. Jones: And if you if you tweak the charisse neural network anoxic offs and get these incredible really we try to weave prior to random forest no luck, we tried to the traditional neural network with psychic learn not bad, but not this we tried route, what is it the.
+
+1184
+03:02:47.070 --> 03:02:57.720
+Edward R. Jones: linear regression or logistic regression and they they did they did Okay, but not zero this is 00 misclassification so.
+
+1185
+03:02:59.790 --> 03:03:04.380
+Edward R. Jones: pretty good results, I think, for a little bit of extra work I guess.
+
+1186
+03:03:06.180 --> 03:03:22.170
+Edward R. Jones: So i'm going to open up the solution oh wait there's another one here add code to evaluate the best of these three and basically all they are all you need to do is is copy this code and take the take the code out of the loop right.
+
+1187
+03:03:23.280 --> 03:03:31.260
+Edward R. Jones: So everything that's up here is inside this loop just take out the loop, and then you have one, you know.
+
+1188
+03:03:32.700 --> 03:03:36.000
+Edward R. Jones: One neural network, and so what I would do is just.
+
+1189
+03:03:39.090 --> 03:03:39.750
+Edward R. Jones: let's see.
+
+1190
+03:03:41.700 --> 03:03:47.640
+Edward R. Jones: Their total time the straight they're starting their line to 87 and going all the way up to.
+
+1191
+03:03:52.200 --> 03:03:53.220
+Edward R. Jones: 241.
+
+1192
+03:03:54.240 --> 03:03:56.160
+Edward R. Jones: that's the loop copy that.
+
+1193
+03:03:57.750 --> 03:04:01.620
+Edward R. Jones: and bring it down and paste to them down here number four.
+
+1194
+03:04:03.060 --> 03:04:08.520
+Edward R. Jones: Well i'm going to paste it in a 291 and then i'm going to get rid of the.
+
+1195
+03:04:09.870 --> 03:04:11.970
+Edward R. Jones: Those loops i'm going to take this guy.
+
+1196
+03:04:14.100 --> 03:04:19.830
+Edward R. Jones: And i'm going to have to an in depth, everything that you see here.
+
+1197
+03:04:21.330 --> 03:04:27.570
+Edward R. Jones: Okay, so this is this was inside the loop now i'm going to tab it over like that.
+
+1198
+03:04:29.850 --> 03:04:40.710
+Edward R. Jones: And now, all I need to do is change neurons set neurons equal to whatever you want it to be and that's going to be the best right so i'm going to say neurons.
+
+1199
+03:04:42.240 --> 03:04:43.740
+Edward R. Jones: is equal to the best.
+
+1200
+03:04:45.030 --> 03:05:00.960
+Edward R. Jones: Of the best neurons right, and you are, and so I think, is the way that was set up, so that in this loop it keeps track of of the best neuron situation right there so best neurons is the best of whatever you know, was in that loop up there.
+
+1201
+03:05:02.160 --> 03:05:02.760
+Edward R. Jones: and
+
+1202
+03:05:04.200 --> 03:05:06.780
+Edward R. Jones: And now we're ready to go with this.
+
+1203
+03:05:07.980 --> 03:05:18.840
+Edward R. Jones: should work, may I must be missing, something must kept oh yeah yeah gotta go gotta take this out, this is no longer needed, you know where you're looking to see if it's the best or not now it's.
+
+1204
+03:05:20.940 --> 03:05:22.260
+Edward R. Jones: we're not looping over that.
+
+1205
+03:05:23.910 --> 03:05:30.600
+Edward R. Jones: And we don't need the printout best neurons we know what's going on with dad.
+
+1206
+03:05:31.830 --> 03:05:32.460
+Edward R. Jones: and
+
+1207
+03:05:34.830 --> 03:05:35.490
+Edward R. Jones: I think.
+
+1208
+03:05:36.840 --> 03:05:37.260
+Edward R. Jones: It gets.
+
+1209
+03:05:42.960 --> 03:05:45.300
+Edward R. Jones: Oh here, where it says best history.
+
+1210
+03:05:46.440 --> 03:05:49.500
+Edward R. Jones: The CT know.
+
+1211
+03:05:53.250 --> 03:05:54.510
+Edward R. Jones: You just want to say.
+
+1212
+03:06:01.980 --> 03:06:05.130
+Edward R. Jones: Well, actually, all you have to do is changes to the SEC right.
+
+1213
+03:06:13.350 --> 03:06:17.670
+Edward R. Jones: right here is it's calculate it's getting the history dictionary right now.
+
+1214
+03:06:19.980 --> 03:06:22.530
+Edward R. Jones: And you don't need the sky.
+
+1215
+03:06:27.930 --> 03:06:33.000
+Edward R. Jones: And let's see where this where is the predict V and predict T coming from.
+
+1216
+03:06:37.980 --> 03:06:44.100
+Edward R. Jones: it's not, we have to do that, so the way we do, that is.
+
+1217
+03:06:45.690 --> 03:06:48.780
+Edward R. Jones: Right after this you can say predict.
+
+1218
+03:06:51.810 --> 03:06:55.020
+Edward R. Jones: T the training data is equal to model.
+
+1219
+03:06:56.070 --> 03:06:58.410
+Edward R. Jones: The underscore predict.
+
+1220
+03:06:59.490 --> 03:07:04.140
+Edward R. Jones: And then X underscore train like that.
+
+1221
+03:07:07.080 --> 03:07:15.300
+Edward R. Jones: And then you would do the same thing for the validation predict the equals to model score predict.
+
+1222
+03:07:18.570 --> 03:07:20.760
+Edward R. Jones: X underscore valid in.
+
+1223
+03:07:24.420 --> 03:07:31.800
+Edward R. Jones: And, and then why training why validate, of course, come directly out of the data here.
+
+1224
+03:07:33.900 --> 03:07:34.500
+Edward R. Jones: Okay.
+
+1225
+03:07:35.730 --> 03:07:38.010
+Edward R. Jones: oops I can we can either read error there.
+
+1226
+03:07:41.190 --> 03:07:44.370
+Swanson J, Charles: Do you need to use the word history as opposed to.
+
+1227
+03:07:45.030 --> 03:07:46.860
+Edward R. Jones: Oh model.
+
+1228
+03:07:48.750 --> 03:07:49.140
+Edward R. Jones: wow.
+
+1229
+03:07:51.060 --> 03:07:53.160
+Swanson J, Charles: You have model dot fit equal.
+
+1230
+03:07:53.910 --> 03:07:55.290
+Edward R. Jones: Right yeah this.
+
+1231
+03:07:58.560 --> 03:07:59.640
+Is a PR dot.
+
+1232
+03:08:01.110 --> 03:08:03.750
+Edward R. Jones: yeah instead of the underscore it's a top.
+
+1233
+03:08:04.920 --> 03:08:11.370
+Edward R. Jones: psychic learn those people use model underscore predict it's kind of confusing.
+
+1234
+03:08:13.770 --> 03:08:14.310
+Edward R. Jones: Okay.
+
+1235
+03:08:15.660 --> 03:08:16.320
+Edward R. Jones: well.
+
+1236
+03:08:17.880 --> 03:08:22.800
+Edward R. Jones: I think we're going to get a happy result here let's let's verify that.
+
+1237
+03:08:24.780 --> 03:08:31.890
+Edward R. Jones: The reason that I like to have this at the end where you're repeating is sometimes I will come in here now and change in the second case.
+
+1238
+03:08:32.340 --> 03:08:41.130
+Edward R. Jones: I might change the optimizer to see if I get a better result than, then what, and so I basically at this point, I have two versions of the same.
+
+1239
+03:08:42.120 --> 03:08:49.200
+Edward R. Jones: Network and they should get the same results right, so the version, the second version is a copy of the first version.
+
+1240
+03:08:49.680 --> 03:09:07.110
+Edward R. Jones: So the second version should produce exact Well now, I can come in here and tweak things and play with it, to see whether well, maybe if I change this, to add them that's the line number 312 so far, if I go to line 312 and change that to add them instead of a doubt.
+
+1241
+03:09:10.680 --> 03:09:25.020
+Edward R. Jones: Or maybe I change the pack size which well right now the epoch sizes what's left over from up there, so I might come in here and actually copy this over.
+
+1242
+03:09:26.880 --> 03:09:27.600
+Edward R. Jones: like that.
+
+1243
+03:09:28.980 --> 03:09:30.060
+Edward R. Jones: bring it down.
+
+1244
+03:09:32.580 --> 03:09:33.780
+Edward R. Jones: somewhere around here.
+
+1245
+03:09:38.400 --> 03:09:52.500
+Edward R. Jones: And now I can play with changing the the box and the size and Compare that to what i'm getting first fit so anyway, you can see we're still getting the same thing, which is zero misclassification.
+
+1246
+03:09:53.550 --> 03:09:59.730
+Edward R. Jones: And you can see the graph search exactly the same now we change it to.
+
+1247
+03:10:00.750 --> 03:10:14.250
+Edward R. Jones: Adam on curious to see if the graph change, you know just whether the results change that sort of thing we are out of time, I really appreciate everybody coming tonight, then then staying up with me and being attentive.
+
+1248
+03:10:15.450 --> 03:10:31.260
+Edward R. Jones: I really hope someday, we can see each other in Houston again, but I don't know if it's going to be this semester not maybe it'll be graduation right how many of you are going to the is that presentation for the pure presentation is that going to be done on why.
+
+1249
+03:10:33.240 --> 03:10:34.290
+Edward R. Jones: I think I agree, you know.
+
+1250
+03:10:34.590 --> 03:10:41.190
+Swanson J, Charles: I believe the intent is to do the Pier presentations in in person, the day before graduation.
+
+1251
+03:10:42.360 --> 03:10:42.840
+Edward R. Jones: Okay.
+
+1252
+03:10:44.130 --> 03:10:44.730
+Edward R. Jones: Very good.
+
+1253
+03:10:44.970 --> 03:10:47.010
+Fireman, Karen: Now I think up in college station right.
+
+1254
+03:10:47.430 --> 03:10:50.880
+Swanson J, Charles: Correct but not everybody will be doing it in person.
+
+1255
+03:10:52.020 --> 03:10:58.110
+Edward R. Jones: Right that's a stretch right they have to first of all, you have to way to drive and secondly.
+
+1256
+03:11:00.000 --> 03:11:05.460
+Edward R. Jones: we're all used we're used to not being in crowds right so.
+
+1257
+03:11:07.140 --> 03:11:13.320
+Edward R. Jones: Maybe that day is coming coming to where we don't worry about that, but I still worry about it so okay.
+
+1258
+03:11:14.670 --> 03:11:15.720
+Edward R. Jones: And i've had the vaccine.
+
+1259
+03:11:17.130 --> 03:11:18.330
+Edward R. Jones: Okay here's the second.
+
+1260
+03:11:20.160 --> 03:11:21.930
+Edward R. Jones: Wait a second so gone.
+
+1261
+03:11:23.370 --> 03:11:23.700
+Jim Clark: yeah.
+
+1262
+03:11:26.820 --> 03:11:37.200
+Edward R. Jones: I just wanted to you can see, this is the first graph and now we're going to the second one, where I change I change the the optimizer to add them and.
+
+1263
+03:11:38.370 --> 03:11:43.920
+Edward R. Jones: You still get zero misclassification which is sort of expect, but what i'm wondering, is whether the graphs.
+
+1264
+03:11:44.850 --> 03:11:58.320
+Edward R. Jones: They do look a little better, I think, without them well, maybe not that much it's not that big a deal, but what I what I sometimes see is the validation data will be jumping around in one optimizer and not in the other.
+
+1265
+03:12:00.960 --> 03:12:03.750
+Edward R. Jones: But here the pretty much the same.
+
+1266
+03:12:05.220 --> 03:12:16.650
+Edward R. Jones: Okay, well, thank you for attending tonight and looking forward to doing this again next week next Tuesday and we're going to really turn this over to another level, which is.
+
+1267
+03:12:17.310 --> 03:12:30.120
+Edward R. Jones: How do you process images, now that basically gets into talking about other kinds of neural networks, this is the traditional neural network where everything is connected to everything and one layers behind another.
+
+1268
+03:12:30.600 --> 03:12:38.820
+Edward R. Jones: Now we're going to put layers we're going to put a network in front of this network and the purpose of that network in front is to.
+
+1269
+03:12:40.200 --> 03:13:00.960
+Edward R. Jones: Re adjust or process the incoming data, so the incoming data and can take from image is millions of pixels and what you want to do is collapse that down to a smaller number and there's a way to do that, using a neural network which does a nice job of that okay.
+
+1270
+03:13:01.350 --> 03:13:03.600
+Fireman, Karen: We have office hours tomorrow night, sir.
+
+1271
+03:13:04.290 --> 03:13:08.040
+Edward R. Jones: what's that you want to Q amp l well yeah we can do that.
+
+1272
+03:13:08.520 --> 03:13:14.760
+Edward R. Jones: If you want, if you want, but you know there's no homework assignment this week there was no homework assignment last week.
+
+1273
+03:13:16.980 --> 03:13:19.320
+Edward R. Jones: I don't know about the next week, but.
+
+1274
+03:13:20.820 --> 03:13:25.470
+Edward R. Jones: Until you guys get through your capstones i'm not planning on doing any homework.
+
+1275
+03:13:25.650 --> 03:13:26.190
+Swanson J, Charles: bless you.
+
+1276
+03:13:26.850 --> 03:13:27.300
+Fireman, Karen: Thank you.
+
+1277
+03:13:28.260 --> 03:13:28.920
+So.
+
+1278
+03:13:30.570 --> 03:13:33.390
+Edward R. Jones: Much also, I have to sit in on those things you know.
+
+1279
+03:13:35.790 --> 03:13:41.160
+Edward R. Jones: But that's I like sitting in on so it's not a problem are complaining about.
+
+1280
+03:13:42.990 --> 03:13:54.600
+Edward R. Jones: Okay well i'll see you at your capstone maybe and, if not i'll see maybe tomorrow night we'll have a Q amp a and we don't know what we're gonna do drink a beer or something, but I don't.
+
+1281
+03:13:55.680 --> 03:13:56.340
+Fireman, Karen: have questions.
+
+1282
+03:13:57.090 --> 03:13:58.140
+Edward R. Jones: Questions all right.
+
+1283
+03:13:58.680 --> 03:13:59.040
+Edward R. Jones: Okay.
+
+1284
+03:13:59.550 --> 03:14:00.990
+Edward R. Jones: I say the word I buy.
+
+1285
+03:14:01.320 --> 03:14:01.650
+Things.
+
+1286
+03:14:02.940 --> 03:14:05.220
+Swanson J, Charles: you're gonna release solutions for.
+
+1287
+03:14:05.940 --> 03:14:08.700
+Edward R. Jones: Oh yes, i'll do that as soon as I say goodbye.
+
+1288
+03:14:09.210 --> 03:14:10.200
+Swanson J, Charles: Very good, thank you, sir.
+
+1289
+03:14:10.500 --> 03:14:11.520
+Jim Clark: very busy tomorrow.
+
+1290
+03:14:11.880 --> 03:14:12.240
+Edward R. Jones: bye bye.
+
+1291
+03:14:12.270 --> 03:14:12.690
+Fireman, Karen: Thank you.
+

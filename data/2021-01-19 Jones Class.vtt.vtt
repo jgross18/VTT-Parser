@@ -1,0 +1,4738 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:01.650
+MS Analytics Class 2021: Welcome to
+
+2
+00:00:05.700 --> 00:00:12.420
+MS Analytics Class 2021: Python programming or we're going to be having some fun. I'll show you what I'm talking about here.
+
+3
+00:00:14.250 --> 00:00:15.150
+MS Analytics Class 2021: Okay, so
+
+4
+00:00:16.379 --> 00:00:21.180
+MS Analytics Class 2021: You should see a green stroke, they're applying this drone using my cell phone.
+
+5
+00:00:22.320 --> 00:00:29.400
+MS Analytics Class 2021: And it's fairly harmless. I mean, I can maybe go up and down with my cell phone, maybe go a
+
+6
+00:00:31.320 --> 00:00:33.570
+MS Analytics Class 2021: Little command that I wanted to
+
+7
+00:00:36.120 --> 00:00:39.930
+MS Analytics Class 2021: Turn this and this will actually also pay for your
+
+8
+00:00:42.330 --> 00:00:42.840
+MS Analytics Class 2021: Video
+
+9
+00:00:56.490 --> 00:01:02.550
+MS Analytics Class 2021: Pretty good air conditioning vending in this room and sucking the drone up into the ceiling anyway.
+
+10
+00:01:03.600 --> 00:01:06.210
+MS Analytics Class 2021: Not really. When you do have to keep
+
+11
+00:01:09.690 --> 00:01:12.990
+MS Analytics Class 2021: Looking around seeing the walls here.
+
+12
+00:01:14.820 --> 00:01:18.000
+MS Analytics Class 2021: We are a lot of students here, but their virtual
+
+13
+00:01:21.480 --> 00:01:23.430
+MS Analytics Class 2021: And I'm going to come forward.
+
+14
+00:01:24.990 --> 00:01:28.380
+MS Analytics Class 2021: Over to the board. I don't even see it on board. They are not
+
+15
+00:01:31.980 --> 00:01:34.950
+MS Analytics Class 2021: Actually who over crashing into the board.
+
+16
+00:01:36.420 --> 00:01:37.470
+MS Analytics Class 2021: And that all
+
+17
+00:01:38.790 --> 00:01:49.590
+MS Analytics Class 2021: Propeller gardens even doing any serious damage. However, you haven't connected this with your face on top of. They are those little propellers.
+
+18
+00:01:51.060 --> 00:01:55.020
+MS Analytics Class 2021: Can cause problems. So I'm going to take a little video
+
+19
+00:01:57.240 --> 00:01:58.410
+MS Analytics Class 2021: So let's see.
+
+20
+00:02:00.240 --> 00:02:05.280
+MS Analytics Class 2021: Photographs of the room. And now I'm going to turn on the video.
+
+21
+00:02:07.980 --> 00:02:09.030
+MS Analytics Class 2021: Can room.
+
+22
+00:02:10.170 --> 00:02:10.590
+MS Analytics Class 2021: So,
+
+23
+00:02:12.030 --> 00:02:17.970
+MS Analytics Class 2021: They get a little 360 video was here and you see me there.
+
+24
+00:02:57.690 --> 00:02:58.380
+MS Analytics Class 2021: All right.
+
+25
+00:03:01.980 --> 00:03:21.000
+MS Analytics Class 2021: And the reason I started with that is because one of the lectures are written in heaven, about four weeks. It's going to be on programming using pipe out to pro program these one pilot that anonymous vehicles and this is what we're going to use for this will tell
+
+26
+00:03:22.050 --> 00:03:34.740
+MS Analytics Class 2021: You, there's some information that the only works with site on why one of these. If you want want, but in about four weeks for wanting to learn a program that right. They are displaying taking the photographs and everything using
+
+27
+00:03:35.970 --> 00:03:37.260
+MS Analytics Class 2021: Using my cell phones.
+
+28
+00:03:48.210 --> 00:03:50.010
+Wish. They all came to play with it.
+
+29
+00:04:01.140 --> 00:04:04.260
+They said, This is the coolest zoom meeting. I've ever been in.
+
+30
+00:04:06.960 --> 00:04:09.810
+MS Analytics Class 2021: A Dr. Jones Jones. Can you hear me.
+
+31
+00:04:11.760 --> 00:04:12.060
+Yes.
+
+32
+00:04:15.150 --> 00:04:15.750
+MS Analytics Class 2021: Class.
+
+33
+00:04:20.310 --> 00:04:21.480
+Interpreters
+
+34
+00:04:30.690 --> 00:04:45.240
+MS Analytics Class 2021: Smaller about the size of the greatest fan. Okay, let's take a look and see what's on our syllabus. If you go to the campus, you're going to find that I copy and sell this and we'll go over that first order.
+
+35
+00:04:47.370 --> 00:05:01.140
+MS Analytics Class 2021: There is. Okay. So this is pretty much the standard thing where we're going to be doing this every Tuesday night for two hours, six to three hours after about six to nine.
+
+36
+00:05:02.550 --> 00:05:20.910
+MS Analytics Class 2021: We're going to have office hours before class. And those of you that are in Houston, and then we'll have them on Wednesday evening from seven o'clock to 830 they will be recorded and posted on the campus if you're unable to make that time.
+
+37
+00:05:22.200 --> 00:05:34.080
+MS Analytics Class 2021: The focus for the office hours, usually on Wednesday will be the homework assignment and questions that might come up about the class or the lecture last Tuesday.
+
+38
+00:05:35.160 --> 00:05:38.250
+MS Analytics Class 2021: If you attended the the summer class. I think most of you.
+
+39
+00:05:39.600 --> 00:05:49.110
+MS Analytics Class 2021: You know what I normally do is assign homework every class and then had to do before the following class and we're going to use that model again here.
+
+40
+00:05:50.070 --> 00:06:04.380
+MS Analytics Class 2021: However, there's something that we're not going to do in the sun. We had several examinations of you were. We have no exams in this class. Not everything is based upon homework.
+
+41
+00:06:05.550 --> 00:06:17.550
+MS Analytics Class 2021: And on a semester project which will be like a super homework problem. Okay, well you're choosing now please complete the course. I'd like you to be
+
+42
+00:06:18.300 --> 00:06:22.710
+MS Analytics Class 2021: More provision by on the currently are. Now some of you probably already
+
+43
+00:06:23.160 --> 00:06:31.740
+MS Analytics Class 2021: Are more efficient than I can, if you're working in a position where you're using by every day, then they're probably very, very efficient.
+
+44
+00:06:32.130 --> 00:06:44.670
+MS Analytics Class 2021: But this cool discourse is made for for you, but it's primarily for people that wanted to aren't there yet. And they won't learn more about Python and
+
+45
+00:06:45.330 --> 00:06:54.060
+MS Analytics Class 2021: In particular, we're going to be looking at. We're going to start off by looking at some of the basic libraries that are in Python.
+
+46
+00:06:54.510 --> 00:07:05.820
+MS Analytics Class 2021: That would be not being Candace and Matt live Matt plot line, which we'll talk about it. See what happens. We'll talk about today and we're going to also then be writing
+
+47
+00:07:07.200 --> 00:07:17.190
+MS Analytics Class 2021: Applications for other devices like homes and we're going and other computers will see some of that tonight.
+
+48
+00:07:18.000 --> 00:07:26.580
+MS Analytics Class 2021: We're going to be using the be where and there's a that's a library and then another library called Tinker TK I NT er.
+
+49
+00:07:27.030 --> 00:07:38.220
+MS Analytics Class 2021: And these are used for making applications that can run and the benefit of Python on different machines and you'll see some of that here tonight, see why that's a good thing.
+
+50
+00:07:39.390 --> 00:07:55.410
+MS Analytics Class 2021: Will also be looking at the P white torch and TensorFlow and carrots for deep learning. And so about the first half of the class will talk about some of the things that we didn't do in the center which is some of the plots.
+
+51
+00:07:56.580 --> 00:08:00.330
+MS Analytics Class 2021: How instead of doing and doing and why don't you why you'd want to do that.
+
+52
+00:08:01.800 --> 00:08:12.360
+MS Analytics Class 2021: And then we'll get into deep learning the for the last half of the class. And that would be that's flowing Charisse primarily and then Tiki Room will be looking at things like vision recognition.
+
+53
+00:08:13.530 --> 00:08:33.060
+MS Analytics Class 2021: Language recognition Tennyson voice using terrorists and TensorFlow. We're also going to be looking at programming using Python program unmanned vehicles are violent vehicles. So, that can be a car to be a truck or in this case is to be a drone.
+
+54
+00:08:34.980 --> 00:08:42.750
+MS Analytics Class 2021: It's a little hard to get a car or truck in your program that but we can program a little drum to fly around and then we use it.
+
+55
+00:08:43.830 --> 00:09:03.240
+MS Analytics Class 2021: And you'll see how that's done. Now why that's being done is because the principles and the basic process to use the program that little drone is still is similar to, to what you would do if you're going to program car or a truck or an airplane or something like that. So,
+
+56
+00:09:04.500 --> 00:09:07.530
+MS Analytics Class 2021: The this ability to program on
+
+57
+00:09:08.910 --> 00:09:22.830
+MS Analytics Class 2021: Vehicles is rapidly taking off and Sunday, you'll probably see cars driving down the street with no money in them. Maybe an Amazon thing. I'm the silence busy, don't bother you, because
+
+58
+00:09:24.210 --> 00:09:31.710
+MS Analytics Class 2021: You'll also see leaving and I see drones delivering packages and food and things like that in the near future.
+
+59
+00:09:32.910 --> 00:09:43.230
+MS Analytics Class 2021: This last December of the FAA who regulates all airspace in the United States without a new set of rules that covers
+
+60
+00:09:43.740 --> 00:09:51.810
+MS Analytics Class 2021: And then apply the bottom and vehicle son pilot and big and Sam is basically necessary in design so that
+
+61
+00:09:52.620 --> 00:10:00.480
+MS Analytics Class 2021: The day when the day comes that you have thousands of these things running around delivering things or communicating in the subway.
+
+62
+00:10:01.260 --> 00:10:10.410
+MS Analytics Class 2021: You know, often run into each other are causing problems. And so they have a new set of rules that are coming out that will help manage
+
+63
+00:10:10.830 --> 00:10:21.510
+MS Analytics Class 2021: The when they go low airspace everything below 400 feet, basically. So, the United States and Canada. Your, a lot of the fire it up about 400 feet as long as you're on airport
+
+64
+00:10:22.290 --> 00:10:32.370
+MS Analytics Class 2021: Over people regards or international particles are all prohibitions. So you can do still quite a flying one of those things.
+
+65
+00:10:35.790 --> 00:10:48.300
+MS Analytics Class 2021: So that's sort of our focus to prepare episodes of course is an interesting learning on program. We do have one ball and that's all panelists are everyone
+
+66
+00:10:49.560 --> 00:10:57.000
+MS Analytics Class 2021: And I think it's a good book, we're going, we're going to take a look at the first three chapters tonight and go from there.
+
+67
+00:11:00.090 --> 00:11:14.160
+MS Analytics Class 2021: So you asked me to do semester project that we 60% of your grade homework will be in another 40% know exams. No need for blockers or anything like that.
+
+68
+00:11:16.350 --> 00:11:18.600
+MS Analytics Class 2021: The semester project is
+
+69
+00:11:20.880 --> 00:11:33.030
+MS Analytics Class 2021: Your choosing, you're going to be your big VR ops to find something that you want to do with Python and develop an application around whatever that is. And
+
+70
+00:11:33.750 --> 00:11:47.730
+MS Analytics Class 2021: I think it would work best if you have a partner. So I'm thinking that the semester project would be done with teams of two or three people, something of that time.
+
+71
+00:11:49.410 --> 00:11:59.190
+MS Analytics Class 2021: Some people that are very, very good at icon or they like to get it the deals and details on they should probably be on your team and then
+
+72
+00:11:59.700 --> 00:12:09.660
+MS Analytics Class 2021: Others that might like documentation and research and things like that might be on the team as well to go to a three person team wouldn't have
+
+73
+00:12:10.200 --> 00:12:18.360
+MS Analytics Class 2021: Programming expert somebody who's good at the documentation research at somebody good organization, bring it all together.
+
+74
+00:12:19.260 --> 00:12:31.440
+MS Analytics Class 2021: And the idea behind the project now is that at the end of the semester. The last two sessions. We're going to have each do the presentation and you'll have a short amount of time to do that.
+
+75
+00:12:33.210 --> 00:12:43.830
+MS Analytics Class 2021: And low score in your presentation, based on that asked questions and things of that time. So that's our greatest on is pretty fairly informal really
+
+76
+00:12:46.770 --> 00:12:48.270
+MS Analytics Class 2021: Let's see. Okay.
+
+77
+00:12:49.410 --> 00:12:51.780
+MS Analytics Class 2021: The rest of this. I think you know about
+
+78
+00:12:53.310 --> 00:12:56.370
+MS Analytics Class 2021: Please read this. You have any questions, let me know.
+
+79
+00:12:57.420 --> 00:13:01.410
+MS Analytics Class 2021: I think you've seen versions of this every semester every class.
+
+80
+00:13:02.550 --> 00:13:13.410
+MS Analytics Class 2021: And the deal with plagiarism and things of that time. Now this is a new one tennis at all sessions is mandatory. Oh, why, and I'll see anybody
+
+81
+00:13:14.760 --> 00:13:32.640
+MS Analytics Class 2021: Okay, well, you don't have misinterpreted. Right. So, we want you to participate in class, if at all possible, but it's not always possible. And so these are all recorded. They're all online. And that's always an option for me.
+
+82
+00:13:35.880 --> 00:13:59.400
+MS Analytics Class 2021: Made up. Well, there's nothing to make up except possibly the old and I'm not going to access usual I am going not going to allow or be turned in late reason is at the beginning of the class all over the solution. The homework, whatever that is. Are we okay okay
+
+83
+00:14:07.980 --> 00:14:19.140
+MS Analytics Class 2021: And then of course there's this notice about recording sessions are being recorded, and I think hobby. Oh, I got it. You want to say something about masks. Okay.
+
+84
+00:14:20.430 --> 00:14:24.870
+MS Analytics Class 2021: This is where it's at. So he has an official announcement.
+
+85
+00:14:26.880 --> 00:14:27.780
+MS Analytics Class 2021: We have a report.
+
+86
+00:14:28.890 --> 00:14:43.200
+MS Analytics Class 2021: Yeah okay everybody just one quick announcement welcome last semester for you all. So this is just primarily for the people that are coming to city center.
+
+87
+00:14:43.860 --> 00:14:54.420
+MS Analytics Class 2021: We're just reminding everybody that masks need to be on at all times. Unless you're eating in the dining home. If not, and if you happen to be inside the building, even though
+
+88
+00:14:54.960 --> 00:15:04.140
+MS Analytics Class 2021: Even in the breakout rooms rose, whether you're by yourself or locked in. If you're not eating in the dining hall last speech to be on all the way
+
+89
+00:15:04.710 --> 00:15:17.280
+MS Analytics Class 2021: So no one covered noses know anything, I'll make sure everybody feels safe coming into the space and we want to keep it that way. So just a reminder that if you're thinking of coming to citizen respect social distancing
+
+90
+00:15:18.180 --> 00:15:28.980
+MS Analytics Class 2021: Guidelines masks on at all times, no food or drink inside the classroom. Any question, just let us let us know y'all have a wonderful semester.
+
+91
+00:15:31.020 --> 00:15:31.500
+MS Analytics Class 2021: Okay.
+
+92
+00:15:34.200 --> 00:15:34.800
+Right.
+
+93
+00:15:36.990 --> 00:15:47.880
+MS Analytics Class 2021: Personal Elon Elon this in quarantine you know that you know what that's about. So I think everybody knows what that's about. Let's talk about the the course schedule.
+
+94
+00:15:52.200 --> 00:15:58.170
+MS Analytics Class 2021: Okay, this, this version doesn't have an honor the though the version that I put up
+
+95
+00:15:59.220 --> 00:16:02.610
+MS Analytics Class 2021: Online, which I think is this version.
+
+96
+00:16:08.070 --> 00:16:08.550
+MS Analytics Class 2021: Yeah.
+
+97
+00:16:09.930 --> 00:16:24.420
+MS Analytics Class 2021: On the campus on this version at the last page, it shows you week by week. What are we doing, and tonight we're looking at canvas math Bloodline and to Tender, tender.
+
+98
+00:16:25.410 --> 00:16:33.480
+MS Analytics Class 2021: That's part one of the book, by the way. So your homework assignment is to read the part one of the book, which is the first three chapters.
+
+99
+00:16:33.930 --> 00:16:54.540
+MS Analytics Class 2021: And the assignment for week one will be due next week check over the 26 so if you want to find out whether an assignment is super a particular date like March 30th, we're in, for example, you will see the week 10 assignment is to march 30
+
+100
+00:16:55.920 --> 00:17:14.160
+MS Analytics Class 2021: There is some peculiar things about the schedule. Number one, how did we get so lucky march. The second is Texas in Venice day with falls on the to see which means we have no class no class on March the set
+
+101
+00:17:15.450 --> 00:17:20.310
+MS Analytics Class 2021: And no class but no assignment for me.
+
+102
+00:17:21.330 --> 00:17:25.230
+MS Analytics Class 2021: So you're going to have a you have a bullet all their week so amazingly
+
+103
+00:17:26.550 --> 00:17:30.930
+MS Analytics Class 2021: Also on March the
+
+104
+00:17:32.400 --> 00:17:53.880
+MS Analytics Class 2021: Know, February, the second which is the third week is coming up pretty soon we're going to start. One hour later said so starting in six. We're starting at seven o'clock. And the reason for that is, there's a scheduling conflict that requires us to start. One hour later, this is on exams.
+
+105
+00:17:55.320 --> 00:17:55.860
+MS Analytics Class 2021: And
+
+106
+00:17:57.870 --> 00:18:03.360
+MS Analytics Class 2021: All the scheduling all the informations. There are so often drop that down.
+
+107
+00:18:04.650 --> 00:18:08.070
+MS Analytics Class 2021: And let's go out to eat, cabbage, I can
+
+108
+00:18:13.050 --> 00:18:13.680
+MS Analytics Class 2021: There we go.
+
+109
+00:18:16.290 --> 00:18:19.980
+MS Analytics Class 2021: Well, I was on the canvas is this
+
+110
+00:18:24.450 --> 00:18:25.860
+MS Analytics Class 2021: Oh, there it is. Okay.
+
+111
+00:18:27.690 --> 00:18:35.340
+MS Analytics Class 2021: So if you would follow along with me here at Kansas City going on and open that up.
+
+112
+00:18:40.110 --> 00:18:51.000
+MS Analytics Class 2021: Alright, so here we are, our syllabus and then if you scroll down on where it says textbook.
+
+113
+00:18:52.380 --> 00:18:53.220
+MS Analytics Class 2021: Textbook
+
+114
+00:18:54.600 --> 00:19:01.410
+MS Analytics Class 2021: You're going to see them all the data files that are using the text phone are available here online and e commerce.
+
+115
+00:19:02.160 --> 00:19:14.190
+MS Analytics Class 2021: And there are two versions. There's some data zip file data set, which you can download to your computer and it will then give you all of the data files that are being used in the book.
+
+116
+00:19:14.970 --> 00:19:24.180
+MS Analytics Class 2021: If you want both just walk them down or two of them down for leisure. It's easier to go over here where it says panelists are everyone open data.
+
+117
+00:19:24.720 --> 00:19:45.840
+MS Analytics Class 2021: And you'll see tonight we're going to be using the first to make sense one goal. Yeah. Minor TSP. The second one of all sizes dot csv. So these are the two data sets that are being used in the first three chapters of the book and will we take a look at the time as well.
+
+118
+00:19:47.580 --> 00:20:00.090
+MS Analytics Class 2021: All right. If we don't bother. You'll see it says we want and we open up week one. And there are a couple of things in here that will be well we'll be looking at all this but
+
+119
+00:20:01.290 --> 00:20:06.450
+MS Analytics Class 2021: There is some information on to center which will be lucky and tonight.
+
+120
+00:20:07.710 --> 00:20:10.890
+MS Analytics Class 2021: This is a special package that goes with every
+
+121
+00:20:12.000 --> 00:20:21.570
+MS Analytics Class 2021: Version of Python, you don't have to install it, it's automatically included. This is the package that allows you to build a an application.
+
+122
+00:20:22.620 --> 00:20:25.890
+MS Analytics Class 2021: That will run on one side.
+
+123
+00:20:26.910 --> 00:20:33.180
+MS Analytics Class 2021: So not just windows and Max, but also cell phones.
+
+124
+00:20:34.440 --> 00:20:50.130
+MS Analytics Class 2021: And Linux and all sorts of executing why us, then we want to sign on this year posted and then the upload for the week one assignment, as usual, which will do is they open up the assignment and you'll see it here. This center.
+
+125
+00:20:54.360 --> 00:20:57.510
+MS Analytics Class 2021: So this is a description of the Week one assignment.
+
+126
+00:20:58.680 --> 00:21:01.350
+MS Analytics Class 2021: And can slow
+
+127
+00:21:07.170 --> 00:21:07.770
+MS Analytics Class 2021: Right.
+
+128
+00:21:13.710 --> 00:21:21.810
+MS Analytics Class 2021: So what it's saying you're not one review the information on teleprompter. We'll talk about that and then read chapters one through three
+
+129
+00:21:23.400 --> 00:21:27.240
+MS Analytics Class 2021: Study the code that we're going to discuss on to enter
+
+130
+00:21:28.290 --> 00:21:37.680
+MS Analytics Class 2021: Opinion personally bi. Well, this is we'll talk about this. And then you're going to be basically develop something a new app.
+
+131
+00:21:38.490 --> 00:21:58.740
+MS Analytics Class 2021: I new app for display the symbol of any Sunday, the current prices stop and such as IBM or what have you. If you're somebody that looks at the site market on a regular basis, you'll be familiar with this, what we're going to be doing that.
+
+132
+00:22:00.720 --> 00:22:01.530
+MS Analytics Class 2021: Okay.
+
+133
+00:22:12.270 --> 00:22:29.820
+MS Analytics Class 2021: Now, basically, what would your words you're asked to do in your assignment is to upload the code for your app and to screen sweet sauce one when the app comes up on your street. And there's another one. After you've actually use. Yeah.
+
+134
+00:22:30.960 --> 00:22:35.790
+MS Analytics Class 2021: So you uploaded a simple file on for the first week's assignment.
+
+135
+00:22:38.940 --> 00:22:48.390
+MS Analytics Class 2021: Of course, the class that user or online here and he campus and then the Q AMP. A recordings that we do on Wednesday night will also be online.
+
+136
+00:22:49.650 --> 00:23:09.060
+MS Analytics Class 2021: You're great information was was of courses here to be maintain very simple this time because I think we have a total of 12 homework assignments love our 12 and then just the special projects. And so it was a 6040 waiting on those items.
+
+137
+00:23:10.920 --> 00:23:11.550
+Okay.
+
+138
+00:23:13.170 --> 00:23:21.600
+MS Analytics Class 2021: Those of you that know me know that I can't hear very well. And that problem has gotten worse so
+
+139
+00:23:22.770 --> 00:23:34.320
+MS Analytics Class 2021: Please help me here. If you have a question, what I like to do is to type it up on the chat line I'm looking at the chat line right now.
+
+140
+00:23:36.960 --> 00:23:50.820
+MS Analytics Class 2021: And a lot of it is just information between students, but if you have a question, I appreciate it if you type it in, or say I have a question. I talk to you or something like that. And then we'll communicate
+
+141
+00:23:52.170 --> 00:23:52.980
+MS Analytics Class 2021: Okay.
+
+142
+00:23:54.120 --> 00:23:55.410
+MS Analytics Class 2021: Let's get started.
+
+143
+00:23:57.300 --> 00:24:02.850
+MS Analytics Class 2021: First thing we're gonna do is talk about the struggle and opening this up.
+
+144
+00:24:04.410 --> 00:24:12.900
+MS Analytics Class 2021: Again, I don't use offline is called a towel Chrome, some of you are probably more familiar with drones and I
+
+145
+00:24:14.280 --> 00:24:25.650
+MS Analytics Class 2021: And some of you. This is a major law preoccupation with some people is flying drones have all sorts in the recreational area you have
+
+146
+00:24:26.190 --> 00:24:38.160
+MS Analytics Class 2021: Two or three major categories of use of drones. One is photography and so you like that little drone. You can take it out. You can make a video.
+
+147
+00:24:38.790 --> 00:24:50.010
+MS Analytics Class 2021: You can take photographs and it's so small you can travel with it. So if you're on vacation. You can put it in your luggage and then you can use it when you get to wherever you're going to go
+
+148
+00:24:52.860 --> 00:24:57.990
+MS Analytics Class 2021: The other use of the other occupations drones is racing.
+
+149
+00:24:59.010 --> 00:25:09.960
+MS Analytics Class 2021: And that's all we do. So people have some small groups like the one you saw, and they wear goggles and they can see what the drone sees
+
+150
+00:25:10.740 --> 00:25:20.190
+MS Analytics Class 2021: And they fly very, very fast through very, very tight areas often indoors. So they will race in the warehouse or something like that.
+
+151
+00:25:20.670 --> 00:25:33.360
+MS Analytics Class 2021: And use it all have maybe a half a dozen or dozen drones that are racing. This is an entirely different thing or not doing interested in the pictures but they aren't citizen going fast.
+
+152
+00:25:34.410 --> 00:25:35.520
+MS Analytics Class 2021: Through a
+
+153
+00:25:37.830 --> 00:25:38.610
+MS Analytics Class 2021: Lot of options.
+
+154
+00:25:40.260 --> 00:25:44.820
+MS Analytics Class 2021: Now the strong they tell a grown up, get more information.
+
+155
+00:25:46.200 --> 00:25:53.760
+MS Analytics Class 2021: At the company's website. The company is called the J. Dr. Julian indio.com
+
+156
+00:25:55.710 --> 00:26:07.230
+MS Analytics Class 2021: They have a good website online, they have, believe it or not, DJI has about 80% 80% of the drones that are sold in the United States come from worldwide.
+
+157
+00:26:07.830 --> 00:26:20.070
+MS Analytics Class 2021: Come from DJ. So there are major producer and marketing, you can get a 10% educational discount center dollar soon so
+
+158
+00:26:20.610 --> 00:26:34.140
+MS Analytics Class 2021: You have seven, the little email, there's information. I've got a link right here, this little link you would put there and it'll take you over and you can send them a little email said like that educational discount
+
+159
+00:26:35.160 --> 00:26:48.840
+MS Analytics Class 2021: And what they do is they send you to coupon. They've got six months to use them, that can be used for almost anything they sell. And so if you're interested in purchasing a drone, then you can save some money on that.
+
+160
+00:26:50.340 --> 00:27:03.930
+MS Analytics Class 2021: This little drone is not that expensive they have actually two different versions of this little drone. They have one ball. Hello, and another one called tell you
+
+161
+00:27:04.740 --> 00:27:20.250
+MS Analytics Class 2021: The difference is the tableau is cheaper. It's $99 and the telco edu is $149. Now why are they, how are they different the total drone uses the
+
+162
+00:27:21.300 --> 00:27:34.080
+MS Analytics Class 2021: What's called a software development kit 1.3 and the telling me to you. Drone uses the SDK 2.0 so he was a newer version of drone.
+
+163
+00:27:34.740 --> 00:27:49.230
+MS Analytics Class 2021: And you can program, some things on the view that you cannot program on the regular tell that most of the exercises that we're going to be doing. You can use the smaller than the older one the tele drone.
+
+164
+00:27:50.190 --> 00:28:05.190
+MS Analytics Class 2021: But if you want to do some of the fancy stuff you need to use the EU by fancy. I mean, we're going to be the template. Both of these drones will do simple things like you can run program.
+
+165
+00:28:05.760 --> 00:28:15.810
+MS Analytics Class 2021: And it'll go an eagle fly off to where you were resolved to fly off to go back and land on that play without you lifting a pencil or anything like that.
+
+166
+00:28:16.500 --> 00:28:29.940
+MS Analytics Class 2021: It's going to involve computer directed. How does that happen. Well, the drone is actually broadcasts and the internet connection. So the drone is on the internet frequency so Wi Fi frequency
+
+167
+00:28:30.960 --> 00:28:51.120
+MS Analytics Class 2021: So your phone or the controller, it sees the drawer computers sees the drum is an internet connection. So what happens is your pro your computer will connect with a drone as it's another internet connection. And then the drone with SAP commands from your computer to do different things.
+
+168
+00:28:52.290 --> 00:29:01.230
+MS Analytics Class 2021: Now, the little as I say will do the basics out this go here and there and I sort of the EDU you can do what's called a swarm
+
+169
+00:29:01.830 --> 00:29:09.210
+MS Analytics Class 2021: So you can fly simultaneously more than one of these and you can then put up shows and demonstrations.
+
+170
+00:29:10.050 --> 00:29:26.460
+MS Analytics Class 2021: With more than one snap recently I saw a celebration and Mexico where he would say something like, Fourth of July celebration, but instead of using fireworks. They started the present the show with
+
+171
+00:29:27.210 --> 00:29:42.630
+MS Analytics Class 2021: Probably 1000 drums up in the sky, and it was just an awesome thing to say that they were they, you know, they flow together make signs made animals and moved from the sky, all that sort of thing. It's pretty awesome.
+
+172
+00:29:48.900 --> 00:29:50.430
+MS Analytics Class 2021: Yeah, so this is
+
+173
+00:29:52.080 --> 00:29:52.890
+MS Analytics Class 2021: A model.
+
+174
+00:29:55.350 --> 00:29:57.600
+Hermano C Ferreira: I think the question is from Karen, Dr. Jones.
+
+175
+00:30:04.530 --> 00:30:05.160
+MS Analytics Class 2021: Lolo
+
+176
+00:30:07.290 --> 00:30:13.080
+Karen Fireman: Jones. It's Karen, I was asking you where, where are the week one pandas notes you
+
+177
+00:30:14.430 --> 00:30:16.950
+Karen Fireman: Know, something listed. I don't see on our online.
+
+178
+00:30:24.480 --> 00:30:26.310
+MS Analytics Class 2021: I think you were you you want
+
+179
+00:30:30.810 --> 00:30:34.740
+Hermano C Ferreira: Yes, sir. I was but but but i don't think that the day we're
+
+180
+00:30:37.410 --> 00:30:37.710
+MS Analytics Class 2021: Here.
+
+181
+00:30:37.740 --> 00:30:45.660
+MS Analytics Class 2021: Going to be a little bit easier. This is not this particular week one more proper example I gave you the code.
+
+182
+00:30:47.100 --> 00:30:47.730
+MS Analytics Class 2021: You know,
+
+183
+00:30:48.780 --> 00:30:53.730
+MS Analytics Class 2021: You have your code example, the word wrong. And then all you need to do is this altar.
+
+184
+00:30:54.330 --> 00:31:08.790
+MS Analytics Class 2021: So, and then you have a one week where you have those assignment at all. So you have basically two weeks there. We are going to be honest, no assignments and you have the entire semester to organize and work on the
+
+185
+00:31:09.870 --> 00:31:13.980
+MS Analytics Class 2021: Project, so I don't make sense to me that heavy and there are no exams.
+
+186
+00:31:15.480 --> 00:31:16.230
+MS Analytics Class 2021: Alright.
+
+187
+00:31:24.390 --> 00:31:24.960
+Sounds good.
+
+188
+00:31:37.350 --> 00:31:37.920
+MS Analytics Class 2021: Oh,
+
+189
+00:31:42.840 --> 00:31:43.440
+MS Analytics Class 2021: Okay.
+
+190
+00:31:49.980 --> 00:32:02.430
+MS Analytics Class 2021: Of hands off programming. So most of the class today, you're going to open a Python. We're going to work together on some code. And so at the end of the class, your
+
+191
+00:32:04.020 --> 00:32:08.460
+MS Analytics Class 2021: Takeaway will be some actual code that you develop your code as I get it.
+
+192
+00:32:09.720 --> 00:32:13.050
+MS Analytics Class 2021: Okay. The, the slides.
+
+193
+00:32:14.400 --> 00:32:23.430
+MS Analytics Class 2021: Someplace there is some documentation and things like that that will talk about, but I don't. I haven't found the slides for this particular class and useful.
+
+194
+00:32:24.600 --> 00:32:25.440
+MS Analytics Class 2021: Okay.
+
+195
+00:32:26.460 --> 00:32:35.970
+MS Analytics Class 2021: Let me know if I'm wrong. I think we have some more formality to the slides anything. Let me know, okay, I appreciate your opinion.
+
+196
+00:32:36.690 --> 00:32:38.580
+Karen Fireman: Thank you. Yeah.
+
+197
+00:32:40.260 --> 00:32:41.010
+MS Analytics Class 2021: Okay.
+
+198
+00:32:42.330 --> 00:32:44.820
+MS Analytics Class 2021: Mr. Vargas guitar.
+
+199
+00:32:46.950 --> 00:32:47.520
+MS Analytics Class 2021: Jam.
+
+200
+00:32:50.190 --> 00:32:50.880
+MS Analytics Class 2021: Okay.
+
+201
+00:32:52.320 --> 00:32:56.730
+MS Analytics Class 2021: All right, I, the reason I wanted to talk about show you I have this
+
+202
+00:32:58.530 --> 00:33:10.950
+MS Analytics Class 2021: Information on the tell tell where are you getting these like that we're actually not going to use this drone for about four weeks or five weeks it's optional.
+
+203
+00:33:11.850 --> 00:33:16.020
+MS Analytics Class 2021: The homework assignment will not require you to actually have one of these
+
+204
+00:33:16.980 --> 00:33:34.080
+MS Analytics Class 2021: You'll be asked to create a program and that we can run it in cloud on your sentence. I mean, we can run it in class, using the Dremel so I have. Okay, so you don't need one of these terms. But if you've ever been curious about these things. This is an opportunity to check it out. So
+
+205
+00:33:35.700 --> 00:33:36.540
+MS Analytics Class 2021: If you
+
+206
+00:33:37.980 --> 00:33:42.030
+MS Analytics Class 2021: Those of you that already have drones. Maybe you have that some people may already have one of these
+
+207
+00:33:43.320 --> 00:33:56.310
+MS Analytics Class 2021: But these are used in K through 12 and also in the university to teach the idea of programming you a nice. This is the app you can download from
+
+208
+00:33:57.750 --> 00:34:04.770
+MS Analytics Class 2021: The internet and this is the app implies a drone. If you want to use your cell phone, the client. And this is what it looks like. By yourself.
+
+209
+00:34:05.970 --> 00:34:15.270
+MS Analytics Class 2021: So that's the floor right that's the rub is sitting on the road, take off. But when you click on this little button in the upper left here. That's a take off button.
+
+210
+00:34:15.930 --> 00:34:21.870
+MS Analytics Class 2021: And it actually rises up from wherever you're sitting and gets to a certain level hovers
+
+211
+00:34:22.380 --> 00:34:34.470
+MS Analytics Class 2021: And then this these two red circles you see at the bottom, or like joysticks that you can move to navigate the drone maybe go up or down forward or back left or right, that kind of thing.
+
+212
+00:34:35.100 --> 00:34:43.980
+MS Analytics Class 2021: This button on the upper right is to take pictures and if the if the bucket is white and you press it means you're going to take a photograph of whatever it's looking at
+
+213
+00:34:44.850 --> 00:34:56.610
+MS Analytics Class 2021: If you hit the button here a little next to it, it changes over to video and this becomes read. And then if you hit it. It will take a movie to make a movie of whatever whatever it's looking at
+
+214
+00:34:57.750 --> 00:35:09.300
+MS Analytics Class 2021: So little information here about how this works. And if you have any questions about it, let me know. But as I say it is optional and right up here at the beginning, I think I see something about that.
+
+215
+00:35:13.590 --> 00:35:19.080
+MS Analytics Class 2021: Interested in painting one reauthorize talks, don't you don't mean real is
+
+216
+00:35:23.070 --> 00:35:37.020
+MS Analytics Class 2021: Okay that's we're going to talk about his panelists. And so what I'd like you to do is first of all if you haven't already done so, download be the data.
+
+217
+00:35:38.730 --> 00:35:40.230
+MS Analytics Class 2021: And that would be the
+
+218
+00:35:41.640 --> 00:35:43.230
+MS Analytics Class 2021: First file in there.
+
+219
+00:35:44.880 --> 00:35:45.990
+MS Analytics Class 2021: Let's see, where is it
+
+220
+00:35:52.890 --> 00:35:57.540
+MS Analytics Class 2021: OK, so the textbook way and right here under pandas.
+
+221
+00:35:58.890 --> 00:36:07.050
+MS Analytics Class 2021: This file. But I'm talking about gap minder DSC so excuse me, let me get my notes movie here.
+
+222
+00:36:11.370 --> 00:36:11.850
+MS Analytics Class 2021: This is the
+
+223
+00:36:21.150 --> 00:36:27.210
+MS Analytics Class 2021: Now some of you probably already know we're going to be talking about, then the focus is on canvas.
+
+224
+00:36:28.020 --> 00:36:45.420
+MS Analytics Class 2021: Now, if you're like me, you have to do certain things with panelists, we see that in other classes, but there are certain things that I forgot about or I didn't know how to do. So this, this is going to be a short reminder of that. To do this, we're going to open up
+
+225
+00:36:46.920 --> 00:36:51.750
+MS Analytics Class 2021: Please go ahead and open a bag on that and we're going to use Jupiter notebook.
+
+226
+00:36:53.100 --> 00:36:56.460
+MS Analytics Class 2021: So I'm going to launch the Jupiter notebook here.
+
+227
+00:37:03.900 --> 00:37:09.090
+MS Analytics Class 2021: And this is included in in your attic on installation.
+
+228
+00:37:10.110 --> 00:37:17.250
+MS Analytics Class 2021: And then another app called Tinker, which will be looking at here is also included in your installation.
+
+229
+00:37:19.230 --> 00:37:20.250
+MS Analytics Class 2021: Okay.
+
+230
+00:37:22.920 --> 00:37:27.900
+MS Analytics Class 2021: Says, which one do you want to open. I think I'll use Chrome
+
+231
+00:38:00.420 --> 00:38:01.560
+MS Analytics Class 2021: So let's
+
+232
+00:38:07.980 --> 00:38:09.000
+MS Analytics Class 2021: Have your data.
+
+233
+00:38:10.350 --> 00:38:12.120
+MS Analytics Class 2021: Let's see this
+
+234
+00:38:13.800 --> 00:38:33.090
+MS Analytics Class 2021: I said by on my desktop within the course number on that now you have as a folder. What you should probably do is do something similar set up a folder somewhere and that folder, then you can put your pipeline code and
+
+235
+00:38:36.210 --> 00:38:37.470
+MS Analytics Class 2021: Let's see.
+
+236
+00:38:42.930 --> 00:38:53.700
+MS Analytics Class 2021: All right, the data that I'm looking for is right here and there it is. I put all the data files in that folder.
+
+237
+00:38:55.410 --> 00:38:55.950
+MS Analytics Class 2021: And
+
+238
+00:38:58.140 --> 00:39:08.010
+MS Analytics Class 2021: All right, so if I clicked on it inside of Jupiter. You can see what this file looks like this is a town deluded and file.
+
+239
+00:39:08.940 --> 00:39:28.530
+MS Analytics Class 2021: And so it's quite a large file I have 123456 columns. The first of all it's all country. So first row is tall he have a name for each of the columns and in the left hand side you have the road number
+
+240
+00:39:29.880 --> 00:39:32.580
+MS Analytics Class 2021: Now that growth numbers that actually is a file.
+
+241
+00:39:34.200 --> 00:39:52.980
+MS Analytics Class 2021: Jupiter notebook is creating an index column virtual index on and it has the room number in. That's why you don't see a heading for that first call. So the rope number for the names is rule number one, right.
+
+242
+00:39:54.600 --> 00:39:55.230
+MS Analytics Class 2021: And
+
+243
+00:39:56.250 --> 00:39:58.920
+MS Analytics Class 2021: So let's go down now and
+
+244
+00:40:01.500 --> 00:40:09.240
+MS Analytics Class 2021: How do we set up this we have, let's see, we want to make sure we're invited on right so let's go to
+
+245
+00:40:14.850 --> 00:40:16.380
+MS Analytics Class 2021: There is Python.
+
+246
+00:40:18.120 --> 00:40:20.100
+MS Analytics Class 2021: So the language supply on
+
+247
+00:40:21.870 --> 00:40:25.530
+MS Analytics Class 2021: And you can see it on the right hand side I have Python there.
+
+248
+00:40:31.980 --> 00:40:32.430
+MS Analytics Class 2021: OK.
+
+249
+00:40:38.280 --> 00:40:39.240
+MS Analytics Class 2021: OK.
+
+250
+00:40:41.640 --> 00:40:51.150
+MS Analytics Class 2021: Now what I want to do is actually use this the program and bite on and for our users in a while, how I did it by
+
+251
+00:40:57.360 --> 00:40:59.310
+MS Analytics Class 2021: Jupiter figure
+
+252
+00:41:20.940 --> 00:41:23.010
+MS Analytics Class 2021: Language, or your
+
+253
+00:41:27.180 --> 00:41:31.260
+MS Analytics Class 2021: File and the language here now. Like, which
+
+254
+00:41:32.670 --> 00:41:39.780
+MS Analytics Class 2021: Which one is good answers this file edit the language over language.
+
+255
+00:41:41.070 --> 00:41:42.030
+MS Analytics Class 2021: Over right
+
+256
+00:42:02.400 --> 00:42:10.560
+MS Analytics Class 2021: But I was expecting to see a Python prompts. There it is. Where does she play file. Okay, Father, usually
+
+257
+00:42:12.540 --> 00:42:21.000
+MS Analytics Class 2021: Yeah, the game three and zero their job right there. That's what you have, especially when
+
+258
+00:42:22.140 --> 00:42:24.690
+MS Analytics Class 2021: The terminal broken to get there.
+
+259
+00:42:26.640 --> 00:42:33.000
+MS Analytics Class 2021: So that's where you want again and then now you have an ego for crazy now you're hearing sterilizing
+
+260
+00:42:40.290 --> 00:42:42.060
+MS Analytics Class 2021: Okay, yeah, yeah.
+
+261
+00:42:44.100 --> 00:42:44.880
+MS Analytics Class 2021: Now this was
+
+262
+00:42:46.260 --> 00:42:49.860
+MS Analytics Class 2021: So my previous searches for America. Yeah.
+
+263
+00:42:51.810 --> 00:42:54.480
+MS Analytics Class 2021: Yeah, so you had to go to that.
+
+264
+00:42:56.430 --> 00:42:58.650
+MS Analytics Class 2021: So you have to go john process. The second
+
+265
+00:42:59.820 --> 00:43:09.600
+MS Analytics Class 2021: There. If you get to go around here. So, like, I don't know if you started with me regarding here. You click there Yun that's what starts this
+
+266
+00:43:11.040 --> 00:43:15.660
+MS Analytics Class 2021: So here is wrong. He did. From here, you start paper from here. Yeah.
+
+267
+00:43:16.890 --> 00:43:18.060
+MS Analytics Class 2021: You get from them as well.
+
+268
+00:43:20.010 --> 00:43:20.820
+MS Analytics Class 2021: I just go from the
+
+269
+00:43:22.650 --> 00:43:34.860
+MS Analytics Class 2021: Format. We didn't do that. So that's, that's, that's just then I started from here I'm going to hear and what did you learn about their there. This will started so that you have
+
+270
+00:43:37.860 --> 00:43:38.310
+Yeah.
+
+271
+00:43:43.020 --> 00:43:43.440
+MS Analytics Class 2021: Yeah.
+
+272
+00:43:44.670 --> 00:43:53.670
+MS Analytics Class 2021: Okay. And have you know where you're at. So, that is what greater urine. So then, then you can say say yeah
+
+273
+00:43:55.110 --> 00:43:58.710
+MS Analytics Class 2021: This, this one probably saved in the ballpark really foster last
+
+274
+00:44:01.080 --> 00:44:03.870
+MS Analytics Class 2021: option here is so we can disclose a sauna.
+
+275
+00:44:14.490 --> 00:44:16.230
+MS Analytics Class 2021: Documents and go
+
+276
+00:44:18.210 --> 00:44:18.690
+Home.
+
+277
+00:44:22.740 --> 00:44:32.280
+MS Analytics Class 2021: Yeah, this one. Yeah, and go to bed assure everyone. And so, David. Yeah.
+
+278
+00:44:35.250 --> 00:44:35.910
+MS Analytics Class 2021: Yeah.
+
+279
+00:44:37.590 --> 00:44:38.250
+MS Analytics Class 2021: And then we have
+
+280
+00:44:39.630 --> 00:44:41.100
+MS Analytics Class 2021: Something here.
+
+281
+00:44:44.820 --> 00:44:47.460
+MS Analytics Class 2021: Data just say new
+
+282
+00:44:48.780 --> 00:44:49.290
+MS Analytics Class 2021: Right there.
+
+283
+00:44:50.700 --> 00:45:00.060
+MS Analytics Class 2021: Yeah, so that's going to be saying sharing here we're showing a desktop right on there so I can share
+
+284
+00:45:03.030 --> 00:45:04.410
+MS Analytics Class 2021: So we should be read it.
+
+285
+00:45:05.730 --> 00:45:12.540
+MS Analytics Class 2021: Yeah, absolutely. If I type in something like Dr. Or something like that going into directory. No, no. Yeah.
+
+286
+00:45:14.010 --> 00:45:25.320
+MS Analytics Class 2021: And he doesn't respond to use them and see you back. And yeah, a lot of what I do is I read a file. So I want to say something like, D, E, F is equal to
+
+287
+00:45:26.730 --> 00:45:28.860
+MS Analytics Class 2021: For a well informed.
+
+288
+00:45:30.330 --> 00:45:33.750
+MS Analytics Class 2021: And this as PD.
+
+289
+00:45:35.940 --> 00:45:37.890
+MS Analytics Class 2021: And important
+
+290
+00:45:39.060 --> 00:45:41.190
+MS Analytics Class 2021: That's all. Yeah.
+
+291
+00:45:43.110 --> 00:45:44.730
+MS Analytics Class 2021: And then we run right
+
+292
+00:45:47.070 --> 00:45:54.240
+MS Analytics Class 2021: And the reservoir do there is a data frame is equal to PD dot read
+
+293
+00:45:59.250 --> 00:46:02.910
+MS Analytics Class 2021: Not CSE. I think this is a reason
+
+294
+00:46:04.170 --> 00:46:06.330
+MS Analytics Class 2021: And then gap minder
+
+295
+00:46:08.910 --> 00:46:12.840
+MS Analytics Class 2021: Dot TSP. Now we run this, we should get an error.
+
+296
+00:46:14.340 --> 00:46:17.610
+MS Analytics Class 2021: Because this is not a CSV file.
+
+297
+00:46:19.890 --> 00:46:21.630
+MS Analytics Class 2021: Is supposed to be understood.
+
+298
+00:46:22.620 --> 00:46:23.610
+Karis Jochen: Yeah. Yes, sir.
+
+299
+00:46:25.050 --> 00:46:25.470
+Karis Jochen: Yes.
+
+300
+00:46:26.550 --> 00:46:27.210
+MS Analytics Class 2021: Yeah.
+
+301
+00:46:28.050 --> 00:46:30.750
+MS Analytics Class 2021: And then we want a separator si p
+
+302
+00:46:30.810 --> 00:46:36.570
+MS Analytics Class 2021: Equals two and slash t like that. Okay.
+
+303
+00:46:37.710 --> 00:46:40.230
+MS Analytics Class 2021: So let's examine the rain record here.
+
+304
+00:46:41.760 --> 00:46:45.840
+MS Analytics Class 2021: Looks like I am. So if I say you say friend.
+
+305
+00:46:46.950 --> 00:46:48.480
+MS Analytics Class 2021: The head.
+
+306
+00:47:01.050 --> 00:47:03.990
+MS Analytics Class 2021: Okay, we're running out. Thanks.
+
+307
+00:47:07.980 --> 00:47:12.030
+MS Analytics Class 2021: Notebook in Asia. So that's kind of what my problem is
+
+308
+00:47:13.170 --> 00:47:16.710
+MS Analytics Class 2021: I hope some of you at home are not having the same problems.
+
+309
+00:47:18.000 --> 00:47:18.390
+MS Analytics Class 2021: But
+
+310
+00:47:20.760 --> 00:47:28.920
+MS Analytics Class 2021: If you get caught up here. If you are. So what are some of the panelists commands that are very, very useful that we don't normally look at
+
+311
+00:47:29.400 --> 00:47:46.080
+MS Analytics Class 2021: This this command. For example, the use of the separator slash say people tab reading the tablet is vital. Now, when would you like to have a template and file. And so the common comma separated but
+
+312
+00:47:46.560 --> 00:48:04.410
+MS Analytics Class 2021: Well, the problem with the basic problem with all separate files is if you've ever string in there and that string as a valid comment in there, then it's going to have a boat read that correctly every problem, the status of data debris.
+
+313
+00:48:05.460 --> 00:48:24.000
+MS Analytics Class 2021: And it sees more than, say, six of us in a string. I mean, in the line escape to freak out and say, well, look, the data is not set up to have six columns in it. So the Texas region is my favorite way to separate
+
+314
+00:48:25.500 --> 00:48:37.680
+MS Analytics Class 2021: file that has stream beta in common words find that all the file Of all the columns are generic. But when you have something that has a streaming, then you're going to want to use bows.
+
+315
+00:48:38.040 --> 00:48:51.900
+MS Analytics Class 2021: And if for no other reason that is just a little bit safer in case somebody has an extra column, and there it won't get upset about that. So this is the law option SCP or by the way.
+
+316
+00:48:53.700 --> 00:48:55.650
+MS Analytics Class 2021: Let me see if I can make you smarter.
+
+317
+00:48:59.010 --> 00:48:59.490
+MS Analytics Class 2021: No.
+
+318
+00:49:07.980 --> 00:49:08.910
+MS Analytics Class 2021: No.
+
+319
+00:49:13.980 --> 00:49:18.720
+MS Analytics Class 2021: That's I think that might be learned as I can get without wearing off their
+
+320
+00:49:20.760 --> 00:49:26.220
+MS Analytics Class 2021: Thing. Okay. I hope you can see that maybe a little better. Is that okay
+
+321
+00:49:27.750 --> 00:49:35.490
+MS Analytics Class 2021: That's all right. Good. Yeah, yeah. Part of the problem doing this the way we're doing it, it says some of these things are the Lord and see some time.
+
+322
+00:49:36.810 --> 00:49:47.400
+MS Analytics Class 2021: The other, the other thing I wanted to point out was there's a special command that we haven't ordinarily us very much. And it's called a type command. So if I type inside
+
+323
+00:49:48.540 --> 00:49:50.610
+MS Analytics Class 2021: Then def like this.
+
+324
+00:49:51.750 --> 00:49:53.310
+MS Analytics Class 2021: Let me run that and see what
+
+325
+00:49:54.330 --> 00:50:05.400
+MS Analytics Class 2021: Give me an error. Yeah, okay. Oh, I did. Okay. I thought it was going to have a practice or something like that. But yeah, if you have a an object or variable in
+
+326
+00:50:05.880 --> 00:50:21.120
+MS Analytics Class 2021: Python and you want to see what type it is that just use the type function. So as you can see, this is a handles it tells us right off. It's a band score data frame and which is a special type of options.
+
+327
+00:50:22.140 --> 00:50:25.200
+MS Analytics Class 2021: Now, if you had a number of the array or get a different type
+
+328
+00:50:26.220 --> 00:50:44.250
+MS Analytics Class 2021: And in fact, that you have an object that you've created and from modeling or something like that and you'll get an even different type of stuff so that that function is used to identify a primitive the variables. For example, if I say X is equal to 10 right
+
+329
+00:50:45.390 --> 00:50:46.620
+MS Analytics Class 2021: What time is a
+
+330
+00:50:48.450 --> 00:50:50.220
+MS Analytics Class 2021: Time well
+
+331
+00:50:51.480 --> 00:50:53.040
+Zuberi, Bilal Mustafa: That's an integer.
+
+332
+00:50:54.600 --> 00:50:55.950
+Energy right
+
+333
+00:50:57.330 --> 00:51:03.870
+MS Analytics Class 2021: That's correct, yeah. So I run that and I MC or or editor. Right.
+
+334
+00:51:04.950 --> 00:51:08.460
+MS Analytics Class 2021: Sometimes if we can enter shoes and clothes and here's
+
+335
+00:51:09.540 --> 00:51:09.750
+MS Analytics Class 2021: All
+
+336
+00:51:11.430 --> 00:51:16.740
+MS Analytics Class 2021: The time command is used occasionally to figure out how to manage and deal with here.
+
+337
+00:51:18.570 --> 00:51:22.590
+MS Analytics Class 2021: Now let's use a lot is David bring about shade.
+
+338
+00:51:23.910 --> 00:51:29.100
+MS Analytics Class 2021: And that is that is it. What time is that, let's see time
+
+339
+00:51:31.380 --> 00:51:36.030
+MS Analytics Class 2021: And if I will be out of shape like this.
+
+340
+00:51:37.260 --> 00:51:37.920
+Oops.
+
+341
+00:51:42.420 --> 00:51:43.440
+MS Analytics Class 2021: It's as simple
+
+342
+00:51:44.820 --> 00:51:57.000
+MS Analytics Class 2021: As a temple temple is like this, except for the same clothes with criticism set of brackets. And the thing about Drupal is you cannot change what's in tool.
+
+343
+00:51:59.520 --> 00:52:07.380
+MS Analytics Class 2021: That's controlled by who are brave people. So if I say do Shane by itself.
+
+344
+00:52:08.880 --> 00:52:10.530
+MS Analytics Class 2021: You can just run that
+
+345
+00:52:11.940 --> 00:52:34.950
+MS Analytics Class 2021: You can see it's a tool to Members and the first number is the number of rows of the course. And the second one is the number of columns. And so if you wanted number of rows. Let's say X is equal to the shade and then you would use brackets not not parenthesis because football is a dress.
+
+346
+00:52:36.660 --> 00:52:37.080
+MS Analytics Class 2021: Like
+
+347
+00:52:38.160 --> 00:52:38.940
+MS Analytics Class 2021: This is
+
+348
+00:52:40.110 --> 00:52:51.840
+MS Analytics Class 2021: So when you see that in anything. Oh, he or she must be a list. It looks like a list because that's the way you would address the first element of the list. But no, it turns out that they
+
+349
+00:52:53.070 --> 00:52:57.000
+MS Analytics Class 2021: Use the same, same, but they have different data structures.
+
+350
+00:53:00.240 --> 00:53:01.200
+MS Analytics Class 2021: Now another
+
+351
+00:53:02.280 --> 00:53:04.800
+MS Analytics Class 2021: Can command that we have is he at home.
+
+352
+00:53:06.540 --> 00:53:08.340
+MS Analytics Class 2021: He has columns, you can do that.
+
+353
+00:53:11.820 --> 00:53:28.530
+MS Analytics Class 2021: There we go. And so what this does is it brings back a list of all the column names and I have 1236 different columns here. And if I say the boss.
+
+354
+00:53:29.940 --> 00:53:32.370
+MS Analytics Class 2021: And zero like that.
+
+355
+00:53:35.130 --> 00:53:36.480
+MS Analytics Class 2021: Get the first of all nine
+
+356
+00:53:37.980 --> 00:53:38.610
+MS Analytics Class 2021: Yeah.
+
+357
+00:53:40.560 --> 00:53:43.110
+MS Analytics Class 2021: Now, what is the difference between i'm going to
+
+358
+00:53:44.880 --> 00:53:51.240
+MS Analytics Class 2021: Do this and I like to see answer this one. Fred
+
+359
+00:53:53.730 --> 00:53:54.090
+MS Analytics Class 2021: The
+
+360
+00:53:55.350 --> 00:53:57.390
+MS Analytics Class 2021: Shade shade.
+
+361
+00:53:59.220 --> 00:54:01.800
+MS Analytics Class 2021: That's the first one. The second one.
+
+362
+00:54:03.840 --> 00:54:04.230
+MS Analytics Class 2021: The
+
+363
+00:54:08.550 --> 00:54:11.820
+MS Analytics Class 2021: Shade a bang like that.
+
+364
+00:54:13.560 --> 00:54:14.790
+MS Analytics Class 2021: Nurses difference
+
+365
+00:54:16.230 --> 00:54:18.990
+MS Analytics Class 2021: So what I just said about shade and the
+
+366
+00:54:20.040 --> 00:54:22.770
+MS Analytics Class 2021: Presence is accurate. What is it,
+
+367
+00:54:27.840 --> 00:54:29.220
+MS Analytics Class 2021: Jerry, are you there.
+
+368
+00:54:33.810 --> 00:54:34.380
+Karen Fireman: Yes.
+
+369
+00:54:38.940 --> 00:54:42.510
+Clay Coleman: One, if you put the parentheses is calling it calling a function
+
+370
+00:54:46.320 --> 00:54:46.830
+Clay Coleman: Yes, or
+
+371
+00:54:47.730 --> 00:54:49.200
+MS Analytics Class 2021: Were you were you said
+
+372
+00:54:49.440 --> 00:54:56.340
+Clay Coleman: If you put the parentheses after shape. You're calling the shape function. And if it. I don't think the shape has a function
+
+373
+00:54:56.970 --> 00:54:58.830
+MS Analytics Class 2021: That's right. It's a Drupal right
+
+374
+00:54:59.010 --> 00:55:01.590
+MS Analytics Class 2021: Yeah, so let's see what happens.
+
+375
+00:55:03.810 --> 00:55:20.280
+MS Analytics Class 2021: There. The first one actually the Drupal numbers, the same one is an error because, for example, the reason you mentioned when you put parentheses after that it takes its function and solids and it's actually a doable.
+
+376
+00:55:21.720 --> 00:55:27.660
+MS Analytics Class 2021: Of course, when you Ryan to get the Emory know right away. Oh, hey, Rebecca, those parentheses all
+
+377
+00:55:32.340 --> 00:55:32.820
+MS Analytics Class 2021: Now here's
+
+378
+00:55:39.030 --> 00:55:39.630
+MS Analytics Class 2021: The time
+
+379
+00:55:44.670 --> 00:55:45.360
+MS Analytics Class 2021: Versus
+
+380
+00:55:49.980 --> 00:55:50.430
+MS Analytics Class 2021: This
+
+381
+00:55:55.890 --> 00:55:58.470
+MS Analytics Class 2021: So he's one of these is going to work for us.
+
+382
+00:55:59.610 --> 00:56:00.300
+MS Analytics Class 2021: This one.
+
+383
+00:56:05.280 --> 00:56:09.360
+MS Analytics Class 2021: Okay, so we're getting we're getting the data out here.
+
+384
+00:56:10.470 --> 00:56:11.670
+MS Analytics Class 2021: No error message.
+
+385
+00:56:13.800 --> 00:56:15.900
+MS Analytics Class 2021: So which one, which one is which.
+
+386
+00:56:21.780 --> 00:56:35.550
+Karis Jochen: Professor whenever you're using Jupiter notebook. I think it often outputs. The last thing that you wrote, so it's not. Yeah. So the first one was only out, putting the info, not the
+
+387
+00:56:35.550 --> 00:56:36.000
+Detox
+
+388
+00:56:42.360 --> 00:56:43.470
+Karis Jochen: Hi, Dr. Jones.
+
+389
+00:56:47.790 --> 00:57:06.720
+MS Analytics Class 2021: I typed in DIA DE types like that. And this is what I get for that. So it comes back and tells us that I have a couple of objects and countries and object object and then the rest are either integers or 40.6 before
+
+390
+00:57:08.010 --> 00:57:09.330
+MS Analytics Class 2021: Why this country option.
+
+391
+00:57:12.420 --> 00:57:12.990
+MS Analytics Class 2021: Well,
+
+392
+00:57:13.050 --> 00:57:17.100
+Zuberi, Bilal Mustafa: In cars because it has probably characters in it.
+
+393
+00:57:18.090 --> 00:57:19.050
+MS Analytics Class 2021: Was that
+
+394
+00:57:19.800 --> 00:57:29.970
+Zuberi, Bilal Mustafa: Because they all have it country in it has characters in it. That's why it's an object because it doesn't know if those characters need anything else.
+
+395
+00:57:30.090 --> 00:57:33.630
+MS Analytics Class 2021: Right. So these guys are strange
+
+396
+00:57:35.640 --> 00:57:36.330
+MS Analytics Class 2021: And
+
+397
+00:57:37.470 --> 00:57:44.970
+MS Analytics Class 2021: It wasn't put a string. If you're working in another language. You put it straight here, but it is it is good citizen spring off.
+
+398
+00:57:47.610 --> 00:57:50.010
+MS Analytics Class 2021: What do info.
+
+399
+00:57:51.540 --> 00:57:52.350
+MS Analytics Class 2021: Function.
+
+400
+00:57:58.080 --> 00:57:58.890
+MS Analytics Class 2021: Alright.
+
+401
+00:58:03.720 --> 00:58:11.760
+MS Analytics Class 2021: So today, that gives you some other information about the, the number of missing nano
+
+402
+00:58:12.840 --> 00:58:16.770
+MS Analytics Class 2021: 1700 and that we have no missing values.
+
+403
+00:58:17.790 --> 00:58:23.790
+MS Analytics Class 2021: And the main types and are too close to integers and two options.
+
+404
+00:58:25.020 --> 00:58:40.620
+MS Analytics Class 2021: So the GMO is a little bit more sophisticated look at the data types, you look at the data, but also there are missing a summary probably different data, but she actually have
+
+405
+00:58:50.700 --> 00:58:52.260
+MS Analytics Class 2021: All right. How do I
+
+406
+00:58:52.830 --> 00:58:53.910
+Shown
+
+407
+00:58:54.960 --> 00:58:59.910
+MS Analytics Class 2021: The first five rows. Well, you just say the head
+
+408
+00:59:01.410 --> 00:59:07.890
+MS Analytics Class 2021: This, this function, the head shows the first five rows of data.
+
+409
+00:59:09.030 --> 00:59:13.080
+MS Analytics Class 2021: And then if you want to look the last slide the tail.
+
+410
+00:59:18.330 --> 00:59:33.630
+MS Analytics Class 2021: Yeah, like, like I was saying earlier, you probably already know this, or at least you've seen it somewhere because we've already. This is jack your second and third class I think with Python programming.
+
+411
+00:59:35.040 --> 00:59:45.450
+MS Analytics Class 2021: And of course you would have used this in those other classes, but this is more like a review and actually some of these a light forgotten myself because I don't use them all the time.
+
+412
+00:59:47.490 --> 01:00:02.370
+MS Analytics Class 2021: So suppose I wanted a subset of file. There are certain ways we've agreed subset. One way is, I could say take specific rose instead of taking all the roads and state subset of the rose
+
+413
+01:00:02.970 --> 01:00:18.420
+MS Analytics Class 2021: The other is to take a subset of the calls. Well, get a subset of the columns is one of the easier things to do here, because if I wanted just a simple like country, for example, I can say country.
+
+414
+01:00:22.380 --> 01:00:27.690
+MS Analytics Class 2021: The a is equal to be and then country.
+
+415
+01:00:28.710 --> 01:00:32.610
+MS Analytics Class 2021: By God, so pretty easy syntax.
+
+416
+01:00:34.110 --> 01:00:36.360
+MS Analytics Class 2021: And so then if I look in country.
+
+417
+01:00:38.430 --> 01:00:39.270
+MS Analytics Class 2021: Yeah.
+
+418
+01:00:42.480 --> 01:00:45.360
+MS Analytics Class 2021: You can see I have a new game brain.
+
+419
+01:00:46.620 --> 01:00:48.420
+MS Analytics Class 2021: With just a single call
+
+420
+01:00:50.130 --> 01:00:53.190
+MS Analytics Class 2021: Now, what, what's the time frame.
+
+421
+01:00:58.320 --> 01:00:59.280
+MS Analytics Class 2021: Is a fantasy.
+
+422
+01:01:04.470 --> 01:01:11.670
+MS Analytics Class 2021: So there's something called fantasy series a series is a vector and not be
+
+423
+01:01:12.780 --> 01:01:30.870
+MS Analytics Class 2021: They behave the same the same sort of way. Some languages are some packages. Rather, they say, I want to know me better but what they don't tell you is that usually they'll accept the fan of series because they're both factors.
+
+424
+01:01:32.820 --> 01:01:41.730
+MS Analytics Class 2021: So country the app is not paying for him. Really, it's a series and the series will be a differently. It's index differently.
+
+425
+01:01:42.180 --> 01:01:57.420
+MS Analytics Class 2021: So you don't have rows and columns and you just have one you just have rows, period. So normally would with a brand, you have to have a row number and then call number to access a value with a serious, you just need one number which is the road.
+
+426
+01:01:59.880 --> 01:02:04.470
+MS Analytics Class 2021: Now if I wanted more than one poem, I could say multi
+
+427
+01:02:06.360 --> 01:02:11.430
+MS Analytics Class 2021: Media is equal to bail for him. And now you say for country.
+
+428
+01:02:13.320 --> 01:02:21.330
+MS Analytics Class 2021: As calm and maybe another column will be. We'll see what we have here a year.
+
+429
+01:02:22.620 --> 01:02:23.580
+MS Analytics Class 2021: Loose
+
+430
+01:02:29.070 --> 01:02:30.030
+MS Analytics Class 2021: Cotton.
+
+431
+01:02:41.670 --> 01:02:42.780
+MS Analytics Class 2021: Here.
+
+432
+01:02:49.650 --> 01:02:50.430
+MS Analytics Class 2021: Hear
+
+433
+01:02:53.610 --> 01:02:57.030
+Leiah Wyckoff: That because you've used brackets instead of parentheses.
+
+434
+01:03:05.370 --> 01:03:06.000
+MS Analytics Class 2021: See
+
+435
+01:03:12.690 --> 01:03:16.770
+MS Analytics Class 2021: Here it goes. My was Thomas
+
+436
+01:03:41.070 --> 01:03:41.760
+MS Analytics Class 2021: Oh,
+
+437
+01:03:46.260 --> 01:03:49.680
+Karis Jochen: Professor, you have to pass them as a list.
+
+438
+01:03:54.180 --> 01:03:54.960
+MS Analytics Class 2021: Oh,
+
+439
+01:04:06.480 --> 01:04:06.750
+MS Analytics Class 2021: Yeah.
+
+440
+01:04:31.290 --> 01:04:31.980
+MS Analytics Class 2021: Yeah.
+
+441
+01:04:52.230 --> 01:04:52.860
+MS Analytics Class 2021: Okay.
+
+442
+01:04:55.350 --> 01:05:09.360
+MS Analytics Class 2021: Yeah, this is mentioned in chapter one is specifically the type of everyone errors that you can run into is that if you use it. He tried to access multiple columns. It has to be a list. So that was
+
+443
+01:05:12.420 --> 01:05:17.070
+MS Analytics Class 2021: All right, let's take a, let's take a five minute break here or 10 minute break.
+
+444
+01:05:17.730 --> 01:05:20.970
+MS Analytics Class 2021: And get something to drink, and we'll get right back to this.
+
+445
+01:05:23.010 --> 01:05:23.580
+MS Analytics Class 2021: Okay.
+
+446
+01:05:54.600 --> 01:05:55.470
+MS Analytics Class 2021: Oh,
+
+447
+01:05:58.050 --> 01:06:00.090
+MS Analytics Class 2021: So if you want to run oneself.
+
+448
+01:06:01.980 --> 01:06:06.090
+MS Analytics Class 2021: Cell. If you want to just run one cell it shifts and enter
+
+449
+01:06:07.260 --> 01:06:11.640
+MS Analytics Class 2021: So, so yeah, so like around like this cell here.
+
+450
+01:06:13.080 --> 01:06:17.250
+MS Analytics Class 2021: Like say France shift enter, yeah. Yeah.
+
+451
+01:06:21.900 --> 01:06:26.640
+MS Analytics Class 2021: Shift and then enter it'll run itself. I don't usually use the
+
+452
+01:06:28.680 --> 01:06:30.480
+MS Analytics Class 2021: As you can see, yeah.
+
+453
+01:06:32.010 --> 01:06:42.810
+MS Analytics Class 2021: And then controller will just run the cell. The shift, shift, shift their runs it and then goes and creates a new cell below it, Control Enter, just runs it and stays there.
+
+454
+01:06:44.130 --> 01:06:52.020
+MS Analytics Class 2021: So, what time is it, seven yes 707 I was good at 707
+
+455
+01:06:53.520 --> 01:06:55.260
+MS Analytics Class 2021: I'm thinking a good are shipped over
+
+456
+01:06:56.760 --> 01:07:02.130
+MS Analytics Class 2021: Time. So this is going slower than born yeah so much to cover interested like
+
+457
+01:07:03.240 --> 01:07:17.520
+MS Analytics Class 2021: What are you coming from covering for the rest of the night. Well, I wanted to the main thing that I wanted to cover is the going to tinker, tinker, yeah. And that goes, we'd have to go, you're going to be using spider for. Gotcha. So
+
+458
+01:07:18.810 --> 01:07:24.720
+MS Analytics Class 2021: That's this people are probably familiar with, or Tina what's in the book. Yeah.
+
+459
+01:07:27.000 --> 01:07:36.780
+MS Analytics Class 2021: So I never run tonight, but I'll be back next Tuesday. Oh, you will now my come back every Tuesday, just kind of watch who can see how to weave it into my class.
+
+460
+01:07:38.190 --> 01:07:46.410
+MS Analytics Class 2021: Tonight on the legal or like, well, I will be back next week we'll use a good word. Yeah, take her right
+
+461
+01:07:47.850 --> 01:07:57.780
+MS Analytics Class 2021: Yeah, I'll watch it this weekend. Thank you. No worries. Yeah, I actually, I use Visual Studio code now.
+
+462
+01:07:58.530 --> 01:08:08.130
+MS Analytics Class 2021: The Python extension use one of Visual Studio code for Microsoft the Python extension inside of that is really good. So when you write your code and you run it.
+
+463
+01:08:08.550 --> 01:08:18.570
+MS Analytics Class 2021: It'll run inside of a notebook for years. He just type the code. And when you run into individual cells will actually put them as a Python Jupiter helpful.
+
+464
+01:08:19.410 --> 01:08:32.340
+MS Analytics Class 2021: And run. It's pretty cool Lucido Visual Studio. I'll send you a link. I actually have actually for the winter, spring. It's a Microsoft Visual Studio code. Okay, that's great startup costs Visual Studio.
+
+465
+01:08:34.200 --> 01:08:36.840
+Jordan Gross: Platforms professor. It's on Linux, it's on Mac.
+
+466
+01:08:36.840 --> 01:08:39.480
+MS Analytics Class 2021: Away rather let us welcome back. It's
+
+467
+01:08:39.630 --> 01:08:41.490
+MS Analytics Class 2021: Yeah, it's really, really great.
+
+468
+01:08:43.110 --> 01:08:48.300
+Jordan Gross: And I use it on every platform. I code in for every language I code in I
+
+469
+01:08:48.450 --> 01:08:50.640
+MS Analytics Class 2021: Yeah, that's all user my class.
+
+470
+01:08:51.990 --> 01:08:58.410
+Zuberi, Bilal Mustafa: And and it's fairly low more intuitive fighting the browser and it does code completion.
+
+471
+01:09:00.930 --> 01:09:07.050
+Jordan Gross: The virtual environments are really were fantastic for me being able to just manage the packages and update them.
+
+472
+01:09:07.140 --> 01:09:08.340
+MS Analytics Class 2021: Into your digital
+
+473
+01:09:09.900 --> 01:09:21.810
+MS Analytics Class 2021: Broker, so it's, I love it. It's not like it Python code is basically. Hey, I got a model that I built upon how, like, what are the options. It's also, it's also like, hey, I want to be.
+
+474
+01:09:22.290 --> 01:09:22.410
+MS Analytics Class 2021: A
+
+475
+01:09:22.440 --> 01:09:24.090
+Jordan Gross: data scientist and engineer or
+
+476
+01:09:24.090 --> 01:09:25.260
+Zuberi, Bilal Mustafa: Something and
+
+477
+01:09:25.710 --> 01:09:28.560
+MS Analytics Class 2021: And the real. What does that look like, how is that role of
+
+478
+01:09:29.730 --> 01:09:43.380
+MS Analytics Class 2021: Agile development. What do you use a speaker or I may just take a review, where are you now. I haven't exchanged or whoever use tons and tons of Python. Yeah, and Jupiter notebooks and use that
+
+479
+01:09:45.480 --> 01:09:47.820
+MS Analytics Class 2021: So I'll see you next week. Okay.
+
+480
+01:13:31.980 --> 01:13:33.510
+MS Analytics Class 2021: English lower so
+
+481
+01:13:34.530 --> 01:13:35.670
+MS Analytics Class 2021: Jerry there.
+
+482
+01:13:37.890 --> 01:13:42.840
+Karen Fireman: Dr. Jones, I am. I was wondering if you could remind me how to how to get the
+
+483
+01:13:44.100 --> 01:13:48.990
+Karen Fireman: The directory set up in the in the spider. I was I'm
+
+484
+01:13:50.820 --> 01:13:51.240
+Karen Fireman: Trying to
+
+485
+01:13:51.420 --> 01:13:51.780
+Send.
+
+486
+01:13:54.450 --> 01:13:54.720
+MS Analytics Class 2021: Your
+
+487
+01:13:56.160 --> 01:13:59.490
+MS Analytics Class 2021: Love. Love it. What did you say
+
+488
+01:14:01.020 --> 01:14:01.470
+Karen Fireman: Um,
+
+489
+01:14:04.290 --> 01:14:14.580
+Karen Fireman: I was wondering how this directory in the in the spider tool. Um, we did it before. Sure. I remember how to do that.
+
+490
+01:14:17.100 --> 01:14:17.820
+MS Analytics Class 2021: Okay.
+
+491
+01:14:20.070 --> 01:14:20.340
+MS Analytics Class 2021: Yeah.
+
+492
+01:14:21.600 --> 01:14:22.980
+MS Analytics Class 2021: The only person here.
+
+493
+01:14:24.720 --> 01:14:29.430
+Karen Fireman: I'm sure they're all be back. But, well, I got you. I would love to get it in there. Right.
+
+494
+01:14:31.740 --> 01:14:33.030
+Karen Fireman: Had the right spot but
+
+495
+01:14:33.780 --> 01:14:34.380
+Karen Fireman: I don't
+
+496
+01:14:36.450 --> 01:14:37.230
+MS Analytics Class 2021: So,
+
+497
+01:14:37.500 --> 01:14:38.220
+Princes
+
+498
+01:15:02.340 --> 01:15:04.470
+Jim Clark: Hi, Dr. Jones. This is Jim, can you hear me.
+
+499
+01:15:04.860 --> 01:15:05.490
+Yeah.
+
+500
+01:15:07.170 --> 01:15:10.350
+Jim Clark: So I think I'm going to try to give a partial answer to Karen.
+
+501
+01:15:11.790 --> 01:15:30.840
+Jim Clark: Based on last summer. So, Karen. You know when you when you look at the screen and you a partial solution is if you look right below the icon and you see it, for example, see slash users spider killer in a in a dot PHP file. Can you see this
+
+502
+01:15:31.920 --> 01:15:34.050
+Karen Fireman: I think so, yeah, I see that
+
+503
+01:15:34.590 --> 01:15:36.300
+Karen Fireman: So like seems that right
+
+504
+01:15:36.390 --> 01:15:49.470
+Jim Clark: I think if you can take and put that path in that is sort of a fix that I've used is probably not efficient, but it, it tells you what are you, where are you pointing to the file.
+
+505
+01:15:50.220 --> 01:15:55.680
+Karen Fireman: Right, I can't seem to change it, Jim. I appreciate that. I can't remember how to change that.
+
+506
+01:15:55.770 --> 01:15:59.580
+Jim Clark: Okay, so go and go to the top. Go up at the top of the icon or
+
+507
+01:15:59.910 --> 01:16:02.220
+Jim Clark: If you move your mouse over to the right, you'll see
+
+508
+01:16:02.580 --> 01:16:09.090
+Jim Clark: A C colon users slash is it Lowry l l o w ROI. So
+
+509
+01:16:10.500 --> 01:16:13.170
+Jim Clark: Very top very top row below that played
+
+510
+01:16:14.280 --> 01:16:14.460
+Jim Clark: The
+
+511
+01:16:15.960 --> 01:16:16.290
+Jim Clark: Know,
+
+512
+01:16:16.500 --> 01:16:17.460
+Karen Fireman: The file open like
+
+513
+01:16:18.450 --> 01:16:21.630
+Jim Clark: No man. Good, good, good, good. Give me your screen again.
+
+514
+01:16:22.530 --> 01:16:23.250
+Karen Fireman: It's not mine.
+
+515
+01:16:24.000 --> 01:16:29.850
+Jim Clark: Okay, so when you look at your screen and you look with a folder as well because the upper right hand corner of the screen.
+
+516
+01:16:30.240 --> 01:16:31.050
+Karen Fireman: With the upper right.
+
+517
+01:16:31.080 --> 01:16:32.580
+Karen Fireman: Not left upper right, yeah.
+
+518
+01:16:32.610 --> 01:16:34.140
+Jim Clark: For right where the open folders.
+
+519
+01:16:34.500 --> 01:16:38.130
+Jim Clark: And so there's a rectangular area there and there's a fascinating.
+
+520
+01:16:39.330 --> 01:16:46.950
+Jim Clark: I think if you go through and can set that that will that will also set your, your path for your, for your Python path.
+
+521
+01:16:48.330 --> 01:16:49.740
+Karen Fireman: Okay, I thought that
+
+522
+01:16:51.390 --> 01:16:53.910
+Karen Fireman: Didn't didn't choose it. Thank you for trying, Jim.
+
+523
+01:16:54.180 --> 01:16:57.300
+Jim Clark: Okay, well I'm sorry I made a major stab at it.
+
+524
+01:16:57.870 --> 01:17:00.600
+Karen Fireman: No, I appreciate it. I know it's something like that.
+
+525
+01:17:05.700 --> 01:17:08.940
+Karen Fireman: There's a way to do it. The form is
+
+526
+01:17:09.030 --> 01:17:09.720
+Okay.
+
+527
+01:17:10.950 --> 01:17:30.090
+MS Analytics Class 2021: I'm working right now or concern isn't covering the other material which is to enter this material that we're talking about right now is in the book chapters one through three. And so we have a chance to come back, but I'll do that. Otherwise, please read chapters, or one into
+
+528
+01:17:31.800 --> 01:17:38.550
+MS Analytics Class 2021: As part of your assignment and when you read, you don't have to go over a lot of detail, I think you can scan it pretty quickly.
+
+529
+01:17:39.360 --> 01:17:48.960
+MS Analytics Class 2021: Get the you know the you're going to see a lot of things in there that you recognize, you know, and every once while I run into something at least this my experience there was
+
+530
+01:17:49.680 --> 01:18:02.280
+MS Analytics Class 2021: Something like, for example, that it excellent because we have the column names inside of the list. That shouldn't be through the obvious, but obviously, that was something that I miss
+
+531
+01:18:03.780 --> 01:18:18.270
+MS Analytics Class 2021: Okay, we're going to go now entertainer TK I NT er I so shut down right now we're going to get back out of the book. And we're going to go back into spider.
+
+532
+01:18:19.980 --> 01:18:20.670
+MS Analytics Class 2021: Okay.
+
+533
+01:18:21.750 --> 01:18:26.730
+MS Analytics Class 2021: Now this is the program, I'd like you to work on with me.
+
+534
+01:18:28.350 --> 01:18:31.560
+MS Analytics Class 2021: I hope you can read but I plated
+
+535
+01:18:32.880 --> 01:18:34.410
+MS Analytics Class 2021: It's a simple program.
+
+536
+01:18:36.000 --> 01:18:39.930
+MS Analytics Class 2021: And let me run for you to show you what you should, yeah.
+
+537
+01:18:40.950 --> 01:18:43.980
+MS Analytics Class 2021: And so I'm gonna hit the green button up here.
+
+538
+01:18:52.320 --> 01:18:54.360
+MS Analytics Class 2021: Let me minimize this and see
+
+539
+01:19:00.570 --> 01:19:01.320
+MS Analytics Class 2021: Wow.
+
+540
+01:19:02.550 --> 01:19:03.510
+MS Analytics Class 2021: Okay.
+
+541
+01:19:14.070 --> 01:19:16.770
+MS Analytics Class 2021: This is what you should get the LEAD program.
+
+542
+01:19:17.790 --> 01:19:30.990
+MS Analytics Class 2021: It's a little Bob. Bob, do you see that now this is not a real big doing because it's very simple program what this program is doing is creating baba
+
+543
+01:19:32.070 --> 01:19:37.710
+MS Analytics Class 2021: When you run. And then if you press on this little button that says angry.
+
+544
+01:19:39.120 --> 01:19:49.080
+MS Analytics Class 2021: And if you look at your output is fighter. You shouldn't see the word. How about what we hear when you press that now let me see if I can
+
+545
+01:19:50.190 --> 01:19:59.160
+MS Analytics Class 2021: There it is. So you can see what I press here on the on the going the word howdy comes up in the upper right hand side.
+
+546
+01:20:00.480 --> 01:20:01.620
+MS Analytics Class 2021: You see that
+
+547
+01:20:02.910 --> 01:20:04.830
+MS Analytics Class 2021: Is visible on your screen.
+
+548
+01:20:07.260 --> 01:20:07.890
+Zuberi, Bilal Mustafa: Yes, it is.
+
+549
+01:20:08.190 --> 01:20:12.750
+MS Analytics Class 2021: Yes, you get the idea. Now, so this is a simple going
+
+550
+01:20:13.770 --> 01:20:21.060
+MS Analytics Class 2021: This is made using the package for TK. If you are, and also
+
+551
+01:20:22.140 --> 01:20:26.580
+MS Analytics Class 2021: There's a little package as you see here is called TK
+
+552
+01:20:27.660 --> 01:20:38.460
+MS Analytics Class 2021: Okay, now these packages have been around since before my on these factors were actually in C and Java and then they were over in the Bible.
+
+553
+01:20:40.020 --> 01:20:55.410
+MS Analytics Class 2021: The mother baggage is one ball TK tango to that is, is the basic package and if you go to the campus. We go back to see if I can find breezy campus here as
+
+554
+01:20:57.540 --> 01:20:59.010
+MS Analytics Class 2021: Well, it was here.
+
+555
+01:21:07.590 --> 01:21:12.360
+MS Analytics Class 2021: If you go back to week one on campus here.
+
+556
+01:21:13.860 --> 01:21:16.080
+MS Analytics Class 2021: You'll see it says senior
+
+557
+01:21:17.520 --> 01:21:23.910
+MS Analytics Class 2021: Version 8.5 reference this reference is a large PDF file.
+
+558
+01:21:25.380 --> 01:21:36.120
+MS Analytics Class 2021: You should download this to your either and put it somewhere where you can refer to it this reference for taker is about 168 patients.
+
+559
+01:21:37.470 --> 01:21:40.200
+MS Analytics Class 2021: And it's basically detail about
+
+560
+01:21:42.060 --> 01:21:56.130
+MS Analytics Class 2021: The options and settings for different parameters. So theory Wi Fi reference a UI, but boy five on graphical reverse movies and for of course graphical user interface.
+
+561
+01:21:57.360 --> 01:22:12.270
+MS Analytics Class 2021: And if you're developing apps for usage work or otherwise you might want to make absolutely those apps, by creating the gooey and this, this is the documentation for t day
+
+562
+01:22:13.980 --> 01:22:26.610
+MS Analytics Class 2021: Very well organized and very easy to find information on how you set up a certain structure and you're going that way because the UI that we were just running
+
+563
+01:22:27.960 --> 01:22:29.520
+MS Analytics Class 2021: Let me go back to that.
+
+564
+01:22:33.150 --> 01:22:40.320
+MS Analytics Class 2021: Good wine again. And stop. There it is, it's up here came up in the upper left hand corner.
+
+565
+01:22:42.180 --> 01:22:54.270
+MS Analytics Class 2021: We make it a little larger. You can see it there. So when you create a new you start with a fresh Candace, this is all the window, the canvas and there's nothing on it.
+
+566
+01:22:55.830 --> 01:23:15.840
+MS Analytics Class 2021: All you see is little red X here. I'm in the eyes and the SRP maybe larger the standard features and you see on on most apps and most of the winners here this material to senior level was put there by this program. So you start
+
+567
+01:23:16.860 --> 01:23:37.290
+MS Analytics Class 2021: By creating a blank canvas, and then he puts up on canvas. Let's take a little bit of code that's going to stop this right now. And so the first thing you want to do is you want to import from TK I and II our boards are
+
+568
+01:23:39.030 --> 01:23:46.830
+MS Analytics Class 2021: This basically imports everything that the baggage was all hundred 68 pages and more that you saw that documentation.
+
+569
+01:23:48.300 --> 01:24:00.960
+MS Analytics Class 2021: And then from Tinker important de de de de de de is the is the bad as a sub baggage with a taker. That is most useful or populating the back end.
+
+570
+01:24:02.220 --> 01:24:09.810
+MS Analytics Class 2021: So on that canvas, as you just saw there were two things. One, label to about
+
+571
+01:24:10.890 --> 01:24:16.320
+MS Analytics Class 2021: Let's see how those are created. So as you see here, it says class.
+
+572
+01:24:17.370 --> 01:24:28.560
+MS Analytics Class 2021: You when you set the gooey. Normally you create your own class classes a description of what you want that really look like and what it does. Okay.
+
+573
+01:24:29.880 --> 01:24:38.670
+MS Analytics Class 2021: When you program a movie. This is probably something that you haven't worried about it before you have to worry about threading.
+
+574
+01:24:39.750 --> 01:24:53.130
+MS Analytics Class 2021: And you have to worry about multiple executions, so a Google you set up to allow users to run more than one Bobby simultaneously not wanted.
+
+575
+01:24:54.600 --> 01:25:03.240
+MS Analytics Class 2021: Most programs that you develop and run, you know, in the past, you create one program you're in London, you're done.
+
+576
+01:25:04.470 --> 01:25:15.570
+MS Analytics Class 2021: Well with a gooey. You want to set it up so there are multiple people can run multiple copies. I'm saying here simultaneously and they won't crash into each other.
+
+577
+01:25:17.100 --> 01:25:24.900
+MS Analytics Class 2021: Okay, that's all multi threading or parallel programming. So we're going to do that, you're going to see how to do that here.
+
+578
+01:25:26.070 --> 01:25:28.740
+MS Analytics Class 2021: This class highlighted in blue.
+
+579
+01:25:30.150 --> 01:25:38.580
+MS Analytics Class 2021: Is complete description of that going. Let's talk about what it is. It says class, my personal, you can call it what you wanna
+
+580
+01:25:39.750 --> 01:25:50.460
+MS Analytics Class 2021: Call it what you want, but when you run the schooling. That's what you're going to use. You're going to say my first do a run, something like that.
+
+581
+01:25:51.180 --> 01:26:12.780
+MS Analytics Class 2021: And it's going to do what it says here. So you'll notice that are two functions as good as class the first function is always required it's underscore under that's a double underscore I nit double underscore and then in parentheses. The word itself and then another item called Mastering
+
+582
+01:26:14.280 --> 01:26:21.390
+MS Analytics Class 2021: Okay, let's talk about what this is. If you see a function with every class as the visualization function.
+
+583
+01:26:22.320 --> 01:26:33.870
+MS Analytics Class 2021: And see program and other programming, we will be called instantiate in Java programming. So this creates an instance of your job really
+
+584
+01:26:34.740 --> 01:26:45.690
+MS Analytics Class 2021: So I didn't create several different instances. Okay, all I'm going to have the same characteristics but they're going to be running separately and they may be doing separate things.
+
+585
+01:26:47.430 --> 01:26:52.890
+MS Analytics Class 2021: So in this case, who is your simple what is going to say, howdy howdy howdy, Eric. I'm impressed about
+
+586
+01:26:54.900 --> 01:26:59.730
+MS Analytics Class 2021: Pretty soon we're going to be moving promise to doing something more complicated more interesting.
+
+587
+01:27:02.010 --> 01:27:12.180
+MS Analytics Class 2021: So the identity function is a visualization option and basically an ID function describes what you want the going to look like.
+
+588
+01:27:13.500 --> 01:27:39.060
+MS Analytics Class 2021: So you're here, you see self have a bathroom. The word itself is is is used to indicate that the variables that I'm going to create here are going to be unique for every got the word self created refinances is a previous to all variants, for example, says so doc master is equal to mass
+
+589
+01:27:40.500 --> 01:27:57.360
+MS Analytics Class 2021: I'm actually creating a copy of the master that's coming in that. What is that master that's coming in. Well, we'll get to that. But basically it's a blank canvas, the word mastery here is basically a blank canvas, you'll see that
+
+590
+01:28:00.900 --> 01:28:12.030
+MS Analytics Class 2021: I created a copy of that white canvas, and I call it so period master. And the reason I'm doing that is because I want to mess up the original canvas.
+
+591
+01:28:12.780 --> 01:28:18.480
+MS Analytics Class 2021: Page on the original canvas. I want to create a new copy of that again is another thing on that.
+
+592
+01:28:19.230 --> 01:28:32.670
+MS Analytics Class 2021: And I'm going to do that separately. Every time you call me because I want you to have the ability of creating several instances of this school at all. Some things we already know the same here at the same time.
+
+593
+01:28:33.060 --> 01:28:40.710
+MS Analytics Class 2021: But doing different things. And in order to do that I have to do with a that Amazon pollen itself period masks.
+
+594
+01:28:42.510 --> 01:28:48.510
+MS Analytics Class 2021: Next, they are doing good. My master file master period file several going
+
+595
+01:28:50.100 --> 01:29:01.830
+MS Analytics Class 2021: Know, St. Louis, and I made a mistake here. Okay, let me break this, I did not good self period master in front of that I should have done.
+
+596
+01:29:02.790 --> 01:29:17.820
+MS Analytics Class 2021: Otherwise, every value the school, he's going to have the same title which is okay. It's not a big deal but programming wise I need to keep the separate. So I'd say self period master. Hi.
+
+597
+01:29:18.630 --> 01:29:27.360
+MS Analytics Class 2021: This is basically says, I'm okay this blank canvas. I have here at the top of the way and there's another pilot called chivalry.
+
+598
+01:29:28.650 --> 01:29:37.770
+MS Analytics Class 2021: Now you got it going, he thought, Karen Scully. He said, James going with everyone about the lead.
+
+599
+01:29:38.910 --> 01:29:39.810
+MS Analytics Class 2021: Alright.
+
+600
+01:29:40.980 --> 01:29:46.470
+MS Analytics Class 2021: So now when I run this. I'm going to show you what it looks like. Oh, it pops up years ago.
+
+601
+01:29:50.430 --> 01:29:51.240
+MS Analytics Class 2021: Now,
+
+602
+01:29:53.880 --> 01:30:03.750
+MS Analytics Class 2021: You see over here in the upper left hand corner. It says symbol going, that's the title of the canvas. I told you about. Not a big deal but
+
+603
+01:30:04.590 --> 01:30:21.570
+MS Analytics Class 2021: If you want your company's logo to show up there, or your department name or the day where you're running or something like that. This is where you hit us a viable option with Master okay right in here.
+
+604
+01:30:23.760 --> 01:30:34.080
+MS Analytics Class 2021: Now I'm going to agree that label. This is our first movie. That's the label. Well, the object that you put on the canvas is all label.
+
+605
+01:30:34.950 --> 01:30:54.750
+MS Analytics Class 2021: So you say self that label is equal to TT data label. Notice that this is all cases. Why do you think Dave's important TK package and inside that package is a is a widget or widgets, as all the label.
+
+606
+01:30:56.640 --> 01:31:00.720
+MS Analytics Class 2021: And where am I going to put that label. I'm going to put it on master.
+
+607
+01:31:02.010 --> 01:31:06.540
+MS Analytics Class 2021: And really I should have said itself that master right there.
+
+608
+01:31:08.040 --> 01:31:10.080
+MS Analytics Class 2021: Okay, and
+
+609
+01:31:11.340 --> 01:31:12.060
+MS Analytics Class 2021: Then I say,
+
+610
+01:31:13.800 --> 01:31:14.220
+MS Analytics Class 2021: Live label.
+
+611
+01:31:15.390 --> 01:31:20.010
+MS Analytics Class 2021: Says, Okay, this is right before you put it on the canvas.
+
+612
+01:31:21.090 --> 01:31:26.790
+MS Analytics Class 2021: For the next to the mobile space on cans and then I'm going to create one.
+
+613
+01:31:27.840 --> 01:31:30.390
+MS Analytics Class 2021: Is Holly Reebok you follow everyone
+
+614
+01:31:32.250 --> 01:31:35.760
+MS Analytics Class 2021: But de de de de de de de curry, but
+
+615
+01:31:37.710 --> 01:31:48.960
+MS Analytics Class 2021: Then I want to bring it put that on my canvas. So that master canvas and the one is going to be labeled any agree.
+
+616
+01:31:51.510 --> 01:31:57.240
+MS Analytics Class 2021: And the command associated with that button is a function of greed.
+
+617
+01:31:58.470 --> 01:32:18.060
+MS Analytics Class 2021: And it has some period breed, which means it's a function inside this class, don't look for somewhere else is inside this lab and look down here at the bottom. See the machinery right here. So this command is pointing to the function that's inside of this class.
+
+618
+01:32:19.080 --> 01:32:36.510
+MS Analytics Class 2021: You can have as many functions inside of this question, why is it bad decision. Like, and then you have other structures. For example, you have a window and you're out there was a head Brad right and you put a one in Boca grant would be withdrawn inside this window.
+
+619
+01:32:37.980 --> 01:32:50.760
+MS Analytics Class 2021: So this is the basic idea behind an app or a UI is you start with a blank canvas, and then you start populating it with labels and buttons and windows and and functions that this
+
+620
+01:32:55.050 --> 01:32:56.220
+MS Analytics Class 2021: Is it's
+
+621
+01:32:57.330 --> 01:33:06.450
+MS Analytics Class 2021: It's not a big deal, but it is something that's very, very powerful and very useful. You're going to see, for example, some examples here where
+
+622
+01:33:07.230 --> 01:33:19.830
+MS Analytics Class 2021: We can we can start one version of the movie right and then we can go live on say startup another another one. If you're watching and he's one of in the weeds up here.
+
+623
+01:33:20.760 --> 01:33:31.950
+MS Analytics Class 2021: You might have a feature language. For example, English, maybe they do version of the sake of new French, German, Spanish, whatever you want and
+
+624
+01:33:32.790 --> 01:33:52.230
+MS Analytics Class 2021: Then we will decide which one you want, based on the settings. This is about as simple as a movie. So what I can do is go ahead and create this on your computer, inspiring right and see what happens. Now there are some of the problems that you can run into
+
+625
+01:33:54.450 --> 01:34:15.990
+MS Analytics Class 2021: But right now, here at the bottom you see those three lines, those three lines are kicking off the GUI, the first one says route to gay friends that says give me a copy of the object of the TK object, which basically is a mastermind papyrus.
+
+626
+01:34:17.100 --> 01:34:34.290
+MS Analytics Class 2021: Route. There is another word for mass. It's the room, and this is the original white canvas origin populate so curry. Give me pass over to my UI see it says vipers going rooms is fasting that room that white canvas.
+
+627
+01:34:35.550 --> 01:34:38.580
+MS Analytics Class 2021: Into the class, my verse going
+
+628
+01:34:39.810 --> 01:34:48.090
+MS Analytics Class 2021: And then is returning the name of that movie and put it into this variable called My going
+
+629
+01:34:49.650 --> 01:34:52.890
+MS Analytics Class 2021: So this allows you to do things like Killer.
+
+630
+01:34:54.630 --> 01:35:07.320
+MS Analytics Class 2021: Or influences and suddenly he wanted to do that route main loop is the last segment here and what that is saying is, okay, run this and just keep on running in
+
+631
+01:35:07.890 --> 01:35:22.230
+MS Analytics Class 2021: Those shut it down. He went running normally an unproven ego, bang, bang, bang. And then when he gets to the last statement, the program stops everything he says goodbye. Goodnight. And so then it goes away.
+
+632
+01:35:23.250 --> 01:35:35.730
+MS Analytics Class 2021: Well, there's no way so you created until you talk to go away. It just sits there waiting for you to do something like in this case it's sitting there waiting for you, somebody clicked on.
+
+633
+01:35:37.140 --> 01:35:45.900
+MS Analytics Class 2021: It will stay there as long as your computers running or until somebody clicks on that little x, which will be until
+
+634
+01:35:48.720 --> 01:35:49.380
+MS Analytics Class 2021: Now,
+
+635
+01:35:51.750 --> 01:35:58.770
+MS Analytics Class 2021: Say, what else as far as you want to run a program every cell phone. This is how you do
+
+636
+01:35:59.970 --> 01:36:04.920
+MS Analytics Class 2021: It, you can get a copy by run on your cell phone, you can run the school you and yourself.
+
+637
+01:36:06.570 --> 01:36:10.290
+MS Analytics Class 2021: Or my dad or whatever else it is you want to run on
+
+638
+01:36:12.390 --> 01:36:12.900
+MS Analytics Class 2021: Okay.
+
+639
+01:36:15.780 --> 01:36:18.810
+MS Analytics Class 2021: Okay. Anybody have this running successfully.
+
+640
+01:36:20.070 --> 01:36:20.610
+MS Analytics Class 2021: Answer.
+
+641
+01:36:25.530 --> 01:36:26.010
+MS Analytics Class 2021: Oh,
+
+642
+01:36:26.730 --> 01:36:31.140
+MS Analytics Class 2021: Yes yes yes yes alright see it's not there are
+
+643
+01:36:32.400 --> 01:36:33.150
+MS Analytics Class 2021: Where's Mr.
+
+644
+01:36:34.590 --> 01:36:40.590
+MS Analytics Class 2021: Roses. Yes. Okay. See how easy this is are almost like none of you that are
+
+645
+01:36:47.460 --> 01:36:52.530
+MS Analytics Class 2021: Of course, seen the other movies that we're going to look at here in just a minute.
+
+646
+01:36:53.220 --> 01:37:10.230
+MS Analytics Class 2021: Now what I'm going to do is I'm going to take this going, and I'm going to upload it in week one folder so that you will have a copy of a copy of that in case you are having problems you can pull it off. Now this doing his fault he is one example one
+
+647
+01:37:11.520 --> 01:37:24.090
+MS Analytics Class 2021: So if you look in that folder, you're going to see example one there and let me run it again make sure it's working. Incidentally, I hope I use a Mac and the goalies doesn't look like that.
+
+648
+01:37:25.290 --> 01:37:34.830
+MS Analytics Class 2021: It's a little backwards. Currently, you know, back to Scott soft edges, right. So this is where we get the statement of the little soft and
+
+649
+01:37:37.770 --> 01:37:42.870
+MS Analytics Class 2021: When on the map, you know, give us a little better over here. Where did that come from that school
+
+650
+01:37:45.180 --> 01:37:45.810
+MS Analytics Class 2021: Anyway,
+
+651
+01:37:47.250 --> 01:37:51.720
+MS Analytics Class 2021: But they both do exactly exactly the same sort of thing so
+
+652
+01:37:53.340 --> 01:37:55.440
+MS Analytics Class 2021: What I want to do now. Let's see.
+
+653
+01:37:56.490 --> 01:37:57.630
+MS Analytics Class 2021: Where it is
+
+654
+01:38:04.020 --> 01:38:04.740
+MS Analytics Class 2021: Aaron is
+
+655
+01:38:06.510 --> 01:38:08.910
+MS Analytics Class 2021: somewhere to go in week one.
+
+656
+01:38:10.470 --> 01:38:11.400
+MS Analytics Class 2021: And
+
+657
+01:38:15.480 --> 01:38:18.000
+MS Analytics Class 2021: This is going to be all these out of wine.
+
+658
+01:38:48.900 --> 01:38:51.000
+MS Analytics Class 2021: I see.
+
+659
+01:38:54.210 --> 01:38:54.900
+MS Analytics Class 2021: Okay.
+
+660
+01:38:56.580 --> 01:38:57.510
+MS Analytics Class 2021: Well,
+
+661
+01:39:00.870 --> 01:39:01.500
+MS Analytics Class 2021: Next one.
+
+662
+01:39:03.240 --> 01:39:04.020
+MS Analytics Class 2021: Strange
+
+663
+01:39:06.840 --> 01:39:12.510
+MS Analytics Class 2021: Okay. Wow. All right, let's go. Let's open up example to
+
+664
+01:39:13.590 --> 01:39:22.710
+MS Analytics Class 2021: And you're going to see is similar but not exactly the same. So your house. Now, this is called example one a
+
+665
+01:39:24.060 --> 01:39:26.520
+MS Analytics Class 2021: Let's say two
+
+666
+01:39:28.800 --> 01:39:29.340
+MS Analytics Class 2021: To
+
+667
+01:39:30.900 --> 01:39:32.580
+MS Analytics Class 2021: Receive so one on one. Look.
+
+668
+01:39:34.800 --> 01:39:38.760
+MS Analytics Class 2021: No, this one is too complicated. And we're not ready for that yet.
+
+669
+01:39:39.900 --> 01:39:43.950
+MS Analytics Class 2021: Okay, we're going to do the example one day or one okay follow
+
+670
+01:39:46.410 --> 01:39:55.950
+MS Analytics Class 2021: And this will be example one day open. Okay. And so this one. This example is fall
+
+671
+01:39:58.860 --> 01:40:10.230
+MS Analytics Class 2021: It's very similar. It's called a sample one day and you'll notice there's only one import import cheaper VC.
+
+672
+01:40:13.980 --> 01:40:16.230
+MS Analytics Class 2021: Made the spirit for you. Okay.
+
+673
+01:40:18.090 --> 01:40:20.190
+MS Analytics Class 2021: And 40 K capital T.
+
+674
+01:40:21.840 --> 01:40:30.750
+MS Analytics Class 2021: And then TT all these days. So this is what we're using TK and
+
+675
+01:40:32.580 --> 01:40:38.640
+MS Analytics Class 2021: Now here is this call someone who is a because this is example one day.
+
+676
+01:40:39.750 --> 01:41:00.780
+MS Analytics Class 2021: And notice here that I said Master. I changed the name of the initialization part to gooey window is who I am. You can use faster here or you can use to eat when or even gooey, whatever you want to use. And then this is a parameter that I'm passing over version for
+
+677
+01:41:02.190 --> 01:41:15.360
+MS Analytics Class 2021: You can pass other parameters in addition to you, you'll always have self and then the master Candace to initialize initialize the UI, but then even have other things that come in or not.
+
+678
+01:41:16.710 --> 01:41:20.640
+MS Analytics Class 2021: So I'm going to dial in here is a simple doing shall
+
+679
+01:41:22.110 --> 01:41:26.400
+MS Analytics Class 2021: Specify the exact shape and size for the going
+
+680
+01:41:27.600 --> 01:41:30.180
+MS Analytics Class 2021: 200 by 60 faces.
+
+681
+01:41:31.950 --> 01:41:43.350
+MS Analytics Class 2021: This doing is basically the same as the other one. I wonder I'm just showing you that, okay, we can correct the size issues with that.
+
+682
+01:41:44.460 --> 01:41:47.010
+MS Analytics Class 2021: And also,
+
+683
+01:41:48.750 --> 01:41:51.750
+MS Analytics Class 2021: You have something called the language.
+
+684
+01:41:53.130 --> 01:41:54.630
+MS Analytics Class 2021: This is just like the other one.
+
+685
+01:41:56.190 --> 01:42:00.390
+MS Analytics Class 2021: So the only difference that is the size right here.
+
+686
+01:42:01.980 --> 01:42:06.720
+MS Analytics Class 2021: And there's something old version coming in. So if I run this why
+
+687
+01:42:09.150 --> 01:42:20.040
+MS Analytics Class 2021: Here. So you can see that on your screen. But you can see it has better proportions and saw crunched up and that's because of the size
+
+688
+01:42:21.240 --> 01:42:30.600
+MS Analytics Class 2021: Now, right now it's 200 pixels wide and 16 tall. So I make this let's say foreigners why
+
+689
+01:42:31.860 --> 01:42:33.720
+MS Analytics Class 2021: killed us and run this again.
+
+690
+01:42:35.400 --> 01:42:53.400
+MS Analytics Class 2021: Then you see this much fear. Right. So we have direct control over the size of this thing. But if the user doesn't like your selection, they can always grab a corner and resize it in the normal way. Okay.
+
+691
+01:42:55.500 --> 01:43:03.240
+MS Analytics Class 2021: So everything else here is a pretty much the same. I have a couple of comments in here, describing what these saints are doing
+
+692
+01:43:05.340 --> 01:43:09.750
+MS Analytics Class 2021: But the only new thing here really is the challenger
+
+693
+01:43:12.180 --> 01:43:15.510
+MS Analytics Class 2021: Let's open up example one be
+
+694
+01:43:21.690 --> 01:43:23.700
+MS Analytics Class 2021: Okay, here we go.
+
+695
+01:43:25.590 --> 01:43:27.390
+MS Analytics Class 2021: We may blow this up.
+
+696
+01:43:29.130 --> 01:43:30.420
+MS Analytics Class 2021: By the way, there's some comments.
+
+697
+01:43:32.460 --> 01:43:41.730
+MS Analytics Class 2021: And it says documentation, you can go to this this link and I'm going to drop it or just copy this here.
+
+698
+01:43:43.200 --> 01:43:45.330
+MS Analytics Class 2021: And go to
+
+699
+01:43:47.010 --> 01:43:47.370
+MS Analytics Class 2021: Well,
+
+700
+01:44:09.660 --> 01:44:14.010
+MS Analytics Class 2021: This is this is legacy. The other sorts of documentation for patron.
+
+701
+01:44:15.750 --> 01:44:18.870
+MS Analytics Class 2021: And this is the online documentation for bygone
+
+702
+01:44:20.040 --> 01:44:30.240
+MS Analytics Class 2021: That you haven't seen this before you get to this by going to the documentation for bygone if you do a Google Docs.
+
+703
+01:44:30.780 --> 01:44:51.120
+MS Analytics Class 2021: Notice that has the documentation for each version of bygone recent memory. And so three point 10 is the one that's a development 3.9 is the newest version that's stable. Right now we're looking at version on the documentation here free 1817
+
+704
+01:44:52.530 --> 01:44:56.310
+MS Analytics Class 2021: The URL. This is doc stop five on the org
+
+705
+01:44:57.510 --> 01:44:59.100
+MS Analytics Class 2021: So if you go to docs.
+
+706
+01:45:00.180 --> 01:45:02.850
+MS Analytics Class 2021: On that order without anything else.
+
+707
+01:45:04.140 --> 01:45:07.980
+MS Analytics Class 2021: You get to the latest version which is 391 documentation.
+
+708
+01:45:09.750 --> 01:45:10.410
+MS Analytics Class 2021: And
+
+709
+01:45:11.760 --> 01:45:18.090
+MS Analytics Class 2021: If you want to go to another one you can jump to another one by just clicking here. There you go, 3.6
+
+710
+01:45:19.230 --> 01:45:24.930
+MS Analytics Class 2021: And frequently going to find out what version you're running by looking at that and Bourbon
+
+711
+01:45:27.120 --> 01:45:48.780
+MS Analytics Class 2021: Okay, back here to the now in this documentation you see here, you'll have some links to different things language reference for example library reference the gooey information is always another library around so I like a library reference
+
+712
+01:45:49.830 --> 01:45:59.310
+MS Analytics Class 2021: It says a five on standard library. And if you scroll down here bunch of stuff in standard library.
+
+713
+01:46:02.040 --> 01:46:03.150
+MS Analytics Class 2021: Eventually,
+
+714
+01:46:04.350 --> 01:46:20.160
+MS Analytics Class 2021: You're going to get to graphical user interface right there graphical user interfaces with TK is a standard bearer just every version of bile. Now that's unfortunate is okay.
+
+715
+01:46:21.450 --> 01:46:32.880
+MS Analytics Class 2021: So you can go here to graphical user interfaces. Click on that and boom, you're right now I'm in the art of Python documentation or later today.
+
+716
+01:46:34.740 --> 01:46:37.650
+MS Analytics Class 2021: Reading this is a little obscure and
+
+717
+01:46:38.670 --> 01:46:48.540
+MS Analytics Class 2021: But if you're persistent, you can work your way through this. You can you can get a lot of information and there are some good examples in here.
+
+718
+01:46:49.980 --> 01:46:52.500
+MS Analytics Class 2021: That you can use
+
+719
+01:46:56.160 --> 01:47:10.770
+MS Analytics Class 2021: Sort of the documentation. Now go back here to this school. We were in one day. And once every year. Now we're doing similar gooey, then we're doing a greeting.
+
+720
+01:47:12.180 --> 01:47:18.690
+MS Analytics Class 2021: Nothing really. I don't see anything. Oh, I know what's going on. Let's run and say,
+
+721
+01:47:24.810 --> 01:47:25.680
+MS Analytics Class 2021: Where do we go
+
+722
+01:47:35.460 --> 01:47:35.910
+MS Analytics Class 2021: Eric
+
+723
+01:47:37.230 --> 01:47:40.530
+MS Analytics Class 2021: Oh. Oh.
+
+724
+01:47:42.390 --> 01:47:43.620
+MS Analytics Class 2021: Okay.
+
+725
+01:47:44.910 --> 01:48:04.350
+MS Analytics Class 2021: There is an option to send the cursor. This is what's different and windows. Apparently, it doesn't like that option. So I'm going to go and to said pan that's the Tetris. A small small differences there. I wonder if you look at the documentation on
+
+726
+01:48:05.700 --> 01:48:09.660
+MS Analytics Class 2021: Today, you know, see, and there is some back pain.
+
+727
+01:48:10.710 --> 01:48:13.020
+MS Analytics Class 2021: So going to run this again.
+
+728
+01:48:14.550 --> 01:48:14.970
+MS Analytics Class 2021: Very
+
+729
+01:48:17.220 --> 01:48:18.270
+MS Analytics Class 2021: And
+
+730
+01:48:19.620 --> 01:48:20.460
+MS Analytics Class 2021: Again, yeah.
+
+731
+01:48:29.070 --> 01:48:38.820
+MS Analytics Class 2021: You have to read research girl, sometimes you're doing the same site and job interviews. So you need to reset the URL.
+
+732
+01:48:40.470 --> 01:48:41.490
+MS Analytics Class 2021: And then
+
+733
+01:48:45.480 --> 01:48:47.580
+MS Analytics Class 2021: You can see that is right.
+
+734
+01:48:48.600 --> 01:48:50.160
+MS Analytics Class 2021: Now error messages.
+
+735
+01:48:51.900 --> 01:49:04.950
+MS Analytics Class 2021: Were isn't we find this area, there is hiding. So this week is a little different. Notice that the label instead of being above above is to the left.
+
+736
+01:49:06.180 --> 01:49:17.640
+MS Analytics Class 2021: And the violence of the right so this is clinic degree a degree. Notice that when I hover over the button. The hand comes up with the right thing, right.
+
+737
+01:49:18.420 --> 01:49:28.740
+MS Analytics Class 2021: So I've done two things that are ever in the States. I sent the UI up so that the labels to the left of the box to the right. And I'm also set it up so that
+
+738
+01:49:29.070 --> 01:49:43.710
+MS Analytics Class 2021: Remains cursor on to the button phone, something happens to alert the user that this, this is not a label is active. If you click on that something's going to happen. Okay.
+
+739
+01:49:44.760 --> 01:49:48.480
+MS Analytics Class 2021: So let me move this out of the way here.
+
+740
+01:49:49.500 --> 01:49:55.050
+MS Analytics Class 2021: Magic and move it onto the screen bring this back and now you bring the
+
+741
+01:49:57.060 --> 01:49:59.460
+MS Analytics Class 2021: Summer going here. See that
+
+742
+01:50:00.600 --> 01:50:00.960
+MS Analytics Class 2021: And now.
+
+743
+01:50:02.730 --> 01:50:06.210
+MS Analytics Class 2021: Yeah. Howdy howdy howdy comes up in the right hand side.
+
+744
+01:50:07.290 --> 01:50:07.800
+MS Analytics Class 2021: So what
+
+745
+01:50:09.960 --> 01:50:20.460
+MS Analytics Class 2021: Okay, well, there is a brain grid option. Throw previously we just tend to like cameras and you started putting stuff on it.
+
+746
+01:50:21.720 --> 01:50:29.040
+MS Analytics Class 2021: Will use pack feature to put us up on what happens when you do that, it is possible, one thing after another.
+
+747
+01:50:30.690 --> 01:50:38.730
+MS Analytics Class 2021: Well, you don't want to do that. You want to be able to put stuff in different areas of your gooey. And so there is something called the grid.
+
+748
+01:50:39.870 --> 01:50:53.490
+MS Analytics Class 2021: And the grid. The first of all, you're just creating great from you. And as you say self out mainframe or self that room or whatever you're calling the the gooey.
+
+749
+01:50:54.690 --> 01:50:58.950
+MS Analytics Class 2021: When I instantiated. I use the UI when
+
+750
+01:51:00.090 --> 01:51:04.200
+MS Analytics Class 2021: And I created this is actually creating the canvas. Right.
+
+751
+01:51:05.310 --> 01:51:08.940
+MS Analytics Class 2021: But then I created a frame inside. Again, this
+
+752
+01:51:11.850 --> 01:51:19.230
+MS Analytics Class 2021: Is this is what happens is you start with a blank canvas and instead of this island stuff on it.
+
+753
+01:51:20.250 --> 01:51:36.660
+MS Analytics Class 2021: You create a grid and you put stuff within a grid. And if you want. You mean even take a part of the grid and make another group inside of that. So if you're getting really fancy
+
+754
+01:51:37.800 --> 01:51:46.200
+MS Analytics Class 2021: You, your complicated gooey, you may want to not just have a simple for anything, but you may have one frame and then breaks within that
+
+755
+01:51:47.670 --> 01:52:10.260
+MS Analytics Class 2021: Your master for you. They only have four cells to it and then you might decide, one of the cells to actually put another frame which is supported by offering or something like that. Now this is it says frame that grid column 000 meaning that one down one row. Okay.
+
+756
+01:52:11.340 --> 01:52:12.180
+MS Analytics Class 2021: ROSIE. Rosie.
+
+757
+01:52:15.270 --> 01:52:21.990
+MS Analytics Class 2021: And this brain is going to go on mastery practice. Do we, when do we, when we set up right here.
+
+758
+01:52:23.670 --> 01:52:35.310
+MS Analytics Class 2021: Now the label. Notice what happens here is still the same. It's going on the mainframe that instead of, instead of going on GMO. I went and saw it on mainframe, the frame.
+
+759
+01:52:36.900 --> 01:53:01.470
+MS Analytics Class 2021: The text is green, and click degree. This is the label and the grid here is telling the program where to put the label, put it in the power of zero row on Facebook. So that was the left hand side column zero with your left hand column Rowan, you know, the next wrote down from zero
+
+760
+01:53:03.270 --> 01:53:16.110
+MS Analytics Class 2021: And then you have added, you can put around the x and the y axis I want 10 pixels in the exploration and 40 pixels in the water for that for that name. I want some space above
+
+761
+01:53:17.580 --> 01:53:26.940
+MS Analytics Class 2021: And below and to the left and right. That's what that does. Now usually, we have to play around with that so that you can spacing right now.
+
+762
+01:53:28.680 --> 01:53:29.430
+MS Analytics Class 2021: The next one is
+
+763
+01:53:31.260 --> 01:53:33.870
+MS Analytics Class 2021: Not here you label on a green
+
+764
+01:53:35.220 --> 01:53:39.060
+MS Analytics Class 2021: I use a person that that's what happened.
+
+765
+01:53:41.160 --> 01:53:48.210
+MS Analytics Class 2021: And what's going to happen is, Eric. I'm so the bottom of the changes to him and lowers the user. Yeah.
+
+766
+01:53:50.190 --> 01:53:57.780
+MS Analytics Class 2021: And then the commands itself that free will, that's pointing to the function. Read, write down in the press, how
+
+767
+01:53:59.490 --> 01:54:09.720
+MS Analytics Class 2021: And then, just like with a label you can position where you want to go. So it says position is called one that's the right hand excellent over
+
+768
+01:54:11.310 --> 01:54:13.680
+MS Analytics Class 2021: And Rwanda Saint rose label.
+
+769
+01:54:15.180 --> 01:54:21.840
+MS Analytics Class 2021: Say man came for x and y. Okay, so
+
+770
+01:54:24.690 --> 01:54:29.340
+MS Analytics Class 2021: There is so you can see many mess around the label here.
+
+771
+01:54:30.870 --> 01:54:46.800
+MS Analytics Class 2021: There is the 20th a wide direction and then the button whitewash is approximately 20 in the y direction up and then on the exploration on the inside and you can change those numbers to move these spots around anywhere you want.
+
+772
+01:54:48.210 --> 01:55:06.060
+MS Analytics Class 2021: You can basically put the label and but anywhere you want on the canvas based by deciding what column and row you want to use. And this is where we're imagining a frame that has one row two columns that said
+
+773
+01:55:08.670 --> 01:55:09.390
+MS Analytics Class 2021: Okay.
+
+774
+01:55:11.490 --> 01:55:19.290
+MS Analytics Class 2021: We kill it all. Now let's go to yes one car. It is. See what happens there.
+
+775
+01:55:23.400 --> 01:55:24.840
+MS Analytics Class 2021: One see right here.
+
+776
+01:55:26.250 --> 01:55:29.610
+MS Analytics Class 2021: And boom, there we go. And we're going to make the spear.
+
+777
+01:55:32.250 --> 01:55:44.550
+MS Analytics Class 2021: OK, notice we're doing something a little different here. Notice the import. I gotta do him more here and more to tinker, tinker, message box.
+
+778
+01:55:45.540 --> 01:55:59.760
+MS Analytics Class 2021: So there is a class within dangerous danger that has the message boxes and we're going to end more to have one ball show info and another one called show warning.
+
+779
+01:56:00.540 --> 01:56:19.830
+MS Analytics Class 2021: So these are your message boxes that are available to anybody is making a gooey. And what happens is you can have your Bible triggered open a message box. It's like a pop and then you can put information or other features inside that pop. So let's see what happens here.
+
+780
+01:56:22.560 --> 01:56:25.650
+MS Analytics Class 2021: First, I'm going to reset the current
+
+781
+01:56:27.000 --> 01:56:30.690
+MS Analytics Class 2021: Restart because it still has information from the other program.
+
+782
+01:56:31.890 --> 01:56:34.110
+MS Analytics Class 2021: Running. There we go.
+
+783
+01:56:36.270 --> 01:56:40.080
+MS Analytics Class 2021: All right. Well, let's see.
+
+784
+01:56:41.250 --> 01:56:59.070
+MS Analytics Class 2021: See if we can figure out what's going on here. So, so far today is pretty much the same. Notice that we're using the same grid framework we're using the same column and row. So all of this with a label and the button or the same
+
+785
+01:57:00.720 --> 01:57:04.980
+MS Analytics Class 2021: And then I have something funny going on down here.
+
+786
+01:57:08.370 --> 01:57:18.240
+MS Analytics Class 2021: But what's happening is it's looking at the grid over and over again to see if anything's changed for child in the mainframe.
+
+787
+01:57:20.190 --> 01:57:29.580
+MS Analytics Class 2021: So it's actually sitting here going through this loop looking to say that they press the button. The button press yet. No. Okay, so again,
+
+788
+01:57:31.500 --> 01:57:32.070
+MS Analytics Class 2021: And
+
+789
+01:57:34.440 --> 01:57:37.140
+MS Analytics Class 2021: Then, this has something called the green button.
+
+790
+01:57:38.700 --> 01:57:41.070
+MS Analytics Class 2021: The green button is
+
+791
+01:57:42.900 --> 01:57:43.770
+MS Analytics Class 2021: Shane.
+
+792
+01:57:44.910 --> 01:57:46.170
+MS Analytics Class 2021: Right up here.
+
+793
+01:57:47.400 --> 01:57:52.620
+MS Analytics Class 2021: This is the green button right there. The lead label you read the Bible and agreed upon.
+
+794
+01:57:54.420 --> 01:57:58.740
+MS Analytics Class 2021: And so it's the mainframe is sitting there watching that.
+
+795
+01:58:01.440 --> 01:58:06.810
+MS Analytics Class 2021: And if in bed by the suppressed, it goes off to the assumption for free.
+
+796
+01:58:08.250 --> 01:58:25.920
+MS Analytics Class 2021: And it looks at that variable called VR it be yours friend. It just prints pop up here. If it's it's going to put a warning, Baba. If it's window is going to put up a another wi n window.
+
+797
+01:58:27.150 --> 01:58:32.010
+MS Analytics Class 2021: So let's see. Let's see. So right now this program to throw up a window.
+
+798
+01:58:33.900 --> 01:58:41.610
+MS Analytics Class 2021: You'll notice here, it says rude version window. So let's see what happens. I'm reading this run
+
+799
+01:58:46.260 --> 01:58:50.610
+MS Analytics Class 2021: Oh, it doesn't like that cursor. And so I've got to change that.
+
+800
+01:58:56.520 --> 01:58:58.590
+MS Analytics Class 2021: lane change that the hand to
+
+801
+01:59:01.080 --> 01:59:02.700
+MS Analytics Class 2021: The right again.
+
+802
+01:59:05.400 --> 01:59:06.300
+Right.
+
+803
+01:59:12.300 --> 01:59:14.910
+MS Analytics Class 2021: There, I think this is it right here.
+
+804
+01:59:17.190 --> 01:59:20.370
+MS Analytics Class 2021: And then I hit greeting. Yeah, see the box.
+
+805
+01:59:21.450 --> 01:59:29.970
+MS Analytics Class 2021: So now I agree, I get a pop up and so printing out the greeting on the right hand side, I get a bottom of the screen.
+
+806
+01:59:31.590 --> 01:59:44.010
+MS Analytics Class 2021: Of course, if you're running this movie by itself and not inside the spider. This is what you want to do, because the person is running people is not going to see the output window.
+
+807
+01:59:44.850 --> 01:59:59.160
+MS Analytics Class 2021: They will see a pop up on the screen. Another way to do this is that actually right inside the going like somewhere in here, right. The word howdy, but I wanted to show you this is a real easy thing to do.
+
+808
+02:00:00.570 --> 02:00:03.060
+MS Analytics Class 2021: And various new
+
+809
+02:00:06.690 --> 02:00:07.200
+MS Analytics Class 2021: Okay.
+
+810
+02:00:10.260 --> 02:00:11.130
+All right.
+
+811
+02:00:12.690 --> 02:00:23.430
+MS Analytics Class 2021: Let's take a 10 minute break. And when we do your that can this program into the week one area. So if you haven't run these
+
+812
+02:00:24.030 --> 02:00:36.960
+MS Analytics Class 2021: We can, you know, you can have these Bible and then we're going to get on to the more serious discussion about building a gooey that gets real nice soccer aces real
+
+813
+02:00:37.710 --> 02:00:48.570
+MS Analytics Class 2021: Exchange rates and things like that. Okay, so this is this is, it's easy to do the alley thing, but we can do way more than that because Python is on the Internet.
+
+814
+02:00:49.170 --> 02:00:59.880
+MS Analytics Class 2021: So by by can go out and grab the current price of IBM or the current exchange rate for basis and then calculate how many dollars, you should get for your
+
+815
+02:01:01.140 --> 02:01:02.460
+MS Analytics Class 2021: Your purchase.
+
+816
+02:01:03.600 --> 02:01:04.110
+Okay.
+
+817
+02:01:06.240 --> 02:01:08.670
+MS Analytics Class 2021: All right, see like a 01
+
+818
+02:01:10.920 --> 02:01:18.960
+MS Analytics Class 2021: And then they had the next line main URL base URL everything good so this URL is huge.
+
+819
+02:01:20.100 --> 02:01:29.520
+MS Analytics Class 2021: The base URL doesn't change. But the other part like the from currency, the tomb currency and the API key, they can all change right
+
+820
+02:01:31.740 --> 02:01:44.250
+MS Analytics Class 2021: So, and then basically the next next option says request object equals request yet main URL that function goes out to the internet.
+
+821
+02:01:45.030 --> 02:01:55.650
+MS Analytics Class 2021: So when you run this, you need to be connected to the Internet, right. And what's going to happen here is this function should send the signal out on the internet to
+
+822
+02:01:56.160 --> 02:02:07.470
+MS Analytics Class 2021: The alpha advantage folks and says give me the exchange rate for pesos. In this case, it's actually program to get into the exchange rate for again Japanese
+
+823
+02:02:08.820 --> 02:02:18.240
+MS Analytics Class 2021: And then it says resolved people that result is going to be the JSON object, the JSON object gets returned. Notice it says, Doc, Jason.
+
+824
+02:02:18.900 --> 02:02:30.510
+MS Analytics Class 2021: And then the exchange rate of the JSON object is like a dictionary. So in order to pull out the exchange rate, you have the result. And then you index it.
+
+825
+02:02:31.410 --> 02:02:48.000
+MS Analytics Class 2021: By two will call keys dictionary keys that pretty JSON object because it's a dictionary here and then return floating point exchange rate and the full JSON string the result.
+
+826
+02:02:49.350 --> 02:03:02.370
+MS Analytics Class 2021: The key of the API key here is now it turns out that if you're looking for information about the end. You don't need to just put in the word demo. So this is great for testing your code, right.
+
+827
+02:03:03.420 --> 02:03:08.580
+MS Analytics Class 2021: And then you then you've all that you can see right below you call the exchange that function.
+
+828
+02:03:09.240 --> 02:03:24.600
+MS Analytics Class 2021: And then it will after that it will return the result and print out the result there at the bottom. Now I'm going to try to run this, but this computer is not talking to the internet. We got a problem. Let's see what happens. So I couldn't run
+
+829
+02:03:26.970 --> 02:03:33.630
+MS Analytics Class 2021: It works. We know right over here on the right hand side. So this computer is
+
+830
+02:03:35.010 --> 02:03:40.260
+MS Analytics Class 2021: Good. Let me blow this up so you can see it on. Well, what the heck. Why, why they're doing
+
+831
+02:03:42.930 --> 02:03:45.990
+MS Analytics Class 2021: Okay, I don't know if you can see that right here.
+
+832
+02:03:47.370 --> 02:03:50.730
+MS Analytics Class 2021: But it says real time currency exchange rate.
+
+833
+02:03:51.960 --> 02:04:02.340
+MS Analytics Class 2021: For us and our the Japanese yen is 103.76776 right let me run again.
+
+834
+02:04:05.580 --> 02:04:08.010
+MS Analytics Class 2021: What are three by 771
+
+835
+02:04:09.090 --> 02:04:10.560
+MS Analytics Class 2021: So this is real time.
+
+836
+02:04:12.120 --> 02:04:22.680
+MS Analytics Class 2021: Scoring out of the Internet and grabbing the real time rate for currency exchange between the dollar in the end. Now, if you have a proper API key.
+
+837
+02:04:23.280 --> 02:04:31.950
+MS Analytics Class 2021: And I'll show you where you can find one. You can use my key or you can go to the website. It's around key.
+
+838
+02:04:32.430 --> 02:04:51.180
+MS Analytics Class 2021: It's your choice. If you go to alpha advantage that CEO, there's some information in here that tell you how to get your own key. But if you are fine with it. I'm fine with it. You can use likely Mikey is set up to be good till the end of the year.
+
+839
+02:04:52.410 --> 02:05:00.030
+MS Analytics Class 2021: And maybe beyond, who knows, I don't know, they kind of like, am I don't know why. So we haven't got that far yet.
+
+840
+02:05:00.570 --> 02:05:23.490
+MS Analytics Class 2021: So that function is what's going on. So let's uh, let's go to example free here. And if you go down into example three you'll see my tea right here it says API key that guy line 52. That's my tip that's good for anything. Let's copy that will
+
+841
+02:05:27.540 --> 02:05:37.620
+MS Analytics Class 2021: Let's copy that bring over to that other example API key copy, go back to example to and right after demo.
+
+842
+02:05:39.060 --> 02:05:40.260
+MS Analytics Class 2021: Let's put there.
+
+843
+02:05:42.210 --> 02:05:44.400
+MS Analytics Class 2021: And let's run that
+
+844
+02:05:45.840 --> 02:05:47.250
+MS Analytics Class 2021: Make sure it works.
+
+845
+02:05:49.050 --> 02:06:00.900
+MS Analytics Class 2021: Yeah, it got it. The end is a little different. Darren 3.768. Now let's go instead of going JP wide. So the MX and
+
+846
+02:06:06.360 --> 02:06:20.430
+MS Analytics Class 2021: They saw my face. Oh, that's our mo. What is the pace of doing today. Let's run it, see if we get reformation Mexican pesos 19.62 okay
+
+847
+02:06:23.160 --> 02:06:26.490
+MS Analytics Class 2021: That's good for Mexico language for the tourists. Okay.
+
+848
+02:06:27.690 --> 02:06:36.870
+MS Analytics Class 2021: At one point, a few months ago, the face. It was like $1. But it was worth about 24 pixels and now they have recovered.
+
+849
+02:06:37.740 --> 02:06:44.580
+MS Analytics Class 2021: Most of that damage that was, that was the damage that happen within the virus research amounts and so forth and so
+
+850
+02:06:45.450 --> 02:07:08.160
+MS Analytics Class 2021: Now their economy is is coming back and they're doing well, they're kind of in Mexico is driven primarily by the oil prices, by the way. And so, as all prices go up the pace of stabilizes so prices going down basis not so good. So right now, $1 is worth 19.62 bases.
+
+851
+02:07:09.990 --> 02:07:22.260
+MS Analytics Class 2021: All right, see how that works. If you have another currency, you'd like to use besides facials instead of an accent What is she was a Europe. So the, er, you are you are you are is that the euro.
+
+852
+02:07:23.460 --> 02:07:24.510
+MS Analytics Class 2021: Let's, let's run
+
+853
+02:07:24.960 --> 02:07:27.900
+Jim Clark: His car. Yeah.
+
+854
+02:07:28.560 --> 02:07:32.010
+MS Analytics Class 2021: So $1 is point eight euros.
+
+855
+02:07:33.390 --> 02:07:35.790
+MS Analytics Class 2021: Not so good at ca
+
+856
+02:07:39.660 --> 02:07:48.480
+MS Analytics Class 2021: Is guess what our favorite neighbor Canada that $1 us is 1.27 Canadian
+
+857
+02:07:49.740 --> 02:07:52.020
+MS Analytics Class 2021: Yeah okay you drag that
+
+858
+02:07:53.160 --> 02:07:59.880
+MS Analytics Class 2021: So let's put this in the app. Let's put this in a gooey and in the gooey, really, we're gonna let you set up your
+
+859
+02:08:01.110 --> 02:08:03.360
+MS Analytics Class 2021: Your currency and all that sort of thing.
+
+860
+02:08:04.740 --> 02:08:07.890
+MS Analytics Class 2021: Alright, so let's go to example three right here.
+
+861
+02:08:09.060 --> 02:08:13.440
+MS Analytics Class 2021: You can open up on me exploded, a little bit.
+
+862
+02:08:15.420 --> 02:08:17.280
+MS Analytics Class 2021: This is the example for a
+
+863
+02:08:22.650 --> 02:08:23.730
+MS Analytics Class 2021: 24 hour
+
+864
+02:08:29.820 --> 02:08:45.870
+MS Analytics Class 2021: Okay, so let's see what we got here. This is a bigger example, the title of the EU is currency exchange. And when you call the doing from your code, you're going to pass in the master canvas for UI when
+
+865
+02:08:46.890 --> 02:08:53.580
+MS Analytics Class 2021: You're going to pass in the from currency string like MX like USD dollars.
+
+866
+02:08:54.690 --> 02:09:13.200
+MS Analytics Class 2021: And then the two currency, like in that's interfaces and your API here at the bottom at the end. Okay. And then, of course, it creates that now here's the frame is going up. And this is going to be the more complicated. It's the most complicated example.
+
+867
+02:09:14.550 --> 02:09:16.350
+MS Analytics Class 2021: Because you have several different
+
+868
+02:09:18.090 --> 02:09:25.500
+MS Analytics Class 2021: See, the thing that says cursor can make that happen to if you're on a Mac pad is fine, but when I was saying.
+
+869
+02:09:31.650 --> 02:09:34.770
+MS Analytics Class 2021: And you can see the API key is down here.
+
+870
+02:09:41.670 --> 02:09:47.970
+MS Analytics Class 2021: The currency exchange that function we're just looking at is right here currency exchange rate.
+
+871
+02:09:49.650 --> 02:09:52.110
+MS Analytics Class 2021: And then there's one called show conversion
+
+872
+02:09:53.670 --> 02:10:01.080
+MS Analytics Class 2021: And here's a there's a simple program that calls it, it says instantiate doing Canvas using TK
+
+873
+02:10:02.550 --> 02:10:06.810
+MS Analytics Class 2021: Now, right now it's set up to use a VPN $2
+
+874
+02:10:08.280 --> 02:10:10.800
+MS Analytics Class 2021: And it's using the API key demo.
+
+875
+02:10:13.980 --> 02:10:16.500
+MS Analytics Class 2021: Let's run this and see what happens.
+
+876
+02:10:19.320 --> 02:10:19.950
+MS Analytics Class 2021: So,
+
+877
+02:10:23.850 --> 02:10:24.360
+MS Analytics Class 2021: Okay.
+
+878
+02:10:25.830 --> 02:10:26.850
+MS Analytics Class 2021: So here's the good
+
+879
+02:10:29.040 --> 02:10:44.100
+MS Analytics Class 2021: So in this case, you can put in. How many yen. Do you want to spend in the little box of there and then it should come back, you will that's worth $1 so let's put in 100 yen like that.
+
+880
+02:10:46.920 --> 02:10:49.740
+MS Analytics Class 2021: Japanese and then click on convert
+
+881
+02:10:51.270 --> 02:11:02.250
+MS Analytics Class 2021: Oh, papa point nine $6 one hand right now is approximately one penny. So that's what I'm saying here.
+
+882
+02:11:03.510 --> 02:11:04.170
+MS Analytics Class 2021: Right.
+
+883
+02:11:06.210 --> 02:11:07.890
+MS Analytics Class 2021: Okay, so that's
+
+884
+02:11:09.090 --> 02:11:10.980
+MS Analytics Class 2021: That's one example three is doing.
+
+885
+02:11:12.630 --> 02:11:13.350
+MS Analytics Class 2021: Now,
+
+886
+02:11:14.550 --> 02:11:16.560
+MS Analytics Class 2021: Let's pull this part. Well, I mean,
+
+887
+02:11:17.640 --> 02:11:21.570
+MS Analytics Class 2021: I shouldn't kill them. Okay, here is the here's the gooey.
+
+888
+02:11:23.250 --> 02:11:29.430
+MS Analytics Class 2021: And so I'm going to put this someplace where we can see it. You can see how it's being set up right
+
+889
+02:11:36.390 --> 02:11:40.380
+MS Analytics Class 2021: So the name of this movie is called currency exchange.
+
+890
+02:11:42.420 --> 02:11:55.320
+MS Analytics Class 2021: There is one row two rows three rows. See that. So we set the frame up to have three rows bank BAG. BAG. Now you're going to do a good. What you want to do is get a napkin.
+
+891
+02:11:56.130 --> 02:12:06.960
+MS Analytics Class 2021: And draw a rectangle or something like that. And then all that rectangle, put the characteristics that you want to have in the gooey. Now, this would be things like
+
+892
+02:12:07.470 --> 02:12:16.980
+MS Analytics Class 2021: Things that you want the person to enter this space where you get free, the number of yen. So I have a box there. And so for that, it's accepting the number of the end
+
+893
+02:12:18.330 --> 02:12:34.200
+MS Analytics Class 2021: And I have an area where I'm going to display the dollars that are being calculated that's going to be good. And then the bottom that actually triggers the conversion right three rows and it looks like two or three columns.
+
+894
+02:12:35.730 --> 02:12:40.950
+MS Analytics Class 2021: Let's see how this is actually set up in the code. So looking at the code.
+
+895
+02:12:44.490 --> 02:12:47.610
+MS Analytics Class 2021: You can see that is quite a bit larger. Right.
+
+896
+02:12:48.930 --> 02:12:49.770
+MS Analytics Class 2021: However,
+
+897
+02:12:52.020 --> 02:13:09.240
+MS Analytics Class 2021: No support here should look very familiar by now we just went through three different examples of this. So should be like yeah okay file currency exchange. Yeah, that's going to go a little side on the top of the, of the, the, the going
+
+898
+02:13:10.320 --> 02:13:17.820
+MS Analytics Class 2021: From currency. I created my own internal copy of the currency, the currency and the API p
+
+899
+02:13:18.870 --> 02:13:33.330
+MS Analytics Class 2021: S me in passing, when you call them going, but different people will call the UI and use different currencies or different API's. So you have to capture that in it. And that's why you have a cell phone operator coming in right here.
+
+900
+02:13:34.800 --> 02:13:36.030
+MS Analytics Class 2021: Creative brain.
+
+901
+02:13:37.710 --> 02:13:49.860
+MS Analytics Class 2021: So we just instantiate the brain and we're going to put a little bit boundary around three pixels in the S S direction and 12 pixels in the y direction.
+
+902
+02:13:50.940 --> 02:14:02.790
+MS Analytics Class 2021: That's what you're seeing it. So, otherwise it will try to put stuff right up to the boundary of the gooey and it won't look good. So you want a little bit of bedding.
+
+903
+02:14:04.710 --> 02:14:13.080
+MS Analytics Class 2021: And then this is the grid 00 sticky north west, east, south this controls.
+
+904
+02:14:14.490 --> 02:14:18.390
+MS Analytics Class 2021: The order in which the objects are being put in the frame.
+
+905
+02:14:19.590 --> 02:14:36.150
+MS Analytics Class 2021: North be stop West that'll be the first W first position in the brain upper left hand corner. And then the last position will be east, south. So if you look at the box.
+
+906
+02:14:40.530 --> 02:14:42.060
+MS Analytics Class 2021: I guess we all grow Gordon.
+
+907
+02:14:43.260 --> 02:14:43.650
+Okay.
+
+908
+02:14:45.540 --> 02:14:54.060
+MS Analytics Class 2021: If you think of the box, the upper left hand corner, which is basically northwest and the bottom right hand corner is basically selfies and
+
+909
+02:14:56.820 --> 02:15:03.630
+MS Analytics Class 2021: Then you say over the car figure have a wage, it's a standard way to one.
+
+910
+02:15:06.210 --> 02:15:09.420
+MS Analytics Class 2021: The from exchange rate is a string variable.
+
+911
+02:15:11.820 --> 02:15:17.970
+MS Analytics Class 2021: Where's this coming from. It's coming from the variable FS from and
+
+912
+02:15:19.680 --> 02:15:21.960
+MS Analytics Class 2021: Ethics FX fun was that string variable.
+
+913
+02:15:23.040 --> 02:15:35.280
+MS Analytics Class 2021: So this is the open box. Remember the open box where you actually not not the open boxes is the yeah this is the, the amount of yen.
+
+914
+02:15:36.060 --> 02:15:48.570
+MS Analytics Class 2021: That's that's coming in there. And so it's coming in as a strength. So you'd like 100. And the reason it doesn't come in as the number 100 comes in as a straight 100
+
+915
+02:15:50.370 --> 02:15:52.860
+MS Analytics Class 2021: So that's the end from we're coming in.
+
+916
+02:15:54.180 --> 02:15:58.800
+MS Analytics Class 2021: From the entry and this is Australia where it's located
+
+917
+02:16:00.060 --> 02:16:02.040
+MS Analytics Class 2021: How to row one.
+
+918
+02:16:04.020 --> 02:16:05.280
+MS Analytics Class 2021: Okay, so
+
+919
+02:16:07.080 --> 02:16:12.960
+MS Analytics Class 2021: Called to be here and then this is row one road to recovery.
+
+920
+02:16:22.650 --> 02:16:36.630
+MS Analytics Class 2021: So you get an idea what he sees our best work with them this CD business is something that's always confuses me a little bit. It's basically describing. Okay, you're going to, you're going to go on a column to Roku
+
+921
+02:16:37.800 --> 02:16:48.180
+MS Analytics Class 2021: There's box there where you want to go in that box west, east meaning Middle. Middle. The middle one of the box.
+
+922
+02:16:49.620 --> 02:16:52.590
+MS Analytics Class 2021: Status sticky equals west, east me in the middle line.
+
+923
+02:16:55.260 --> 02:17:00.360
+MS Analytics Class 2021: Here's one column three row three. This is the Convert button.
+
+924
+02:17:01.980 --> 02:17:09.000
+MS Analytics Class 2021: And we want this to be West, which means we wanted to be left left justified know
+
+925
+02:17:10.860 --> 02:17:19.260
+MS Analytics Class 2021: They could use left brain justified and all that sort of thing. But somebody thought it would be better to use the site and compass.
+
+926
+02:17:21.270 --> 02:17:21.750
+And
+
+927
+02:17:23.490 --> 02:17:35.850
+MS Analytics Class 2021: Then, one of the things that is a little awkward here is we have the word the yen actually programmed into the UI itself. So we probably should change that.
+
+928
+02:17:37.050 --> 02:17:43.380
+MS Analytics Class 2021: So that they can get labeled properly. So when you run this program.
+
+929
+02:17:44.400 --> 02:17:52.980
+MS Analytics Class 2021: You'll see the GN comes up their dollars. Thumbs up here. These are hardwired into the into the going
+
+930
+02:17:56.010 --> 02:17:56.550
+MS Analytics Class 2021: Okay.
+
+931
+02:18:06.690 --> 02:18:10.260
+MS Analytics Class 2021: Okay, so that's that's example three
+
+932
+02:18:11.430 --> 02:18:13.170
+MS Analytics Class 2021: Questions about example three
+
+933
+02:18:18.180 --> 02:18:19.650
+MS Analytics Class 2021: Scene. We were okay
+
+934
+02:18:20.430 --> 02:18:21.120
+Swanson J, Charles Richard: We're okay.
+
+935
+02:18:35.640 --> 02:18:38.790
+MS Analytics Class 2021: Okay, good blow this up.
+
+936
+02:18:45.330 --> 02:18:46.200
+MS Analytics Class 2021: This is
+
+937
+02:18:48.690 --> 02:18:49.740
+MS Analytics Class 2021: Let's see, what did we go
+
+938
+02:18:53.010 --> 02:18:53.940
+MS Analytics Class 2021: Oh, okay.
+
+939
+02:19:20.880 --> 02:19:22.020
+MS Analytics Class 2021: Different at all.
+
+940
+02:19:44.550 --> 02:20:04.320
+MS Analytics Class 2021: Okay, so an example for is, is you have you have the information of the conversion coming right up here inside of the gooey and also you have the there's a pipe in the upper window, you have a full description of the same information.
+
+941
+02:20:07.410 --> 02:20:07.950
+MS Analytics Class 2021: Okay.
+
+942
+02:20:43.980 --> 02:20:44.400
+MS Analytics Class 2021: Is
+
+943
+02:20:45.960 --> 02:21:00.660
+MS Analytics Class 2021: Just go back and look at the book decide whether you want to purchase a drone. If you do by go ahead perky get online. You can you can find the store per day should be. He is the GI
+
+944
+02:21:03.840 --> 02:21:06.990
+MS Analytics Class 2021: But this is the part that I want to mention number five.
+
+945
+02:21:08.100 --> 02:21:10.620
+MS Analytics Class 2021: Number five. That's the part of own talk about
+
+946
+02:21:13.020 --> 02:21:16.710
+MS Analytics Class 2021: Using the the TK code.
+
+947
+02:21:17.970 --> 02:21:25.710
+MS Analytics Class 2021: That we just talked about, that would be example three and four develop your own UI or reporting real time sock race.
+
+948
+02:21:27.570 --> 02:21:33.090
+MS Analytics Class 2021: The UI should allow the user to enter the symbol of the stock, such as IBM
+
+949
+02:21:35.970 --> 02:21:39.750
+MS Analytics Class 2021: And then the Bible with the label price instead of good convert
+
+950
+02:21:43.170 --> 02:21:52.020
+MS Analytics Class 2021: You should be able to report the current asking price and start writing the current price in the gooey when the bible displays.
+
+951
+02:21:53.760 --> 02:21:57.990
+MS Analytics Class 2021: Look at the documentation to improve the look of you're doing once you get it running
+
+952
+02:22:02.340 --> 02:22:15.000
+MS Analytics Class 2021: It says here know you and use it should say, you can use the API key demo for IBM, but any other stock will require your own key or Mikey
+
+953
+02:22:16.170 --> 02:22:19.500
+MS Analytics Class 2021: Feel free to use like a. You can also get your own if you want
+
+954
+02:22:22.230 --> 02:22:24.210
+MS Analytics Class 2021: So let's go, let's go back.
+
+955
+02:22:26.700 --> 02:22:27.870
+MS Analytics Class 2021: And
+
+956
+02:22:29.340 --> 02:22:30.810
+MS Analytics Class 2021: Take a look at
+
+957
+02:22:33.450 --> 02:22:34.050
+MS Analytics Class 2021: Exactly.
+
+958
+02:23:10.170 --> 02:23:12.210
+MS Analytics Class 2021: Spiders, and like me you're being
+
+959
+02:23:14.190 --> 02:23:16.110
+MS Analytics Class 2021: Stuck on one street another
+
+960
+02:23:27.480 --> 02:23:39.660
+6 Aldin Dollens Laptop: So you might try maybe moving the application or window. You're trying to move like move it down and over. It's possible that the alignment of the two monitors isn't letting you do it.
+
+961
+02:23:40.830 --> 02:23:41.700
+6 Aldin Dollens Laptop: Something like that.
+
+962
+02:23:43.740 --> 02:23:44.160
+MS Analytics Class 2021: Like a
+
+963
+02:23:48.780 --> 02:24:01.830
+MS Analytics Class 2021: Mother. Oh, I see it says there's a scale change, you know, the monitor that you're seeing is a different scale. So what I'm going to do just shut it down, come over here and
+
+964
+02:24:04.920 --> 02:24:06.180
+MS Analytics Class 2021: Research Center.
+
+965
+02:24:08.910 --> 02:24:16.800
+MS Analytics Class 2021: Whatever. Yeah, so the monster. You're looking at the race. Lot of larger than a little bitty monster on the left.
+
+966
+02:24:28.770 --> 02:24:29.580
+MS Analytics Class 2021: Please.
+
+967
+02:24:44.220 --> 02:24:45.270
+MS Analytics Class 2021: don't usually do this.
+
+968
+02:25:13.980 --> 02:25:26.520
+MS Analytics Class 2021: Example for and what I would do first of all is I go File, Save a copy. Yes. And we're going to call this week one.
+
+969
+02:25:29.880 --> 02:25:31.860
+MS Analytics Class 2021: You know, you got anything you want. I
+
+970
+02:25:34.050 --> 02:25:38.550
+MS Analytics Class 2021: I suppose. Maybe we should thought soccer ice.
+
+971
+02:25:40.320 --> 02:25:41.340
+MS Analytics Class 2021: That way.
+
+972
+02:25:43.200 --> 02:25:47.940
+MS Analytics Class 2021: It'll ring a bell about what what this is supposed to be doing when you agree.
+
+973
+02:25:54.900 --> 02:25:55.860
+MS Analytics Class 2021: Description
+
+974
+02:26:00.570 --> 02:26:01.200
+MS Analytics Class 2021: Yeah.
+
+975
+02:26:07.080 --> 02:26:08.100
+MS Analytics Class 2021: Real time
+
+976
+02:26:18.840 --> 02:26:23.760
+MS Analytics Class 2021: Real Time currency exchange rate. Let's change the
+
+977
+02:26:25.230 --> 02:26:27.240
+MS Analytics Class 2021: Name of the song option to
+
+978
+02:26:28.620 --> 02:26:30.780
+MS Analytics Class 2021: Real Time soccer's
+
+979
+02:26:41.010 --> 02:26:42.210
+MS Analytics Class 2021: In this case,
+
+980
+02:26:44.760 --> 02:26:46.140
+MS Analytics Class 2021: The only thing he really
+
+981
+02:26:47.880 --> 02:26:51.540
+MS Analytics Class 2021: Is the stock so
+
+982
+02:26:53.370 --> 02:27:05.070
+MS Analytics Class 2021: That's gonna be a freeloader usually it's a three letter acronym like I am for the stock big for bitcoin, it's also in the exchange.
+
+983
+02:27:07.530 --> 02:27:26.430
+MS Analytics Class 2021: Now here's the problem, the URLs going to need to be changed the base URL apparently says function equals currency exchange rate. Hmm. We are going to have to change this part of the code. What should we do well.
+
+984
+02:27:28.170 --> 02:27:31.320
+MS Analytics Class 2021: Let's go to a browser.
+
+985
+02:27:34.200 --> 02:27:35.190
+MS Analytics Class 2021: And
+
+986
+02:27:40.830 --> 02:27:42.300
+MS Analytics Class 2021: And let's go to
+
+987
+02:27:43.860 --> 02:27:45.630
+MS Analytics Class 2021: The website.
+
+988
+02:27:47.730 --> 02:27:49.530
+MS Analytics Class 2021: So that would be
+
+989
+02:27:53.730 --> 02:27:56.430
+MS Analytics Class 2021: What, what is it called again.
+
+990
+02:27:58.680 --> 02:28:02.310
+MS Analytics Class 2021: It's called the advantage that co right there.
+
+991
+02:28:03.330 --> 02:28:05.070
+MS Analytics Class 2021: So I'm just going to copy that part of
+
+992
+02:28:08.070 --> 02:28:09.240
+MS Analytics Class 2021: The part of the deal.
+
+993
+02:28:11.160 --> 02:28:12.060
+MS Analytics Class 2021: With that
+
+994
+02:28:14.790 --> 02:28:26.040
+MS Analytics Class 2021: Return. So here's the company. We've been we've been working with. It's called alpha advantage you see down here at the bottom right, it says, get your free API key today.
+
+995
+02:28:28.230 --> 02:28:30.540
+MS Analytics Class 2021: You shouldn't be afraid of anything says free
+
+996
+02:28:32.160 --> 02:28:36.540
+MS Analytics Class 2021: It's, it's free for a limited use, but if you get
+
+997
+02:28:38.010 --> 02:28:48.030
+MS Analytics Class 2021: Get to use it on a practical basis, you have to pay money okay this is a business. We have a game. We don't need to get that. But you can get one if you want
+
+998
+02:28:48.480 --> 02:28:58.410
+MS Analytics Class 2021: To see what happens. And these are the sort of things that you can use. You can get stock prices AP eyes, you can get comfortable currency information.
+
+999
+02:28:59.670 --> 02:29:05.850
+MS Analytics Class 2021: goal conversion for currency rates and things like that documentation is up here, right.
+
+1000
+02:29:06.870 --> 02:29:09.510
+MS Analytics Class 2021: Spreadsheets jobs.
+
+1001
+02:29:11.850 --> 02:29:12.780
+MS Analytics Class 2021: Jobs.
+
+1002
+02:29:16.110 --> 02:29:17.910
+MS Analytics Class 2021: Software engineer.
+
+1003
+02:29:19.890 --> 02:29:20.880
+MS Analytics Class 2021: Developer
+
+1004
+02:29:23.190 --> 02:29:25.710
+MS Analytics Class 2021: Were good
+
+1005
+02:29:43.980 --> 02:29:44.220
+MS Analytics Class 2021: What
+
+1006
+02:29:45.210 --> 02:29:46.260
+6 Aldin Dollens Laptop: Or telecommute
+
+1007
+02:29:46.740 --> 02:29:47.370
+Yeah.
+
+1008
+02:29:48.420 --> 02:29:49.590
+6 Aldin Dollens Laptop: I like Boston
+
+1009
+02:29:51.210 --> 02:29:51.360
+MS Analytics Class 2021: You
+
+1010
+02:29:52.650 --> 02:29:56.310
+MS Analytics Class 2021: Know the word snow. That's one of the documentation.
+
+1011
+02:29:58.230 --> 02:30:00.720
+MS Analytics Class 2021: This is where we're going to find the information we need.
+
+1012
+02:30:02.160 --> 02:30:06.390
+MS Analytics Class 2021: If you look at CES stock time series.
+
+1013
+02:30:08.040 --> 02:30:16.710
+MS Analytics Class 2021: Fundamental data, you can get you can get information on the company, things like the balance sheet, cash flow. See all that information together.
+
+1014
+02:30:17.430 --> 02:30:40.290
+MS Analytics Class 2021: A lot. There are a lot of companies basically feel this and they sell a gooey to provide investors information right there's nothing stopping you from doing the same thing. He wanted to create a gooey that allow investors to investigate a company and what they wanted. So that I shot.
+
+1015
+02:30:41.490 --> 02:30:44.640
+MS Analytics Class 2021: Here you go. You got the information you can use to build that going
+
+1016
+02:30:48.210 --> 02:30:48.750
+MS Analytics Class 2021: Now,
+
+1017
+02:30:50.400 --> 02:30:52.260
+MS Analytics Class 2021: cryptocurrencies who
+
+1018
+02:30:55.080 --> 02:31:01.170
+MS Analytics Class 2021: The security of your own a crypto currencies as well. If you do it like to talk to you about that.
+
+1019
+02:31:04.800 --> 02:31:22.500
+MS Analytics Class 2021: Right. And here we have technical indicators, lots of technical indicators. So you're wanting to know the current Del Rey because right now the market is shut down but you know they have all sorts of. So here we go. Stock fundamental there.
+
+1020
+02:31:24.690 --> 02:31:40.320
+MS Analytics Class 2021: This is the these are the exchange rates. This is where we got the information on pesos and so forth. The exchange rates and we're getting. I think the intraday which is the instantaneous right now exchange rate.
+
+1021
+02:31:42.510 --> 02:31:53.940
+MS Analytics Class 2021: And but I want some stock information. So let's get the intraday stock. Now, this is, this will be the stock race right now. Yeah.
+
+1022
+02:31:55.080 --> 02:32:08.070
+MS Analytics Class 2021: On the market and you could get of course a daily or daily adjusted weekly, monthly, quarterly, and so forth. It's not as as high usage, which means a lot of people are using this particular fee.
+
+1023
+02:32:09.120 --> 02:32:18.780
+MS Analytics Class 2021: The daily adjusted they're using that P and so forth. So let's take a look at this little intraday the right here. You click on that.
+
+1024
+02:32:19.980 --> 02:32:26.850
+MS Analytics Class 2021: And here it gives us some informations about what we want to do. Whoops.
+
+1025
+02:32:31.050 --> 02:32:31.560
+MS Analytics Class 2021: Alright.
+
+1026
+02:32:33.960 --> 02:32:50.040
+MS Analytics Class 2021: The API this API returns the intraday time series of the equity specify covering extended trading hours 4am to 8pm eastern time in the US market.
+
+1027
+02:32:51.660 --> 02:33:05.340
+MS Analytics Class 2021: I suppose for other markets. Other stocks market to really wouldn't be different, but it's what it's doing here. Now, here are the required API parameters. Some of the required, and some of them are optional.
+
+1028
+02:33:06.690 --> 02:33:18.960
+MS Analytics Class 2021: So require time series of your choice in this case time series intraday. So remember we had currencies that base URL with the currency exchange rate.
+
+1029
+02:33:20.010 --> 02:33:23.790
+MS Analytics Class 2021: Replace that function equal time series intraday
+
+1030
+02:33:25.620 --> 02:33:27.600
+MS Analytics Class 2021: Also reward symbol.
+
+1031
+02:33:28.980 --> 02:33:32.190
+MS Analytics Class 2021: Such as symbol equals IBM
+
+1032
+02:33:33.690 --> 02:33:48.000
+MS Analytics Class 2021: Read what's required interval another parameter one minute by minute 15 minute. How often do you want to get this value you're getting the time series here.
+
+1033
+02:33:51.840 --> 02:33:52.380
+Oops.
+
+1034
+02:33:54.180 --> 02:34:03.060
+MS Analytics Class 2021: So you could get for example these price every one minute for today. If you wanted
+
+1035
+02:34:04.800 --> 02:34:08.670
+MS Analytics Class 2021: Optional as Justin true or false.
+
+1036
+02:34:11.100 --> 02:34:15.510
+MS Analytics Class 2021: This is adjusted by things like dividends.
+
+1037
+02:34:17.340 --> 02:34:23.340
+MS Analytics Class 2021: And so normally you would say false because you're going, you don't get the the
+
+1038
+02:34:24.660 --> 02:34:27.600
+MS Analytics Class 2021: Depot. By default, adjusting is true.
+
+1039
+02:34:29.940 --> 02:34:35.850
+MS Analytics Class 2021: Okay, so I will probably take adjusted Eagle false output size.
+
+1040
+02:34:37.500 --> 02:34:39.810
+MS Analytics Class 2021: Strange Scott back or four
+
+1041
+02:34:42.150 --> 02:34:50.040
+MS Analytics Class 2021: So you have to consider what up, what size you want data type Jason and CSV CSE
+
+1042
+02:34:51.360 --> 02:34:52.740
+MS Analytics Class 2021: Are both allow
+
+1043
+02:34:53.910 --> 02:34:56.880
+MS Analytics Class 2021: And then you have your API key now.
+
+1044
+02:34:58.050 --> 02:35:01.500
+MS Analytics Class 2021: Here are some examples you can see click for Jason
+
+1045
+02:35:05.010 --> 02:35:07.710
+MS Analytics Class 2021: So you can see what the URL should look like.
+
+1046
+02:35:09.810 --> 02:35:14.010
+MS Analytics Class 2021: The top URL is where IBM
+
+1047
+02:35:15.090 --> 02:35:22.770
+MS Analytics Class 2021: The interval is five minutes. And since this is IBM, you can use the demo is your API key.
+
+1048
+02:35:24.360 --> 02:35:25.380
+MS Analytics Class 2021: The next one.
+
+1049
+02:35:27.120 --> 02:35:27.810
+MS Analytics Class 2021: Is
+
+1050
+02:35:29.490 --> 02:35:48.720
+MS Analytics Class 2021: IBM again in five minutes output for API key demo. So I'm not sure what the differences in the output size for Cisco back, you know, that kind of thing. So you're going out to play with this a little bit to see what is being provided.
+
+1051
+02:35:50.460 --> 02:35:51.090
+MS Analytics Class 2021: And
+
+1052
+02:35:55.260 --> 02:36:01.980
+MS Analytics Class 2021: Now you can also get it for a day, which is extended history. I don't think you want that.
+
+1053
+02:36:04.770 --> 02:36:05.640
+MS Analytics Class 2021: Daily
+
+1054
+02:36:07.710 --> 02:36:09.330
+MS Analytics Class 2021: Time. Sure you daily
+
+1055
+02:36:12.090 --> 02:36:13.740
+MS Analytics Class 2021: This would be over a period of
+
+1056
+02:36:20.460 --> 02:36:21.870
+MS Analytics Class 2021: The CPI is
+
+1057
+02:36:23.220 --> 02:36:24.660
+MS Analytics Class 2021: The link time
+
+1058
+02:36:40.530 --> 02:36:48.900
+MS Analytics Class 2021: Okay, so I think your main challenge here from what I'm looking at is if you're going to use it today.
+
+1059
+02:36:50.010 --> 02:36:50.940
+MS Analytics Class 2021: Is trying to
+
+1060
+02:36:53.160 --> 02:36:55.530
+MS Analytics Class 2021: Find out what it is. If you want, you
+
+1061
+02:37:17.160 --> 02:37:27.690
+MS Analytics Class 2021: You have complete freedom in what you do and this is doing. For example, you might want to just report the High Noon price.
+
+1062
+02:37:28.050 --> 02:37:40.140
+MS Analytics Class 2021: Or you might want to report the maximum price during the day or the minimum price or the average price over a period of time, you have complete freedom in this assignment to do whatever you'd like.
+
+1063
+02:37:40.950 --> 02:37:48.660
+MS Analytics Class 2021: I think the easiest thing to do is probably to take one of these cases and look at what's actually return
+
+1064
+02:37:50.040 --> 02:37:54.330
+MS Analytics Class 2021: So if I click here, you can see what's being return
+
+1065
+02:37:56.910 --> 02:38:07.680
+MS Analytics Class 2021: So this is the open high low close races and violence for IBM January 15 looks like.
+
+1066
+02:38:09.270 --> 02:38:11.760
+MS Analytics Class 2021: And so it's not that's
+
+1067
+02:38:13.800 --> 02:38:25.470
+MS Analytics Class 2021: Not exactly current, but this is a demo where you can use your own API, it'll show you more. So this is, this is what's coming out when you use that one format.
+
+1068
+02:38:27.660 --> 02:38:28.830
+MS Analytics Class 2021: You might want to
+
+1069
+02:38:30.960 --> 02:38:31.680
+MS Analytics Class 2021: Get
+
+1070
+02:38:32.760 --> 02:38:33.150
+MS Analytics Class 2021: To
+
+1071
+02:38:34.890 --> 02:38:35.820
+MS Analytics Class 2021: Three o'clock.
+
+1072
+02:38:45.690 --> 02:38:47.730
+MS Analytics Class 2021: Let's see, what else is provided here.
+
+1073
+02:38:57.120 --> 02:38:57.810
+MS Analytics Class 2021: Okay.
+
+1074
+02:38:59.790 --> 02:39:00.540
+MS Analytics Class 2021: So,
+
+1075
+02:39:01.980 --> 02:39:14.700
+MS Analytics Class 2021: I really haven't studied this that closely, but see your, feel free to create an app that does whatever you like it. Okay, but report some characteristic of the stock value.
+
+1076
+02:39:15.990 --> 02:39:19.800
+MS Analytics Class 2021: For IBM or any other stock that you might put in
+
+1077
+02:39:21.840 --> 02:39:23.790
+MS Analytics Class 2021: Now once you figure this out.
+
+1078
+02:39:29.040 --> 02:39:40.800
+MS Analytics Class 2021: Then it's all just a matter of changing this base URL and the main URL to conform to what they're using back there and
+
+1079
+02:39:42.150 --> 02:39:44.190
+MS Analytics Class 2021: Here you're getting the result in Jason
+
+1080
+02:39:45.390 --> 02:39:47.370
+MS Analytics Class 2021: And you notice right here.
+
+1081
+02:39:49.200 --> 02:39:58.320
+MS Analytics Class 2021: The information. This is targeting the exchange rate. So if you look at the JSON string.
+
+1082
+02:39:59.580 --> 02:40:02.640
+MS Analytics Class 2021: Which is over, looking at here just earlier see
+
+1083
+02:40:09.690 --> 02:40:16.110
+MS Analytics Class 2021: This is Jason stream right here. So in a century, there was number five was the conversion rate.
+
+1084
+02:40:21.540 --> 02:40:22.770
+MS Analytics Class 2021: In this case,
+
+1085
+02:40:23.850 --> 02:40:25.410
+MS Analytics Class 2021: Number five is vine.
+
+1086
+02:40:28.740 --> 02:40:32.490
+MS Analytics Class 2021: And number one is open, high, low, close
+
+1087
+02:40:36.960 --> 02:40:43.980
+MS Analytics Class 2021: So this is every five minutes. So it's basically saying that between 735 and 745
+
+1088
+02:40:45.330 --> 02:40:51.930
+MS Analytics Class 2021: This is the statistics are that data, the high and low, the same
+
+1089
+02:40:53.250 --> 02:40:55.170
+MS Analytics Class 2021: Over five minutes didn't change that much.
+
+1090
+02:40:56.190 --> 02:41:00.810
+MS Analytics Class 2021: And then they close the same and they all say buy 300
+
+1091
+02:41:02.850 --> 02:41:03.510
+MS Analytics Class 2021: So,
+
+1092
+02:41:06.780 --> 02:41:11.970
+MS Analytics Class 2021: I don't know how many of us trade sock that I would probably report the volume.
+
+1093
+02:41:13.290 --> 02:41:14.670
+MS Analytics Class 2021: And then
+
+1094
+02:41:16.170 --> 02:41:17.730
+MS Analytics Class 2021: The clothes.
+
+1095
+02:41:20.880 --> 02:41:21.600
+MS Analytics Class 2021: Price.
+
+1096
+02:41:23.160 --> 02:41:37.650
+MS Analytics Class 2021: For that for the time interval. And you may want agree, some statistics here and you know this this this particular date and that came back you can see it starts at seven o'clock in the morning.
+
+1097
+02:41:38.790 --> 02:41:42.750
+MS Analytics Class 2021: And goes all the way up to seven o'clock or eight o'clock in the evening.
+
+1098
+02:41:43.800 --> 02:41:50.820
+MS Analytics Class 2021: So you might create some statistics from that averaging or that information.
+
+1099
+02:41:53.130 --> 02:42:01.440
+MS Analytics Class 2021: Okay, I'm open to any, any questions that you might have an email and we'll be back on this one. Wednesday.
+
+1100
+02:42:02.550 --> 02:42:13.020
+MS Analytics Class 2021: So on Wednesday will have a session. And at that time I hope to hear people talking about what it is they want to do on this app on the schooling.
+
+1101
+02:42:13.770 --> 02:42:22.440
+MS Analytics Class 2021: Once you figure out what it is you want to report, then it's just a matter of tweaking that the information on the GUI code that you that you are. Yeah.
+
+1102
+02:42:24.720 --> 02:42:27.360
+MS Analytics Class 2021: Okay, that's it for today.
+
+1103
+02:42:28.470 --> 02:42:33.420
+MS Analytics Class 2021: I'll stay online for a few minutes. If you have any questions or comments and
+
+1104
+02:42:33.870 --> 02:42:35.010
+Amanda Pham: Have a question.
+
+1105
+02:42:35.760 --> 02:42:37.680
+MS Analytics Class 2021: Okay, miss, Amanda.
+
+1106
+02:42:37.980 --> 02:42:39.330
+Amanda Pham: Yes. Hi, Dr. Jones.
+
+1107
+02:42:40.170 --> 02:42:40.590
+Oh,
+
+1108
+02:42:43.080 --> 02:42:44.190
+MS Analytics Class 2021: Here what
+
+1109
+02:42:51.960 --> 02:42:55.980
+Amanda Pham: I'm Dr. Jones, I wanted to ask about the project. Whenever you're ready.
+
+1110
+02:42:57.180 --> 02:42:59.160
+MS Analytics Class 2021: Okay, this is Amanda right
+
+1111
+02:42:59.190 --> 02:43:00.600
+MS Analytics Class 2021: Yes. Okay.
+
+1112
+02:43:04.440 --> 02:43:05.100
+MS Analytics Class 2021: Yeah.
+
+1113
+02:43:06.270 --> 02:43:07.800
+Amanda Pham: Yes, about the group's
+
+1114
+02:43:08.280 --> 02:43:11.460
+Amanda Pham: You mentioned two to three people is three, the max amount
+
+1115
+02:43:15.810 --> 02:43:19.080
+Amanda Pham: Three people for the groups is that the x on people per group.
+
+1116
+02:43:20.160 --> 02:43:22.110
+MS Analytics Class 2021: I can't hear it out.
+
+1117
+02:43:23.520 --> 02:43:25.560
+MS Analytics Class 2021: And I don't have anybody here. Presley.
+
+1118
+02:43:28.320 --> 02:43:29.340
+Amanda Pham: I'll email you
+
+1119
+02:43:31.980 --> 02:43:34.830
+MS Analytics Class 2021: Send me send me a little email or
+
+1120
+02:43:36.720 --> 02:43:38.670
+MS Analytics Class 2021: Something like that. I'll get back with you.
+
+1121
+02:43:39.540 --> 02:43:40.500
+Amanda Pham: Okay. Sounds good.
+
+1122
+02:43:45.990 --> 02:43:47.670
+Karis Jochen: Dr. Jones, can you hear me.
+
+1123
+02:43:49.770 --> 02:43:53.430
+MS Analytics Class 2021: Oh, I see. Play as a question, he says, I'm looking at the chat.
+
+1124
+02:43:53.430 --> 02:43:57.450
+MS Analytics Class 2021: Be played says, see the maximum number of people that project.
+
+1125
+02:43:58.080 --> 02:44:00.570
+MS Analytics Class 2021: I would I would keep it three. Yeah.
+
+1126
+02:44:01.770 --> 02:44:04.500
+MS Analytics Class 2021: Because I want to see everybody engaged and involved.
+
+1127
+02:44:06.360 --> 02:44:13.740
+MS Analytics Class 2021: And I don't want, I don't think the project should be so big that it will require more than three people.
+
+1128
+02:44:15.240 --> 02:44:17.340
+MS Analytics Class 2021: By the weekly assignments individual
+
+1129
+02:44:20.790 --> 02:44:25.980
+MS Analytics Class 2021: To try and make it so. But if you need help on an assignment, feel free to talk to your neighbors.
+
+1130
+02:44:29.130 --> 02:44:34.110
+MS Analytics Class 2021: The ID. The idea. This course is not really
+
+1131
+02:44:35.490 --> 02:44:42.000
+MS Analytics Class 2021: So much about the grade, right. This is your last class you're graduating, you probably already, you already have a ring.
+
+1132
+02:44:42.630 --> 02:44:55.710
+MS Analytics Class 2021: The purpose of this class is to learn something. So if you're working on homework assignment and you're stuck on something and you know somebody that can help you reach out and you can talk to me if you like. Okay.
+
+1133
+02:45:08.970 --> 02:45:12.270
+Brian Frankel: Professor, this is Brian. So two quick questions. Can you hear me okay
+
+1134
+02:45:20.430 --> 02:45:22.290
+MS Analytics Class 2021: Brian was what you're trying to say.
+
+1135
+02:45:23.250 --> 02:45:26.880
+Brian Frankel: Just two quick questions. One, will you have office hours tomorrow.
+
+1136
+02:45:29.010 --> 02:45:30.270
+MS Analytics Class 2021: What is what
+
+1137
+02:45:31.800 --> 02:45:34.230
+Brian Frankel: Will you be holding office hours.
+
+1138
+02:45:34.230 --> 02:45:35.370
+MS Analytics Class 2021: Tomorrow holy
+
+1139
+02:45:36.570 --> 02:45:37.740
+MS Analytics Class 2021: Yeah, we'll see.
+
+1140
+02:45:39.390 --> 02:45:42.120
+MS Analytics Class 2021: We'll see what did I say six or 730
+
+1141
+02:45:43.890 --> 02:45:52.800
+MS Analytics Class 2021: That's going to be. It's on the syllabus every Wednesday at six instead of 30 we're going to have online online office hours.
+
+1142
+02:45:53.820 --> 02:45:55.200
+MS Analytics Class 2021: And it's going to be recorded.
+
+1143
+02:45:57.240 --> 02:46:07.860
+MS Analytics Class 2021: Normally what happens later in the office hours. It's all the questions and then after that, we'll get into the discussion, the homework.
+
+1144
+02:46:10.650 --> 02:46:12.570
+Brian Frankel: And it will be recorded, so
+
+1145
+02:46:13.560 --> 02:46:21.000
+MS Analytics Class 2021: And so if we go out, we see that you have quite a few days, including the weekend before it's actually good.
+
+1146
+02:46:24.240 --> 02:46:25.140
+MS Analytics Class 2021: Okay.
+
+1147
+02:46:26.250 --> 02:46:27.000
+MS Analytics Class 2021: Cindy good
+
+1148
+02:46:30.930 --> 02:46:38.700
+MS Analytics Class 2021: Yes. Should we use our pre arranged steeds, or should we find your own find your own find your own the pre arranged teams are too big.
+
+1149
+02:46:40.170 --> 02:46:40.800
+MS Analytics Class 2021: Okay.
+
+1150
+02:46:42.930 --> 02:46:48.330
+MS Analytics Class 2021: So I think I'd rather see I rather see slower themes like free
+
+1151
+02:46:50.640 --> 02:46:55.200
+MS Analytics Class 2021: Well, it's huge. I may be persuaded so many things. This is not a good thing.
+
+1152
+02:46:56.250 --> 02:47:02.400
+MS Analytics Class 2021: But my feeling is as large teams. It's too easy to just not be engaged.
+
+1153
+02:47:03.960 --> 02:47:04.800
+MS Analytics Class 2021: With the project.
+
+1154
+02:47:11.610 --> 02:47:21.000
+MS Analytics Class 2021: The office hours are seven to 830 Christian to survive either seventh and all the syllabus. It says seven 830 so we'll go with that.
+
+1155
+02:47:28.860 --> 02:47:32.490
+MS Analytics Class 2021: Office hours tomorrow. Yes, Jen tomorrow.
+
+1156
+02:47:36.810 --> 02:47:42.990
+MS Analytics Class 2021: And we'll talk about, well you know what to do the stock price.
+
+1157
+02:47:47.550 --> 02:47:50.130
+MS Analytics Class 2021: Okay, well the zoom meeting with the office hours.
+
+1158
+02:47:51.300 --> 02:48:00.660
+MS Analytics Class 2021: I'm, I'm okay. You're starting to zoom in that suddenly exact, but I'm not sure I'm gonna have to talk to. Bobby artsy, what is the normal process.
+
+1159
+02:48:01.050 --> 02:48:08.250
+MS Analytics Class 2021: And I'll probably send you an email before the office hours tomorrow night about what's going on with zoom
+
+1160
+02:48:09.090 --> 02:48:29.400
+MS Analytics Class 2021: I don't know. I usually well I'm going to do whatever they're doing, you did last semester I will never settled in sometimes how do somebody will pick it off of the other thing automatically kick off and but on occasion I created started myself. So I don't know what they want to do.
+
+1161
+02:48:34.230 --> 02:48:42.600
+MS Analytics Class 2021: As far as the teams are concerned, like I say, through three gets you socialize virtually
+
+1162
+02:48:44.460 --> 02:48:50.130
+MS Analytics Class 2021: Talk to your neighbors or whomever so well, you're like, Okay, I mean,
+
+1163
+02:48:55.470 --> 02:48:58.590
+MS Analytics Class 2021: There's several people in here that really excellent.
+
+1164
+02:48:59.490 --> 02:49:01.110
+MS Analytics Class 2021: Excellent organization.
+
+1165
+02:49:13.980 --> 02:49:16.710
+MS Analytics Class 2021: Okay, Jim. I'm going to drive, drive here, for sure.
+
+1166
+02:49:19.860 --> 02:49:29.520
+MS Analytics Class 2021: dry bag. It's not so bad it's driving here. It's worth getting here is with all the traffic in Houston is more problem.
+
+1167
+02:49:30.780 --> 02:49:31.920
+MS Analytics Class 2021: Okay guys.
+
+1168
+02:49:37.320 --> 02:49:38.100
+Wilson Pineda: We say
+
+1169
+02:49:39.300 --> 02:49:40.020
+MS Analytics Class 2021: We'll see you tomorrow.
+
+1170
+02:49:45.630 --> 02:49:46.500
+Karen Fireman: Thank you, Dr. Jones.
+
+1171
+02:49:55.590 --> 02:49:58.560
+MS Analytics Class 2021: We're commenting how much they really enjoyed the class today.
+
+1172
+02:49:59.670 --> 02:50:04.170
+MS Analytics Class 2021: Which are commenting that they really enjoyed the class today. Oh, good.
+
+1173
+02:50:05.910 --> 02:50:07.800
+MS Analytics Class 2021: Rocky started this whole thing.
+
+1174
+02:50:10.260 --> 02:50:13.770
+MS Analytics Class 2021: This is still here. I'm waiting to hear you and me. Right.
+
+1175
+02:50:17.220 --> 02:50:19.080
+MS Analytics Class 2021: Where do you live, you live in Houston.
+
+1176
+02:50:23.700 --> 02:50:27.030
+MS Analytics Class 2021: Down here in August, the first of all
+
+1177
+02:50:46.560 --> 02:50:48.870
+MS Analytics Class 2021: Wow. Oh my god.
+
+1178
+02:51:01.980 --> 02:51:03.630
+MS Analytics Class 2021: Well, you should get here I got here.
+
+1179
+02:51:06.210 --> 02:51:09.630
+MS Analytics Class 2021: Yeah, I haven't had a few minutes house. Okay, well,
+
+1180
+02:51:11.760 --> 02:51:15.060
+MS Analytics Class 2021: I'm gonna take this on and probably shop somewhere along the way needed
+
+1181
+02:51:22.950 --> 02:51:24.840
+MS Analytics Class 2021: I know that you know the water
+
+1182
+02:51:30.180 --> 02:51:30.660
+MS Analytics Class 2021: Water
+
+1183
+02:51:32.970 --> 02:51:33.810
+MS Analytics Class 2021: Good another one.
+
+1184
+02:51:36.180 --> 02:51:38.040
+MS Analytics Class 2021: You're finished right you're done with the same
+

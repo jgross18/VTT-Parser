@@ -1,0 +1,858 @@
+WEBVTT
+
+1
+00:00:06.210 --> 00:00:07.890
+Faculty Office Hours: Sorry, I kind of lost track of time.
+
+2
+00:00:08.940 --> 00:00:09.870
+Faculty Office Hours: But i'm here now.
+
+3
+00:00:10.980 --> 00:00:11.759
+Faculty Office Hours: What it's worth.
+
+4
+00:00:17.520 --> 00:00:18.150
+Jim Clark: working.
+
+5
+00:01:00.120 --> 00:01:00.660
+Jim Clark: Noise in.
+
+6
+00:01:01.800 --> 00:01:02.640
+Jim Clark: My house catch.
+
+7
+00:01:03.900 --> 00:01:05.100
+Jim Clark: My phone off for a second.
+
+8
+00:01:06.030 --> 00:01:06.480
+Okay.
+
+9
+00:02:19.470 --> 00:02:21.900
+Jim Clark: I was going to try to ask you a question about.
+
+10
+00:02:23.160 --> 00:02:23.820
+Jim Clark: number five.
+
+11
+00:02:26.880 --> 00:02:29.490
+Jim Clark: i'm not sure how to how to ask in such a way that.
+
+12
+00:02:31.650 --> 00:02:33.690
+Jim Clark: You directly, whether or not.
+
+13
+00:02:34.950 --> 00:02:42.060
+Wright, Beth: Jim I actually have the same question, so I wonder if the idea is not enough with.
+
+14
+00:02:43.080 --> 00:02:48.120
+Karen Fireman: me too, I was wondering if I had it right, I think I do, but I could have a completely backwards.
+
+15
+00:02:48.270 --> 00:02:50.460
+Faculty Office Hours: Also does one of you want to share.
+
+16
+00:02:50.760 --> 00:02:52.290
+Wright, Beth: yeah I got it.
+
+17
+00:02:52.560 --> 00:02:53.070
+Okay.
+
+18
+00:02:56.130 --> 00:03:10.350
+Wright, Beth: Okay, so adding the change to the code phrase is relatively simple, we want to make sure we're using the right algorithm but, and then we want to expand the inventory balance to see what feeds into that.
+
+19
+00:03:10.350 --> 00:03:13.560
+Faculty Office Hours: yeah I would say just before you go any further.
+
+20
+00:03:14.070 --> 00:03:14.490
+Wright, Beth: mm hmm.
+
+21
+00:03:16.620 --> 00:03:19.800
+Faculty Office Hours: It shouldn't be necessary to turn the pre solver off.
+
+22
+00:03:21.990 --> 00:03:22.260
+Wright, Beth: Okay.
+
+23
+00:03:22.830 --> 00:03:34.260
+Faculty Office Hours: So that turning the pre solver off is something we do and we use the warm start option Okay, but it's not necessary for just using the network simplex.
+
+24
+00:03:35.190 --> 00:03:47.670
+Faculty Office Hours: Okay it's not it's not a bad thing, but sometimes the pre solver can make some simplifications and then the network simplex can follow up on that, but yeah.
+
+25
+00:03:48.690 --> 00:03:49.200
+Faculty Office Hours: Okay, so it.
+
+26
+00:03:49.980 --> 00:03:59.250
+Wright, Beth: really changed whether something can be solved in that pure or not, or would that cause us to change.
+
+27
+00:04:00.090 --> 00:04:04.470
+Faculty Office Hours: The will, there are some kind of weird things that the pre solver does.
+
+28
+00:04:06.060 --> 00:04:16.710
+Faculty Office Hours: I would say that this is the more straightforward way to do it is to not involve the pre solver, but you can experiment with it, if you want just to try it with and without and see what happens.
+
+29
+00:04:17.520 --> 00:04:18.540
+Karen Fireman: See you just turn that.
+
+30
+00:04:18.540 --> 00:04:24.630
+Karen Fireman: awesome it just would take that part out the priest or nun that you just take that whole line out that point yeah.
+
+31
+00:04:24.810 --> 00:04:32.010
+Faculty Office Hours: So they're there they're completely separate options, but they may interact with each other okay so there's your.
+
+32
+00:04:34.110 --> 00:04:35.940
+Wright, Beth: mm hmm yep.
+
+33
+00:04:35.970 --> 00:04:55.350
+Wright, Beth: So yep, so this is what we're looking at to determine what's coming in and out of that node So when I looked at it, I rearranged the equation, so we could see what was on what side, so these three pieces are going into it right.
+
+34
+00:04:56.490 --> 00:05:03.180
+Wright, Beth: And number produced and priests inventory previous period, and then.
+
+35
+00:05:03.450 --> 00:05:04.350
+Wright, Beth: You know that.
+
+36
+00:05:06.480 --> 00:05:09.420
+Faculty Office Hours: It should make sense and and kind of inventory sense.
+
+37
+00:05:10.110 --> 00:05:10.650
+Wright, Beth: mm hmm.
+
+38
+00:05:10.950 --> 00:05:14.040
+Wright, Beth: Okay hey yeah which yeah because you have.
+
+39
+00:05:15.570 --> 00:05:29.460
+Wright, Beth: Well, you have all this extra stuff that you need the stuff that you made this period and stuff you're carrying over from last grade yeah it does make sense, and then the reason that you would pick so I picked demand is the parameter.
+
+40
+00:05:29.730 --> 00:05:41.580
+Wright, Beth: To because it this coefficient match the fourth period demand in that print statement.
+
+41
+00:05:41.670 --> 00:05:43.320
+Faculty Office Hours: Okay let's do that, so what.
+
+42
+00:05:43.980 --> 00:05:44.640
+I would say that.
+
+43
+00:05:46.590 --> 00:05:53.250
+Faculty Office Hours: Okay, but what I would add to that is that demand is a parameter array.
+
+44
+00:05:54.330 --> 00:05:54.870
+Wright, Beth: Okay.
+
+45
+00:05:55.020 --> 00:06:06.240
+Faculty Office Hours: And if i'm asking for the value of an individual parameter then demand is not quite the full picture so let's look at some of the other inputs or outputs.
+
+46
+00:06:06.570 --> 00:06:10.380
+Karen Fireman: wouldn't it be demand left bracket for right before me refresh.
+
+47
+00:06:11.400 --> 00:06:14.340
+Faculty Office Hours: That would be the parameter so so.
+
+48
+00:06:14.460 --> 00:06:15.780
+Faculty Office Hours: Individual.
+
+49
+00:06:15.810 --> 00:06:25.710
+Faculty Office Hours: component of a parameter array is itself a parameter and that's more what i'm looking for here, and you can see that that as it relates to the inputs, that you have.
+
+50
+00:06:26.970 --> 00:06:35.820
+Faculty Office Hours: The same thing that that num prod and i'm in br also arrays but you've selected a particular time period.
+
+51
+00:06:37.680 --> 00:06:38.040
+Karen Fireman: Right.
+
+52
+00:06:40.140 --> 00:06:42.120
+Faculty Office Hours: Okay, does that does that answer your question.
+
+53
+00:06:43.260 --> 00:06:49.980
+Wright, Beth: yeah I think so, as long as it's not i'm not but, so why i'm the one link that i'm not making as well as.
+
+54
+00:06:51.480 --> 00:07:00.360
+Wright, Beth: Like how demand comes out of that maybe it's because i'm trying to think of it to literally in terms of like demand is because demands not production.
+
+55
+00:07:00.840 --> 00:07:04.530
+Wright, Beth: Right is that separate piece so i'm.
+
+56
+00:07:05.280 --> 00:07:06.840
+Faculty Office Hours: Well, so I guess.
+
+57
+00:07:06.900 --> 00:07:08.310
+Faculty Office Hours: Looking at the following way.
+
+58
+00:07:08.640 --> 00:07:19.770
+Faculty Office Hours: In terms of inputs and outputs so you you, you make things and those things go into inventory and then you have a carry over from previous period.
+
+59
+00:07:20.880 --> 00:07:23.580
+Faculty Office Hours: And what goes out.
+
+60
+00:07:24.690 --> 00:07:32.760
+Faculty Office Hours: You know, think of it as kind of physically like going into a storage locker and then being taken out, so what comes out is.
+
+61
+00:07:33.960 --> 00:07:34.200
+Wright, Beth: That.
+
+62
+00:07:34.440 --> 00:07:36.960
+Faculty Office Hours: What is necessary to satisfy demand.
+
+63
+00:07:38.130 --> 00:07:45.750
+Faculty Office Hours: And then, whatever is left is carried over into inventory for the subsequent month the complicating factor here is that.
+
+64
+00:07:47.010 --> 00:07:58.020
+Faculty Office Hours: If we don't have enough to satisfy demand then we're having to pull from somewhere else you can think of that unmet demand is coming from a separate source, if you want.
+
+65
+00:07:59.130 --> 00:08:00.600
+Faculty Office Hours: or it could just be that.
+
+66
+00:08:02.670 --> 00:08:08.820
+Faculty Office Hours: That we have to pay for Jim beam to get that supply from somewhere else.
+
+67
+00:08:10.590 --> 00:08:20.160
+Karen Fireman: Can you put the numbers underneath these each one of like where you have the nominee for right now i'm in for is just like for edification but also.
+
+68
+00:08:20.220 --> 00:08:20.940
+Faculty Office Hours: Say yeah you.
+
+69
+00:08:21.120 --> 00:08:23.160
+Faculty Office Hours: Put the numbers underneath if that helps you.
+
+70
+00:08:23.490 --> 00:08:24.510
+Karen Fireman: It does mean.
+
+71
+00:08:24.600 --> 00:08:27.990
+Faculty Office Hours: That it's it's an equivalence right.
+
+72
+00:08:28.980 --> 00:08:29.610
+Karen Fireman: yeah but.
+
+73
+00:08:29.670 --> 00:08:37.320
+Faculty Office Hours: So the constraint says that, regardless of what the values are they have to be the, it has to equate.
+
+74
+00:08:38.100 --> 00:08:44.670
+Faculty Office Hours: and putting this specific values in for the solution says that in the solution they're also the same.
+
+75
+00:08:46.260 --> 00:08:58.650
+Karen Fireman: It seemed to me that the one that little thing that they put up there when you did when you did the expand where they had constrained inventory balance for colon mind numbing of for.
+
+76
+00:08:59.670 --> 00:09:12.630
+Karen Fireman: US and met demand of four plus nonprofit four plus nothing equals 2600 that to me told me where to put everything because of the pluses and minuses.
+
+77
+00:09:13.230 --> 00:09:23.400
+Faculty Office Hours: yeah so so it's just a question of the way we think of the constraint usually everything is positive, so it kind of tells you to shift things from one side to the other.
+
+78
+00:09:23.790 --> 00:09:38.520
+Faculty Office Hours: But when the solver is ready to solve the model it just it doesn't need any intuition, it just does the math that puts all the variable terms on one side and all the numeric terms, on the other, so that's what you see when you say expand.
+
+79
+00:09:42.570 --> 00:09:49.710
+Faculty Office Hours: In the same way that when you are winning class we expanded the the overtime.
+
+80
+00:09:51.660 --> 00:09:56.250
+Faculty Office Hours: constraints, instead of adding overtime, to the right it's attracted it from the Left.
+
+81
+00:09:57.300 --> 00:09:57.990
+Faculty Office Hours: So it's.
+
+82
+00:09:59.310 --> 00:10:06.030
+Faculty Office Hours: It would be nice if it displayed it in exactly the same way that you declared it but.
+
+83
+00:10:07.260 --> 00:10:10.680
+Faculty Office Hours: that's what the compiler people decided is the appropriate thing to display.
+
+84
+00:10:12.150 --> 00:10:12.570
+Karen Fireman: yeah.
+
+85
+00:10:15.870 --> 00:10:19.650
+Karen Fireman: So we're just supposed to write them in into your picture right and give you the.
+
+86
+00:10:20.250 --> 00:10:22.110
+Faculty Office Hours: Right okay cool.
+
+87
+00:10:23.490 --> 00:10:23.790
+Jim Clark: It will.
+
+88
+00:10:24.810 --> 00:10:26.130
+Jim Clark: Let me share mine I think there's.
+
+89
+00:10:27.540 --> 00:10:28.350
+Jim Clark: Something like.
+
+90
+00:10:29.850 --> 00:10:30.180
+Jim Clark: This.
+
+91
+00:10:50.310 --> 00:10:52.950
+Jim Clark: yeah something to that sort of idea.
+
+92
+00:10:53.700 --> 00:10:55.170
+Faculty Office Hours: yeah so so you can.
+
+93
+00:10:56.190 --> 00:11:05.490
+Faculty Office Hours: I don't know if the the flow in is kind of extraneous it helps you understand so So those are both part of flow in.
+
+94
+00:11:07.980 --> 00:11:20.640
+Faculty Office Hours: But it's not necessary to include that in the labeling and then like like her first diagram you want to you want to amend the demand to a specific.
+
+95
+00:11:21.960 --> 00:11:22.650
+Faculty Office Hours: time period.
+
+96
+00:11:23.190 --> 00:11:41.940
+Jim Clark: Now, now that now that i've seen that she doesn't think maybe that's what I should do, but I was just trying to categorize instead of a generic number, something that was related to what was the code so i'll often do some more and make a decision okay.
+
+97
+00:11:42.000 --> 00:11:49.170
+Faculty Office Hours: yeah The other thing you can do instead of putting flow in and and flow out is just kind of put a put a line.
+
+98
+00:11:50.700 --> 00:11:56.400
+Faculty Office Hours: Put a line through the node that kind of divides the inputs and the outputs.
+
+99
+00:11:57.750 --> 00:12:05.190
+Faculty Office Hours: That kind of accomplishes the same thing just tells which are the flows in and flows out so like you're you're lying would kind of go.
+
+100
+00:12:06.900 --> 00:12:21.570
+Faculty Office Hours: Under the blue line and to the left of the red line if that makes sense, just to to to put a kind of like a delineation between the arcs that go in and the arcs that go out.
+
+101
+00:12:23.970 --> 00:12:25.470
+Jim Clark: and be more generic Thank you.
+
+102
+00:12:26.700 --> 00:12:27.030
+Jim Clark: Sorry.
+
+103
+00:12:28.260 --> 00:12:28.950
+Jim Clark: All right, thank you.
+
+104
+00:12:29.640 --> 00:12:42.360
+Faculty Office Hours: Sure, and in the solution i'll put a kind of a generic diagram that that illustrates all of the time periods, but i'm only asking you to to look at this specific one.
+
+105
+00:12:44.430 --> 00:12:47.820
+Karen Fireman: I can show you mine sure okay okay.
+
+106
+00:12:49.710 --> 00:12:50.520
+Karen Fireman: Your screen.
+
+107
+00:12:51.990 --> 00:12:54.330
+Karen Fireman: So that was my drawing here can you see.
+
+108
+00:12:55.200 --> 00:12:56.040
+Faculty Office Hours: I can see it.
+
+109
+00:12:56.190 --> 00:13:05.550
+Karen Fireman: I took it from up here, but it got cut off when I I just do it by hand, so I just read this little note from what you just said just now down here, but this is what I had I had zero.
+
+110
+00:13:05.550 --> 00:13:07.590
+Faculty Office Hours: Right now, what you have is fine and.
+
+111
+00:13:08.610 --> 00:13:14.970
+Faculty Office Hours: The The numbers are are not necessary, because, like I said it's.
+
+112
+00:13:16.050 --> 00:13:17.730
+Karen Fireman: I knew I just like to be in there.
+
+113
+00:13:18.870 --> 00:13:19.110
+Faculty Office Hours: yeah.
+
+114
+00:13:19.170 --> 00:13:21.450
+Karen Fireman: that's why I was wanting to know if it was okay okay.
+
+115
+00:13:21.480 --> 00:13:25.470
+Faculty Office Hours: yeah I mean if it helps like making sure that things kind of add up to the right.
+
+116
+00:13:25.650 --> 00:13:34.950
+Karen Fireman: it's exactly right like I had her here and I was like wait a minute this doesn't add up add all these guys so dragged on wait a minute i'm off yeah and I pulled I pulled the wrong number.
+
+117
+00:13:35.010 --> 00:13:35.700
+Faculty Office Hours: should be fine.
+
+118
+00:13:36.240 --> 00:13:41.550
+Karen Fireman: Okay cool i'll do you want this thing up here too I mean we can I can copy it, it was there I just.
+
+119
+00:13:41.580 --> 00:13:43.800
+Faculty Office Hours: mean in terms of the in the.
+
+120
+00:13:44.280 --> 00:13:45.540
+Karen Fireman: summary, I mean.
+
+121
+00:13:45.720 --> 00:13:46.080
+Karen Fireman: that's very.
+
+122
+00:13:46.500 --> 00:13:47.460
+Faculty Office Hours: helpful because.
+
+123
+00:13:49.050 --> 00:13:52.770
+Faculty Office Hours: Otherwise I wouldn't have to go into your program to see that you expanded it.
+
+124
+00:13:53.130 --> 00:13:54.210
+Karen Fireman: No worries you'll have it.
+
+125
+00:13:54.690 --> 00:13:55.650
+Karen Fireman: Okay, thank you.
+
+126
+00:13:57.000 --> 00:13:57.540
+Faculty Office Hours: i'll stop.
+
+127
+00:14:06.660 --> 00:14:10.350
+Jim Clark: Now basis of my question, so I think i'm good.
+
+128
+00:14:12.120 --> 00:14:12.570
+Karen Fireman: me too.
+
+129
+00:14:13.050 --> 00:14:16.560
+Karen Fireman: Okay, I think i'm gonna drop off if that's okay yeah.
+
+130
+00:14:17.550 --> 00:14:19.350
+Faculty Office Hours: we'll miss you but it's okay.
+
+131
+00:14:20.580 --> 00:14:21.420
+Karen Fireman: i'll miss you so.
+
+132
+00:14:22.860 --> 00:14:23.070
+Jim Clark: we'll.
+
+133
+00:14:23.700 --> 00:14:24.090
+Karen Fireman: See you.
+
+134
+00:14:24.870 --> 00:14:25.440
+Jim Clark: On Thursday.
+
+135
+00:14:25.920 --> 00:14:31.410
+Karen Fireman: yeah let's do Thursday I guess they're taking a stealing half an hour Maybe you can Maybe you can be like a pilot make it up.
+
+136
+00:14:34.230 --> 00:14:35.550
+Faculty Office Hours: I think I would be risky.
+
+137
+00:14:36.180 --> 00:14:38.970
+Karen Fireman: Thank you, Dr harmon take care okay bye bye.
+
+138
+00:14:45.870 --> 00:14:47.160
+Christian Gover: I had a question.
+
+139
+00:14:48.300 --> 00:14:48.930
+Faculty Office Hours: Okay.
+
+140
+00:14:49.110 --> 00:14:49.860
+Faculty Office Hours: Is this Christian.
+
+141
+00:14:50.310 --> 00:14:51.330
+Christian Gover: Yes, this is me.
+
+142
+00:14:51.570 --> 00:14:52.080
+Faculty Office Hours: Christian.
+
+143
+00:14:52.140 --> 00:14:53.160
+Faculty Office Hours: what's what's your question.
+
+144
+00:14:54.270 --> 00:15:09.720
+Christian Gover: On question three I wasn't sure if I was doing on correctly, it seemed pretty complicated um I don't know if there's a more elegant way to do it, but I don't know if I should share my code with you.
+
+145
+00:15:10.230 --> 00:15:11.730
+Faculty Office Hours: Well, so, so this is the.
+
+146
+00:15:11.760 --> 00:15:15.360
+Christian Gover: overtime question right yeah the 30 point question, yes.
+
+147
+00:15:15.360 --> 00:15:19.110
+Faculty Office Hours: Right, and so this this is going to mimic the.
+
+148
+00:15:20.760 --> 00:15:22.980
+Faculty Office Hours: The demonstration that we did in class.
+
+149
+00:15:24.690 --> 00:15:37.590
+Faculty Office Hours: So is as as elegant or inelegant as the version we did in class was you can expect years to be roughly the same with just different numbers and different data sets.
+
+150
+00:15:38.820 --> 00:15:41.520
+Christian Gover: All right, okay I love that Thank you.
+
+151
+00:15:41.760 --> 00:15:42.780
+Faculty Office Hours: Okay sure.
+
+152
+00:15:44.160 --> 00:15:44.550
+um.
+
+153
+00:15:47.160 --> 00:15:48.480
+Monica A. Harwig: Dr hartman is Monica.
+
+154
+00:15:48.840 --> 00:16:02.370
+Monica A. Harwig: Monica hi Okay, so this is, I mean I understand all the homework in five was my question, so I understand that now, so this is not regards to the hummers just an idea I had, and I wanted to get your opinion on it.
+
+155
+00:16:02.850 --> 00:16:13.170
+Monica A. Harwig: Okay okay so it's all kind of optimization because Okay, so I see in the McDonalds you know what we're doing for that, which I think is I like that and I thought.
+
+156
+00:16:14.700 --> 00:16:23.430
+Monica A. Harwig: Okay, so do you know I want to do the same thing, but for just for calories and nutritional information in general for foods.
+
+157
+00:16:24.600 --> 00:16:35.400
+Monica A. Harwig: Because, for my own personal use, because I was using you know i'm you know count calories if i'm good i'm smart and I was using this service noon, but it costs 50 bucks a month.
+
+158
+00:16:35.880 --> 00:16:43.350
+Monica A. Harwig: And it's good, but you got to put all your I mean you're putting all your data, like everything I eat everything every.
+
+159
+00:16:44.070 --> 00:16:50.250
+Monica A. Harwig: way goes into their little database and I don't like that I don't feel comfortable with it so um.
+
+160
+00:16:50.940 --> 00:17:00.390
+Monica A. Harwig: And I was wondering, I know I was thinking, well, I can do my own calorie counter optimization kind of like you do at the McDonalds that my question is.
+
+161
+00:17:01.350 --> 00:17:17.160
+Monica A. Harwig: I look for data I don't want to obviously redo the table, and I know there's a lot of calorie tables out there they're they're available, but do you know, a place where you can go where you feel safe getting a table like that you know it's already been done.
+
+162
+00:17:17.640 --> 00:17:23.250
+Faculty Office Hours: I don't I don't know that I know that a lot of like you say.
+
+163
+00:17:24.570 --> 00:17:27.060
+Faculty Office Hours: programs have.
+
+164
+00:17:29.670 --> 00:17:33.540
+Faculty Office Hours: Databases like that, and some of them are more complete than others.
+
+165
+00:17:36.060 --> 00:17:37.560
+Faculty Office Hours: I might I might ask my wife.
+
+166
+00:17:40.080 --> 00:17:41.970
+Faculty Office Hours: Kathy do you know if there any like.
+
+167
+00:17:44.760 --> 00:17:51.810
+Faculty Office Hours: Are there any like databases that you can use it obviously that you can look up your calorie.
+
+168
+00:17:54.270 --> 00:17:55.050
+Faculty Office Hours: and
+
+169
+00:17:59.400 --> 00:18:05.340
+Faculty Office Hours: Then the APP store, so my wife is saying that there's a there's an APP called chronometer.
+
+170
+00:18:07.050 --> 00:18:13.890
+Faculty Office Hours: that's available in the APP store that's free I don't know that I guess that would be kind of a question of whether or not the.
+
+171
+00:18:15.330 --> 00:18:17.820
+Faculty Office Hours: What they do with your your private information but.
+
+172
+00:18:19.260 --> 00:18:19.800
+Faculty Office Hours: yeah.
+
+173
+00:18:20.340 --> 00:18:22.530
+Monica A. Harwig: What I wanted to do was use it.
+
+174
+00:18:23.340 --> 00:18:31.140
+Monica A. Harwig: Also for my professional development, you know as far as getting a table and opt trying, you know, trying to optimize it kind of like we're doing in class.
+
+175
+00:18:31.560 --> 00:18:39.180
+Faculty Office Hours: So, in terms of getting a big table I I don't know about that, I think that a lot of these services are built kind of like on queries.
+
+176
+00:18:40.350 --> 00:18:52.050
+Faculty Office Hours: So you could you could say okay like like you're doing now, you could say, well, this is what I ate and they will give you the information for it, but I don't know that you're going to.
+
+177
+00:18:56.460 --> 00:19:01.350
+Faculty Office Hours: I don't know if you're going to be able to find some place that will let you download a huge file.
+
+178
+00:19:03.360 --> 00:19:10.620
+Faculty Office Hours: But you could kind of build that up over time, so if you use an APP that's more anonymous than the new.
+
+179
+00:19:11.970 --> 00:19:12.450
+Faculty Office Hours: Then.
+
+180
+00:19:13.710 --> 00:19:20.550
+Faculty Office Hours: You know, every time you add something in you can take their data and add it to your table.
+
+181
+00:19:21.480 --> 00:19:27.210
+Faculty Office Hours: mm hmm i'm just not sure kind of what what format, they may provide the data to you.
+
+182
+00:19:28.830 --> 00:19:31.980
+Faculty Office Hours: Whether it's going to be easy or hard to add it to the table.
+
+183
+00:19:33.780 --> 00:19:34.140
+Monica A. Harwig: Okay.
+
+184
+00:19:39.630 --> 00:19:45.060
+Monica A. Harwig: Well i'll just do some more research on some searching on it, I see I see what I can find on it and.
+
+185
+00:19:46.980 --> 00:19:50.340
+Monica A. Harwig: So I thought that mcdonald's was good, I was like well I don't really eat at mcdonald's.
+
+186
+00:19:51.780 --> 00:20:00.660
+Faculty Office Hours: yeah so but I mean in terms of the the optimization model, how you could see that helping you would be maybe something like.
+
+187
+00:20:02.190 --> 00:20:04.110
+Faculty Office Hours: You know, eating a couple of meals.
+
+188
+00:20:05.160 --> 00:20:08.820
+Faculty Office Hours: And you want to figure out Okay, what can I eat for dinner that's going to.
+
+189
+00:20:10.320 --> 00:20:12.390
+Faculty Office Hours: You know satisfy my macros.
+
+190
+00:20:14.220 --> 00:20:16.230
+Faculty Office Hours: Whatever objective, you have.
+
+191
+00:20:16.650 --> 00:20:17.100
+Monica A. Harwig: mm hmm.
+
+192
+00:20:17.670 --> 00:20:20.280
+Faculty Office Hours: And then, like make suggestions to you, but but.
+
+193
+00:20:20.310 --> 00:20:24.630
+Faculty Office Hours: it's possible that there's also you know Apps that will do that same thing.
+
+194
+00:20:25.350 --> 00:20:27.840
+Faculty Office Hours: Right tell you, based on what you've already done.
+
+195
+00:20:28.440 --> 00:20:29.610
+Faculty Office Hours: And i'm not sure if.
+
+196
+00:20:29.700 --> 00:20:34.980
+Faculty Office Hours: If your main concern is like not revealing what you're what you're using.
+
+197
+00:20:38.370 --> 00:20:43.290
+Monica A. Harwig: yeah i'm trying to i'm kind of more and the be more aware of privacy and I just.
+
+198
+00:20:43.890 --> 00:20:46.350
+Faculty Office Hours: Maybe you should just sign up with somebody else.
+
+199
+00:20:47.280 --> 00:20:48.510
+Monica A. Harwig: bright yeah.
+
+200
+00:20:48.540 --> 00:20:50.130
+Faculty Office Hours: Like sign up as Mayra.
+
+201
+00:20:51.180 --> 00:20:54.120
+Monica A. Harwig: And that is true, I could I could be a not yeah okay.
+
+202
+00:20:54.900 --> 00:20:55.440
+Monica A. Harwig: good idea.
+
+203
+00:20:56.790 --> 00:20:58.140
+Faculty Office Hours: Because i'm sure there's.
+
+204
+00:20:58.200 --> 00:21:00.780
+Faculty Office Hours: Like no like plenty of other people there that.
+
+205
+00:21:03.240 --> 00:21:06.450
+Faculty Office Hours: You know not you that are there are signing up and using things so.
+
+206
+00:21:06.930 --> 00:21:13.170
+Monica A. Harwig: yeah that's true oh yeah people do that all the time they go reveal their identity, so that's it that's another way to do it.
+
+207
+00:21:13.440 --> 00:21:15.270
+Faculty Office Hours: Big birthday and all that stuff yeah.
+
+208
+00:21:15.900 --> 00:21:23.520
+Monica A. Harwig: yeah okay well That was all I had i'm going on everything think I played in chase everybody wait, because it looks like everybody's gone so.
+
+209
+00:21:24.420 --> 00:21:28.170
+Faculty Office Hours: I think they're just weren't a lot of questions so that that's not a problem.
+
+210
+00:21:29.100 --> 00:21:31.260
+Monica A. Harwig: Okay, well, thank you very much, I appreciate it.
+
+211
+00:21:31.650 --> 00:21:32.160
+sure.
+
+212
+00:21:33.480 --> 00:21:35.460
+Monica A. Harwig: i'll see i'll check out here.
+
+213
+00:21:36.030 --> 00:21:37.860
+Monica A. Harwig: Okay, thanks bye.
+
+214
+00:21:38.340 --> 00:21:38.640
+bye.
+

@@ -1,0 +1,5610 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:00.630
+Capstone Coach 1: Good.
+
+2
+00:00:02.970 --> 00:00:04.080
+Capstone Coach 1: what's going on.
+
+3
+00:00:05.100 --> 00:00:06.930
+Jim Clark: he's capstone coach number one.
+
+4
+00:00:07.649 --> 00:00:10.349
+Capstone Coach 1: Oh okay oh yeah well.
+
+5
+00:00:11.370 --> 00:00:14.790
+Capstone Coach 1: I mean in the hood it was in classroom was so heavy on.
+
+6
+00:00:17.250 --> 00:00:18.270
+MS Analytics Class 2021: The greatest.
+
+7
+00:00:21.360 --> 00:00:23.850
+Jim Clark: Oh that's cool, you can see, on the screen there Nice.
+
+8
+00:00:25.530 --> 00:00:26.940
+Capstone Coach 1: Okay, all right well.
+
+9
+00:00:47.850 --> 00:00:48.270
+Capstone Coach 1: Okay.
+
+10
+00:00:56.640 --> 00:01:01.200
+Capstone Coach 1: Alright um this may deem is being recorded.
+
+11
+00:01:04.050 --> 00:01:05.730
+Capstone Coach 1: Like a chef to prove that.
+
+12
+00:01:07.110 --> 00:01:08.460
+Capstone Coach 1: Can everybody hear me all right.
+
+13
+00:01:09.870 --> 00:01:12.480
+Capstone Coach 1: You got this microphone so we're there.
+
+14
+00:01:13.260 --> 00:01:13.950
+Zuberi, Bilal: Yes, we can.
+
+15
+00:01:14.340 --> 00:01:24.180
+Capstone Coach 1: Okay, all right let's keep going then i'll bring up well i'm going to share i'm going to share my screen here, try to shoot much right.
+
+16
+00:01:28.830 --> 00:01:34.770
+Capstone Coach 1: So some more people finish their capstone this past week, and today.
+
+17
+00:01:36.240 --> 00:01:51.750
+Capstone Coach 1: So congratulations I think we're we're in the home run we're in the homestretch right now, they just have a few more to go, those of you that are waiting to present i'm sure you're anxious but you'll do you'll do fine i'm sure.
+
+18
+00:01:53.550 --> 00:01:59.490
+Capstone Coach 1: Now, if you go to the campus site which I can you see my screen all right right now.
+
+19
+00:02:01.230 --> 00:02:03.450
+Capstone Coach 1: Anybody got a verification okay good good.
+
+20
+00:02:04.650 --> 00:02:06.120
+Capstone Coach 1: I have a habit to start talking with.
+
+21
+00:02:08.010 --> 00:02:21.360
+Capstone Coach 1: Right, where is the there it is, I think yeah, this is it okay so we're going to go to Yankee campus and if you go in to week number 12 can you believe it we're in week 12.
+
+22
+00:02:22.230 --> 00:02:33.810
+Capstone Coach 1: Oh, my goodness April, the sixth we actually have about a month to go, so not much, but you'll see if you look in the week 12 folder you're going to see.
+
+23
+00:02:34.440 --> 00:02:45.300
+Capstone Coach 1: Several files i'm going to update this PowerPoint file because there's one thing I just added to the front of it so hang on just a second here i'm going to.
+
+24
+00:02:47.130 --> 00:02:50.010
+Capstone Coach 1: select a different file browse.
+
+25
+00:02:51.480 --> 00:02:53.640
+Capstone Coach 1: Let me make sure that I did save that off.
+
+26
+00:02:57.270 --> 00:02:57.720
+Capstone Coach 1: OK.
+
+27
+00:02:59.610 --> 00:03:01.230
+Capstone Coach 1: OK now let's save.
+
+28
+00:03:04.230 --> 00:03:05.430
+Capstone Coach 1: There we go alright.
+
+29
+00:03:07.950 --> 00:03:10.980
+Capstone Coach 1: So this will be titled week 12.
+
+30
+00:03:12.660 --> 00:03:13.260
+Capstone Coach 1: PowerPoint.
+
+31
+00:03:19.020 --> 00:03:19.530
+Capstone Coach 1: and
+
+32
+00:03:21.690 --> 00:03:35.520
+Capstone Coach 1: Okay, submit it's not a big file that's don't have a lot of slides but it's so i've kind of combined some things with slides and you'll what you'll want to download the the PowerPoint presentation.
+
+33
+00:03:36.300 --> 00:03:48.360
+Capstone Coach 1: or not it's up to you, of course, you'll also want to download these three files The first one is a data file the IBM weekly stock prices, since about 1989.
+
+34
+00:03:49.200 --> 00:03:57.480
+Capstone Coach 1: And we're going to be looking at several things tonight, one thing that we're going to spend some time on is the class project, and I know we've been.
+
+35
+00:03:57.870 --> 00:04:03.810
+Capstone Coach 1: sort of putting that off because of the capstones but it's time that we get serious about that.
+
+36
+00:04:04.800 --> 00:04:12.510
+Capstone Coach 1: Then we'll also be looking at the will start a lecture or two here on analysis of time series.
+
+37
+00:04:12.930 --> 00:04:20.430
+Capstone Coach 1: And how that can be done, and you have you've already had a course on time series analysis so some of this might be deja vu for you.
+
+38
+00:04:21.360 --> 00:04:32.790
+Capstone Coach 1: let's go to the let's go to the PowerPoint presentation first i'm going to open that up where is it there, it is okay So here we are on the slide number three.
+
+39
+00:04:33.450 --> 00:04:59.100
+Capstone Coach 1: and your assignment for week number 11 was to just experiment with the template that we had for fitting the analysis of images digital images using charisse and, in particular, you lose using the convolution features that are in kairos so, believe it or not, OK.
+
+40
+00:05:00.390 --> 00:05:00.630
+Capstone Coach 1: I will.
+
+41
+00:05:01.710 --> 00:05:08.790
+Capstone Coach 1: Let me show you what charisse will do to a professor, my goodness, look at all of these cases that I ran.
+
+42
+00:05:09.600 --> 00:05:21.570
+Capstone Coach 1: I was trying to see Okay, can I get this to zero, can I get this to zero misclassification there must be a way to get it to zero, I tried every combination.
+
+43
+00:05:21.990 --> 00:05:29.400
+Capstone Coach 1: I recorded the combinations and the number of miss classifications, and how long it took.
+
+44
+00:05:30.090 --> 00:05:36.810
+Capstone Coach 1: One of them here took like 37 minutes or 39 minutes, that was a coffee break or Bray breakfast i'm not sure why.
+
+45
+00:05:37.290 --> 00:05:47.190
+Capstone Coach 1: But you know I would get up and come in here and just say okay let's do this one let's do this one, and the best I could get it, the absolute best.
+
+46
+00:05:47.670 --> 00:06:06.390
+Capstone Coach 1: Was zero misclassification is on the training data and only 55 and the validation data so that that gave you 100% accuracy for the training data and an accuracy of 99.5%.
+
+47
+00:06:07.050 --> 00:06:18.960
+Capstone Coach 1: For the validation data, but I couldn't get that last half a percent I tried, so let me ask a question did anybody get 00 am I, the only one.
+
+48
+00:06:20.010 --> 00:06:20.460
+I know.
+
+49
+00:06:21.690 --> 00:06:22.830
+Capstone Coach 1: So what do you got zero.
+
+50
+00:06:24.390 --> 00:06:24.870
+Swanson J, Charles: No.
+
+51
+00:06:25.680 --> 00:06:26.280
+Monica A. Harwig: No, no.
+
+52
+00:06:26.370 --> 00:06:28.710
+Capstone Coach 1: either no me no not in the.
+
+53
+00:06:28.860 --> 00:06:31.440
+Capstone Coach 1: Not in both the training and I didn't think so.
+
+54
+00:06:33.480 --> 00:06:34.050
+Capstone Coach 1: huh.
+
+55
+00:06:35.250 --> 00:06:35.880
+Capstone Coach 1: yeah.
+
+56
+00:06:36.000 --> 00:06:40.020
+Zuberi, Bilal: Only in training, but um it's a guess maybe there is some.
+
+57
+00:06:41.190 --> 00:06:45.360
+Zuberi, Bilal: Some population in the training data that is so.
+
+58
+00:06:45.540 --> 00:06:46.530
+Capstone Coach 1: so slow I.
+
+59
+00:06:47.220 --> 00:06:48.690
+Zuberi, Bilal: validation can be go.
+
+60
+00:06:49.680 --> 00:07:00.180
+Capstone Coach 1: There is another approach and i'm going to give that a try once we talk about what that approaches, but it's using a different kind of neural network here we're using convolution.
+
+61
+00:07:01.110 --> 00:07:09.210
+Capstone Coach 1: The first part of it is convolution so my best scenario that the best scenario that I found was right here.
+
+62
+00:07:09.720 --> 00:07:20.130
+Capstone Coach 1: And what I did was I put 64 a size is a neural network of 64 with a three by three template.
+
+63
+00:07:20.640 --> 00:07:36.420
+Capstone Coach 1: Not template but it's called a filter three by three filter to shrink the images smoothie images convolution is basically a process for shrinking and smoothing smoothing the images, so that you get down to something smaller that the.
+
+64
+00:07:36.900 --> 00:07:50.550
+Capstone Coach 1: nlp network, the neural network can process, so the the best that I found was 64 on the first convolution followed by a pooling Max Max pooling of to.
+
+65
+00:07:51.060 --> 00:08:03.570
+Capstone Coach 1: followed by another 64 with a three by three filter and then a Max pooling of two I believe I also used l one it's not shown here, but I believe.
+
+66
+00:08:04.320 --> 00:08:08.820
+Capstone Coach 1: I believe I might have used the one that is the regularization let me check.
+
+67
+00:08:09.960 --> 00:08:15.300
+Capstone Coach 1: rinse so many of these cases all right all right, no I didn't use any regularization on that.
+
+68
+00:08:16.740 --> 00:08:26.610
+Capstone Coach 1: Although if you do some regularization it's, not that I use the the Alpha delta optimizer which seemed to work better for me.
+
+69
+00:08:27.210 --> 00:08:37.170
+Capstone Coach 1: And I used to set the random seed to 1234 or five, of course, and I did use regularization in the nlp part of the of the.
+
+70
+00:08:37.680 --> 00:08:48.960
+Capstone Coach 1: neural network, and so you know the way this is set up, and if you look at the here we go if you look at the description and the powerpoints is slide number three, I think that is.
+
+71
+00:08:49.590 --> 00:09:03.480
+Capstone Coach 1: you'll see that it's can convolution pool convolution pool and what happens is during the convolution part basically what you're doing is you're smoothing the image, by using a three by three filter.
+
+72
+00:09:03.870 --> 00:09:11.940
+Capstone Coach 1: And you're getting rid of the edge so originally it was 28 by 28 after the first convolution it goes to 26.
+
+73
+00:09:12.510 --> 00:09:22.020
+Capstone Coach 1: And then, when you do the pooling operation using a two by two filter you you cut the the the width and the height and half so.
+
+74
+00:09:22.770 --> 00:09:37.290
+Capstone Coach 1: 26 divided by two and be 13 so i'm now the images is smaller it's down to 13 and then we smooth it once more getting rid of the little gravity edges and we get down to 11.
+
+75
+00:09:37.860 --> 00:09:48.360
+Capstone Coach 1: And then we pull it again, which means we take half of 11 would be five or six but they use fi and so that's the convolution part right there.
+
+76
+00:09:49.740 --> 00:09:57.870
+Capstone Coach 1: One convolution one pool one convolution one pool, and then you have to flatten it out, which means, instead of having a tensor which is.
+
+77
+00:09:58.380 --> 00:10:12.630
+Capstone Coach 1: A three dimensional object really three dimensional not be array is what it is, you can see here it's a five by five by 64 I said of passing that to the nlp neural network which is right down here.
+
+78
+00:10:13.650 --> 00:10:23.970
+Capstone Coach 1: You can't do that if you don't flatten you get in there and and the arrow says what are you doing to me i'm expecting a one dimensional object here tense or have one dimensions.
+
+79
+00:10:24.300 --> 00:10:29.310
+Capstone Coach 1: And you're giving me something with three divergence so it'll it'll complain and stop.
+
+80
+00:10:30.060 --> 00:10:42.750
+Capstone Coach 1: If you take five times five times 64 you get 1600 inputs, so when they do the flattening operation what they're doing is taking the image and stringing all of the pixels that are remaining.
+
+81
+00:10:43.230 --> 00:10:54.390
+Capstone Coach 1: All the modification modified pixels really that are remaining and there are 1600 of them and then putting that into a neural network with 300% stronger than the first layer
+
+82
+00:10:55.590 --> 00:11:05.580
+Capstone Coach 1: And since it's dense they're connected all 1600 inputs, which means you got a bunch of weights look at that 480,000 300 weights.
+
+83
+00:11:05.910 --> 00:11:11.820
+Capstone Coach 1: In that first hidden layer This is where all of the gymnastics or the heavy lifting is coming right in there.
+
+84
+00:11:12.180 --> 00:11:22.590
+Capstone Coach 1: And then I put in a second hand that hidden layer with the only with a fewer number of precept ron's So there you have 300 times 100 which is 30,000.
+
+85
+00:11:23.040 --> 00:11:34.500
+Capstone Coach 1: Plus 100 bias terms for each of the weights in this hidden layer and, finally, you get down to the categorical output there 10 different digits and.
+
+86
+00:11:35.040 --> 00:11:49.470
+Capstone Coach 1: right here you're putting that together, using the socks soft Max activation in this last case, and so the total number of parameters there's over half a million, but.
+
+87
+00:11:50.220 --> 00:12:00.240
+Capstone Coach 1: It took about 11 minutes to run this and, at the end of 11 minutes I got zero misclassification on the training and like I said 55.
+
+88
+00:12:00.810 --> 00:12:13.980
+Capstone Coach 1: On the other, I am going to be very curious if somebody can get the same thing on windows, or whatever you're using if anybody runs is if anybody is able to get the same scenario.
+
+89
+00:12:15.030 --> 00:12:19.080
+Capstone Coach 1: Quality output zero and 55 send me an email.
+
+90
+00:12:20.280 --> 00:12:27.870
+Capstone Coach 1: i'd like to know what you did like I said I was getting really frustrated because i've done these sorts of things often and.
+
+91
+00:12:28.620 --> 00:12:34.020
+Capstone Coach 1: I usually can get down to zero by some trickery or something like that, but not this time.
+
+92
+00:12:34.950 --> 00:12:53.160
+Capstone Coach 1: So I, there is another solution and we're going to be talking about recurrent neural networks starting this week, mostly that starting next week and that might actually do the trick we'll see I don't know, but this is about as good as I can get it.
+
+93
+00:12:54.120 --> 00:12:55.680
+Capstone Coach 1: In any questions or comments.
+
+94
+00:12:55.920 --> 00:13:04.680
+Swanson J, Charles: Dr Jones this is Charles was able to get it to five a miss classifications on training and.
+
+95
+00:13:05.760 --> 00:13:08.610
+Swanson J, Charles: Miss classifications on validation.
+
+96
+00:13:08.730 --> 00:13:09.180
+Capstone Coach 1: mm hmm.
+
+97
+00:13:11.490 --> 00:13:15.990
+Swanson J, Charles: So I did better on the validation and it took 10 minutes.
+
+98
+00:13:17.490 --> 00:13:26.520
+Capstone Coach 1: Well that's that's that's interesting because I didn't get anything below 55 for the validation data and you got you got 54 you say.
+
+99
+00:13:26.790 --> 00:13:31.500
+Capstone Coach 1: Correct that's interesting well send me the send me those conditions, I like to see that.
+
+100
+00:13:33.480 --> 00:13:34.710
+Capstone Coach 1: yeah appreciate it.
+
+101
+00:13:35.880 --> 00:13:52.290
+Capstone Coach 1: Of course there are anomalies there you know there's there's some magic and weird things that happen when you go between Max and windows, we all know that so though I wouldn't expect that somebody actually did much better than this, I wouldn't be surprised.
+
+102
+00:13:53.670 --> 00:13:54.390
+Capstone Coach 1: Okay.
+
+103
+00:13:55.440 --> 00:14:02.910
+Capstone Coach 1: Well, that was her That was my That was my fun thing you know i've been good getting kind of goofy around here with my wife.
+
+104
+00:14:03.570 --> 00:14:10.380
+Capstone Coach 1: Well, not with my wife, but I mean she's the goofy one because she's working here at home also and.
+
+105
+00:14:10.860 --> 00:14:23.550
+Capstone Coach 1: She really needs to get out, you know she really needs to take a walk outside or less she actually does that she goes to the gym two or three times a day but it doesn't seem to be enough she's.
+
+106
+00:14:24.600 --> 00:14:39.600
+Capstone Coach 1: she's having some stresses us, I think, with work and and just it's just being cooked up right not being able to just have coffee with your friends and things like that, at work and things like that so anyway well let's go on tonight.
+
+107
+00:14:40.680 --> 00:14:43.020
+Capstone Coach 1: If you have some questions, please let me know.
+
+108
+00:14:46.920 --> 00:14:51.840
+Capstone Coach 1: Wait a minute I spelled convolution wrong i'm a bad guy seal and the.
+
+109
+00:14:52.860 --> 00:15:05.070
+Capstone Coach 1: O l you a convolution right Thank you um let's go on to slide number four and the first thing we're going to do tonight is talk about.
+
+110
+00:15:06.090 --> 00:15:19.440
+Capstone Coach 1: That a the class projects, so I in the next in these three slides four or five and six, I put your name in here somewhere now if you don't find your name in here, let me know.
+
+111
+00:15:19.920 --> 00:15:30.720
+Capstone Coach 1: Because this is what I have on my records is that I have your name, so I have you assigned to you know you volunteered created your own group, so to speak.
+
+112
+00:15:31.620 --> 00:15:40.050
+Capstone Coach 1: And so what we're going to do, then, is we're going to go over this and then i'm going to give you guys time to get together.
+
+113
+00:15:40.740 --> 00:15:48.960
+Capstone Coach 1: your team get together and and take this information that I have to the next level man you're going to see that in some cases.
+
+114
+00:15:49.560 --> 00:16:00.300
+Capstone Coach 1: The information was provided was really very good very professional but in many cases, I think the thought was let's let's just put some good idea down.
+
+115
+00:16:00.930 --> 00:16:12.360
+Capstone Coach 1: And let's see the good ideas good enough and then for the most part, I would say this, all of the ideas were great the only concern I have is scope.
+
+116
+00:16:13.620 --> 00:16:28.320
+Capstone Coach 1: Some of the ideas looked sounded like they might take more time than we have in this class and they certainly in my opinion, go beyond what I would have expected you to do now, if you want to do that hey i'm all for it.
+
+117
+00:16:29.370 --> 00:16:32.730
+Capstone Coach 1: But we do have a month ago, one of the first.
+
+118
+00:16:34.560 --> 00:16:44.970
+Capstone Coach 1: Project presentations will be on Thursday Tuesday April 27 I believe that's let me double check make sure i've got that date right, yes, that would be.
+
+119
+00:16:45.540 --> 00:16:53.790
+Capstone Coach 1: April, the 27th so approximately half of a you're going to be doing your class presentations on April 27.
+
+120
+00:16:54.420 --> 00:17:05.100
+Capstone Coach 1: And then the other half will be doing them on May, the fourth approximately half i'm not i'm not sure whether it's going to be 5050 or 3070 or what have you.
+
+121
+00:17:05.580 --> 00:17:17.160
+Capstone Coach 1: we're going to play this year but that's The idea is that the there was no, there is no final exam and so may the fourth, I think, is the day that we had scheduled for our final exam.
+
+122
+00:17:17.490 --> 00:17:21.900
+Capstone Coach 1: So i'm going to use that for part of our presentations at least.
+
+123
+00:17:22.830 --> 00:17:33.660
+Capstone Coach 1: Then I will be getting you know getting your grades in shortly after that, like the next day, so that that's my plan right now So here we are, in April, the six.
+
+124
+00:17:34.020 --> 00:17:43.080
+Capstone Coach 1: That means that we have 123 more classes basically three more classes before today, including today right.
+
+125
+00:17:43.470 --> 00:17:49.890
+Capstone Coach 1: After today only two classes and then we'll have our presentations on the 27th so it's coming up really quick.
+
+126
+00:17:50.520 --> 00:17:57.870
+Capstone Coach 1: Those of you that haven't gotten very far about about your thinking here on this project need to kind of get that going.
+
+127
+00:17:58.500 --> 00:18:16.110
+Capstone Coach 1: Now I wouldn't be too afraid about this because, maybe my expectations in terms of your effort here is that this is going to be the equivalent of maybe one to two homework projects right so let's talk about this okay amanda are you here.
+
+128
+00:18:20.160 --> 00:18:21.000
+Capstone Coach 1: hola amanda.
+
+129
+00:18:22.560 --> 00:18:23.700
+Amanda DePelsMaeker: Sorry eating dinner.
+
+130
+00:18:24.270 --> 00:18:31.140
+Capstone Coach 1: No that's Okay, you were probably I don't know what but yeah so your teammate amanda.
+
+131
+00:18:32.280 --> 00:18:36.840
+Capstone Coach 1: And you you, you did your capstone right.
+
+132
+00:18:37.320 --> 00:18:39.750
+Capstone Coach 1: yeah congratulate you, everybody.
+
+133
+00:18:39.750 --> 00:18:46.080
+Capstone Coach 1: be a big congratulations for amanda i'm going to give her a big PR she did a fantastic job.
+
+134
+00:18:47.340 --> 00:18:50.550
+Capstone Coach 1: Dr hale was like doing hand the hand flips.
+
+135
+00:18:51.900 --> 00:18:55.260
+Capstone Coach 1: It couldn't say enough good things about your presentation so.
+
+136
+00:18:56.760 --> 00:19:00.480
+Capstone Coach 1: Congratulations on getting it over and travis Smith, are you here.
+
+137
+00:19:03.330 --> 00:19:03.780
+Travis Smith: Sir.
+
+138
+00:19:04.080 --> 00:19:06.180
+Capstone Coach 1: Okay, good and travis torque.
+
+139
+00:19:08.130 --> 00:19:11.730
+Capstone Coach 1: I believe, is how you smell that smell, I say that I don't know.
+
+140
+00:19:12.630 --> 00:19:24.060
+Capstone Coach 1: Okay okay thanks travis alright, so what you wrote down was you'd like to do a sentiment analysis on recent news stories for selected corporations and news agencies and.
+
+141
+00:19:25.140 --> 00:19:45.510
+Capstone Coach 1: yeah what I think we need to do here is to flush this out a little bit is I wrote down on the right more details are required some clear where the articles will be coming from and what i'm recommending is that you target specific news agencies and probably only a few of those now.
+
+142
+00:19:46.830 --> 00:20:05.610
+Capstone Coach 1: i'm not sure what your intention here is, I think it might be to compare the sentiment of different you know very different agencies for, for example, maybe msnbc maybe CNN on one end and then Fox, on the other, hands, and there are a few others on that other end.
+
+143
+00:20:06.780 --> 00:20:13.950
+Capstone Coach 1: So I would take one agency from each end of the political spectrum, so to speak, and and.
+
+144
+00:20:14.550 --> 00:20:22.320
+Capstone Coach 1: and focus on that agency, maybe just two agencies now which 1am I going to choose i'm going to choose the one that I can get the articles from.
+
+145
+00:20:22.860 --> 00:20:40.410
+Capstone Coach 1: Because you forgot to get the text from you've got to get the article access to the articles and you've got to get the text on that now, some of them if they don't make it free right, so you said you so take a look at that I would choose to agencies that have.
+
+146
+00:20:41.850 --> 00:20:49.080
+Capstone Coach 1: Easy access to a lot of different articles right now I don't watch I try not to watch the news.
+
+147
+00:20:49.470 --> 00:21:01.500
+Capstone Coach 1: But when I do, I hear some you know the same old stuff we're not going through the election anymore, but there's certainly a lot of stuff going on the news ways that this air news, whatever that.
+
+148
+00:21:02.100 --> 00:21:13.230
+Capstone Coach 1: You know these guys these in reporters are churning the mill trying to get people to watch their their podcasts and you know saying a lot of things to get people excited.
+
+149
+00:21:13.650 --> 00:21:24.270
+Capstone Coach 1: So there's certainly a lot of other words there's plenty out there for you to work with so we're going to we're going to take a break here just a second and what i'd like the three of you to do is to get together.
+
+150
+00:21:25.650 --> 00:21:34.800
+Capstone Coach 1: Now you can get together on zoom you can get together on go I don't care how you get together it's up to you three you could have a conference call on your cell phone So if you want to check.
+
+151
+00:21:35.430 --> 00:21:44.820
+Capstone Coach 1: And what i'd like you to do is to get more detail, I was i'm going to come back to you in about an hour or so and ask for more detail, so what what agencies.
+
+152
+00:21:46.080 --> 00:21:50.040
+Capstone Coach 1: What are you are you going to do this in a gooey what I mean what are you going to do here right.
+
+153
+00:21:51.120 --> 00:21:55.230
+Capstone Coach 1: um any questions on that amanda travis travis.
+
+154
+00:21:58.590 --> 00:21:59.010
+Okay.
+
+155
+00:22:00.930 --> 00:22:12.210
+Capstone Coach 1: Also, as far as my recording is concerned yeah your team a, and so I will record the grades, and the comments and everything under that under that heading.
+
+156
+00:22:15.360 --> 00:22:19.620
+Capstone Coach 1: Oh, my notebook alright TB is or mafia.
+
+157
+00:22:21.420 --> 00:22:33.090
+Capstone Coach 1: You know I can't pronounce i'm gonna mess that up, but I know you're supposed to rowley are when you have a double are so that's a really cool name and then jake are you hear her mom oh.
+
+158
+00:22:33.390 --> 00:22:35.040
+Capstone Coach 1: Yes, Sir Okay, thank you.
+
+159
+00:22:36.060 --> 00:22:37.140
+Capstone Coach 1: jake are you here.
+
+160
+00:22:40.470 --> 00:22:42.030
+Capstone Coach 1: And George McKenna.
+
+161
+00:22:43.530 --> 00:22:44.100
+McKenna, George: i'm here.
+
+162
+00:22:45.120 --> 00:22:46.050
+Jacob Josephson: This is jake i'm here.
+
+163
+00:22:46.350 --> 00:22:47.160
+Capstone Coach 1: So thanks jake.
+
+164
+00:22:47.490 --> 00:22:57.750
+Capstone Coach 1: Okay cuz, I would like you to do the same thing get together now basically I really like your idea here Oh, this is so cool you're going to extend assignments.
+
+165
+00:22:58.530 --> 00:23:11.730
+Capstone Coach 1: very astute Okay, this is not going to be rocket science, in other words you already have a platform to work from and what you're going to do is you're going to add some features to that week to gooey.
+
+166
+00:23:12.000 --> 00:23:18.600
+Capstone Coach 1: I love it great idea, the scope is of is is right, and in terms of what i'm thinking of.
+
+167
+00:23:19.650 --> 00:23:38.790
+Capstone Coach 1: Is that you basically take something that we do in class and extend that a little bit that's perfect and I think you can do that, within the time frame we've got on the board, so if you three could give it could bow and add some meat to this description I would appreciate it okay.
+
+168
+00:23:40.410 --> 00:23:46.140
+Capstone Coach 1: um now satyam gupta and David perkiness.
+
+169
+00:23:47.580 --> 00:23:50.700
+Capstone Coach 1: What I have here, I hope, you're here suddenly another year okay.
+
+170
+00:23:51.360 --> 00:24:09.000
+Capstone Coach 1: Here oh fantastic create a good way to conduct time series analysis of sales for six to 12 months, well, I really like this, but i'm concerned about the scope, because I don't know where the data is coming from, I think, maybe a summary of your capstone data where's the data coming from.
+
+171
+00:24:12.240 --> 00:24:14.850
+Purkiss, David: Yes, this is a sack yum's.
+
+172
+00:24:16.140 --> 00:24:17.880
+Purkiss, David: project I think he's on.
+
+173
+00:24:19.440 --> 00:24:21.000
+Capstone Coach 1: He said I already say yeah.
+
+174
+00:24:24.690 --> 00:24:25.470
+Capstone Coach 1: Can you hear me.
+
+175
+00:24:26.550 --> 00:24:29.580
+Capstone Coach 1: Barely it sounds like you're like the end of a long time.
+
+176
+00:24:29.940 --> 00:24:31.830
+Satyam: Okay um how about now.
+
+177
+00:24:32.160 --> 00:24:33.330
+Capstone Coach 1: Better better.
+
+178
+00:24:33.570 --> 00:24:50.700
+Satyam: So yeah the data is coming from my capstone project, so I mean, as I had mentioned in my capstone as well, might I was there I was trying to kill two birds with one stone So yes, I have the data it's a forecasting problem, so the idea is to develop the July to.
+
+179
+00:24:50.850 --> 00:24:54.240
+Capstone Coach 1: You know, make it do you have the date like do you have the data now.
+
+180
+00:24:54.630 --> 00:24:55.530
+Satyam: Yes, yes, I do.
+
+181
+00:24:56.280 --> 00:24:57.930
+Capstone Coach 1: Have you given it to George.
+
+182
+00:24:59.310 --> 00:25:00.270
+Satyam: George.
+
+183
+00:25:01.170 --> 00:25:07.650
+Capstone Coach 1: David i'm sorry i'm sorry i'm on my oh my God Okay, I need bigger font.
+
+184
+00:25:08.370 --> 00:25:09.030
+Purkiss, David: saver so.
+
+185
+00:25:10.410 --> 00:25:12.210
+Purkiss, David: Why have we have collaborated.
+
+186
+00:25:12.570 --> 00:25:13.020
+Little.
+
+187
+00:25:14.460 --> 00:25:16.800
+Capstone Coach 1: You feel good about getting started on this.
+
+188
+00:25:19.020 --> 00:25:20.160
+Satyam: I I do, I mean.
+
+189
+00:25:20.220 --> 00:25:20.670
+Capstone Coach 1: As a.
+
+190
+00:25:21.390 --> 00:25:21.930
+Satyam: lap dog.
+
+191
+00:25:22.050 --> 00:25:25.380
+Capstone Coach 1: What I want, I want you and David to do is get together.
+
+192
+00:25:25.680 --> 00:25:28.770
+Capstone Coach 1: And power on this about who's going to be doing what when.
+
+193
+00:25:29.250 --> 00:25:34.920
+Capstone Coach 1: Okay, because you like, I said after tonight you've only got like a little over two weeks.
+
+194
+00:25:36.270 --> 00:25:39.150
+Capstone Coach 1: So you really need to get that wheel going.
+
+195
+00:25:39.990 --> 00:25:44.250
+Capstone Coach 1: This weekend, for this kind of thing, especially because.
+
+196
+00:25:45.630 --> 00:25:57.180
+Capstone Coach 1: i'm not sure if you're planning on you, you say, create a gooey this this this particular thing conduct time series analysis of sales, by the way, that's the topic of our lecture tonight is time series analysis.
+
+197
+00:25:57.570 --> 00:25:58.650
+Satyam: I saw that so I.
+
+198
+00:25:58.650 --> 00:25:59.640
+Capstone Coach 1: very timely.
+
+199
+00:25:59.910 --> 00:26:00.720
+Capstone Coach 1: very timely.
+
+200
+00:26:00.750 --> 00:26:02.130
+Satyam: Exactly but.
+
+201
+00:26:02.760 --> 00:26:20.070
+Satyam: So there were like yes, I have been looking into the you know arima models from SBA loan, but there is also a Facebook profit, you know library, which helps you it's it's not exactly time series analysis, but it does do the same thing same forecasting so.
+
+202
+00:26:20.550 --> 00:26:22.740
+Satyam: Good to show the comparison basically.
+
+203
+00:26:22.770 --> 00:26:27.480
+Capstone Coach 1: Maybe Maybe you can take a part of what you're doing, and not the whole enchilada.
+
+204
+00:26:27.690 --> 00:26:28.530
+Capstone Coach 1: You know what I mean.
+
+205
+00:26:30.120 --> 00:26:32.760
+Capstone Coach 1: Make make a long shot of instead of a full course meal.
+
+206
+00:26:34.560 --> 00:26:44.040
+Capstone Coach 1: And just focus on some some some narrower aspect of this so that you can get it done in the time frame sure all right good i'm looking forward to seeing that Raphael.
+
+207
+00:26:44.700 --> 00:26:49.860
+Capstone Coach 1: Yes, Sir Okay, is this bill on bro.
+
+208
+00:26:50.250 --> 00:26:52.410
+Alejandro Chacon: Yes, hey Sally handle wise.
+
+209
+00:26:52.530 --> 00:26:53.760
+Capstone Coach 1: it's not smell greater.
+
+210
+00:26:53.850 --> 00:26:58.710
+Capstone Coach 1: Yes, I got this off of your report, you that spelling.
+
+211
+00:27:01.980 --> 00:27:02.100
+Capstone Coach 1: So.
+
+212
+00:27:02.130 --> 00:27:04.110
+Capstone Coach 1: How do I spell it be.
+
+213
+00:27:04.200 --> 00:27:05.580
+Capstone Coach 1: A and.
+
+214
+00:27:05.700 --> 00:27:06.090
+Alejandro Chacon: He.
+
+215
+00:27:06.780 --> 00:27:09.600
+Capstone Coach 1: will hang on a ll.
+
+216
+00:27:11.280 --> 00:27:11.610
+Alejandro Chacon: E.
+
+217
+00:27:12.870 --> 00:27:14.310
+Capstone Coach 1: ir ECHO.
+
+218
+00:27:14.820 --> 00:27:16.230
+Capstone Coach 1: Yes, he.
+
+219
+00:27:17.040 --> 00:27:23.550
+Alejandro Chacon: gay or and D right we out be, we are in, there you have to delete the be in the facts.
+
+220
+00:27:23.640 --> 00:27:25.410
+Capstone Coach 1: Okay, oh.
+
+221
+00:27:26.070 --> 00:27:27.810
+Alejandro Chacon: No, no, a.
+
+222
+00:27:27.990 --> 00:27:34.470
+Alejandro Chacon: Donna, a, but you have to defend it, they be in the beginning yeah the star.
+
+223
+00:27:36.000 --> 00:27:36.780
+Capstone Coach 1: Oh, that one.
+
+224
+00:27:37.110 --> 00:27:37.440
+Capstone Coach 1: yeah.
+
+225
+00:27:37.830 --> 00:27:38.280
+Oh, my.
+
+226
+00:27:40.110 --> 00:27:40.440
+Capstone Coach 1: Goodness.
+
+227
+00:27:40.590 --> 00:27:42.000
+Okay, how did this happen.
+
+228
+00:27:44.670 --> 00:27:46.470
+Capstone Coach 1: Oh la who've worked this.
+
+229
+00:27:47.970 --> 00:27:48.600
+Capstone Coach 1: record.
+
+230
+00:27:49.050 --> 00:27:54.810
+Capstone Coach 1: I mean, now that was a danger that was a one of the worst mangles.
+
+231
+00:27:56.670 --> 00:27:57.600
+Capstone Coach 1: I apologize.
+
+232
+00:28:01.050 --> 00:28:05.880
+Capstone Coach 1: I was looking at that, and I said no, no i've never seen that before.
+
+233
+00:28:07.530 --> 00:28:10.290
+Kilani, Shadi: what's the worst mango better forth itself or just the name.
+
+234
+00:28:11.610 --> 00:28:13.110
+Capstone Coach 1: Just the name well both.
+
+235
+00:28:13.170 --> 00:28:19.680
+Capstone Coach 1: But i'm really bad at pronouncing names and other things you know so yeah.
+
+236
+00:28:20.700 --> 00:28:36.540
+Capstone Coach 1: And I do apologize for that, but that's just not what it's just I don't know there's I have certain limitations and that's one of them, you know, I have a limitation to that, I can tell you a lot, you probably know already Okay, first of all i'm very bad with faces.
+
+237
+00:28:38.820 --> 00:28:45.810
+Capstone Coach 1: I can't remember faces and I can almost as bad with names so apologize.
+
+238
+00:28:47.130 --> 00:28:48.990
+Capstone Coach 1: shadi are you here.
+
+239
+00:28:50.610 --> 00:28:51.030
+Kilani, Shadi: Yes, sir.
+
+240
+00:28:51.090 --> 00:28:56.460
+Capstone Coach 1: Right Okay, thank you, thank you so like the three of you to get together to talk about stock ui assignment.
+
+241
+00:28:57.150 --> 00:29:06.810
+Capstone Coach 1: you're going to use profit from Facebook now I don't have anything against that I just don't know what it is so again i'm just more details let's make sure.
+
+242
+00:29:07.170 --> 00:29:17.490
+Capstone Coach 1: That you can get this done within the next two or three weeks Okay, so what i'd like you to do is to power on and come back and give me some more detail, especially who's going to be doing one.
+
+243
+00:29:20.340 --> 00:29:23.670
+Robert Villegas: it's pretty much we've got a working doing already on it.
+
+244
+00:29:24.060 --> 00:29:24.840
+Capstone Coach 1: Oh, you do.
+
+245
+00:29:25.080 --> 00:29:30.960
+Robert Villegas: Yes, drop profit is a you know allows us to do some of the time series like forecasting for stocks.
+
+246
+00:29:32.040 --> 00:29:39.000
+Robert Villegas: Every you select a stock it'll display most likely what the stock will do over the next few days, based on what it's been doing.
+
+247
+00:29:39.360 --> 00:29:41.700
+Capstone Coach 1: Does it work yeah what.
+
+248
+00:29:41.970 --> 00:29:44.610
+Robert Villegas: We haven't tried it yet, but that's our next step.
+
+249
+00:29:45.210 --> 00:29:45.690
+yeah.
+
+250
+00:29:47.610 --> 00:29:53.250
+Capstone Coach 1: Fantastic Maybe you can give me a copy of it if you can have a screenshot or something like that.
+
+251
+00:29:53.460 --> 00:29:54.060
+Robert Villegas: Here yeah.
+
+252
+00:29:54.360 --> 00:30:01.200
+Capstone Coach 1: Sure yeah and that'll be nice to see that okay Christian Luke and Benjamin.
+
+253
+00:30:02.610 --> 00:30:03.720
+Christian Gover: Here, and this is Christian.
+
+254
+00:30:05.790 --> 00:30:06.660
+McKinney, Luke: luke's here.
+
+255
+00:30:07.290 --> 00:30:09.540
+Benny Horowitz: Okay, any city.
+
+256
+00:30:09.600 --> 00:30:20.820
+Capstone Coach 1: Okay fantastic everybody's here tonight alright, so you want to use zillow and the Comet I had, I thought I heard on the losers, so it was closed down.
+
+257
+00:30:23.160 --> 00:30:36.420
+Christian Gover: yeah so the the pie zillow API it looks like it was decommission because people weren't using it excessively or abusing it so he looked for another realtor realtor API.
+
+258
+00:30:36.570 --> 00:30:39.810
+Christian Gover: worker, so we have that option now.
+
+259
+00:30:40.290 --> 00:30:42.120
+Capstone Coach 1: So, have you found an alternative.
+
+260
+00:30:42.870 --> 00:30:46.530
+Christian Gover: yeah the realtor.com API they have an API there.
+
+261
+00:30:47.190 --> 00:30:52.740
+Capstone Coach 1: Okay, so you're going to use the changes right now realtor.com yep.
+
+262
+00:30:53.910 --> 00:30:56.130
+Capstone Coach 1: What happened to zero so.
+
+263
+00:30:57.150 --> 00:31:03.270
+Christian Gover: yeah that's what we had before originally but we didn't know that it was decommissioned, at least the API.
+
+264
+00:31:03.690 --> 00:31:04.740
+Capstone Coach 1: yeah i'm shocked.
+
+265
+00:31:05.040 --> 00:31:06.180
+Christian Gover: zillow still there.
+
+266
+00:31:06.450 --> 00:31:08.400
+Capstone Coach 1: i'm really shocked whoa that is.
+
+267
+00:31:08.880 --> 00:31:12.750
+Christian Gover: yeah yeah the zillow website still there it's just the API they took it.
+
+268
+00:31:12.750 --> 00:31:16.140
+Capstone Coach 1: All because i'd heard on the news that they were going out of business or.
+
+269
+00:31:16.320 --> 00:31:18.210
+Christian Gover: Like they're shut down or no are they.
+
+270
+00:31:18.750 --> 00:31:20.730
+Capstone Coach 1: Okay, well, I don't know I mean this.
+
+271
+00:31:20.850 --> 00:31:29.580
+Capstone Coach 1: rumor has it you can't trust any news nowadays, so all you can do out of the rumor has it I heard it on the news okay.
+
+272
+00:31:30.270 --> 00:31:33.690
+Christian Gover: yeah so we, we want to protest taxes right, so we.
+
+273
+00:31:33.690 --> 00:31:34.650
+Capstone Coach 1: Re okay.
+
+274
+00:31:35.340 --> 00:31:35.700
+Capstone Coach 1: If you.
+
+275
+00:31:35.730 --> 00:31:41.370
+Capstone Coach 1: could please give me give you guys power on and then we'll get back and get get this updated.
+
+276
+00:31:42.000 --> 00:31:44.100
+Capstone Coach 1: Okay, and but why are you here.
+
+277
+00:31:44.670 --> 00:31:45.360
+Zuberi, Bilal: Yes, sir.
+
+278
+00:31:45.540 --> 00:31:48.810
+Capstone Coach 1: Okay, and Jim Clark and clay, are all here to.
+
+279
+00:31:49.620 --> 00:31:51.030
+Capstone Coach 1: Answer Okay, thank you.
+
+280
+00:31:51.180 --> 00:32:01.950
+Capstone Coach 1: If you wanted to get in the gooey gone to display alternate view of this, the same similar sort of thing to number a there to amanda's group where you're you're going to look at some.
+
+281
+00:32:02.610 --> 00:32:12.150
+Capstone Coach 1: newscasts from polarized political agencies and you're going to have I saw the gooey it's nice so it's just unclear about.
+
+282
+00:32:12.720 --> 00:32:15.630
+Capstone Coach 1: What agencies, you want to use, and how are you going to get the articles.
+
+283
+00:32:16.080 --> 00:32:34.740
+Capstone Coach 1: To cover to cover two extreme viewpoints so for you mentioned that you're going to have like a bullet list of viewpoints of of topics rather you click on topic and it shows you to extreme viewpoints and so can you clarify for that clarify those issues for me tonight, if you can.
+
+284
+00:32:35.520 --> 00:32:35.970
+Zuberi, Bilal: Yes, sir.
+
+285
+00:32:36.210 --> 00:32:44.940
+Capstone Coach 1: Okay, great all right let's go to slide all right, those of you that are on this slide you guys can get some search to work together, if you if you'd like yeah.
+
+286
+00:32:45.780 --> 00:32:57.840
+Capstone Coach 1: And we're going to get back together here and it looks like what we're going to get back together is about 730 let's let's shoot for 730 i'm about an hour from now.
+
+287
+00:32:59.250 --> 00:32:59.760
+Okay.
+
+288
+00:33:00.930 --> 00:33:05.580
+Kilani, Shadi: To, just to clarify, we should break out into smaller groups and discuss this.
+
+289
+00:33:05.610 --> 00:33:06.480
+Capstone Coach 1: Yes, Sir yeah.
+
+290
+00:33:07.500 --> 00:33:08.700
+Kilani, Shadi: Coming back at 730.
+
+291
+00:33:09.060 --> 00:33:09.570
+Capstone Coach 1: Yes, sir.
+
+292
+00:33:09.990 --> 00:33:10.410
+Kilani, Shadi: Thank you, Sir.
+
+293
+00:33:10.620 --> 00:33:22.200
+Capstone Coach 1: appreciate it yeah no second we have charisse and I know she's what she's working on constructing a ui with Radio buttons and it's a great idea.
+
+294
+00:33:23.700 --> 00:33:26.580
+Capstone Coach 1: But i'm a little bit again i'm a little bit worried about scope.
+
+295
+00:33:27.990 --> 00:33:41.910
+Capstone Coach 1: Why don't you guys power, a little bit talk about who's going to do what, and in particular what the scope of your projects going to be Maybe you can think about how to limit it to one or two topics and for this project right.
+
+296
+00:33:43.440 --> 00:33:47.070
+Capstone Coach 1: Okay, Monica and one and kieran freeman.
+
+297
+00:33:48.120 --> 00:33:54.000
+Capstone Coach 1: You want to extend the two friend gui that we had in Class two three frames great idea.
+
+298
+00:33:55.980 --> 00:34:06.780
+Capstone Coach 1: You know you're gonna have to use the fall whole screen, you might have to change the resolution and get down to where you can get three of them and that sounds like a fantastic idea of the scope would be.
+
+299
+00:34:07.350 --> 00:34:20.370
+Capstone Coach 1: Reasonable very reasonable, so instead of just having two graphs which be like volume and price, you might have volume price and what was I forget the other thing that we had the data that we had there.
+
+300
+00:34:22.830 --> 00:34:34.410
+Capstone Coach 1: Well, anyway, I like your ideas and so, if you could talk a little bit about your scope and how you're going to do this tonight and get back to me appreciate it oh kindle on.
+
+301
+00:34:35.160 --> 00:34:36.510
+Capstone Coach 1: Yes, around at question.
+
+302
+00:34:37.020 --> 00:34:38.970
+Monica Harwig: Oh no I just said we'll do that this is Monica.
+
+303
+00:34:39.900 --> 00:34:51.150
+Capstone Coach 1: Okay, all right good hey and then we have kindle and Keith create a good way to detect famous landmarks and Oh, I like this one, but i'm really concerned about scope.
+
+304
+00:34:51.150 --> 00:34:53.730
+Karen Fireman: here just miss this what.
+
+305
+00:34:53.790 --> 00:34:54.150
+What.
+
+306
+00:34:55.290 --> 00:34:57.840
+Karen Fireman: i'm sorry I didn't even hear you call me and do our stuff i'm so sorry.
+
+307
+00:34:58.290 --> 00:35:01.440
+Capstone Coach 1: yeah so kindle are you here and Keith.
+
+308
+00:35:01.860 --> 00:35:03.120
+Capstone Coach 1: Yes, okay.
+
+309
+00:35:03.600 --> 00:35:05.970
+Capstone Coach 1: So, are you guys worried about the scope on this.
+
+310
+00:35:07.290 --> 00:35:13.860
+Kendall Sizemore: i'm not too worried Google cloud has a cloud vision API that we can leverage to detect landmarks.
+
+311
+00:35:14.070 --> 00:35:15.600
+Kendall Sizemore: Okay well documented.
+
+312
+00:35:16.800 --> 00:35:17.310
+Kendall Sizemore: So.
+
+313
+00:35:17.970 --> 00:35:20.160
+Capstone Coach 1: So you're already familiar with that API.
+
+314
+00:35:20.580 --> 00:35:23.400
+Kendall Sizemore: Know it's something that we just research and had an idea.
+
+315
+00:35:23.460 --> 00:35:33.540
+Capstone Coach 1: So you're good with it, I mean this is a fantastic thing i'd love to see you do this it's, but it is outside a bit outside of where we will we did in class.
+
+316
+00:35:33.780 --> 00:35:41.370
+Capstone Coach 1: Okay, but it's good so if y'all could bow a little bit, and since make sure this is really what you're going to go after be fine.
+
+317
+00:35:43.080 --> 00:35:49.500
+Capstone Coach 1: And then we have Natasha Joanna and and so yesterday I don't know faster here Natasha Joanna you hear.
+
+318
+00:35:49.860 --> 00:35:50.370
+Capstone Coach 1: us.
+
+319
+00:35:50.550 --> 00:35:51.930
+Capstone Coach 1: Okay unnecessary you here.
+
+320
+00:35:54.750 --> 00:36:03.030
+Capstone Coach 1: Okay, so this is an excellent project very high marks very I saw the right up there, right up and Oh, my goodness.
+
+321
+00:36:04.110 --> 00:36:08.880
+Capstone Coach 1: You i'm on I will show everybody this right up, it is fantastic.
+
+322
+00:36:09.900 --> 00:36:19.410
+Capstone Coach 1: I don't know who did it of the group here, but you guys did a great job on that right up high marks the only thing i'm concerned about a scope right.
+
+323
+00:36:19.800 --> 00:36:33.000
+Capstone Coach 1: So you're thinking two weeks a little over two weeks left or can how much of this can you really do at this time, so let's get the i'd like you guys to get together and see what you think about the scope rp.
+
+324
+00:36:35.310 --> 00:36:40.170
+Capstone Coach 1: Okay, Brian Nicholas and Charles and Charles is here, Brian are you here.
+
+325
+00:36:40.830 --> 00:36:41.310
+Brian Frankel: And here.
+
+326
+00:36:41.610 --> 00:36:42.120
+Okay.
+
+327
+00:36:43.200 --> 00:36:50.940
+Capstone Coach 1: All right, so you're going to again we're going to extend the stock analysis gooey to provide by cell hold based upon Oh, I like this one.
+
+328
+00:36:52.290 --> 00:37:10.140
+Capstone Coach 1: This is really good the problem here, though, is those technical indicators, a lot of them are like moving moving air, you know I felt at the moving average for the last six weeks exceeds a certain number, then you sell or you buy you know so.
+
+329
+00:37:12.180 --> 00:37:19.230
+Capstone Coach 1: Putting those together is is technically a little involved you're going to have to identify the the indicators.
+
+330
+00:37:20.010 --> 00:37:36.240
+Capstone Coach 1: And i'm suggesting here that maybe limit the scope to just two or three indicators, or just find maybe the best buy indicator and the best side sell indicator which are usually things based on moving averages, and then you and implement that that would be fantastic.
+
+331
+00:37:37.590 --> 00:37:48.000
+Capstone Coach 1: You know I wrote a program some years ago on a buy sell indicators using genetic algorithms and I came up and compiled something like over 25 different indicators.
+
+332
+00:37:48.450 --> 00:37:58.380
+Capstone Coach 1: And then, for each one of those indicators, there is an issue about how long or how high, you have to have, be it to the issue of sell or buy so it's.
+
+333
+00:37:58.980 --> 00:38:13.890
+Capstone Coach 1: A it's can be a little tricky so i'm just saying, maybe just pick to do that, one by one, for cell and then anything else, of course, this whole so well y'all could get together and talk about that see what see what you like to do.
+
+334
+00:38:16.020 --> 00:38:19.230
+Capstone Coach 1: OK, we have Jordan Craig and Charlie Ellis.
+
+335
+00:38:20.400 --> 00:38:21.060
+Capstone Coach 1: y'all hear.
+
+336
+00:38:22.440 --> 00:38:26.160
+Jordan Gross: me one of those people as me and i'm here so hopefully I get.
+
+337
+00:38:26.430 --> 00:38:26.970
+Charlie Ellis: here to.
+
+338
+00:38:27.390 --> 00:38:28.470
+Craig: Okay, great.
+
+339
+00:38:28.560 --> 00:38:29.010
+Okay.
+
+340
+00:38:30.030 --> 00:38:44.610
+Capstone Coach 1: This is way cool I did not know that's you're kidding I mean zoom not only records the conference, but also produces a text of the conference Is that correct.
+
+341
+00:38:45.210 --> 00:38:55.260
+Jordan Gross: Yes, Professor so whenever we go into campus and we go to the recordings folder each one of the recordings actually includes a dot vtt file and transcription file.
+
+342
+00:38:55.560 --> 00:39:03.690
+Jordan Gross: That when i've opened it in the past i've just opened it up in word and line by line it looks quite easy to create a purse or four It just shows the name.
+
+343
+00:39:03.690 --> 00:39:13.020
+Jordan Gross: yeah time they started talking time they stopped talking and the words so if we wanted to contain the scope we could create a posture That just goes.
+
+344
+00:39:13.560 --> 00:39:21.870
+Jordan Gross: By the names and gets a standard deviation of how much time each person spent talking the average amount of talkers through individual session or.
+
+345
+00:39:22.170 --> 00:39:31.650
+Jordan Gross: Anything average word counts of those people scope could really be increased or limited based on how much we struggled to get the initial parsing going.
+
+346
+00:39:32.310 --> 00:39:48.210
+Jordan Gross: But I think, even if we just got to a point where, in the terminal you could point it to a dot vtt file and have it get you a list of the participants and the amount of time, each of them spent talking and build out from there, I think we'd be on a good path or having a lot of fun.
+
+347
+00:39:48.480 --> 00:39:49.410
+Capstone Coach 1: So you Jordan.
+
+348
+00:39:49.710 --> 00:39:50.160
+Jordan Gross: Yes, sir.
+
+349
+00:39:50.460 --> 00:40:00.750
+Capstone Coach 1: Okay fantastic fantastic I like what you're saying I will do start small and if you hack that off and then, if you have time to branch out from there, I like that.
+
+350
+00:40:01.980 --> 00:40:02.370
+Jordan Gross: Thank you.
+
+351
+00:40:02.580 --> 00:40:10.560
+Capstone Coach 1: Okay, so if you could power with your your other folks there and and get back with me in about an hour OK.
+
+352
+00:40:11.040 --> 00:40:28.410
+Capstone Coach 1: And now we get to slide number six and, as you see it's I got names, but no nothing there now Ryan Decker and know Brian brandon and Leah I believe you guys, have you sent me something, but I haven't seen it I don't know word is.
+
+353
+00:40:28.680 --> 00:40:30.420
+Ryan David: Yes, here i'm here it's Friday this.
+
+354
+00:40:31.500 --> 00:40:44.160
+Ryan David: week we our plan is to extend homework six and add translation into a selected language of the company description and the keywords.
+
+355
+00:40:45.420 --> 00:40:48.810
+Ryan David: and also to offer a.
+
+356
+00:40:50.310 --> 00:40:52.800
+Ryan David: A reading of the translated text.
+
+357
+00:40:54.060 --> 00:40:54.450
+Capstone Coach 1: Good.
+
+358
+00:41:04.050 --> 00:41:11.310
+Capstone Coach 1: Okay, so again, once again, if you could borrow a little bit here and talk about I think that's a reasonable scope.
+
+359
+00:41:12.180 --> 00:41:13.590
+Capstone Coach 1: Because we talked about those.
+
+360
+00:41:13.590 --> 00:41:25.950
+Capstone Coach 1: Things in class so just better putting it all together, but still, you know just you do have a limited amount of time, so if y'all could Pal all together and figure out who's going to do what, when and some make this all come together appreciate it.
+
+361
+00:41:26.520 --> 00:41:27.180
+Ryan David: Yes or no.
+
+362
+00:41:27.810 --> 00:41:36.660
+Ryan David: No brandon and I both have capstone presentations tomorrow, so the plan was to really hit hard this began and try to find it all up.
+
+363
+00:41:37.080 --> 00:41:40.230
+Capstone Coach 1: I think i'm in that presentation, am I, or no.
+
+364
+00:41:40.650 --> 00:41:42.720
+Brandon Decker: not sure who are in mind, Dr Jones yeah.
+
+365
+00:41:42.810 --> 00:41:50.460
+Capstone Coach 1: that's yeah I got I know I got let's see what is it well yeah brandon mm hmm yep tomorrow.
+
+366
+00:41:51.840 --> 00:41:52.170
+Brandon Decker: yep.
+
+367
+00:41:52.740 --> 00:42:03.240
+Capstone Coach 1: Okay that's what I was thinking so that people tomorrow and then Thursday I believe are the finals and after that you hopefully have some time to work on this.
+
+368
+00:42:03.600 --> 00:42:04.080
+Ryan David: Yes, sir.
+
+369
+00:42:04.200 --> 00:42:04.860
+Thank you okay.
+
+370
+00:42:06.000 --> 00:42:08.010
+Capstone Coach 1: All right, Nathan and Wilson, are you here.
+
+371
+00:42:09.600 --> 00:42:09.900
+Nathan Lippert: Yes.
+
+372
+00:42:10.530 --> 00:42:15.120
+Capstone Coach 1: Yes, wilson's here too okay and James.
+
+373
+00:42:16.650 --> 00:42:17.940
+Capstone Coach 1: James I got your email.
+
+374
+00:42:18.930 --> 00:42:28.350
+Capstone Coach 1: Okay, and I think you're good if you want to work together alone, let me ask me Nathan Wilson, do you guys have a project in mind.
+
+375
+00:42:30.210 --> 00:42:44.160
+Wilson Pineda: I think i'm I just send the project to the portal, because there was an issue with the teams when they create that with with Mayra how your Creator, but that was sort out but I sent you the merely was about.
+
+376
+00:42:45.180 --> 00:42:54.240
+Wilson Pineda: create an APP where you can use a PS to login with two different accounts into TV me the tree and get this.
+
+377
+00:42:55.740 --> 00:42:59.730
+Wilson Pineda: is mainly what we did in the class, but our.
+
+378
+00:43:01.830 --> 00:43:02.340
+Wilson Pineda: API.
+
+379
+00:43:03.060 --> 00:43:05.760
+Capstone Coach 1: Are you still working with this is Wilson right.
+
+380
+00:43:06.630 --> 00:43:16.950
+Capstone Coach 1: Yes, okay i'm having a little bit light on your microphone will sorry, are you working with Nathan, how many you guys getting together to figure out who's going to do what.
+
+381
+00:43:18.300 --> 00:43:21.690
+Wilson Pineda: yeah we're just getting together now we cause that.
+
+382
+00:43:22.320 --> 00:43:31.410
+Capstone Coach 1: Okay, all right well when we get back together, I want to hear some more details about what you're doing when and James do you want to join them, are you still want to go solo.
+
+383
+00:43:32.790 --> 00:43:33.000
+Capstone Coach 1: and
+
+384
+00:43:33.030 --> 00:43:34.140
+James Kramer: Either way, i'm.
+
+385
+00:43:36.240 --> 00:43:36.690
+James Kramer: Starting in.
+
+386
+00:43:37.440 --> 00:43:39.030
+James Kramer: Relatively fresh anyway so.
+
+387
+00:43:40.470 --> 00:43:43.500
+Capstone Coach 1: Okay, what would you prefer to do change.
+
+388
+00:43:45.180 --> 00:43:46.800
+Capstone Coach 1: which you prefer to work with somebody.
+
+389
+00:43:48.450 --> 00:43:52.050
+James Kramer: You know yeah I mean I probably wouldn't mind working with somebody.
+
+390
+00:43:52.530 --> 00:43:58.230
+Capstone Coach 1: Okay okay Wilson Nathan, you guys, can you guys use another hand.
+
+391
+00:43:58.830 --> 00:43:59.550
+Wilson Pineda: Yes, yes.
+
+392
+00:44:00.270 --> 00:44:02.160
+Capstone Coach 1: Okay i'm gonna put jameson there there.
+
+393
+00:44:02.790 --> 00:44:18.150
+Capstone Coach 1: Sir, so if the three of you get together exchange phone numbers, or whatever you gotta do email and talk about who's gonna hire this is going to evolve, for you appreciate it and we're going to get together let's say another hour from now so that'd be 745.
+
+394
+00:44:20.100 --> 00:44:21.240
+Wilson Pineda: Okay um I think.
+
+395
+00:44:21.900 --> 00:44:24.480
+Wilson Pineda: Are some groups or we have to in ourselves.
+
+396
+00:44:26.280 --> 00:44:35.850
+Capstone Coach 1: A organize yourselves, so now what I was expected to like somebody start off a zoom session or okay well, if you want to use Google or whatsapp.
+
+397
+00:44:36.900 --> 00:44:40.110
+Capstone Coach 1: You know, or do you just a cell phone it's up to you.
+
+398
+00:44:40.920 --> 00:44:44.760
+Karen Fireman: and Dr what are you hoping that we answer back to you after the hour.
+
+399
+00:44:44.850 --> 00:44:47.340
+Capstone Coach 1: After we figure out more and more deep.
+
+400
+00:44:47.400 --> 00:44:55.230
+Capstone Coach 1: Okay, is this Karen yes Okay, let me go back to your slide here, thank you yeah you guys.
+
+401
+00:44:56.610 --> 00:44:57.600
+Capstone Coach 1: where's go there you go.
+
+402
+00:44:57.960 --> 00:44:58.650
+Karen Fireman: yeah he.
+
+403
+00:44:59.670 --> 00:45:03.420
+Capstone Coach 1: uh I think in your case it's pretty clear what you want to do.
+
+404
+00:45:04.470 --> 00:45:06.840
+Capstone Coach 1: yeah there's description was pretty clear about what you want to do.
+
+405
+00:45:07.020 --> 00:45:16.980
+Capstone Coach 1: So I think what would be good here is just a who's going to do what and when make sure, make sure you've got a plan so that you can be ready to present on the 27th.
+
+406
+00:45:17.760 --> 00:45:21.120
+Karen Fireman: Okay excellent okay Thank you, Sir appreciate it we'll get together separately, thank you.
+
+407
+00:45:21.180 --> 00:45:23.760
+Capstone Coach 1: Very much all right.
+
+408
+00:45:26.130 --> 00:45:27.390
+Capstone Coach 1: Okay, so i'm gonna.
+
+409
+00:45:28.680 --> 00:45:34.050
+Capstone Coach 1: i'm gonna get something to drink and hang out here if you've got questions you i'll be right here, you can bring them up to me.
+
+410
+00:45:35.970 --> 00:45:38.190
+Capstone Coach 1: If you have something you want to discuss that's fine.
+
+411
+00:45:41.700 --> 00:45:42.240
+Capstone Coach 1: oops.
+
+412
+00:54:39.810 --> 00:54:48.300
+Fritz, Joanna: hey Dr Jones and I have a quick question for some feedback, if you have a if this is a good opportunity.
+
+413
+00:54:48.810 --> 00:54:50.190
+Capstone Coach 1: Yes, of course, it's.
+
+414
+00:54:51.540 --> 00:54:53.310
+Capstone Coach 1: Good a winner, let me.
+
+415
+00:54:54.840 --> 00:54:57.810
+Capstone Coach 1: Let me get my screen setup here, so I can see what's going on.
+
+416
+00:54:59.730 --> 00:55:00.570
+Capstone Coach 1: I don't know.
+
+417
+00:55:04.350 --> 00:55:04.710
+Capstone Coach 1: huh.
+
+418
+00:55:10.080 --> 00:55:12.630
+Capstone Coach 1: Oh, there we go okay so who's talking.
+
+419
+00:55:13.380 --> 00:55:15.600
+Fritz, Joanna: I it's Giuliana for it's.
+
+420
+00:55:15.690 --> 00:55:16.740
+Capstone Coach 1: Okay, no I got it.
+
+421
+00:55:18.180 --> 00:55:34.080
+Fritz, Joanna: um so I me and Natasha and Esther we just wanted to get your feedback on the project that we're working on sure um and so um so we were able to.
+
+422
+00:55:35.070 --> 00:55:51.690
+Fritz, Joanna: Almost pretty much complete the project meeting the project description that we had sent to you, and so the, the only thing that we really have left to do is just the cosmetics, and you know, like just the way it.
+
+423
+00:55:52.860 --> 00:55:55.290
+Fritz, Joanna: um so I.
+
+424
+00:55:56.310 --> 00:56:00.450
+Fritz, Joanna: Natasha to you, happen to have it i'm running on your computer or, should I.
+
+425
+00:56:00.450 --> 00:56:03.330
+Capstone Coach 1: Should I think I do if you give me a second i'll bring it up.
+
+426
+00:56:03.930 --> 00:56:06.720
+Capstone Coach 1: Okay, make sure you see my screen right.
+
+427
+00:56:06.960 --> 00:56:07.980
+Fritz, Joanna: Yes, yes.
+
+428
+00:56:08.280 --> 00:56:08.760
+Okay.
+
+429
+00:56:12.120 --> 00:56:13.230
+Capstone Coach 1: yeah I have everybody.
+
+430
+00:56:17.640 --> 00:56:18.150
+Okay.
+
+431
+00:56:39.780 --> 00:56:48.090
+Fritz, Joanna: Would it be possible for Natasha to share her screen she wanted to run the code and just kind of get your feedback if that's the thing.
+
+432
+00:56:49.500 --> 00:56:50.850
+Capstone Coach 1: it's here, I just have to.
+
+433
+00:57:31.650 --> 00:57:32.100
+Capstone Coach 1: yeah.
+
+434
+00:57:34.710 --> 00:57:36.210
+Capstone Coach 1: Okay, so I found it.
+
+435
+00:57:38.340 --> 00:57:39.420
+Capstone Coach 1: let's see.
+
+436
+00:57:42.240 --> 00:57:43.200
+Capstone Coach 1: it's right here.
+
+437
+00:57:46.260 --> 00:57:48.120
+Capstone Coach 1: Okay, can you see that.
+
+438
+00:57:48.390 --> 00:57:48.900
+Natasha Chevarunotai: Yes, I.
+
+439
+00:57:50.130 --> 00:57:51.630
+Capstone Coach 1: can open it up a little bit.
+
+440
+00:57:57.180 --> 00:57:58.200
+Capstone Coach 1: Okay there it is.
+
+441
+00:58:03.030 --> 00:58:04.710
+Fritz, Joanna: yep um yeah.
+
+442
+00:58:05.760 --> 00:58:07.050
+Fritz, Joanna: Natasha did you.
+
+443
+00:58:08.730 --> 00:58:15.330
+Fritz, Joanna: See I don't know, did you want to run the code or do you want to just work off of this.
+
+444
+00:58:16.530 --> 00:58:19.080
+Capstone Coach 1: i'm sorry i'm having trouble hearing you here.
+
+445
+00:58:19.380 --> 00:58:22.620
+Fritz, Joanna: Oh well, we actually already completed.
+
+446
+00:58:22.830 --> 00:58:23.880
+Natasha Chevarunotai: The yeah.
+
+447
+00:58:23.910 --> 00:58:24.690
+Fritz, Joanna: Getting all the.
+
+448
+00:58:25.050 --> 00:58:30.990
+Fritz, Joanna: All the functions working, and so we wanted to run the program for you and get your feedback.
+
+449
+00:58:31.080 --> 00:58:32.190
+Natasha Chevarunotai: Okay okay.
+
+450
+00:58:32.580 --> 00:58:36.240
+Natasha Chevarunotai: yeah if you're open to that of course Dr Jones yo man yo.
+
+451
+00:58:36.660 --> 00:58:38.730
+Capstone Coach 1: Which one of you wants to run the Program.
+
+452
+00:58:39.240 --> 00:58:39.600
+Natasha Chevarunotai: I get.
+
+453
+00:58:40.410 --> 00:58:40.590
+Natasha Chevarunotai: That.
+
+454
+00:58:41.310 --> 00:58:42.990
+Capstone Coach 1: Yes, you can you grab the screen.
+
+455
+00:58:43.830 --> 00:58:44.430
+I.
+
+456
+00:58:45.600 --> 00:58:46.350
+Natasha Chevarunotai: cannot.
+
+457
+00:58:47.100 --> 00:58:49.020
+Natasha Chevarunotai: You cannot because she was sharing.
+
+458
+00:58:49.710 --> 00:58:50.730
+Fritz, Joanna: yeah you'll need to start.
+
+459
+00:58:50.730 --> 00:58:51.720
+Natasha Chevarunotai: Here Lisa.
+
+460
+00:58:53.610 --> 00:58:53.970
+Capstone Coach 1: What.
+
+461
+00:58:57.990 --> 00:59:00.900
+Fritz, Joanna: If you could stop sharing your screen.
+
+462
+00:59:01.740 --> 00:59:04.200
+Natasha Chevarunotai: I should come back yeah I think.
+
+463
+00:59:04.530 --> 00:59:06.420
+Natasha Chevarunotai: Like that let's try.
+
+464
+00:59:06.840 --> 00:59:09.240
+Capstone Coach 1: Okay now you're now you're a big.
+
+465
+00:59:13.080 --> 00:59:13.620
+Capstone Coach 1: Big.
+
+466
+00:59:13.800 --> 00:59:15.150
+Natasha Chevarunotai: Okay um.
+
+467
+00:59:18.750 --> 00:59:19.890
+Natasha Chevarunotai: This is the right screen.
+
+468
+00:59:22.650 --> 00:59:23.700
+Natasha Chevarunotai: Oh okay.
+
+469
+00:59:24.120 --> 00:59:25.410
+Capstone Coach 1: Ah, there he goes.
+
+470
+00:59:25.860 --> 00:59:27.330
+Natasha Chevarunotai: Can you see my screen now.
+
+471
+00:59:27.600 --> 00:59:28.290
+Capstone Coach 1: I sure do.
+
+472
+00:59:29.610 --> 00:59:30.780
+Natasha Chevarunotai: spider yep.
+
+473
+00:59:32.040 --> 00:59:32.400
+Fritz, Joanna: Yes.
+
+474
+00:59:33.630 --> 00:59:36.150
+Natasha Chevarunotai: Okay, this is what we have so far, Dr Jones.
+
+475
+00:59:37.470 --> 00:59:51.810
+Natasha Chevarunotai: as described in the description we kind of extended the translation Apps that we worked on just the key one we added in is the image like try to recognize a text from the image right.
+
+476
+00:59:52.980 --> 00:59:58.560
+Natasha Chevarunotai: So this is got what we've got it to work so far think.
+
+477
+01:00:03.090 --> 01:00:08.640
+Natasha Chevarunotai: Right and then i'm just gonna test the text text recognition model so.
+
+478
+01:00:08.670 --> 01:00:10.290
+Natasha Chevarunotai: This is the English way.
+
+479
+01:00:13.020 --> 01:00:14.190
+Capstone Coach 1: they're supposed to.
+
+480
+01:00:14.580 --> 01:00:18.660
+Natasha Chevarunotai: yeah that's the original folder on your left as an input.
+
+481
+01:00:19.170 --> 01:00:36.180
+Natasha Chevarunotai: And arrived and we're trying to like kind of play with it, so that when we translate we've kind of tried to pass it back on the original picture of this for this fine idea for the new survey so that's kind of our our progress off on that, and if you translated to Spanish.
+
+482
+01:00:36.480 --> 01:00:37.620
+Capstone Coach 1: I could see that yeah.
+
+483
+01:00:39.600 --> 01:00:40.770
+Capstone Coach 1: This is amazing.
+
+484
+01:00:41.070 --> 01:00:52.380
+Natasha Chevarunotai: yeah that's Spanish there and they do the oil a day the problem or whatever we didn't really figure it out, is when we do Chinese we can translate it.
+
+485
+01:00:54.870 --> 01:01:01.740
+Natasha Chevarunotai: When we passed it back on the picture we have just have to find a find staff support languish Rachel.
+
+486
+01:01:02.130 --> 01:01:19.710
+Natasha Chevarunotai: That we're not quite there yet for like the the picture languages like Chinese and Japanese translation works well, but putting it back on image is not it's not quite not quite there yet that's a poor man, I mean I don't know if it's a requirement to improve it right, as the second.
+
+487
+01:01:20.790 --> 01:01:21.090
+Natasha Chevarunotai: But.
+
+488
+01:01:21.510 --> 01:01:29.790
+Capstone Coach 1: What you guys are doing this far beyond what are my expectations, this is this is amazing, this is really good.
+
+489
+01:01:30.270 --> 01:01:32.520
+Natasha Chevarunotai: yeah and just to.
+
+490
+01:01:32.730 --> 01:01:35.820
+Capstone Coach 1: Show you a little we've already done it and we already finished it right.
+
+491
+01:01:35.850 --> 01:01:36.210
+Yes.
+
+492
+01:01:37.710 --> 01:01:41.040
+Natasha Chevarunotai: Okay, this is like the image in different language.
+
+493
+01:01:41.310 --> 01:01:43.800
+Natasha Chevarunotai: mm hmm image is actually in Thai.
+
+494
+01:01:45.090 --> 01:01:47.730
+Natasha Chevarunotai: And then we translated to English pretty good.
+
+495
+01:01:50.910 --> 01:02:00.120
+Capstone Coach 1: Fantastic now does this work for any any picture, or just for the pictures that she had loaded up here on your computer.
+
+496
+01:02:02.100 --> 01:02:10.890
+Natasha Chevarunotai: What do you mean I mean we haven't really tested it with many pictures yet well far so far that you tested it work.
+
+497
+01:02:11.550 --> 01:02:12.060
+Natasha Chevarunotai: yeah.
+
+498
+01:02:12.330 --> 01:02:16.410
+Capstone Coach 1: yeah we yeah I guess the I guess i'm the only recommendation I have is.
+
+499
+01:02:16.680 --> 01:02:17.940
+Capstone Coach 1: see if you can break it.
+
+500
+01:02:20.730 --> 01:02:21.510
+Capstone Coach 1: You know what let me.
+
+501
+01:02:21.630 --> 01:02:25.380
+Capstone Coach 1: see if you can find a picture that he doesn't like.
+
+502
+01:02:26.220 --> 01:02:26.700
+yeah.
+
+503
+01:02:27.900 --> 01:02:32.100
+Capstone Coach 1: When you do your presentation it works really good except this.
+
+504
+01:02:32.130 --> 01:02:43.500
+Natasha Chevarunotai: Yes, I hear you and watch watch watch one thing that's kind of a glitch here that we haven't really figured out right you see the output here, it says one thing.
+
+505
+01:02:44.670 --> 01:02:47.040
+Natasha Chevarunotai: And i'm, the picture is slightly different.
+
+506
+01:02:49.200 --> 01:02:55.380
+Natasha Chevarunotai: Just because when it passed for the text from the picture it passed by word right.
+
+507
+01:02:55.530 --> 01:03:08.610
+Natasha Chevarunotai: Whereas it's like even if you let it recognize it by sentences of this translation came out a little different yeah doing what was meant that's that's that's that's kind of.
+
+508
+01:03:09.780 --> 01:03:12.120
+Capstone Coach 1: I, this is just amazing.
+
+509
+01:03:13.320 --> 01:03:15.150
+Capstone Coach 1: This is just amazing I mean.
+
+510
+01:03:17.430 --> 01:03:20.700
+Capstone Coach 1: I would like I don't know if I should you guys should go first or last.
+
+511
+01:03:23.040 --> 01:03:41.130
+Capstone Coach 1: Because I think, maybe we better have you go last because everybody else is gonna be like oh my God, we have to do all that you know you did great, and the only thing I would recommend here is like i'm saying is maybe maybe find that in America, you want to make your presentation interesting.
+
+512
+01:03:41.310 --> 01:03:41.790
+Natasha Chevarunotai: Yes.
+
+513
+01:03:42.000 --> 01:03:49.890
+Capstone Coach 1: So it's really easy to grasp exactly what you're doing based upon your going, you know just a few seconds oh yeah I understand.
+
+514
+01:03:51.540 --> 01:04:04.920
+Capstone Coach 1: So you got to make your presentation interesting well, one of the things so to make it interesting is, if you had some novel photographs, maybe that broke the system some novel photographs where it works and novel photographs were doesn't work.
+
+515
+01:04:06.030 --> 01:04:09.600
+Capstone Coach 1: I want curious about is if it's if the image is blurry.
+
+516
+01:04:11.070 --> 01:04:19.320
+Capstone Coach 1: Know oftentimes or the letters are small human wouldn't be able to read that yes, My guess is the computer could read it.
+
+517
+01:04:20.880 --> 01:04:22.800
+Capstone Coach 1: I guess because they could filter the.
+
+518
+01:04:23.010 --> 01:04:33.960
+Capstone Coach 1: Computer does a higher better resolution than your than the eyes i'm guessing so have you found an image, where you can't really read it, but the computer can.
+
+519
+01:04:34.740 --> 01:04:39.870
+Natasha Chevarunotai: have one Randy we haven't really looked at it, yet, but i'll try to find it I think that's a.
+
+520
+01:04:40.770 --> 01:04:42.360
+Capstone Coach 1: testament Shell for you go.
+
+521
+01:04:43.920 --> 01:04:51.390
+Capstone Coach 1: Because i'm thinking that that's probably what you'll find a case where the computer does a better job of reading the human would be.
+
+522
+01:04:51.840 --> 01:04:53.040
+Natasha Chevarunotai: that's interesting okay.
+
+523
+01:04:53.340 --> 01:04:53.850
+we'll see.
+
+524
+01:04:55.230 --> 01:04:57.840
+Natasha Chevarunotai: Okay, and we actually I think we.
+
+525
+01:04:59.340 --> 01:05:06.180
+Natasha Chevarunotai: actually have a question on the requirement for the presentation, or like the report out that you.
+
+526
+01:05:06.330 --> 01:05:09.150
+Capstone Coach 1: know I had somebody else asked that as well.
+
+527
+01:05:09.390 --> 01:05:27.150
+Capstone Coach 1: I don't have any high expectations, other than your you need to be comfortable with your presentation and so what i'm expecting to see is some people will only use powerpoints and some people might have powerpoints with notes.
+
+528
+01:05:28.800 --> 01:05:29.190
+Capstone Coach 1: But.
+
+529
+01:05:30.990 --> 01:05:37.800
+Capstone Coach 1: Some people may have a live DEMO where if it's a gui or something like like in your case you bring it up on the screen you run it.
+
+530
+01:05:38.550 --> 01:05:46.650
+Capstone Coach 1: will make a video will make a video of your presentation everything, everything will be videotaped right, so you don't really need.
+
+531
+01:05:47.610 --> 01:05:58.500
+Capstone Coach 1: Your your your report that you said is outstanding I mean maybe put it, maybe you take that to a new level so that you have something written I told a swanson and I said.
+
+532
+01:05:58.980 --> 01:06:07.080
+Capstone Coach 1: One of the things you want to think about is I portfolio to go with your resume wave here I don't know if you're looking for a new job right.
+
+533
+01:06:07.680 --> 01:06:20.310
+Capstone Coach 1: But at some point, if you want to find a new job you have a resume which talks about oh yeah you're an aggie you went to school and all that sort of thing, but then maybe a portfolio that shows some of the things that you've done.
+
+534
+01:06:21.750 --> 01:06:23.850
+Capstone Coach 1: And this would be beautiful on the portfolio.
+
+535
+01:06:25.260 --> 01:06:40.680
+Capstone Coach 1: They have complexity is high it's easy to communicate and it's interesting right right, so I would quit this I would think about putting this up in format that you would could use us for a job interview.
+
+536
+01:06:42.060 --> 01:06:42.360
+yeah.
+
+537
+01:06:44.280 --> 01:06:45.240
+Capstone Coach 1: Are you looking for a job.
+
+538
+01:06:47.880 --> 01:06:48.570
+Capstone Coach 1: Oh good.
+
+539
+01:06:50.190 --> 01:06:50.730
+Capstone Coach 1: Good.
+
+540
+01:06:51.570 --> 01:06:52.800
+Natasha Chevarunotai: Thank you, Dr Jones and.
+
+541
+01:06:54.450 --> 01:06:58.470
+Capstone Coach 1: i'll be glad to give you a resume but I mean a recommendation of you okay.
+
+542
+01:07:05.520 --> 01:07:06.960
+Capstone Coach 1: Okay, any other questions.
+
+543
+01:07:10.620 --> 01:07:24.720
+Fritz, Joanna: What kind of time frame, are you looking at for the presentations Is there going to be like like five minutes or is that more based on how however long it takes for this show you our project.
+
+544
+01:07:25.350 --> 01:07:37.350
+Capstone Coach 1: Well i'm thinking 10 or 15 minutes, considering that we're going to be how much time that we have now because of the because of May, the fourth is that scheduled for the final exam we have well, we have.
+
+545
+01:07:37.830 --> 01:07:51.240
+Capstone Coach 1: You know, we have six three hours on the 27th at three hours, on the other, so we have, I think we have plenty of time to if you want to take more than 15 minutes, and you know this is, I would like see.
+
+546
+01:07:52.020 --> 01:07:58.740
+Capstone Coach 1: Some detail, especially I mean my own personal interest is i'd like to see some of the stuff that you did in the code.
+
+547
+01:08:00.180 --> 01:08:05.760
+Capstone Coach 1: What packages are you using you said you're using the Google API I think right.
+
+548
+01:08:06.000 --> 01:08:18.360
+Capstone Coach 1: Yes, you're doing the API can use the API for translation and voice and all that went over that in class, but the the i'm not sure what you're using for the image analysis.
+
+549
+01:08:19.500 --> 01:08:20.880
+Natasha Chevarunotai: Google cloud.
+
+550
+01:08:22.050 --> 01:08:22.920
+Capstone Coach 1: Vision Ai.
+
+551
+01:08:23.040 --> 01:08:28.320
+Capstone Coach 1: yeah that's a very nice package very nice is incredible feature.
+
+552
+01:08:29.520 --> 01:08:39.990
+Capstone Coach 1: Facebook also has some image analysis it's called P wide torch for package is called P wide torch and.
+
+553
+01:08:41.850 --> 01:08:56.400
+Capstone Coach 1: I was going to say something or doing a lecture on poi torches to show you how that works, but it's very similar to the Google API it's just it's supported by Facebook and said of Google right and sister competitors, you know.
+
+554
+01:08:58.710 --> 01:08:59.970
+Capstone Coach 1: Probably don't talk to each other.
+
+555
+01:09:02.400 --> 01:09:03.630
+Capstone Coach 1: Alright well excellent.
+
+556
+01:09:05.610 --> 01:09:09.300
+Capstone Coach 1: Esther how are you doing today you okay they're really good.
+
+557
+01:09:09.630 --> 01:09:11.430
+Ester Martinez-Belmares: yeah everything good Thank you.
+
+558
+01:09:11.850 --> 01:09:13.410
+Capstone Coach 1: Okay, good good.
+
+559
+01:09:14.490 --> 01:09:16.830
+Capstone Coach 1: We got some time frame setup so that's good.
+
+560
+01:09:19.080 --> 01:09:21.690
+Capstone Coach 1: Okay Joanna any other questions.
+
+561
+01:09:23.910 --> 01:09:24.420
+Capstone Coach 1: Okay.
+
+562
+01:09:24.780 --> 01:09:27.390
+Fritz, Joanna: Now I think those are all the questions, thank you for your help.
+
+563
+01:09:27.390 --> 01:09:28.800
+Capstone Coach 1: Okay, my pleasure.
+
+564
+01:09:30.150 --> 01:09:32.670
+Capstone Coach 1: pleasure working with you, ladies oh my God.
+
+565
+01:09:33.780 --> 01:09:36.510
+Capstone Coach 1: Okay, like I said i'm gonna probably have to put you on last.
+
+566
+01:09:39.510 --> 01:09:44.670
+Capstone Coach 1: Not because I want to, but you know my need to do that.
+
+567
+01:09:48.270 --> 01:09:50.460
+Capstone Coach 1: Okay, good Thank you.
+
+568
+01:10:45.480 --> 01:10:47.910
+Capstone Coach 1: Natasha you may need to drop your sharing.
+
+569
+01:10:50.370 --> 01:10:51.120
+Capstone Coach 1: By the way.
+
+570
+01:10:58.980 --> 01:11:00.750
+Natasha Chevarunotai: I think I dropped it in I.
+
+571
+01:11:02.460 --> 01:11:05.790
+Capstone Coach 1: don't know I don't I don't see my controls anymore.
+
+572
+01:11:08.970 --> 01:11:09.690
+Capstone Coach 1: Look around.
+
+573
+01:11:43.980 --> 01:11:46.980
+Capstone Coach 1: There we go I got it i've got it okay.
+
+574
+01:11:49.590 --> 01:11:50.280
+Okay.
+
+575
+01:11:57.600 --> 01:12:01.650
+Capstone Coach 1: Okay, you got my screen back again yeah should have.
+
+576
+01:12:02.370 --> 01:12:03.960
+Capstone Coach 1: This Okay, thank you.
+
+577
+01:32:01.560 --> 01:32:02.130
+Capstone Coach 1: Okay.
+
+578
+01:32:04.320 --> 01:32:06.690
+Capstone Coach 1: see some of your back amend, are you back.
+
+579
+01:32:09.330 --> 01:32:09.900
+Capstone Coach 1: team a.
+
+580
+01:32:11.280 --> 01:32:12.090
+Travis Smith: we're back.
+
+581
+01:32:12.360 --> 01:32:13.350
+Amanda DePelsMaeker: yeah okay.
+
+582
+01:32:14.040 --> 01:32:18.390
+Capstone Coach 1: So what do you think any more details about and plans.
+
+583
+01:32:20.310 --> 01:32:33.540
+Travis Smith: Yes, Sir, and kind of what we were thinking is that um so the team is going to implement a sentiment analysis for recent news stories for selected stock tickers in a stock gooey so it's kind of an extension on what we had done.
+
+584
+01:32:34.380 --> 01:32:45.270
+Travis Smith: But what we're going to do as a sentiment analysis, not for the news agency, but of the stock company like IBM so we'll pull articles from fox news CNN and associated press.
+
+585
+01:32:45.570 --> 01:32:59.430
+Travis Smith: To get a wide sentiment view that way we can kind of touch on kind of the extremes and ap typically kind of being a little bit more in that middle and then how the new speaks of an organization can affect stock prices, so we felt that this would help investors.
+
+586
+01:33:00.930 --> 01:33:05.070
+Capstone Coach 1: Do you have a good feeling about who you're going to pull these stories from.
+
+587
+01:33:12.030 --> 01:33:14.760
+Travis Smith: The three K just because it.
+
+588
+01:33:23.040 --> 01:33:25.530
+Travis Smith: Hope I think I lost Internet connection were you able to hear that.
+
+589
+01:33:30.330 --> 01:33:39.360
+Travis Smith: Oh sorry I said yes, Sir we're looking at newspaper three K just because you, you get to pull out more and it's not as restricted is getting new music di.
+
+590
+01:33:40.350 --> 01:33:42.510
+Capstone Coach 1: What, what do you think you have something ready.
+
+591
+01:33:45.420 --> 01:33:49.950
+Capstone Coach 1: Are you shooting for the for the 27th of April, the fourth of my.
+
+592
+01:33:50.970 --> 01:33:58.740
+Travis Smith: um we hadn't really talked about that, I think that we wanted to do a little bit sooner, but um let me.
+
+593
+01:33:58.980 --> 01:34:08.460
+Amanda DePelsMaeker: Let me yeah yeah we definitely know that we're all done with their capstone project plan to get working on it over the next couple weeks here.
+
+594
+01:34:11.070 --> 01:34:15.870
+Capstone Coach 1: So you said, then I love for the 27th or the fourth.
+
+595
+01:34:17.190 --> 01:34:18.150
+Capstone Coach 1: It for a man.
+
+596
+01:34:23.550 --> 01:34:24.720
+Travis Smith: i'm good with the first week.
+
+597
+01:34:25.050 --> 01:34:25.620
+Capstone Coach 1: yeah okay.
+
+598
+01:34:25.800 --> 01:34:27.030
+Travis Smith: Well, what do you all say.
+
+599
+01:34:27.630 --> 01:34:28.380
+Amanda DePelsMaeker: damn good.
+
+600
+01:34:28.890 --> 01:34:35.970
+Capstone Coach 1: yeah i'm going to push you down i'm tentatively i'm going to walk on be checking back with you.
+
+601
+01:34:36.540 --> 01:34:38.400
+Capstone Coach 1: Sir, but.
+
+602
+01:34:39.720 --> 01:34:43.680
+Capstone Coach 1: attentively put you down for that date and.
+
+603
+01:34:45.060 --> 01:34:46.590
+Capstone Coach 1: we'll see how it goes.
+
+604
+01:34:47.610 --> 01:34:50.760
+Capstone Coach 1: i'll check with the next week and the week after as we get closer.
+
+605
+01:34:51.600 --> 01:34:52.410
+Travis Smith: Sarah Thank you.
+
+606
+01:34:52.950 --> 01:34:54.210
+Capstone Coach 1: Sure, and Amano.
+
+607
+01:34:54.330 --> 01:34:55.980
+Capstone Coach 1: jake and George are you there.
+
+608
+01:35:00.240 --> 01:35:02.460
+Capstone Coach 1: The maybe there's still still oh.
+
+609
+01:35:04.200 --> 01:35:04.860
+Hermano Ferreira: yeah we're here.
+
+610
+01:35:05.730 --> 01:35:07.200
+Capstone Coach 1: Oh, you are here okay.
+
+611
+01:35:07.230 --> 01:35:07.680
+Jake Josephson: Are here.
+
+612
+01:35:08.430 --> 01:35:13.440
+Capstone Coach 1: So what did you decide any via in the updates.
+
+613
+01:35:14.850 --> 01:35:27.480
+Capstone Coach 1: yeah I mean we refine the concept, a little bit updated the project proposal okay and created a mock up of what the movie was like so we have a plan.
+
+614
+01:35:28.560 --> 01:35:34.170
+Hermano Ferreira: For the next three weeks and I believe we should be done by April 27.
+
+615
+01:35:35.310 --> 01:35:36.600
+Capstone Coach 1: Okay okay.
+
+616
+01:35:37.650 --> 01:35:46.380
+Capstone Coach 1: who's talking, by the way, has said or model okay so i'll put you down tentatively for April 27 as well.
+
+617
+01:35:48.510 --> 01:35:53.700
+Capstone Coach 1: i'll check back with you did you guys have any questions of me or anything any concerns.
+
+618
+01:35:57.120 --> 01:36:03.060
+Jake Josephson: I don't know right now, I think we have a few things we're going to try and do sentiment analysis per article.
+
+619
+01:36:04.020 --> 01:36:08.460
+Jake Josephson: per day so things like that I think are good right now.
+
+620
+01:36:09.090 --> 01:36:09.510
+Good.
+
+621
+01:36:10.710 --> 01:36:11.010
+Capstone Coach 1: So.
+
+622
+01:36:11.040 --> 01:36:12.090
+Capstone Coach 1: yama David.
+
+623
+01:36:12.720 --> 01:36:13.710
+Capstone Coach 1: About yourselves.
+
+624
+01:36:15.660 --> 01:36:16.410
+Satyam: So.
+
+625
+01:36:16.560 --> 01:36:17.520
+Capstone Coach 1: Any updates.
+
+626
+01:36:17.970 --> 01:36:20.460
+Satyam: yeah this is David should be here.
+
+627
+01:36:20.700 --> 01:36:21.390
+Capstone Coach 1: yeah we not.
+
+628
+01:36:22.230 --> 01:36:36.690
+Satyam: So yeah so the scope, basically, I mean David I talked about it, David can work on the time series analysis part and I will be building the July.
+
+629
+01:36:37.230 --> 01:36:54.660
+Satyam: And then I will incorporate his time series model into my July, and then we can both test together so that's the distribution of the work, and I think by 27th we could be ready, so you can put us for episode 27.
+
+630
+01:36:55.260 --> 01:37:01.620
+Capstone Coach 1: Okay i'll put you down tentatively tentatively for that date as well April 27 okay.
+
+631
+01:37:02.910 --> 01:37:07.350
+Capstone Coach 1: Okay, thanks to Raphael i'll handle.
+
+632
+01:37:08.640 --> 01:37:10.860
+Kilani, Shadi: hi john this is sadly speaking.
+
+633
+01:37:12.780 --> 01:37:13.230
+Kilani, Shadi: So.
+
+634
+01:37:14.730 --> 01:37:27.090
+Kilani, Shadi: The project is pretty much the goal is working it's an extension on the stocks gui and if you'd like I can share screen, but I mean we could also send you that.
+
+635
+01:37:27.750 --> 01:37:37.320
+Capstone Coach 1: Well, let me get through that I think i'm more concerned about good lecture so but listen send me send me a screenshot and an email, if you would.
+
+636
+01:37:38.640 --> 01:37:40.830
+Kilani, Shadi: Sure, and I just had a quick question about this.
+
+637
+01:37:40.830 --> 01:37:42.270
+Kilani, Shadi: Sure patient format.
+
+638
+01:37:43.440 --> 01:37:47.940
+Kilani, Shadi: Acting a live DEMO or screenshots and like like.
+
+639
+01:37:48.510 --> 01:37:58.740
+Capstone Coach 1: me for the presentation, yes it's up to you, but I think a live DEMO we're going to record this right, so if.
+
+640
+01:37:59.760 --> 01:38:02.400
+Capstone Coach 1: If it's working for you a live DEMO would be nice.
+
+641
+01:38:02.700 --> 01:38:04.590
+Kilani, Shadi: Okay now that's fine i'm just.
+
+642
+01:38:04.650 --> 01:38:06.420
+Capstone Coach 1: curious about the fall yeah okay.
+
+643
+01:38:06.510 --> 01:38:08.310
+Kilani, Shadi: combination of both as long time.
+
+644
+01:38:08.490 --> 01:38:13.650
+Capstone Coach 1: yeah might you might it's up to you, I think I mentioned about the portfolio for your resume.
+
+645
+01:38:15.150 --> 01:38:25.200
+Capstone Coach 1: Of course we will be, we can video it and you can take parts of the video as well and use that, for your resume but usually you know, a couple of pictures good.
+
+646
+01:38:27.540 --> 01:38:35.040
+Capstone Coach 1: yeah okay so and I have you down tentatively for the 27th or do you want to wait till sometime in May.
+
+647
+01:38:35.370 --> 01:38:36.420
+Capstone Coach 1: know we can mail.
+
+648
+01:38:36.750 --> 01:38:40.380
+Kilani, Shadi: Even that put us first on the list ready haha.
+
+649
+01:38:41.580 --> 01:38:47.460
+Capstone Coach 1: OK, I will do that first first you volunteered on.
+
+650
+01:38:47.670 --> 01:38:50.310
+Capstone Coach 1: Either case Okay, there you go.
+
+651
+01:38:50.910 --> 01:38:51.330
+Kilani, Shadi: Thank you.
+
+652
+01:38:52.350 --> 01:38:53.040
+Capstone Coach 1: I like that.
+
+653
+01:38:53.670 --> 01:38:56.100
+Capstone Coach 1: Okay, Christopher Luke and Benjamin you there.
+
+654
+01:38:56.910 --> 01:38:57.960
+Christian Gover: Yes, we're here.
+
+655
+01:38:58.050 --> 01:38:59.400
+Capstone Coach 1: So what's the update.
+
+656
+01:39:00.120 --> 01:39:09.000
+Christian Gover: yeah I mean we were able to pull data from the realtor API I think we just needed to find our search criteria, and we have a mock do we already.
+
+657
+01:39:10.350 --> 01:39:14.640
+Christian Gover: I think we would we're confident for April 27th.
+
+658
+01:39:15.660 --> 01:39:16.410
+Capstone Coach 1: Okay.
+
+659
+01:39:18.240 --> 01:39:19.620
+Capstone Coach 1: You guys want to graduate.
+
+660
+01:39:22.380 --> 01:39:24.510
+Capstone Coach 1: Any questions for me later research.
+
+661
+01:39:25.320 --> 01:39:33.510
+Christian Gover: um no just whether or not the complexity is good enough like we're basically pulling data with the API right and displaying.
+
+662
+01:39:33.720 --> 01:39:35.490
+Capstone Coach 1: Well, I think it's pretty complex.
+
+663
+01:39:35.940 --> 01:39:36.330
+Capstone Coach 1: Okay.
+
+664
+01:39:36.840 --> 01:39:42.870
+Capstone Coach 1: you're gonna have to parse that information and stuff like that that's that's going to be involved yeah.
+
+665
+01:39:43.740 --> 01:39:44.040
+Christian Gover: All right.
+
+666
+01:39:45.300 --> 01:39:47.220
+Capstone Coach 1: Okay belie you there.
+
+667
+01:39:47.730 --> 01:39:48.840
+Zuberi, Bilal: Yes, Professor.
+
+668
+01:39:48.960 --> 01:39:49.320
+So.
+
+669
+01:39:50.880 --> 01:39:59.280
+Zuberi, Bilal: We have agreed upon the scope of roles and responsibilities, we will be ready on the fourth at midnight.
+
+670
+01:40:02.040 --> 01:40:03.420
+Capstone Coach 1: May 4 okay.
+
+671
+01:40:03.690 --> 01:40:04.290
+Zuberi, Bilal: at midnight.
+
+672
+01:40:05.220 --> 01:40:05.730
+midnight.
+
+673
+01:40:08.970 --> 01:40:13.770
+Zuberi, Bilal: Now, and and I have there is some scope change but i've sent you an email with his.
+
+674
+01:40:14.610 --> 01:40:16.620
+Zuberi, Bilal: Responsibilities go hungry.
+
+675
+01:40:16.710 --> 01:40:17.850
+Capstone Coach 1: So you will have a great.
+
+676
+01:40:18.390 --> 01:40:22.530
+Capstone Coach 1: Thanks thanks Okay, where to go Jim.
+
+677
+01:40:23.760 --> 01:40:31.290
+Capstone Coach 1: Good okay let's next slide see what we got him on base here charisse amanda and beth right.
+
+678
+01:40:32.310 --> 01:40:33.060
+Capstone Coach 1: Okay.
+
+679
+01:40:34.110 --> 01:40:35.130
+Capstone Coach 1: Any updates.
+
+680
+01:40:35.370 --> 01:40:37.650
+Karis Jochen: hey Dr Jones this is charisse.
+
+681
+01:40:38.370 --> 01:41:00.060
+Karis Jochen: mm hmm, and so our FDA is that we decided to focus on a few select companies who are active on Twitter and also public and what we're going to do is I sentiment analysis on the company's tweets for the past 30 days.
+
+682
+01:41:00.510 --> 01:41:01.290
+Karis Jochen: And then.
+
+683
+01:41:02.160 --> 01:41:20.700
+Karis Jochen: put that on a graph on as well as a graph of the company stock price to just see if there's a trend between various companies with the sentiment scores on their on their Twitter and their stock price.
+
+684
+01:41:20.880 --> 01:41:26.250
+Capstone Coach 1: Okay, that sounds like it might be a little bit of work, you guys comfortable with that.
+
+685
+01:41:26.880 --> 01:41:28.050
+Karis Jochen: yeah we actually.
+
+686
+01:41:28.440 --> 01:41:32.250
+Karis Jochen: We actually already have most of it together we kind of.
+
+687
+01:41:34.020 --> 01:41:36.240
+Karis Jochen: We we started on this a bit.
+
+688
+01:41:37.710 --> 01:41:49.650
+Karis Jochen: about a week ago, and we split up and we had already split up the work and decide who's going to focus on what, and so we should be ready, well before April 27.
+
+689
+01:41:49.980 --> 01:41:55.950
+Capstone Coach 1: wow wow you know what's happening here so ladies are getting organized.
+
+690
+01:41:57.330 --> 01:42:05.580
+Capstone Coach 1: Okay, all right so i'm going to put you down tentatively for April, the 27th and we'll check back with you.
+
+691
+01:42:06.120 --> 01:42:14.160
+Capstone Coach 1: sounds like a great project, though, looking forward to seeing what you're going to do with that will record it and some others have asked about presentation.
+
+692
+01:42:14.760 --> 01:42:24.180
+Capstone Coach 1: You can just go to live, in other words DEMO be your your API or your APP and maybe a couple of slides if you want, but videos fun.
+
+693
+01:42:25.230 --> 01:42:26.010
+sounds good.
+
+694
+01:42:27.690 --> 01:42:30.120
+Capstone Coach 1: Monica one and Karen.
+
+695
+01:42:32.760 --> 01:42:33.210
+Monica Harwig: Hello.
+
+696
+01:42:33.570 --> 01:42:34.290
+Hello.
+
+697
+01:42:37.320 --> 01:42:39.000
+Capstone Coach 1: Any changes any updates.
+
+698
+01:42:39.090 --> 01:42:55.080
+Monica Harwig: Now, no, we and we just a divided which part of the project that we're going to do, and I think we're good to go and we're going to you know meet next week, on Sunday and, if possible, we all agreed that may would be good for us.
+
+699
+01:42:55.830 --> 01:42:57.000
+Capstone Coach 1: May 4 okay.
+
+700
+01:42:58.350 --> 01:43:06.090
+Capstone Coach 1: Okay well very good i'll check back with you, and if you have any questions for me at this point or.
+
+701
+01:43:06.870 --> 01:43:09.090
+Capstone Coach 1: No okay good good.
+
+702
+01:43:09.450 --> 01:43:10.320
+Capstone Coach 1: Thank you so much.
+
+703
+01:43:10.380 --> 01:43:14.850
+Capstone Coach 1: Thank you know kimbo and Keith how about you any updates.
+
+704
+01:43:15.900 --> 01:43:26.640
+Kendall Sizemore: yeah so we decided to use Google API to mark detection and for the description about that landmark we're going to be using a Wikipedia.
+
+705
+01:43:30.510 --> 01:43:39.540
+Kendall Sizemore: We shouldn't have too much problems with that i'll be responsible for creating the the inner workings on the show detection.
+
+706
+01:43:40.800 --> 01:43:42.960
+Kendall Sizemore: And the Wikipedia.
+
+707
+01:43:43.320 --> 01:43:44.010
+Capstone Coach 1: And then.
+
+708
+01:43:44.190 --> 01:43:46.170
+Kendall Sizemore: there's going to be doing the July.
+
+709
+01:43:47.490 --> 01:43:49.230
+Kendall Sizemore: yeah we should be good.
+
+710
+01:43:50.970 --> 01:43:51.570
+Kendall Sizemore: With going.
+
+711
+01:43:55.950 --> 01:43:59.190
+Capstone Coach 1: Okay, that you dropped out of the last part there Kendall.
+
+712
+01:43:59.730 --> 01:44:01.470
+Kendall Sizemore: We can go on the fourth if that's okay.
+
+713
+01:44:02.010 --> 01:44:02.550
+sure.
+
+714
+01:44:06.480 --> 01:44:10.650
+Capstone Coach 1: Okay, and Natasha I think I know where you guys are at.
+
+715
+01:44:11.760 --> 01:44:18.300
+Capstone Coach 1: Natasha Joanna and Esther have been busy they basically are done.
+
+716
+01:44:20.430 --> 01:44:35.010
+Capstone Coach 1: Except for maybe they're going to polish up the presentation, a bit, but they've got quite a presentation for everybody, looking forward to seeing what they're going to do and and tentatively put I put them on last.
+
+717
+01:44:37.140 --> 01:44:37.800
+Capstone Coach 1: May 4.
+
+718
+01:44:39.000 --> 01:44:40.140
+Natasha Chevarunotai: Oh, we don't have a choice.
+
+719
+01:44:40.830 --> 01:44:42.000
+Capstone Coach 1: Do you have a choice.
+
+720
+01:44:42.810 --> 01:44:43.860
+Capstone Coach 1: Is that Natasha.
+
+721
+01:44:44.040 --> 01:44:45.090
+Natasha Chevarunotai: Yes, yes Natasha.
+
+722
+01:44:45.510 --> 01:44:49.050
+Capstone Coach 1: Low you think about if you want, if you want to.
+
+723
+01:44:50.520 --> 01:44:51.240
+Natasha Chevarunotai: yeah you.
+
+724
+01:44:51.900 --> 01:44:52.260
+know.
+
+725
+01:44:54.840 --> 01:44:59.730
+Capstone Coach 1: So, Brian Nicholas and Charles how about you guys any any updates any questions.
+
+726
+01:45:00.960 --> 01:45:18.180
+Swanson J, Charles: No, Sir, I miss it is Charles I believe we've defined our scope and and we have a working model, we just need to Polish it a bit so we're we're good on 27th or or may 4 whichever works.
+
+727
+01:45:19.770 --> 01:45:24.420
+Capstone Coach 1: Okay, I like the idea of putting putting folks up a little front and the 27th.
+
+728
+01:45:25.560 --> 01:45:35.190
+Capstone Coach 1: We may have to you know juggle a little bit depending upon how many folks are going to be in that slot but i'll definitely put you there for the expectations.
+
+729
+01:45:35.280 --> 01:45:35.940
+Swanson J, Charles: sounds great.
+
+730
+01:45:36.300 --> 01:45:39.210
+Capstone Coach 1: Okay okay Jordan Craig and surely.
+
+731
+01:45:43.350 --> 01:45:44.160
+Jordan Gross: Professor.
+
+732
+01:45:44.400 --> 01:45:45.540
+Jordan Gross: Yes, yeah yeah.
+
+733
+01:45:45.660 --> 01:45:53.130
+Jordan Gross: So we met up we just kind of started talking about scope, making sure we're going to have a plan for when we were going to meet up and actually hashed out the development.
+
+734
+01:45:53.940 --> 01:46:01.530
+Jordan Gross: We started already, or rather I should say Craig already parsed the vtt file and strings so we just kind of laid out the plan of.
+
+735
+01:46:01.860 --> 01:46:09.480
+Jordan Gross: All right, Well, now we really just need to add some rejects break everything down based on where colin's appear we're times of prayer were in line breaks are.
+
+736
+01:46:10.110 --> 01:46:15.390
+Jordan Gross: So we know what needs to be done and we've all done something or different pieces of it similar.
+
+737
+01:46:15.930 --> 01:46:22.230
+Jordan Gross: So first meeting should be sometime early next week after all our captains are done and, depending on the scope creep.
+
+738
+01:46:22.950 --> 01:46:34.590
+Jordan Gross: will depend on you know the timeframe, but one way or the other, whichever day is best for the scheduling we'd be happy to present and this scope will just be as far as we were able to push it.
+
+739
+01:46:35.100 --> 01:46:45.960
+Jordan Gross: The question I guess would just be what would you consider like hey if you guys want to get an A you should at least be doing this with your vtt files, so we know that we don't mess up that.
+
+740
+01:46:46.170 --> 01:46:51.330
+Jordan Gross: And then we'll start having more fun with it, but definitely knowing minimum viable products might might be.
+
+741
+01:46:51.570 --> 01:46:57.180
+Capstone Coach 1: You already you already up there, that a category just by this definition of this project.
+
+742
+01:46:57.870 --> 01:46:58.650
+Jordan Gross: Oh there it is.
+
+743
+01:46:58.710 --> 01:47:04.110
+Capstone Coach 1: Alright, it sure anybody else that offers a nap for doing this.
+
+744
+01:47:05.040 --> 01:47:19.200
+Jordan Gross: isn't necessarily a full fledged APP so there's definitely is a lot of fun potential will scale it I know Craig and I both have some experience with web Apps web applications and i'm starting to try and learn some MAC os applications as i'm transferring.
+
+745
+01:47:19.200 --> 01:47:20.310
+Jordan Gross: To also.
+
+746
+01:47:20.850 --> 01:47:23.160
+Capstone Coach 1: We might you might snoop around a lot bigger see if.
+
+747
+01:47:23.160 --> 01:47:23.430
+Jordan Gross: I.
+
+748
+01:47:23.730 --> 01:47:25.470
+Jordan Gross: alone it's terminal would be fun.
+
+749
+01:47:25.680 --> 01:47:29.850
+Capstone Coach 1: yeah you might snoop around a little bit and see what the commercial potential for this would be.
+
+750
+01:47:30.450 --> 01:47:40.140
+Jordan Gross: i'm almost scared to find out because i'd hate to put this on people because adding more metrics that get tracked just make a lot of people's jobs harder and a lot of people have.
+
+751
+01:47:40.530 --> 01:47:41.160
+Jordan Gross: fun.
+
+752
+01:47:41.370 --> 01:47:44.730
+Capstone Coach 1: making comparisons think of it that I was just wondering.
+
+753
+01:47:46.110 --> 01:47:48.630
+Capstone Coach 1: If somebody I mean this sounds very useful.
+
+754
+01:47:49.650 --> 01:47:53.130
+Capstone Coach 1: And if you guys pull this off, I want to copy.
+
+755
+01:47:53.580 --> 01:47:54.750
+Jordan Gross: Oh absolutely well.
+
+756
+01:47:55.050 --> 01:47:57.840
+Jordan Gross: To get a good grade I think we're gonna have to submit it to you so.
+
+757
+01:47:59.160 --> 01:48:00.270
+We will be happy to.
+
+758
+01:48:01.530 --> 01:48:07.530
+Jordan Gross: I imagine we'll get you know, at the very least a folder with a virtual environment or an environment in it and.
+
+759
+01:48:08.070 --> 01:48:12.870
+Jordan Gross: If we do all the proper fun things we should we might have a github repo as well, but.
+
+760
+01:48:13.140 --> 01:48:24.600
+Jordan Gross: That scope creep before we've even hit the code so i'm going to say we're going to get you know something working in terminal that parses files and gives an output of words spoken in time and that's the minimum I think after that.
+
+761
+01:48:24.630 --> 01:48:26.970
+Capstone Coach 1: This is me this is fantastic I.
+
+762
+01:48:27.510 --> 01:48:44.640
+Capstone Coach 1: mean all of the zoom meetings and zoom educational activities that are going on right now to be able to automate some of the some of the context of all this is fantastic and then of course there's the translation thing as well, I don't think you're gonna touch that but.
+
+763
+01:48:44.760 --> 01:48:46.800
+Jordan Gross: Oh, I think it like I said that's.
+
+764
+01:48:46.830 --> 01:48:56.550
+Jordan Gross: That scope creep that i've learned from my own personal experiences at work, I i've been one to make some promises and then have to come back and say either I need another two weeks or you know.
+
+765
+01:48:57.150 --> 01:48:58.590
+Capstone Coach 1: yeah you didn't know this is what.
+
+766
+01:48:59.460 --> 01:49:02.520
+Capstone Coach 1: exactly this is, this is what I call a black hole.
+
+767
+01:49:03.690 --> 01:49:07.140
+Jordan Gross: It this was one that I recognized early could very quickly.
+
+768
+01:49:07.920 --> 01:49:09.600
+Capstone Coach 1: And really expand on.
+
+769
+01:49:09.720 --> 01:49:11.250
+Jordan Gross: One thing at a time and.
+
+770
+01:49:11.250 --> 01:49:15.720
+Jordan Gross: we'll get as far as we can with it, certainly, but whichever day you say would be best will be happy for us.
+
+771
+01:49:15.720 --> 01:49:19.320
+Capstone Coach 1: Okay we're good i'll check back in then Ryan.
+
+772
+01:49:20.820 --> 01:49:21.720
+Capstone Coach 1: David rather.
+
+773
+01:49:21.780 --> 01:49:22.890
+David brand right.
+
+774
+01:49:24.090 --> 01:49:25.350
+Capstone Coach 1: away why this yeah.
+
+775
+01:49:25.800 --> 01:49:26.310
+Ryan David: that's okay.
+
+776
+01:49:26.400 --> 01:49:27.180
+Ryan David: everybody gets it.
+
+777
+01:49:28.470 --> 01:49:28.920
+Ryan David: All right.
+
+778
+01:49:30.810 --> 01:49:37.200
+Ryan David: we're good like brandon and I have capstone tomorrow so plan is to get together this weekend.
+
+779
+01:49:38.220 --> 01:49:41.310
+Ryan David: You know, we feel like we have all the code it's just sort of.
+
+780
+01:49:42.420 --> 01:49:52.890
+Ryan David: Extension it together getting it working doing some testing on it, so we could confident that we have on the 27th if that if.
+
+781
+01:49:54.720 --> 01:49:59.130
+Capstone Coach 1: you're going to put you down there for tentatively for the 27th sure okay.
+
+782
+01:50:01.020 --> 01:50:06.180
+Capstone Coach 1: Okay that's good I like to see everybody's competent getting get this done.
+
+783
+01:50:07.350 --> 01:50:10.140
+Capstone Coach 1: Nathan Wilson James.
+
+784
+01:50:11.130 --> 01:50:12.330
+Capstone Coach 1: The job well.
+
+785
+01:50:13.320 --> 01:50:13.980
+Nathan Lippert: Yet we did.
+
+786
+01:50:14.190 --> 01:50:16.650
+Nathan Lippert: We can, I think Wilson sent you over a document.
+
+787
+01:50:17.040 --> 01:50:22.920
+Nathan Lippert: Okay, in James I think he's traveling the 26th and the 27th so he asked if we could do that before.
+
+788
+01:50:23.910 --> 01:50:30.000
+Capstone Coach 1: Okay, so he's out of here on the 27th or something like or he's battling.
+
+789
+01:50:30.690 --> 01:50:31.890
+Capstone Coach 1: or sorry, no.
+
+790
+01:50:32.130 --> 01:50:33.780
+Capstone Coach 1: You say you guys basically.
+
+791
+01:50:34.800 --> 01:50:38.850
+Capstone Coach 1: May for basically yeah okay.
+
+792
+01:50:39.900 --> 01:50:46.740
+Capstone Coach 1: we're good, and I think i'm going to move James up a notch here on this slide whoops.
+
+793
+01:50:53.400 --> 01:50:54.390
+Capstone Coach 1: Okay got it.
+
+794
+01:50:55.530 --> 01:51:10.890
+Capstone Coach 1: All right, well thanks thanks everybody for participating in this and i'm i'm so excited that some of these presentations are going to be roughly bang bang up i'm really excited to see what you put together.
+
+795
+01:51:13.020 --> 01:51:13.320
+Capstone Coach 1: Okay.
+
+796
+01:51:13.950 --> 01:51:14.790
+Kilani, Shadi: I have a question.
+
+797
+01:51:17.220 --> 01:51:19.890
+Kilani, Shadi: Do you decide how long is the presentation.
+
+798
+01:51:21.450 --> 01:51:34.380
+Capstone Coach 1: let's let's take, I have to take a look at the time frame i'm sorry, how much time we have allocated here and how many different product presentations but i'm thinking at least 15 minutes.
+
+799
+01:51:36.210 --> 01:51:46.140
+Capstone Coach 1: No, you know, so if you're gonna if you're going to DEMO some of these things to DEMO the gui will take they take that long so we'll see, let me get back to you on that.
+
+800
+01:51:46.440 --> 01:51:46.800
+Kilani, Shadi: Thank you.
+
+801
+01:51:47.190 --> 01:52:03.000
+Capstone Coach 1: Okay, good question all right well today Okay, the exciting part of tonight we are going to talk about time series forecasting like couldn't let you get out of here without giving you some new.
+
+802
+01:52:03.510 --> 01:52:15.210
+Capstone Coach 1: thoughts about Python and analysis and so we're going to talk about something some of you are talked about in your presentations this is cool.
+
+803
+01:52:15.600 --> 01:52:25.470
+Capstone Coach 1: Okay, so if you had that time series course, and I know you all did then, you know what under reema model is that are remote pdq is a standard.
+
+804
+01:52:26.010 --> 01:52:33.900
+Capstone Coach 1: Swiss army knife for fitting time series, so you, but the problem, it is, is what is P, what is T and what is cute.
+
+805
+01:52:34.410 --> 01:52:43.170
+Capstone Coach 1: And these are based upon the audit correlation and partial audit correlation functions as well as the trends that might exist in the graph.
+
+806
+01:52:43.770 --> 01:52:53.970
+Capstone Coach 1: So D is the difference, so you know and usually that people hope that's zero, but if you have trends in your graph you might want to take a first difference or second to see that.
+
+807
+01:52:54.780 --> 01:53:04.920
+Capstone Coach 1: P amp Q have to do with the otter aggressive component P, is the number of otter aggressive terms and Q is a number of I am terms.
+
+808
+01:53:06.510 --> 01:53:18.090
+Capstone Coach 1: The problem, one of the issues and one of the challenges with the riemann models is that it requires computing missing values, and it also requires regularly or evenly spaced observations.
+
+809
+01:53:18.510 --> 01:53:28.650
+Capstone Coach 1: Like every day, every week or something like that, if you don't have evenly spaced data, then amputation, is a possibility, if you have missing observations.
+
+810
+01:53:28.920 --> 01:53:35.820
+Capstone Coach 1: Interpretation is also a possibility to fill in that gap, but that is an extra step that's required with the remote.
+
+811
+01:53:36.600 --> 01:53:41.760
+Capstone Coach 1: nice thing about arena statistical theory is rich here it's been around for some time.
+
+812
+01:53:42.090 --> 01:53:58.110
+Capstone Coach 1: And so that three provides calculations forecasts with confidence intervals, and so you can get P values, and you can you can say well here's our forecasts and the accuracy is plus or minus 5% or what have you that's really useful in some ways.
+
+813
+01:53:58.500 --> 01:54:10.110
+Capstone Coach 1: But in other ways, these other things are limiting and let's talk about ar one model here one model is and a remodel.
+
+814
+01:54:10.500 --> 01:54:18.450
+Capstone Coach 1: Probably the most easiest one, you can have and that's the case where the next observation that time T.
+
+815
+01:54:18.900 --> 01:54:25.740
+Capstone Coach 1: is basically a linear relationship with the previous observation at time T minus one.
+
+816
+01:54:26.190 --> 01:54:41.880
+Capstone Coach 1: So you have an intercept you have a slope and then that slope is multiplied by that coefficient is multiplied times the previous observation on the series and, of course, you have this statistical error that's added to it now.
+
+817
+01:54:42.510 --> 01:54:48.120
+Capstone Coach 1: This is where things also get a little shady with arena models you're assuming.
+
+818
+01:54:48.510 --> 01:54:57.810
+Capstone Coach 1: Almost regardless of which are riemann model, you have you're assuming that the error term that you have here has zero the average value of zero.
+
+819
+01:54:58.230 --> 01:55:07.020
+Capstone Coach 1: And then, a constant or you know homogeneous variance so what this says is that the residuals from this model.
+
+820
+01:55:07.500 --> 01:55:18.630
+Capstone Coach 1: So we're going to get a value for the intercept that have value for the slope and then we'll be able to make predictions of the existing data and future data using this relationship.
+
+821
+01:55:19.560 --> 01:55:31.320
+Capstone Coach 1: know if the average difference between y te the observation and the estimate of that observation, if that average difference is not zero.
+
+822
+01:55:31.800 --> 01:55:43.380
+Capstone Coach 1: Then you have a problem, and so that's ordinarily attacked by possibly adding additional terms up here or by adding different scene that's the D number.
+
+823
+01:55:43.980 --> 01:55:59.580
+Capstone Coach 1: to your model another thing that's more common probably is the variation the variation of the data may change over time and over here in the Raven model we're assuming that it doesn't change it's called homogeneous variance.
+
+824
+01:56:01.830 --> 01:56:13.920
+Capstone Coach 1: If we add to this a little extra complexity here is the ar to model, where we have the function of we're going to forecast the next observation.
+
+825
+01:56:14.370 --> 01:56:20.280
+Capstone Coach 1: as a function of the two previous observations, and so we have a coefficient times.
+
+826
+01:56:20.760 --> 01:56:32.010
+Capstone Coach 1: The previous one, and then another coefficient times something before that does observation before that so we're using the last two observations to predict the next one.
+
+827
+01:56:32.910 --> 01:56:42.960
+Capstone Coach 1: We have the same assumption, so the error term that's added on the end here should have an average value of zero and the variants should be a got homogeneous or constant.
+
+828
+01:56:43.410 --> 01:56:52.800
+Capstone Coach 1: Now these assumptions that you see here I primarily unnecessary to ensure that the confidence intervals, that you can calculate are accurate.
+
+829
+01:56:53.280 --> 01:57:03.750
+Capstone Coach 1: But it also affects the forecasts, if this especially this one about the expectation of the average value of the error term here needs to be zero that.
+
+830
+01:57:04.200 --> 01:57:11.100
+Capstone Coach 1: assumption if it's not correct that means you have a trend and the observations you know, maybe they're just going up up up.
+
+831
+01:57:11.370 --> 01:57:25.920
+Capstone Coach 1: All for the entire time frame that's a That would be a trend in one way and so your expectation that the average differences zeros probably not going to hold in that case, unless you start working with first order differences that's the equal to zero.
+
+832
+01:57:27.390 --> 01:57:36.960
+Capstone Coach 1: So what I just talked about is basically what you, I think I hope it was review for the Tongue series course that you had earlier.
+
+833
+01:57:37.650 --> 01:57:47.250
+Capstone Coach 1: The but, in a nutshell that's what it's about it's about hitting this retrospective model where you're saying the next observation is a function of the previous observations.
+
+834
+01:57:48.360 --> 01:57:59.970
+Capstone Coach 1: Now what function to us that's a challenge you know you've got to you've got to go through and figure out do I gurus when they are one do I use, and they are two or even more further back than that.
+
+835
+01:58:00.330 --> 01:58:09.450
+Capstone Coach 1: Is there any seasonality in the data and that gets into questions about D, for example, if you have an annual seat seasonality.
+
+836
+01:58:09.930 --> 01:58:27.810
+Capstone Coach 1: Then, and you have monthly data, then that means you're going to have a 12 month cycle that needs to be incorporated into your model, and so you want D to be one or 12 and you want the observations here the different same maybe to include T minus 12.
+
+837
+01:58:30.360 --> 01:58:31.050
+Capstone Coach 1: Okay.
+
+838
+01:58:32.520 --> 01:58:33.300
+Now.
+
+839
+01:58:34.650 --> 01:58:47.130
+Capstone Coach 1: I thought, how do you do Arriva in Python okay I don't know what you did in that course, but I hope you use Python if you do use Python then.
+
+840
+01:58:48.240 --> 01:58:50.100
+Capstone Coach 1: Hopefully you use that model.
+
+841
+01:58:51.270 --> 01:59:07.350
+Capstone Coach 1: You psychic learn does not have a time series model in psychic learn they have some things that help you build as a time series model, but they don't have a river and they don't have some of the other things that you might want.
+
+842
+01:59:08.610 --> 01:59:13.860
+Capstone Coach 1: stats model, on the other hand, the current version of stats model this year's version.
+
+843
+01:59:14.820 --> 01:59:28.080
+Capstone Coach 1: is very rich and time series analysis and so you're going all you need to do is import stats models is sm and from stats model to you see this one here in Puerto Rico.
+
+844
+01:59:28.980 --> 01:59:35.970
+Capstone Coach 1: So that is the function remove function that we're trying to get to and then, if you have important that.
+
+845
+01:59:36.660 --> 01:59:55.230
+Capstone Coach 1: This is all you need to do to fit a time series model in stats models, you say model is equal to a reema you give it the target vector, which is why you know that's a series that's going up and down and you want to try to protect it and then you give it values for PD and Q.
+
+846
+01:59:56.940 --> 02:00:09.780
+Capstone Coach 1: oftentimes especially initially you will set to add the middle term to zero, and probably Q, also to zero, and you will play around with different values of p.
+
+847
+02:00:10.110 --> 02:00:19.080
+Capstone Coach 1: This is the otter aggressive term, to see whether you could have you can use a straight ar model, there is a mathematical theorem that says.
+
+848
+02:00:19.470 --> 02:00:31.290
+Capstone Coach 1: hypothetically that if you have enough of a auto regressive terms if he hears big enough, you should be able to fit anytime soon okay.
+
+849
+02:00:32.190 --> 02:00:42.150
+Capstone Coach 1: Now that's not a good idea, because you don't want to have an aggressive time series with 10 terms of these are 20 terms in or something like that.
+
+850
+02:00:42.810 --> 02:00:56.370
+Capstone Coach 1: you're better off to try to maybe a couple of other very aggressive terms and then maybe a couple of the moving average terms that's that's the cube term here, and maybe I do want difference of one or two might also be expected.
+
+851
+02:00:57.210 --> 02:01:04.920
+Capstone Coach 1: But you can see that as far as the syntax and Python is concerned it's cool it's very simple it's not complicated.
+
+852
+02:01:05.550 --> 02:01:17.310
+Capstone Coach 1: The results model that fit that gets you the results, and if you pred results summary you get the entire table of statistics for that model.
+
+853
+02:01:17.610 --> 02:01:23.970
+Capstone Coach 1: And that would include P values on the coefficients in the reema model and some other information as well.
+
+854
+02:01:24.780 --> 02:01:31.470
+Capstone Coach 1: If you want the predicted values you just say predict the sequel to model period predict and then in parentheses like that.
+
+855
+02:01:32.010 --> 02:01:46.110
+Capstone Coach 1: So, for example, if you have a an ar ar to model, and we were just talking about an ar to model, this is all you need to do model is equal to a remote y comma order to come zero comma zero.
+
+856
+02:01:46.860 --> 02:01:55.950
+Capstone Coach 1: Is that good, I think, so I think it's fairly say you know simple we're going to see that here in a minute okay I don't want you to crank up.
+
+857
+02:01:56.580 --> 02:02:10.680
+Capstone Coach 1: Out of anaconda and also spider and there's a template in the week 12 folder, and that is competition that is called time series analysis stats models template.
+
+858
+02:02:11.820 --> 02:02:24.810
+Capstone Coach 1: And there's also a data file that goes with this is the IBM weekly stock prices for the last since 1999 so that file is named IBM weekly price period csv.
+
+859
+02:02:25.290 --> 02:02:37.560
+Capstone Coach 1: And so we're going to we're going to read this with pandas and we're going to do a time series analysis on this data in Python So if you would please open that file up.
+
+860
+02:02:38.100 --> 02:02:45.990
+Capstone Coach 1: i'm going to show you in the next slide what the data actually sort of looks like like that this is the IBM closing price.
+
+861
+02:02:47.010 --> 02:02:59.790
+Capstone Coach 1: Since 1999 and you can see, there are some trends here right, and so you have a trend going up this way, and then a trend coming down this way.
+
+862
+02:03:00.210 --> 02:03:12.480
+Capstone Coach 1: Maybe dream is not the dnc row is not the right choice, but we can easily use that's models to figure out what the right choice is going to be for this particular data set.
+
+863
+02:03:12.930 --> 02:03:22.170
+Capstone Coach 1: So this is weekly closing price from 1989 to the present all right i'm going to open up spider here and i'm going to clear off my.
+
+864
+02:03:24.660 --> 02:03:30.390
+Capstone Coach 1: Well yeah clearly kernels clear all this off, so we can.
+
+865
+02:03:34.140 --> 02:03:39.690
+Capstone Coach 1: Okay here's the template here it is okay, welcome to the up that are okay.
+
+866
+02:03:41.730 --> 02:03:48.420
+Capstone Coach 1: I hope you have this going, and if you do have this going what i'd like you to do is type it in the following command let's see.
+
+867
+02:03:48.750 --> 02:04:06.450
+Capstone Coach 1: First of all, we want in in is the number of observations and so i'm going to take in is equal to D E, F dot shape and then in square brackets zero so that'll give us the number of observations that are in this file and then we're going to set target.
+
+868
+02:04:08.220 --> 02:04:17.100
+Capstone Coach 1: The variable target equal to quote close so there's a column in this file called close i'd be the closing price right.
+
+869
+02:04:18.360 --> 02:04:22.500
+Capstone Coach 1: So there we get that and now let's print out.
+
+870
+02:04:23.520 --> 02:04:34.950
+Capstone Coach 1: The top and bottom of the data file so just say print def like that, and now let's go up to the Green arrow and run.
+
+871
+02:04:36.510 --> 02:04:41.280
+Capstone Coach 1: All right, there you go, so you can see we've got five columns in this and we have.
+
+872
+02:04:44.190 --> 02:04:57.330
+Capstone Coach 1: observations or rows and the earliest, so the latest one is November the 12th 1999 and, most recently April 5 yesterday yeah okay.
+
+873
+02:04:58.110 --> 02:05:15.780
+Capstone Coach 1: 2021 all right, and here you can see the closing prices back in 1989 it was $90 a share, and now, most recently $133 a share of course that's to take a 20 some years really okay.
+
+874
+02:05:18.270 --> 02:05:28.200
+Capstone Coach 1: yeah you might might expect something a little bit higher after 20 Sunday, I think this or justin prices, by the way, yeah adjusted for splits and things like that, so that.
+
+875
+02:05:28.710 --> 02:05:40.800
+Capstone Coach 1: Is cancel my statements I think of my big mouth is probably not correct okay So these are probably adjusted for various dividends or stock splits that kind of thing.
+
+876
+02:05:41.790 --> 02:05:49.290
+Capstone Coach 1: Okay, so what we want to do now is, we want to build a time series model for the closing prices that you see on great so.
+
+877
+02:05:49.680 --> 02:06:00.810
+Capstone Coach 1: We have it right here, and so i'm going to say why, then, is equal to uh huh I need to have a non P array here stats models likes lumpy.
+
+878
+02:06:01.320 --> 02:06:22.170
+Capstone Coach 1: And in fact psychic learn like some lumpy and other things that we're going to see charisse likes lumpy Okay, so we have to say in P for Navi period array like that, and then inside of brackets we're going to have to put def and then in square brackets target.
+
+879
+02:06:23.520 --> 02:06:40.110
+Capstone Coach 1: like that, so what that does is it should, if I didn't have don't have any typos there, it will shake the value for the closing prices, you see here and and put them into why like that so let's highlight that.
+
+880
+02:06:41.700 --> 02:06:46.290
+Capstone Coach 1: highlight it and then right click run the selection.
+
+881
+02:06:47.490 --> 02:06:59.340
+Capstone Coach 1: Make sure that the syntax the syntax is good and then over here on the right hand side if I type why okay there we go now notice the order of these numbers.
+
+882
+02:07:00.600 --> 02:07:07.530
+Capstone Coach 1: So we have the most recent data at the top and then most all and the oldest data at the bottom.
+
+883
+02:07:08.370 --> 02:07:16.710
+Capstone Coach 1: We want to graph this and we want to look at this data, so we really need to reverse this, we need to reverse the order of why.
+
+884
+02:07:17.550 --> 02:07:22.980
+Capstone Coach 1: And I have a little function, right here at the top, that have included in the template that does that.
+
+885
+02:07:23.790 --> 02:07:31.230
+Capstone Coach 1: Now you can take a look at this, if you want to see but it's a simple thing all we're doing is taking what's on the bottom of why i'm putting it on the top.
+
+886
+02:07:31.830 --> 02:07:44.400
+Capstone Coach 1: And we're doing that and then returning a new value so in order to reverse Why then, what all I need to do here is type I is equal to reverse.
+
+887
+02:07:45.870 --> 02:07:47.460
+Capstone Coach 1: Why like that.
+
+888
+02:07:49.170 --> 02:08:01.470
+Capstone Coach 1: Now let's just select that one and tested so selected right click run boom okay let's check it here by typing in why in the IP fun window.
+
+889
+02:08:02.550 --> 02:08:18.120
+Capstone Coach 1: There you go yes it's reversed so 95 is now the first and 135 is now the last observation, so we have we have old versus new last that's where we kind of wanted that.
+
+890
+02:08:20.010 --> 02:08:26.700
+Capstone Coach 1: All right, well okay we're getting ready to do some calculations here.
+
+891
+02:08:27.930 --> 02:08:43.170
+Capstone Coach 1: let's let's choose a value for P P, is the number of otter aggressive terms and let's use to for now, which is the order good we're just going to fit an ar to model and so i'll set the equal to zero.
+
+892
+02:08:44.430 --> 02:09:02.520
+Capstone Coach 1: And i'll set Q equal to zero like that okay so it's a 200 and now i'm going to say what am I going to say here, I have to look at my slide it's something like marvel is equal to okay Rima.
+
+893
+02:09:03.750 --> 02:09:13.440
+Capstone Coach 1: And then in parentheses why comma order is equal to another parenthesis P de que.
+
+894
+02:09:17.580 --> 02:09:19.350
+Capstone Coach 1: So that'll give us our model.
+
+895
+02:09:21.090 --> 02:09:37.530
+Capstone Coach 1: And this is sort of like what some of the things you do in Paris, where you describe what the model is but there's no real calculations going on here, then the real calculations happen happen in the next term and for them i'm going to think i'm going to say result.
+
+896
+02:09:40.230 --> 02:09:49.290
+Capstone Coach 1: is equal to real actually make that plural is equal to model dot fit like that.
+
+897
+02:09:51.150 --> 02:10:03.000
+Capstone Coach 1: So, first I just described what the model is, and then I asked sets models to do the calculations like that, and then we will say print.
+
+898
+02:10:04.080 --> 02:10:05.100
+Capstone Coach 1: results.
+
+899
+02:10:06.300 --> 02:10:07.380
+Capstone Coach 1: That summary.
+
+900
+02:10:08.940 --> 02:10:21.660
+Capstone Coach 1: So interesting okay let's just redo this whole thing i'm going to go to the top and say restart the the Colonel there off the screen and then we'll hit the green arrow again.
+
+901
+02:10:22.740 --> 02:10:23.430
+Capstone Coach 1: and
+
+902
+02:10:24.780 --> 02:10:28.410
+Capstone Coach 1: see what happens okay there we go hit the green arrow.
+
+903
+02:10:29.820 --> 02:10:30.870
+Capstone Coach 1: Oh.
+
+904
+02:10:51.150 --> 02:10:51.480
+Capstone Coach 1: I think.
+
+905
+02:10:51.840 --> 02:10:53.670
+Swanson J, Charles: A senior parameter for the predict.
+
+906
+02:10:54.540 --> 02:10:55.170
+Capstone Coach 1: what's that.
+
+907
+02:10:55.650 --> 02:10:57.600
+Swanson J, Charles: Are we missing a parameter for there.
+
+908
+02:10:58.170 --> 02:11:09.240
+Capstone Coach 1: I don't think so, I think, I think, maybe you're missing that the the summary asked to have a couple of brackets at the end of it, I think I don't know, let me try this.
+
+909
+02:11:10.530 --> 02:11:11.430
+Capstone Coach 1: yeah That was what.
+
+910
+02:11:12.600 --> 02:11:13.110
+Capstone Coach 1: Thanks.
+
+911
+02:11:14.700 --> 02:11:26.280
+Capstone Coach 1: Usually I would be missing parameters, but you know this thing is so slick the way they've designed this there, by the way, there are lots of other parameters that you can add to this.
+
+912
+02:11:26.850 --> 02:11:35.190
+Capstone Coach 1: Things that deal with seasonality, for example, and other things that you don't normally use.
+
+913
+02:11:35.760 --> 02:11:46.500
+Capstone Coach 1: But in the normal world where you have a single time series, and you don't have any concomitant information that you're trying to use to predict that series, this is all you need.
+
+914
+02:11:47.370 --> 02:11:54.000
+Capstone Coach 1: You know so look at look at what's printed on here all right Okay, so we have the coefficients right here the.
+
+915
+02:11:54.390 --> 02:12:10.410
+Capstone Coach 1: Constant is the beta zero term that you saw and there they are to model, and then we have it says ar dot l one l one stands for lag one, so this is the coefficient for T minus one.
+
+916
+02:12:11.190 --> 02:12:23.070
+Capstone Coach 1: The previous observation, then you have l to for lag to coefficient for two numbers back and Sigma this is Sigma squared notice the two here.
+
+917
+02:12:23.580 --> 02:12:40.770
+Capstone Coach 1: This is an estimate of the variance that you see in the model, remember, we said the variance was constant well I sure hope it's constant because they just give us one number right here 18.37 18.37.
+
+918
+02:12:41.790 --> 02:12:55.260
+Capstone Coach 1: This is close to ASC the average squared error but not exactly because there's not dividing by Ian here you're dividing by in minus the number of coefficients, I believe, is what they're doing.
+
+919
+02:12:56.040 --> 02:13:04.200
+Capstone Coach 1: And, and you can see here, they have the standard error for the coefficients and then they also have the test statistic Z.
+
+920
+02:13:04.650 --> 02:13:20.040
+Capstone Coach 1: For the coefficients and a P value here in this call now, this would say that everything in the model is statistically significant at a 90% level the ar to term l to his.
+
+921
+02:13:20.820 --> 02:13:29.040
+Capstone Coach 1: Point oh six five so it's statistically significant the 90 but not 95 I mean we're we're missing, this is not a big deal.
+
+922
+02:13:31.320 --> 02:13:43.650
+Capstone Coach 1: Data science people don't really get too excited about P values, but it does tell you something here, it says that yeah we probably want at least two ar terms, maybe more.
+
+923
+02:13:44.100 --> 02:13:51.060
+Capstone Coach 1: Now, this could change if we were to add a difference in here or add a moving average term in here and so forth, and so on.
+
+924
+02:13:52.260 --> 02:13:58.350
+Capstone Coach 1: There is some other information in here, like, for example, the Ai see 6439.
+
+925
+02:13:58.860 --> 02:14:10.320
+Capstone Coach 1: You want to minimize that number, so if you were to run a different model, maybe in using the ar three term you'd be looking to see whether they 6493 30 minutes goes down.
+
+926
+02:14:11.310 --> 02:14:22.410
+Capstone Coach 1: And then you have a log likelihood term also you're trying to make that small and so you notice that it's negative so negative 3300 will be smaller than this.
+
+927
+02:14:23.370 --> 02:14:36.570
+Capstone Coach 1: Okay well let's try something let's try and put P equal to three or no speaker for what the heck scope for our for model ar for model so.
+
+928
+02:14:37.560 --> 02:14:57.180
+Capstone Coach 1: let's run this again i'm not going to clear the screen and the screen to run it there, we go now let's take a look what see what happened, first of all you'll see that the new terms that came in that the ar three and the or four terms are not statistically significant at a 90% level.
+
+929
+02:14:58.770 --> 02:15:10.410
+Capstone Coach 1: In fact, p values are pretty large, so this would be an argument to say, maybe we shouldn't put in those say they are three and the ar for term maybe we stick with one into.
+
+930
+02:15:11.550 --> 02:15:14.490
+Capstone Coach 1: notice these variants here is.
+
+931
+02:15:18.360 --> 02:15:21.660
+Capstone Coach 1: And the fdic value, you can see it up there, the.
+
+932
+02:15:24.690 --> 02:15:44.520
+Capstone Coach 1: let's Compare that to the previous cic value the previous cic value was 6439 smaller now what that says the ic criteria is telling you that the ar to model for these data is better for the data than the ar for model.
+
+933
+02:15:46.200 --> 02:15:54.630
+Capstone Coach 1: So you have several things that are coming screaming at you and saying to us enough to is enough you don't need for okay.
+
+934
+02:15:56.220 --> 02:16:10.860
+Capstone Coach 1: You have the p values and you also have the ic value, right here, and if you look at the log likelihood it's negative 3214 verses 3215 this is slightly smaller.
+
+935
+02:16:11.370 --> 02:16:20.190
+Capstone Coach 1: With the ar to model so everything is pointing here to say you're better off with an ar to model okay.
+
+936
+02:16:20.910 --> 02:16:37.380
+Capstone Coach 1: Really, I like to see graphs let's pay let's do some graphs okay fine, first of all let's do this prediction so i'm going to type in the next function model or the next statement he will be PR ED for prediction is equal to results.
+
+937
+02:16:40.560 --> 02:16:42.630
+Capstone Coach 1: lts predict.
+
+938
+02:16:43.830 --> 02:16:51.420
+Capstone Coach 1: And then he have the open and closed parentheses there and let's Let me run that mo.
+
+939
+02:16:55.560 --> 02:17:03.780
+Capstone Coach 1: Just complain somethings are complaining that in Korea it ran OK, so now I, so I checked it out i'm gonna say whoops.
+
+940
+02:17:05.640 --> 02:17:06.210
+Capstone Coach 1: there.
+
+941
+02:17:07.770 --> 02:17:16.710
+Capstone Coach 1: OK okay over here i'm going to say P or ED in the eye Python window and you'll see the predictions, and if you type in why.
+
+942
+02:17:17.730 --> 02:17:39.570
+Capstone Coach 1: you'll see that okay not bad, I mean that is the last number in Why is 135 and the prediction, there is one 130 3.7 something like that so Okay, maybe we should grab these to see if they're how close they are over that entire time frame so let's do that.
+
+943
+02:17:40.620 --> 02:17:44.790
+Capstone Coach 1: you'll notice up here, I have an important statement see that guy online.
+
+944
+02:17:45.870 --> 02:17:54.990
+Capstone Coach 1: Important math spotlight we're going to use math, but when I had to print or to prepare a graph of these guys right here and.
+
+945
+02:17:57.360 --> 02:18:08.820
+Capstone Coach 1: At this point, let's see do I trust my memory not really okay so i'm gonna i'm gonna cheat a little bit I right i'm.
+
+946
+02:18:11.040 --> 02:18:11.640
+Capstone Coach 1: Wait a second.
+
+947
+02:18:13.680 --> 02:18:18.690
+Capstone Coach 1: Oh yeah, this is it okay so there's the code.
+
+948
+02:18:21.780 --> 02:18:23.070
+Capstone Coach 1: Okay okay.
+
+949
+02:18:24.210 --> 02:18:30.180
+Capstone Coach 1: yeah okay all right, well, I will do the plot first.
+
+950
+02:18:32.040 --> 02:18:40.020
+Capstone Coach 1: So i'm going back now to my my thing here and i'm gonna i'm going to paste in some code that will do the plot for so let's take a look at the code.
+
+951
+02:18:41.970 --> 02:18:47.700
+Capstone Coach 1: First of all, if I create something called a Poc list, which is just the numbers from one to n plus one.
+
+952
+02:18:49.530 --> 02:19:08.130
+Capstone Coach 1: super easy to do that that's going to go on the X axis i'm not gonna put the dates down there i'm just going to put 123456 whatever right and then i'm going to say subplots big size 2020 I want a big plot, so I can see the resolution on this I got a I got a nice monster let's use it.
+
+953
+02:19:09.510 --> 02:19:28.710
+Capstone Coach 1: If you're on your laptop maybe 2020 is a lot of good option, but I don't think it causes any harm to try, that this is supposed to be 20 inches by 20 it says it didn't turn out that way but yeah so then we're going to say plot subplot to one one and then we're going to say plot.
+
+954
+02:19:30.210 --> 02:19:32.550
+Capstone Coach 1: Okay So here we are going to plot, the data.
+
+955
+02:19:33.840 --> 02:19:39.300
+Capstone Coach 1: Any pocket list that's X comma y comma.
+
+956
+02:19:40.440 --> 02:19:53.460
+Capstone Coach 1: colors equal to be for blue quote unquote label label that's the vertical axis at IBM closing price.
+
+957
+02:19:55.350 --> 02:19:55.860
+Capstone Coach 1: Okay.
+
+958
+02:19:57.360 --> 02:20:16.050
+Capstone Coach 1: So this plot sequence that that i'm just talking about here this guy right here what it does, is it plots the time series in blue as a connected line that plot that you saw on and the PowerPoint presentation comes from this.
+
+959
+02:20:19.260 --> 02:20:20.190
+Capstone Coach 1: Okay now.
+
+960
+02:20:24.270 --> 02:20:25.050
+Capstone Coach 1: The next one.
+
+961
+02:20:26.850 --> 02:20:29.610
+Capstone Coach 1: plt plot he park list.
+
+962
+02:20:31.380 --> 02:20:37.920
+Capstone Coach 1: And Oh, I see what the problem is, it says P predict why i'm just good I misspelled that I didn't need.
+
+963
+02:20:38.250 --> 02:20:53.670
+Capstone Coach 1: me to change that to piri needs to be the same name up here, this is where, in line 4040 I calculated the predicted values and so here, I want to plot the predictive values as periods as little dots little dots.
+
+964
+02:20:54.930 --> 02:20:58.830
+Capstone Coach 1: And the color is going to be read, so that you can distinguish them from the blue line.
+
+965
+02:21:00.240 --> 02:21:05.910
+Capstone Coach 1: And the label is predicted price and marker size tiny.
+
+966
+02:21:07.200 --> 02:21:16.080
+Capstone Coach 1: Because we have over 1000 observations here and so that plots going to get pretty busy with all these dots and lines going on around it.
+
+967
+02:21:17.550 --> 02:21:21.420
+Capstone Coach 1: And then you can see title, you can give it a title.
+
+968
+02:21:23.040 --> 02:21:24.330
+Capstone Coach 1: And a label.
+
+969
+02:21:25.590 --> 02:21:26.370
+Capstone Coach 1: Why label.
+
+970
+02:21:28.230 --> 02:21:37.710
+Capstone Coach 1: And legend a legend you can you can have a legend go into the plot, and you want the font size to be smaller large I put an extra large X X large.
+
+971
+02:21:38.460 --> 02:21:56.520
+Capstone Coach 1: And then finally plot show plot period show parenthesis that, basically, you know kicks off the plot, and I hope yours is this is this large enough or do I i'm I should have asked you that going back, but i'm gonna Okay, I mean see that little better.
+
+972
+02:21:58.050 --> 02:22:07.410
+Capstone Coach 1: Okay now i'm going to get dangerous and i'm going to clear the Colonel just to erase all of this on the right hand side.
+
+973
+02:22:09.090 --> 02:22:16.410
+Capstone Coach 1: And then we'll kick this off, and we should get our plot on this one unless there's some error in the code all right.
+
+974
+02:22:17.580 --> 02:22:25.050
+Capstone Coach 1: Well, there goes, and there we go there, we go Okay, so we didn't get our plot, what do you think.
+
+975
+02:22:26.790 --> 02:22:28.470
+Capstone Coach 1: not bad actually.
+
+976
+02:22:30.000 --> 02:22:39.330
+Capstone Coach 1: You know, I was expecting to see the previous values in the stratosphere are we here or down here somewhere with this trend in the data like that.
+
+977
+02:22:40.980 --> 02:22:50.820
+Capstone Coach 1: That the SMA look like what's what's called heterogeneous, you know time series, so we have a we have a trend up and then pretty market trend down.
+
+978
+02:22:51.990 --> 02:23:01.200
+Capstone Coach 1: For IBM, and here, by the way, those of you the full of stock market, this is what's making people nervous lately, by the way.
+
+979
+02:23:02.040 --> 02:23:10.380
+Capstone Coach 1: because she had the market like today, the new news on the market was no new high in the stock market it actually only went up 1%.
+
+980
+02:23:10.830 --> 02:23:20.100
+Capstone Coach 1: But still, the news people new high in the stock market Well, this is what's causing problems is that, why are we getting a high in the stock market.
+
+981
+02:23:20.550 --> 02:23:29.640
+Capstone Coach 1: When I made a major company like IBM is going to go into the tank and see what's happening here, so the the Dow Jones industrial average is.
+
+982
+02:23:30.120 --> 02:23:39.240
+Capstone Coach 1: Basically, calculated from these fortune 500 companies and several of the fortune 500 companies are going down on lately, for this is for the last couple of months.
+
+983
+02:23:39.750 --> 02:23:46.050
+Capstone Coach 1: And so everybody's thinking Oh well, what is the rest going to follow well so far it hasn't.
+
+984
+02:23:46.980 --> 02:23:53.850
+Capstone Coach 1: So who knows, this is a crazy time with all this stuff going on and and then they can everything is just who knows.
+
+985
+02:23:54.240 --> 02:24:04.890
+Capstone Coach 1: what's going to happen, but this curve going up and then coming down like that usually would say that you needed a take a difference in your model so let's try that.
+
+986
+02:24:05.310 --> 02:24:20.850
+Capstone Coach 1: let's go over here to where it says de equal to zero and let's make that one, and you know where it says equal to Fort let's take that back to two, so now we have a 210 model that we're going to run and we'll see.
+
+987
+02:24:22.530 --> 02:24:23.580
+Capstone Coach 1: How well that does.
+
+988
+02:24:25.650 --> 02:24:29.220
+Capstone Coach 1: You know okay there we go kicked it off all right.
+
+989
+02:24:31.290 --> 02:24:40.530
+Capstone Coach 1: So what happened oh look at the first observation, right here the bottom okay there's a C row, so it changed the scale.
+
+990
+02:24:41.190 --> 02:24:52.080
+Capstone Coach 1: On the vertical axis we weren't going to like 60 and up now we're going to see a row, and the reason for that is because of persist difference, should have been set to a missing value.
+
+991
+02:24:52.650 --> 02:25:02.160
+Capstone Coach 1: But instead it appears to be set to zero right, so we may want to actually exclude that from these from this observation, but.
+
+992
+02:25:02.970 --> 02:25:16.230
+Capstone Coach 1: The state of before we plot this this out, but it looks like it's getting a pretty good plot if let's take a look at the statistics up here, this is really what we should be paying attention to first of all.
+
+993
+02:25:17.550 --> 02:25:19.350
+Capstone Coach 1: The statistical significance.
+
+994
+02:25:20.520 --> 02:25:26.520
+Capstone Coach 1: Of Okay, have a of the first and second term so it's not that impressive.
+
+995
+02:25:27.540 --> 02:25:38.790
+Capstone Coach 1: And look at the Ai cvi you it's really jumped up, so what this tells me is this first difference is not a good idea, the ic value jumped up.
+
+996
+02:25:39.690 --> 02:25:57.780
+Capstone Coach 1: It was 34 or something like that now it's like almost doubled so yeah you're on wait a minute i'm wrong, it was 6441, then this is what they are for models 6441 and now.
+
+997
+02:25:59.010 --> 02:26:19.350
+Capstone Coach 1: Oh, it actually jumped down it actually dropped down, I was wrong about that Okay, then the likelihood is negative 30 to 11 versus negative 3214 so the likelihood appears less than it is below but they're they're sort of similar.
+
+998
+02:26:20.370 --> 02:26:25.260
+Capstone Coach 1: I think you could push either one of them as a as the model, you want to use.
+
+999
+02:26:26.850 --> 02:26:32.220
+Capstone Coach 1: I like to have I like the our models very simple, they are to model very simple.
+
+1000
+02:26:33.510 --> 02:26:39.360
+Capstone Coach 1: Okay, any questions on this standard time series analysis with stats models.
+
+1001
+02:26:43.050 --> 02:26:43.410
+Okay.
+
+1002
+02:26:44.610 --> 02:26:45.570
+Capstone Coach 1: Is anybody awake.
+
+1003
+02:26:46.620 --> 02:26:47.160
+Swanson J, Charles: No question.
+
+1004
+02:26:47.850 --> 02:26:49.740
+Capstone Coach 1: Okay, I can't see.
+
+1005
+02:26:50.880 --> 02:26:52.890
+Purkiss, David: And we wish our stats model with.
+
+1006
+02:26:52.950 --> 02:26:53.940
+Purkiss, David: Class was this good.
+
+1007
+02:26:54.690 --> 02:26:57.510
+Capstone Coach 1: Okay So yes, I do have a question.
+
+1008
+02:26:57.690 --> 02:26:58.140
+Kilani, Shadi: I have a.
+
+1009
+02:26:58.200 --> 02:27:05.010
+Capstone Coach 1: couple questions after this you know, let me ask you a question there's hang up if you already covered on this in your previous class.
+
+1010
+02:27:06.750 --> 02:27:07.590
+Purkiss, David: This is better.
+
+1011
+02:27:08.340 --> 02:27:13.320
+Swanson J, Charles: Okay, wait when we did time series we either did it in our.
+
+1012
+02:27:13.440 --> 02:27:18.390
+Swanson J, Charles: orange oh stash so we haven't had time series in Python oh.
+
+1013
+02:27:18.420 --> 02:27:25.950
+Capstone Coach 1: Beautiful Thank you, thank you, thank you because, of course, I like to stay in mixing languages, I get confused.
+
+1014
+02:27:26.610 --> 02:27:36.180
+Capstone Coach 1: And you can see stats models does a pretty good job I would assume that the numbers are very comparable to so what you're going to get an ar and certainly cranked out the numbers quickly.
+
+1015
+02:27:37.170 --> 02:27:45.960
+Capstone Coach 1: And the nice thing about this is we're in we're in Python so we can move this over to our other code and, like, for example, we could use.
+
+1016
+02:27:46.440 --> 02:28:01.860
+Capstone Coach 1: The API Google API to pull out stock prices, and then we could do our analysis here, these these data by actually came out of the that alpha vantage code that we're using that's where I got this from so that's kind of cool.
+
+1017
+02:28:03.360 --> 02:28:12.900
+Capstone Coach 1: Okay well good thanks for thanks for that feedback no not totally wasted my time here okay your time actually is your time not my time.
+
+1018
+02:28:14.070 --> 02:28:18.300
+Capstone Coach 1: That I that I would be wasting if you'd already seen this in somebody's contexts.
+
+1019
+02:28:19.590 --> 02:28:35.640
+Capstone Coach 1: Okay well let's crank it up a notch let's go up a notch and let's talk about let's go back to this guy right here slide number 13 and let's go to slide 14.
+
+1020
+02:28:37.290 --> 02:28:38.130
+Kilani, Shadi: That phil Jones.
+
+1021
+02:28:38.670 --> 02:28:39.030
+yeah.
+
+1022
+02:28:40.290 --> 02:28:42.000
+Kilani, Shadi: I just had a question because.
+
+1023
+02:28:43.560 --> 02:28:48.150
+Kilani, Shadi: Can we display the ACF and pcf, how do we go about doing that.
+
+1024
+02:28:49.170 --> 02:28:50.340
+Capstone Coach 1: Wait a minute who's talking.
+
+1025
+02:28:50.610 --> 02:28:51.720
+Kilani, Shadi: This is shadi speaking.
+
+1026
+02:28:52.530 --> 02:28:55.080
+Capstone Coach 1: Oh okay i'm sorry I don't.
+
+1027
+02:28:56.790 --> 02:28:59.700
+Capstone Coach 1: All right, anyway, assume was gonna tell me again.
+
+1028
+02:29:00.150 --> 02:29:02.670
+Capstone Coach 1: what's your question again, can you speak up a little bit.
+
+1029
+02:29:02.760 --> 02:29:04.200
+Kilani, Shadi: it's okay i'll send you an email.
+
+1030
+02:29:04.710 --> 02:29:11.970
+Kilani, Shadi: Okay, and I I don't know i'll be real quick is there is there a way we can display the ACF and the PAC yes.
+
+1031
+02:29:13.290 --> 02:29:15.990
+Capstone Coach 1: Yes, it really you mean in in SAS models.
+
+1032
+02:29:16.470 --> 02:29:20.610
+Capstone Coach 1: Yes, so there's my goodness, they have some great functions or that yes.
+
+1033
+02:29:21.870 --> 02:29:36.090
+Capstone Coach 1: Okay, they will it will produce it produces those functions I I didn't have time to look at it today, as far as plotting them is concerned, you may have to use the you probably will have to use the same plot routine we were just going through.
+
+1034
+02:29:37.440 --> 02:29:51.660
+Capstone Coach 1: yeah So yes, definitely you can then and, in fact, normally, you would look directly at the audit correlation and the partial article relation functions to see what makes sense in terms of the model right.
+
+1035
+02:29:51.930 --> 02:29:53.100
+Kilani, Shadi: Exactly so yeah.
+
+1036
+02:29:53.310 --> 02:30:09.510
+Capstone Coach 1: That was very important okay now let's put on the new let's put on our new aggie hat that says, I know data analysis right data mining and whatever you want to call it so we're going to talk about modern approaches to time series modeling okay.
+
+1037
+02:30:10.650 --> 02:30:22.650
+Capstone Coach 1: So we're not we're not going to exactly drop the ar model, the air model is or even model is useful for understanding the mechanisms that generate the serious right.
+
+1038
+02:30:23.010 --> 02:30:31.140
+Capstone Coach 1: For example, do I need to record data, all the way back to eternity or are we just going to go back to a week or two weeks or whatever it is.
+
+1039
+02:30:31.620 --> 02:30:40.380
+Capstone Coach 1: And difference from there, so the remote approach allows you to understand structurally what's going on in your series a little better.
+
+1040
+02:30:41.160 --> 02:30:50.040
+Capstone Coach 1: Now we're gonna we're now we're going to take the blind computer approach okay so we're on Mars and we're a computer and we captured all this data.
+
+1041
+02:30:50.340 --> 02:30:57.240
+Capstone Coach 1: We don't have a person to look at the graphs to see whether the ar function is needed, or what have you, what are we going to do.
+
+1042
+02:30:57.750 --> 02:31:14.280
+Capstone Coach 1: we're going to use deep learning to figure out how to how to forecast that series why we're going to do that because it's extremely robust against all of those assumptions they talk to you about in time series modeling missing data, not a problem.
+
+1043
+02:31:16.080 --> 02:31:20.640
+Capstone Coach 1: In irregular time sequences not a problem.
+
+1044
+02:31:22.710 --> 02:31:28.260
+Capstone Coach 1: You know, lack of homogeneity a variance not a problem okay.
+
+1045
+02:31:29.130 --> 02:31:37.710
+Capstone Coach 1: How does this happen, well, there are three different deep learning approaches to time series modeling and tonight we're going to talk about the first one.
+
+1046
+02:31:38.070 --> 02:31:51.510
+Capstone Coach 1: Which is multi layer preceptor on neural network and other words charisse this is charisse right here, so we use carousel and was images why can't we use cameras to predict the stock prices, we can.
+
+1047
+02:31:52.590 --> 02:32:03.210
+Capstone Coach 1: And we're going to look at three different approaches to doing that tonight we're going to look at the traditional nlp neural network and the next time we'll look at the recurrent neural network and lstm.
+
+1048
+02:32:04.020 --> 02:32:16.920
+Capstone Coach 1: A little bit later after that so let's see how this works well next slide please download and open up there's another Python template time series analysis.
+
+1049
+02:32:17.370 --> 02:32:30.270
+Capstone Coach 1: underscore m LP template P, why and then we're going to use the same data we're going to do the same thing we just did except now we're going to use neural network to make the time series forecast.
+
+1050
+02:32:31.440 --> 02:32:32.010
+Capstone Coach 1: Okay.
+
+1051
+02:32:33.750 --> 02:32:43.170
+Capstone Coach 1: How do we do that alright well look the open up that file and see what it looks like and we'll get to work on that this is.
+
+1052
+02:32:44.850 --> 02:32:52.920
+Capstone Coach 1: Now this is the template right here and you'll see there more imports, stop the, these are all the carriers imports right.
+
+1053
+02:32:53.850 --> 02:33:03.780
+Capstone Coach 1: charisse is very proud of their package so they got all these things we need to import here, and so we just going to import all that care of stuff and then we also.
+
+1054
+02:33:04.620 --> 02:33:13.710
+Capstone Coach 1: Well, in this particular case, I brought in the psychic learn and we didn't didn't really need that don't really need that here.
+
+1055
+02:33:15.180 --> 02:33:28.230
+Capstone Coach 1: At, but we do need this up top here the Navi the pandas the math routine and the math plot routine right here so we're going to be using all of this and will be using careless.
+
+1056
+02:33:29.610 --> 02:33:42.000
+Capstone Coach 1: Okay at the top of the besides the imports, right after the imports, there are a couple of functions, one of them is called reverse this is the same function, we just saw it just turns the it turns the vector around.
+
+1057
+02:33:42.570 --> 02:33:51.570
+Capstone Coach 1: Instead of first you know first the last it's going to go last to first and then there's a new function called lags.
+
+1058
+02:33:52.530 --> 02:34:01.440
+Capstone Coach 1: And this is the key, this is the key and important key to making this work we're going to create lags of why.
+
+1059
+02:34:02.100 --> 02:34:09.720
+Capstone Coach 1: So we're going to take the vector why the you know the why observations and we're going to put right next to it the first lack.
+
+1060
+02:34:10.380 --> 02:34:18.360
+Capstone Coach 1: So each observation will have next to it, the immediately predicted the previous observation that would be a lag one.
+
+1061
+02:34:18.990 --> 02:34:28.170
+Capstone Coach 1: And then we'll put it in another column, and then we'll have the second guy back so we're going to lag why several times.
+
+1062
+02:34:28.560 --> 02:34:45.510
+Capstone Coach 1: And each time we create one of these new columns it'll be lacked let's see how that works Okay, so you can see up front, we are doing the same thing here we're printing off we're reading the the pandas data frame we're going to say in is equal to.
+
+1063
+02:34:46.770 --> 02:34:48.690
+Capstone Coach 1: def dot shape.
+
+1064
+02:34:50.100 --> 02:34:53.370
+Capstone Coach 1: Zero again and we will say target.
+
+1065
+02:34:54.690 --> 02:34:58.110
+Capstone Coach 1: is equal to close again right.
+
+1066
+02:34:59.280 --> 02:35:01.530
+Capstone Coach 1: And let's see now.
+
+1067
+02:35:02.670 --> 02:35:09.150
+Capstone Coach 1: Then we're going to say why is equal to def and then in parentheses here target.
+
+1068
+02:35:11.850 --> 02:35:12.600
+Capstone Coach 1: like that.
+
+1069
+02:35:14.610 --> 02:35:15.300
+Capstone Coach 1: and
+
+1070
+02:35:17.310 --> 02:35:38.010
+Capstone Coach 1: Oh, I didn't do that right, this is, this is a no no yeah if I did this, I did I end up with a pandas series in why I want to not be array so I enclose that data frame thing and NP period, by the way, I can do this.
+
+1071
+02:35:40.080 --> 02:35:53.490
+Capstone Coach 1: You know what am I thinking of there we go Okay, so I have the NP period array and then in in open or close parenthesis def and then brackets target, so this will create a lumpy.
+
+1072
+02:35:54.510 --> 02:36:02.190
+Capstone Coach 1: series basically and why and then we're going to reverse y is equal to reverse.
+
+1073
+02:36:03.780 --> 02:36:15.120
+Capstone Coach 1: Why like that turned it around let's run this as it is just to make sure that we're in the don't have any errors lurking in the back.
+
+1074
+02:36:15.930 --> 02:36:34.470
+Capstone Coach 1: Somewhere so okay there it is it read it in the printed out and no errors came out that's good i'm going to go over here to the Python window and type why just to make sure yep there it is it's reversed okay we're good we're good now.
+
+1075
+02:36:36.600 --> 02:36:40.920
+Capstone Coach 1: Next, I want to do is, I want to create some lag sub why.
+
+1076
+02:36:41.940 --> 02:36:44.460
+Capstone Coach 1: Okay let's see how I do that.
+
+1077
+02:36:45.570 --> 02:37:09.090
+Capstone Coach 1: notice the lag function up here, I give it why, and then a period that period would be the the the degree of a lag So if I if I say let's, let me say he see X one for the lag one no less less yeah that's okay and use X one or you can use the old one.
+
+1078
+02:37:10.140 --> 02:37:24.240
+Capstone Coach 1: Whatever makes sense to you i'm using X one is equal to, and it's going to be lags what oh la GS and then open close parentheses y comma one like that.
+
+1079
+02:37:25.200 --> 02:37:35.250
+Capstone Coach 1: So that'll create the first leg and next one let's just run that line, right now, and you can see what will happen so hopefully I don't have any bugs in the little Program.
+
+1080
+02:37:35.670 --> 02:37:48.480
+Capstone Coach 1: So over here in the I Python window I have X one let's type X one and see what happens OK notice the first entry and X one is any in which is nothing missing.
+
+1081
+02:37:49.590 --> 02:38:01.200
+Capstone Coach 1: And that's because I can't I don't have a there is nothing before, and the first observation 95.87 so we get a missing day for the for the lag the next one.
+
+1082
+02:38:01.860 --> 02:38:17.160
+Capstone Coach 1: Is 95.87 so for the second observation, the lag is the first observation and then for the third observation, the lag would be the second you see how that works, so this is why that you see up here.
+
+1083
+02:38:17.640 --> 02:38:29.520
+Capstone Coach 1: 9500 and 305 and so forth, and so on, and then the lag well it you imagine taking this vector and just shifting it shifting it to the right one number.
+
+1084
+02:38:30.030 --> 02:38:37.980
+Capstone Coach 1: And that means, so we have a missing value here this number becomes over here this guy goes over here that's what's happening that's flag one.
+
+1085
+02:38:39.300 --> 02:38:55.650
+Capstone Coach 1: And then, what we're going to do on the, this is the, this is the bottom line we're going to create the order regressive lags you see what we're doing here and then we're going to send them through a traditional dense neural network, the LP now neural network.
+
+1086
+02:38:56.790 --> 02:38:59.520
+Capstone Coach 1: So it the code gets a little.
+
+1087
+02:39:01.440 --> 02:39:22.170
+Capstone Coach 1: Long but it's going to be, it should look very familiar to you, because this is what we did with the images as well, we did with some other things okay so X two, then, is equal to lags and then y comma to two second lag like that.
+
+1088
+02:39:23.550 --> 02:39:33.000
+Capstone Coach 1: So I have, I have the ability, here, to fit a or two model if I want you and.
+
+1089
+02:39:34.530 --> 02:39:39.000
+Capstone Coach 1: let's go ahead and make X three equal two legs.
+
+1090
+02:39:40.320 --> 02:39:41.820
+Capstone Coach 1: Why come to three.
+
+1091
+02:39:43.410 --> 02:39:46.560
+Capstone Coach 1: And then X for equal two legs.
+
+1092
+02:39:49.200 --> 02:39:54.300
+Capstone Coach 1: Why come on for like that okay well not 40 ooh.
+
+1093
+02:39:55.770 --> 02:39:58.890
+Capstone Coach 1: that's not good not good for there you go alright.
+
+1094
+02:40:00.840 --> 02:40:01.440
+Capstone Coach 1: So.
+
+1095
+02:40:02.820 --> 02:40:03.600
+Capstone Coach 1: pretty good there.
+
+1096
+02:40:05.100 --> 02:40:23.310
+Capstone Coach 1: So at this point, if you could run it make sure that we don't have any typos really it should just boom boom like that, and no error messages, if you don't hear messages, maybe miss type the misspelled lags or something like that that's what I do forget the S.
+
+1097
+02:40:24.540 --> 02:40:24.870
+Capstone Coach 1: Right.
+
+1098
+02:40:26.370 --> 02:40:27.930
+Capstone Coach 1: Okay, so.
+
+1099
+02:40:30.510 --> 02:40:32.790
+Capstone Coach 1: All right, hang on just a second here.
+
+1100
+02:40:35.040 --> 02:40:38.160
+Capstone Coach 1: I want to make sure that i've got all the code right.
+
+1101
+02:40:42.540 --> 02:40:43.290
+Capstone Coach 1: Okay.
+
+1102
+02:40:55.500 --> 02:41:01.050
+Capstone Coach 1: Okay we're good we're good i've got i've got some extra code in there, that I don't really need to have.
+
+1103
+02:41:13.020 --> 02:41:14.100
+Capstone Coach 1: Okay, so.
+
+1104
+02:41:20.550 --> 02:41:20.940
+All right.
+
+1105
+02:41:27.090 --> 02:41:33.690
+Capstone Coach 1: Okay let's go down after the X for here and now we're going to type into new statements.
+
+1106
+02:41:35.100 --> 02:41:49.530
+Capstone Coach 1: we're going to say Z now, this is a not be column stack and then you simply put X one X two X, three and four there what that does is it it stacks up the.
+
+1107
+02:41:50.580 --> 02:42:00.300
+Capstone Coach 1: The column we've created these lag columns I want to put this now into an array where the first column is like one, the second column is like to third column and fourth call.
+
+1108
+02:42:01.140 --> 02:42:09.480
+Capstone Coach 1: Send that's called lumpy period column underscore stack so it takes separate columns and just put some together like that.
+
+1109
+02:42:10.680 --> 02:42:16.710
+Capstone Coach 1: And then i'm i'm going to create an ex my independent variable here.
+
+1110
+02:42:17.970 --> 02:42:18.720
+Capstone Coach 1: and
+
+1111
+02:42:20.070 --> 02:42:20.550
+Capstone Coach 1: hmm.
+
+1112
+02:42:21.690 --> 02:42:22.320
+Capstone Coach 1: Okay.
+
+1113
+02:42:25.860 --> 02:42:31.830
+Capstone Coach 1: We won't do that we're just going to say X is equal to Z.
+
+1114
+02:42:32.940 --> 02:42:33.570
+Capstone Coach 1: and
+
+1115
+02:42:35.730 --> 02:42:46.890
+Capstone Coach 1: we're going to say that it's a lie it's going to start at the number of legs I didn't write number of blacks so the number of up your let's go up here and write in likes.
+
+1116
+02:42:47.970 --> 02:42:50.730
+Capstone Coach 1: equals to for we're taking four legs.
+
+1117
+02:42:51.900 --> 02:43:02.040
+Capstone Coach 1: You could do this nicer you could actually have this generated in the loop, and you know, make the code, a little more efficient, but I think it's easier to want to follow this way.
+
+1118
+02:43:02.700 --> 02:43:13.770
+Capstone Coach 1: So the number of legs so we're using this for and I first put them all together, like that, and then I chop off the bottom, where I have all of the missing values.
+
+1119
+02:43:14.820 --> 02:43:27.030
+Capstone Coach 1: And I do that by just saying take everything from in legs forward those other ones behind our have missing values in them, and I want to drop that.
+
+1120
+02:43:28.260 --> 02:43:33.540
+Capstone Coach 1: Okay, so you're only dropping you're dropping the first four observations basically.
+
+1121
+02:43:34.800 --> 02:43:42.000
+Capstone Coach 1: In this case with the for dropping the first so that would be calling, you know the road 0123 basically.
+
+1122
+02:43:43.200 --> 02:43:44.910
+Capstone Coach 1: Okay, and.
+
+1123
+02:43:47.490 --> 02:43:50.400
+Capstone Coach 1: All right, and you already have why set up like that.
+
+1124
+02:43:53.220 --> 02:43:53.760
+Capstone Coach 1: Okay.
+
+1125
+02:43:55.080 --> 02:44:00.270
+Capstone Coach 1: let's see where Am I oh that's the previous Oh, here it is yeah okay.
+
+1126
+02:44:05.610 --> 02:44:06.270
+Capstone Coach 1: So.
+
+1127
+02:44:07.980 --> 02:44:09.720
+Capstone Coach 1: Alright let's show you what the.
+
+1128
+02:44:10.860 --> 02:44:16.170
+Capstone Coach 1: neural network is and i'm going to use here i'm just going to copy and paste this in place.
+
+1129
+02:44:17.730 --> 02:44:18.270
+Capstone Coach 1: and
+
+1130
+02:44:19.530 --> 02:44:24.690
+Capstone Coach 1: Going at the bottom, so now we're ready to do our nlp neural network.
+
+1131
+02:44:25.920 --> 02:44:26.610
+Capstone Coach 1: like that.
+
+1132
+02:44:27.960 --> 02:44:39.660
+Capstone Coach 1: So i'm setting the random number see that was do that whoops I have to these are out of the backspace on that so i'm setting the random number seed right here.
+
+1133
+02:44:41.790 --> 02:44:45.120
+Capstone Coach 1: And then I say model is equal to models start sequential.
+
+1134
+02:44:46.500 --> 02:44:47.820
+Capstone Coach 1: and see how that works.
+
+1135
+02:44:50.100 --> 02:45:01.230
+Capstone Coach 1: And then layer one layer two and layer three layer one in this context i'm only using 20% transcend the first layer, because how many inputs do I have only have four.
+
+1136
+02:45:02.370 --> 02:45:18.090
+Capstone Coach 1: I have the four legged values of why X 123 and four so don't it's not like the photograph thing, where you had thousands of pixels and so you had to have a huge number of perceptions in that first layer to accept those pixels.
+
+1137
+02:45:19.260 --> 02:45:32.520
+Capstone Coach 1: know here we just have really just four inputs and so 20 actually maybe two large I don't know I haven't really played with this that much so, but I do know that this will get us going for sure.
+
+1138
+02:45:33.960 --> 02:45:40.500
+Capstone Coach 1: The the input dimension is for in lacks the input dimension is for got four columns.
+
+1139
+02:45:41.610 --> 02:45:43.470
+Capstone Coach 1: Colonel regularization.
+
+1140
+02:45:45.780 --> 02:45:46.470
+Capstone Coach 1: me a.
+
+1141
+02:45:51.870 --> 02:45:52.890
+Capstone Coach 1: Little over a little bit.
+
+1142
+02:45:54.480 --> 02:46:00.300
+Capstone Coach 1: Activity regularization activation i'm going to use Arc tension ta n h.
+
+1143
+02:46:01.650 --> 02:46:03.330
+Capstone Coach 1: Instead of Arielle you.
+
+1144
+02:46:04.410 --> 02:46:14.940
+Capstone Coach 1: Part of the reason there is Arielle you his favorite mainly because it's very, very fast and when you're doing put analyze your photographs the thousands of parameters millions.
+
+1145
+02:46:15.780 --> 02:46:31.290
+Capstone Coach 1: You what you can't take time to calculate this kind of a number, so this is a good thing to do, but it does take time So here we have a smaller network it'll it'll definitely get done quickly.
+
+1146
+02:46:32.370 --> 02:46:37.260
+Capstone Coach 1: The second layer is also hidden layer as for precept tron Senate.
+
+1147
+02:46:38.370 --> 02:46:41.490
+Capstone Coach 1: Everything else is the same except, there is no input dimension.
+
+1148
+02:46:42.630 --> 02:46:43.590
+Capstone Coach 1: For the second layer
+
+1149
+02:46:48.960 --> 02:46:50.010
+Capstone Coach 1: The third layer
+
+1150
+02:46:53.010 --> 02:47:07.830
+Capstone Coach 1: One preceptor on yes, because we're we're forecasting and interval variable that's why and there's only one why, in this case now if you were trying to if you had multiple time series.
+
+1151
+02:47:08.850 --> 02:47:20.220
+Capstone Coach 1: And maybe they were different from one another, but you are thinking that their code one time series impacts another they're related in some way right.
+
+1152
+02:47:21.240 --> 02:47:27.270
+Capstone Coach 1: Then, this would be cool because all you have to do is change the number of preceptor ons here from one.
+
+1153
+02:47:27.900 --> 02:47:40.710
+Capstone Coach 1: To the number of outputs that you have now in that case, why would not be a single column or a single series, but it would be several columns each one maybe containing different information.
+
+1154
+02:47:41.430 --> 02:47:58.170
+Capstone Coach 1: So we could, for example with we wanted to this would be unusual, but you see how we have high low and closing prices, we could forecast all three of those simultaneously, obviously, the high and low prices are going to be.
+
+1155
+02:47:59.430 --> 02:48:11.220
+Capstone Coach 1: related to the closing price, the low price will be the closing price will be a number between the suit right so in there, they are inherently close together.
+
+1156
+02:48:12.720 --> 02:48:23.040
+Capstone Coach 1: Another approach or more realistic might be to forecast closing price with volume two series like that so you'd have another another number here.
+
+1157
+02:48:25.320 --> 02:48:32.220
+Capstone Coach 1: Okay, and then you add layer one you add layer to add layer three and model summary that's it.
+
+1158
+02:48:33.960 --> 02:48:35.910
+Capstone Coach 1: So if I run this right now.
+
+1159
+02:48:36.450 --> 02:48:38.370
+Coleman, Clay: Your layer two is commented out what.
+
+1160
+02:48:40.050 --> 02:48:41.070
+Capstone Coach 1: We are to.
+
+1161
+02:48:41.160 --> 02:48:42.000
+Coleman, Clay: Online 78.
+
+1162
+02:48:44.370 --> 02:48:47.910
+Capstone Coach 1: Oh yeah yeah oh gee wow Okay, thank you.
+
+1163
+02:48:49.920 --> 02:48:56.490
+Capstone Coach 1: I don't know why that's okay so let's just try it like there you go all right does that better.
+
+1164
+02:48:58.770 --> 02:48:59.520
+Capstone Coach 1: said, David.
+
+1165
+02:49:02.760 --> 02:49:04.110
+Coleman, Clay: It was like okay.
+
+1166
+02:49:06.870 --> 02:49:07.440
+Capstone Coach 1: So.
+
+1167
+02:49:10.170 --> 02:49:26.820
+Capstone Coach 1: All right, so we have 100 989 parameters not million 5 million like were you dealing with on the last example hundred and 89 we can rip through that so let's set the number of the box here.
+
+1168
+02:49:27.990 --> 02:49:30.240
+Capstone Coach 1: So we're going to say eat box.
+
+1169
+02:49:33.480 --> 02:49:34.290
+Capstone Coach 1: equal to 20.
+
+1170
+02:49:35.310 --> 02:49:36.450
+Capstone Coach 1: And size.
+
+1171
+02:49:37.500 --> 02:49:39.810
+Capstone Coach 1: equal to eight.
+
+1172
+02:49:41.670 --> 02:49:53.070
+Capstone Coach 1: going to use a small number because that's going to force us to look at smaller batches and it'll take that we don't normally do that because it takes a lot more time, but this is a small data set so.
+
+1173
+02:49:55.380 --> 02:49:55.950
+Capstone Coach 1: Okay.
+
+1174
+02:50:02.460 --> 02:50:03.480
+Capstone Coach 1: Okay.
+
+1175
+02:50:08.130 --> 02:50:09.810
+Capstone Coach 1: Let me show you the next few lines here.
+
+1176
+02:50:11.760 --> 02:50:12.870
+Capstone Coach 1: Pretty straightforward.
+
+1177
+02:50:15.270 --> 02:50:15.930
+Capstone Coach 1: There we go.
+
+1178
+02:50:17.310 --> 02:50:20.160
+Capstone Coach 1: Okay, I made a typo somewhere we'll fix that.
+
+1179
+02:50:22.710 --> 02:50:23.460
+Capstone Coach 1: Oh yeah.
+
+1180
+02:50:25.980 --> 02:50:28.680
+Capstone Coach 1: These were indented and they shouldn't event.
+
+1181
+02:50:30.060 --> 02:50:40.500
+Capstone Coach 1: Okay you're going to print out the federal network with so many parks and the batch size of whatever just basically repeating that Oh, we got 20 pox on size of a.
+
+1182
+02:50:41.250 --> 02:50:53.280
+Capstone Coach 1: history of secret the model dot fit X comma y E boxes equal to eat box batch size equal to size verbose as to what can watch what's happening here.
+
+1183
+02:50:55.170 --> 02:50:57.480
+Capstone Coach 1: The history dictionary is history history.
+
+1184
+02:50:58.500 --> 02:51:03.030
+Capstone Coach 1: As he average score to remember that from SAS you see.
+
+1185
+02:51:04.140 --> 02:51:12.840
+Capstone Coach 1: That in inside of care us they have something called msc mean squared error that's the same thing as a SEC.
+
+1186
+02:51:13.710 --> 02:51:29.850
+Capstone Coach 1: And if you want to pull it out, this is how you pull it out so as equal to the last term in that history dictionary each epoch you're going to see the msc coming out and the last one, is what we print out as a SEC.
+
+1187
+02:51:31.110 --> 02:51:37.050
+Capstone Coach 1: And then I like to calculate the root of the square root of a SEC and print that out as well.
+
+1188
+02:51:38.400 --> 02:51:42.570
+Capstone Coach 1: And because the square root is more like a plus or minus number.
+
+1189
+02:51:43.650 --> 02:51:51.300
+Capstone Coach 1: I can, I can think in those terms, oh it's plus or minus five or dollars or plus or minus $10 What is it all right.
+
+1190
+02:51:53.400 --> 02:51:58.860
+Capstone Coach 1: Okay, now I I hope you're you're with me at this point, if you are plus run.
+
+1191
+02:52:01.050 --> 02:52:03.540
+Capstone Coach 1: i'm going to press run ooh.
+
+1192
+02:52:07.320 --> 02:52:11.280
+Capstone Coach 1: OK now let's see what is it complaining about.
+
+1193
+02:52:13.500 --> 02:52:13.920
+Okay.
+
+1194
+02:52:18.330 --> 02:52:21.150
+Capstone Coach 1: You must compile your model before you do this.
+
+1195
+02:52:24.000 --> 02:52:24.420
+Capstone Coach 1: Oh.
+
+1196
+02:52:28.560 --> 02:52:33.090
+Capstone Coach 1: I thought I did, that this is compiling the model is up here.
+
+1197
+02:52:36.390 --> 02:52:36.780
+Capstone Coach 1: Oh.
+
+1198
+02:52:39.030 --> 02:52:44.220
+Capstone Coach 1: Really okay well wait a moment, let me, let me try to restart.
+
+1199
+02:52:46.410 --> 02:52:48.180
+Capstone Coach 1: And then what's that.
+
+1200
+02:52:54.870 --> 02:52:59.370
+Capstone Coach 1: something strange on my screen, I must have done something with soon.
+
+1201
+02:53:00.480 --> 02:53:02.850
+Capstone Coach 1: Okay, so i'm going to hit run.
+
+1202
+02:53:05.370 --> 02:53:06.030
+Capstone Coach 1: and
+
+1203
+02:53:11.220 --> 02:53:15.240
+Capstone Coach 1: So i'm getting up here through a model summary.
+
+1204
+02:53:27.720 --> 02:53:32.160
+Capstone Coach 1: Oh, I didn't comply he's there right, I did not compile the model.
+
+1205
+02:53:35.220 --> 02:53:36.120
+Capstone Coach 1: So.
+
+1206
+02:53:37.290 --> 02:53:41.940
+Capstone Coach 1: Let me grab that statement, the model compilers well I missing actually.
+
+1207
+02:53:43.080 --> 02:53:44.460
+Capstone Coach 1: A couple of lines here.
+
+1208
+02:53:45.690 --> 02:53:46.320
+Capstone Coach 1: and
+
+1209
+02:53:47.940 --> 02:53:49.410
+Capstone Coach 1: So i'm going to go back here.
+
+1210
+02:53:50.640 --> 02:53:56.100
+Capstone Coach 1: and put them in at this just just put them in before the box here.
+
+1211
+02:53:57.390 --> 02:53:58.590
+Capstone Coach 1: you'll see what it is.
+
+1212
+02:53:59.640 --> 02:54:02.790
+Capstone Coach 1: So you decide to find the optimizer in this case it's.
+
+1213
+02:54:04.380 --> 02:54:05.430
+Capstone Coach 1: At a delta.
+
+1214
+02:54:06.570 --> 02:54:13.320
+Capstone Coach 1: And then model dot compile losses mean squared error optimizer soapy T.
+
+1215
+02:54:15.210 --> 02:54:18.150
+Capstone Coach 1: And the metrics msc need square there.
+
+1216
+02:54:19.710 --> 02:54:21.360
+Capstone Coach 1: For this is a little different than that.
+
+1217
+02:54:23.550 --> 02:54:24.720
+Capstone Coach 1: You know binary.
+
+1218
+02:54:25.890 --> 02:54:28.440
+Capstone Coach 1: categorical or loss or.
+
+1219
+02:54:29.820 --> 02:54:33.900
+Capstone Coach 1: categorical loss cross entropy loss.
+
+1220
+02:54:36.990 --> 02:54:38.940
+Capstone Coach 1: Okay, so let's run that.
+
+1221
+02:54:43.800 --> 02:55:02.130
+Capstone Coach 1: Oh, oh I forgot to chop why I chopped X is that by the end lacks but I didn't chop why so up here I chopped X like that, and what I need to do is do the same thing here on why the sequel to.
+
+1222
+02:55:05.550 --> 02:55:09.870
+Capstone Coach 1: Why, and then in underscore legs.
+
+1223
+02:55:12.690 --> 02:55:14.220
+Capstone Coach 1: All the way forward so.
+
+1224
+02:55:16.290 --> 02:55:16.890
+Capstone Coach 1: like that.
+
+1225
+02:55:18.960 --> 02:55:19.740
+Capstone Coach 1: and
+
+1226
+02:55:21.690 --> 02:55:31.950
+Capstone Coach 1: that's the observation there just before the random set seed and let her run that just to make sure yeah no love no errors in that statement.
+
+1227
+02:55:34.050 --> 02:55:34.620
+Capstone Coach 1: Okay.
+
+1228
+02:55:36.120 --> 02:55:42.870
+Capstone Coach 1: So let's hit the run button on the top again okay there we go robots ripping off okay good good.
+
+1229
+02:55:44.070 --> 02:55:44.490
+Capstone Coach 1: huh.
+
+1230
+02:55:46.410 --> 02:55:53.700
+Capstone Coach 1: Results to large he is see 34 overflow error it's this guy right here.
+
+1231
+02:55:55.080 --> 02:55:56.670
+Capstone Coach 1: The route squared error.
+
+1232
+02:55:58.470 --> 02:56:05.460
+Capstone Coach 1: As he is too large, so the loss function here is basically 4729.
+
+1233
+02:56:06.960 --> 02:56:09.840
+Capstone Coach 1: And you can see it's not a good fit at all right.
+
+1234
+02:56:12.060 --> 02:56:16.140
+Capstone Coach 1: Well, if you could see that so let's tell me tell you what's wrong here.
+
+1235
+02:56:17.820 --> 02:56:19.410
+Capstone Coach 1: i'm using the Alpha Delta.
+
+1236
+02:56:20.550 --> 02:56:35.580
+Capstone Coach 1: function to optimize this and the learning rate is to write watch what happens if we change this learning rate to something like one just drop it down one and rerun it.
+
+1237
+02:56:40.500 --> 02:56:42.210
+Capstone Coach 1: Well, not much happened.
+
+1238
+02:56:44.250 --> 02:56:47.430
+Capstone Coach 1: hmm let's change that to.
+
+1239
+02:56:48.600 --> 02:56:51.480
+Capstone Coach 1: 0.001.
+
+1240
+02:56:56.250 --> 02:57:06.360
+Capstone Coach 1: Up it's still too big okay it's even worse okay well let's let's that's Bandon at a delta so i'm going to comment that out.
+
+1241
+02:57:06.870 --> 02:57:19.410
+Capstone Coach 1: And we're going to use that Adam instead so add an op to sequel to add them and then they're the learning rate is point 001 and the epsilon value is one eating minus four.
+
+1242
+02:57:22.230 --> 02:57:38.190
+Capstone Coach 1: So what I found in in experimenting with this today was that the Alpha delta optimizer that works so well with the images really does not work well with this time series at all let's see what happens with the atom.
+
+1243
+02:57:40.140 --> 02:57:42.990
+Capstone Coach 1: let's still the super last functions to large.
+
+1244
+02:57:44.970 --> 02:57:47.730
+Capstone Coach 1: Did I mess up something let's let's check out why.
+
+1245
+02:57:52.470 --> 02:57:53.550
+Capstone Coach 1: and check out.
+
+1246
+02:57:55.980 --> 02:57:56.400
+Capstone Coach 1: See.
+
+1247
+02:58:00.570 --> 02:58:01.260
+Capstone Coach 1: X.
+
+1248
+02:58:04.890 --> 02:58:05.760
+Capstone Coach 1: X shape.
+
+1249
+02:58:06.870 --> 02:58:07.560
+Capstone Coach 1: This good.
+
+1250
+02:58:09.450 --> 02:58:10.020
+Capstone Coach 1: shape is.
+
+1251
+02:58:21.300 --> 02:58:21.990
+James Kramer: dishwasher.
+
+1252
+02:58:29.550 --> 02:58:30.090
+Capstone Coach 1: James.
+
+1253
+02:58:33.870 --> 02:58:34.800
+James Kramer: making things.
+
+1254
+02:58:42.450 --> 02:58:44.610
+James Kramer: happen just making sure.
+
+1255
+02:59:07.980 --> 02:59:11.820
+Capstone Coach 1: put some graphics at the bottom of this to see what was going on.
+
+1256
+02:59:25.380 --> 02:59:27.750
+Capstone Coach 1: And upload this to the.
+
+1257
+02:59:34.860 --> 02:59:35.790
+Capstone Coach 1: To the website.
+
+1258
+02:59:43.350 --> 02:59:46.680
+Capstone Coach 1: or restart to Colonel make sure everything's cleared out.
+
+1259
+02:59:50.460 --> 02:59:52.680
+Purkiss, David: How to gather everything highlighted Dr Jones.
+
+1260
+03:00:01.170 --> 03:00:04.500
+Capstone Coach 1: You don't think I have everything highlighted on me i'm sorry, what do you mean.
+
+1261
+03:00:05.280 --> 03:00:08.490
+Purkiss, David: When you ran that you didn't have all the code highlighted.
+
+1262
+03:00:09.930 --> 03:00:10.290
+Capstone Coach 1: Okay.
+
+1263
+03:00:13.710 --> 03:00:14.850
+Capstone Coach 1: Well, I was trying to just.
+
+1264
+03:00:16.290 --> 03:00:16.710
+Capstone Coach 1: Okay.
+
+1265
+03:00:18.540 --> 03:00:21.630
+Capstone Coach 1: So let's see how this is gonna work perfect.
+
+1266
+03:00:25.380 --> 03:00:26.280
+Capstone Coach 1: should work.
+
+1267
+03:00:30.420 --> 03:00:33.120
+Capstone Coach 1: Okay there's something wrong here.
+
+1268
+03:00:34.470 --> 03:00:37.200
+Capstone Coach 1: With the last calculate the last calculation.
+
+1269
+03:00:39.390 --> 03:00:42.690
+Capstone Coach 1: Let me right, let me run the other code just for a second see.
+
+1270
+03:00:45.720 --> 03:00:46.410
+Capstone Coach 1: What happened.
+
+1271
+03:00:48.510 --> 03:00:57.240
+Capstone Coach 1: yeah she other Code, the code runs fine, this is a, this is what you get when you run the other coders so there's some difference between.
+
+1272
+03:00:59.100 --> 03:01:00.330
+Capstone Coach 1: The two versions.
+
+1273
+03:01:06.420 --> 03:01:10.080
+Capstone Coach 1: Oh i'm taking the log here, in this case.
+
+1274
+03:01:14.640 --> 03:01:15.210
+Capstone Coach 1: But.
+
+1275
+03:01:18.600 --> 03:01:28.260
+Capstone Coach 1: Okay well i'm going to do is i'm going to do i'm going to upload this right now to the to the website so you can see what it's doing and.
+
+1276
+03:01:29.100 --> 03:01:43.710
+Capstone Coach 1: i'm going to ask you i'm going to post a little little bit of an assignment, which is basically to play with this code to get this to fit, you can see what's going on here with the neural network and see how that see how it's missing.
+
+1277
+03:01:44.790 --> 03:02:06.030
+Capstone Coach 1: Now, the reason that this is not overland the data as well the predictive predictions are the red dots your see and then the blue is the actual data and the reason we're off here is because of one of two things the optimizer the learning rate for the optimizer and couldn't be off.
+
+1278
+03:02:07.200 --> 03:02:16.980
+Capstone Coach 1: So yeah in this case i'm using that a delta now what washes what's up I changed to the atom here.
+
+1279
+03:02:18.600 --> 03:02:19.890
+Capstone Coach 1: And you'll see that.
+
+1280
+03:02:22.110 --> 03:02:25.110
+Capstone Coach 1: happens boom that's still not very good.
+
+1281
+03:02:27.450 --> 03:02:32.940
+Capstone Coach 1: So the other thing that you can work with is the number of sub tron such are using in the network.
+
+1282
+03:02:34.320 --> 03:02:35.100
+Capstone Coach 1: and
+
+1283
+03:02:36.840 --> 03:02:44.430
+Capstone Coach 1: The type of activation and so forth, so your homework basically your homework, will be to get this looking better and.
+
+1284
+03:02:46.080 --> 03:03:05.370
+Capstone Coach 1: The find out what the key to that is right now, by the way, one of the keys is to use the logarithm of the price of the of the instead of the actual value so that you're working with smaller numbers than the larger, so this is actually a log scale on the left hand said log linear scale.
+
+1285
+03:03:07.530 --> 03:03:09.090
+Capstone Coach 1: Okay um.
+
+1286
+03:03:10.350 --> 03:03:16.230
+Capstone Coach 1: So we're done for tonight i'm going to see where are we here.
+
+1287
+03:03:18.360 --> 03:03:19.140
+Capstone Coach 1: that's that's great.
+
+1288
+03:03:41.970 --> 03:03:43.440
+Capstone Coach 1: Just like I lost my connection.
+
+1289
+03:03:48.180 --> 03:03:50.040
+Capstone Coach 1: With the week 11 folder.
+
+1290
+03:03:52.080 --> 03:03:53.280
+Capstone Coach 1: So i'm going to.
+
+1291
+03:04:43.050 --> 03:04:45.540
+Capstone Coach 1: looks like that's scribbled across the screen.
+
+1292
+03:05:00.510 --> 03:05:06.810
+Capstone Coach 1: This last program was just a little bit too complicated to just try to do it off of memory.
+
+1293
+03:05:25.980 --> 03:05:26.190
+Capstone Coach 1: Is.
+
+1294
+03:05:27.750 --> 03:05:29.610
+Capstone Coach 1: Your time series analysis.
+
+1295
+03:05:34.680 --> 03:05:35.460
+Capstone Coach 1: nlp.
+
+1296
+03:05:41.940 --> 03:05:42.360
+Capstone Coach 1: Very go.
+
+1297
+03:05:43.440 --> 03:05:48.180
+Capstone Coach 1: So it's now in the week 12 folder and you should see it right at the bottom right now.
+
+1298
+03:05:49.500 --> 03:05:50.580
+Capstone Coach 1: So if you could.
+
+1299
+03:05:52.500 --> 03:05:58.530
+Capstone Coach 1: Just download and if you're still with me download it open that up and and.
+
+1300
+03:06:08.850 --> 03:06:10.200
+Capstone Coach 1: yeah, this is it right here.
+
+1301
+03:06:11.430 --> 03:06:16.830
+Capstone Coach 1: So this is the one if I run it see what happens.
+
+1302
+03:06:24.630 --> 03:06:26.370
+Capstone Coach 1: Alright, so you can see how it's.
+
+1303
+03:06:28.110 --> 03:06:30.030
+Capstone Coach 1: kind of strange looking right here.
+
+1304
+03:06:34.110 --> 03:06:49.110
+Capstone Coach 1: What we can do is, we can change the number of perception, so the first layer from 20 let's drop it down to 10 and we'll make the instead of four maybe five i'll see if that helps us a little bit.
+
+1305
+03:06:54.180 --> 03:06:56.460
+Capstone Coach 1: nope pretty much same right.
+
+1306
+03:06:58.110 --> 03:06:59.070
+Capstone Coach 1: So.
+
+1307
+03:07:24.450 --> 03:07:24.660
+Capstone Coach 1: Okay.
+
+1308
+03:07:30.720 --> 03:07:36.930
+Capstone Coach 1: let's check the column sizes on X shape yep why that ship.
+
+1309
+03:07:40.050 --> 03:07:42.030
+Capstone Coach 1: Okay looks good.
+
+1310
+03:07:49.380 --> 03:07:51.150
+Capstone Coach 1: On that looks great.
+
+1311
+03:07:52.620 --> 03:07:53.250
+Capstone Coach 1: Instead of.
+
+1312
+03:07:59.940 --> 03:08:03.420
+Capstone Coach 1: wonder if we dropped size to say for now.
+
+1313
+03:08:04.470 --> 03:08:08.550
+Capstone Coach 1: I was using eight it's it's gotta be so let's try out.
+
+1314
+03:08:09.720 --> 03:08:10.260
+Capstone Coach 1: Oh yeah.
+
+1315
+03:08:11.550 --> 03:08:12.150
+Capstone Coach 1: That.
+
+1316
+03:08:13.920 --> 03:08:19.080
+Capstone Coach 1: So the actual size, the batch size, I dropped it down to four instead of eight.
+
+1317
+03:08:20.190 --> 03:08:34.740
+Capstone Coach 1: And you can see that the it actually increases right, the amount of calculations, is doing to converge get the network to converge and you can see, this turning out a little better, so if I go back then to the.
+
+1318
+03:08:37.170 --> 03:08:43.980
+Capstone Coach 1: The network here and make this a 20 instead of a 10.
+
+1319
+03:08:47.580 --> 03:08:49.020
+Capstone Coach 1: see what happens then.
+
+1320
+03:08:51.450 --> 03:08:53.280
+Capstone Coach 1: should get a better response.
+
+1321
+03:08:55.860 --> 03:08:57.510
+Capstone Coach 1: yeah little better.
+
+1322
+03:09:01.980 --> 03:09:07.410
+Capstone Coach 1: If I change the number of the box from 22 let's say 50.
+
+1323
+03:09:08.880 --> 03:09:09.540
+Capstone Coach 1: think that.
+
+1324
+03:09:10.920 --> 03:09:16.530
+Capstone Coach 1: should also improve the convergence of a of a neural network estimates and.
+
+1325
+03:09:17.880 --> 03:09:19.590
+Capstone Coach 1: So you see the loss is actually.
+
+1326
+03:09:19.680 --> 03:09:21.780
+Capstone Coach 1: getting a little bit smaller.
+
+1327
+03:09:23.430 --> 03:09:23.970
+Capstone Coach 1: There we go.
+
+1328
+03:09:25.170 --> 03:09:35.790
+Capstone Coach 1: And right now the square root of the loss is one which means that the forecasts or on average is a plus or minus.
+
+1329
+03:09:36.960 --> 03:09:49.890
+Capstone Coach 1: Two $2 off of the price which at you know $130 around the $33 it's not bad, this is better than the the arena, where we have 18.
+
+1330
+03:09:50.790 --> 03:10:04.440
+Capstone Coach 1: plus or minus four or five of the on the forecast so we're getting a better price basically better forecasts here that we did with the the remote to model and we looked at.
+
+1331
+03:10:06.090 --> 03:10:20.280
+Capstone Coach 1: Okay, so i'll leave it leave this with you, and you can try experiment with, I think, with some of the settings and see what happens when you change those settings and how sensitive this is like the number of preceptor on, so the type of.
+
+1332
+03:10:21.810 --> 03:10:33.780
+Capstone Coach 1: optimizer you're using right now, and that was done with using the atom and if I should go back to add a delta and change this to let's say a one instead of a tues lot to two different.
+
+1333
+03:10:35.850 --> 03:10:38.580
+Capstone Coach 1: you'll see forecast changes.
+
+1334
+03:10:42.390 --> 03:10:44.610
+Capstone Coach 1: The last system is still low.
+
+1335
+03:10:45.690 --> 03:10:46.320
+Capstone Coach 1: But.
+
+1336
+03:10:48.060 --> 03:10:57.300
+Capstone Coach 1: yeah it's just standard delta that this setting is doing Okay, but it's not doing as well as the Adam optimizer was.
+
+1337
+03:10:58.410 --> 03:11:03.690
+Capstone Coach 1: Okay well thanks for your patience and thanks for waiting around and.
+
+1338
+03:11:05.430 --> 03:11:13.110
+Capstone Coach 1: we'll be in touch on I was just basically post an optional homework for this week that's involves basically taking this.
+
+1339
+03:11:13.560 --> 03:11:26.370
+Capstone Coach 1: optimizer taking this code rather and finding the best settings to reduce the you get the best forecast and in the output, you see it says square ASC or the square root of ASC.
+
+1340
+03:11:27.060 --> 03:11:40.290
+Capstone Coach 1: What you want to do is to minimize these as much as you can, and you can do that by justin the optimizer you can adjust the activation from tension H to sigmoid or something like that.
+
+1341
+03:11:42.420 --> 03:11:43.020
+Capstone Coach 1: The.
+
+1342
+03:11:44.760 --> 03:11:45.390
+Capstone Coach 1: See.
+
+1343
+03:11:47.100 --> 03:11:53.100
+Capstone Coach 1: Also, the number of the box or the size here if there was just those a little bit you can get different results.
+
+1344
+03:11:55.200 --> 03:11:57.960
+Capstone Coach 1: That should do it okay we're good.
+
+1345
+03:11:58.980 --> 03:12:01.320
+Capstone Coach 1: All right, well thanks for thanks for your patience.
+
+1346
+03:12:01.770 --> 03:12:02.640
+Wilson Pineda: Thank you, Professor.
+
+1347
+03:12:04.590 --> 03:12:11.370
+Capstone Coach 1: you're gonna have a good weekend good luck on your capstone those of you that are still coming up, I know this one tomorrow.
+
+1348
+03:12:11.940 --> 03:12:12.960
+Capstone Coach 1: Thank you say that.
+
+1349
+03:12:13.080 --> 03:12:13.800
+Purkiss, David: By by.
+
+1350
+03:12:14.250 --> 03:12:15.810
+Wright, Beth: Dr Jones and I asked you.
+
+1351
+03:12:15.900 --> 03:12:17.700
+Purkiss, David: For help on an error.
+
+1352
+03:12:18.600 --> 03:12:20.310
+Capstone Coach 1: yeah sure this is a.
+
+1353
+03:12:20.610 --> 03:12:22.020
+Purkiss, David: David yeah.
+
+1354
+03:12:22.470 --> 03:12:30.930
+Purkiss, David: Sure, so i'm getting an error for my code it's like 93 as equals he history underscore difc.
+
+1355
+03:12:32.070 --> 03:12:35.400
+Purkiss, David: per nmc epochs minus one.
+
+1356
+03:12:36.180 --> 03:12:39.720
+Purkiss, David: Okay, no that's wrong say you say it's line number.
+
+1357
+03:12:39.810 --> 03:12:42.750
+Purkiss, David: 93 or for you it's 97.
+
+1358
+03:12:43.200 --> 03:12:43.890
+Capstone Coach 1: Oh okay.
+
+1359
+03:12:45.180 --> 03:12:46.770
+Capstone Coach 1: This guy right here.
+
+1360
+03:12:47.370 --> 03:12:49.710
+Capstone Coach 1: Yes, so what is the error saying.
+
+1361
+03:12:50.850 --> 03:12:54.750
+Purkiss, David: It just says he error.
+
+1362
+03:12:55.980 --> 03:12:56.670
+Purkiss, David: A.
+
+1363
+03:12:57.810 --> 03:12:59.220
+Purkiss, David: Quote msc Unquote.
+
+1364
+03:13:01.200 --> 03:13:07.560
+Capstone Coach 1: Okay up here up here we're on line number 89 there's, a thing that says metrics is equal to.
+
+1365
+03:13:08.730 --> 03:13:12.330
+Purkiss, David: Missing that okay model compile.
+
+1366
+03:13:13.260 --> 03:13:19.410
+Capstone Coach 1: A model mama compile let me highlight it right here and make it larger.
+
+1367
+03:13:19.770 --> 03:13:22.200
+Capstone Coach 1: Years she little better see that.
+
+1368
+03:13:22.950 --> 03:13:28.710
+Purkiss, David: optimizer equals op it comma metrics equals.
+
+1369
+03:13:30.300 --> 03:13:30.900
+Capstone Coach 1: MC.
+
+1370
+03:13:31.350 --> 03:13:32.250
+Purkiss, David: It looks right.
+
+1371
+03:13:34.200 --> 03:13:34.950
+Capstone Coach 1: You have that.
+
+1372
+03:13:35.340 --> 03:13:39.630
+Capstone Coach 1: Yes, and you got you got close open and close parenthesis here right.
+
+1373
+03:13:39.630 --> 03:13:41.730
+Purkiss, David: Yes, yep model.
+
+1374
+03:13:42.240 --> 03:13:42.750
+and
+
+1375
+03:13:44.100 --> 03:13:50.970
+Capstone Coach 1: And the optimizer result PT which which optimizer do you have turned on at a delta or Adam.
+
+1376
+03:13:51.060 --> 03:13:51.930
+Purkiss, David: I have Adam.
+
+1377
+03:13:52.650 --> 03:13:53.460
+Capstone Coach 1: that's okay.
+
+1378
+03:13:54.780 --> 03:14:06.450
+Capstone Coach 1: and your your thing there is what this is showing Adam right here, yes yeah something like that, and so the line that you're getting pinched on is right here.
+
+1379
+03:14:06.450 --> 03:14:07.980
+Purkiss, David: right there, yes.
+
+1380
+03:14:08.220 --> 03:14:08.670
+Capstone Coach 1: That one.
+
+1381
+03:14:09.330 --> 03:14:13.890
+Capstone Coach 1: Yes, okay check the two lines above that.
+
+1382
+03:14:14.460 --> 03:14:17.250
+Purkiss, David: Oh OK OK, I see one problem.
+
+1383
+03:14:17.850 --> 03:14:21.420
+Purkiss, David: And IDA does that say as see.
+
+1384
+03:14:22.230 --> 03:14:24.600
+Capstone Coach 1: Yes, right and here and here.
+
+1385
+03:14:25.140 --> 03:14:27.120
+Purkiss, David: Now the green.
+
+1386
+03:14:27.510 --> 03:14:30.570
+Capstone Coach 1: Or the Green is a the afc but.
+
+1387
+03:14:30.780 --> 03:14:33.780
+Capstone Coach 1: Knowledge, but it shouldn't be a problem, whatever version.
+
+1388
+03:14:33.780 --> 03:14:35.100
+Capstone Coach 1: there's going to get in front of it out.
+
+1389
+03:14:35.100 --> 03:14:36.210
+Purkiss, David: Right yeah.
+
+1390
+03:14:38.340 --> 03:14:41.430
+Purkiss, David: What the problem is is equals history underscore.
+
+1391
+03:14:42.180 --> 03:14:44.100
+Capstone Coach 1: Did you download that file and.
+
+1392
+03:14:46.740 --> 03:14:49.200
+Purkiss, David: Oh, I have the data yes and.
+
+1393
+03:14:49.440 --> 03:14:52.530
+Capstone Coach 1: No, no, no, not the data, the actual code I upload.
+
+1394
+03:14:52.530 --> 03:14:53.700
+Capstone Coach 1: Yes, code yeah.
+
+1395
+03:14:54.810 --> 03:14:58.560
+Purkiss, David: All the new one, no I didn't I didn't download i'll do that i'll.
+
+1396
+03:14:59.640 --> 03:15:02.460
+Capstone Coach 1: Probably probably something goofy like a missing comma.
+
+1397
+03:15:02.760 --> 03:15:04.740
+Purkiss, David: yeah i've got something in there.
+
+1398
+03:15:05.070 --> 03:15:08.010
+Capstone Coach 1: OK missing the comma, you can kill the whole thing.
+
+1399
+03:15:08.130 --> 03:15:12.990
+Purkiss, David: yeah it's either calm or okay i'll figure it out, thank you.
+
+1400
+03:15:13.230 --> 03:15:15.120
+Capstone Coach 1: Okay, David Thank you.
+
+1401
+03:15:15.720 --> 03:15:16.380
+Purkiss, David: You too bye.
+
+1402
+03:15:16.800 --> 03:15:17.250
+bye bye.
+
